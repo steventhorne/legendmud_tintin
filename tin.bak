@@ -1,0 +1,331 @@
+.ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*(\S+).*?rushes at(?!\syou\s)(?:\s(\w+))*(?:,\s.*?)? and attacks!$}}
+{
+	rush %2 %3
+}
+{4}
+
+.ACTION {PANIC! You couldn't escape!}
+{
+	flee
+}
+{5}
+
+.ACTION {You swiftly and cleanly kill the rabbit}
+{
+	sit circle;
+	ponder self;
+	st;
+	.map goto 1105
+}
+{5}
+
+.ACTION {^Press RETURN to continue.$}
+{
+	.delay {1} {.send}
+}
+{5}
+
+.ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
+{
+	.map move 2324
+}
+{5}
+
+.ACTION {{^([\w\-\']+)\s([\d\.]+\/[\d\.]+)\s([\w\'\.\/\,\-\s]+)$}}
+{
+	.variable character %2;
+	.if {"$editmap" == "true"}
+	{
+		.map set {roomarea} {%4}
+	}
+}
+{5}
+
+.ACTION {{^A stunted old druid draws it across your throat swiftly... you struggle, but....$}}
+{
+	.map goto 287
+}
+{5}
+
+.ACTION {{^Alas, you cannot go that way.$}}
+{
+	.if {"$editmap" == "true"}
+	{
+		.map undo
+	}
+}
+{5}
+
+.ACTION {{^An old village farmer begins to drone on, you think for a minute he might never stop}}
+{
+	.map goto 883
+}
+{5}
+
+.ACTION {{^Captain Frederick Selous waves at you and returns back to his camp.}}
+{
+	.map goto 884
+}
+{5}
+
+.ACTION {{^Grer opens the great brass door and leads you into Dvalin's forge.$}}
+{
+	.map goto 2324
+}
+{5}
+
+.ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
+{
+	%2
+}
+{5}
+
+.ACTION {{^Redbeard smiles and directs you where to dig for him.$}}
+{
+	.map goto 103;
+	st
+}
+{5}
+
+.ACTION {{^The ghost of a pirate says, 'Now ye can jine 'em!'$}}
+{
+	.map goto 441
+}
+{5}
+
+.ACTION {{^The swan-maiden, Gorbela says to you, 'Just hop on my back, you will be safe.'$}}
+{
+	.map goto 2298
+}
+{5}
+
+.ACTION {{^The swan-maiden, Gorbela says, 'Hold on! We are landing.'$}}
+{
+	.map goto 2300
+}
+{5}
+
+.ACTION {{^The swan-maiden, Gorbela says, 'It is the heart of the land of the Svart Alfs.'$}}
+{
+	.map goto 2299
+}
+{5}
+
+.ACTION {{^You feel quite a bit better.$}}
+{
+	report
+}
+{5}
+
+.ACTION {{^You get (\d+) gold coins from the corpse of (.*?).$}}
+{
+	.if {"%3" != "$character"}
+	{
+		split %2
+	}
+}
+{5}
+
+.ACTION {{^You go Out of Character.$}}
+{
+	.map get roomvnum oocvnum;
+	.map goto ooc
+}
+{5}
+
+.ACTION {{^You hear (.*?)'s death cry.$}}
+{
+	.buffer get xpcheck 1;
+	.if {"$xpcheck" == "\e[0;1;33m%*"}
+	{
+		get coin corpse
+	}
+}
+{5}
+
+.ACTION {{^You return to being In Character.$}}
+{
+	.map goto $oocvnum
+}
+{5}
+
+.ACTION {{and all of a sudden, you find yourself sitting on the floor.$}}
+{
+	stand
+}
+{5}
+
+.ACTION {{notices ([\S]+?)'s relative inexperience!}}
+{
+	rescue %2
+}
+{5}
+
+.ACTION {{puts an augmented cloth poultice on your wounds.$}}
+{
+	report
+}
+{5}
+
+.ACTION {~{\e\[0;1;37m<\e\[0;1;36m(\w+)(?:\e\[0;1;37m\:\e\[0;1;34m([^>]+))?\e\[0;1;37m> .*$}}
+{
+	.format curtime {%t} {%T};
+	.line log chat.txt {$curtime %1}
+}
+{5}
+
+.ACTION {~{\e\[0;33m.*? tell[s]? the group, '.*?$}}
+{
+	.format curtime {%t} {%T};
+	.line log chat.txt {$curtime %1}
+}
+{5}
+
+.ACTION {~{^(?:\e\[0;1;37m)?\e\[0;1;32m(.*?)\e\[0;32m$}}
+{
+	.if {"$editmap" == "true"}
+	{
+		.variable roomname {%2};
+		.variable roomdesc {};
+		.action {{^(?!\[Exits:.*)(.*)$}}{.if {"$roomdesc" == ""}{.var roomdesc {%%2};}{.var roomdesc {$roomdesc\n%%2};};};
+		.action {{^\[Exits:.*$}} {.map set roomname $roomname;.map set roomdesc $roomdesc;.unact {{^(?!\[Exits:.*)(.*)$}};.unact {{^\[Exits:.*$}};}
+	}
+}
+{5}
+
+.ALIAS {dismap}
+{
+	.line verbose .unvar editmap;
+	.line verbose .map flag static on
+}
+{5}
+
+.ALIAS {enmap}
+{
+	.line verbose .var editmap true;
+	.line verbose .map flag static off
+}
+{5}
+
+.ALIAS {rname}
+{
+	.map set roomnote
+}
+{5}
+
+.ALIAS {savetin}
+{
+	.line verbose .write tin;
+	.line verbose .map write map
+}
+{5}
+
+.ALIAS {search %*}
+{
+	.line verbose .map list {roomnote} {%1} {roomflag} {show}
+}
+{5}
+
+.ALIAS {walk %1}
+{
+	.map find {} {roomnote} {%1};
+	.path run 0.25
+}
+{5}
+
+.CONFIG           {256 COLORS}  {ON}
+.CONFIG           {AUTO TAB}  {5000}
+.CONFIG           {BUFFER SIZE}  {20000}
+.CONFIG           {CHARSET}  {ASCII}
+.CONFIG           {COLOR PATCH}  {OFF}
+.CONFIG           {COMMAND COLOR}  {<078>}
+.CONFIG           {COMMAND ECHO}  {OFF}
+.CONFIG           {CONNECT RETRY}  {0}
+.CONFIG           {CONVERT META}  {OFF}
+.CONFIG           {HISTORY SIZE}  {1000}
+.CONFIG           {LOG}  {RAW}
+.CONFIG           {PACKET PATCH}  {0.00}
+.CONFIG           {REPEAT CHAR}  {!}
+.CONFIG           {REPEAT ENTER}  {ON}
+.CONFIG           {SCROLL LOCK}  {ON}
+.CONFIG           {SPEEDWALK}  {ON}
+.CONFIG           {TINTIN CHAR}  {.}
+.CONFIG           {VERBATIM}  {OFF}
+.CONFIG           {VERBATIM CHAR}  {\}
+.CONFIG           {VERBOSE}  {OFF}
+.CONFIG           {WORDWRAP}  {ON}
+.EVENT {DAY}
+{
+	.format date %t %F;
+	.log APPEND {logs/log_$date\.txt}
+}
+
+.EVENT {MAP ENTER ROOM}
+{
+	.read map/map_size.tin;
+	.map map ${MAP_ROWS}x${MAP_LINES} map/map.txt
+}
+
+.EVENT {PROGRAM START}
+{
+	.read config;
+	.session legendmud mud.legendmud.org 9999
+}
+
+.EVENT {SESSION CONNECTED}
+{
+	.showme {CONNECTED: %0};
+	.regexp {%0} {^legendmud$} {.send $loginname\n$loginpassword;.split 0 2;.map read map/legendmud.map;.map return;.format date %t %F;.log APPEND {logs/log_$date\.txt}};
+	.unvariable loginname;
+	.unvariable loginpassword;
+	.else
+	{
+		0
+	}
+}
+
+.MACRO {\eOP}
+{
+	.help
+}
+
+.MACRO {\eOQ}
+{
+	who
+}
+
+.MACRO {\eOR}
+{
+	group
+}
+
+.MACRO {\eOS}
+{
+	stat
+}
+
+.PATHDIR          {d}  {u}  {32}
+.PATHDIR          {e}  {w}  {2}
+.PATHDIR          {n}  {s}  {1}
+.PATHDIR          {ne}  {sw}  {3}
+.PATHDIR          {nw}  {se}  {9}
+.PATHDIR          {s}  {n}  {4}
+.PATHDIR          {se}  {nw}  {6}
+.PATHDIR          {sw}  {ne}  {12}
+.PATHDIR          {u}  {d}  {16}
+.PATHDIR          {w}  {e}  {8}
+.PROMPT           {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}                                                                                                                                    {<099>%2  %3  %4}  {1}
+.PROMPT           {~{(\e\[[\;\d]{4,6}m[?\d\s]+\:[?\d]+\s[ap]m)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\-\d]+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\w+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}Leader:(\e\[[\;\d]{4,6}m[\w\-\']+)\e\[[\;\d]{4,6}m}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {%2  %3  %4  %5  %6  %7  %8  %9  %10}            {2}
+.TICKER           {idle}  {.send}  {300}
+.VARIABLE         {MAP_LINES}  {22}
+.VARIABLE         {MAP_ROWS}  {81}
+.VARIABLE         {character}  {Vell}
+.VARIABLE         {curtime}  {19:35:18}
+.VARIABLE         {date}  {2019-01-25}
+.VARIABLE         {name}  {any maps and would probably be the perfect spot to bury treasure.}
+.VARIABLE         {oocvnum}  {1}
+.VARIABLE         {room}  {$variable returned from .map list {roomnote} {jb}}
+.VARIABLE         {roomdesc}  {The mouth of the cave to the south opens up into a giant chamber oddly free\nof any stone objects hanging from the ceiling or growing from the floor. Each\ndirection is blocked by a large wooden door.}
+.VARIABLE         {roomname}  {A Blocked Cavern}
+.VARIABLE         {roomnote}  {0}
+.VARIABLE         {xpcheck}  {A blood-thirsty pirate returns to his senses.}

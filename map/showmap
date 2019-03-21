@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+MAP_FILE='map.txt'
+MAP_SIZE='map_size.tin'
+REFRESH_RATE=.1
+
+while [ "true"  ]; do
+    echo \.var MAP_ROWS $(tput cols)\; > $MAP_SIZE
+    echo \.var MAP_LINES $(tput lines)\; >> $MAP_SIZE
+    clear
+    cat $MAP_FILE
+    sleep $REFRESH_RATE
+done

@@ -1,0 +1,54 @@
+.ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*(\S+).*?rushes at(?!\syou\s)(?:\s([\w'\.\-]+))*(?:,\s.*?)? and attacks!$}}
+{
+	rush %2 %3
+}
+{4}
+
+.ACTION {PANIC! You couldn't escape!}
+{
+	flee
+}
+{5}
+
+.ACTION {{^You feel quite a bit better.$}}
+{
+	report
+}
+{5}
+
+.ACTION {{^You get (\d+) gold coins from the corpse of (.*?).$}}
+{
+	.if {"%3" != "$character"}
+	{
+		split %2
+	}
+}
+{5}
+
+.ACTION {{^You hear (.*?)'s death cry.$}}
+{
+	.buffer get xpcheck 1;
+	.if {"$xpcheck" == "\e[0;1;33m%*"}
+	{
+		get coin corpse
+	}
+}
+{5}
+
+.ACTION {{and all of a sudden, you find yourself sitting on the floor.$}}
+{
+	stand
+}
+{5}
+
+.ACTION {{puts an augmented cloth poultice on your wounds.$}}
+{
+	report
+}
+{5}
+
+.ACTION {{digs into your flesh!$}}
+{
+    report
+}
+{5}

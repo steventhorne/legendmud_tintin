@@ -1,0 +1,46 @@
+.ALIAS {dismap}
+{
+	.line verbose .unvar editmap;
+	.line verbose .map flag static on
+}
+{5}
+
+.ALIAS {enmap}
+{
+	.line verbose .var editmap true;
+	.line verbose .map flag static off
+}
+{5}
+
+.ALIAS {rname}
+{
+	.map set roomnote
+}
+{5}
+
+.ALIAS {savemap}
+{
+	.line verbose .map write map/legendmud.map
+}
+{5}
+
+.ALIAS {search %*}
+{
+    .unvar search_list;
+	.line verbose .map list {roomnote} {%1} {roomflag} {show} {variable} {search_list};
+    .foreach {$search_list} {item} {.map goto $item;.break;};
+}
+{5}
+
+.ALIAS {walk %1}
+{
+	.map find {} {roomnote} {%1};
+	.path run 0.1
+}
+{5}
+
+.ALIAS {door %1}
+{
+    .map exit %1 command {open %1;%1};
+}
+{5}
