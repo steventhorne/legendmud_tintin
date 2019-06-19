@@ -1,3 +1,21 @@
+.ACTION {{^You follow (.*)\.$}}
+{
+    .var follow_char {%2};
+    .buffer get {follow_check} 1 10;
+    .foreach {$follow_check[%*]} {line}
+    {
+        .regex {$line} {{(?i)^(.*) leaves (.).*?\.$}}
+        {
+            .if {"&2" == "%i$follow_char"}
+            {
+                .map move &3;
+                .break;
+            }
+        }
+    };
+}
+{5}
+
 .ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
 {
 	.map move 2324
@@ -34,19 +52,6 @@
 .ACTION {{^Grer opens the great brass door and leads you into Dvalin's forge.$}}
 {
 	.map goto 2324
-}
-{5}
-
-.ACTION {{^Redbeard smiles and directs you where to dig for him.$}}
-{
-	.map goto 103;
-	st
-}
-{5}
-
-.ACTION {{^The ghost of a pirate says, 'Now ye can jine 'em!'$}}
-{
-	.map goto 441
 }
 {5}
 
@@ -150,11 +155,11 @@
 .ACTION {{^You have been betrayed, my friend. The medallion is deadly to mortals. I wish I could have prevented this but it is not within my right to interfere on your behalf. Sleep well, the eternal sleep.$}}
 {
     .map goto 2712;
+    .send stand;
 }
 {5}
 
-.ACTION {{^Soon, the welcome sight of Ithaca greets your eyes. The sailors bid you a hearty farewell and return to  │  Moving to /home/pi/.local/lib/python3.5/site-packages/aiohttp/web_fileresponse.py
-their land.$}}
+.ACTION {{^Soon, the welcome sight of Ithaca greets your eyes. The sailors bid you a hearty farewell and return to their land.$}}
 {
     .map goto 1824
 }
@@ -169,5 +174,11 @@ their land.$}}
     {
         .BUFFER {get} {buffer_get} {$cnt};
     }
+}
+{5}
+
+.ACTION {{^You have now opened up a spacious hole large enough to stand in. Perhaps if you opened the tunnel up a little wider, you would be rewarded for your efforts.$}}
+{
+    .MAP goto 6003;
 }
 {5}

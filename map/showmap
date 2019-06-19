@@ -2,7 +2,7 @@
 
 MAP_FILE='map.txt'
 MAP_SIZE='map_size.tin'
-REFRESH_RATE=.1
+REFRESH_RATE=.2
 
 while [ "true"  ]; do
     echo \.var MAP_ROWS $(tput cols)\; > $MAP_SIZE
