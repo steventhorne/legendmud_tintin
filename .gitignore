@@ -1,3 +1,6 @@
-logs
+# ignore unzipped logfiles
+logs/*
+!logs/*.zip
+
 chat.txt
 map/map.txt
