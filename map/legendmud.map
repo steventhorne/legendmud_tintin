@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 285
+I 1158
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -28,7 +28,7 @@ E {    4} {e} {open e;e} {2} {0} {}
 E {    5} {w} {w} {8} {0} {}
 E { 5634} {n} {n} {1} {0} {}
 
-R {    4} {0} {} {The Outfitters'} { } {A large well-lit room greets your eyes, with racks and racks of explorer's\nequipment. A large sign proclaims, 'By Appointment Providers to the Royal\nGeographic Society.' Shelves of books line one wall, filled with all the\ninformation one might need to plan a safari or wilderness expedition. The\ngaslight remains on all the time in this building, as its cavernous reaches\ninvite shadows.} {London Port } {} {} {} {1.000}
+R {    4} {0} {<149>} {The Outfitters'} {V} {A large well-lit room greets your eyes, with racks and racks of explorer's\nequipment. A large sign proclaims, 'By Appointment Providers to the Royal\nGeographic Society.' Shelves of books line one wall, filled with all the\ninformation one might need to plan a safari or wilderness expedition. The\ngaslight remains on all the time in this building, as its cavernous reaches\ninvite shadows.} {London Port } {} {} {} {1.000}
 E {    3} {w} {open w;w} {8} {0} {}
 
 R {    5} {0} {} {St. Stephen's Street and Parker Lane} { } {Here venerable old St. Stephen's Street meets the newer Parker Lane, which\nleads north into London Town. St. Stephen's Church sits on the corner to the\nnorth-east. The few lampposts around must provide hardly any illumination at\nnight, and they seem to exist only right around here, the nice part of the\ndistrict. The street continues east and west. The smell of the sea is strong.} {London Port } {} {} {} {1.000}
@@ -55,7 +55,7 @@ E {    8} {n} {n} {1} {0} {}
 E {   10} {e} {open e;e} {2} {0} {}
 E {   12} {s} {s} {4} {0} {}
 
-R {   10} {0} {} {Inside Sad John's} { } {This looks like a rough-and-tumble sort of place, and you don't think the\npatrons adhere to the Marquis of Queensbury's rules. Trestle tables carved up\nwith women's names and dates and initials, feeble gaslights barely managing to\nbrighten the room, the looks you get when you walk in--all seem to indicate\nthat maybe this is the sort of place where death is a more common thing at the\ntable than warm ale. And they sell a LOT of warm ale.} {London Port } {sad} {} {} {1.000}
+R {   10} {0} {<149>} {Inside Sad John's} {V} {This looks like a rough-and-tumble sort of place, and you don't think the\npatrons adhere to the Marquis of Queensbury's rules. Trestle tables carved up\nwith women's names and dates and initials, feeble gaslights barely managing to\nbrighten the room, the looks you get when you walk in--all seem to indicate\nthat maybe this is the sort of place where death is a more common thing at the\ntable than warm ale. And they sell a LOT of warm ale.} {London Port } {sad} {} {} {1.000}
 E {    9} {w} {open w;w} {8} {0} {}
 E {   11} {s} {open s;s} {4} {0} {}
 
@@ -156,7 +156,7 @@ E {   40} {n} {n} {1} {0} {}
 R {   35} {0} {} {Inside a Comfortable Townhouse} { } {You entered a cozy house filled with expensive victorian-styled furniture. The\nowner of the house seems to be a wealthy and educated person as you can tell\nfrom reading cover of the many books of the library, covering various themes\nsuch as history, sociology and psychology.} {London Port } {} {} {} {1.000}
 E {   40} {s} {open s;s} {4} {0} {}
 
-R {   36} {0} {} {The Postal Office} { } {One whole wall of this branch of the Royal Post is taken up with handbills.\nBluestocking meetings, rewards for criminals, announcements of speeches on odd\nscientific discoveries... it's all there. Countless people have added their\nown messages to the handbills as well. The building remains open at all hours,\nthough it is only manned at certain times\; a thick metal grating, ornamented\nwith florid cherubs, provides a place for the official to sit during his on-\nduty hours. A mail slot allows you to get and send mail whether or not he is\nhere to help.} {London Port } {} {} {} {1.000}
+R {   36} {0} {<149>} {The Postal Office} {P} {One whole wall of this branch of the Royal Post is taken up with handbills.\nBluestocking meetings, rewards for criminals, announcements of speeches on odd\nscientific discoveries... it's all there. Countless people have added their\nown messages to the handbills as well. The building remains open at all hours,\nthough it is only manned at certain times\; a thick metal grating, ornamented\nwith florid cherubs, provides a place for the official to sit during his on-\nduty hours. A mail slot allows you to get and send mail whether or not he is\nhere to help.} {London Port } {} {} {} {1.000}
 E {    2} {w} {w} {8} {0} {}
 
 R {   37} {0} {} {Harbor Row} { } {South of you spreads out the magnificent sight of the Port of London's ample\nbay--framed by the tall sides of the warehouses and buildings that line the\ndocks. Harbor Row threads its way between the brick edifices, leading north\nand south. There are no storefronts here\; the wall to your east is instead\ncovered with a huge painting of the East India Company's trademark. The wall\non the other side is unadorned, unless you count what seem to be occasional\nsplotches of dried blood and bricks chipped from stray rifle balls.} {London Port } {} {} {} {1.000}
@@ -196,7 +196,7 @@ E {   38} {e} {e} {2} {0} {}
 E {   45} {n} {n} {1} {0} {}
 E {  104} {s} {s} {4} {0} {}
 
-R {   45} {0} {} {The Harbormaster's Office} { } {Spare and businesslike, this office has a counter made of heavy dark wood, a\nrough bench lining one wall, and a huge chart on the back wall, listing\narrivals and departures. A harried official sits behind the counter, waiting\nfor spotters to relay messages to him so he can announce them to the many\nwaiting sailors, merchants, and uneasy and hopeful wives that all eagerly\nawait news of clippers, frigates, and perhaps even that new contraption, the\nsteam powered ship.} {London Port } {} {} {} {1.000}
+R {   45} {0} {<149>} {The Harbormaster's Office} {V} {Spare and businesslike, this office has a counter made of heavy dark wood, a\nrough bench lining one wall, and a huge chart on the back wall, listing\narrivals and departures. A harried official sits behind the counter, waiting\nfor spotters to relay messages to him so he can announce them to the many\nwaiting sailors, merchants, and uneasy and hopeful wives that all eagerly\nawait news of clippers, frigates, and perhaps even that new contraption, the\nsteam powered ship.} {London Port } {} {} {} {1.000}
 E {   44} {s} {s} {4} {0} {}
 
 R {   46} {0} {} {Berth 2: The Africa Wharf} { } {Your vessel is gently jostled by the waves underneath you as you sit here in\nthe wharf for ships making the voyage between here and the Dark Continent. It\nseems to you that you can already hear the beat of tribal drums.} {London Port } {} {} {} {1.000}
@@ -1121,6 +1121,7 @@ E {  265} {e} {e} {2} {0} {}
 E { 6048} {w} {w} {8} {0} {}
 E { 1028} {s} {s} {4} {0} {}
 E { 5456} {n} {n} {1} {0} {}
+E { 6093} {u} {u} {16} {0} {}
 
 R {  267} {0} {} {The Market} { } {For centuries, a market has stood here at the foot of the gate. Many of\nthe booths are permanent fixtures and have been run by several generations\nof craftsmen. However, despite its advanced age, the Newgate Market is\na lively place, resounding with the voices of those who would wish to\nbuy, and those who sell. You should be advised, however, for the market\nbustle obscures the silent footsteps of those who would relieve you of\nyour purse...} {Tudor England } {} {} {} {1.000}
 E { 6048} {e} {e} {2} {0} {}
@@ -1285,7 +1286,7 @@ E {  305} {s} {s} {4} {0} {}
 E {  306} {e} {e} {2} {0} {}
 E {  313} {n} {n} {1} {0} {}
 
-R {  305} {0} {<029>} {The Salutation Inn} {I} {This little inn caters to locals only. Some of the more unsavory characters,\nsuch as those that frequent the tavern on Gilbert Way, are among the regulars\nhere. Outsiders are charged three times the going rate for a room as insurance\nthat the innkeeper gets his money. Outsiders have a way of dying before they\ncan pay their full week's rent and are not welcome here.} {Medieval Britain } {salut} {} {} {1.000}
+R {  305} {0} {<149>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters,\nsuch as those that frequent the tavern on Gilbert Way, are among the regulars\nhere. Outsiders are charged three times the going rate for a room as insurance\nthat the innkeeper gets his money. Outsiders have a way of dying before they\ncan pay their full week's rent and are not welcome here.} {Medieval Britain } {salut} {} {} {1.000}
 E {  304} {n} {n} {1} {0} {}
 
 R {  306} {0} {<169>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been\nerected here. Executions are held and well-attended for common thieves and bold\npoachers. Special festivities are held when a suspected member of the outlaw\nband is captured. Watling Road continues east to the Castle and west to the\ngates. Gilbert Lane runs in a north-south direction here crossing the square.} {Medieval Britain } {} {} {} {1.000}
@@ -4326,11 +4327,13 @@ E {  266} {n} {n} {1} {0} {}
 
 R { 1029} {0} {} {Gracious Street} { } {Although the name of this street is gracious, the odors which drift\nup from its cobblestones are less so. Since the household wastes and\nlitter which are customarily thrown from the windows above overflow the\ngutters, it would behoove you to watch your step carefully. To the south\nand downwards, London Bridge rises upwards.} {Tudor England } {} {} {} {1.000}
 E {  265} {n} {n} {1} {0} {}
-E { 1030} {s} {s} {4} {0} {}
+E { 6107} {s} {s} {4} {0} {}
 
 R { 1030} {0} {} {London Bridge} { } {This bridge is actually one of many bridges built on this site\; the\ncurrent stone bridge replaces a wooden one that had to be demolished some\nhundred years ago. Its narrow road is lined by densely packed houses\nand shops. Since you cannot see the river, it is difficult to tell\nthat you are on a bridge rather than simply a city street. To the east,\nyou notice a printers shop.} {Tudor England } {} {} {} {1.000}
-E { 1029} {n} {n;stand} {1} {0} {}
+E { 6107} {n} {n;stand} {1} {0} {}
 E { 1031} {s} {s} {4} {0} {}
+E { 6102} {w} {open w;w} {8} {0} {}
+E { 6109} {e} {open e;e} {2} {0} {}
 
 R { 1031} {0} {} {London Bridge} { } {Ambling along the bridge, you marvel at the daring of the inhabitants\nwho live here. You doubt that a bridge could be an overly safe place\nduring times of war since it presents an obvious target to those who\nwould besiege London\; the large gate at the south end seems scarcely\nheavy enough to keep out local thieves, let alone an army of Spanish\nsoldiers. As you muse on these grave thoughts, the colorful striped pole\nof a barber-surgeon attracts your eye. You also notice a narrow stair\nwhich leads downward.} {Tudor England } {} {} {} {1.000}
 E { 1030} {n} {n} {1} {0} {}
@@ -4357,7 +4360,7 @@ E { 1036} {w} {w} {8} {0} {}
 
 R { 1036} {0} {} {A Landing} { } {This is one of the many landings from which the Royal Barge sets sail. Because\nof the tides, the barge can only be used at particular times, which are\ndifficult to predict beforehand. The Privy Stairs extend up the bank above\nyou, leading up to Whitehall, the Queen's residence at Westminster.} {Tudor England } {} {} {} {1.000}
 E { 1035} {e} {e} {2} {0} {}
-E { 2103} {u} {u} {16} {0} {}
+E { 2103} {u} {u} {16} {1} {}
 E { 5630} {d} {d} {32} {0} {}
 
 R { 1037} {0} {} {A Barber Surgeon's Office} { } {The light which shines dimly through the thick glass window reflects off the\ncarefully polished surgical instruments which hang on the walls of this room.\nGazing on their carefully sharpened edges, you are grateful that you have no\nmajor complaints to carry to the surgeon on this visit. In the corner, a jar\nof leeches stands ready for one of the many bleeding treatments which the\nbarber surgeon is called on to perform.} {Tudor England } {} {} {} {1.000}
@@ -4403,14 +4406,17 @@ E { 1047} {w} {w} {8} {0} {}
 
 R { 1047} {0} {} {Before the Globe Theatre} { } {The Globe rises up before you, looking almost like a wide roll of parchment,\nor an egg. Its high, plastered walls are half crowned by a thatch of straw, on\ntop of which perches a cannon. Although the Globe looks round from a distance,\nit is actually octagonal, the timber of its walls too weak to be curved.\nOriginally built north of the river in London, it was dismantled and rebuilt\non this site less than ten years ago. Although several other theatres have\nfollowed the Globe across the river, it still draws massive crowds for its\nsundry comedies and dramas performed by the Chamberlain's Men.} {Tudor England } {} {} {} {1.000}
 E { 1046} {e} {e} {2} {0} {}
-E { 1049} {n} {open n;n} {1} {0} {}
+E { 1048} {n} {open n;n} {1} {1} {}
 
 R { 1048} {0} {} {Entrance Way} { } {The entrance way is badly lit, and the timbers of its walls are rough and\nrudely hewn. The floor is littered with bit of straw, mud, and other matter\ntracked in by the Globe's audiences. A doorway to the right leads to the\nstairs that climb up to the galleries. One may also view performances from the\ncourtyard, through a doorway on the left.} {Tudor England } {} {} {} {1.000}
-E { 1049} {s} {open s;s} {4} {0} {}
+E { 1047} {s} {open s;s} {4} {1} {}
+E { 1049} {w} {w} {8} {0} {}
+E { 6118} {u} {u} {16} {1} {}
 
-R { 1049} {10} {} {} { } {} {} {} {} {} {1.000}
-E { 1047} {s} {s} {4} {0} {}
-E { 1048} {n} {n} {1} {0} {}
+R { 1049} {0} {} {The Courtyard} { } {The cheapest seats are here, in the courtyard, where one must stand rather\nthan sit. Uncovered by a roof, the audience must bide the weather, both fair\nand foul. Surrounded by the galleries, the courtyard forms a half circle, with\nthe stage at its center. Rising some seven feet upwards, higher than the heads\nof most men, the stage is in ready view of the entire courtyard, though some\nposts may be better than others. From this part of the courtyard, you can best\nsee the right hand of the stage\; the courtyard continues its curve to the\nleft. A doorway on the wall behind you leads to the galleries and exit.} {Tudor England } {} {} {} {1.000}
+E { 1048} {e} {e} {2} {0} {}
+E { 6110} {s} {s} {4} {0} {}
+E { 6113} {u} {u} {16} {0} {}
 
 R { 1050} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1045} {u} {u} {16} {0} {}
@@ -4895,7 +4901,6 @@ E { 1158} {d} {d} {32} {0} {}
 E { 3668} {w} {w} {8} {0} {}
 
 R { 1158} {0} {} {Before a Silver Door} { } {You stand in front of a huge silver door covered with emerald and ruby chips\ntracing set in the mouth of what must be a cave. It looks extra-ordinarily\nheavy and difficult to move. You hear music and revelry coming from through\nthe door. The flashes of light coming from beneath the door light up the air\naround you. In the flashes you notice that there is nothing but stars filling\nan indigo sky and this huge door.} {} {} {} {} {1.000}
-E { 1157} {u} {u} {16} {0} {}
 E { 1159} {e} {open e;e} {2} {0} {}
 
 R { 1159} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of\nUnderhill. The light is like that of the sun poised between day and night. The\nelongated shadows stripe the landscape. The color bleeds out of your vision\nleaving the panorama one of varying shades of grey.} {} {} {} {} {1.000}
@@ -8252,6 +8257,7 @@ E { 1958} {e} {e} {2} {0} {}
 R { 1958} {0} {} {On the South Seas} { } {East of you a rocky arm off an island blocks your way. You can see over it in\nplaces, and the tranquil bay makes you think of home, a place where you didn't\nhave to worry about things like tai-fung, the monster winds. All around you\nlies the lovely but treacherous South Pacific, a place that is a hiding place\nfor renegade Chinese pirates, a place famed for its way of taking men and\nmaking them into shades, shadows of themselves, or worse yet, legends.} {South Seas } {} {} {} {1.000}
 E { 1957} {w} {w} {8} {0} {}
 E { 1959} {s} {s} {4} {0} {}
+E { 6158} {n} {n} {1} {0} {}
 
 R { 1959} {0} {} {On the South Seas} { } {Surrounded by water unfit for drinking, a sudden longing for the safe shores\nof Europe hits you. Even Macao or Bengal would be a welcome sight right now,\nso far are you from home. You think you sight a large island--Borneo perhaps?-\n-far to the east.} {South Seas } {} {} {} {1.000}
 E { 1958} {n} {n} {1} {0} {}
@@ -8480,6 +8486,7 @@ E { 2010} {w} {open w;w} {8} {0} {}
 
 R { 2012} {0} {} {The Mouth of a Small Cave} { } {Hewn into the side of the hill, you happen to spot the entrance of a small\ncave. It may have been naturally formed at one point but has since been\nnotably enlarged. Still, the cave is not very large and you will have to\ncrouch if you wish to enter it. But then again, do you want to enter?} {The Philippines } {} {} {} {1.000}
 E { 2010} {s} {s} {4} {0} {}
+E { 6135} {e} {e} {2} {0} {}
 
 R { 2013} {0} {} {In Pangasinan and the Ilocano Provinces} { } {Located along the broad Lingayen Gulf is the province of Pangasinan whose\nname means 'Land of Salt'. As such, it is well known for its sea salt\nproduction as well as for its bountiful fishing. Within the gulf you can\nsee the Hundred Islands: dozens of small umbrella shaped islands dotting the\nseascape. Northward the road continues into Ilocano lands while southward is\nthe crossroads at Tarlac.} {The Philippines } {} {} {} {1.000}
 E { 1988} {s} {s} {4} {0} {}
@@ -8840,7 +8847,7 @@ R { 2102} {0} {} {The Treasury} { } {This small pocket is where the outlaw band 
 E { 2101} {s} {s} {4} {0} {}
 
 R { 2103} {0} {} {The Privy Stairs} { } {The stairs at the bottom are slick with river mud from high tides, and you\ncling tightly to the guard rail provided for the safety of the Monarch. Even\nso, you nearly fall twice, and the hem of your cloak is encrusted with mud by\nthe time that you have successfully traversed the stairs.} {Tudor England } {} {} {} {1.000}
-E { 1036} {d} {d} {32} {0} {}
+E { 1036} {d} {d} {32} {1} {}
 E { 2104} {u} {u} {16} {0} {}
 
 R { 2104} {0} {} {Before the Back Door} { } {The back of what appears to be a magnificent palace rises before you. A small\npath leads you to a small, insignificant-looking door, while a path curves\naround the edge of the building. The ground is hard trodden by countless\nfootsteps.} {Tudor England } {} {} {} {1.000}
@@ -11144,11 +11151,11 @@ E { 1121} {w} {w} {8} {0} {}
 
 R { 2657} {0} {} {On the Beach} { } {To the west spreads out the Oceanus Hivernicus, and across it in the distance\nlies the land of the Hivernians, a people much taken with Druidism and magic,\nyou've heard told. The beach is mostly gravel, not sand, and you can see the\nplaces where boats have been dragged into the water. It gets rocky and\nunpassable to the south, but you can walk along the coast a ways to the north.} {Roman Britain } {} {} {} {1.000}
 E { 1938} {w} {w} {8} {0} {}
-E { 2658} {e} {e} {2} {0} {}
+E { 6165} {e} {e} {2} {0} {}
 E { 2659} {n} {n} {1} {0} {}
 
 R { 2658} {0} {} {A Path to the Beach} { } {The muddy road here leads directly to a beach, and as it does so the mud turns\nmore and more into a rough, wet sand. You can see the beach to the west of\nyou, and you can hear the sloshing of the cold north Oceanus Hivernicus.} {Roman Britain } {} {} {} {1.000}
-E { 2657} {w} {w} {8} {0} {}
+E { 6165} {w} {w} {8} {0} {}
 E { 2660} {n} {open n;n} {1} {0} {}
 E { 2661} {e} {e} {2} {0} {}
 
@@ -12718,6 +12725,7 @@ E { 5698} {e} {e} {2} {0} {}
 R { 3033} {0} {} {Strolling On the Docks of Valletta} { } {Sails crackle briskly on the gusts of wind coming in from the open sea beyond\nthe Grand Harbor's fortifications, around the wavebreakers, the piers, and the\nforts. Woodwork gives with angry snaps, low moans and long high-pitched sighs.\nAs they lie there, gently bobbing on the lapping blue waves, the sail-clad\nships and galleys do bear some odd resemblance to village women gathering\naround the well to gossip\; but if so, these ladies talk of war oft bloody and\nbrutal, of conquest and loot, and of good men lost to the storms of the Levant\nand to the Infidel.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3032} {n} {n} {1} {0} {}
 E { 3034} {s} {s} {4} {0} {}
+E { 6139} {w} {w} {8} {0} {}
 
 R { 3034} {0} {} {Fuq il-Ggant} { } {A large statue of Neptune stands here overlooking the Fish Market. Popularly\ncalled Fuq il-Ggant, the chief market square of Valletta bustles with life.\nPeople come and go, some strolling casually, others running at a brisk pace.\nThis is the big city at its most breathing, throbbing, alive, smelly,\nbeautiful, multicolored, and Mediterranean. Vendors tug at your sleeves,\nchildren skip in and out of your path, a stray dog makes off with a treat\nbehind a goodwife's back. Languages swirl through the air -- mostly Maltese,\nbut Italian and French are easily identified as well.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3033} {n} {n} {1} {0} {}
@@ -12823,7 +12831,7 @@ E { 3057} {s} {open s;s} {4} {0} {}
 E { 4778} {w} {open w;w} {8} {0} {}
 E { 4780} {e} {e} {2} {0} {}
 
-R { 3057} {0} {} {A Gardener's Cottage} { } {This small cottage is pleasant, bright, and tidy. You do notice that shelves\nand chairs are lower than usual, indicating that the owner may be slight of\nstature. Through the doorway out to the back yard you see many trees, plants,\nand saplings growing happily.} {The Inferno } {cosimo} {} {} {1.000}
+R { 3057} {0} {<149>} {A Gardener's Cottage} {H} {This small cottage is pleasant, bright, and tidy. You do notice that shelves\nand chairs are lower than usual, indicating that the owner may be slight of\nstature. Through the doorway out to the back yard you see many trees, plants,\nand saplings growing happily.} {The Inferno } {cosimo} {} {} {1.000}
 E { 3056} {n} {open n;n} {1} {0} {}
 
 R { 3058} {0} {} {Among Tuscan Hills} { } {The gentle hills, dotted by fields and patches of low, dense forest, surround\nyou on all sides. Below lies the town with its crystal lake. You step\ncarefully, as some puddles on the ground appear to be rather hot, boiling and\nblurping quietly.} {The Inferno } {} {} {} {1.000}
@@ -18118,6 +18126,7 @@ E { 4336} {w} {w} {8} {0} {}
 R { 4338} {0} {} {The Road to the Prynne Farm} { } {A poorly made fence can be seen to the east surrounding a house and barn,\nyet not offering much protection. Songs of the seagulls on the beach grow\nlouder as you walk closer to the farm, interrupted only by the waves\ncrashing against the land.} {Boston, Mass. } {} {} {} {1.000}
 E { 4293} {w} {w} {8} {0} {}
 E { 4340} {s} {s} {4} {0} {}
+E { 6128} {e} {e} {2} {0} {}
 
 R { 4339} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 4292} {s} {s} {4} {0} {}
@@ -21898,6 +21907,7 @@ E { 5252} {s} {s} {4} {0} {}
 R { 5255} {0} {} {An Unused Staircase} { } {Though neat and tidy, this room has a still, sterile feel to it that makes you\nthink the Abbey's brotherhood rarely pass through here. To the south are the\nstairs leading up to the belltower, and at your feet is a small flight of\nstairs that ends at a locked gate at the entrance to the crypt.} {Saint Denis Abbey } {} {} {} {1.000}
 E { 5250} {n} {n} {1} {0} {}
 E { 5256} {s} {s} {4} {0} {}
+E { 6142} {d} {d} {32} {0} {}
 
 R { 5256} {0} {} {South Tower Stairs} { } {Tucked away in a vestibule off the crypt entrance is this narrow flight of\nwell-worn stone stairs leading up to the south belltower.} {Saint Denis Abbey } {} {} {} {1.000}
 E { 5255} {n} {n} {1} {0} {}
@@ -22758,6 +22768,7 @@ E { 5458} {n} {open n;n} {1} {0} {}
 
 R { 5458} {0} {} {Moor Field} { } {This broad field, though trampled by countless Londoner's feet, is a\nvivid contrast to the gray cobblestones of the city. Standing under a\nsky unpressed by buildings, you only now realize how very crowded and\nnarrow London was.  Looking out around, you see several people practicing\narchery, or simply walking about for a breath of the somewhat untainted\nair. As you take a step east in order to get a better view of the infamous\nBedlam Hospital, a badly aimed arrow whizzes past you. Zooks!} {Tudor England } {} {} {} {1.000}
 E { 5457} {s} {open s;s} {4} {0} {}
+E { 6092} {w} {w} {8} {0} {}
 
 R { 5459} {0} {} {A Closet} { } {This small room provides ample storage for household goods, although there is\nroom for little else.} {Player Housing } {} {} {} {1.000}
 E { 5240} {s} {open s;s} {4} {0} {}
@@ -23463,7 +23474,7 @@ E { 5241} {n} {n} {1} {0} {}
 R { 5637} {0} {} {The Priest's Hut} { } {Ornate red-and-green painted latticework guards one side of the hut. The art\nis crudely done, but it is still good to see the old Hindu faith kept here,\ndespite the encroachment of the pale English beliefs. Behind the lattice is a\nsmall worship area, with small paintings and iconic representations of various\ngods. The rest of the hut is bare and not very comfortable--the priest must\nlive off of the donations of the village members.} {Seoni Jungle India } {} {} {} {1.000}
 E {  881} {s} {s} {4} {0} {}
 
-R { 5638} {0} {} {The Curio Shop} { } {Proudly displayed in the window is an edition of Blake's 'Songs of\nExperience,' and an odd looking metal contraption carefully labeled 'orrery'\ndominates the room. This curio shop is clearly a haven for the eccentric. A\nwhole shelf is marked 'treasure maps,' and the hardwood floor has bizarre,\nperhaps pagan symbols scratched into it. The glass window provides a view of\nthe alley opening across the street, and in the poor lighting in here, it\nseems to waver like a gaping maw.} {London Port } {} {} {} {1.000}
+R { 5638} {0} {<149>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of\nExperience,' and an odd looking metal contraption carefully labeled 'orrery'\ndominates the room. This curio shop is clearly a haven for the eccentric. A\nwhole shelf is marked 'treasure maps,' and the hardwood floor has bizarre,\nperhaps pagan symbols scratched into it. The glass window provides a view of\nthe alley opening across the street, and in the poor lighting in here, it\nseems to waver like a gaping maw.} {London Port } {} {} {} {1.000}
 E {    6} {s} {open s;s} {4} {0} {}
 
 R { 5639} {0} {} {Entrance to the Long House} { } {You enter into the darkened room, a musty smell pervades the air. The walls\nare covered with sheets of rough elm bark stripped from massive trees. The\nfloor is nothing but hard packed dirt. You think you can see the outline of a\ndoor leading further into the house in the south wall of the room. A doorway\nleads back out to the north.} {French Indian War } {} {} {} {1.000}
@@ -23886,6 +23897,7 @@ R { 5740} {0} {} {A Path in the Midway} { } {All around you people fight for you
 E { 5739} {e} {e} {2} {0} {}
 E { 5741} {s} {open s;s} {4} {0} {}
 E { 5742} {w} {w} {8} {0} {}
+E { 6156} {n} {open n;n} {1} {0} {}
 
 R { 5741} {0} {} {Madame Zeena's Fortune-Telling Emporium} { } {Rich black and dark purple velvets balloon from the ceiling like those in\nexotic Arabian tents. Bright stars and moons are painted on the black walls and\non the ceiling in delicate gold paint and are echoed by beautiful golden\nhanging stars which trickle in clusters from different points in the ceiling\nand sparkle in the candlelight. In the center of the room is a round table\ncovered in different types of tarot cards which are splayed across the velvet\ntablecloth. A huge crystal ball rests on a little wooden stand and sits\ncenter-table. Around the ball are dice and cards, small pouches filled with\nexotic powders, and many astrological charts and diagrams.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5740} {n} {open n;n} {1} {0} {}
@@ -23894,6 +23906,7 @@ R { 5742} {0} {} {A Path in the Midway} { } {The scent of carnival food is quite
 E { 5740} {e} {e} {2} {0} {}
 E { 5743} {s} {s} {4} {0} {}
 E { 5745} {w} {w} {8} {0} {}
+E { 6154} {n} {n} {1} {0} {}
 
 R { 5743} {0} {} {Before a Cluster of Bushes} { } {Something about these bushes and clumps of branches suggest that they have\nbeen hastily pulled apart to form a makeshift hedge. You can hear the\noccasional roar of laughter or whooping cheers coming from the other side.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5742} {n} {n} {1} {0} {}
@@ -23906,10 +23919,13 @@ R { 5745} {0} {} {A Path in the Midway} { } {All around the Midway stalls cater 
 E { 5742} {e} {e} {2} {0} {}
 E { 5746} {w} {w} {8} {0} {}
 E { 5811} {s} {s} {4} {0} {}
+E { 6153} {n} {n} {1} {0} {}
 
 R { 5746} {0} {} {On a Path in the Midway} { } {The way south is crowded with burly men all gathered together for some reason.\nOccasionally the sound of bickering and raised voices rings clearly from the\nnorth which competes with the tremendous screams and cries from the Haunted\nHouse to the west.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5745} {e} {e} {2} {0} {}
 E { 5747} {w} {w} {8} {0} {}
+E { 6149} {n} {n} {1} {0} {}
+E { 6152} {s} {s} {4} {0} {}
 
 R { 5747} {0} {} {Before the House of Horrors} { } {A rickety old house stands here, its windows covered and boarded and its lawn\nunkempt and overgrown. A short set of broken wooden stairs lead to a once\nelaborate frontdoor which boasts a rusting knocker shaped like the head of\nsome gruesome, medieval creature. Crumbling and broken gargoyles peer down\nfrom their perches high up near the rooftop which is missing many tiles and\nseems to house an entire family of angry, black birds. On the second floor the\nwindows are covered by fine lace curtains - though they are encrusted with\ndust and dirt. A balcony winds its way around the whole house and is flanked\nby intricate iron-work. Around the house and on the balcony are potted plants\nwhich are cracked and neglected, their once-beautiful plants withering\npathetically inside.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5746} {e} {e} {2} {0} {}
@@ -25303,6 +25319,12 @@ R { 6091} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 6073} {s} {s} {4} {0} {}
 E { 6074} {n} {n} {1} {0} {}
 
+R { 6092} {0} {} {West End of Moor Field} { } {Walking briskly, you soon arrive at the west end of the field. Several\nwindmills are clustered to the south, their sails open to catch the\nsmallest breeze. To the distant north stretchs the Heath. Although a few\nnoblemen have estates in it, much of the Heath is wilderness, a favored\nplace of refuge for highwaymen and other criminals.} {Tudor England } {} {} {} {1.000}
+E { 5458} {e} {e} {2} {0} {}
+
+R { 6093} {0} {} {Climbing on the Cheapside Cross} { } {As you climb up the Cross, the structure sways a bit under you. Although\noriginally a soundly fashioned piece of decorative stone work, centuries of\nvandalism have taken their toll. Finally reaching the top, you are confronted\nby an enormous magpie's nest, full of treasures stowed away by the greedy\nbirds.} {Tudor England } {} {} {} {1.000}
+E {  266} {d} {d} {32} {0} {}
+
 R { 6094} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 6099} {e} {e} {2} {0} {}
 E { 5435} {w} {w} {8} {0} {}
@@ -25334,3 +25356,252 @@ E { 6101} {n} {n} {1} {0} {}
 R { 6101} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 6100} {s} {s} {4} {0} {}
 E { 6081} {n} {n} {1} {0} {}
+
+R { 6102} {0} {} {Quimby's Townhouse} { } {Wrought of white plaster and dark beams, the walls of the ground floor's\nhall rise up about. Although the room is narrow, hemmed in by neighboring\nbuildings, it is quite long, trailing off into darkness at the back.} {Medieval Utility File } {} {} {} {1.000}
+E { 1030} {e} {open e;e} {2} {0} {}
+E { 6103} {s} {s} {4} {0} {}
+E { 6105} {w} {open w;w} {8} {0} {}
+E { 6108} {n} {open n;n} {1} {0} {}
+
+R { 6103} {0} {} {A Kitchen} { } {The culinary needs of a household this size demand a large kitchen, equipped\nwith all the necessary pots, spoons, platters, pans, and shelves to store them\nall on.} {Medieval Utility File } {} {} {} {1.000}
+E { 6102} {n} {n} {1} {0} {}
+E { 6104} {w} {w} {8} {0} {}
+
+R { 6104} {0} {} {A Parlour} { } {Heavy oak wainscoting lines the plaster walls and rugs cover the floorboards,\ncreating a sense of formal richness.} {Medieval Utility File } {} {} {} {1.000}
+E { 6103} {e} {e} {2} {0} {}
+E { 6105} {n} {n} {1} {0} {}
+
+R { 6105} {0} {} {A Corridor} { } {This long corridor runs between the various rooms of the townhouse.} {Medieval Utility File } {} {} {} {1.000}
+E { 6104} {s} {s} {4} {0} {}
+E { 6102} {e} {open e;e} {2} {0} {}
+E { 6106} {w} {w} {8} {0} {}
+
+R { 6106} {0} {} {A Courtyard} { } {Long and narrow, this courtyard is a place of greenery amidst the grey stone\nof the City. Flagstone paths weave around small beds of herbs and flowers. A\nsmall pool bubbles in the foreground and a high iron fence keeps intruders\nwithout.} {Medieval Utility File } {} {} {} {1.000}
+E { 6105} {e} {e} {2} {0} {}
+
+R { 6107} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1029} {n} {n} {1} {0} {}
+E { 1030} {s} {s} {4} {0} {}
+
+R { 6108} {0} {} {A Bed Chamber} { } {Heavy drapes cover the windows, keeping out the light of day. A soft rug\ncovers the stone floor, and the walls are hung with various hangings. In the\ncorner is a small chest for storing clothing.} {Medieval Utility File } {} {} {} {1.000}
+E { 6102} {s} {open s;s} {4} {0} {}
+
+R { 6109} {0} {} {A Printer's Shop} { } {A large printing press dominates the back of the shop. Shelves on either\nside of it hold various tomes published by Ponfonbie. In the front is\na small counter and rack of pamphlets.} {Tudor England } {} {} {} {1.000}
+E { 1030} {w} {open w;w} {8} {0} {}
+
+R { 6110} {0} {} {The Courtyard} { } {On performance days (which are every day save Sundays), this part of the\ncourtyard is tightly crowded, for it affords the best view of center stage.\nHowever, the crowds are rarely ill humored, and there are few, if any\ndisruptions. Those here are content to merely hurl insults at the villiens, or\ncheer for the heroes. There are even a few chairs on the stage itself for\nthose with adequate funds to sit on the actors level, the better to heckle and\ninsult. Food vendors push their way through the folk, holding their wares up\nhigh above the crowds and calling for buyers.} {Tudor England } {} {} {} {1.000}
+E { 6111} {w} {w} {8} {0} {}
+E { 1049} {e} {e} {2} {0} {}
+
+R { 6111} {0} {} {The Courtyard} { } {From this end of the courtyard, you can best see the left side of the stage\;\nthe courtyard curves around it to the right. Even from your left corner view,\nyou can still catch a glimpse of the so-called 'heaven' at the back of the\nstage. A simple platform with access from both on and back stage, it\nnonetheless serves many functions. Although it may indeed be heaven, the place\nof angels and spirits, it also serves as the balcony from which Juliet\naddresses her Romeo, or that Richard II must come down from to face his royal\ndoom. Out of the corner of your eye, you notice a hole under the gallery\nbehind you. Perhaps it bears investigation...} {Tudor England } {} {} {} {1.000}
+E { 6110} {e} {e} {2} {0} {}
+E { 6112} {d} {d} {32} {0} {}
+
+R { 6112} {0} {} {Under the Gallery} { } {As you crawl under the stands, your palms and knees are painfully pricked by\nwhat feels like sharp, nasty little bits of pottery. Curious as to why the\nChamberlain's Men would take special pains to line the underside of their\ntheatre with pottery, you scoop up a handful and hold it to the murky light\nwhich filters down through the cracks between the boards that form the floor\nof the gallery above. Squinting at the bits, you realize that they are\nactually hazelnut shells dropped by careless patrons as they watched\nperformances at the Globe.} {Tudor England } {} {} {} {1.000}
+E { 6111} {u} {u} {16} {0} {}
+
+R { 6113} {0} {} {The Stage} { } {All the world's a stage, and this one is its center. Here the actors strut and\nfret their hours. Here Hamlet ponders mortality and Faustus signs his soul\nover to Mestopheles. Roughly square in shape, the stage is surrounded by the\ncourtyards and galleries. A roof extends up over it, shading the actors from\nthe elements. Since all performances take place in the daytime, the stage is\nlit by the sunshine that filters in from the courtyard. On cloudy days, that\nlight is supplemented by the smoky torches mounted on the overhanging sides of\nthe galleries. Doorways lead backstage, and the 'heaven' platform rises up in\nthe back.} {Tudor England } {} {} {} {1.000}
+E { 1049} {d} {d} {32} {0} {}
+E { 6114} {u} {u} {16} {0} {}
+E { 6115} {n} {n} {1} {0} {}
+E { 6115} {w} {w} {8} {0} {}
+E { 6115} {e} {e} {2} {0} {}
+
+R { 6114} {0} {} {Heaven} { } {Heaven it appears, is a balcony perched above the main stage and level with\nthe second gallery, the so-called 'gods' level. From here, you can see the\nentire courtyard, and the galleries behind them. A ladder behind you plunges\ndown into the darkness of the backstage, and a narrow flight of stairs leads\ndown to the stage proper.} {Tudor England } {} {} {} {1.000}
+E { 6113} {d} {d} {32} {0} {}
+E { 6116} {n} {n} {1} {0} {}
+
+R { 6115} {0} {} {Backstage} { } {Relatively sheltered from the roar of the crowds, this room is a haven for\nactors between their scenes. Several wander about reciting lines while\nabsently eating sundry bits of food. Others rehearse fight scenes, seemingly\nmortally injuring each other several times in a mere ten minutes. A doorway\nleads out to the stage, while others lead to the costume and prop rooms. In\nthe corner, a crude ladder climbs up to the heaven platform and the roof.} {Tudor England } {} {} {} {1.000}
+E { 6113} {s} {s} {4} {0} {}
+E { 6116} {u} {u} {16} {0} {}
+
+R { 6116} {0} {} {A Ladder} { } {Hanging onto this unsteady ladder, you try not to be overly distracted by your\nsurroundings. Below you is the backstage area, above is the upper story of the\nstage, the 'heaven' to which you aspire. Still higher up is the roof. Here on\nthis ladder, you dangle between them, between the polished sublimity of\ntheatrical performance and its rougher and less elegant backside.} {Tudor England } {} {} {} {1.000}
+E { 6114} {s} {s} {4} {0} {}
+E { 6115} {d} {d} {32} {0} {}
+E { 6117} {u} {u} {16} {0} {}
+
+R { 6117} {0} {} {The Roof} { } {Climbing up the ladder, you finally arrive at the roof, the crown of the\nGlobe's brow. Thatched with straw, it covers the stage, which comprises less\nthan half the theatre. Looking over the edge, you can see the tops of the\nheads of the spectators in the courtyard below. Just to the left of the ladder\nstands a cannon, which the players can use to herald battle scenes or announce\nthe opening of a new production. However, its proximity to the straw seems\nimprudent....} {Tudor England } {} {} {} {1.000}
+E { 6116} {d} {d} {32} {0} {}
+
+R { 6118} {0} {} {A Stairwell} { } {Even more dim than the entrance way are the stairs, rising up in a narrow,\nvertical tunnel. The torches which are mounted on the walls fill the stairwell\nwith more smoke than light. You climb slowly and carefully to avoid slipping\non the narrow steps. Upwards and to the left is the first set of galleries,\nthe second are farther up still. A doorway on the ground floor leads to the\ncourtyard and exit.} {Tudor England } {} {} {} {1.000}
+E { 1048} {d} {d} {32} {1} {}
+E { 6119} {w} {w} {8} {0} {}
+E { 6127} {u} {u} {16} {0} {}
+
+R { 6119} {0} {} {First Gallery} { } {Several rows of benches stand against the right hand wall, the ones in the\nback placed on risers so that those sitting in them may see over the heads of\nthe spectators in front of them. Directly in front of the seats is a narrow\nwalkway that might accommodate two persons at the most. A railing in front of\nit prevents walkers from falling down onto the massed audience in the\ncourtyard. Rising up only a few feet above the heads of that audience, this\ngallery provides an excellent view of the stage. Behind you are the stairs\ndown to the courtyard, and ahead, the gallery curves around to the left.} {Tudor England } {} {} {} {1.000}
+E { 6118} {e} {e} {2} {0} {}
+E { 6120} {s} {s} {4} {0} {}
+
+R { 6120} {0} {} {First Gallery} { } {Several rows of benches stand against the right hand wall, the ones in the\nback placed on risers so that those sitting in them may see over the heads of\nthe spectators in front of them. Directly in front of the seats is a narrow\nwalkway that might accommodate two persons at the most. A railing in front of\nit prevents walkers from falling down onto the massed audience in the\ncourtyard. Rising up only a few feet above the heads of that audience, this\ngallery provides an excellent view of the stage. Behind you, the gallery\ncurves to the left\; behind it curves to the right.} {Tudor England } {} {} {} {1.000}
+E { 6121} {w} {w} {8} {0} {}
+E { 6119} {e} {e} {2} {0} {}
+
+R { 6121} {0} {} {The First Gallery} { } {Several rows of benches stand against the right hand wall, the ones in the\nback placed on risers so that those sitting in them may see over the heads of\nthe spectators in front of them. Directly in front of the seats is a narrow\nwalkway that might accommodate two persons at the most. A railing in front of\nit prevents walkers from falling down onto the massed audience in the\ncourtyard. Rising up only a few feet above the heads of that audience, this\ngallery provides an excellent view of the stage. Behind you, the gallery\ncurves back to the right, while ahead, a small flight of stairs leads upward\nto a door.} {Tudor England } {} {} {} {1.000}
+E { 6120} {s} {s} {4} {0} {}
+E { 6126} {u} {open u;u} {16} {0} {}
+
+R { 6122} {0} {} {A Stairwell} { } {You stand in a column of murky twilight, gloom that is interrupted only by the\nsmall bits of light from the galleries and courtyard, for the small guttering\ntorches can help little. Your step is uncertain, almost tentative as you climb\nthe stairs.} {Tudor England } {} {} {} {1.000}
+E { 6127} {d} {d} {32} {0} {}
+E { 6123} {w} {w} {8} {0} {}
+
+R { 6123} {0} {} {The Second Gallery} { } {The second gallery of a playhouse is often referred to as the 'gods' level,\nand you can see why, for it is nearly level with the 'heaven' story of the\nstage. From its vantage point, you have a panoramic, if not always clear view\nof the activity on the stage. Further below are the crowds, their antics often\nrivalling those on the stage for your attention. Plain benches on risers\nprovide a seat for those willing to pay the gallery ticket price. Through the\ngaps between the planks of the floor, you catch glimpses of those sitting in\nthe gallery beneath you. Behind you are the stairs leading downward, and\nahead, the gallery curves to left.} {Tudor England } {} {} {} {1.000}
+E { 6122} {e} {e} {2} {0} {}
+E { 6124} {s} {s} {4} {0} {}
+
+R { 6124} {0} {} {Second Gallery} { } {The second gallery of a playhouse is often referred to as the 'gods' level,\nand you can see why, for it is nearly level with the 'heaven' story of the\nstage. From its vantage point, you have a panoramic, if not always clear view\nof the activity on the stage. Further below are the crowds, their antics often\nrivalling those on the stage for your attention. Plain benches on risers\nprovide a seat for those willing to pay the gallery ticket price. Through the\ngaps between the planks of the floor, you catch glimpses of those sitting in\nthe gallery beneath you. Ahead, the gallery curves leftward, behind, it curves\nback to the right.} {Tudor England } {} {} {} {1.000}
+E { 6123} {e} {e} {2} {0} {}
+E { 6125} {w} {w} {8} {0} {}
+
+R { 6125} {0} {} {Second Gallery} { } {The second gallery of a playhouse is often referred to as the 'gods' level,\nand you can see why, for it is nearly level with the 'heaven' story of the\nstage. From its vantage point, you have a panoramic, if not always clear view\nof the activity on the stage. Further below are the crowds, their antics often\nrivalling those on the stage for your attention. Plain benches on risers\nprovide a seat for those willing to pay the gallery ticket price. Through the\ngaps between the planks of the floor, you catch glimpses of those sitting in\nthe gallery beneath you. Behind you, the gallery curves back to the right.} {Tudor England } {} {} {} {1.000}
+E { 6124} {s} {s} {4} {0} {}
+
+R { 6126} {0} {} {A Private Box} { } {This small room is luxurious, the preferred seating of the very rich and\nnoble. Velvet covered chairs are placed along its length\; no one in this box\nneed look over the head of another. Situated opposite the galleries, this box\nis directly above and behind the stage's second story, giving its occupants an\nexclusive view of the performance. Artfully draped curtains at the front\nshield it from the prying eyes of the masses.} {Tudor England } {} {} {} {1.000}
+E { 6121} {d} {open d;d} {32} {0} {}
+
+R { 6127} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6118} {d} {d} {32} {0} {}
+E { 6122} {u} {u} {16} {0} {}
+
+R { 6128} {0} {} {The Gate to the Prynne Farm} { } {The poorly made fence hardly protects the land it surrounds inside. Sections\nbroken, perhaps from the Indian raid you've heard of in the past, allow for\nanimals to walk freely through the grounds.} {Boston, Mass. } {} {} {} {1.000}
+E { 4338} {w} {w} {8} {0} {}
+E { 6129} {n} {n} {1} {0} {}
+
+R { 6129} {0} {} {The Yard} { } {A garden grows a variety of vegetables for the house inhabitants. Various\ntrees are spread across the yard, protecting parts of the house ahead\nfrom the elements. The land stops at a small cliff to the east of the\nhouse, dropping down to the beach below.} {Boston, Mass. } {} {} {} {1.000}
+E { 6128} {s} {s} {4} {0} {}
+E { 6130} {e} {e} {2} {0} {}
+E { 6134} {n} {n} {1} {0} {}
+
+R { 6130} {0} {} {The Front Walk} { } {The walk below your feet was carefully made with various stones placed close\ntogether in the ground. Shrubbery outlines the house and yard while creating\na colorful bouquet in the warmer months. The large grey house in front of\nyou stands sturdy, its wooden walls faded from the salt air.  A large window\nmarks its place to the right of the faded red door before you. Sounds of sea\ngulls blend with the crashing waves against the beach below, echoing in the\nopen area.} {Boston, Mass. } {} {} {} {1.000}
+E { 6129} {w} {w} {8} {0} {}
+E { 6131} {n} {n} {1} {0} {}
+
+R { 6131} {0} {} {A Large Reading Room} { } {Windows mark two of the walls in this room allowing the day's light to\nilluminate the area. Books stacked upon each other on shelves below one of\nthe windows appear to be old and well-read. Candles rest in their holders,\nside-by-side on the beautifully carved table sitting in the center of the\nroom.} {Boston, Mass. } {} {} {} {1.000}
+E { 6130} {s} {s} {4} {0} {}
+E { 6132} {n} {n} {1} {0} {}
+
+R { 6132} {0} {} {The Dining Room} { } {A spacious room is interrupted by a small table set in the center. The single\nwindow rests next to the side door leading outside. A beautifully carved\nrocking chair rests in its spot in front of one of the walls, a knitted\nblanket folded neatly on the seat.} {Boston, Mass. } {} {} {} {1.000}
+E { 6131} {s} {s} {4} {0} {}
+E { 6133} {w} {w} {8} {0} {}
+
+R { 6133} {0} {} {Beside the House} { } {Standing next to the house, you are able to get a better look at the woods\nbehind the barn that engulf the land in front of you. A wooden post used to\ntie down horses protrudes from the ground. Soft sounds of the ocean crashing\nonto the beach below echo in the quietness, followed by a melody of leaves\nswaying in the breeze.} {Boston, Mass. } {} {} {} {1.000}
+E { 6134} {s} {s} {4} {0} {}
+E { 6132} {e} {e} {2} {0} {}
+
+R { 6134} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6129} {s} {s} {4} {0} {}
+E { 6133} {n} {n} {1} {0} {}
+
+R { 6135} {0} {} {Within a Cramped Cave} { } {This opening portion of the cave gives a good impression of what lies further\nwithin. The hand carved cave could more adequately be called a passageway,\nand a very narrow one at that. One person going into this particular chamber\nwould be fairly snug, any more people than that and it would start to become\nvery intimate.} {The Philippines } {} {} {} {1.000}
+E { 2012} {w} {w} {8} {0} {}
+E { 6136} {n} {n} {1} {0} {}
+
+R { 6136} {0} {} {A Tight Spot in the Cave} { } {It's cramped here. Very cramped. The space at this point is just enough for\nthe average man to stand but no room for much of anything else. With the cave\nceiling so close, you can easily make out where the flames from torches have\nlicked and left their mark.} {The Philippines } {} {} {} {1.000}
+E { 6135} {s} {s} {4} {0} {}
+E { 6137} {n} {n} {1} {0} {}
+
+R { 6137} {0} {} {Deep into the Cave} { } {The cave passage appears to widen at this point and you begin to see articles\nof warfare stocked within. Along the ground are ammunition cases and blades\nof all kinds: bolos, daggers, even Moro style scimitars. Rifles also stand\nagainst the cave walls, ready to be picked up for immediate use.} {The Philippines } {} {} {} {1.000}
+E { 6136} {s} {s} {4} {0} {}
+E { 6138} {w} {w} {8} {0} {}
+
+R { 6138} {0} {} {A Room Hollowed out of the Rock} { } {Here at the end of the cave, an office-like room has been carved out of the\nrock. A handful of oil lamps provide enough light for someone to read and\nwork on important documents. A mattress sits on one side of the floor\nallowing the occupant a rest if needed. A short table sits in the center of\nthe room covered in maps and papers while more armaments lie all about. Most\nnotably however is a flag hung upon one of the walls. It is a blue and red\nhorizontal bi-color with a white triangle along the hoist, within which is a\nyellow sun and three smaller stars.} {The Philippines } {} {} {} {1.000}
+E { 6137} {e} {e} {2} {0} {}
+
+R { 6139} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 3033} {e} {e} {2} {0} {}
+E { 6140} {s} {s} {4} {0} {}
+
+R { 6140} {0} {} {A Street South of Fort St Elmo} { } {Still open and airy, the street narrows quickly towards the south. To the\nnorth, Fort St Elmo blocks the view out over the harbor, well patrolled at all\nhours. Beyond the fortifications you spot sapphire glimpses of the wide ocean.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6139} {n} {n} {1} {0} {}
+E { 6141} {s} {s} {4} {0} {}
+
+R { 6141} {0} {} {Standing Outside the Slave Prison} { } {You stroll down one of Valletta's less crowded streets, admiring the city's\nodd mix of construction sites, religious institutions, churches, military\nfortifications, and plain living quarters for ordinary residents. Somewhere a\ncat meows and other sounds of the big city drift towards you as well --\nvoices, laughter, scrapings of objects being moved, and the clippety-cloppety\nof horses passing by in the street. Right ahead, a heavy gate bars access to\nthe slave prison.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6140} {n} {n} {1} {0} {}
+
+R { 6142} {0} {} {Entrance to the Crypt} { } {The light seeping in from above blinds you to what lies in the darkness ahead,\nthough by the feel of the space you can tell that the crypt extends to the\nnorth and east. You'll have to venture further inside if you want to discern\nany more.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 5255} {u} {u} {16} {0} {}
+E { 6143} {n} {n} {1} {0} {}
+E { 6147} {e} {e} {2} {0} {}
+
+R { 6143} {0} {} {The Crypt} { } {You pass under a rounded, Romanesque arch into one of the newer parts of the\ncrypt. The plain stone floor has accumulated little dust, and the brick walls\nbear not a trace of moisture or mildew. As you peer into the deepening shadows\nbefore you, however, you are not entirely convinced that the crypt is wholly\nunoccupied.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 6142} {s} {s} {4} {0} {}
+E { 6144} {e} {e} {2} {0} {}
+
+R { 6144} {0} {} {The Crypt} { } {Your light does little to pierce the darkness of this central part of the\ncrypt. Bare of tombs, and thankfully devoid of vermin, you feel a bit less\nuneasy here than in the other parts of this house of the dead.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 6143} {w} {w} {8} {0} {}
+E { 6145} {n} {n} {1} {0} {}
+E { 6146} {e} {e} {2} {0} {}
+E { 6147} {s} {s} {4} {0} {}
+
+R { 6145} {0} {} {The Crypt} { } {Crumbling bricks and stale air reveal this to be the oldest, deepest part of\nthe crypt. You have to duck under the crudely constructed ceiling, which is\nlower here than in the newer part of the crypt. Bat droppings obscure the\ndecorations on tombs, and petrified rat droppings cling to the soles of your\nshoes. Despite the presence of so many holy and noble men entombed here, this\npart of the crypt is very nasty.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 6144} {s} {s} {4} {0} {}
+E { 6148} {e} {e} {2} {0} {}
+
+R { 6146} {0} {} {The Crypt} { } {Crumbling bricks and stale air reveal this to be the oldest, deepest part of\nthe crypt. You have to duck under the crudely constructed ceiling, which is\nlower here than in the newer part of the crypt. Bat droppings obscure the\ndecorations on tombs, and petrified rat droppings cling to the soles of your\nshoes. Despite the presence of so many holy and noble men entombed here, this\npart of the crypt is very nasty.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 6144} {w} {w} {8} {0} {}
+E { 6148} {n} {n} {1} {0} {}
+
+R { 6147} {0} {} {The Crypt} { } {You pass under a rounded, Romanesque arch into one of the newer parts of the\ncrypt. The plain stone floor has accumulated little dust, and the brick walls\nbear not a trace of moisture or mildew. As you peer into the deepening shadows\nbefore you, however, you are not entirely convinced that the crypt is wholly\nunoccupied.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 6144} {n} {n} {1} {0} {}
+E { 6142} {w} {w} {8} {0} {}
+
+R { 6148} {0} {} {The Crypt} { } {You are appalled by what you see here. Coffins so old or poor that they were\nmade only of wood once occupied this room, but time, water, and the\nindustrious efforts of many rats have worn them down to splinters. A huge nest\nhas been made of the scraps of wood and human bone, and gigantic rats swarm\nall over. You shudder in disgust and try to backpedal out of the room quicker\nthan you entered.} {Saint Denis Abbey } {} {} {} {1.000}
+E { 6146} {s} {s} {4} {0} {}
+E { 6145} {w} {w} {8} {0} {}
+
+R { 6149} {0} {} {Heading down Nightmare Alley} { } {Few patrons walk here. The path is almost completely deserted except for the\noccasional stray who seems vaguely lost and a little disoriented. To the north\nstrange sounds disturb the silence and lights flicker from a large tent set\namongst the trees. The pathway narrows to form an unstructured and windy way\nto the door of the tent. This path is enveloped in darkness from the trees\nwhich hang overhead and block all sunlight and the many lamps which are lit\nelsewhere in the Midway. Unkempt shrubbery and bushes marcate the pathway in\ntheir clumsy and unstructured way. The atmosphere of the Midway seems to have\nshifted dramatically. Fewer children roam here and other patrons seem to be\nill at ease. Little care has been made to keep this part of the Midway clear\nof garbage and undergrowth and although there is a definite path, it has none\nof the well-worn definition of the rest of the Carnival. Scavenger birds peck\nat the foodscraps which lie in piles at the side of the pathway and glare at\nyou as you pass.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5746} {s} {s} {4} {0} {}
+E { 6150} {n} {n} {1} {0} {}
+
+R { 6150} {0} {} {Heading down Nightmare Alley} { } {In the semi-darkness of this alley one can make out the frame of Dr Caligari's\ntent to the north. The tent is unadorned, made of a dark grey canvas so as to\nseem almost black in this half-light. Tall trees overhang and drape their\nbranches on the roof of the tent which suffers a few holes and slight tears.\nAround the tentflaps is a thick chain secured by a padlock which can lock the\ntent securely, though the tent has become so dilapidated that it could hardly\nbe a deterrant.} {Gypsy Carnival } {} {} {} {1.000}
+E { 6149} {s} {s} {4} {0} {}
+E { 6151} {n} {open n;n} {1} {0} {}
+
+R { 6151} {0} {} {In a Small and Unadorned Tent} { } {This room is small and undecorated. A few lamps hang from the walls but are\nunlit. As there are no windows, the room is airless and slightly damp and\nhumid. The stench of death is overwhelming yet there no evidence of it. A\nsmall metal cabinet stands in the corner of the room.} {Gypsy Carnival } {} {} {} {1.000}
+E { 6150} {s} {open s;s} {4} {0} {}
+
+R { 6152} {0} {} {At a Strength Tester} { } {A large red-painted bell sits atop a tall tube of numbers which increase from\none at the bottom to one hundred painted at the top. Inside the Strength\nTester is a heavy wooden ball resting on a miniature spring, waiting to pass\nthe numbers on its journey to the elusive 100! The strength tester is painted\nin red and white stripes to the top and attached by a thick chain at the base\nis a mallet, padded so that the more enthusiastic strong-man cannot break the\nmachine. The most satisfying sound can be heard by he or she who can make the\nball hit the bell, but the real thrill is being lauded as the strongest in the\ncarnival - a title attached with much bravado. Though, like most carnival\nattractions, there is a trick involved. Strength alone won't win the coveted\nprize.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5746} {n} {n} {1} {0} {}
+
+R { 6153} {0} {} {At 'Throw a Pie at the Clown' } { } {This room is completely covered in custard cream pie. It runs down the walls\nand puddles in sticky globs on the floor. It seems that this clown is quite\ngood at dodging. A backdrop can just be made out under the pie filling which\ndepicts a beautiful scenic lake covered with birds and lillies. A strangely\nincongruous choice for such a game.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5745} {s} {s} {4} {0} {}
+
+R { 6154} {0} {} {At a Pemberton's Coca-Cola Emporium} { } {Crowds of people have gathered around the flamboyant spectacle of 'Pemberton's\nCoca Cola Emporium' though it is more like a stage with red-painted sides and\na white wooden floor. The stage is flanked by a red and white sign with\nflowing print reading 'Coca Cola'. A huge machine with bubbling beakers and\nbrass tubes poking out from all directions is run by steam and seems to be\ncreating Pemberton's marvellous concoction which is bottled by Pemberton's\nassistant, Frank Robinson. The bottles are labelled with wet paper marking the\nbottles in the Spenserian script and lined in neat rows on a table for sale.\nJohn Pemberton himself stands atop the stage, calling out the medicinal\nproperties of his Cola drink.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5742} {s} {s} {4} {0} {}
+
+R { 6155} {0} {} {Inside The Incredible Presto's Magic Shop} { } {Books on the fine art of prestidigitation line the walls along with decks of\ncards, costumes, magic wands and hundreds of gags. One could conceivably lose\nthemselves amongst the quirky tricks and outfits here and their success is, of\ncourse, guaranteed. At the back of the room is an old and extravagant poster\ndepicting the Incredible Presto performing for the carnival in his hey-day. On\na red-velvet covered table stands a black satin top-hat out of which is pulled\nbunnies, scarves, doves and scores of other cliched items. Children try\ndesperately to convince weary parents to buy them costumes, tricks and\nanything else they can get hold of. They are all watched by the hawk-like\nglare of the shopmistress who prevents their nimble fingers from breaking or\nstealing anything.} {Gypsy Carnival } {} {} {} {1.000}
+E { 6156} {s} {open s;s} {4} {0} {}
+E { 6157} {w} {w} {8} {0} {}
+
+R { 6156} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5740} {s} {s} {4} {0} {}
+E { 6155} {n} {n} {1} {0} {}
+
+R { 6157} {0} {} {The Incredible Presto's Magical Illusions and Sleight of Hand Show!} { } {A few wooden chairs have been gathered in a circle around a small podium upon\nwhich rests a round table with a red tablecloth which falls all the way to the\nfloor. An old and chipped glass chandelier hangs from the too low ceiling and\nengulfs the room as it attests to Presto's heyday and scoffs at his twilight\nyears. Behind the small stage is a wall of deep black curtains through which\nPresto emerges triumphantly before each performance. Scattered upon the stage\nare a few of Presto's magic illusions-most notably the 'Box of No Return'. The\n'Box' as it is affectionately termed, is Presto's one unfailing trick and for\na small price, he will uncover its great secret.} {Gypsy Carnival } {} {} {} {1.000}
+E { 6155} {e} {e} {2} {0} {}
+
+R { 6158} {0} {} {On the South Seas} { } {This is clearly the main shipping channel for the South Seas--all your charts\nagree. Which means that it must also be the most closely watched by pirates.\nDirectly east of you is a rocky, nasty looking island with a tall promontory\nthat seems ideal for a place to keep a lookout. Its spiny, rocky arms,\nreaching out into the sea, also prevent you from sailing north.} {South Seas } {} {} {} {1.000}
+E { 1958} {s} {s} {4} {0} {}
+E { 6159} {w} {w} {8} {0} {}
+
+R { 6159} {0} {} {On the South Seas} { } {To your horror, you can see a foundered ship that ventured too far into the\nreefs to your west. Such is the luck of the sea. There is no hope for rescue--\nnot even gulls are circling, meaning the corpses have been picked clean. The\nPacific does not forgive. The reefs are also to the south of you, impassable.} {South Seas } {} {} {} {1.000}
+E { 6158} {e} {e} {2} {0} {}
+E { 6160} {n} {n} {1} {0} {}
+
+R { 6160} {0} {} {On the South Seas} { } {Little is known about the countries in Southeast Asia, other than the few\nfacts China deigns to hand out to unwashed barbarians. Somewhere to the west\nin that fabled land lies the fabulously rich Kingdom of Siam\; but you are more\nconcerned with the shipping route between Bengal and Macao--the China Trade,\nthe opium, the tea... the gold!} {South Seas } {} {} {} {1.000}
+E { 6159} {s} {s} {4} {0} {}
+E { 6161} {n} {n} {1} {0} {}
+
+R { 6161} {0} {} {On the Pacific Ocean} { } {Deep in the ocean to your east are the Philippine Islands--deadly places that\nhave killed many a crew. You have heard the Spanish seek to colonize them--you\ncan't help but think "good luck"! To the west is the mainland coast of China--a\nslumbering giant, mysterious, decadent, and enticing.} {South Seas } {} {} {} {1.000}
+E { 6160} {s} {s} {4} {0} {}
+E { 6162} {n} {n} {1} {0} {}
+
+R { 6162} {0} {} {In the Bay at Macao} { } {The Portuguese colony of Macao, sole enclave of the West on the shores of\nChina, lies directly to the west of you. The docks bustle with people\; Macao\noffers a banking center, a Jesuit school, and of course famous whorehouses,\nand so it is a favored stop among the sailors plying the tea trade.} {South Seas } {} {} {} {1.000}
+E { 6161} {s} {s} {4} {0} {}
+E { 6163} {w} {w} {8} {0} {}
+
+R { 6163} {0} {} {The Docks in Macao} { } {This Portuguese colony seems affluent enough from here--tall clipper ships\nfill the harbor, sampans and junks make their clumsy ways around them, and\nthe docks are full of busy people scurrying about. Of course, underneath this\napparent prosperity lies appalling exploitation and crime, and of course,\nthat's the way the authorities and the citizens like it. West of here stand\nthe massive gates of the Jesuit school, and the waterfront continues south.} {South Seas } {} {} {} {1.000}
+E { 6162} {e} {e} {2} {0} {}
+
+R { 6165} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2657} {w} {w} {8} {0} {}
+E { 2658} {e} {e} {2} {0} {}
