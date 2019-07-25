@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 3685
+I 1
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -495,11 +495,11 @@ E {  116} {w} {w} {8} {0} {}
 
 R {  116} {0} {} {Fort Duquesne Boulevard} { } {Echoes of hums and rattles of motor vehicles echo between the\nlarge buildings as they run up and down the boulevard. Sidewalks are\ncrowded in places as people rush past each other heading towards their\ndestinations. At times, a loud whistle pierces the air from the center of\nthe intersections where the traffic cop stands directing the flow. Exhaust\nfills the air as the cars motor their way back and forth on the boulevard.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  115} {e} {e} {2} {0} {}
-E {  117} {n} {n} {1} {0} {}
+E {  117} {n} {open n;n} {1} {0} {}
 E {  186} {w} {w} {8} {0} {}
 
 R {  117} {0} {} {Sweeny's Furniture Store} { } {The large building looks to be more of a warehouse than a store. Rows and\nrows of furniture stretch out across its spacious floor. Sofas, chairs\nand tables all grouped together in various planned positions throughout\nthe store, allowing you to step through a variety of lifestyles, and try\nthem before buying. Signs hang above each section, showing what items\nare sold there. A counter rests centered in all of the clutter.} {1930's Pittsburgh } {} {} {} {1.000}
-E {  116} {s} {s} {4} {0} {}
+E {  116} {s} {open s;s} {4} {0} {}
 
 R {  118} {0} {} {The Tenth Avenue Station} { } {A large, yet mostly empty building, sets up refuge for those using the trains,\nand the occasional beggar without a place to rest for the night. Benches and\nchairs are set up in a haphazard fashion, taking up the space in the center\nof the widened part of the room.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  186} {e} {e} {2} {0} {}
@@ -12178,6 +12178,7 @@ E { 2896} {w} {w} {8} {0} {}
 
 R { 2894} {0} {} {A Public Garden} { } {Carefully tended flower beds, showing a full display of colour at all seasons,\nare the pride of the local gardeners, and parties stroll along the well-\nmaintained paths chatting amiably. To your north is the Esplanade, offering\nsweeping views of Port Phillip Bay.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2893} {n} {n} {1} {0} {}
+E { 6530} {e} {open e;e} {2} {0} {}
 
 R { 2895} {0} {} {A Grand Mansion} { } {You are standing in the foyer of a grand mansion, which looks as though it\nis rarely used. Indeed, everything is spotless, and you glimpse a servant\npeeking through a rear door at you, indicating it is ready for use at any\nmoment, but it has the hollow echo of a holiday home, without the much-loved\ntreasures of a permanent residence.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2893} {w} {w} {8} {0} {}
@@ -12275,31 +12276,31 @@ E { 2906} {n} {n} {1} {0} {}
 
 R { 2917} {0} {} {The Edge of a Rough Shanty Town} { } {Ramshackle huts constructed of scrap materials line the narrow lane you\nare stumbling along - stumbling because of the uneven, slippery ground\nwhich is coated in thick red clay. Piles of refuse have been dumped by\nevery door, and unused scraps of building material litter the ground. To\nyour west, you can see a more hospitable road, whilst this lane continues\neastward, and a flimsy hut invites closer inspection to the south of you.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2906} {w} {w} {8} {0} {}
-E { 2918} {s} {s} {4} {0} {}
+E { 6531} {s} {s} {4} {0} {}
 E { 2920} {e} {e} {2} {0} {}
 
 R { 2918} {0} {} {A Brick Maker's Hut} { } {Glancing at the walls of this ramshackle hut, you pray to yourself that it\nwon't fall down on top of you. Old sheets of rusty iron, planks of wood,\nbroken bricks, and even the odd tree branch have been thrown together to\ncreate this single room abode. Canvas curtains hang across the narrow\ndoorways to the north and east, blocking the elements but also any light\nfrom entering.} {Gold Rush Melbourne } {} {} {} {1.000}
-E { 2917} {n} {n} {1} {0} {}
+E { 6531} {n} {n} {1} {0} {}
 E { 2919} {e} {e} {2} {0} {}
 
 R { 2919} {0} {} {Amidst a Stinking Cess-Pit} { } {How utterly foul!!\nYou are slowly sinking into piles of human refuse, the stench of which is\nalmost overpowering. Nobody warned you to expect anything like this - you\nthought this was meant to be a civilised city!} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2918} {w} {w} {8} {0} {}
-E { 2920} {n} {n} {1} {0} {}
+E { 6533} {n} {n} {1} {0} {}
 E { 2922} {e} {e} {2} {0} {}
 
 R { 2920} {0} {} {Amongst the Brick Maker's Huts} { } {Rough and ready huts line this muddy lane, constructed of a patchwork\nof materials, probably whatever was at hand at the time: broken bricks,\nmetal scraps, roughly hewn wood and simple wattle and daub are all a\npart of it. Piles of debris are next to almost every doorway, and you\nstruggle to maintain your footing on the slippery surface: you wouldn't\nwant to fall into that filth!} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2917} {w} {w} {8} {0} {}
 E { 2921} {e} {e} {2} {0} {}
-E { 2919} {s} {s} {4} {0} {}
+E { 6534} {s} {s} {4} {0} {}
 
 R { 2921} {0} {} {The Clay Pits} { } {Thick red clay is being dug from the ground and shaped into moulds ready for\nbaking in the kiln you see on the far side of the pits. Water is pooled in\nthe bottom of the pits, and the landscape has been transformed into a barren\nwasteland by the work being undertaken.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2920} {w} {w} {8} {0} {}
-E { 2922} {s} {s} {4} {0} {}
+E { 6532} {s} {s} {4} {0} {}
 E { 2923} {e} {e} {2} {0} {}
 
 R { 2922} {0} {} {A Brick Maker's Hut} { } {Glancing at the walls of this ramshackle hut, you pray to yourself that it\nwon't fall down on top of you. Old sheets of rusty iron, planks of wood,\nbroken bricks, and even the odd tree branch have been thrown together to\ncreate this single room abode. Canvas curtains hang across the narrow\ndoorways to the north and west, blocking the elements but also any light\nfrom entering.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2919} {w} {w} {8} {0} {}
-E { 2921} {n} {n} {1} {0} {}
+E { 6532} {n} {n} {1} {0} {}
 
 R { 2923} {0} {} {Punt Road Hill} { } {You are standing on a steep road which slopes down towards the Yarra river\nin the north. Fleetingly you wonder what town planner was so foolish as to\ndesign a road which went straight up the steepest slope of the hill, but\nyou shrug your shoulders and continue on your way.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2921} {w} {w} {8} {0} {}
@@ -12389,7 +12390,7 @@ R { 2943} {0} {} {Strolling Through Carlton} { } {This is definitely the sort of
 E { 2945} {s} {s} {4} {0} {}
 E { 2944} {w} {w} {8} {0} {}
 E { 2971} {e} {e} {2} {0} {}
-E { 5651} {n} {n} {1} {0} {}
+E { 5651} {n} {n} {1} {1} {}
 
 R { 2944} {0} {} {The University's Main Gates} { } {Impressively carved oak gates to your north herald the entrance to the\nnewly established University of Melbourne.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2943} {e} {e} {2} {0} {}
@@ -23983,7 +23984,7 @@ R { 5738} {0} {} {Buffalo Bill's Wild West Rough Riders of the World} { } {Willi
 E { 5736} {n} {n} {1} {0} {}
 
 R { 5739} {0} {} {Path to the Midway} { } {Laughter mingles with terrible screams as sounds from the haunted house and\ncarnival rides emanate from the west. In almost every direction there seems\nto be some sort of frenetic activity or bright signpost to guide to where the\ncenter of the activity is. Yet that center is undefined, it is everywhere.} {Gypsy Carnival } {} {} {} {1.000}
-E { 5783} {s} {s} {4} {0} {}
+E { 6538} {s} {s} {4} {0} {}
 E { 5740} {w} {w} {8} {0} {}
 E { 5912} {e} {e} {2} {0} {}
 
@@ -24046,10 +24047,10 @@ E { 5751} {d} {open d;d} {32} {0} {}
 
 R { 5753} {0} {} {Before the Hall of Wonders} { } {The Hall of Wonders is the institution of the Carnival. The Hall is larger\nthan most other structures within the Carnival and inventions and curiosities\nare displayed within this large space which houses many of life's oddities.\nOf course, the inventions are interesting, but the freaks are the main\nattraction. With awe and apprehension patrons line patiently waiting to\nogle and gasp at the circus geeks and freaks.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5901} {w} {w} {8} {0} {}
-E { 5754} {n} {n} {1} {0} {}
+E { 5754} {n} {open n;n} {1} {0} {}
 
 R { 5754} {0} {} {Inside the Hall of Wonders} { } {People mill about preparing for one wonder or another. The hall is famous for\nits freakshow yet there is also a cinematheque and a difficult mirrormaze to\nindulge the senses. To the east a long line of people wait impatiently to see\nthe freakshow and happily pay the exorbitant price of entry for the privilege.\nThe occasional woman, pale and flustered, is ushered from the show but\ngenerally there are no real mishaps or disasters. Westward is Dr Caligari's\nshow where the somnambulist Cesare will forsee the future and retell the past.} {Gypsy Carnival } {} {} {} {1.000}
-E { 5753} {s} {s} {4} {0} {}
+E { 5753} {s} {open s;s} {4} {0} {}
 E { 5755} {e} {e} {2} {0} {}
 E { 5899} {n} {n} {1} {0} {}
 E { 5902} {w} {open w;w} {8} {0} {}
@@ -24118,17 +24119,19 @@ E { 6344} {s} {s} {4} {0} {}
 R { 5768} {0} {} {A Room in the Hall of Wonders} { } {To the west is the mirrormaze, said to be one of the most difficult around.\nA few contorting mirrors line the walls and groups of patrons have gathered\nto ogle at their strange and hysterical reflections. A big red-painted door\nmarks the entrance to the mirrormaze and a small sign deters children and the\nelderly from entering. North is the gem of the carnival, the cinematheque.\nQuality films from France and around the world are shown to discerning patrons\nof the arts who visit the show in droves. Even from here, the whirring of the\nprojector inside can be heard. Eastward you see the slightly frightened and\npale faces of those who have visited the freakshow as they exit shakily and\nhead directly for fresh air outside.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5899} {s} {s} {4} {0} {}
 E { 5769} {n} {open n;n} {1} {0} {}
+E { 6536} {w} {open w;w} {8} {0} {}
 
 R { 5769} {0} {} {Inside a Darkened Cinamateque} { } {A beam of light cuts through the stale smoke from a hundred cigarettes and\npipes which fill this room with a thick and impenetrable air. The light\ncarries images which illuminate a small screen set up in the front of the\nroom, magically replaying actions and sometimes animation in motion. An\nupright piano stands in a corner by the screen, and a pianist accompanies\nthe scenes with atmospheric music. Behind the rows of wooden benches is a\nprojection booth from which is shown the latest films from Paris and\noccasionally film from the famous Lumiere Brothers whose screenings are\nalways crammed with eager audiences waiting on another grand spectacle. So\nvivid and exciting are the magical displays of light that the occasional\npatron is carried from the room on a stretcher which is always kept on hand\nin the case of a fainting spell or seizure. Yet the risks do not seem to\ndeter the viewers from the cinematheque, indeed, the more fantastic and\nfearsome the vision, the louder the catcalls and cheers from the audience.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5768} {s} {open s;s} {4} {0} {}
 E { 5770} {n} {n} {1} {0} {}
+E { 6535} {u} {u} {16} {0} {}
 
 R { 5770} {0} {} {Standing Before the Screen} { } {Your vision is somewhat blurred from the bright light which shines directly\nin your eyes. You can, however, see the silhouette of your frame on the screen\nwhich breaks the image from the projector - as can everyone else in the room.\nYou are bombarded with boos and hissing from the audience and you assume now\nwould be a good time to take your seat and stop procrastinating. Down in front!} {Gypsy Carnival } {} {} {} {1.000}
 E { 5769} {s} {s} {4} {0} {}
-E { 5771} {n} {open n;n} {1} {0} {}
+E { 5771} {n} {n} {1} {0} {}
 
 R { 5771} {0} {} {A Brightly Coloured Caravan} { } {This caravan is so bright that there is nowhere for the eyes to rest\ncomfortably. A large red couch stands center room and before it is a coffee\ntable covered in a multi-coloured cloth. A huge vase of flowers stand center\ntable and reflect the bright reds and pinks of the wallpaper. A bed rests in\nthe corner of the room, blanketed in thick blue and yellow quilts and at its\nfeet stands an elaborate Turkish rug which looks more like an explosion than a\ncarpet. Curiously, each item of furniture is echoed by its twin in miniature.\nNext to the bed stands a smaller bed, the couch is flanked by a miniature\ncouch and next to the armchair is its tiny replica. Perhaps a spoiled child\nlives here.} {Gypsy Carnival } {} {} {} {1.000}
-E { 5770} {s} {open s;s} {4} {0} {}
+E { 5770} {s} {s} {4} {0} {}
 
 R { 5772} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 5777} {s} {s} {4} {0} {}
@@ -24147,9 +24150,10 @@ R { 5775} {0} {} {On an Overgrown Pathway} { } {To the north thick grey smoke bi
 E { 5774} {s} {s} {4} {0} {}
 E { 5776} {n} {n} {1} {0} {}
 
-R { 5776} {0} {} {The Entrance to the Performers' Quarters} { } {The sight of all the caravans in the performers' quarters lined in haphazard\nrows is enchanting. Each caravan looks like a miniature home and each is\ndecorated in a unique and generally bohemian style. The sounds of singing,\nmusic and laughter float from each home and children run freely amongst the\nanimals and livestock which are not contained by cages or wires. Freshly\nwashed laundry hangs on lines which are strung between the caravans and dries\nin the cool breeze and horses stand near each home, ready to carry them to\ntheir next destination at any moment.} {} {} {} {} {1.000}
+R { 5776} {0} {} {The Entrance to the Performers' Quarters} { } {The sight of all the caravans in the performers' quarters lined in haphazard\nrows is enchanting. Each caravan looks like a miniature home and each is\ndecorated in a unique and generally bohemian style. The sounds of singing,\nmusic and laughter float from each home and children run freely amongst the\nanimals and livestock which are not contained by cages or wires. Freshly\nwashed laundry hangs on lines which are strung between the caravans and dries\nin the cool breeze and horses stand near each home, ready to carry them to\ntheir next destination at any moment.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5775} {s} {s} {4} {0} {}
 E { 5779} {e} {e} {2} {0} {}
+E { 6542} {w} {open w;w} {8} {0} {}
 
 R { 5777} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 5772} {n} {n} {1} {0} {}
@@ -24159,34 +24163,43 @@ R { 5778} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 5777} {n} {n} {1} {0} {}
 E { 5788} {s} {s} {4} {0} {}
 
-R { 5779} {0} {} {A Busy Pathway in the Performers' Quarters} { } {This pathway marks the entrance to the performers' quarters where they live,\neat and sleep in caravans and tents. The pathway is lined with pots of flowers\nwhich scent the air exquisitely. Gypsy children play amongst the animals and\nperformers who mill about everywhere. Performers brush past on their way to\nthe diningroom to the north and the swinging door creaks loudly, affording\neach performer a grand entrance.} {} {} {} {} {1.000}
+R { 5779} {0} {} {A Busy Pathway in the Performers' Quarters} { } {This pathway marks the entrance to the performers' quarters where they live,\neat and sleep in caravans and tents. The pathway is lined with pots of flowers\nwhich scent the air exquisitely. Gypsy children play amongst the animals and\nperformers who mill about everywhere. Performers brush past on their way to\nthe diningroom to the north and the swinging door creaks loudly, affording\neach performer a grand entrance.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5776} {w} {w} {8} {0} {}
 E { 5780} {e} {e} {2} {0} {}
+E { 6543} {n} {open n;n} {1} {0} {}
+E { 6551} {s} {s} {4} {0} {}
 
-R { 5780} {0} {} {On a Path in the Performers' Quarters} { } {This path winds its way through the performers' quarters which is filled with\nflamboyant caravans, a dining tent, kitchen and other living areas. Children\nand animals run everywhere and there is an air of chaotic homeliness as smoke\nwafts from caravan chimneys and lace curtains billow at their windows. Each\ncaravan is decorated to display the unique style of each inhabitant, though\nstrings of washing and broken toys also dot the pathway and engulf the\ncaravans in their clutter. Standing by the path is a charming little home on\nwheels. It is painted a dark green which is edged with cream on the\nwindowsills and wooden ornaments. The roof is tiled in red shingles which\naccentuate the green of the caravan. Around the caravan are potted flowers of\nmany exotic types, obviously collected on the many journeys that the carnival\nmakes around the world.} {} {} {} {} {1.000}
+R { 5780} {0} {} {On a Path in the Performers' Quarters} { } {This path winds its way through the performers' quarters which is filled with\nflamboyant caravans, a dining tent, kitchen and other living areas. Children\nand animals run everywhere and there is an air of chaotic homeliness as smoke\nwafts from caravan chimneys and lace curtains billow at their windows. Each\ncaravan is decorated to display the unique style of each inhabitant, though\nstrings of washing and broken toys also dot the pathway and engulf the\ncaravans in their clutter. Standing by the path is a charming little home on\nwheels. It is painted a dark green which is edged with cream on the\nwindowsills and wooden ornaments. The roof is tiled in red shingles which\naccentuate the green of the caravan. Around the caravan are potted flowers of\nmany exotic types, obviously collected on the many journeys that the carnival\nmakes around the world.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5779} {w} {w} {8} {0} {}
-E { 5781} {s} {s} {4} {0} {}
+E { 6550} {s} {s} {4} {0} {}
+E { 6545} {n} {open n;n} {1} {0} {}
+E { 6546} {e} {open e;e} {2} {0} {}
 
-R { 5781} {0} {} {On a Pathway Through the Performers' Quarters} { } {A muddy pathway leads the way between the performers' caravans which line the\npath with their brightly coloured and decorated facades. Everywhere children\nrough house and chickens and livestock wander amongst them oblivious to their\nnoise and fights. Lanterns hang from every caravan and pots of sunflowers and\ngerberas grace every doorstop and windowsill. On either side of this pathway\nstand charming caravans nestled amongst the bushes and wildflowers. Each\ncaravan is painted in a unique style yet when seen together they compliment\neach other with their beauty and simplicity. From one small home the chimney\npuffs billows of smoke which fill the air with the scent of eucalyptus and\ncamphor and from another, the scent of fresh baking intoxicates the senses and\nwarms the skin in its delighful aroma.} {} {} {} {} {1.000}
-E { 5780} {n} {n} {1} {0} {}
+R { 5781} {0} {} {On a Pathway Through the Performers' Quarters} { } {A muddy pathway leads the way between the performers' caravans which line the\npath with their brightly coloured and decorated facades. Everywhere children\nrough house and chickens and livestock wander amongst them oblivious to their\nnoise and fights. Lanterns hang from every caravan and pots of sunflowers and\ngerberas grace every doorstop and windowsill. On either side of this pathway\nstand charming caravans nestled amongst the bushes and wildflowers. Each\ncaravan is painted in a unique style yet when seen together they compliment\neach other with their beauty and simplicity. From one small home the chimney\npuffs billows of smoke which fill the air with the scent of eucalyptus and\ncamphor and from another, the scent of fresh baking intoxicates the senses and\nwarms the skin in its delighful aroma.} {Gypsy Carnival } {} {} {} {1.000}
+E { 6550} {n} {n} {1} {0} {}
 E { 5782} {s} {s} {4} {0} {}
+E { 6547} {e} {open e;e} {2} {0} {}
+E { 6548} {w} {open w;w} {8} {0} {}
 
-R { 5782} {0} {} {At the End of a Pathway} { } {The pathway of the performers' quarters ends here. No children play in this\narea, nor does anyone else wander the path. The caravan to the south is larger\nthan all the others, and unadorned. Dark curtains hang at the windows and,\nalthough the pathway is clean and well-kempt, there are no pot plants or\ndecorations as is popular everywhere else in the performers' quarters.} {} {} {} {} {1.000}
+R { 5782} {0} {} {At the End of a Pathway} { } {The pathway of the performers' quarters ends here. No children play in this\narea, nor does anyone else wander the path. The caravan to the south is larger\nthan all the others, and unadorned. Dark curtains hang at the windows and,\nalthough the pathway is clean and well-kempt, there are no pot plants or\ndecorations as is popular everywhere else in the performers' quarters.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5781} {n} {n} {1} {0} {}
+E { 6549} {s} {open s;s} {4} {0} {}
 
 R { 5783} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 5772} {s} {s} {4} {0} {}
-E { 5739} {n} {n} {1} {0} {}
+E { 6538} {n} {n} {1} {0} {}
 
 R { 5784} {0} {} {A Backstage Hall} { } {Few performers wander here and although this makes a refreshing change from\nthe clutter of the hall further down\; the silence is somewhat disquieting.\nPeople speak in hushed tones as they scurry past the doors which lead from\nthis section of the hallway and keep their eyes firmly planted to the ground.\nThe carpet underfoot is ugly and worn, covered with patches of dirt never to\nbe removed. A little light streams from the small glass square cut into the\ndoor to the north though it is stained with dust and greasy stains which cloud\nany view to outside.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5773} {n} {open n;n} {1} {0} {}
-E { 5785} {s} {s} {4} {0} {}
+E { 6537} {s} {s} {4} {0} {}
+E { 6539} {e} {e} {2} {0} {}
+E { 6540} {w} {w} {8} {0} {}
 
 R { 5785} {0} {} {A Hallway Backstage} { } {Performers mill about the hall waiting to enter the ring or ready to change\noutfits. The wooden floors creak and moan with every step as performers try to\nsqueeze by the clowns and manoeuvre past the acrobats. Doors lead from the\nhallway in all directions and lead to dressing rooms and the trainer's office.\nFrom this position the stage door at the end of the hall is visible, though\nseems to be unmarked.} {Gypsy Carnival } {} {} {} {1.000}
-E { 5784} {n} {n} {1} {0} {}
+E { 6537} {n} {n} {1} {0} {}
 E { 5786} {s} {s} {4} {0} {}
-E { 5905} {e} {e} {2} {0} {}
-E { 5907} {w} {w} {8} {0} {}
+E { 5905} {e} {open e;e} {2} {0} {}
+E { 5907} {w} {open w;w} {8} {0} {}
 
 R { 5786} {0} {} {In the Centre Ring} { } {This centre ring is enormous and stands waiting to be filled by the enchanting\npresence of the Ringmaster. This is the Ringmaster's domain and none can deny\nit. From this position the rows of seats become a blur in the semi-darkness\nand the many lanterns which encircle the ring shine in your face and eyes,\nwarming you in their glow and cocooning you in their comforting yellow hues.\nSounds spill into the ring from all directions yet are lost to one great\nsingular noise which washes over you and blocks out any individual\ndistraction. From this position one must have complete control over the side\nrings and the actions of the performers, must be prepared for disaster and\nsuccess... and that which lies in between.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5785} {n} {open n;n} {1} {0} {}
@@ -24253,6 +24266,7 @@ E { 6307} {s} {s} {4} {0} {}
 
 R { 5800} {0} {} {The Ferry Landing} { } {Pitch covered pilings support these thick oaken planks. Bollards are bolted\ntightly into the planks to allow the ferry to tie up here. Sea gulls leap into\nthe air and fight over scraps of fish and bits of shiny trash floating in the\nwater. A large wooden plank has the ferry schedule tacked to it.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 5799} {w} {w} {8} {0} {}
+E { 6492} {e} {e} {2} {0} {}
 
 R { 5801} {0} {} {Mrs. O'Leary's Inn and Boarding House} { } {As you step inside this inn, the smell of fresh-baked sourdough nearly knocks\nyou off your feet. Tidy chintz curtains and a well scrubbed floor combine to\nlend a homey feel to this place. A few tables are scattered around, each with\nfour chairs tucked snugly underneath and a bright red tablecloth on top. Vases\nwith fresh flowers dot the tables and the smell of hearty home-cooking wafts\nfrom the open doorway to the north. A polished staircase leads up to the\nsleeping rooms upstairs. A sign above the kitchen doorway catches your eye.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 5795} {w} {open w;w} {8} {0} {}
@@ -24687,14 +24701,14 @@ E { 5773} {e} {e} {2} {0} {}
 E { 5912} {w} {w} {8} {0} {}
 
 R { 5905} {0} {} {A Dilapidated Dressing-Room} { } {Clothing, make-up, shoes and accessories cover every imaginable surface. A\nlong dressing table rests against the back wall and a mirror hangs above it.\nThe paint peels from the walls in long strips and large stains mark the worn\nand dirty rugs on the wooden floor. Racks of costumes form cluttered rows\nagainst one wall as outfits of all kinds, satins, pom-poms, bows, baggy\ntrousers and leotards hang from hooks on each rack. Three large mirrors stand\nupright against the walls though are clouded with greasy fingerprints and\nmakeup smears. Underfoot small pots of glitter and brightly coloured\nfacepaints crunch and squelch with every step. In a few places small buckets,\nbowls and jars fill with the many drips of water which stain the walls and\nfloor as they fall steadily from small cracks in the ceiling.} {Gypsy Carnival } {} {} {} {1.000}
-E { 5785} {w} {w} {8} {0} {}
+E { 5785} {w} {open w;w} {8} {0} {}
 E { 5906} {n} {open n;n} {1} {0} {}
 
 R { 5906} {0} {} {In an Ensuite} { } {A wooden shelf rests waist-high with a removable porcelain pot embedded in the\ncentre. Books and pamphlets lie in piles everywhere and, unfortunately, this\nroom is windowless. The water in the small basin has been neglected and become\ncold, and the water in the jug is almost empty. This is Victorian\ncivilisation.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5905} {s} {open s;s} {4} {0} {}
 
 R { 5907} {0} {} {The Trainer's Room} { } {Whips, half-chewed chairs and jumping circles lie scattered over the floor\nand hang from hooks on the walls. In the corner is a fold-out cot bed on\nwhich lie a pile of rumpled blankets. Behind the bed is a battered wooden\nshelf which displays a few personal belongings, all nondescript and either\nbroken or well-worn. A glass and wood cabinet exhibits an impressive\ncollection of rifles and knives under lock and key and, from the sounds of\nthe roars and howls from the cages nearby, one can take certain comfort in\ntheir presence. A small window over the bed is curtained in functional brown\ncloth which matches the dour brown of the bedding. It is apparent that the\ntrainer is hardly concerned with beauty or cleanliness in his dwellings.} {Gypsy Carnival } {} {} {} {1.000}
-E { 5785} {e} {e} {2} {0} {}
+E { 5785} {e} {open e;e} {2} {0} {}
 
 R { 5908} {0} {} {In the Big Cats' Side Ring} { } {This ring is smaller than the centre ring yet boasts a gilt cage which houses\nthe big cats who perform dangerous stunts at the threat of the whip. Rings of\nfire hang 6 feet in the air and the cats jump time and again through them -\nsingeing their fur and burning their paws on occasion. Large balls roll across\nthe ground under the cats' great paws as they balance precariously upon their\nrounded surfaces. Clumps of matted fur speckle the ground which is dotted with\nblood and soaked in animal waste. The hay underfoot has become pulpy and\nretained a terrible stench and desperately needs to be cleaned. A few brightly\npainted podiums dot the ring for the cats to stand upon, and the traditional\nchairs and whips lie in a haphazard pile along the side of the ring. From a\ndistance the cats seem well-groomed and trained, but it is here that one can\nsee their true degradation.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5786} {w} {w} {8} {0} {}
@@ -25271,7 +25285,7 @@ R { 6052} {0} {} {The Press Room} { } {This is the actual building where the Bol
 E { 6051} {w} {w} {8} {0} {}
 
 R { 6053} {0} {} {An Adventure Outfitter's} { } {The walls of this shop are covered in murals depicting scenes of battle and\nviolence from the world over. The counters and shelves are covered with all\nsorts of different survival gear, and displayed with pride behind the main\ncounter is a collection of guns from throughout the world. Hung with care\nover the doorway is a tintype photograph of Tsar Nicholas from his coronation.} {Russian Revolution of 1917 } {} {} {} {1.000}
-E { 5422} {e} {open e;e} {2} {0} {}
+E { 5422} {e} {e} {2} {0} {}
 
 R { 6054} {0} {} {The Nevsky Prospekt, Outside the Duma} { } {As the road bends, off to one side you see the parliamentary building that is\nthe seat of the city government. They represent the people of the city to the\nTsar. The reformation of that organization was a direct result of the\nrevolution in 1905.} {Russian Revolution of 1917 } {} {} {} {1.000}
 E { 6057} {n} {n} {1} {0} {}
@@ -25970,11 +25984,12 @@ E { 6226} {s} {s} {4} {0} {}
 
 R { 6224} {0} {} {On a Junk} { } {From here you can see the Pacific, by fits and starts through waving foliage.\nThis junk has clearly been very carefully concealed. As you look down over the\nedge to the water, you see that it has also been anchored so efficiently that\nit is unlikely it will ever move again. This is a permanent residence for\nsomeone very powerful... The deck leads east, and the prow is to the west. A\ndoor leads north into the cabin, inner sanctum of the captain.} {South Seas } {} {} {} {1.000}
 E { 6223} {e} {e} {2} {0} {}
-E { 6225} {n} {n} {1} {0} {}
+E { 6225} {n} {open n;n} {1} {0} {}
 E { 6236} {w} {w} {8} {0} {}
 
 R { 6225} {0} {} {Inside the Cabin} { } {Red and gold silks hang from the bulkheads here, and velvety pillows are piled\neverywhere. To the south a door leads back out, but your eyes are drawn more\nto the gorgeous paintings, the amazing gold figurines, the coins sitting\ncasually on the low tables, and the stunning silk screen that serves as a door\nto the private chambers to the east.} {South Seas } {} {} {} {1.000}
-E { 6224} {s} {s} {4} {0} {}
+E { 6224} {s} {open s;s} {4} {0} {}
+E { 6529} {e} {open e;e} {2} {0} {}
 
 R { 6226} {0} {} {The Rear Deck of the Junk} { } {Here at the rear of the junk you can see the whole of the vessel, and it looks\nlike a fairy tale: a clumsy, wide, cumbersome ship, placed delicately amidst\nsoft glowing greens and blues, perfectly centered and anchored in a tiny pool\nof water that hardly offers passage out to the ocean, surrounded by\noverhanging plants and vines, yet kept scrupulously clean and in tip-top\nshape.} {South Seas } {} {} {} {1.000}
 E { 6223} {n} {n} {1} {0} {}
@@ -26319,6 +26334,8 @@ E { 6313} {u} {u} {16} {0} {}
 R { 6313} {0} {} {A Darkened Hallway} { } {This dark hall leads north from the top of the stairs and doors lead to\nrooms on the east and west walls. Your footsteps echo loudly on the bare\nwooden floor here.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 6312} {d} {d} {32} {0} {}
 E { 6314} {n} {n} {1} {0} {}
+E { 6490} {e} {e} {2} {0} {}
+E { 6491} {w} {w} {8} {0} {}
 
 R { 6314} {0} {} {A Darkened Hallway} { } {This dark hall leads back south to the top of the stairs and doors lead to\nrooms on the east and west walls. Your footsteps echo loudly on the bare wooden\nfloor here.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 6313} {s} {s} {4} {0} {}
@@ -27036,3 +27053,238 @@ E { 6489} {e} {e} {2} {0} {}
 R { 6489} {0} {} {Above the Clouds} { } {Thousands of feet in the skies over France, the only sound you can hear is\nyour plane as it floats along through a panoramic sky free of the poison and\nmadness binding your land bound allies in misery. Wind buffets your plane\nlightly bringing your attention back to reality. In the distance you see a\nspeck of black moving in the sky with you. Perhaps you could ignore it this\ntime...} {Somme, France } {} {} {} {1.000}
 E { 6485} {d} {d} {32} {0} {}
 E { 6488} {w} {w} {8} {0} {}
+
+R { 6490} {0} {} {} { } {} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6313} {w} {w} {8} {0} {}
+
+R { 6491} {0} {} {} { } {} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6313} {e} {e} {2} {0} {}
+
+R { 6492} {0} {} {Near the Landing} { } {The bay stretches out to the east. Rumors insist the bay is full of sharks,\nbut you have yet to lay eyes on that tell-tale fin sliding silently through\nthe fog-kissed waters. A dilapidated landing built of thick oak planks lies\nto the west. Sea gulls and the weather have painted the landing a blotchy\ngreyish white. The bollards look like a good a place as any to which to tie\nup your boat.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 5800} {w} {w} {8} {0} {}
+E { 6493} {e} {e} {2} {0} {}
+
+R { 6493} {0} {} {In the Bay} { } {Too far to turn back now, you sit looking out across the water itching to\nreach the east side. You can barely see where you left the far western shore\nfrom here. It looks like the only thing to do is press on and make landfall\nto the east, before you attempt to cross the bay again.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6494} {e} {e} {2} {0} {}
+
+R { 6494} {0} {} {At the Mouth of the American River} { } {Someone, probably an enterprising young man, looking to make an easier profit\nthan the back breaking work of mining or panning for gold, has set up a small\ndock to the north that serves as a landing for the ferry on this side of the\nbay.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6495} {e} {e} {2} {0} {}
+E { 6496} {w} {w} {8} {0} {}
+E { 6497} {n} {n} {1} {0} {}
+
+R { 6495} {0} {} {On the American River} { } {The river here is deep in the center, but the edges spill across the flat\nbanks, extending them a good 20 feet to either side of the channel. During\nthe day the shallows are crowded with men and boys and even some women,\nsifting through tons of dirt, rocks, and silt as they pan for gold. The river\ncontinues to the northeast and a small landing has been constructed on the\nnorthwest bank.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6496} {w} {w} {8} {0} {}
+E { 6499} {n} {n} {1} {0} {}
+E { 6500} {d} {d} {32} {0} {}
+
+R { 6496} {0} {} {In the Bay} { } {Too far to turn back now, you sit looking out across the water itching to\nreach the west side. You can barely see where you left the far eastern shore\nfrom here. It looks like the only thing to do is press on and make landfall\nto the west, before you attempt to cross the bay again.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6492} {w} {w} {8} {0} {}
+
+R { 6497} {0} {} {The Landing} { } {Rough boards, barely thick or wide enough to be considered planks, have been\nnailed together and form a dry place to stand as you wait for the ferry. A\nsign has been tacked up to one of the posts. A dirt path, worn by the daily\ntrudging of hundreds of feet, leads off to the northeast and the river flows\nby you to the south and east.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6494} {s} {s} {4} {0} {}
+E { 6498} {n} {n} {1} {0} {}
+E { 6499} {e} {e} {2} {0} {}
+
+R { 6498} {0} {} {Near the Mill} { } {A road, actually not more than a heavily beaten path, leads from the dock to\nthe nearby sawmill. Workers from the mill and miners from the hills trod this\npath down every morning and night. You can reach the mill to the east and the\ndocks to the south. The lumberyards skirt the edge of the road making it\neasy to cart the goods to the landing to take to town.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6497} {s} {s} {4} {0} {}
+E { 6501} {e} {e} {2} {0} {}
+
+R { 6499} {0} {} {On the American River} { } {The waters here flow freely and fast. Many hopeful panners have built sifters\nso that they can process more mud and collect the gold nuggets and dust all\nthe faster here in the shallows. The river widens to the south and narrows\nfurther to the east. A small dock reaching out over the water from the\nnorthern bank, allows people to tie boats while they work in the mill or pan\nfor gold here in the river. A makeshift landing awaits the ferry's arrival to\nthe west.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6497} {w} {w} {8} {0} {}
+E { 6495} {s} {s} {4} {0} {}
+E { 6501} {n} {n} {1} {0} {}
+E { 6509} {e} {e} {2} {0} {}
+
+R { 6500} {0} {} {Along the River Bottom} { } {Rumor has it that there might be a sunken boat filled with gold nuggets that\nhad been hauled from the mine nearby. With the heavy silt and sand carried by\nthe swift current of the river you doubt you could find it without going to a\nlot of hassle and trouble. Then again, it was just a rumor. Probably a tall\ntale like that one about how rubbing behind the backs of your legs with sugar\nwater would keep the mosquitos away. Looks like your only choice is to\nsurface before you run out of air.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6495} {u} {u} {16} {0} {}
+
+R { 6501} {0} {} {The Mill Entrance} { } {The smell of sawdust nearly bowls you over in a coughing and sneezing fit. The\nsounds of heavy machinery can be heard clearly as the mill is kept working by\nthe current of the river. A small flight of steps leads up to a landing at\nthe back of the large room.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6498} {w} {w} {8} {0} {}
+E { 6499} {s} {s} {4} {0} {}
+E { 6502} {u} {u} {16} {1} {}
+
+R { 6502} {0} {} {At the Top of the Stairs} { } {A sign on the door to the east says, 'KEEP OUT!' Steps lead precariously down\nto the mill floor. The sound of the water wheel can be heard clearly from\noutside as it turns the huge cogs and gears of the mill's guts. The smell of\nsawdust is overpowering even up here.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6501} {d} {d} {32} {0} {}
+E { 6510} {e} {e} {2} {0} {}
+
+R { 6503} {0} {} {The Water Wheel} { } {Huge paddles rumble endlessly forced around by the river's current. A large\npole hangs out over the wheel, and you think you might just be able to pull\nyourself up onto it and in the open window. But you better climb quick before\nyou are slammed back down into the river to be drudged up again by the\npaddles.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6507} {d} {d} {32} {0} {}
+E { 6510} {w} {w} {8} {0} {}
+
+R { 6504} {0} {} {A Bend In the River} { } {The river cuts a wide swath out of the southeastern bank, and drops tons of\nsand and silt building up the northwestern bank. The river flows north and\nwesterly here. A saw mill can be seen from the river to the northwest. The\nhills loom up around you to the southeast, the bank too steep to climb.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6509} {w} {w} {8} {0} {}
+E { 6505} {n} {n} {1} {0} {}
+
+R { 6505} {0} {} {Below the Water Wheel} { } {Water splashes down as it's hoisted into the air by the broad paddles of the\nwater wheel. The water churns, stirring up silt and sand making it impossible\nto see down in the water here.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6504} {s} {s} {4} {0} {}
+E { 6506} {e} {e} {2} {0} {}
+E { 6503} {u} {u} {16} {1} {}
+
+R { 6506} {0} {} {Beside the Water Wheel} { } {A great turbine churns away at its work to the west, turning the saw to rips\ntrees into boards and sawdust. A small path leads up from the far bank to the\neast into the hills. Probably just where some prospectors are trying their\nluck at striking a mother lode. The river continues farther north beyond the\nsaw mill.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6505} {w} {w} {8} {0} {}
+E { 6507} {n} {n} {1} {0} {}
+E { 6508} {e} {e} {2} {0} {}
+
+R { 6507} {0} {} {Above the Water Wheel} { } {The water here is rough, confused by the gallons and gallons of water dumped\nback into the river by the water wheel. You can angle to the southeast and\nget past the wheel, but you better do it quick before you get sucked into the\ncurrent that drags the wheel endlessly around and around.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6506} {s} {s} {4} {0} {}
+
+R { 6508} {0} {} {On the River Bank} { } {A small tie up for boats hunkers down at the water's edge. A heavily trodden\npath leads back up into the hills. You can see deep ruts cut into the path\nwhere the heavy sleds the loggers from the mill use to transport their lumber\ndown from the hills have worn into the land. The treeline keeps receding\nfurther and further back on the hillside.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6506} {w} {w} {8} {0} {}
+E { 6511} {e} {e} {2} {0} {}
+
+R { 6509} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6499} {w} {w} {8} {0} {}
+E { 6504} {e} {e} {2} {0} {}
+
+R { 6510} {0} {} {The Superintendent's Office} { } {A very neat and orderly office. Everything seems to be put away in its place.\nA map hangs neatly on the wall showing where trees have been logged recently.\nA sturdy, but comfortable chair sits behind a tidy desk with large drawers and\na row of bookcases with subjects ranging from Geological Studies to Methods\nof Timberland Management. A window overlooks the river on the east side of\nthe room.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6503} {e} {e} {2} {0} {}
+E { 6502} {w} {w} {8} {0} {}
+
+R { 6511} {0} {} {On the Logging Trail} { } {Evidence of the loggers' work is all around you. The hillside has been shorn\nflat, so that the tents of the miners dot it like styptic and a patch of\ngauze on a freshly shaven face. The path the loggers have cut follow the\neasiest lays of the land to the east and the south here. The path continues\ndown to the west where it meets the river's edge.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6508} {w} {w} {8} {0} {}
+E { 6512} {e} {e} {2} {0} {}
+E { 6517} {s} {s} {4} {0} {}
+
+R { 6512} {0} {} {On the Side of the Hill} { } {The hillside slopes sharply here, but the trail has been well worn to the west\nand to the north. Scrubby little pine trees have begun to sprout up on the\nbarren terrain. Bare rock protrudes from the dirt at the higher elevations.\nThe large number people digging, cutting trees, and looking to strike it rich\nseems to have driven all the wildlife away.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6511} {w} {w} {8} {0} {}
+E { 6513} {n} {n} {1} {0} {}
+
+R { 6513} {0} {} {A Logging Camp} { } {From here you can see the river, a silver ribbon cutting across the landscape.\nYou can even follow the rugged trail leading down to it as it cuts across the\nshorn hillside. A stand of trees can be seen beyond the camp, where the\nloggers are ready to begin their harvest. Red plaid and Mr. Levi's newfangled\ndungarees seem to be all the fashion in these parts. The receding treeline\nclimbs up the hillside further to the east.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6512} {s} {s} {4} {0} {}
+E { 6514} {e} {e} {2} {0} {}
+
+R { 6514} {0} {} {In the Old Forest} { } {Here the trees have not yet been ruthlessly cleared from the hillside. Ferns\ngently wave in the breeze and you occasionally hear birdsong. High on the\nhill here, you can see for miles around you. The woods look a bit to wild to\ncross yet, but with the large rock formations above you, you expect this\nmight be a good place to set about staking a claim.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6513} {w} {w} {8} {0} {}
+E { 6515} {e} {e} {2} {0} {}
+
+R { 6515} {0} {} {In the Shadow of an Outcropping} { } {A small tumble-down shack leans heavily to one side here in the shadow of the\nlarge rock out-cropping that either supports or makes up its back wall. The\nwindows have been covered with oiled paper to keep the wind and rain out. A\npile of wood scraps sits beside the shack. The scraps appear to have the\nletters 'TNT' painted roughly on them. On the side of caution, open flames\nshould probably not be carried around here. A path leads west into the\nforest, heading down the hillside.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6514} {w} {w} {8} {0} {}
+E { 6516} {s} {open s;s} {4} {0} {}
+
+R { 6516} {0} {} {Inside a Small Shack} { } {Tin pans have been dropped carelessly on the floor here. A small cot sits over\nto one corner and several wooden crates labeled with red letters sit in the\nother corner of the room. The wooden floorboards creak as you walk across\nthem, protesting your weight. Spiderwebs hang delicately from the corners,\ncatching more dust than insects. The oiled paper windows let a little light\nin from outside during the day, but barely enough to see by without striking\na match.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6515} {n} {open n;n} {1} {0} {}
+
+R { 6517} {0} {} {The Mining Trail} { } {The trail is well worn this way. Boot tracks scar the dirt. The trees still\nstand here, protected by the enormous rocks that jut up out of the earth. The\nway east is blocked by a near cliff face where the rock climbs for the sky and\nif you went west, you'd fall off the side of the hill, never to be heard from\nagain. To the south, the trail continues between two large slabs of rock.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6511} {n} {n} {1} {0} {}
+E { 6518} {s} {s} {4} {0} {}
+
+R { 6518} {0} {} {Between Two Large Slabs of Rock} { } {You stand beneath two large slabs of rock that seem to be reaching for the\nsky. Some bored miner with his wit still intact has scratched something on\nthe rocks. A well-worn trail leads north taking you back down the hillside. A\nsmall hand-painted sign hangs above the wooden timbers that outline an\nentrance into the rock face to the east.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6517} {n} {n} {1} {0} {}
+E { 6519} {e} {e} {2} {0} {}
+
+R { 6519} {0} {} {The Mine Entrance} { } {The wooden timbers outline the entrance to the west. You can see where the\nlight reaches into the cave during the late afternoons as a few small weeds\nare attempting to grow out of the pebbly soil. Two large rocks can be seen\nbeyond the entrance and the mine itself echoes cavernously to the east. A\nside tunnel opens up to the north.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6518} {w} {w} {8} {0} {}
+E { 6520} {n} {n} {1} {0} {}
+E { 6521} {e} {e} {2} {0} {}
+
+R { 6520} {0} {} {A Small Pocket Carved from the Earth} { } {It looks like this is a storage area, used to keep things handy when entering\nthe mine and a convenient place to drop them off when heading home. A few\ncrates and spare shovels lie carelessly tossed about, but nothing new or very\nmuch more useful than your own equipment. The only exit is back south to the\nmain tunnel.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6519} {s} {s} {4} {0} {}
+
+R { 6521} {0} {} {The Top of the Mine Shaft} { } {Set about fifty yards beyond the mine entrance, the main shaft plunges down\ninto the inky black depths. A small conveyor belt mechanism has been\ninstalled to help dredge the ore up out of the bowels of the earth. Strange\nsounds emanate up from the depths, but it is probably just the earth\nsettling, the wind echoing and small rodents eking out their own meager\nexistence.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6519} {w} {w} {8} {0} {}
+E { 6522} {d} {d} {32} {0} {}
+
+R { 6522} {0} {} {The Mine Shaft} { } {This part of the mine has been played out. Some side tunnels have been boarded\nup and others have been bricked up to prevent accidents. As to whether or not\nthere is any ore left in this mine you have your doubts. Your progress echoes\nhollowly through the shaft, every clink of metal against metal resounding\ninto the depths of the shaft.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6521} {u} {u} {16} {0} {}
+E { 6523} {d} {d} {32} {0} {}
+
+R { 6523} {0} {} {The Mine Shaft} { } {A small side tunnel has been carved out to the west following a vein of ore.\nPerhaps it is still mined as the passageway hasn't been closed off. The shaft\ncontinues upwards and down into the depths of the mine from here. The hand\nholds are smooth with much use and at times feel slippery to your touch.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6522} {u} {u} {16} {0} {}
+E { 6524} {w} {w} {8} {0} {}
+E { 6525} {d} {d} {32} {0} {}
+
+R { 6524} {0} {} {A Small Side Tunnel} { } {Seeking to strike it rich and hopefully find the mother lode, some aspiring\nminer has dug deeply away from the main shaft. It looks as if the vein gave\nout rather quickly as the tunnels doesn't continue for very far. A few veins\nthe size of a thread twinkle brightly in the meager light.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6523} {e} {e} {2} {0} {}
+
+R { 6525} {0} {} {The Bottom of a Mine Shaft} { } {The chimney of the main mine shaft towers over you as you stand at the bottom.\nA small tunnel has been excavated to the east. The dampness in the air is\nthick and you can hear the rushing water of an underground stream or river\nnearby. The ground is cluttered with refuse kicked over the edge by careless\nminers. The bones have all been picked clean by the rats and other vermin.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6523} {u} {u} {16} {0} {}
+E { 6526} {e} {e} {2} {0} {}
+
+R { 6526} {0} {} {On the Brink} { } {You stand on the brink of a large chasm. The meager light barely stretches\nbeyond you, seemingly eaten by the cavernous darkness, let alone all the way\nto the other side. The empty space echoes loudly back at you suggesting an\nenormous bubble in the earth. An underground river rushes madly somewhere\nbelow you, but far out of sight.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6525} {w} {w} {8} {0} {}
+E { 6527} {e} {e} {2} {0} {}
+
+R { 6527} {0} {} {\*\* LOST IN A BOTTOMLESS CHASM \*\*} { } {You look down but can't imagine how far down the bottom is beyond the tiny\ncircle of light that reaches out around you.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6526} {w} {w} {8} {0} {}
+E { 6528} {e} {e} {2} {0} {}
+
+R { 6528} {0} {} {On the Brink} { } {You stand on the brink of a large chasm. The meager light barely stretches\nbeyond you, seemingly eaten by the cavernous darkness, let alone all the way\nto the other side. The empty space echoes loudly back at you suggesting an\nenormous cavern. An underground river rushes madly somewhere below you, but\nfar out of sight.} {Gold Rush San Francisco } {} {} {} {1.000}
+E { 6527} {w} {w} {8} {0} {}
+
+R { 6529} {0} {} {Wu Chen's Private Chambers} { } {Here you stand in the inner sanctum of the deadliest, most powerful man on the\nSouth Seas. He could have you killed with a flick of the finger. All around\nyou are the riches of countless vessels that European harbormasters have\nchalked up to lost at sea in storms. A screen slides across the room to\nseparate it from the main cabin--Wu Chen does like his privacy while he kills\npeople.} {South Seas } {} {} {} {1.000}
+E { 6225} {w} {open w;w} {8} {0} {}
+
+R { 6530} {0} {} {A Private Boarding House} { } {The wooden panelling and desk in the foyer of this house have obviously been\npolished with great care, and your eyes linger upon a stunning arrangement of\nflowers resting on the desk. This is obviously a genteel establishment,\ncatering for wealthy patrons.} {Gold Rush Melbourne } {} {} {} {1.000}
+E { 2894} {w} {open w;w} {8} {0} {}
+
+R { 6531} {8} {} {A Brick Maker's Hut} { } {Glancing at the walls of this ramshackle hut, you pray to yourself that it\nwon't fall down on top of you. Old sheets of rusty iron, planks of wood,\nbroken bricks, and even the odd tree branch have been thrown together to\ncreate this single room abode. Canvas curtains hang across the narrow\ndoorways to the north and east, blocking the elements but also any light\nfrom entering.} {Gold Rush Melbourne } {} {} {} {1.000}
+E { 2918} {s} {s} {4} {0} {}
+E { 2917} {n} {n} {1} {0} {}
+
+R { 6532} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2922} {s} {s} {4} {0} {}
+E { 2921} {n} {n} {1} {0} {}
+
+R { 6533} {0} {} {A Rough Shack} { } {Like the other abodes along the lane, the walls of this shack are constructed\nof an amazing patchwork of materials, but somehow this one stands out from\nthe rest. Maybe it is the fact that wooden planks have been laid over the dirt\nfloor and scrubbed clean, or maybe it is just a touch cleaner than the others.\nYou can't quite put your finger on what makes it seem so different, but it\ncertainly does.} {Gold Rush Melbourne } {} {} {} {1.000}
+E { 2919} {s} {s} {4} {0} {}
+E { 2920} {n} {n} {1} {0} {}
+
+R { 6534} {8} {} {Amidst a Stinking Cess-Pit} { } {How utterly foul!!\nYou are slowly sinking into piles of human refuse, the stench of which is\nalmost overpowering. Nobody warned you to expect anything like this - you\nthought this was meant to be a civilised city!} {Gold Rush Melbourne } {} {} {} {1.000}
+E { 2920} {n} {n} {1} {0} {}
+E { 2919} {s} {s} {4} {0} {}
+
+R { 6535} {0} {} {In a Smoke-Filled Projection Booth} { } {Two huge projectors with double reels clickety-clack and create a great din,\ntheir parts grinding and whirring as they spin the reels with a terrible\nspeed. Through a glass window which takes up an entire wall the projectionist\ncan see the screen, monitor the program, and check for faults and reel-change.\nReels of film and strips of celluloid clutter every available table and shelf\nspace and a splicing machine with a sharp knife attached stands open mouthed\nnext to the projector, ready to cut and repair any broken or torn film.\nBuckets of sand and water sit by the door in preparation for the many fires\nthat heat from the strong light needed to project the film and celluloid might\nspark - though once one reel sets ablaze, the whole room goes up in smoke.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5769} {d} {d} {32} {0} {}
+
+R { 6536} {0} {} {At the Entrance to the Mirrormaze} { } {Many tales have been told of these fantastic distorting mirrors though it\nwould be difficult not to be surprised by such a terrible figure, featuring\nyour distinct features. This maze is said to be the most convoluted and\ndifficult of any yet created. From inside the maze the sounds of children\ncrying and parents calling frantically for them are all lost within the maze.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5768} {e} {open e;e} {2} {0} {}
+
+R { 6537} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5784} {n} {n} {1} {0} {}
+E { 5785} {s} {s} {4} {0} {}
+
+R { 6538} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5783} {s} {s} {4} {0} {}
+E { 5739} {n} {n} {1} {0} {}
+
+R { 6539} {0} {} {In the Ringmaster's Office} { } {A deep grey carpet covers the floor of this room and muffles any footsteps.\nAcross this room to the desk which faces the door, and a comfortable leather-\ncovered chair, worn and wrinkled with use, is pulled out from its resting\nplace under the desk. The leather is marked with the definition of the body\nthat has indented the seat. A carnival poster is framed on the wall yet the\nglass which covers the picture is clouded and a little grimy - though the room\nis generally tidy and uncluttered. A small picture, framed in silver, rests\nupon the table and is an incongruous adornment to this somewhat spartan room.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5784} {w} {w} {8} {0} {}
+
+R { 6540} {0} {} {In the Manager's Private Office} { } {An impressive dark oak desk shines with a high-polish, and atop it rests a\nlarge silver ashtray filled with the butts of thick, pungent cigars. By the\ndoor is a brass hat-rack which stands at attention, its arms poised high to\ndisplay a tweed cap and a long black coat which almost reaches the deep maroon\ncarpet. Against a wall is a long, dark, leather couch which looks new and\nunused - it seems to serve only a decorative purpose as comfort does not\nappear to be of much importance. Large windows are covered in dark velvet\ncurtains which can be tied with thick gold cord but are left down to block out\nall natural light. There is something of this room which creates an unease -\nthis room is utterly silent. Although it is unnoticeable at first, once it\nbecomes obvious it is curiously jarring to the senses.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5784} {e} {e} {2} {0} {}
+E { 6541} {d} {d} {32} {0} {}
+
+R { 6541} {0} {} {} { } {} {Gypsy Carnival } {} {} {} {1.000}
+E { 6540} {u} {u} {16} {0} {}
+
+R { 6542} {0} {} {Inside an Exotic Caravan} { } {Delicate silks from India drape the walls and bed and rugs from Persia cover\nthe wooden floors of this cosy room. Small white-framed windows are curtained\nwith fine lace from China and incense and spices scent the room with jasmine\nand sandalwood. A small kettle sits on a soot-covered pot-bellied stove which\nserves to warm the room and intensify the exotic scents. There is a lamp here,\nthe coloured glass of its bowl casting warm, pink hues across the room -\nallowing just enough light to read one of the many books which line the walls.\nA wooden-framed bed covered with cushions and plush feather quilts takes up\nmost of the space in this room and begs to be used.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5776} {e} {open e;e} {2} {0} {}
+
+R { 6543} {0} {} {In a Communal Dining Room} { } {This room is fairly unimpressive and simply serves its function. A steady\nstream of performers wander in at all hours of the day and night to sit at the\nlong tables, eat and chat. A shelf is set up in the corner of the room and is\ncovered in an eclectic collection of cutlery, cups and plates of all different\nsizes and styles. The performers line up patiently for their food near the\nkitchen as a large woman dishes grey-looking food onto each plate.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5779} {s} {open s;s} {4} {0} {}
+E { 6544} {w} {w} {8} {0} {}
+
+R { 6544} {0} {} {In a Communal Kitchen} { } {Huge pots, pans and dishes line the walls and hang from hooks hastily nailed\ninto walls. Dishes and jars of cutlery lie in piles on every counter, shelf\nand even on the floor. Hundreds of meals are cooked in this huge tent which is\nstained with the marks from hot steam, oil splashes and debris. Dirty plates\npile up in buckets of lukewarm soapy water, and metal chests are filled with\nall kinds of foodstuffs. Smoked and cured beef, chicken and pig hang in a meat\nlocker, and cheeses, pickled fish and vegetables are sealed in jars and pots\nready to serve the steady stream of performers and workers for the carnival.} {Gypsy Carnival } {} {} {} {1.000}
+E { 6543} {e} {e} {2} {0} {}
+
+R { 6545} {0} {} {In an Extravagant Chinoiserie} { } {This small room has been painted a high-shine red from floor to ceiling and\nornate paper fans decorate every spare wall space. A kimono lies draped on a\nlacquered armchair and the room is lit by small paper lanterns which hang in\nrows from the ceiling. On the floor lie many elaborate rugs which overlap each\nother and clash horribly, each pattern screaming for its own attention yet\nlost in a swirl of colour and shapes. A Chinese-style lacquer bed has been\npainted a deep red and is covered with brocade cushions and a large bedspread\nwith tiny embroidered dragons and cherry-blossoms. All together this room has\na strange Chinese-Victorian theme which has been followed to the extreme of\nits expression.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5780} {s} {open s;s} {4} {0} {}
+
+R { 6546} {0} {} {In a Well-Appointed Caravan} { } {Heavy velvets drape from the ceiling and hang down the walls. Scented candles\ndrip their coloured wax in small puddles as the flames flicker and dance in\nthe semi-darkness of the room. An overstuffed and well-worn emerald velvet\ndivan is engulfed in Baroque cushions of purple and gold and on the floor is a\nplush carpet which is thick and sumptuous underfoot. Behind a Chinese paper\nscreen is an old bed covered in thick feather quilts and downy pillows in dark\ngreens and reds and at the head is an elaborate lace-iron bedhead. On a wall\nis a huge carnival poster framed in antique pine. A small stove burns camphor\nlogs and eucalyptus leaves in its round belly filling this room with warmth\nand rich scents.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5780} {w} {open w;w} {8} {0} {}
+
+R { 6547} {0} {} {In the Ringmaster's Caravan} { } {This room is sparsely decorated and fairly austere though comfortable enough.\nA neatly-made bed stands in the corner of the room and at its feet is a small\nwoven mat. Before a small fireplace sits a battered armchair which has\nappropriated the most comfortable and warmest part of the caravan and, by the\narmchair are a pair of well worn house slippers. Behind a small curtain is a\nclean white wash basin and jug and above them is a small shaving mirror. This\nroom is devoid of the trinkets, posters, momentos and other items yet there is\none small photograph framed simply which rests on a small table by the bed.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5781} {w} {open w;w} {8} {0} {}
+
+R { 6548} {0} {} {In a Beautiful Caravan} { } {Cream lace curtains billow softly at the window, occasionally whipping the air\nwith each strong breath of wind. A polished wooden table stands in the center\nof the room, and atop the table is a glass vase filled with fresh-cut\nwildflowers and climbing roses which drop their petals to form a perfumed\npuddle in the center. A white iron bed stands discretely in a corner of the\nroom and on both sides are tiny bedside tables with fluted lamps and framed\nphotographs. A large wooden dresser leans against a wall and a matching\nbookshelf displays bound editions and worn novels clearly read more than once.\nAt the back of the room by the fire, an antique wicker rocking-chair sways in\nthe breeze from the window as though a ghostly figure rests there.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5781} {e} {open e;e} {2} {0} {}
+
+R { 6549} {0} {} {In the Manager's Caravan} { } {The opulence of this room is surprising considering the seamy dilapidation of\nthe rest of the carnival. A thick red carpet muffles your footsteps and plush\narmchairs encircle a mahogany coffee table. To the back of the room is a\nwriting desk covered in neat piles of papers and files. On every surface are\nbooks, ashtrays, vases of flowers and other trinkets in keeping with the\nhigh-Victorian style currently popular. In an extravagant gilt cage an exotic\nbird occasionally flaps its wings desperately, sending its little mirror in a\nspin. Beside the occasional disruptions of the caged bird, one can just make\nout an air of well-kept clutter here in the half-light of the room as the\nwindows are encased in thick velvet curtains which are kept closed at all\ntimes.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5782} {n} {open n;n} {1} {0} {}
+
+R { 6550} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5781} {s} {s} {4} {0} {}
+E { 5780} {n} {n} {1} {0} {}
+
+R { 6551} {0} {} {A Brightly Coloured Caravan} { } {This caravan is so bright that there is nowhere for the eyes to rest\ncomfortably. A large red couch stands center room and before it is a coffee\ntable covered in a multi-coloured cloth. A huge vase of flowers stand center\ntable and reflect the bright reds and pinks of the wallpaper. A bed rests in\nthe corner of the room, blanketed in thick blue and yellow quilts and at its\nfeet stands an elaborate Turkish rug which looks more like an explosion than a\ncarpet. Curiously, each item of furniture is echoed by its twin in miniature.\nNext to the bed stands a smaller bed, the couch is flanked by a miniature\ncouch and next to the armchair is its tiny replica. Perhaps a spoiled child\nlives here.} {Gypsy Carnival } {} {} {} {1.000}
+E { 5779} {n} {n} {1} {0} {}
