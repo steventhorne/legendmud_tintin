@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 1
+I 1619
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -78,11 +78,11 @@ E {   16} {n} {n} {1} {0} {}
 
 R {   16} {0} {} {A Street in London Town} { } {This dirty street connects the suburbs of south London with the docks that\nextend to the east of the city where the large river Thames meets with the\nChannel. The neighbourhood seems poor and relatively unsafe. To the west, you\ndiscern the large granite building of the Waterloo train station.} {London Port } {} {} {} {1.000}
 E {   15} {s} {s} {4} {0} {}
-E {   17} {w} {w} {8} {0} {}
+E { 6718} {w} {w} {8} {0} {}
 E {   33} {n} {n} {1} {0} {}
 
 R {   17} {0} {} {York Road} { } {You stand in a busy and dirty street in the heart of south London where\ntraffic is heavy and building faces covered with a sticky grey dust. Crossing\nthe street here is almost dangerous as local drivers do not seem to consider\nthe fate of poor pedestrians. As you observe the buildings, a carriage runs\npast you and splashes muddy water all around!} {London Port } {} {} {} {1.000}
-E {   16} {e} {e} {2} {0} {}
+E { 6718} {e} {e} {2} {0} {}
 E {   18} {s} {s} {4} {0} {}
 E {   19} {w} {w} {8} {0} {}
 
@@ -139,7 +139,8 @@ E {   29} {u} {u} {16} {0} {}
 
 R {   31} {0} {} {Pall Mall} { } {This large street of rich and expensive homes is the heart of London's\nclubland. Meeting places where gentlemen can find refuge from their womenfolk,\nthe exclusive clubs are a centre of networking and establishment. The stately\nVictorian interiors of the gentlemen's clubs are cozy, but only members and\ntheir guests are admitted.} {London Port } {} {} {} {1.000}
 E {   32} {w} {w} {8} {0} {}
-E {   40} {e} {e} {2} {0} {}
+E { 6717} {e} {e} {2} {0} {}
+E { 6716} {n} {open n;n} {1} {0} {}
 
 R {   32} {8} {} {} { } {} {} {} {} {} {1.000}
 E {   28} {w} {w} {8} {0} {}
@@ -176,7 +177,7 @@ E { 6319} {e} {e} {2} {0} {}
 
 R {   40} {0} {} {Trafalgar Square} { } {You stand in a huge square on the north bank of the City of London, encircled\nby massive buildings of grey granite and marble. In the middle of the place,\nthe tall Nelson's Column stands, with four giant lions at its base. It was\nbuilt to commemorate the most famous of all British Admirals, Lord Horatio\nNelson. The square was named after the Spanish Cape where Nelson found death at\nthe Battle of Trafalgar in 1805.} {London Port } {} {} {} {1.000}
 E {   34} {s} {s} {4} {0} {}
-E {   31} {w} {w} {8} {0} {}
+E { 6717} {w} {w} {8} {0} {}
 E {   35} {n} {open north;n} {1} {0} {}
 
 R {   41} {8} {} {} { } {} {} {} {} {} {1.000}
@@ -331,7 +332,7 @@ E {   72} {n} {open n;n} {1} {0} {}
 R {   75} {0} {} {The Casablanca Airport} { } {After a short walk you arrive at the airport. This is where some of the lucky\nbegin their trip to freedom. The plane for Lisbon leaves once a day and there\nis always a small crowd of the unlucky to see it off, with hope and longing\nflowing from their eyes. There is one hangar building and a tower along with\na few smaller maintenance buildings. The road heads north, back to town.} {Casablanca } {} {} {} {1.000}
 E {   71} {n} {n} {1} {0} {}
 
-R {   76} {0} {} {The Main Street of Casablanca} { } {This street has seen a lot of people in the past year. Refugees from all over\nEurope must find their way here if they wish to find their way out of this war\ntorn part of the world. Today, like everyday, the people go about their nervous\nquest for passage to neutral Lisbon and from there to the New World. Those who\ndon't seek escape probably try and sell it, for high profit. To the north is\nRick's Cafe Americain. To the south is the Blue Parrot. The street moves east\nand west.} {Casablanca } {} {} {} {1.000}
+R {   76} {0} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over\nEurope must find their way here if they wish to find their way out of this war\ntorn part of the world. Today, like everyday, the people go about their nervous\nquest for passage to neutral Lisbon and from there to the New World. Those who\ndon't seek escape probably try and sell it, for high profit. To the north is\nRick's Cafe Americain. To the south is the Blue Parrot. The street moves east\nand west.} {Casablanca } {} {} {} {1.000}
 E {   71} {w} {w} {8} {0} {}
 E {   77} {s} {open s;s} {4} {0} {}
 E {   78} {n} {open n;n} {1} {0} {}
@@ -2060,27 +2061,27 @@ E {  489} {s} {s} {4} {0} {}
 
 R {  489} {0} {} {The Army of the Iraq} { } {Space is particularly cramped here, as the central path through the camp\nrounds a corner, following the ridgeline overlooking the city. The muddy path\nis thick with people, placing the Iraqis who are camped here under particular\nscrutiny by those passing by. There are some who are less convinced of their\ncommitment to the cause -- their cities were of no immediate interest to the\ninvaders, and they avoided joining the conflict for many years. But they are\nhere now, and their wealth and energy has given them a prominent place in the\narmy.} {The Crusades } {} {} {} {1.000}
 E {  488} {w} {w} {8} {0} {}
-E {  490} {n} {n} {1} {0} {}
-E {  491} {e} {e} {2} {0} {}
+E {  490} {n} {open n;n} {1} {0} {}
 E {  568} {s} {s} {4} {0} {}
 
 R {  490} {0} {} {In the Tent of Zahir ad-Din ibn al-Bulunkari} { } {The merchants of Mosul have long been familiar with life on the road and the\nways of nomadism. Zahir ad-Din is no exception. His tent, roof, walls, and\nfloor are all made of heavy woven cloth, and lined with silk. A metal table\ninlaid with gold holds a copper washbasin and other necessities.} {The Crusades } {} {} {} {1.000}
-E {  489} {s} {s} {4} {0} {}
+E {  489} {s} {open s;s} {4} {0} {}
 
-R {  491} {0} {} {A Well-Appointed Tent} { } {This tent is constructed of a thick gray canvas material, with reinforced\nseams. Another layer of canvas covers the ground, to protect the elegant\ninternal furnishings. A handsome bed takes up most of the space, but the\nowner has also made room for an elegant writing desk and a rack for armor. A\nsoldier's life may be hard, but not once inside this tent.} {Player Housing } {} {} {} {1.000}
-E {  489} {w} {w} {8} {0} {}
+R {  491} {0} {} {Crossing the Orontes at the Walls of Antioch} { } {As you ford the Orontes, minding the slick rocks and whirling currents, your\ngaze inevitably turns to the city of Antioch, which looms above you to the\nwest. The city has been inhabited for more than 1400 years, and within its\nthick walls lie architectural achievements of some of the world's greatest\ncivilizations. The walls themselves are an incredible feat -- 18 miles of\nrock rise up the slope of Mount Silpius. At the rocky summit, more than 1000\nfeet above the river, lies the citadel of Antioch.} {The Crusades } {} {} {} {1.000}
+E { 2220} {e} {e} {2} {0} {}
+E { 6553} {w} {open w;w} {8} {0} {}
 
 R {  492} {0} {} {Heart of the Camp} { } {The camp stretches as far as you can see. Tents in a variety of colors,\npatterns, and shapes extend in all directions, separated only by columns of\nsmoke and the glint of metal. The sloping ground is heavily terraced here.\nThe small spaces of flat ground created by the terraces is normally used to\ngrow a variety of vegetable crops for the people in the town below. Further\nuphill, where the terraces have been used for vineyards and orchards, tents\ncluster around the trees for shelter.} {The Crusades } {} {} {} {1.000}
 E {  568} {n} {n} {1} {0} {}
-E {  493} {e} {e} {2} {0} {}
-E {  494} {w} {w} {8} {0} {}
+E {  493} {e} {open e;e} {2} {0} {}
+E {  494} {w} {open w;w} {8} {0} {}
 E {  530} {s} {s} {4} {0} {}
 
 R {  493} {0} {} {The Camp Armory} { } {The unclaimed armor and weapons from preceding battles is accumulated before\nyou. Some of the pieces are European design, while others are more Eastern in\nstyle. Although much of it is shabby from use, it would suit any new\nvolunteer from a family too poor to provide equipment. The shadowy room is\nfilled with the stench of battle, which could not be washed from the articles\nit contains.} {The Crusades } {} {} {} {1.000}
-E {  492} {w} {w} {8} {0} {}
+E {  492} {w} {open w;w} {8} {0} {}
 
 R {  494} {0} {} {In the Food Stores} { } {The Muslim army deposits all donated and collected food here. The collective\neffort is necessary -- although many of the regional armies came with their\nown food supplies, many of the soldiers are from poorer backgrounds or\ndevastated countrysides. The room is roughly divided, with perishables up\nfront and grains and preserved food toward the back.} {The Crusades } {} {} {} {1.000}
-E {  492} {e} {e} {2} {0} {}
+E {  492} {e} {open e;e} {2} {0} {}
 
 R {  495} {0} {} {The Egyptian Army} { } {The tents here are of particularly fine weave, and painted with intricate\ncalligraphic designs. These men form the bulk of the fighting force,\nfollowing their beloved commander Salah Ad-Din. His skill on the battlefield,\nemanating from such a small frame, inspires each to do his best, hoping that\nAllah will choose him also to be a bringer of freedom and justice to the\nland. They have won victory after victory -- the tide seems to be turning --\nand Saladin has promised them, that after Akka they will retake the holy city\nof Jerusalem.} {The Crusades } {} {} {} {1.000}
 E {  530} {n} {n} {1} {0} {}
@@ -2121,12 +2122,12 @@ E { 2032} {n} {n} {1} {0} {}
 
 R {  504} {0} {} {The Egyptian Army} { } {The Egyptian camp spreads out all around you, with only tents and campfires\nand people wandering between them, as far as the eye can see. The camp has\nbeen set up in and around the terraced hillside. As you walk among the\nimplements of war and struggle, you also confront the peaceful normalcy\nof carefully-tended grape vines and olive groves.} {The Crusades } {} {} {} {1.000}
 E {  513} {n} {n} {1} {0} {}
-E {  505} {e} {e} {2} {0} {}
+E {  505} {e} {open e;e} {2} {0} {}
 E {  506} {s} {s} {4} {0} {}
 E {  507} {w} {w} {8} {0} {}
 
 R {  505} {0} {} {Inside an Expensive Tent} { } {This tent is home to a man of considerable means, but perhaps not much\ninitial understanding of the realities of war. The sides and roof are of the\nfinest silk, decorated with gold brocade, which is beginning to sag and rip\nin many places. The exquisitely delicate carpets are spattered with mud, and\na stump has been hauled in to replace a table which was smashed on the trip\nfrom Alexandria.} {The Crusades } {} {} {} {1.000}
-E {  504} {w} {w} {8} {0} {}
+E {  504} {w} {open w;w} {8} {0} {}
 
 R {  506} {0} {} {The Warriors of the Hijaz} { } {The Hijaz is the region where the holy cities of Mecca and Medina lie, along\nthe coast of the Red Sea in what is now Saudi Arabia. This is not quite what\nyou might have expected to find in the middle of a war: scholars, teachers,\nscientists -- many of the age's most creative thinkers -- gathered to\nsupport, in what way they can, the only cause that they all agree upon. A few\nseem devoted to playing a curious-looking game, while others are engaged in\nlively debate about minutiae. Two men huddle anxiously around a parchment\nplan for building a catapult, while another stands a way off, mixing\nstrange-smelling components.} {The Crusades } {} {} {} {1.000}
 E {  504} {n} {n} {1} {0} {}
@@ -2323,8 +2324,8 @@ E {  552} {n} {n} {1} {0} {}
 
 R {  554} {0} {} {Sharih' al-Thalj, Outside the Inn of the Seventh Veil} { } {The street here is crowded with many people sitting outside and milling\nabout, and small children playing in the street. A grand inn stands to your\nwest, covered with tile mosaic of a geometrical pattern that you can't quite\nfollow. This inn was the palace of a noble family whose heirs have\ndisappeared...it is said that they were spirited away by jinn.} {The Crusades } {} {} {} {1.000}
 E {  552} {s} {s} {4} {0} {}
-E {  556} {e} {e} {2} {0} {}
-E {  557} {w} {w} {8} {0} {}
+E {  556} {e} {open e;e} {2} {0} {}
+E {  557} {w} {open w;w} {8} {0} {}
 E {  558} {n} {n} {1} {0} {}
 
 R {  555} {8} {} {} { } {} {} {} {} {} {1.000}
@@ -2332,61 +2333,61 @@ E {  549} {e} {e} {2} {0} {}
 E {  566} {w} {w} {8} {0} {}
 
 R {  556} {0} {} {In a Smoky Maqha} { } {A warm sensation fills your body as all the smells of this coffee shop wrap\naround you: the sweet tobacco smoke, the bitter coffee, the heavy incense.\nThe small stage area in front of you is surrounded by chairs and low tables.\nA counter that conceals the secrets of coffee-making flanks the stage to your\nright, and a long tapestry covers the wall to your left. The room is always\nfilled with people, but it is most crowded in the after-dinner hours.} {The Crusades } {} {} {} {1.000}
-E {  554} {w} {w} {8} {0} {}
+E {  554} {w} {open w;w} {8} {0} {}
 
 R {  557} {0} {<029>} {The Inn of the Seventh Veil} {I} {This inn welcomes any and all, from sailor to sheikh. The walls are hung with\ntapestries, and the floor covered with carpets. The room is divided by many\nscreens to allow privacy for those eating, or waiting for their room to be\nprepared, or meeting with business associates. A few chairs with huge\ncushions sit close to a charcoal brazier, and a pile of pillows surrounds a\nlow table. The air seems filled with secrets told in imperceptible whispers,\ndisguises slowly slipping, and the tales of adventures which might be.} {The Crusades } {} {} {} {1.000}
-E {  554} {e} {e} {2} {0} {}
+E {  554} {e} {open e;e} {2} {0} {}
 
 R {  558} {0} {} {Sharih' al-Thalj} { } {This is a lovely residential street, clearly part of one of the nicer\nneighborhoods in the city. Gravelly rock from the surrounding land has been\nbrought in to keep the dust down, and the neat stone houses are accented by\nattractive murals and painted woodwork.} {The Crusades } {} {} {} {1.000}
 E {  554} {s} {s} {4} {0} {}
-E {  559} {w} {w} {8} {0} {}
+E {  559} {w} {open w;w} {8} {0} {}
 E {  560} {e} {open e;e} {2} {0} {}
 E {  561} {n} {n} {1} {0} {}
 
 R {  559} {0} {} {A Modest House} { } {This house is small but clean and carefully swept. The carpet is slightly\nworn, and was probably made by the children as part of their education.\nAlthough the family was unable to afford a separate harim, one of the\nbedrooms has been converted into a separate family area. Offering what\nhospitality the family can afford, a low table is here, with soft cushions\non the floor beneath it.} {The Crusades } {} {} {} {1.000}
-E {  558} {e} {e} {2} {0} {}
+E {  558} {e} {open e;e} {2} {0} {}
 
 R {  560} {0} {} {Inside a Welcoming House} { } {The housekeeping in this house is not precisely what one might call perfect.\nThe floor is scattered with little dolls, wood carvings and bits of cloth and\nthread. It is obvious that little children play here with abandon, encouraged\nby their parents. The walls are decorated with a charming mosaic of\ncalligraphy and animals and plants of all descriptions.} {The Crusades } {} {} {} {1.000}
 E {  558} {w} {open w;w} {8} {0} {}
 
 R {  561} {0} {} {In Sharih' al-Thalj} { } {The street continues north and south between the houses. People hurry past,\ntheir eyes downturned with introspection. The street is quiet and plain, but\nclean. It is clear that the people who live in this stretch of the road are\nanxious to make a good impression on whoever might be passing by.} {The Crusades } {} {} {} {1.000}
 E {  558} {s} {s} {4} {0} {}
-E {  562} {e} {e} {2} {0} {}
-E {  563} {w} {w} {8} {0} {}
+E {  562} {e} {open e;e} {2} {0} {}
+E {  563} {w} {open w;w} {8} {0} {}
 E {  564} {n} {n} {1} {0} {}
 
 R {  562} {0} {} {Inside a Modest House} { } {The house has been carefully kept, though it is clear the owners may not be\npeople of much means. The threadbare carpets are clean, and the worn cushions\nhave been freshly fluffed. A low table, slightly battered but lovingly\npolished, offers refreshment to visitors.} {The Crusades } {} {} {} {1.000}
-E {  561} {w} {w} {8} {0} {}
+E {  561} {w} {open w;w} {8} {0} {}
 
 R {  563} {0} {} {Inside a Comfortable House} { } {This house, like the others around it, has been constructed of the rock of\nthe surrounding countryside. The stone has been left bare, with contrasting\ncedar framing, giving the house a relaxed, natural feel. Soft cushions and\ncarpets invite you to sit and rest a while.} {The Crusades } {} {} {} {1.000}
-E {  561} {e} {e} {2} {0} {}
+E {  561} {e} {open e;e} {2} {0} {}
 
 R {  564} {0} {} {Outside the Community Mosque} { } {Masjid al-Akka shines a brilliant white, with tall minarets to either side\nand a beautiful dome in the center. The doors are vast and intricately\ncarved, and yet one rarely sees them, since they are never locked and only\nclosed in extreme weather. Beyond the mosque, you can see more streets and\nhouses, like those you have passed, eventually meeting a high wall which\ndivides the city into two more-defensible pieces.} {The Crusades } {} {} {} {1.000}
 E {  561} {s} {s} {4} {0} {}
-E {  565} {e} {e} {2} {0} {}
-E {  570} {n} {n} {1} {0} {}
+E {  565} {e} {open e;e} {2} {0} {}
+E {  570} {n} {open n;n} {1} {0} {}
 
 R {  565} {0} {} {The Outer Courtyard} { } {This is the part of the house intended for the eyes of guests. It is well-lit\nand graciously furnished, with soft chairs and fine carpets. A coffee tray\nsits on a table near a wooden screen, which bars a visitor's eyes from seeing\nthrough the door to the inner courtyard whenever someone goes in or out. The\nguest bedrooms are down hallways north and south of you, and both hallways\neventually connect on the other side of the inner courtyard to give access to\nthe garden.} {The Crusades } {} {} {} {1.000}
-E {  564} {w} {w} {8} {0} {}
-E {  567} {e} {e} {2} {0} {}
+E {  564} {w} {open w;w} {8} {0} {}
+E {  567} {e} {open e;e} {2} {0} {}
 
 R {  566} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  555} {e} {e} {2} {0} {}
 E {  552} {w} {w} {8} {0} {}
 
 R {  567} {0} {} {The Inner Courtyard} { } {This part of the house is normally reserved for the eyes of close family\nmembers only. A low table sits in the center of the room, with benches along\nthe sides. A charcoal brazier beneath the table waits in anticipation of\nlong, cold winter days, when the family will sit beneath blankets with their\nfeet over the coals to talk, read, play games, or nap the time away. Cushions\nand blankets are folded in a stack beside the brazier. Prayer mats hang on\nthe walls, ready for use. The harim, with the children's rooms, kitchen,\nworkshop, and servants' quarters is off to the east, and there are more\nbedrooms and a smoking lounge to the south. To the west, a door leads to the\nouter courtyard. A stairway to the roof is in one corner, and to the north, a\ndoor leads to a wide patio overlooking the garden.} {The Crusades } {} {} {} {1.000}
-E {  565} {w} {w} {8} {0} {}
-E {  569} {n} {n} {1} {0} {}
+E {  565} {w} {open w;w} {8} {0} {}
+E {  569} {n} {open n;n} {1} {0} {}
 
 R {  568} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  489} {n} {n} {1} {0} {}
 E {  492} {s} {s} {4} {0} {}
 
 R {  569} {0} {} {The Garden} { } {The sound of flowing water seems to come from everywhere, singing with joy as\nit pours over stones and travels in small canals which irrigate the garden.\nThis had once served as a noble pleasure garden, but now its efforts are\nturned to fruit and vegetables to feed the city's hungry populace. Only the\njasmine remains, impractical but somehow necessary to sweeten what fate has\nwrought.} {The Crusades } {} {} {} {1.000}
-E {  567} {s} {s} {4} {0} {}
+E {  567} {s} {open s;s} {4} {0} {}
 
 R {  570} {0} {} {Jamaiya Akka} { } {The Akka Mosque is the city's centerpoint of worship, a wide open space\ncrowned with a large dome. The inside seems almost pure white, with only\nblack calligraphy for decoration. The Prophet, peace be upon him! warned\nagainst the use of figures and depictions as decoration, because they\ndistract one from the unity and oneness of Allah, and lead to an obsession\nwith material goods and material beauty. Instead, the words of the Qur'an, as\nwell as neutral geometric patterns, decorate the walls and floors of many\nbuildings in Dar al-Islam. As your eyes scan the walls of the mosque, you\nnotice a tall balcony, blocked by wooden lattice-work, about ten feet above\nyou, where women can worship from behind the screens -- which, incidentally,\nallows them a better view than the men, who must kneel on the floor below.} {The Crusades } {} {} {} {1.000}
-E {  564} {s} {s} {4} {0} {}
+E {  564} {s} {open s;s} {4} {0} {}
 E {  571} {e} {e} {2} {0} {}
 
 R {  571} {0} {} {A Storehouse of Charitable Donations} { } {Those with a charitable turn of mind often bring donations to this room of\nthe mosque, to be shared among those who might need them. Furthermore,\nMuslims must pay a zakat or charity tax, and do so here, according to their\nmeans. Unfortunately, these desperate times have forced the Imam to establish\nan overseer in the storehouse, to insure that only the neediest receive the\nhighest percentage of assistance.} {The Crusades } {} {} {} {1.000}
@@ -2521,6 +2522,7 @@ R {  599} {0} {} {Central Tripoli} { } {Tripoli is a typical wartime port city. 
 E {  596} {w} {w} {8} {0} {}
 E {  600} {s} {s} {4} {0} {}
 E {  615} {e} {e} {2} {0} {}
+E { 6552} {n} {n} {1} {0} {}
 
 R {  600} {0} {} {The Faceless Desert} { } {The sand of the Sahara rolls on in all directions, like an endless, lifeless\nsea. You quickly lose all sense of direction and begin to worry about your\nwater supply instead.} {WWII North Africa } {} {} {} {1.000}
 E {  599} {n} {n} {1} {0} {}
@@ -2608,7 +2610,7 @@ E {  614} {s} {s} {4} {0} {}
 E {  599} {w} {w} {8} {0} {}
 E {  616} {e} {e} {2} {0} {}
 
-R {  616} {0} {} {Sirte} { } {This is a small coastal town on the Gulf of Sidra. A well sits in the center\nof the street. The people have mostly abandoned the town and the boom of\nartillery can be heard in the distance.} {WWII North Africa } {} {} {} {1.000}
+R {  616} {0} {<169>} {Sirte} {W} {This is a small coastal town on the Gulf of Sidra. A well sits in the center\nof the street. The people have mostly abandoned the town and the boom of\nartillery can be heard in the distance.} {WWII North Africa } {} {} {} {1.000}
 E {  615} {w} {w} {8} {0} {}
 E {  617} {s} {s} {4} {0} {}
 E {  622} {e} {e} {2} {0} {}
@@ -3951,7 +3953,7 @@ E { 6039} {w} {w} {8} {0} {}
 
 R {  934} {0} {} {Das Sudstadttor} { } {The thick stone of the town walls is broken here by a massive oaken door,\nwhich is reinforced with heavy iron. There is a small bronze plaque with some\nwriting on it bolted to the door. The town beyond would be a welcome sight\nafter a long forest trek. Within the stout walls, a traveler could surely wash\ndust from a weary throat by a long drink of fine German wine. The road leads\nnorth into the town, and south into the forest. The dark trees seem to crowd\nthe city from three directions, but you can detect that a cleared area lies\nto the east of the city, and might be quickly reached by passing through town.} {Medieval Kleinstadt } {klein} {} {} {1.000}
 E {  933} {s} {s} {4} {0} {}
-E { 5029} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 5029} {gate} {enq ask gate gate} {0} {0} {}
 
 R {  935} {0} {} {A Dark Hallway} { } {The water-flooded hallway of the prison is dark and cold. Here and there, the\nwalls bear the marks of the prisoners' nails who tried to dig with their bare\nhands through the stone, in a vain attempt to avoid being drowned.} {Ys } {} {} {} {1.000}
 E { 5245} {s} {s} {4} {0} {}
@@ -4292,6 +4294,7 @@ E { 1017} {e} {e} {2} {0} {}
 
 R { 1017} {0} {} {A Tower Entrance} { } {This open walled chamber has one chair, an open window, and the door\nleading inside to the east. A single torch flutters here for both warmth\nand additional light. Oddly, the door contains a small barred window and\nis made from a thick sheet of oak. It reminds you more of a dungeon cell\nthan a tower entrance.} {Transylvania } {} {} {} {1.000}
 E { 1016} {w} {w} {8} {0} {}
+E { 6725} {e} {open e;e} {2} {0} {}
 
 R { 1018} {0} {} {A Well Lit Intersection} { } {Numerous torches line the stone hallways here and to the north and east.\nYou see the corridor open into a room with a marble stairway leading down\nto the west. Along the northern branch, you can make out a shadowed\ndoorway. A slightly cool breeze carries the smoke away leaving you with a\nchill.} {Transylvania } {} {} {} {1.000}
 E { 1010} {w} {w} {8} {0} {}
@@ -4805,12 +4808,13 @@ R { 1133} {0} {} {By the Gate} { } {You stand at an intersection in Tara. The sh
 E { 1132} {s} {s} {4} {0} {}
 E { 1134} {e} {e} {2} {0} {}
 E { 2518} {w} {w} {8} {0} {}
+E { 6728} {n} {n} {1} {0} {}
 
 R { 1134} {0} {} {The Main Path to the Dun} { } {You travel along the main path of Tara on the way to Gwyn's Dun. The way is\nthick with people who call out a pleasant greeting to you.} {Celtic Ireland } {} {} {} {1.000}
 E { 1133} {w} {w} {8} {0} {}
 E { 1135} {s} {s} {4} {0} {}
 E { 1137} {e} {e} {2} {0} {}
-E { 2511} {n} {n} {1} {0} {}
+E { 1774} {n} {n} {1} {0} {}
 
 R { 1135} {0} {} {The Silver Branch Inn} { } {A huge common room fills three quarters of the first floor of this building.\nA roaring hearth takes up the south wall of the room. A swinging door leads\nto the kitchen on the west side of the building. Tables and benches fill the\nremaining space. Lanterns hang from the ceiling to brighten the room.} {Celtic Ireland } {tika} {} {} {1.000}
 E { 1134} {n} {n} {1} {0} {}
@@ -5463,10 +5467,10 @@ E { 1286} {w} {w} {8} {0} {}
 
 R { 1286} {0} {} {The Sekigahara Pass} { } {At the small village of Sekigahara, the Nakasendo causeway meets a long pass\nthrough the mountains that connects the rich plains of the Omi province with\nthe rugged mountains of central Japan. To the west lies a broad vista of the\nKinki region, which hosts the Imperial city of Kyoto and the lands of the\npowerful clans Toyotomi and Ishida. Far in the east rise the frozen peaks of\nJapan's highest mountains.} {Medieval Japan } {} {} {} {1.000}
 E { 1285} {e} {e} {2} {0} {}
-E { 1287} {w} {w} {8} {0} {}
+E { 6681} {w} {w} {8} {0} {}
 
 R { 1287} {0} {} {The Hills of the Omi Province} { } {Before you lies the rich and vast Omi province, fief of the powerful Ishida\nclan. The landscape includes small cultivated plains nestled in diminutive\nvalleys and low green hills crested with tiny villages. Perfect harmony exists\nhere between man and natural wilderness, living side by side with neither\nharming the other. A soft wind blows from the east above the mountains that\nshape the horizon in this direction.} {Medieval Japan } {} {} {} {1.000}
-E { 1286} {e} {e} {2} {0} {}
+E { 6681} {e} {e} {2} {0} {}
 E { 1288} {n} {n} {1} {0} {}
 E { 3559} {w} {w} {8} {0} {}
 E { 4446} {s} {s} {4} {0} {}
@@ -7262,11 +7266,11 @@ E { 1719} {w} {w} {8} {0} {}
 
 R { 1719} {0} {} {Before the Walls of Ur} { } {Tall ochre walls made of mudbricks and sand rise here, blocking access to the\nwell-protected city of Ur. Guards patrol before the large wooden gates and\nfilter out desert bandits from respectable merchants coming to town. The city\nof Ur is a state of its own and does not pay allegiance to the larger city of\nUruk located to the northwest.} {Sumer } {} {} {} {1.000}
 E { 1718} {e} {e} {2} {0} {}
-E { 1774} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 1720} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1720} {0} {} {Inside the Walls of Ur} { } {The city-state of Ur is well defended behind tall ochre walls made out of\nrocks and sand. They raise around the whole city, protecting the many\nmerchants coming to town to sell their wares on the central market or\nvillagers coming here to seek the protection of the goddess Ishtar.} {Sumer } {} {} {} {1.000}
 E { 1721} {s} {s} {4} {0} {}
-E { 1774} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 1719} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1721} {0} {} {Strolling the Streets of Ur} { } {The wide streets of Ur are busy and bustling with merchants and regular\ncitizens strolling from shop to stall and an occasional trip to the temple.\nTo the west of here, you see an open area under large tent flaps where\nvisitors gather for a safe place to spend the night or eat local delicacies.} {Sumer } {} {} {} {1.000}
 E { 1720} {n} {n} {1} {0} {}
@@ -7404,11 +7408,11 @@ E { 1752} {e} {e} {2} {0} {}
 
 R { 1754} {0} {} {The Great Gates of Uruk} { } {Before you stands the Great Gate of Uruk. The sheer size of the walls\nleading upto the gate and of the gate itself is amazing. The stonework\non the walls leading up to the gate is a brilliant deep blue in color\nwith stone bas-relief representing various lions, gryphons, and other\nbeasts. The gate itself is made from giant cedar trees, darkened in color\nto a red-brown.} {Sumer } {} {} {} {1.000}
 E { 1752} {s} {s} {4} {0} {}
-E { 1785} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 1755} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1755} {0} {} {Inside the Walls of Uruk} { } {The wall that surrounds the city of Uruk has clearly been built recently. It\nis an impressive wall which is covered with cuneiform wedges and relief work.\nWhile you can't understand the cuneiform, it's clear from the relief work\nthat it taunts those who would attempt to attack the city.} {Sumer } {} {} {} {1.000}
 E { 1756} {n} {n} {1} {0} {}
-E { 1785} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 1754} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1756} {0} {} {In the Streets of Uruk} { } {This wide dirt pathway is well worn from the feet of many townsfolk. With\nthe market and palace to the south and the city gate and many of the temples\nto the north, it's no surprise, this must be one of the major walkways\nthrough the royal city-state.} {Sumer } {} {} {} {1.000}
 E { 1755} {s} {s} {4} {0} {}
@@ -7437,7 +7441,7 @@ E { 1763} {n} {n} {1} {0} {}
 
 R { 1762} {0} {} {Before the Great Palace of Gilgamesh, King of Uruk} { } {Before you stands a large imposing palace with two large doors guarding\nthe entrance. The walls surrounding the doors are covered with frescoed\nwork depicting various deities and praising the priest-king, Gilgamesh.} {Sumer } {} {} {} {1.000}
 E { 1761} {e} {e} {2} {0} {}
-E { 1767} {n} {ask gate gate} {1} {0} {}
+E { 1767} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1763} {0} {} {At the Entrance of the Temple of Anu} { } {Two great wooden doors tower over you. Instead of hinges, the doors are\nattached to cylindrical beams which rest in large stones. The stones are\ninscribed with row after row of tiny cuneiform wedges. The doors clearly\nlead to the large temple to a power god. Anu seems to be among the most\npowerful of deities. Almost as impressive as the great temple doors is the\nwall to the south and east, protecting the city from invaders.  According\nto the relief, the wall was built under the direction of Gilgamesh, King\nof Uruk. The wall also describes Gilgamesh's great battles, many with\nAgga, King of Kish. Presumably, the walls were built to keep Agga out.} {Sumer } {} {} {} {1.000}
 E { 1761} {s} {s} {4} {0} {}
@@ -7455,8 +7459,8 @@ R { 1766} {0} {} {The Chamber of Silence} { } {This room is eerily silent and an
 E { 1764} {s} {s} {4} {0} {}
 
 R { 1767} {0} {} {The Great Court of the Priest-King Gilgamesh} { } {The Great Court of Gilgamesh is an awe inspiring sight. The walls are three\nstories tall, the first two stories covered with relief work of giant humans,\nanimals, and mythological creatures. Winged genies, lion headed monsters and\nmany, many captured armies are shown bowing before a person who can only be\nGilgamesh, the great king of Uruk. If he is half a terrible as the reliefs\nappear to show, he is not someone you look forward to meeting.} {Sumer } {} {} {} {1.000}
-E { 1762} {s} {ask gate gate} {4} {0} {}
 E { 1768} {n} {n} {1} {0} {}
+E { 1762} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1768} {0} {} {Before the Throne Dais of Gilgamesh, Lordly in Appearance} { } {Before you is the throne dais of Gilgamesh, Great King. It is a raised\nplatform with a single stone throne in the center, flanked on either side\nby polished black stone column, one documents Gilgamesh's victories in\nbattle\; the other which list laws, which have punishments more terrible\nthan you scarce imagine. This is not a city in which you wish to break\nthe laws. Each column is flanked by a brightly lit torch.} {Sumer } {} {} {} {1.000}
 E { 1767} {s} {s} {4} {0} {}
@@ -7481,9 +7485,9 @@ R { 1773} {0} {} {The Valley of the Euphrates} { } {For miles to each side of th
 E { 1772} {s} {s} {4} {0} {}
 E { 1775} {w} {w} {8} {0} {}
 
-R { 1774} {10} {} {} { } {} {} {} {} {} {1.000}
-E { 1720} {w} {w} {8} {0} {}
-E { 1719} {e} {e} {2} {0} {}
+R { 1774} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2511} {n} {n} {1} {0} {}
+E { 1134} {s} {s} {4} {0} {}
 
 R { 1775} {0} {} {The Plains of Akkad} { } {This broad alluvial plain is divided into family plots, intersecting with a\ncomplex network of irrigation canals. Both rivers are fed from mountain\nstreams, some as far away as the highlands of Akkad. The land here is not\nas fertile as it is in Sumer, but the regular floods are generally sufficient\nto desalinate the soil and cycle in new topsoil from the mountains.} {Sumer } {} {} {} {1.000}
 E { 1773} {e} {e} {2} {0} {}
@@ -7505,12 +7509,12 @@ E { 1784} {n} {n} {1} {0} {}
 
 R { 1779} {0} {} {Before The City of Kish} { } {You stand before the old city of Kish. Its walls are tired and badly upkept,\nwith cracks showing on many places and some parts seem ready to crumble. The\nproud king Agga of Kish has had many quarrels in the past with Sumer which so\nfar, have ended badly for the people of Kish.} {Sumer } {} {} {} {1.000}
 E { 1778} {w} {w} {8} {0} {}
-E { 1780} {e} {ask gate gate} {2} {0} {}
+E { 1780} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1780} {0} {} {The City of Kish} { } {You stand in the center of the city of Kish. The city is a marvel of\narchitecture. All around you are all sorts of impressive buildings surround\nyou. It is clear that this must be the capital of the whole region. Just how\nfar the king's influence extends you can only imagine.} {Sumer } {} {} {} {1.000}
-E { 1779} {w} {ask gate gate} {8} {0} {}
 E { 1781} {n} {n} {1} {0} {}
 E { 1782} {e} {e} {2} {0} {}
+E { 1779} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 1781} {0} {} {In the Palace of Agga, King of Kish} { } {This stone palace, like all other palaces or temples around here, has a lot of\nrelief work on the walls. The relief depicts the wonders and  exploits of the\npast kings of Kish. Most of the relief work appears to be old\; apparently the\nrecent kings of Kish have been unable to do  much of note, perhaps due to the\ngrowing power of Uruk.} {Sumer } {} {} {} {1.000}
 E { 1780} {s} {s} {4} {0} {}
@@ -7526,9 +7530,9 @@ R { 1784} {0} {} {The Great Assyrian Desert} { } {} {Sumer } {} {} {} {1.000}
 E { 1778} {s} {s} {4} {0} {}
 E { 3429} {w} {w} {8} {0} {}
 
-R { 1785} {10} {} {} { } {} {} {} {} {} {1.000}
-E { 1755} {n} {n} {1} {0} {}
-E { 1754} {s} {s} {4} {0} {}
+R { 1785} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2514} {n} {n} {1} {0} {}
+E { 2515} {s} {s} {4} {0} {}
 
 R { 1786} {0} {} {The Sandstone Gate} { } {A low but thick wall surrounds the town of Aquae Sulis. The only opening\nevident in this barrier is a low-set sandstone gate manned by uniformed\nguards. The guards appear to be locals, for, although this is a Roman town,\nmost of the army regulars have left already.} {Roman Britain } {} {} {} {1.000}
 E { 1776} {n} {n} {1} {0} {}
@@ -7708,6 +7712,7 @@ E { 1827} {e} {e} {2} {0} {}
 R { 1827} {0} {} {In Dangerous Waters} { } {The crystal clear, blue-green sea has undergone a transformation and is now a\ndeep aquamarine with flecks of foam from the whitecaps disrupting its surface.\nThe wind has picked up and seems to change direction quickly, as if seeking a\nway around you.} {Ancient Greece } {} {} {} {1.000}
 E { 1826} {w} {w} {8} {0} {}
 E { 1828} {e} {e} {2} {0} {}
+E { 6736} {s} {s} {4} {0} {}
 
 R { 1828} {0} {} {In Dangerous Waters} { } {The crystal clear, blue-green sea has undergone a transformation and is now a\ndeep aquamarine with flecks of foam from the whitecaps disrupting its surface.\nThe wind has picked up and seems to change direction quickly, as if seeking a\nway around you.} {Ancient Greece } {} {} {} {1.000}
 E { 1827} {w} {w} {8} {0} {}
@@ -8558,6 +8563,7 @@ E { 2018} {w} {w} {8} {0} {}
 
 R { 2022} {0} {} {Within the Cathedral of Laoag} { } {The magnificent cathedral of Laoag is a grand testament to the strength of\nthe Catholic church in this region. The marble floors are polished to a\nglistening shine. The impeccable white walls are gilded with gold leaf and\ndecorated with red and gold icons. Along each wall stand bronze statues of\nvarious saints and martyrs. Dark wooden pews symmetrically line the floor.\nChandeliers with multiple sconces hang opulently from the ceiling. The grand\naltar at the fore is also gilded in gold with a large image of Christ on the\ncross looking down upon the parishioners. The image of Christ draws your\nattention, particularly because its eyes seem to stare into your very soul.\nShaking off your overactive imagination, you realize you shouldn't be\nloitering in such a hallowed place.} {The Philippines } {} {} {} {1.000}
 E { 2020} {s} {open s;s} {4} {0} {}
+E { 6726} {w} {w} {8} {0} {}
 
 R { 2023} {0} {} {Near the Town of Vigan} { } {The Abra River ebbs on by as you stand near the town of Vigan. Even from this\ndistance, you can make out the white plaster walls which the town is well\nknown for. If there is any place in the Philippines which reflects Spanish\ncolonial architecture the most, it would be Vigan, perhaps even more so than\nBoulevard Espana in Manila. To the west lies the town square while going east\nwill bring you to the road into the northern Ilocano provinces.} {The Philippines } {} {} {} {1.000}
 E { 2014} {e} {e} {2} {0} {}
@@ -8616,7 +8622,7 @@ E { 2036} {n} {n} {1} {0} {}
 R { 2036} {0} {} {A Long Stretch of Road} { } {Dry desert roads stretch as far as you can see to the north and south, and a\ntree-lined road, paved with flat, gray stones, leads west. The land here must\nnot receive sufficient rainfall to allow dry farming, but some agriculture\nhas been made possible by a system of inter-connected wells.} {The Crusades } {} {} {} {1.000}
 E { 2035} {s} {s} {4} {0} {}
 E { 2037} {n} {n} {1} {0} {}
-E { 2220} {w} {w} {8} {0} {}
+E { 2220} {w} {w} {8} {1} {}
 
 R { 2037} {0} {} {A Well-Travelled Road Outside Aleppo} { } {Most roads in the Middle East lead to Aleppo, and this one is no exception.\nFor thousands of years, merchants of the east and west have made this city a\nmajor trading hub due to its excellent geographical location. The roads are\nflat and smooth, and dotted with wells and other amenities for caravans. The\ncity stands before you, its normal bustle of activity silenced by the new\nflag flying above its walls -- a blood-red cross on a white field.} {The Crusades } {} {} {} {1.000}
 E { 2036} {s} {s} {4} {0} {}
@@ -9381,7 +9387,8 @@ R { 2219} {0} {} {In the Dragon's Den} { } {The air is yellow-green, thick like 
 E { 2217} {w} {w} {8} {0} {}
 
 R { 2220} {0} {} {On an Ancient Road in the Orontes Valley} { } {The roadway is long, but smooth and straight as it makes its way through the\nmountain passes which lie between the city of Antioch and the broad Arabian\nplains to the east.} {The Crusades } {} {} {} {1.000}
-E { 2036} {e} {e} {2} {0} {}
+E { 2036} {e} {e} {2} {1} {}
+E {  491} {w} {w} {8} {0} {}
 
 R { 2221} {10} {} {} { } {} {} {} {} {} {1.000}
 E {  519} {d} {d} {32} {0} {}
@@ -10440,6 +10447,7 @@ E { 2476} {d} {d} {32} {0} {}
 R { 2476} {0} {} {Inside a Sunken Tunnel} { } {Bubbles from your lungs quickly hit the ceiling of the sunken tunnels where\nthey burst with a low noise that strangely echoes for a long time. You attempt\nto move in the many directions offered by the vast network of tunnels but alas\n-- most of them lead to dead ends, obstructed by rocks and lichens.} {Tartarus } {} {} {} {1.000}
 E { 2475} {u} {u} {16} {0} {}
 E { 2477} {e} {e} {2} {0} {}
+E { 6729} {n} {n} {1} {0} {}
 
 R { 2477} {0} {} {Near the End of the Syphon} { } {The cold temperature of the waters in the tunnel leaves you stiff and almost\nincapacitated. Above your head, the tunnel seems to lead up and end inside an\nair-filled cave. To the west, the tunnel continues in darkness, leading back to\nthe lake at the middle of Lerna's swamp.} {Tartarus } {} {} {} {1.000}
 E { 2476} {w} {w} {8} {0} {}
@@ -10455,7 +10463,7 @@ E { 2480} {e} {e} {2} {0} {}
 
 R { 2480} {0} {} {Near the Top of a Natural Chimney} { } {The cave behind the lake ends here before a pit opening in the ground. You then\nrealize the pit is the emerging part of a natural chimney that climbs from the\nbowels of the earth to this cave. The pit looks endlessly deep and dark and you\ncan't help being attracted to the dark depths, even if they would induce,\nwithout a doubt, a fast and painful death.} {Tartarus } {} {} {} {1.000}
 E { 2479} {w} {w} {8} {0} {}
-E { 2481} {d} {d} {32} {0} {}
+E { 2481} {d} {d} {32} {1} {}
 
 R { 2481} {0} {} {A Cave Deep Inside the Realm of Hades} { } {You stand inside a small cave, deep, very deep within the bowels of the earth.\nA cold wind blows from the north carries the melancholic low voices of women\nwhispering. In the distance, you are surprised to hear what sounds like a\nblacksmith hammering a piece of metal in his forge. Then it stops, and the\nsilence fills the cave again. On the ground, drops of blood have formed a small\npool.} {Tartarus } {} {} {} {1.000}
 E { 2482} {n} {n} {1} {0} {}
@@ -10581,7 +10589,7 @@ E { 2495} {s} {s} {4} {0} {}
 E { 2500} {n} {n} {1} {0} {}
 
 R { 2511} {0} {} {The Main Path to the Dun} { } {You travel along the main path of Tara on the way to Gwyn's Dun. The way is\nthick with people who call out a pleasant greeting to you.} {Celtic Ireland } {} {} {} {1.000}
-E { 1134} {s} {s} {4} {0} {}
+E { 1774} {s} {s} {4} {0} {}
 E { 2512} {w} {w} {8} {0} {}
 
 R { 2512} {0} {} {The Main Path to the Dun} { } {You travel along the main path of Tara on the way to Gwyn's Dun. The way is\nthick with people who call out a pleasant greeting to you.} {Celtic Ireland } {} {} {} {1.000}
@@ -10596,11 +10604,11 @@ E { 2519} {n} {n} {1} {0} {}
 
 R { 2514} {0} {} {The Pigsty} { } {You have fallen into the pigsty and are covered with muck. Several pigs are\nwondering why you dropped in for a visit.} {Celtic Ireland } {} {} {} {1.000}
 E { 2513} {e} {e} {2} {0} {}
-E { 2515} {s} {s} {4} {0} {}
+E { 1785} {s} {s} {4} {0} {}
 E { 2592} {w} {w} {8} {0} {}
 
 R { 2515} {0} {} {In the Yard} { } {You wander around the open yard, trying to avoid children and livestock.} {Celtic Ireland } {} {} {} {1.000}
-E { 2514} {n} {n} {1} {0} {}
+E { 1785} {n} {n} {1} {0} {}
 E { 2518} {e} {e} {2} {0} {}
 E { 2516} {w} {w} {8} {0} {}
 E { 2517} {s} {s} {4} {0} {}
@@ -10633,7 +10641,7 @@ R { 2523} {0} {} {Off the Coast of York} { } {The County of York is visible for 
 E {  388} {s} {s} {4} {0} {}
 E { 2524} {n} {n} {1} {0} {}
 
-R { 2524} {0} {} {East of Northumberland} { } {You're off the coast of Northumberland, the northernmost English county. As\nthe water rolls beneath you in shallow waves, you think of Lindisfarne, one of\nthe most spiritually significant abbeys in all of England. Perhaps if you went\nwest you would find it. What is there of import to the north anyway, save\nScotland?} {Viking Scandinavia } {} {} {} {1.000}
+R { 2524} {0} {} {East of Northumberland} { } {You're off the coast of Northumberland, the northernmost English county. As\nthe water rolls beneath you in shallow waves, you think of Lindisfarne, one of\nthe most spiritually significant abbeys in all of England. Perhaps if you went\nwest you would find it. What is there of import to the north anyway, save\nScotland?} {Viking Scandinavia } {viking} {} {} {1.000}
 E { 2523} {s} {s} {4} {0} {}
 E { 2525} {e} {e} {2} {0} {}
 E { 3633} {w} {w} {8} {0} {}
@@ -11019,13 +11027,13 @@ E { 2616} {n} {n} {1} {0} {}
 R { 2616} {0} {} {The Kennel} { } {You have stumbled into the kennel. Dozens of huge tails beat at your legs.\nThe friendly dogs mob you for attention, sending you sprawling. Be careful\nwhere you land!} {Celtic Ireland } {} {} {} {1.000}
 E { 2615} {s} {s} {4} {0} {}
 E { 2617} {e} {e} {2} {0} {}
-E { 2618} {n} {n} {1} {0} {}
+E { 6727} {n} {n} {1} {0} {}
 
 R { 2617} {0} {} {A Small Cottage} { } {You have entered a small cottage inside the keep. There is a small hearth to\nyour right, and a loom stands to your left. Sunlight filters down through\nsmall windows set high in the walls and through some of the roof where it\nneeds patching. The back section of the cottage is hidden behind some tarps\nthat conceal the sleeping areas of the family.} {Celtic Ireland } {} {} {} {1.000}
 E { 2616} {w} {w} {8} {0} {}
 
 R { 2618} {0} {} {By the North Wall} { } {You travel on a path beneath the north wall of the keep. You see a Tannery to\nthe east and the barracks nearby.} {Celtic Ireland } {} {} {} {1.000}
-E { 2616} {s} {s} {4} {0} {}
+E { 6727} {s} {s} {4} {0} {}
 E { 2619} {e} {e} {2} {0} {}
 E { 2629} {n} {n} {1} {0} {}
 E { 2622} {w} {w} {8} {0} {}
@@ -11058,8 +11066,8 @@ E { 2624} {e} {e} {2} {0} {}
 E { 4374} {w} {w} {8} {0} {}
 
 R { 2626} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 2592} {s} {s} {4} {0} {}
 E { 2627} {n} {n} {1} {0} {}
+E { 2592} {s} {s} {4} {0} {}
 
 R { 2627} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 2626} {s} {s} {4} {0} {}
@@ -11756,7 +11764,7 @@ E { 2794} {s} {s} {4} {0} {}
 R { 2794} {0} {} {Before the Walls of the City of Utgard} { } {Utgard, capital city of the giants, lies to the east before your eyes. The\ncity is built of grey stone with sparse buildings of cyclopean proportions,\ncovered with ice and snow. Runed stones, encased in stalagmites, project a dim\nlight in the empty streets where a cold blizzard blows. A set of bronze gates\nopens eastwards, into the palace of the Jotun king, mortal foe to the Aesir.} {Svartalfheim } {} {} {} {1.000}
 E { 2793} {n} {n} {1} {0} {}
 E { 2795} {w} {w} {8} {0} {}
-E { 2803} {e} {e} {2} {0} {}
+E { 2803} {e} {open e;e} {2} {0} {}
 
 R { 2795} {0} {} {On an Icy Paved Road} { } {An ancient road takes you through frozen fields and mostly forested lands.\nUnder the ice, the plant life is lush and rich and highly varied. In the\ndistance, you see miles of wetlands and swamp, and some moors, giving way to\nrainforests and peat bogs. The horizon is blocked by mountains in all\ndirections, where the trees finally give way to snow at the mountaintops.} {Svartalfheim } {} {} {} {1.000}
 E { 2794} {e} {e} {2} {0} {}
@@ -11792,7 +11800,7 @@ R { 2802} {0} {} {Under the Roots of Yggdrasil} { } {The massive roots of the wo
 E { 2801} {u} {u} {16} {0} {}
 
 R { 2803} {0} {} {Behind the Walls of Utgard} { } {The streets of Utgard are cold and surprisingly empty. The iron rule of the\nking of the Jotuns does not allow much celebration or social street life. A\nmantle of snow covers most of the roofs. Lit dimly from lamps over head, the\nstreetcorners and walkways bask in the shadows of giant buildings.} {Svartalfheim } {} {} {} {1.000}
-E { 2794} {w} {w} {8} {0} {}
+E { 2794} {w} {open w;w} {8} {0} {}
 E { 2804} {n} {n} {1} {0} {}
 E { 2805} {s} {s} {4} {0} {}
 
@@ -12753,24 +12761,29 @@ E { 3027} {s} {s} {4} {0} {}
 R { 3029} {0} {} {Along the Coast of the Island of Comino} { } {The surf crashes against the rocky volcanic shoreline of Comino violently.\nSometimes, huge boulders are washed into the sea. Not much grows here, and\nhigher up, the island seems barren and windy as well. A single tower stands\nvigil watch over the isle, patrolled day and night by the Knights of Malta.\nYou gain the impression that the tower is not the most interesting place to be\nstationed for service.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3027} {e} {e} {2} {0} {}
 E { 3030} {w} {w} {8} {0} {}
+E { 6577} {n} {n} {1} {0} {}
 
-R { 3030} {0} {} {Sailing the Strait Between Malta and Gozo, West of Comino} { } {The dark waves, one moment tranquil and midnight black, the next instant\nfrothing and intimidating, carry testimony to the unmatched sailing skills of\nthe Maltese. You are relieved that the passage is after all fairly short. To\nyour east lies the barren island of Comino, but you can barely make it out in\nthe dark. South you know Valletta to be, and to the north the Gozitan harbor\nvillage of Mgarr awaits.} {Hospitaller Malta } {} {} {} {1.000}
+R { 3030} {0} {} {Sailing the Strait Between Malta and Gozo, West of Comino} { } {The blue waves, one moment tranquil and seductively azure, the next instant,\nfrothing and powerful, carry testimony to the unmatched sailing skills of the\nMaltese. You are relieved that the passage is after all fairly short. East of\nyou lies the barren island of Comino with its tower standing lonely guard\nagainst pirates, Turks, and others who might attempt a landing. South is\nValletta, and to the north the Gozitan harbor village of Mgarr.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3029} {e} {e} {2} {0} {}
-E { 3031} {s} {s} {4} {0} {}
+E { 6667} {s} {s} {4} {0} {}
+E { 6578} {n} {n} {1} {0} {}
+E { 6658} {w} {w} {8} {0} {}
 
-R { 3031} {0} {} {Sailing the Sea North-West of Valletta} { } {The azure waves roll along gently, reflecting the bright moonlight in myriads\nof facets. You spot land towards the north. The coastline also proceeds east\nand west -- but there seem to be no places to land along the way.} {Hospitaller Malta } {} {} {} {1.000}
-E { 3030} {n} {n} {1} {0} {}
-E { 3032} {s} {s} {4} {0} {}
+R { 3031} {0} {} {Sailing the Sea North-West of Valletta} { } {The azure waves roll along gently, reflecting the bright sunlight in myriads\nof facets. You spot land towards the north. The coastline also proceeds east\nand west -- but there seem to be no places to land along the way.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6656} {n} {n} {1} {0} {}
+E { 6661} {s} {s} {4} {0} {}
+E { 6623} {e} {e} {2} {0} {}
 
-R { 3032} {0} {} {Entering the Grand Harbor of Valletta} { } {The black sea and the distant lights on the powerful fortifications of\nValletta towering in the night sky above inspires awe in the firstcomer.\nNowhere in the Grand Harbor is truly dark nor beyond reach of the cannons of\nFort St Elmo, Fort St Angelo, Fort St Michel or the cavaliers, the cannon\ntowers of the city walls. Valletta was designed to resist an invasion force\ncoming from the sea, and if you had indeed been a Turkish invader, you would\nprobably be quite discouraged. Around you, the waves roll gently and you can\nhear the creaking woodwork on the huge galleys anchored here flying red and\nwhite St John banners. Even in the middle of the night, you are left in no\ndoubt that Valletta is indeed one of the most important and best fortified\nmilitary harbors of the Mediterranean. The sentry of the Levant never sleeps.} {Hospitaller Malta } {} {} {} {1.000}
-E { 3031} {n} {n} {1} {0} {}
+R { 3032} {0} {} {Entering the Grand Harbor of Valletta} { } {The azure sea and the powerful fortifications of Valletta above inspires awe\nin the firstcomer to Malta. Nowhere in the Grand Harbor is beyond reach of the\ncannons of Fort St Elmo, Fort St Angelo, Fort St Michel or the cavaliers, the\ncannon towers of the city walls. Valletta was designed to resist an invasion\nforce coming from the sea, and if you had indeed been a Turkish invader you\nwould probably be quite discouraged. Around you, Maltese fishing luzzi,\nnumerous smaller boats, and the huge galleys flying the red and white St John\nbanners mingle, leaving you in no doubt that this is indeed one of the most\nimportant and best fortified military harbors of the Mediterranean.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6661} {n} {n} {1} {0} {}
 E { 3033} {s} {s} {4} {0} {}
 E { 5698} {e} {e} {2} {0} {}
+E { 6615} {w} {w} {8} {0} {}
 
 R { 3033} {0} {} {Strolling On the Docks of Valletta} { } {Sails crackle briskly on the gusts of wind coming in from the open sea beyond\nthe Grand Harbor's fortifications, around the wavebreakers, the piers, and the\nforts. Woodwork gives with angry snaps, low moans and long high-pitched sighs.\nAs they lie there, gently bobbing on the lapping blue waves, the sail-clad\nships and galleys do bear some odd resemblance to village women gathering\naround the well to gossip\; but if so, these ladies talk of war oft bloody and\nbrutal, of conquest and loot, and of good men lost to the storms of the Levant\nand to the Infidel.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3032} {n} {n} {1} {0} {}
 E { 3034} {s} {s} {4} {0} {}
-E { 6139} {w} {w} {8} {0} {}
+E { 6614} {w} {w} {8} {0} {}
 
 R { 3034} {0} {} {Fuq il-Ggant} { } {A large statue of Neptune stands here overlooking the Fish Market. Popularly\ncalled Fuq il-Ggant, the chief market square of Valletta bustles with life.\nPeople come and go, some strolling casually, others running at a brisk pace.\nThis is the big city at its most breathing, throbbing, alive, smelly,\nbeautiful, multicolored, and Mediterranean. Vendors tug at your sleeves,\nchildren skip in and out of your path, a stray dog makes off with a treat\nbehind a goodwife's back. Languages swirl through the air -- mostly Maltese,\nbut Italian and French are easily identified as well.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3033} {n} {n} {1} {0} {}
@@ -12786,6 +12799,8 @@ R { 3036} {0} {} {Walking Down Strada Reale} { } {People walk past you on the ci
 E { 3035} {n} {n} {1} {0} {}
 E { 3037} {s} {s} {4} {0} {}
 E { 5931} {e} {e} {2} {0} {}
+E { 6616} {w} {w} {8} {0} {}
+E { 6618} {d} {d} {32} {0} {}
 
 R { 3037} {0} {} {Strada Reale, Outside the Ferraria} { } {A number of industries thrive in Valletta, and little effort is made to keep\nthem segregated. In the near vicinity you'll find the polverista -- the\ngunpowder factory -- and more discreetly in a side street, the mint, and the\nbakery that supplies the Convent. By and large, shops are scattered around.\nIrksome private enterprise is not allowed to disturb the peace and dignity of\nthe Order or its members. There are provisions for the removal of noisome\ntrade. The Order's foundry, the ferrarria, stands at the end of the street,\njust inside the main gate, as does the Auberge de Castile, the chapterhouse of\nthe Castilian Langue of the Order.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3036} {n} {n} {1} {0} {}
@@ -14019,6 +14034,7 @@ R { 3337} {0} {} {Outside the Megaron} { } {You stand in the center of bustling 
 E { 3335} {e} {e} {2} {0} {}
 E { 2824} {s} {s} {4} {0} {}
 E { 3338} {w} {w} {8} {0} {}
+E { 6715} {n} {n} {1} {0} {}
 
 R { 3338} {0} {} {The Gymnasium} { } {Here in this wide open space is a great gymnasium, with a race course, rings\nfor wrestling and boxing, targets for the throw of the javelin or the flight\nof the arrow, and a track. The Chastiser Stone is here, and an altar to\nApollo, the God of Ashes, is here made out of the ashes of the victims of the\nwarlike Thebans. The Ogygian and Homoloid Gates can be glimpsed to the west,\nacross the gymnasium.} {Ancient Greece } {} {} {} {1.000}
 E { 3337} {e} {e} {2} {0} {}
@@ -14353,6 +14369,7 @@ E { 3417} {e} {e} {2} {0} {}
 
 R { 3415} {0} {} {Standing On the Battlements of Valletta} { } {The vast walls of Valletta are really... vast. More than fifteen meters wide,\nit would take heavy cannon fire to dent them. In some places, the drop to the\ntrenches and the Grand Harbor below is more than thirty meters. Below, the\ndeep trenches serve to make it all but impossible to come close enough to\nscale the walls by use of siege towers or ladders. In contrast to the lifeless\nstructure, a few prickly pear cacti and wildflowers grow where they can find\ndirt enough to root.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3038} {e} {e} {2} {0} {}
+E { 6621} {d} {d} {32} {1} {}
 
 R { 3416} {0} {} {A Narrow Canyon} { } {A very narrow canyon leads through the mountains near Mount Horeb. The floor\nis littered with sharp rocks and the bones of small animals. At times, the\nwind bursts through the canyon and produces an eerie, otherworldly howl.} {Sumer } {} {} {} {1.000}
 E { 4605} {e} {e} {2} {0} {}
@@ -14457,7 +14474,7 @@ R { 3441} {10} {} {} { } {} {} {} {} {} {1.000}
 E { 3439} {s} {s} {4} {0} {}
 E { 3440} {n} {n} {1} {0} {}
 
-R { 3442} {0} {} {In the Port of the Sea Peoples} { } {From here, Phoenician traders set out on voyages all over the known world, and\neven to far-off places that most Indo-Europeans don't realize are part of the\nknown world. Cedarwood from the east, pottery from the north, foodstuffs from\nthe south, and tin from the west may all be nestled in the low-bellied hulls\nof the ships that crowd each other in this busy port.} {Anc. Atlantic/Med. } {} {} {} {1.000}
+R { 3442} {0} {} {In the Port of the Sea Peoples} { } {From here, Phoenician traders set out on voyages all over the known world, and\neven to far-off places that most Indo-Europeans don't realize are part of the\nknown world. Cedarwood from the east, pottery from the north, foodstuffs from\nthe south, and tin from the west may all be nestled in the low-bellied hulls\nof the ships that crowd each other in this busy port.} {Anc. Atlantic/Med. } {tyre} {} {} {1.000}
 E { 3440} {e} {e} {2} {0} {}
 E { 3443} {s} {s} {4} {0} {}
 E { 3462} {w} {w} {8} {0} {}
@@ -15016,6 +15033,7 @@ E { 3570} {e} {e} {2} {0} {}
 R { 3570} {0} {} {A Hallway} { } {The marble floor consists of tiles in numerous white, golden and blue shades,\ncreating mosaics of intricate designs. Suits of full plate armor stand vigil\nin niches along the walls. Beautiful paintings adorn the ceilings. Lamps sit\nin sconces along the walls, casting a soft, flickering light on the pale\nmarble.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3569} {w} {w} {8} {0} {}
 E { 3571} {u} {u} {16} {0} {}
+E { 6625} {e} {e} {2} {0} {}
 
 R { 3571} {0} {} {A White Marble Stairway} { } {The main staircase leading to the first floor of the Palace consists of wide,\nshallow steps in white marble meant to render it more comfortable to the\nknights, clad in armor, to ascend these steps. Balustraded windows overlook\nthe courtyards. The figure of a wolf protruding from the stonework pertains to\nthe coat-of-arms of the Provencal Grand Master Verdalle who embellished this\nmagisterial building with this beautiful and attractive access.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3570} {d} {d} {32} {0} {}
@@ -15027,6 +15045,7 @@ E { 3573} {n} {n} {1} {0} {}
 
 R { 3573} {0} {} {The Sala del Maggior Consiglio} { } {The Hall of the Supreme Council is used by the Grand Master for state and\nofficial functions. These include the sessions of the Supreme Council and the\nholdings of Chapters General. The ceiling of the Hall, like all the other\nceilings of the Palace, is in timber, elaborately painted. A minstrel's\ngallery carved in wood in the far end of the room attracts your attention.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3572} {s} {s} {4} {0} {}
+E { 6628} {e} {e} {2} {0} {}
 
 R { 3574} {0} {} {On the Atlantic Ocean} { } {You continue on your journey, no other signs of life can be seen in any\ndirection. You check your rations, knowing they must last for quite some time.\nThe dreariness of the horizon seems to echo back to you and you begin to\nponder whether it might be best to turn back.} {French Indian War } {} {} {} {1.000}
 E {  430} {s} {s} {4} {0} {}
@@ -17755,6 +17774,7 @@ E { 4230} {n} {n} {1} {0} {}
 R { 4230} {0} {} {In the Cappadocian Grasslands} { } {The open land gives you an immense feeling of freedom, as if you could run\nhalfway to forever, stopping only by rolling in the tall grass. The wind\nblows through your hair, bringing sweet smells from a field of wildflowers\nwhich must lie somewhere nearby. But interfering with this view of paradise\nis the dark reminder of the mountain walls which both protect you, and\ncontain you within it. The hills reach out into the steppe with a finger of\ndense forest, which lurks dark and deep to the west.} {The Crusades } {} {} {} {1.000}
 E { 4229} {s} {s} {4} {0} {}
 E { 4231} {w} {w} {8} {0} {}
+E { 6558} {n} {n} {1} {0} {}
 
 R { 4231} {0} {} {On a Narrow Trail in Rugged Mountains} { } {The mountains are tall and jagged, towering over you. A few spindly trees\ncling to life, protruding from tiny cracks and fissures where bits of dirt\nand moisture can become trapped. A narrow outcropping of rock creates a\nnarrow path along the cliff's edge.} {The Crusades } {} {} {} {1.000}
 E { 4230} {e} {e} {2} {0} {}
@@ -18029,6 +18049,7 @@ E { 4297} {w} {w} {8} {0} {}
 
 R { 4297} {0} {} {A Clearing in the Darkness} { } {The trees part and an empty space clear of grass and vegetation is left. Above\nyou, the tree branches clear a small circle that allows the light to shine\ndown upon the land. A peaceful area where one could sit and think for hours.\nTwo large stones, seeming to have been placed there by a higher power, rest\nflat on the ground posing as God's chairs.} {Boston, Mass. } {} {} {} {1.000}
 E { 4296} {e} {e} {2} {0} {}
+E { 6720} {n} {n} {1} {0} {}
 
 R { 4298} {0} {} {At Northern Gate} { } {The gate here leads out of town to the north where various farms have been\nbuilt. The large logs bound together to form this gate seem quite strong.\nPossibly enough to hold off an attack by the Indians.} {Boston, Mass. } {} {} {} {1.000}
 E { 4289} {n} {open n;n} {1} {0} {}
@@ -18627,6 +18648,7 @@ E { 4485} {e} {e} {2} {0} {}
 
 R { 4445} {0} {} {Before a Broken Stone Bridge} { } {An old stone bridge extends to the west, above a deep narrow ravine where the\ntumultuous Kiso river roars. In the middle of its structure, the bridge is\nbroken, preventing reaching its other half that disappears in the dense trees\nof the nearby forest.} {Medieval Japan } {} {} {} {1.000}
 E { 4444} {e} {e} {2} {0} {}
+E { 6682} {jump} {jump} {0} {0} {}
 
 R { 4446} {0} {} {A Southern Road, Near Ise} { } {You stand on a provincial road that connects the Nakasendo with the southern\nKinki regions like Mie and Ise. The road passes along pleasant forests, plains,\nand numerous villages. You also note many merchants and pilgrims who either\nreach or leave the region of Ise, home of one of Japan's most sacred shrines.} {Medieval Japan } {} {} {} {1.000}
 E { 1287} {n} {n} {1} {0} {}
@@ -18684,8 +18706,10 @@ E { 4461} {w} {w} {8} {0} {}
 R { 4459} {0} {} {A Shrine to the Kami} { } {A small Tori arch marks the emplacement of a small shrine dedicated to the\nmajor kami. You can see many of these shrines in the streets of Kyoto,\nwhere visitors and townfolk make quick halts.} {Medieval Japan } {} {} {} {1.000}
 E { 4458} {s} {s} {4} {0} {}
 
-R { 4460} {0} {} {} { } {} {Medieval Japan } {} {} {} {1.000}
+R { 4460} {0} {} {The Gardens of the Imperial Palace} { } {Behind the heavy and tall wall that encircles the imperial palace lies an\narea of magnificent gardens. Created under the graceful influence of Zen\nBuddhism principles, the gardens radiate an aura of quietness, reinforced by\nthe absence of any guards' patrol inside the palace walls. Between the various\ntrees of the garden, you discern the silhouettes of sparse buildings which\ncompose the palace itself.} {Medieval Japan } {} {} {} {1.000}
 E { 4458} {n} {n} {1} {0} {}
+E { 6676} {w} {w} {8} {0} {}
+E { 6677} {e} {e} {2} {0} {}
 
 R { 4461} {0} {} {A Narrow Street in Kyoto} { } {A narrow, clean street connects a large plaza before the northern gate of the\nimperial palace with the western quarters of Kyoto which are again crowded\nwith temples and religious cults places of worship. Tambourines and bells echo\nin the street, their sound propagating from roofs to roofs.} {Medieval Japan } {} {} {} {1.000}
 E { 4458} {e} {e} {2} {0} {}
@@ -18734,6 +18758,7 @@ E { 3563} {w} {w} {8} {0} {}
 R { 4472} {0} {} {The Merchants' Quarters} { } {You stand in the middle of a newly constructed street, dedicated to host the\nmany shops of Osaka merchants. Gathered inside the wall under the authority of\nthe clan Toyotomi, these shops make Osaka the wealthiest city of the country.\nAround you all kinds of materials are traded, from gems to weapons, art, and\nof course, silk.} {Medieval Japan } {} {} {} {1.000}
 E { 4468} {w} {w} {8} {0} {}
 E { 4473} {n} {n} {1} {0} {}
+E { 6680} {ask rumuki kolat} {ask rumuki kolat} {0} {0} {}
 
 R { 4473} {0} {} {Before the Powerful Castle of Osaka} { } {The deep moat of the Osakajo lies between you and the magnificent eight-story\ncastle. Sheer walls of cut rock support the delicate structure of the building\nfrom platforms of stone that overlook the moat. A wooden bridge grants access\nto the fortress, but it is patrolled by many soldiers.} {Medieval Japan } {} {} {} {1.000}
 E { 4472} {s} {s} {4} {0} {}
@@ -18815,6 +18840,7 @@ E { 4493} {w} {w} {8} {0} {}
 
 R { 4493} {0} {} {By a Thunderous Waterfall} { } {A waterfall cascades here from very high above your head into a small pool of\nwater. The place is inhabited by many small flies that dance around in clouds,\nconstantly disturbed by the waters that sparkles from the cascade. The way to\nthe north is guarded by two tall guardian statues whose fearsome presence\nlooms large.} {Medieval Japan } {} {} {} {1.000}
 E { 4492} {e} {e} {2} {0} {}
+E { 6684} {n} {n} {1} {0} {}
 
 R { 4494} {0} {} {On The Nakasendo} { } {The imperial causeway climbs in the steep mountains of the northern parts of\nthe island of Honshu. The road has a low frequentation, probably due to the\ndifficult parts that are not very welcoming to large merchant caravans and\nthe low temperature that drops abruptly as the causeway crosses through high\nmountain ranges. All around you, you admire a panoramic view of snow-capped\npeaks. To the east, you see the Nakasendo snaking in the mountains towards\nrich fields in the distance.} {Medieval Japan } {} {} {} {1.000}
 E { 4495} {e} {e} {2} {0} {}
@@ -18929,6 +18955,7 @@ E { 4489} {e} {e} {2} {0} {}
 R { 4520} {0} {} {On The Nakasendo} { } {The imperial causeway climbs in the steep mountains of the northern parts of\nthe island of Honshu. The road has a low frequentation, probably due to the\ndifficult parts that are not very welcoming to large merchant caravans and\nthe low temperature that drops abruptly as the causeway crosses through high\nmountain ranges. All around you, you admire a panoramic view of snow-capped\npeaks. To the east, you see the Nakasendo snaking in the mountains towards\nrich fields in the distance.} {Medieval Japan } {} {} {} {1.000}
 E { 4489} {w} {w} {8} {0} {}
 E { 4495} {e} {e} {2} {0} {}
+E { 6683} {s} {s} {4} {0} {}
 
 R { 4521} {0} {} {A Tiny Shrine to Benten} { } {A shrine has been set up here under a large red torii arch, under which\nvisitors pass become accessing the shrine. The place is devoted to Benten,\none of the major kami and the goddess of everything linked with luck. Benten\nis also known to be one of the major seven fortunes and from all the offerings\nand visitors around the shrine, you can say her cult is very popular.} {Medieval Japan } {} {} {} {1.000}
 E { 4503} {s} {s} {4} {0} {}
@@ -19230,7 +19257,7 @@ E { 4595} {n} {n} {1} {0} {}
 
 R { 4595} {0} {} {The Foot of the Celestial Mountain} { } {The Garden of Edin comes to its edge here, before a gigantic, lonely mountain\nthat rises very high into the clouds. The celestial mountain, while larger\nthan any other mountain you have ever seen, did not reveal itself to your\nsight before you stepped closer to its base.} {The Seven Heavens } {} {} {} {1.000}
 E { 4594} {s} {s} {4} {0} {}
-E { 4606} {ask angel transport} {ask angel transport;pause 1 second;stand} {0} {0} {}
+E { 4606} {transport} {enq ask angel transport;pause 1s;stand} {0} {0} {}
 
 R { 4596} {0} {} {Inside a Dark Cave} { } {The cave is dark and something old, something evil and malicious still\ndwelling within, waiting for another opportunity to corrupt the Garden of Edin\nand its innocent inhabitants.} {The Seven Heavens } {} {} {} {1.000}
 E { 4590} {n} {n} {1} {0} {}
@@ -19274,7 +19301,7 @@ E { 3416} {w} {w} {8} {0} {}
 R { 4606} {0} {} {Inside a Simple House} { } {You are inside of simple stone house built simply under a thatched roof. There\nis no apparent fire but the place feels warm and clean. As you peek outside\nthrough the open windows you see a landscape of low hills, covered with green\ngrass bathing under a bright sunshine.} {The Seven Heavens } {layer2} {} {} {1.000}
 E { 4607} {n} {open n;n} {1} {0} {}
 E { 4607} {slee} {slee} {0} {0} {}
-E { 4595} {sleep} {sleep} {0} {0} {}
+E { 4595} {sleep} {sleep;st} {0} {0} {}
 
 R { 4607} {0} {} {The Hills of Raqia, the Second Heaven} { } {You see a landscape of low hills, covered with green grass bathing under a\nbright sunshine. Many people wander the hills purposelessly, only enjoying\nthe company of each other and the spectacular weather. All around you are\njust sounds of joy, laughter, and communicative happiness.} {The Seven Heavens } {} {} {} {1.000}
 E { 4606} {s} {open s;s} {4} {0} {}
@@ -19789,6 +19816,7 @@ E { 4726} {s} {s} {4} {0} {}
 
 R { 4720} {0} {} {The Great Gates of Valletta} { } {The great gates to the capital and the battlements tower above your head. The\nsquare inside the gates to the north throbs with people, contrasting with the\nopen farmland to the south. Valletta is home to ten thousand people less than\na century after its foundation stone was laid -- and add to those, the Knights\nof St John themselves, probably another good thousand men.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3038} {n} {n} {1} {0} {}
+E { 6629} {s} {s} {4} {0} {}
 
 R { 4721} {0} {} {LOST IN THE ASTRAL SEA} { } {Looking all around you, in all directions, you can only see stars. Billions of\nstars, novae, galaxies and the magnificent colored drapes of glorious nebulas.\nNowhere around, you can see any signs of any form of life.} {The Seven Heavens } {} {} {} {1.000}
 E { 4671} {s} {s} {4} {0} {}
@@ -21054,7 +21082,7 @@ E { 4688} {s} {s} {4} {0} {}
 
 R { 5029} {0} {} {Hauptstrasse South} { } {The road here is of firmly packed earth, and your footsteps raise very little\ndust. There are piles of refuse to either side of the road, and the road\nitself is crowded with people traveling from the southern part of the town,\nwhere the administrative and service centers are, into the commercial and\nresidential districts in the northern part. There are buildings to the east\nand west, with no apparent entrances, and the road continues to the north to\nthe rest of the town, and south through the gates.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5030} {n} {n} {1} {0} {}
-E {  934} {ask gate gate} {ask gate gate} {0} {0} {}
+E {  934} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 5030} {0} {} {Hauptstrasse/Schatzenstrasse} { } {This is the intersection of two rather busy streets, the north/south\nHauptstrasse and the east/west Schatzenstrasse. Your nose is assaulted by the\nrather powerful smell of rottenness, probably due to the increasingly large\npiles of filth you see to either side of the road here. Rats scurry from pile\nto pile, and you see an occasional mangy-looking cat racing after them,\nalthough when you see other people on the street, they seem to ignore the whole\nlot.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5029} {s} {s} {4} {0} {}
@@ -21761,7 +21789,7 @@ E { 5200} {n} {n} {1} {0} {}
 R { 5200} {0} {} {Among the Aleksander Archipelagos} { } {The small rocky islands here would threaten the safety of small boat users,\nthe shallow water causing rocks to scrape the bottom of the boat. The deeper\nwaters of the gulf to the west look much safer. You notice a fort built upon\nthe shore to the east, trees cleared away for building materials.} {1802 Alaska } {} {} {} {1.000}
 E { 5199} {s} {s} {4} {0} {}
 E { 5201} {w} {w} {8} {0} {}
-E { 5648} {e} {e} {2} {0} {}
+E { 6689} {e} {e} {2} {0} {}
 
 R { 5201} {0} {} {Passing the Aleksander Archipelagos} { } {The waters to the east are littered with small islands of rock. The waters\nhere are safe, unlike among the archipelagos where shallow waters and rocks\nthreaten any boats that try to pass through them.} {1802 Alaska } {} {} {} {1.000}
 E { 5200} {e} {e} {2} {0} {}
@@ -22950,6 +22978,7 @@ E { 5482} {n} {n} {1} {0} {}
 R { 5482} {0} {} {By the Fire Pit} { } {The Picti do not seem to use their fire much, for the fire pit is cold,\ndespite the whistling wind this far up in the hills. Around this pit also\nseems to be a dancing area. You get the impression that the Picti could get up\nand move this camp in half an hour if needed. A large lean-to is north of\nhere, probably the chief's. There is also a path leading south, and a clearing\nto the west.} {Pictish Country } {} {} {} {1.000}
 E { 5481} {s} {s} {4} {0} {}
 E { 5483} {n} {n} {1} {0} {}
+E { 6719} {w} {w} {8} {0} {}
 
 R { 5483} {0} {} {Chief's Tent} { } {The interior of this tent lacks luxury, but it does have several worthless\nbits of colored stone and other trinkets strewn about. One side of the tent\nhas strange designs drawn on the side in some sort of blue ink, but the\nshapes mean nothing to your eye. There's an exit south.} {Pictish Country } {} {} {} {1.000}
 E { 5482} {s} {s} {4} {0} {}
@@ -23554,7 +23583,7 @@ R { 5633} {0} {} {At the Lookout's Post} { } {Looking out through the Swan's bea
 E { 5632} {d} {d} {32} {0} {}
 
 R { 5634} {0} {} {St. Stephen's Church} { } {There is an unholy feeling about the interior of this place. By day or night,\ndirty columns of light filter down through holes in the walls and ceiling, and\nfog shrouds the upper reaches of the nave. The altar has been desecrated and\nthe pews overturned. As you walk on the flagstones, noticing the names of\npeople inscribed on them, you suddenly realize this is a church old enough to\nhave graves under the floor. As the wind rises and whistles through the broken\nwindows, long since broken to bits for the colored glass, a shiver runs down\nyour spine and you prepare to run. You think you might be able to escape\nthrough the south entry.} {London Port } {} {} {} {1.000}
-E {    3} {s} {s} {4} {0} {}
+E {    3} {s} {open s;s;close n} {4} {0} {}
 
 R { 5635} {0} {} {In a Hut} { } {Solid adobe construction and a good old thatch roof protect you well from the\nelements here. This village is even fairly well off, as there are wooden\nshutters on the doors. The inhabitant of this hut must be a mighty hunter, for\ntrophies of past kills are along one wall. Singed tiger's whiskers are\ncarefully placed in expensive wooden boxes, to kill the soul of the beast.} {Seoni Jungle India } {} {} {} {1.000}
 E { 5241} {s} {s} {4} {0} {}
@@ -23604,15 +23633,20 @@ R { 5647} {0} {} {A Darkened Room in the Long House} { } {A small dust cloud ris
 E { 5646} {w} {open w;w} {8} {0} {}
 
 R { 5648} {0} {} {Before a Fort Gate} { } {Tall wooden fort gates rise up before you, the pointed tips of the logs almost\ntouching the lookout platform over the entryway. Judging by the newly carved\npointed tops of some of the logs, spear holes in the gate, and char marks here\nand there, this fort has obviously been attacked in the recent past.} {1802 Alaska } {} {} {} {1.000}
-E { 5200} {w} {w} {8} {0} {}
+E { 6689} {w} {w} {8} {0} {}
 E { 5649} {e} {e} {2} {0} {}
+E { 6685} {n} {n} {1} {0} {}
+E { 6687} {s} {s} {4} {0} {}
 
 R { 5649} {0} {} {In the Fort Yard} { } {Several buildings have been built along the edges of the fort walls, so from\nthe yard there is a door in each direction and a ladder going up. Judging by\nthe sounds coming from the building to the east, you guess it is a kitchen.\nYou cannot tell what is through the door to the north or south, but to the west\nare the fort gates. A set of boards have been erected here to notify the fort's\nresidents of local and world happenings.} {1802 Alaska } {} {} {} {1.000}
 E { 5648} {w} {w} {8} {0} {}
-E { 5650} {n} {n} {1} {0} {}
+E { 5650} {n} {open n;n} {1} {0} {}
+E { 6691} {u} {u} {16} {0} {}
+E { 6692} {s} {open s;s} {4} {0} {}
+E { 6694} {e} {open e;e} {2} {0} {}
 
 R { 5650} {0} {} {A Store Room} { } {Lit only by the dim light from the doorway and any meager light coming from\nlight sources, this room is stocked high with barrels and crates, and a\nvariety of goods have been placed on top of the shorter stacks -- mostly native\ncrafts and smaller animal furs. Fox tails and a mixture of other furs dangle\nfrom the rafters, and a pile of caribou and bear hides have been stacked in\none corner. This storage room would be a trader's dream -- such a variety and\nquantity of goods would bring a good sum of profit. A box with a lock on it\nlooks quite secure.} {1802 Alaska } {} {} {} {1.000}
-E { 5649} {s} {s} {4} {0} {}
+E { 5649} {s} {open s;s} {4} {0} {}
 
 R { 5651} {0} {} {Wandering On a Narrow Path} { } {This narrow and hastily constructed path seems to have been recently built.\nTall trees form emerald archways over the path and let only a sliver of light\npenetrate through their wall of leaves. People of all walks of life, some on\nfoot, some in carriages, wind their way towards what looks from this distance\nto be a carnival which has spread like a rhizome from the ground -- so fast\nand unobtrusive was its development. Yet others head in another direction back\nto town where they can recover from their weekend at the carnival. Dishevelled\nmen and women drag crying and food-stained children down the path, arms laden\nwith toys and prizes. From this position one can just glimpse the carnival to\nthe north as the flags fly high on its many peaks.} {Gypsy Carnival } {carni} {} {} {1.000}
 E { 5652} {n} {n} {1} {0} {}
@@ -24778,6 +24812,7 @@ E { 4860} {d} {open d;d} {32} {0} {}
 R { 5924} {0} {} {Strolling the North End of Triq il-Merkanti} { } {The houses along the street are well kept. Obviously, Triq il-Merkanti belongs\nto the wealthier parts of Valletta. You hear the noise from the square to the\nwest and muse that this street seems notably quieter. The cobblestones under\nyour feet resound softly as you walk.} {Hospitaller Malta } {} {} {} {1.000}
 E { 5925} {w} {w} {8} {0} {}
 E { 5927} {s} {s} {4} {0} {}
+E { 6624} {e} {open e;e} {2} {0} {}
 
 R { 5925} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3034} {w} {w} {8} {0} {}
@@ -24786,6 +24821,7 @@ E { 5924} {e} {e} {2} {0} {}
 R { 5926} {0} {} {Strolling on Triq il-Merkanti} { } {Tall houses, several with beautiful frontispieces, line up along the street.\nYou pay heed to a few particularly beautiful facades on mansions that must\nbelong to upper class families and knights. You hear the clippety-cloppety of\nhorses moving along the street.} {Hospitaller Malta } {} {} {} {1.000}
 E { 5927} {n} {n} {1} {0} {}
 E { 5930} {s} {s} {4} {0} {}
+E { 6622} {e} {open e;e} {2} {0} {}
 
 R { 5927} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 5924} {n} {n} {1} {0} {}
@@ -24805,6 +24841,7 @@ E { 5926} {n} {n} {1} {0} {}
 R { 5931} {0} {} {The Cathedral of St John} { } {Elegantly carved limestone work resembling stylized flowers and Maltese\ncrosses adorn the walls. The floor seems made almost entirely from marble\nplates on which coats-of-arms and Latin inscriptions commemorate the knights\nof the past, dead in service of the Lord. The high arches overhead display\nlife-size paintings of scenes from the Order's history. Heroes of the past\nlook down at you benevolently.} {Hospitaller Malta } {} {} {} {1.000}
 E { 3036} {w} {w} {8} {0} {}
 E { 5932} {n} {n} {1} {0} {}
+E { 6617} {d} {d} {32} {0} {}
 
 R { 5932} {0} {} {The Sacristy of the Cathedral of St John} { } {A large room, yet small-seeming next to the main cathedral isles, the sacristy\ncontains several relics of great importance to the faith. Here is also stored\nthe beautiful, illuminated books containing the music played during services,\nas well as other texts and paraphernalia relevant to the church.} {Hospitaller Malta } {} {} {} {1.000}
 E { 5931} {s} {s} {4} {0} {}
@@ -25035,7 +25072,7 @@ R { 5988} {0} {} {Trekking the Sands of Time} { } {You've traveled the dunes for
 E { 1627} {n} {n} {1} {1} {}
 E { 5989} {e} {e} {2} {0} {}
 
-R { 5989} {0} {} {Sand Dunes of the Deep Desert} { } {Step after miserable step, you finally reach the top of the searing dunes.\nYour intuition suggested that this desert was timeless and endless\; Now you\ncan confirm it.} {Arabian Dreams } {} {} {} {1.000}
+R { 5989} {0} {} {Sand Dunes of the Deep Desert} { } {Step after miserable step, you finally reach the top of the searing dunes.\nYour intuition suggested that this desert was timeless and endless\; Now you\ncan confirm it.} {Arabian Dreams } {irem} {} {} {1.000}
 E { 5988} {w} {w} {8} {0} {}
 E { 5990} {n} {open n;n} {1} {0} {}
 E { 5991} {s} {s} {4} {0} {}
@@ -25627,16 +25664,20 @@ E { 6138} {w} {w} {8} {0} {}
 R { 6138} {0} {} {A Room Hollowed out of the Rock} { } {Here at the end of the cave, an office-like room has been carved out of the\nrock. A handful of oil lamps provide enough light for someone to read and\nwork on important documents. A mattress sits on one side of the floor\nallowing the occupant a rest if needed. A short table sits in the center of\nthe room covered in maps and papers while more armaments lie all about. Most\nnotably however is a flag hung upon one of the walls. It is a blue and red\nhorizontal bi-color with a white triangle along the hoist, within which is a\nyellow sun and three smaller stars.} {The Philippines } {} {} {} {1.000}
 E { 6137} {e} {e} {2} {0} {}
 
-R { 6139} {0} {} {} { } {} {} {} {} {} {1.000}
-E { 3033} {e} {e} {2} {0} {}
+R { 6139} {0} {} {Standing Outside Fort St Elmo} { } {Built from yellow limestone that pales in the sun, the Fort is heavy and\nforbidding. From the road you may look down upon a sealed-off courtyard,\nbeyond which doors lead into the building and the cells it contains. The\nentrance to the Fort is just wide enough to allow a cannon and the horses\npulling it to enter. The courtyard and the narrow passages between the\nbuildings are patrolled at all hours.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6614} {e} {e} {2} {0} {}
 E { 6140} {s} {s} {4} {0} {}
+E { 6613} {d} {d} {32} {0} {}
 
 R { 6140} {0} {} {A Street South of Fort St Elmo} { } {Still open and airy, the street narrows quickly towards the south. To the\nnorth, Fort St Elmo blocks the view out over the harbor, well patrolled at all\nhours. Beyond the fortifications you spot sapphire glimpses of the wide ocean.} {Hospitaller Malta } {} {} {} {1.000}
 E { 6139} {n} {n} {1} {0} {}
 E { 6141} {s} {s} {4} {0} {}
+E { 6604} {w} {w} {8} {0} {}
 
 R { 6141} {0} {} {Standing Outside the Slave Prison} { } {You stroll down one of Valletta's less crowded streets, admiring the city's\nodd mix of construction sites, religious institutions, churches, military\nfortifications, and plain living quarters for ordinary residents. Somewhere a\ncat meows and other sounds of the big city drift towards you as well --\nvoices, laughter, scrapings of objects being moved, and the clippety-cloppety\nof horses passing by in the street. Right ahead, a heavy gate bars access to\nthe slave prison.} {Hospitaller Malta } {} {} {} {1.000}
 E { 6140} {n} {n} {1} {0} {}
+E { 6601} {w} {w} {8} {0} {}
+E { 6619} {s} {s} {4} {0} {}
 
 R { 6142} {0} {} {Entrance to the Crypt} { } {The light seeping in from above blinds you to what lies in the darkness ahead,\nthough by the feel of the space you can tell that the crypt extends to the\nnorth and east. You'll have to venture further inside if you want to discern\nany more.} {Saint Denis Abbey } {} {} {} {1.000}
 E { 5255} {u} {u} {16} {0} {}
@@ -25959,7 +26000,7 @@ E { 1961} {n} {n} {1} {0} {}
 E { 6219} {w} {w} {8} {0} {}
 E { 2029} {e} {e} {2} {0} {}
 
-R { 6219} {0} {} {In Dense Jungle} { } {It is with great difficulty that you can see the ocean that lies just feet\naway from you to the east, so dense is the jungle here. Your feet always\nmanage to find sure footing, however. Unless you are totally mistaken, a\nshadow looms amidst the leaves and vines to the south...?} {South Seas } {} {} {} {1.000}
+R { 6219} {0} {} {In Dense Jungle} { } {It is with great difficulty that you can see the ocean that lies just feet\naway from you to the east, so dense is the jungle here. Your feet always\nmanage to find sure footing, however. Unless you are totally mistaken, a\nshadow looms amidst the leaves and vines to the south...?} {South Seas } {wu} {} {} {1.000}
 E { 6218} {e} {e} {2} {0} {}
 E { 6220} {s} {s} {4} {1} {}
 
@@ -26351,8 +26392,9 @@ E { 6314} {e} {open e;e} {2} {0} {}
 R { 6317} {0} {} {Beside the Mill} { } {A chain-link fence blocks your entrance into the mill here. The train tracks\non the other side shutter from time to time as a train passes by, kicking up\na cloud of dust in the process.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  249} {e} {e} {2} {0} {}
 
-R { 6318} {0} {} {Along the Riverside, Before a Mill} { } {Dust, smoke and dirt cloud the air here. You see billowing black clouds of\nsmoke pour out from atop iron smokestacks ahead. As far as you can see,\nbuildings and rails of iron, steel and wood stretch along the side of\nthe Monongahela.} {1930's Pittsburgh } {} {} {} {1.000}
+R { 6318} {0} {} {Along the Riverside, Before a Mill} { } {Dust, smoke and dirt cloud the air here. You see billowing black clouds of\nsmoke pour out from atop iron smokestacks ahead. As far as you can see,\nbuildings and rails of iron, steel and wood stretch along the side of\nthe Monongahela.} {1930's Pittsburgh } {mill} {} {} {1.000}
 E {  249} {w} {w} {8} {0} {}
+E { 6696} {n} {open n;n} {1} {0} {}
 
 R { 6319} {0} {} {Cleopatra's Needle} { } {The riverfront of the Thames, on the Victoria Embankment, hosts a tall\nEgyptian obelisk marked with ancient hieroglyphs. At the base of the needle,\ntwo bronze statues of black sphinxes stand, protecting the old obelisk from\nwould-be transgressors. This obelisk was a gift to the United Kingdom, from\nthe Pasha Mehemet Ali, the Albanian-born viceroy of Egypt, this monument\ncelebrates the commemoration of the victories of Lord Nelson.} {London Port } {} {} {} {1.000}
 E {   39} {w} {w} {8} {0} {}
@@ -27288,3 +27330,725 @@ E { 5780} {n} {n} {1} {0} {}
 
 R { 6551} {0} {} {A Brightly Coloured Caravan} { } {This caravan is so bright that there is nowhere for the eyes to rest\ncomfortably. A large red couch stands center room and before it is a coffee\ntable covered in a multi-coloured cloth. A huge vase of flowers stand center\ntable and reflect the bright reds and pinks of the wallpaper. A bed rests in\nthe corner of the room, blanketed in thick blue and yellow quilts and at its\nfeet stands an elaborate Turkish rug which looks more like an explosion than a\ncarpet. Curiously, each item of furniture is echoed by its twin in miniature.\nNext to the bed stands a smaller bed, the couch is flanked by a miniature\ncouch and next to the armchair is its tiny replica. Perhaps a spoiled child\nlives here.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5779} {n} {n} {1} {0} {}
+
+R { 6552} {0} {} {The Docks} { } {The docks are not as busy as you would expect them to be at this point in the\nwar. You would expect Rommel to have large amounts of supplies and soldiers\ncoming in to bolster his weary Afrika Korps.} {WWII North Africa } {} {} {} {1.000}
+E {  599} {s} {s} {4} {0} {}
+
+R { 6553} {0} {} {Inside the Gate of St. Peter} { } {The stone gatehouse looms overhead. The road inside the city is paved with\ngravel from the hillside, with an underlying bed of stone. Twice the stones\nrise slightly to form a low bridge over the streams which flow right through\nthe side, offshoots of the Orontes. This part of the city is mostly flat, and\nthe regular streams of fresh water have enabled the residents to turn the\neastern part of the city into gardens and even pastureland. The fields are a\nmosaic of color from the ripe vegetables, and fat sheep and goats graze in\nthe grass behind carefully-maintained fences.} {The Crusades } {} {} {} {1.000}
+E {  491} {e} {open e;e} {2} {0} {}
+E { 6554} {w} {w} {8} {0} {}
+
+R { 6554} {0} {} {On the Road before St. Peter's} { } {Here among the lavish villas and beautiful gardens lies St. Peter's\nCathedral, a tall and sturdy building of stone, lavishly ornamented with\nstatues and engravings. It was unto Antioch that St. Peter first brought the\nlight of the gospel, and thus St. Peter has always been particularly sacred\nto these people. You can see that behind the cathedral lies the Duke's Gate,\nwhich connects to the Bridge of Boats, crossing the Orontes. The paved road\ncontinues east and west from here, along the edge of the mountain which looms\nto the south.} {The Crusades } {} {} {} {1.000}
+E { 6553} {e} {e} {2} {0} {}
+E { 6555} {n} {n} {1} {0} {}
+E { 6557} {w} {w} {8} {0} {}
+
+R { 6555} {0} {} {The Cathedral of St. Peter} { } {The solemn gray stone of the cathedral walls sings with color from the\ncolored glass windows and mosaics which cover the interior and floors. The\ndepictions focus on the life of St. Peter both before and after the death of\nChrist in great detail. The rich smell of cedar and incense floats in the\nair.} {The Crusades } {} {} {} {1.000}
+E { 6554} {s} {s} {4} {0} {}
+
+R { 6556} {0} {} {In a Training Room} { } {You immediately notice the stench -- of raw sweat and dirty bodies, mixed\nwith a little blood and rust. Dummies made of straw, tied with twine to look\nlike men, stand at attention in a line down the center of the room. Off to\none side is a practice space for sparring, with an assortment of blunted\nswords and sticks hanging on the wall. One wall has been covered with rough\ndiagrams written on paper or painted on cloth, showing the weaknesses of\ndifferent sorts of armor, basic sword, mace, and axe technique, and the\nworking of a siege tower, battering ram, and catapult.} {The Crusades } {} {} {} {1.000}
+E { 6568} {n} {n} {1} {0} {}
+
+R { 6557} {0} {} {Before the Palace} { } {The Palace of Antioch stands before you, an elaborate stone castle surrounded\nby gardens which seem to sprawl over the walls and tumble down into the\ngrounds like a green waterfall. The air is filled with the dizzying scent of\nblossoms and lush greenery. Peeking through the flora, you can see that the\nstone walls have been carefully chiseled with reliefs. The designs run in a\nrough sequence, depicting scenes from the history of Antioch, including\nsymbols from Greek mythology, Roman civilization, the life of Christ, and the\ncity's present prosperity.} {The Crusades } {} {} {} {1.000}
+E { 6554} {e} {e} {2} {0} {}
+E { 6559} {w} {w} {8} {0} {}
+E { 6560} {s} {s} {4} {0} {}
+E { 6561} {n} {open n;n} {1} {0} {}
+
+R { 6558} {0} {} {Wandering on a Broad Plateau} { } {The grass here is taller than your head, and closes in from every direction.\nYou are surrounded by a dizzying crosshatching of green lines and and the\nintoxicating fragrance of warm earth. Narrow trails lead off in every\ndirection.} {The Crusades } {} {} {} {1.000}
+E { 4230} {s} {s} {4} {0} {}
+E { 6562} {n} {n} {1} {0} {}
+E { 6562} {w} {w} {8} {0} {}
+E { 6574} {e} {e} {2} {0} {}
+
+R { 6559} {0} {} {St. George's Gate} { } {A squat gate of heavy stone sits blocking any travel westward, its mechanical\nworks heavily guarded. A giant dragon's head scowls down at you from the top\nof the archway, daring you to attempt to pass by without a tiny shiver.\nDuring a more certain time, the gate would be open for travelers wishing to\ncontinue on to the sea. But Prince Bohemond is more concerned about hanging\non to his city, as his allies are pocketing bribes from the Muslims and\nturning their backs on him. Fortunately for Bohemond, however, Salah ad-Din's\nforces are busy elsewhere -- for the time being.} {The Crusades } {} {} {} {1.000}
+E { 6557} {e} {e} {2} {0} {}
+
+R { 6560} {0} {} {Near the Tower of the Two Sisters} { } {The road runs close to the wall here, as if seeking to keep a close eye on\nthe defensive work of the nearby tower. The terrain is slightly steeper in\nthis part of the city, as the road prepares to climb uphill towards the\ncitadel or downhill into the main settlement. The houses are larger and\nfurther apart here, each separated from the other by a small garden plot\nand a stone wall. Many of them appear to be more recently constructed, right\nover the top of ancient foundations. Stone-lined aqueducts channel the small\nstreams that run down from the mountain, to prevent flooding and erosion.} {The Crusades } {} {} {} {1.000}
+E { 6557} {n} {n} {1} {0} {}
+E { 6563} {w} {w} {8} {0} {}
+E { 6565} {s} {s} {4} {0} {}
+
+R { 6561} {0} {} {The Great Hall} { } {You stand in a vast rectangular audience chamber which has been set up for a\ngiant feast. A series of long wooden tables run parallel for the length of\nthe hall, ending at a head table. On the wall behind the head table hang\nbright-colored standards and shields. The other walls are all hung with vivid\nsilken tapestries, some woven, some embroidered, some painted. Each one\ndisplays a different scene of court life, including hunting, feasting, giving\nlegal rulings and making decrees, and praying in the cathedral.} {The Crusades } {} {} {} {1.000}
+E { 6557} {s} {open s;s} {4} {0} {}
+
+R { 6562} {0} {} {On the Anatolian Plateau} { } {The grassland continues in all directions. The omnipresent grasses are\nshorter here than those to the east, with broader, more succulent leaves.\nTrees and scattered bushes break the soft waves of gray-green grass. Off to\nthe west, the lush land grows even greener.} {The Crusades } {} {} {} {1.000}
+E { 6558} {s} {s} {4} {0} {}
+E { 6570} {w} {w} {8} {0} {}
+
+R { 6563} {0} {} {Inside the Tower of the Two Sisters} { } {The interior of the tower is very dark. Careful examination reveals the\nsource of the tower's name -- in their spare time, the soldiers who guard\nfrom within this tower have drawn an elaborate mural representing two\nbeautiful ladies. Although the proportions are rather exaggerated, some of\nthe artists clearly had a level of skill.} {The Crusades } {} {} {} {1.000}
+E { 6560} {e} {e} {2} {0} {}
+E { 6564} {u} {u} {16} {0} {}
+
+R { 6564} {0} {} {Atop the Tower of the Two Sisters} { } {It was from this stone tower that the traitor Firouz lowered a ladder,\nallowing sixty Frankish knights to ascend into the tower. As dawn broke\nover the city, the knights ran through the streets, and opened several of\nthe city gates. The Frankish army poured in, and although they managed to\nkill many Christian residents as well as Muslims in the ensuing battle, the\ncity quickly fell to the Crusaders. Clearly the new lords of this city would\nrather not see it fall the same way twice, for the tower is now carefully\nguarded by several trusted knights.} {The Crusades } {} {} {} {1.000}
+E { 6563} {d} {d} {32} {0} {}
+
+R { 6565} {0} {} {Climbing Mount Silpius} { } {The mountain is very steep, making the citadel at its top very difficult to\nattack with vigor. A few sparse grasses and bushes work their way out of the\nrugged earth, and some of the hillside has been terraced and cleared to allow\nthe cultivation of grapes and a few pine trees. The road is rough with\nprotruding stones, made only slightly more tolerable by frequent\nswitchbacks.} {The Crusades } {} {} {} {1.000}
+E { 6560} {n} {n} {1} {0} {}
+E { 6566} {s} {s} {4} {0} {}
+
+R { 6566} {0} {} {The Citadel Gatehouse} { } {Entry and exit from the citadel is controlled by a series of wooden doors and\niron gates, each guarded and carefully watched from high, narrow windows.\nOnly those on official business may enter and exit safely. The stone on\neither side of you seems to be closing in.} {The Crusades } {} {} {} {1.000}
+E { 6565} {n} {n} {1} {0} {}
+E { 6567} {s} {s} {4} {0} {}
+
+R { 6567} {0} {} {Inside the Citadel} { } {Dim torches burn on the walls of this corridor inside the heavily-constructed\nfortress. Above, you can barely see a few dark, narrow windows, which\nsuggests the presence of secret passages. The floor is slightly stained, and\nthe air is musty. You can hear the echoes of voices down the corridor, but it\nis difficult to tell how far away they are.} {The Crusades } {} {} {} {1.000}
+E { 6566} {n} {n} {1} {0} {}
+E { 6568} {e} {e} {2} {0} {}
+
+R { 6568} {0} {} {In the Common Room} { } {The citadel is usually the home of some of the city's garrison of guards and\ntrained soldiers, as well as a training ground for new recruits. Recently,\nhowever, members of the ruling family have been visiting as well, and the\nquarters have been spruced up accordingly. A new rug is spread over the\nstained stone floor, and the tables have been recently cleaned. Tankards are\nneatly stacked at the end of one table.} {The Crusades } {} {} {} {1.000}
+E { 6567} {w} {w} {8} {0} {}
+E { 6569} {e} {e} {2} {0} {}
+E { 6556} {s} {s} {4} {0} {}
+
+R { 6569} {0} {} {In the Armory} { } {The room is very dark, and smells of rust. A fire burns in one corner to keep\naway the damp. You are surrounded on all sides by racks and heaps of armor\nand weapons, which cast strange shadows in the firelight.} {The Crusades } {} {} {} {1.000}
+E { 6568} {w} {w} {8} {0} {}
+
+R { 6570} {0} {} {At the Edge of Cultivated Land} { } {The earth has been cleared of brush and trees in order to cultivate the vast\norchard of fruit trees. Although these trees are native to the area, they do\nnot naturally occur in such quantity. These have been carefully maintained,\nand the soil has been freshly worked. The air is sharp and exciting with the\nsmell of harvest. Brightly colored leaves crunch beneath your feet.} {The Crusades } {} {} {} {1.000}
+E { 6562} {e} {e} {2} {0} {}
+E { 6571} {n} {n} {1} {0} {}
+
+R { 6571} {0} {} {An Orchard of Lime Trees} { } {The air is filled with the sharp, acidic fragrance of the lime trees which\nsurround you. This part of the plateau is sheltered by an outcropping of\nmountains which protect the trees from the cold winds which blow in from the\nnorth. The warm air is a welcome change from the windy steppe. The cultivated\nland extends in all directions.} {The Crusades } {} {} {} {1.000}
+E { 6570} {s} {s} {4} {0} {}
+E { 6572} {w} {w} {8} {0} {}
+E { 6573} {e} {e} {2} {0} {}
+
+R { 6572} {0} {} {A Rolling Field of Wheat} { } {You stand in a golden sea, surrounded by rippling waves of grain. The heads\nbend heavy and ripe, bowing towards to the warm earth. A narrow path leads\nthrough the field.} {The Crusades } {} {} {} {1.000}
+E { 6571} {e} {e} {2} {0} {}
+
+R { 6573} {0} {} {A Grove of Olives and Grapes} { } {A row of gray-green olive trees surround this thriving vineyard. The grape\narbors stretch in long rows which run from east to west. Bird songs echo\nthrough the air. The broad leaves of the grape vines shelter heavy bunches of\nfat, juicy grapes.} {The Crusades } {} {} {} {1.000}
+E { 6571} {w} {w} {8} {0} {}
+
+R { 6574} {0} {} {Wandering the Cappadocian Steppe} { } {The land is increasingly dry here. The grasses are shorter and more sparse,\ngiving way to small bushes, shrubs, and the occasional lone tree. The air is\ntangibly drier as well, sucking the moisture out of your skin and leaving it\nwith a thin coating of dust. The land is pockmarked with burrows and mounds,\nevidence of a thriving rodent population.} {The Crusades } {} {} {} {1.000}
+E { 6558} {w} {w} {8} {0} {}
+E { 6575} {n} {n} {1} {0} {}
+E { 6576} {e} {e} {2} {0} {}
+E { 6576} {s} {s} {4} {0} {}
+
+R { 6575} {0} {} {Wandering the Cappadocian Steppe} { } {The land is increasingly dry here. The grasses are shorter and more sparse,\ngiving way to small bushes, shrubs, and the occasional lone tree. The air is\ntangibly drier as well, sucking the moisture out of your skin, and leaving it\nwith a thin coating of dust. The land is pockmarked with burrows and mounds,\nevidence of a thriving rodent population.} {The Crusades } {} {} {} {1.000}
+E { 6574} {w} {w} {8} {0} {}
+E { 6576} {s} {s} {4} {0} {}
+E { 6576} {e} {e} {2} {0} {}
+
+R { 6576} {0} {} {Wandering the Cappadocian Steppe} { } {The land is increasingly dry here. The grasses are shorter and more sparse,\ngiving way to small bushes, shrubs, and the occasional lone tree. The air is\ntangibly drier as well, sucking the moisture out of your skin, and leaving it\nwith a thin coating of dust. The land is pockmarked with burrows and mounds,\nevidence of a thriving rodent population.} {The Crusades } {} {} {} {1.000}
+E { 6575} {n} {n} {1} {0} {}
+E { 6575} {w} {w} {8} {0} {}
+
+R { 6577} {0} {} {The Blue Lagoon} { } {A fairly small bay has formed between the rocky promontories of Comino,\nsheltered from the assault of the ocean currents. The bright white limestone\non the sea floor turns the waters of the bay so bright azure that it almost\nhurts to look on them. The water is clear and quiet, and you can easily spot\ndetails many meters below. This is certainly a most spectacular sight!} {Hospitaller Malta } {} {} {} {1.000}
+E { 3029} {s} {s} {4} {0} {}
+
+R { 6578} {0} {} {Landing at the Harbor Village of Mgarr} { } {Mgarr village comprises the natural landing point on the island of Gozo. It is\nbarely more than a number of cottages sheltered from the wind. Shallow\nturquoise waves lap gently at the red volcanic shore, creating an idyllic\nscene together with the pine trees and the pink-flowered prickly pear cacti.\nGozo is considerably more fertile than Malta, and this is easily visible: A\ngreater number of flowers, grasses, bushes and trees dot the landscape, and\nthe earth itself seems darker and richer.} {Hospitaller Malta } {} {} {} {1.000}
+E { 3030} {s} {s} {4} {0} {}
+E { 6579} {n} {n} {1} {0} {}
+
+R { 6579} {0} {} {Along a Winding Road to Rabat} { } {The road winds gently upwards from Mgarr at the coast towards the city of\nRabat situated where Gozo is highest above water level. The air carries a\ndelightful mingle of the crops of the land, olives, oranges, wheat and -- of\ncourse -- sheep, and the salt of the sea surrounding the small island.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6578} {s} {s} {4} {0} {}
+E { 6580} {n} {n} {1} {0} {}
+
+R { 6580} {0} {} {Standing Before the Church} { } {Entering the gates to the Citadel of Gozo after the long climb up, you are\nstartled as you face into the mouths of two heavy cannons outside the church\ndoors. You recall the Maltese custom of placing cannons outside the churches -\na last line of defense against infidel raiders. You find this combination of\nguarding city gate and church convenient. Looking around, you see the proud\nbastions overlooking most of Gozo. Right in front is the church itself. Two\nroads, narrow and dark, lead up to the town inside the citadel. Two other\nroads wind up towards the walkways around the bastions.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6579} {s} {s} {4} {0} {}
+
+R { 6581} {0} {} {Approaching Fort St Michel} { } {The vast battlements of Valletta dominate the view of the coastline to the\nwest and north, leaving the sea open to the south and east. The red-white\nbanner of the Knights of St John flies proudly from the towers of Fort St\nMichel which guards the entrance to the Grand Harbor from this side. You are\nunable to spot anything but rooftops and spires beyond the tall stone walls\nwith their cannons and constant patrols.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6583} {w} {w} {8} {0} {}
+E { 6662} {s} {s} {4} {0} {}
+
+R { 6582} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6623} {w} {w} {8} {0} {}
+E { 6583} {e} {e} {2} {0} {}
+
+R { 6583} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6582} {w} {w} {8} {0} {}
+E { 6581} {e} {e} {2} {0} {}
+
+R { 6584} {0} {} {The Azure Ocean} { } {The waves roll along, unperturbed by the passage of time, reflecting any light\nin shades of deep aquamarine and bright azure. A few seagulls circle overhead,\nand to the west you spot the promontories surrounding the Maltese harbor of\nMarsaxlokk.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6587} {n} {n} {1} {0} {}
+E { 6645} {w} {w} {8} {0} {}
+E { 6652} {s} {s} {4} {1} {}
+
+R { 6585} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6639} {n} {n} {1} {0} {}
+E { 6586} {s} {s} {4} {0} {}
+
+R { 6586} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6585} {n} {n} {1} {0} {}
+E { 6587} {s} {s} {4} {0} {}
+
+R { 6587} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6586} {n} {n} {1} {0} {}
+E { 6584} {s} {s} {4} {0} {}
+
+R { 6588} {0} {} {Standing on a Small Pier} { } {A small pier opens up back of the tavern, used by the local fishermen to land\ntheir goods. The pier itself is narrow and creaking under your feet, but it\nseems solid enough. The blue water makes soft clucking noises as the waves lap\nagainst the woodwork.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6607} {e} {e} {2} {0} {}
+E { 6602} {w} {w} {8} {0} {}
+
+R { 6589} {0} {} {A Shady Harborfront Inn} { } {Entering the taberna you find that it seems even darker and about as dreary as\nthe street outside. Shadows conceal the goings-on in most corners and the\nglances thrown in your general direction by the sailors and women here seem to\nappraise the value of your clothes if sold out the back door. Languages swirl\nthrough the air, Italian, Maltese, Spanish, French, English, even a few words\nof German, all in hushed, conspiratorial tones. The smell of unwashed clothes,\nsweat, sea spray, and beverages spilled on the tables is overwhelming.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6603} {e} {e} {2} {0} {}
+E { 6590} {u} {u} {16} {0} {}
+E { 6595} {s} {s} {4} {0} {}
+
+R { 6590} {0} {} {Above the Stairway} { } {The narrow staircase ends in a narrow hallway with doors on both sides. Bawdy\nlaughter stems out from some of the doors, indicating that people are having a\ngood time. It does not appear that anyone paid great consideration to making\nthis hallway a pleasant place to look at -- nor to keep it clean.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6589} {d} {d} {32} {0} {}
+E { 6591} {n} {n} {1} {0} {}
+E { 6592} {s} {s} {4} {0} {}
+
+R { 6591} {0} {} {A Small Alcove} { } {A small and not too clean room, the alcove is obviously meant to be used by a\ncouple -- the bed is relatively clean, at least. No personal belongings or\ntokens of somebody actually living here are about. The atmosphere is cold and\nimpersonal.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6590} {s} {s} {4} {0} {}
+
+R { 6592} {0} {} {A Small Alcove} { } {A small and not too clean room, the alcove is obviously meant to be used by a\ncouple -- the bed is relatively clean, at least. No personal belongings or\ntokens of somebody actually living here are about. The atmosphere is cold and\nimpersonal.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6590} {n} {n} {1} {0} {}
+
+R { 6593} {0} {} {Among Shanties in the Shipyard} { } {The shipyard of Valletta never really became that. Situated on the steepest\nside of the Sceberras Peninsula, it was neglected for some time, left to be\nplaned and built on later\; but when Valletta's architects turned to do so at\nlast, they found that a slum had sprung up. Ramshackle shelters lean against\neach other, creaking and rattling upon the gusts of wind from the sea below,\nmingling with the scents of cooking fires and waste piles. This is Valletta at\nits worst. You find it hard to believe by standing here that you are, in fact,\nvisiting one of the most modern cities of the civilized world.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6594} {n} {n} {1} {0} {}
+E { 6597} {e} {e} {2} {0} {}
+E { 6620} {s} {s} {4} {0} {}
+
+R { 6594} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6593} {s} {s} {4} {0} {}
+E { 6595} {n} {n} {1} {0} {}
+
+R { 6595} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6594} {s} {s} {4} {0} {}
+E { 6589} {n} {n} {1} {0} {}
+
+R { 6596} {0} {} {A Dark Street Below the Del Monte Gate} { } {Valletta constitutes the Knights of St John's facade to the world, but this\ndamp and dark street they would not want to show off. Crates lean against the\nwalls in a disorderly fashion, discarded by merchants of the more attractive\nstreets. The Del Monte Gate towers above as you stand in the shadow of the\nlarge, square slab of stone that is the cannon tower known as St John's\nCavalier. Down here the sunlight has a hard time finding its way. Whilst\nValletta was also built for splendor, it is first and foremost Christendom's\nmost southerly fortification towards the Infidel.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6619} {n} {n} {1} {0} {}
+E { 6609} {w} {w} {8} {0} {}
+E { 6621} {e} {e} {2} {0} {}
+
+R { 6597} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6593} {w} {w} {8} {0} {}
+E { 6600} {e} {e} {2} {0} {}
+
+R { 6598} {0} {} {Entering the Holy Infirmary of the Knights of St John} { } {In 1553, 23 years after the ceding of Malta to the Knights, an ad hoc hospital\nwas built at Birgu. When government was transferred to Valletta, it was agreed\nto build an infirmary there in 1574. The Sacra Infermeria is laid along the\nsides of a quadrangular courtyard with two main wards built at a right angle\nto one another. More rooms have been added since, making the Sacra Infermeria\nthe chief medical center of the Mediterranean. You can still turn down the\nmain street and back to the bustling life of the city if the stillness and\npeace of the hospital is not to your taste.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6604} {e} {e} {2} {0} {}
+E { 6599} {n} {n} {1} {0} {}
+
+R { 6599} {0} {} {The Sala Vecchia -- the Old Ward} { } {This is the chief ward of the Sacra Infermeria, the great Hospital of St John.\nHere, they attempt to cure patients of diseases considered terminal elsewhere,\nnobleman and beggar alike receiving the same care and attention from the\nOrder. The ceiling arches high overhead, creating a light, airy atmosphere.\nRows of neatly made beds line the walls.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6598} {s} {s} {4} {0} {}
+E { 6605} {e} {e} {2} {0} {}
+E { 6606} {w} {w} {8} {0} {}
+
+R { 6600} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6597} {w} {w} {8} {0} {}
+E { 6601} {e} {e} {2} {0} {}
+
+R { 6601} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6600} {w} {w} {8} {0} {}
+E { 6141} {e} {e} {2} {0} {}
+
+R { 6602} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6588} {e} {e} {2} {0} {}
+E { 6603} {w} {w} {8} {0} {}
+
+R { 6603} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6602} {e} {e} {2} {0} {}
+E { 6589} {w} {w} {8} {0} {}
+
+R { 6604} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6140} {e} {e} {2} {0} {}
+E { 6598} {w} {w} {8} {0} {}
+
+R { 6605} {0} {} {The Kitchen of the Sacra Infermeria} { } {The hospital's kitchen is up to the standards of any king or prince: Our Lords\nthe Sick, as the Knights style their patients, carrying over a tradition\ndating back to the Order's first years at the Hospital of St Mary Latina in\nJerusalem, are served meals on silver plates. Only the best of cooking is good\nenough for them. People rush in and out here, for many are the demands for\nspecial diets for patients suffering from malnutrition or slowly being nursed\nback to health.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6599} {w} {w} {8} {0} {}
+
+R { 6606} {0} {} {The Saletta -- the Small Ward} { } {The windows let in light in which the patients seem to find some reprieve from\ntheir ailments. Resting in neatly made beds, they are confident that they are\nin the best of hands now. The roof arches high overhead, adding to the\nsensation that the ward is airy and open.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6599} {e} {e} {2} {0} {}
+
+R { 6607} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6615} {e} {e} {2} {0} {}
+E { 6588} {w} {w} {8} {0} {}
+
+R { 6608} {0} {} {Down the Old Manderaggio} { } {Initially left by the city's founders to be planed later, Valletta's old\nquarry has become a warren of shanty buildings inhabited by the lowest orders\nof society. Between the manderaggio and the shipyard slum, the ghetto valley\nhas developed into an unsavory area. For the people who live here unemployment\nis high, wages low, and living standards marginal. Eyes follow you from behind\ndoors and shutters as you walk through, silent witnesses to the goings-on of\nthe city, and testimony to the population explosion taking place in Malta with\nwhich the authorities find it hard to match pace.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6611} {e} {e} {2} {0} {}
+E { 6620} {n} {n} {1} {0} {}
+E { 6612} {w} {w} {8} {0} {}
+
+R { 6609} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6596} {e} {e} {2} {0} {}
+E { 6610} {w} {w} {8} {0} {}
+
+R { 6610} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6609} {e} {e} {2} {0} {}
+E { 6611} {w} {w} {8} {0} {}
+
+R { 6611} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6610} {e} {e} {2} {0} {}
+E { 6608} {w} {w} {8} {0} {}
+
+R { 6612} {0} {} {A Smithy} { } {A small smithy lies off the street, several products on display in the small\ncourtyard. The hammering noises coming from the inside tells you that the\nsmith and his workers are active at most hours, striving to keep up with the\nconsumers' demands.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6608} {e} {e} {2} {0} {}
+
+R { 6613} {0} {} {In the Courtyard of Fort St Elmo} { } {The courtyard of the fort is practical but not overly aesthetic to look at.\nUnlike most official buildings in Valletta, it was built with having a\nmilitary advantage in view, not to impress or inspire. A few doors lead into\nthe fort itself, but you feel fairly confident you'd never gain access there.\nThe climb back up to the street above seems considerably more difficult than\nit was getting down here.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6139} {u} {u} {16} {0} {}
+
+R { 6614} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6139} {w} {w} {8} {0} {}
+E { 3033} {e} {e} {2} {0} {}
+
+R { 6615} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6607} {w} {w} {8} {0} {}
+E { 3032} {e} {e} {2} {0} {}
+
+R { 6616} {0} {} {The Auberge de Provence} { } {The residence of the Provencal Knights of St John, the auberge is beautifully\ndecorated. The marble tiles of the floor both serve to create a beautiful\npattern as well as to make the room seem cooler and more airy. As you stand in\nthe entrance hall, you are tempted to look into some of the private quarters\nof the knights beyond the doors. Unfortunately, the doors seem to be locked.} {Hospitaller Malta } {} {} {} {1.000}
+E { 3036} {e} {e} {2} {0} {}
+
+R { 6617} {0} {} {The Crypt Beneath the Cathedral} { } {The crypt is relatively small, compared to what you would expect from a\nbuilding as large as St John's cathedral. Most likely it was never meant to\nhost more than a few bodies, and you count only a few sarcophagi standing\naround. The walls are white-washed and covered with painted frescoes,\nconveying a somewhat naively medieval atmosphere for a cathedral of so\ndistinctly baroque style.} {Hospitaller Malta } {} {} {} {1.000}
+E { 5931} {u} {u} {16} {0} {}
+
+R { 6618} {0} {} {In a Small Shop below Street Level} { } {This small goldsmith shop defies the Church's ban on usury. Various pieces of\njewelry are stashed away on the shelves, in boxes, and some out in the open to\nsee -- but not touch. Though the place seems to be run in a lawful and honest\nfashion, you get the feeling that the shop reeks of guilty conscience. Perhaps\nthe Jewish goldsmith is simply afraid, because the Knights -- like all other\ngood Christians -- detest his people.} {Hospitaller Malta } {} {} {} {1.000}
+E { 3036} {u} {u} {16} {0} {}
+
+R { 6619} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6141} {n} {n} {1} {0} {}
+E { 6596} {s} {s} {4} {0} {}
+
+R { 6620} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6593} {n} {n} {1} {0} {}
+E { 6608} {s} {s} {4} {0} {}
+
+R { 6621} {0} {} {Below St John's Cavalier} { } {The Cavalier comprises a rough-hewn, rectangular cannon tower, functional\nrather than pleasing to the eye. Serene and intimidating, the cavalier casts a\nshadow down the street, rendering it somewhat dark and forbidding even during\nthe brightest hours of day. To the people who live here it signifies\nprotection and safety. From the roof the entire Sceberras Peninsula would\nprobably be in plain view, far past the walls just beyond you, but Valletta's\nfortifications are off limits to people who have no errand there but to gape.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6596} {w} {w} {8} {0} {}
+E { 3415} {u} {u} {16} {1} {}
+
+R { 6622} {0} {} {A Carpenter's Shop} { } {A small carpenter's shop lies off the street here. The wares on display vary\nin quality from the finest of artworks produced for wealthy upper class\ncitizens to simple chairs intended for use in much humbler surroundings.} {Hospitaller Malta } {} {} {} {1.000}
+E { 5926} {w} {open w;w} {8} {0} {}
+
+R { 6623} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6582} {e} {e} {2} {0} {}
+E { 3031} {w} {w} {8} {0} {}
+
+R { 6624} {0} {} {A Tailor's Shop} { } {The shop is small and pleasant. You gain the impression that whoever keeps\norder here is somebody who does not tolerate one needle lying in the wrong\nplace. Shelves contain cloths from all over Europe. A few finished doublets\nand shirts lie off to a side, waiting to be picked up by their purchasers'\nmanservants.} {Hospitaller Malta } {} {} {} {1.000}
+E { 5924} {w} {open w;w} {8} {0} {}
+
+R { 6625} {0} {} {A Hallway Between the Armory and the Stables} { } {The marble floor consists of tiles in numerous white, golden and blue shades,\ncreating mosaics of intricate designs. Suits of full plate armor stand vigil\nin niches along the walls. Beautiful paintings adorn the ceilings. To the\nnorth, a wide marble stairway spreads out beneath the beautifully crafted\ndouble doors of the Armory, set between stone columns. Lamps sit in sconces\nalong the walls, casting a soft, flickering light on the pale marble.} {Hospitaller Malta } {} {} {} {1.000}
+E { 3570} {w} {w} {8} {0} {}
+E { 6626} {n} {n} {1} {0} {}
+E { 6627} {s} {s} {4} {0} {}
+
+R { 6626} {0} {} {The Palace Armory} { } {The Order's armory is wide-spaced and open to the eye\; the high-domed ceiling\nis adorned by large chandeliers of cast iron, casting the light into every\ncorner to be reflected in every suit of well polished armor, spearhead, sword,\naxe, crossbow, shield, and coup de grace dagger neatly organized in the racks,\nalong the walls and in the cupboards. A work place as well as a storage\nfacility, the air is heavy with steam, dust and soot. The noise from the\nfurnace tends to grate on the nerves of the spectator.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6625} {s} {s} {4} {0} {}
+
+R { 6627} {0} {} {The Palace Stables} { } {Magnificent stallions of war stand peacefully next to workhorses and the\noccasional donkey in this great hall of equines. Stable boys and grooms\nscuttle about, busy tending to their tasks, and the air smells of leather\nsoap, grease and horse. Now and then, a horse hrumpfs quietly to itself as it\nmunches on a whisk of straw. Liveries and beautifully crafted saddles hang in\nrows on the walls, some of them worth a small fortune just in inlaid silver.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6625} {n} {n} {1} {0} {}
+
+R { 6628} {0} {} {The Grand Master's Study} { } {A large bookcase dominates the far wall, and various items lie scattered on\nthe work table. Three princes stare down at you from their portraits on the\nfar wall -- l'Isle Adam, la Valette, and de Wignacourt himself. Light is\nallowed into the study through large windows towards the Strada Reale below.} {Hospitaller Malta } {} {} {} {1.000}
+E { 3573} {w} {w} {8} {0} {}
+
+R { 6629} {0} {} {Wandering On a Quiet Road Inland} { } {A narrow, rocky road winds across the land, each stone worn smooth from the\npassages of donkey hooves, wheels and feet over the centuries. Irrigation\ncanals criss-cross the fields. Here and there, cisterns hoard every drop of\nrain that falls so that it may be used to squeeze crops out of the barren\nfarmland. Where the vegetation has been disturbed, by plough or hoof, the\nbright red color of the volcanic soil shines through in sharp contrast.} {Hospitaller Malta } {} {} {} {1.000}
+E { 4720} {n} {n} {1} {0} {}
+E { 6630} {s} {s} {4} {0} {}
+
+R { 6630} {0} {} {Passing through an Orchard of Oranges} { } {You suddenly find yourself in a small grove of orange trees, the scent of\nwhich is gentler, kinder than any lady's perfume. The leaves rustle softly on\nthe wind. Watching the golden, juicy fruits weigh the branches down, you\nalmost think you made a wrong turn somewhere -- this looks more like Sicily\nthan Malta. But the Maltese oranges are not considered the finest of the world\nfor nothing. Your mouth waters as you reach up to pick one.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6629} {n} {n} {1} {0} {}
+E { 6631} {w} {w} {8} {0} {}
+E { 6637} {e} {e} {2} {0} {}
+
+R { 6631} {0} {} {Passing Along, South of Sliema} { } {The rocky hills of Malta dominate the view to the south and east. Criss-\ncrossed by irrigation canals and small groves and shrubs, the land is\nunfertile but beautiful. To the north you spot the small settlement of Sliema,\nthe name of which means 'Greetings' in the Arabic tongue spoken by those who\ndwelled there before the Normans took Malta in medieval times.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6630} {e} {e} {2} {0} {}
+E { 6632} {w} {w} {8} {0} {}
+
+R { 6632} {0} {} {Among Gently Rolling Hills} { } {The hills roll along gently, here and there scarred by crevices and bare rocks\nshining bright red in the warm sunlight. The road seems safe enough as you\ntravel along. A few birds chirp in the bushes along the way, but remain\nhidden from sight.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6631} {e} {e} {2} {0} {}
+E { 6633} {w} {w} {8} {0} {}
+
+R { 6633} {0} {} {Below the Steep Walls of Mdina} { } {Humbled now by Valletta, Mdina remains a testimony to the ingenuity of the\ndefenders of Malta. Standing below the ascension to the medieval capital of\nMdina, you are awed by the building skill of the Phoenicians and later, Arabs,\nwho constructed its defenses. You cannot see much of the city itself from down\nhere, but you are in no doubt that until the invention of the cannon, Mdina\nwas all impenetrable, its heavy fortifications commanding respect still.\nTurning around, you look out over the hills of Malta, and beyond, the bright\nazure sky blurring in the heat.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6632} {e} {e} {2} {0} {}
+E { 6634} {s} {s} {4} {0} {}
+E { 6636} {w} {w} {8} {0} {}
+
+R { 6634} {0} {} {Strolling In Quiet Fields} { } {You find yourself strolling along in the gently curving landscape of the\nSceberras Peninsula. Small fields render the far hills an appearance not\nunlike a checkerboard in soft green and yellow hues, here and there interlaced\nwith the gray and red hues of the cliffs and rocks. Birds fly gracefully,\nlazily overhead. The rocky road seems to waver ever so slightly on the\nhorizon. The view around you is distorted by waves of heat rising from the dry\nand dusty ground.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6633} {n} {n} {1} {0} {}
+E { 6635} {s} {s} {4} {0} {}
+
+R { 6635} {0} {} {Hagar Qim} { } {Ancient stones stand erect, forming odd patterns on the field. Grasses and\nweeds grow among them. Small animals make their homes here, protected by the\nsolemn stone formations. Looking at the stones you cannot come up with any\nidea what they were meant for. Maybe some pre-Christian religion? Maybe\nsomething else? There is no one alive now who can tell.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6634} {n} {n} {1} {0} {}
+
+R { 6636} {0} {} {Looking Down Over Rabat} { } {Rabat is merely a village sheltering under the shadow of fortified Mdina. Many\nof the smaller hamlets of Malta and Gozo are too small to support a tavern, a\nstore, a carpenter or a stone mason. To sell agricultural produce, rent land,\nbuy stock or gain laboring work, it is necessary to travel to a larger town.\nThe big villages, Rabat among them, have a higher religious and social life\nand festivals are marked in elaborate fashion. As you pass by you contemplate\na visit, then change your mind as the gates of Mdina come into view. After\nall, on an ordinary workday, a Maltese village is at best sleepy.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6633} {e} {e} {2} {0} {}
+
+R { 6637} {0} {} {The Marsaxlokk Road} { } {This track, worn into the rocks over the centuries, leads from Valletta in the\nnorth towards Marsaxlokk Harbor in the east. Surrounded by fields and\nvineyards, it winds its way around the hills, and you find it easy to tell\nthat this is the more fertile end of Malta.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6630} {w} {w} {8} {0} {}
+E { 6638} {e} {e} {2} {0} {}
+E { 6646} {s} {s} {4} {0} {}
+
+R { 6638} {0} {} {Marsaxlokk Harbor} { } {What a sweet and quiet little fisherman's village at the bottom of a lush bay\nthis is! A soft blue light, quite unique to this particular site, sheds an\naura of peaceful tranquility on everything, and the sunlight is reflected\nplayfully in ripples and waves in the bay. The colorfully painted luzzi bob\ngently, and the seagulls fly in lazy circles overhead. Yes, this would not be\na half bad place to settle.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6637} {w} {w} {8} {0} {}
+E { 6645} {e} {e} {2} {0} {}
+
+R { 6639} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6585} {s} {s} {4} {0} {}
+E { 6640} {n} {n} {1} {0} {}
+
+R { 6640} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6639} {s} {s} {4} {0} {}
+E { 6641} {n} {n} {1} {0} {}
+
+R { 6641} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6640} {s} {s} {4} {0} {}
+E { 6642} {n} {n} {1} {0} {}
+
+R { 6642} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6641} {s} {s} {4} {0} {}
+E { 6643} {n} {n} {1} {0} {}
+
+R { 6643} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6642} {s} {s} {4} {0} {}
+E { 6644} {n} {n} {1} {0} {}
+
+R { 6644} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6643} {s} {s} {4} {0} {}
+E { 6662} {n} {n} {1} {0} {}
+
+R { 6645} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6584} {e} {e} {2} {0} {}
+E { 6638} {w} {w} {8} {0} {}
+
+R { 6646} {0} {} {A Small Inland Road} { } {The track slowly declines into little more than the occasional footprint of a\nshepherd and his flock. Thyme and heather spreads out on the rocks, creating a\nsplendid color scheme.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6637} {n} {n} {1} {0} {}
+E { 6647} {w} {w} {8} {0} {}
+
+R { 6647} {0} {} {The Siggiewi Road} { } {The road winds its way in and out between hills and fields surrounded by tall\nstone hedges created over the centuries by farmers picking rocks up from the\nsoil and adding them to each pile, one by one. Here and there, a farmhouse\ndots the landscape.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6646} {e} {e} {2} {0} {}
+E { 6648} {w} {w} {8} {0} {}
+
+R { 6648} {0} {} {Siggiewi} { } {Once the stronghold in Malta of the Norman invaders from Sicily, Siggiewi\nmeans 'the town of the blue-eyed people'. Few reminders of this turbulent time\nremain in the sleepy hill-top village today. The view down over inland Malta\nis good -- however, the landscape looks pretty much the same in all\ndirections.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6647} {e} {e} {2} {0} {}
+E { 6649} {w} {w} {8} {0} {}
+
+R { 6649} {0} {} {The Dhingli Road} { } {Winding in and out between the hills like a drunken viper, the road climbs up\nfrom the inland to the Dhingli Plateau -- or down, if you're headed the other\nway. The farms are scarcer here and the rock more barren, the land less\nfertile. This plateau is the highest area of Malta above sea level.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6648} {e} {e} {2} {0} {}
+E { 6650} {s} {s} {4} {0} {}
+
+R { 6650} {0} {} {The Dhingli Plateau} { } {Rocky, barren soil spreads out in all directions but the south where the world\ncomes to an abrupt end. A more than 20 meters steep fall straight into the\nocean below marks the border of the island of Malta. The surf sends salt spray\ninto the air all the way up to where you are standing.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6649} {n} {n} {1} {0} {}
+E { 6651} {s} {s} {4} {0} {}
+
+R { 6651} {0} {} {Ghar Lapsi} { } {This small, natural harbor lies sheltered behind a small reef against which\nthe surf crashes and breaks perpetually. Windy and barren, it seems an\nexcellent place to set out to sea from, but not a very exciting place to live.\nThe view east is dominated by a large promontory.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6650} {n} {n} {1} {0} {}
+E { 6652} {e} {e} {2} {0} {}
+
+R { 6652} {0} {} {Wied il-Surrieq} { } {A small fishing community clinging with teeth and nails to the rock -- or at\nleast it looks like that way -- Wied il-Surrieq lies at the end of a canyon\nand thus is more fertile than the surrounding plateau. It is sheltered from\nthe wind by a small reef as well as by the plateau overhead and seems quite\nhospitable.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6651} {w} {w} {8} {0} {}
+E { 6653} {s} {s} {4} {0} {}
+E { 6584} {e} {e} {2} {1} {}
+
+R { 6653} {0} {} {The Blue Grotto} { } {There is little doubt as to how this partially submerged cave facing south got\nits name: The coral rock bottom shines up from below in an azure and\naquamarine so bright it almost hurts the eyes. The sight is amazing whether in\nthe dark or during the light of day, the blue so intense and warm it seems\nalmost dream-like.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6652} {n} {n} {1} {0} {}
+
+R { 6654} {0} {} {Landing at the Rocky Shore of Cirkewwa} { } {A small number of lone stone houses arranged around a flat promontory\npointed towards Gozo comprise the obvious choice to sail from or land at. The\nrock beneath your feet are red and barren\; jagged from centuries, millennia\neven, of being torn at by the sudden Mediterranean storms. You wonder if\nanything can grow here. At least the fishing is good, with the strait\nbetween Malta and Gozo on the east, and the island of Comino to tame the\nstrong currents somewhat.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6660} {e} {e} {2} {0} {}
+E { 6655} {s} {s} {4} {0} {}
+
+R { 6655} {0} {} {On a Rugged, Windy Hill Above Cirkewwa} { } {Windy and rugged, the hills rise high above sea level, allowing you a splendid\nview out over the open Mediterranean to the north and the strait between Malta\nand Gozo to the west. Even at this distance you hear the rumbling of the surf\nstriking against the cliffs down in Cirkewwa village. Bushes and trees lean\nstubbornly against the wind. Mostly grasses and the inevitable prickly pear\ncacti find shelter here.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6654} {n} {n} {1} {0} {}
+E { 6657} {s} {s} {4} {0} {}
+
+R { 6656} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 3031} {s} {s} {4} {0} {}
+E { 6667} {n} {n} {1} {0} {}
+
+R { 6657} {0} {} {Strolling the Sloping Hills of Mellieha} { } {The rugged promontories of Mellieha appear barren, but in the creeks and on\nthe shelves that are sheltered from the wind, the plant life is abundant.\nBelow, Mellieha Bay shines brightly, a sea of dark blue and shining emerald\ngreen, clear water on the sandy bottom and along the shores further out, the\nbright contrasts of warm red and bright yellow volcanic rock creating an\nonslaught of color that will remain visible to your inner eye for a long time\nafter the sun has set. Near your feet, birds chirp in a small crevice.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6655} {n} {n} {1} {0} {}
+E { 6659} {e} {e} {2} {0} {}
+E { 6664} {s} {s} {4} {0} {}
+E { 6668} {w} {w} {8} {0} {}
+E { 6675} {d} {d} {32} {0} {}
+
+R { 6658} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 3030} {e} {e} {2} {0} {}
+E { 6660} {w} {w} {8} {0} {}
+
+R { 6659} {0} {} {Standing On the White Beach of Mellieha Bay} { } {A flat sandy beach rests in the bottom of the sparkling blue Mellieha Bay. A\nfew palms and a larger number of pines sway gently upon the wind, sheltered by\nthe rugged foremountain of Cirkewwa. A scent of fresh water drifts down to you\nfrom Malta's only inland lake close by. Not much to look at, pretty much just\na few patches of reeds on moist ground, the lake is an invaluable resting\nplace for migrating birds headed south for Africa or north for Europe.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6657} {w} {w} {8} {0} {}
+E { 6663} {e} {e} {2} {0} {}
+E { 6664} {s} {s} {4} {0} {}
+
+R { 6660} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6658} {e} {e} {2} {0} {}
+E { 6654} {w} {w} {8} {0} {}
+
+R { 6661} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 3032} {s} {s} {4} {0} {}
+E { 3031} {n} {n} {1} {0} {}
+
+R { 6662} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6644} {s} {s} {4} {0} {}
+E { 6581} {n} {n} {1} {0} {}
+
+R { 6663} {0} {} {Sailing the Azure Waves of Mellieha Bay} { } {The sunlight sparkles in thousands of facets on the waves, creating\ncrystalline azure patterns. The combination of colors -- the azure golden sea\nand the dark reds and yellows of the promontory -- is very pleasing. The blue\nwaves roll along gently. A flight of gulls glides by gracefully overhead. In\nthe distance you hear the surf crashing against the Mellieha foremountain.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6659} {w} {w} {8} {0} {}
+
+R { 6664} {0} {} {Sailing in St Paul's Bay} { } {With the promontory of Malta on one side, and Mellieha Bay on the other, you\nhave St Paul's Island right ahead. Legend has it that the Apostle Paul was\nshipwrecked there underway to Korfu. The waves roll monotonously in to lap at\nthe foremountains, eating away at them. Rugged edges and huge rocks in the sea\nitself testify that sometimes, entire pieces of land are torn out by storms.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6659} {n} {n} {1} {1} {}
+E { 6665} {e} {e} {2} {0} {}
+E { 6666} {w} {w} {8} {0} {}
+
+R { 6665} {0} {} {Standing On St Paul's Island} { } {Legend has it that the Apostle Paul was shipwrecked on this island on his\nway to Korfu. A snake bit him on the hand but the Apostle not only survived -\nfrom this day, Malta's snakes were no longer poisonous. You cannot help but\nwonder how Paul managed to get shipwrecked on this little rock in the sea,\nbarely large enough to build a house on. It would make more sense to land at\nthe promontory of Malta itself, less than a hundred meters south, where the\nbeautiful St Paul's Bay welcomes the weary traveler. Nothing grows here and\nat times the surf washes over the isle altogether. Apart from the religious\nimportance of the isle, there is nothing worth visiting for.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6664} {w} {w} {8} {0} {}
+
+R { 6666} {0} {} {Standing On the White Beach of Xemxija} { } {In Maltese 'xemxija' means 'the sunny place' -- and that is quite true. The\nwhite beach that nestles in between the red foremountains that constitute St\nPaul's Bay is indeed a beautiful, pleasant place. You linger, considering\nstaying a while to rest your bones and drink in the soft, golden sunlight.\nAbove you lies the small fishing village of Xemxija. Low stone houses gently\nlean upon each other along a narrow road. The occasional donkey and sheep bray\nin the distance.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6664} {e} {e} {2} {0} {}
+E { 6668} {n} {n} {1} {0} {}
+E { 6669} {s} {s} {4} {0} {}
+E { 6673} {w} {w} {8} {0} {}
+
+R { 6667} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6656} {s} {s} {4} {0} {}
+E { 3030} {n} {n} {1} {0} {}
+
+R { 6668} {0} {} {A Windy and Barren Hilltop} { } {The wind is fresh in your face as you ascend to the top of the hill separating\nXemxija and Cirkewwa. The ragged rocks, separated by the occasional tree,\ncactus or grass, are bright red and dusty. The view out over the sparkling\nazure bays below is breath-taking.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6666} {s} {s} {4} {0} {}
+E { 6657} {e} {e} {2} {0} {}
+E { 6674} {w} {w} {8} {0} {}
+
+R { 6669} {0} {} {A Winemaker's House} { } {The air inside this small cottage is oddly chemical, tasting faintly of\nvinegar. Sparsely furnished, the cottage is somewhat dark and forbidding.\nContrasting with the rest of the interior, racks of beautifully labelled wine\nbottles sit along the far wall.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6666} {n} {n} {1} {0} {}
+
+R { 6670} {0} {} {On the Village Square of Xemxija} { } {Small houses lean upon each other, sheltering this square from the winds\ncoming in from the bay. The earth underneath your feet has been stamped into\nfirm gravel over the centuries. A few prickly pear cacti lean against the\nhouse walls. You hear the sounds of children playing, donkeys braying, and\nwives gossiping from all around.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6673} {e} {e} {2} {0} {}
+E { 6671} {s} {open s;s} {4} {0} {}
+E { 6672} {n} {n} {1} {0} {}
+
+R { 6671} {0} {} {A Small Cottage} { } {A small stone house, the cottage is not immediately much to look at. It is\nevident, however, that its residents care about it. The family's belongings\nare neatly stacked and the floor has been swept spotlessly clean.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6670} {n} {open n;n} {1} {0} {}
+
+R { 6672} {0} {} {Wandering In a Lush Vineyard} { } {Neat rows of vines bear their fruits here. Small birds and animals make their\nhomes among the vines, safe from men and predators. You spot the tracks of\nsmall animals such as weasels on the ground. The wind is fresh and gentle on\nyour face.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6670} {s} {s} {4} {0} {}
+
+R { 6673} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6666} {e} {e} {2} {0} {}
+E { 6670} {w} {w} {8} {0} {}
+
+R { 6674} {0} {} {Below the Red Tower} { } {A heavy, square rectangular tower overlooks St Paul's Bay and the strait at\nCirkewwa from atop this windy hilltop. Tall and forbidding, the gate closed,\nit does not seem to be the most interesting place for a knight to get\nstationed. It is called the 'red tower' by the locals, due to the paint which\nis of a color most of all resembling dried blood.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6668} {e} {e} {2} {0} {}
+
+R { 6675} {0} {} {In a Hidden Cave just above Sea Level} { } {Caves should be dark and damp and sinister but this one fails to meet the\ncriteria. Bright yellow and warm red volcanic rock entombs you. On the walls a\nfew candles flicker in their sconces, alerting you to the fact that somebody\nindubitably comes here on a regular basis. As you throw another glance up the\ncrevice you just crawled down through you realize that this cave is almost\nimpossible to find except by a stroke of pure, shameless luck. Somehow, that\nis not too assuring.} {Hospitaller Malta } {} {} {} {1.000}
+E { 6657} {u} {u} {16} {0} {}
+
+R { 6676} {0} {} {The Imperial Onsen} { } {This small wooden pavillion hosts a private pool of bubbling hot waters where\nstone rocks have been placed to give it the aspect of a wild and natural hot\nspring. The water inside the pool is knee-deep and it has a ramp at one end\nto allow a progressive entrance in the Onsen. On the side of the pool, you can\nsee a bucket made of cedar wood which contains perfumed incense.} {Medieval Japan } {} {} {} {1.000}
+E { 4460} {e} {e} {2} {0} {}
+
+R { 6677} {0} {} {The Gardens of the Imperial Palace} { } {Behind the heavy and tall wall that encircles the imperial palace lies an\narea of magnificent gardens. Created under the graceful influence of Zen\nBuddhism principles, the gardens radiate an aura of quietness, reinforced by\nthe absence of any guards' patrol inside the palace walls. Between the various\ntrees of the garden, you discern the silhouettes of sparse buildings which\ncompose the palace itself.} {Medieval Japan } {} {} {} {1.000}
+E { 4460} {w} {w} {8} {0} {}
+E { 6678} {e} {e} {2} {0} {}
+E { 6679} {s} {s} {4} {0} {}
+
+R { 6678} {0} {} {The Imperial Teahouse} { } {A tiny but very luxurious pavillion has been built up here to host the private\ntea ceremonies of the imperial family. The teahouse does not contain a lot of\nfurniture but each piece of its interior, from tatamis to lantern radiate with\nan aura of grace and harmony. A stone table stands in the middle of the house,\non which brown bowls have been disposed.} {Medieval Japan } {} {} {} {1.000}
+E { 6677} {w} {w} {8} {0} {}
+
+R { 6679} {0} {} {Inside the Shishinden Hall} { } {A roofed and vermillion gate leads inside a long building, the Shishinden hall\nwhere the emperor has his throne room and receives dignitaries of foreign\ndiplomats. Inside the hall, you can see an octagonal dais where the throne\nis hidden behind a painted curtain.} {Medieval Japan } {} {} {} {1.000}
+E { 6677} {n} {n} {1} {0} {}
+
+R { 6680} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 4472} {d} {d} {32} {0} {}
+
+R { 6681} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1286} {e} {e} {2} {0} {}
+E { 1287} {w} {w} {8} {0} {}
+
+R { 6682} {0} {} {The Ruins of a Shinto Temple} { } {This small clearing in the middle of the forest hosts the ruins of an ancient\ntemple. Nothing is left from the buildings but blocks of white stone and the\nremains of a rotten torii arch. The whole place however still radiates with a\nspecial aura of purity as if abandoned by men but not by gods.} {Medieval Japan } {} {} {} {1.000}
+E { 4445} {e} {e} {2} {0} {}
+
+R { 6683} {0} {} {By a Grove of Thin Trees} { } {A grove of small trees has grown here among an area of large, moss-covered\nrocks. You suddenly feel very calm and rested as a special aura radiates from\nthis place, filled with positive energy. A small hut has been raised beyond\na tiny wooden bridge from where you can hear a tea kettle boiling over a small\nbrazier.} {Medieval Japan } {} {} {} {1.000}
+E { 4520} {n} {n} {1} {0} {}
+
+R { 6684} {0} {} {Before a Ruined Buddhist Temple} { } {The ruined buildings of an old Buddhist temple emerge from the bushes. The two\ngreat entrance wooden doors are lying on the ground, rotting in the grass, and\nthe main construction still stands but is marked by many cracks. The air is\ncharged with a weird smell that makes you think of the taste of blood.} {Medieval Japan } {} {} {} {1.000}
+E { 4493} {s} {s} {4} {0} {}
+
+R { 6685} {0} {} {Upon a Small Path} { } {This small path follows the fort wall, only wide enough to allow two people to\nwalk next to each other. The way to the beach to the west has been cleared of\nany trees or brush higher than knee-height to increase the visibility in case\nof an attack. A small building lies to the north.} {1802 Alaska } {} {} {} {1.000}
+E { 5648} {s} {s} {4} {0} {}
+E { 6686} {n} {open n;n} {1} {0} {}
+
+R { 6686} {0} {} {In the Smithy} { } {As with most smithys, the anvil, forge, and bellows take up most of the space\nin the building. For a workshop as small as this, it is almost a requirement\nthat the tools be arranged as neatly as they are here. Tongs, hammers,\nchisels, punches, and flatters hang upon the walls and are arranged neatly\nupon shelves. Unused metals reside in marked bins, ready for use. Stacks of\nwood are easily reached to feed the forge fires.} {1802 Alaska } {} {} {} {1.000}
+E { 6685} {s} {open s;s} {4} {0} {}
+
+R { 6687} {0} {} {Upon a Small Path} { } {This small path follows the fort wall, only wide enough to allow two people to\nwalk next to each other. The way to the beach to the west has been cleared of\nany trees or brush higher than knee-height to increase the visibility in case\nof an attack. A small building lies to the southwest further down the path.} {1802 Alaska } {} {} {} {1.000}
+E { 5648} {n} {n} {1} {0} {}
+E { 6688} {s} {s} {4} {0} {}
+
+R { 6688} {0} {} {Upon a Small Path} { } {This small path follows the fort wall, only wide enough to allow two people to\nwalk next to each other. The way to the beach to the west has been cleared of\nany trees or brush higher than knee-height to increase the visibility in case\nof an attack. A small building lies to the west.} {1802 Alaska } {} {} {} {1.000}
+E { 6687} {n} {n} {1} {0} {}
+E { 6690} {w} {open w;w} {8} {0} {}
+
+R { 6689} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5200} {w} {w} {8} {0} {}
+E { 5648} {e} {e} {2} {0} {}
+
+R { 6690} {0} {} {In the Bath House} { } {Slightly steamy from the water kept hot by the attendant, this little\nbuilding is only for bathing in. Sinks with cloudy mirrors behind them line\nthe north wall, with soap, wash cloths, towels, and shaving utensils ready\nfor use. Tubs line the west wall, awaiting bathers. A stove with a big pot of\nboiling water is upon the east wall.} {1802 Alaska } {} {} {} {1.000}
+E { 6688} {e} {open e;e} {2} {0} {}
+
+R { 6691} {0} {} {In a Watch Tower} { } {Made with just a roof and a couple of railings, this watch tower provides the\nguard on duty a good view of the surrounding area. While the trees block much\nof the view in the forest itself, they have been cut back a good distance from\nthe fort, affording enough of a warning of an attack. Also from here, the\narchipelagos can be watched for incoming trading ships or Tlingit canoes.} {1802 Alaska } {} {} {} {1.000}
+E { 5649} {d} {d} {32} {0} {}
+
+R { 6692} {0} {} {The Bunk House} { } {Easily the largest building in the fort, this one is where the soldiers and\ntraders are quartered. There are a dozen beds set up, with a few others not\nyet assembled in the corner, so whoever came to spend a night or two here\nwould certainly not have a problem finding a place to lay their head. The only\nother furnishings seen in this room are a washstand for cleaning and a set of\nhooks to hang coats and hats on. There are two doors out of the room -- one\ninto the yard on the north wall, and one leading elsewhere in the building to\nthe east.} {1802 Alaska } {} {} {} {1.000}
+E { 5649} {n} {open n;n} {1} {0} {}
+E { 6693} {e} {open e;e} {2} {0} {}
+E { 6695} {d} {open d;d} {32} {0} {}
+
+R { 6693} {0} {} {Aleksander's Quarters} { } {The large desk in the center of the room is dominant. A wash stand is beside\nthe doorway to the left, and a couple of chairs have been placed before the\ndesk for guests to sit upon. A plain, neatly made bed is in the northwest\ncorner, covered in a couple of bear furs for warmth since there does not\nappear to be a fireplace or stove in the room.} {1802 Alaska } {} {} {} {1.000}
+E { 6692} {w} {open w;w} {8} {0} {}
+
+R { 6694} {0} {} {The Kitchen} { } {This room is very warm and feels rather close. A large cast iron cook stove is\nagainst the east wall, its large metal and brick chimney carrying the smoke to\nthe outside. A table in the center of the room provides not only a surface for\neating upon, but counter space for the cook. A dry sink is on the north wall,\nwith a bucket beside it for getting water. Pots, pans, and other cooking\nutensils have been carefully washed, dried, and put away in their various\nplaces. Nothing here appears to be out of place. Whoever keeps this kitchen is\nvery meticulous about it.} {1802 Alaska } {} {} {} {1.000}
+E { 5649} {w} {open w;w} {8} {0} {}
+
+R { 6695} {0} {} {A Food Cellar} { } {The walls are lined with shelves. They are rather devoid of foodstuffs,\nhowever. A few things lay on various shelves, some rotting.} {1802 Alaska } {} {} {} {1.000}
+E { 6692} {u} {open u;u} {16} {0} {}
+
+R { 6696} {0} {} {The Front Gate} { } {A tall, chain-link fence surrounds the entirety of the mill area. Two metal\ngates stand before you, partially open. You see a thick metal chain hanging\nfrom one of the gates. The padlock is all that prevents anyone from entering\non the off hours. Barbed wire is spread a few feet above the fence for that\nadded benefit.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6318} {s} {open s;s} {4} {0} {}
+E { 6697} {n} {n} {1} {0} {}
+
+R { 6697} {0} {} {A Fork in the Road} { } {The roadway here splits off into two sections. In one direction, the mill\nbegins its production of steel. In the other, the end product is gotten\nready to ship out. Trucks run through here at all hours of the day and\nnight.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6696} {s} {s} {4} {0} {}
+E { 6698} {w} {w} {8} {0} {}
+E { 6700} {e} {e} {2} {0} {}
+
+R { 6698} {0} {} {At the Foundry} { } {The dirt pathway is speckled with bits of tar and concrete where a road\nshould be. It's been beaten and broken by the tons of machinery that pass\nover it daily.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6697} {e} {e} {2} {0} {}
+E { 6699} {w} {w} {8} {0} {}
+
+R { 6699} {0} {} {Before the Casthouse} { } {The buildings that surround you look aged well past what\nthey should due to the heat and sewt from the metal and\nits ingredients. The casthouse doors to the north block\nmore heat from escaping as the ingots are cast inside.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6698} {e} {e} {2} {0} {}
+E { 6713} {n} {open n;n} {1} {0} {}
+
+R { 6700} {0} {} {On the Yard, at the Foreman's Building} { } {This building houses the offices of the formen. It doesn't look\nlike much, even though it's a brick building. It seems quickly made\nand not much care taken.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6697} {w} {w} {8} {0} {}
+E { 6701} {e} {e} {2} {0} {}
+
+R { 6701} {0} {} {On the Yard} { } {The noise here seems to never end. Puffs of dirt and smog from the mill\ncontinuously make the air around you thick, and difficult to breathe. Tall\nmetal and glass buildings stand all around.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6700} {w} {w} {8} {0} {}
+E { 6702} {e} {e} {2} {0} {}
+
+R { 6702} {0} {} {In Front of the Slab Mill} { } {An enormous, black metal and glass building encases the actually slab mill.\nThe machine within cranks and moans as it pushes hot slabs of steel along\nit's belt.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6701} {w} {w} {8} {0} {}
+E { 6703} {e} {e} {2} {0} {}
+
+R { 6703} {0} {} {The End of the Road} { } {Not so much a road, but a worn pathway that the workers would follow to hide\nfor a smoke break, or brag about what they did over the weekend. But it all\ncomes to a halt here as the chain-link fence cuts this little world off from\nthe rest of the city.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6702} {w} {w} {8} {0} {}
+E { 6704} {n} {n} {1} {0} {}
+
+R { 6704} {0} {} {Along the Fence} { } {The fence continues along as far as you can see on either side, reminding you\nhow large the mill really is.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6703} {s} {s} {4} {0} {}
+E { 6705} {n} {n} {1} {0} {}
+
+R { 6705} {0} {} {At the Rolling Mill} { } {Beyond the mill doors to the west, heavy machinery rolls the metal into\nsheets. Once the metal makes it here, it's passed on to the cooling plant, and\nthen off to be shaped and moulded.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6704} {s} {s} {4} {0} {}
+E { 6706} {e} {e} {2} {0} {}
+E { 6712} {w} {w} {8} {0} {}
+
+R { 6706} {0} {} {Crossing the Tracks} { } {Wood and iron line the ground here where the trains run day and\nnight to get the shipments out to the rest of the country in need.\nGravel has fallen in between some of the railroad ties.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6705} {w} {w} {8} {0} {}
+E { 6707} {e} {e} {2} {0} {}
+
+R { 6707} {0} {} {In the Yard} { } {The noise here seems to never end. Puffs of dirt and smog from the mill\ncontinuously make the air around you thick, and difficult to breathe. Tall\nmetal and glass buildings stand all around.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6706} {w} {w} {8} {0} {}
+E { 6708} {n} {open n;n} {1} {0} {}
+
+R { 6708} {0} {} {At The Stockhouse} { } {This large building is different than the others. Half of the interior\nis empty. In fact, the lower half of the building seems to be missing\ncompletely in that section! The other half, however, houses an odd-looking\nconveyor belt that goes upwards.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6707} {s} {s} {4} {0} {}
+E { 6709} {n} {n} {1} {0} {}
+
+R { 6709} {0} {} {In the Stockhouse} { } {This large building is different than the others. Half of the interior\nis empty. In fact, the lower half of the building seems to be missing\ncompletely in that section! The other half, however, houses an odd-looking\nconveyor belt that goes upwards.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6708} {s} {s} {4} {0} {}
+E { 6710} {w} {w} {8} {0} {}
+
+R { 6710} {0} {} {At the Storage Bins} { } {These bins are used to move the raw materials through the incline above.\nSome are empty, waiting for their job to begin, while others are full\nand ready to move the line.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6709} {e} {e} {2} {0} {}
+E { 6711} {u} {u} {16} {0} {}
+
+R { 6711} {0} {} {The Inclined Skip Bridge} { } {Not exactly a bridge, this thick metal rail pulls the bins from the\nbins, and moves it on to the slag pots. Eventually it will end up in\nthe stockhouse below and move them on their way.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6710} {d} {d} {32} {0} {}
+
+R { 6712} {0} {} {Inside the Rolling Mill} { } {The blue walls of this building are much like any other of its\nkind. A standard color for all in the area. What's shipped from\nhere though, varies.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6705} {e} {e} {2} {0} {}
+
+R { 6713} {0} {} {Standing at the Coke Ovens} { } {This is where the coal is heated to make the coke. The\nhuge ovens inside cook the coal and then coke pushers\npush it out of the slots of the ovens.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6699} {s} {s} {4} {0} {}
+E { 6714} {n} {n} {1} {0} {}
+
+R { 6714} {0} {} {Pouring Ingots} { } {Large moulds roll down the track here, stopping briefly for a fill\nfrom the buggies above. Hot steel sizzles in a brief protest as it\nmeets the mould. It is quickly silenced as it moves down the track.} {1930's Pittsburgh } {} {} {} {1.000}
+E { 6713} {s} {s} {4} {0} {}
+
+R { 6715} {0} {} {The Hypsistan Gate} { } {The Hypsistan Gate is situated on the highest point of the polis in the\nnorthwest corner of Thebes. A small temple to Zeus surnamed Hypsistus stands\nhere. The gate is closed and egress this way does not appear possible right\nnow. Just to the west can be seen the Crenaean Gate, also closed to travel.} {Ancient Greece } {} {} {} {1.000}
+E { 3337} {s} {s} {4} {0} {}
+
+R { 6716} {0} {} {The Royal Explorers Club} { } {The large club lobby is designed in a classical Victorian architecture,\ninspired by Gothic styles. From the entrance, you can see many other rooms\nincluding libraries, dining rooms, smoking and billiard rooms. It even looks\nlike the club provides bedrooms for members who live outside the city and\nprefer the club to a commercial hotel. All around you, you can see glass\nshelves where many objects are displayed, showing the club's interest in\nthe world's exploration and cultural discoveries.} {London Port } {} {} {} {1.000}
+E {   31} {s} {open s;s} {4} {0} {}
+
+R { 6717} {8} {} {} { } {} {} {} {} {} {1.000}
+E {   40} {e} {e} {2} {0} {}
+E {   31} {w} {w} {8} {0} {}
+
+R { 6718} {8} {} {} { } {} {} {} {} {} {1.000}
+E {   17} {w} {w} {8} {0} {}
+E {   16} {e} {e} {2} {0} {}
+
+R { 6719} {0} {} {In a Pictish Campsite} { } {To the east of you you can see a fire pit surrounded by tents, and all around\nyou you can see the clear signs of a camp. The Picti do little to their camp\nsites, and their tents are little more than primitive lean-tos, but they have\na reputation as fierce fighters. There is a lean-to festooned with feathers\nand beads directly north of you, set aside from the other tents. Most of the\nPicts, you notice, seem to prefer to sleep under the sky.} {Pictish Country } {} {} {} {1.000}
+E { 5482} {e} {e} {2} {0} {}
+
+R { 6720} {0} {} {An Uneven Footpath} { } {Trees lay on their sides, blocking your path in certain directions, their bare\nand pale branches dying slowly. A variety of stones thrown down to the ground\nby Mother Nature herself cause unexpected stumbles as you carelessly wander\nthe path. The nearby stream causes soft echoes in the wilderness air as it\nflows peacefully.} {Boston, Mass. } {} {} {} {1.000}
+E { 4297} {s} {s} {4} {0} {}
+E { 6721} {n} {n} {1} {0} {}
+
+R { 6721} {0} {} {A Trickling Stream} { } {The pebbled bed in which the stream flows glistens from beneath the clear\nwater. You hear a soft rush as the water flows eastward to the ocean. Animals\nhave left their footprints in the soft ground before you, as they stop to\nquench their thirst before heading on to their destinations.} {Boston, Mass. } {} {} {} {1.000}
+E { 6720} {s} {s} {4} {0} {}
+E { 6722} {w} {w} {8} {0} {}
+
+R { 6722} {0} {} {The Entrance to the Indian Village} { } {You stand in a clearing in the woods hidden well behind wild bushes growing\ntaller than any one you've seen. Startled, you walk slowly, hoping they'll\nnot notice you as you find your way into the center of rows of teepees and\npoorly made tents. Turning back now would be your only hope for survival.} {Boston, Mass. } {} {} {} {1.000}
+E { 6721} {e} {e} {2} {0} {}
+E { 6723} {w} {w} {8} {0} {}
+
+R { 6723} {0} {} {Before the Campfire} { } {Burnt branches and charred remains of items unknown lay in a heap in the\ncenter of the clearing. To the west you see some sort of rack made\nof wood, and held together by bits of horse-hair rope. A tent blocks your\npath to the north. You wonder if you should open it and look inside, but\nhesitate in fear.} {Boston, Mass. } {} {} {} {1.000}
+E { 6722} {e} {e} {2} {0} {}
+E { 6724} {n} {open n;n} {1} {0} {}
+
+R { 6724} {0} {} {The Chief's Tent} { } {Various colorful furs lay upon the ground resembling some sort of bed. A\nscent of smoke taunts your nose, yet you're unaware of the source. The\nwalls of the tent are made from hides of various creatures of the woods.\nPerhaps you should get out now, before you're noticed. The savages would\nmost surely attempt to make your scalp a trophy if you're found here.} {Boston, Mass. } {} {} {} {1.000}
+E { 6723} {s} {open s;s} {4} {0} {}
+
+R { 6725} {0} {} {The Tower Prison} { } {Bare stone walls close in the single cell of this tower room. High up,\nway beyond reach, is a window to shed light through the day. The far wall\nholds a small cot and a privy bucket next to it. You also see a cleaned\ncrockery plate set next to the door out.} {Transylvania } {} {} {} {1.000}
+E { 1017} {w} {open w;w} {8} {0} {}
+
+R { 6726} {0} {} {Aglipay's Private Chambers} { } {Separated from the main cathedral is this room, the living quarters of the\nhead priest of Laoag. The room is not lavishly appointed but it looks\ncomfortable enough. The wooden frames of the room are exposed, making a\nnice contrast to the white plaster walls.} {The Philippines } {} {} {} {1.000}
+E { 2022} {e} {e} {2} {0} {}
+
+R { 6727} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2618} {n} {n} {1} {0} {}
+E { 2616} {s} {s} {4} {0} {}
+
+R { 6728} {0} {} {A Small Cottage} { } {You have entered a small cottage inside the keep. There is a small hearth to\nyour right, and a loom stands to your left. Sunlight filters down through\nsmall windows set high in the walls and through some of the roof where it\nneeds patching. The back section of the cottage is hidden behind some tarps\nthat conceal the sleeping areas of the family.} {Celtic Ireland } {} {} {} {1.000}
+E { 1133} {s} {s} {4} {0} {}
+
+R { 6729} {0} {} {A Dead End} { } {The water-filled passage ends here before what seems to be a tall cliff leading\nfar up to a place that emits no source of light of any kind. A strong current\ncomes from above, indicating that this place is probably not a dead end but a\nconnection room to another place within the caves.} {Tartarus } {} {} {} {1.000}
+E { 2476} {s} {s} {4} {0} {}
+E { 6730} {u} {u} {16} {0} {}
+
+R { 6730} {0} {} {A Tunnel Under the Cliffs} { } {You have entered a dark tunnel beneath the cliffs of the mysterious island.\nThe water is so murky you can't even see your hand in front of your face down\nhere\; what might be lurking in the depths? The walls feel smooth to your\ntouch, almost as if this tunnel was sculpted from the very rock in some bygone\nera. You glance behind you and realize that the perspective seems to have\nshifted somewhat... You're no longer sure of your way back. In fact, the water\noutside the tunnel appears to have darkened appreciably, and you can almost\nimagine the malevolent visage of Poseidon in the murky depths outside. You\nhesitate to return to the sea outside this ring of cliffs, but know you must\ntravel that way eventually if you are ever to leave this place.} {Ancient Greece } {} {} {} {1.000}
+E { 6731} {w} {w} {8} {0} {}
+E { 1833} {u} {u} {16} {0} {}
+
+R { 6731} {0} {} {Inside the Cliff-Wall} { } {You surface after your swim through the tunnel and find yourself in a shallow\npool inside the ring of cliffs. An imposing structure rises before you, a\ntemple or shrine of some sort. It appears to have been constructed from onyx\nand basalt, with streaks of malachite running through the volcanic rock. This\nmust have once been a cinder cone island, but now all you see is what might be\nthe crater rim and this horrific structure. Towering double doors are closed\nat the entrance to the place, and a sign is affixed above the doors.} {Ancient Greece } {} {} {} {1.000}
+E { 6732} {n} {open n;n} {1} {0} {}
+E { 6730} {d} {d} {32} {0} {}
+
+R { 6732} {0} {} {The Temple of Hades} { } {The inside of this great basalt temple is nearly pitch black. The pitiful\nillumination provided by your light-source does little to dispel the gloom. In\nfact, you cannot even see the walls of this place... Anything could be lurking\nin the murky darkness. The smell of brimstone is strong in the air.} {Ancient Greece } {} {} {} {1.000}
+E { 6731} {s} {open s;s} {4} {0} {}
+E { 6733} {n} {n} {1} {0} {}
+
+R { 6733} {0} {} {Deep in the Temple of Hades} { } {The inside of this great basalt temple is nearly pitch black. The pitiful\nillumination provided by your light-source does little to dispel the gloom. In\nfact, you cannot even see the walls of this place... Anything could be lurking\nin the murky darkness. The smell of brimstone is strong in the air. Further\nback in the temple you can make out what seems to be a great archway. Light as\nif from a great conflagration flickers about this opening. A brief gust of hot\nair from the archway scorches your lungs as you inhale.} {Ancient Greece } {} {} {} {1.000}
+E { 6732} {s} {s} {4} {0} {}
+E { 6734} {n} {open n;n} {1} {0} {}
+
+R { 6734} {0} {} {A Path into the Realm of the Dead} { } {Few mortals dare to enter here, for it is the province of dead souls and the\nrealm of Hades, Lord of the Dead. The air is thick with the acrid stench of\nsulphur and brimstone, searing your lungs and causing your eyes to water.\nBlinking away the tears, you see a narrow, winding path leading between pools\nof molten lava and back into the gloom. Far in the distance, the shrieks and\ncries of the tormented echo off the walls of this great cavern, imparting some\nof their misery and endless anguish to you.} {Ancient Greece } {} {} {} {1.000}
+E { 6733} {s} {open s;s} {4} {0} {}
+E { 6735} {n} {n} {1} {0} {}
+
+R { 6735} {0} {} {A Great Chamber in the Realm of the Dead} { } {The path seems to dead-end in this large chamber. Openings lead off in many\ndirections, but the lava prevents you from reaching them. Shades seem to\nflicker all about you, some pressing up against you, some staring, some merely\nlooking then fleeing for the crevices of the cavern. A great pit has been\nhollowed out of the rock before you, and you think the black stains at the\nbottom may represent ashes from fires burnt here long in the past. The rock is\nso hot, you think wood placed in there might burst into flame spontaneously!} {Ancient Greece } {} {} {} {1.000}
+E { 6734} {s} {s} {4} {0} {}
+
+R { 6736} {0} {} {Lost in the Aegean} { } {Lost. You are completely lost. There is no land in sight, and the waters are\nrough and unforgiving here. The swells seem hundreds of feet high and would\nmake even the most experienced of sailors ill!} {Ancient Greece } {} {} {} {1.000}
+E { 1827} {n} {n} {1} {0} {}
+E { 6737} {w} {w} {8} {0} {}
+
+R { 6737} {0} {} {Lost in the Aegean} { } {Lost. You are completely lost. There is no land in sight, and the waters are\nrough and unforgiving here. The swells seem hundreds of feet high and would\nmake even the most experienced of sailors ill! But wait! A large cliff wall\nappears from the mist in front of you. It appears to be an island ringed by\ncliffs too steep for you to climb.} {Ancient Greece } {} {} {} {1.000}
+E { 6736} {e} {e} {2} {0} {}
+E { 6730} {d} {d} {32} {1} {}
+E { 4238} {n} {n} {1} {1} {}
