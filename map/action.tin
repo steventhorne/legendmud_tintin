@@ -33,8 +33,8 @@
             };
         };
 
-        #VAR room_desc {};
-        #LOOP 1 $count cnt
+        #VAR room_desc {$room_check[1]};
+        #LOOP 2 $count cnt
         {
             #VAR room_desc {$room_check[$cnt] $room_desc};
         };
