@@ -52,5 +52,5 @@ There are some aliases that can be viewed by typing `#ALIAS`.
 ## Map
 Display the map with one of the following methods:
 - Typing `#map map` will display the map on demand
-- Set `#map flag vtmap on` and set `#split 16 1` if not using my prompt file, or update the prompt.tin file to say `#SPLIT 16 3` instead of `#SLPIT 0 3`
+- Set `#map flag vtmap on` and set `#split 16 1` if not using my prompt file, or update the prompt.tin file to say `#SPLIT 16 3` instead of `#SPLIT 0 3`
 - Navigate to map/ in a separate terminal and run `./showmap`
