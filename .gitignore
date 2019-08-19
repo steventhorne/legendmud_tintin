@@ -2,7 +2,7 @@
 config
 
 logs/*
-!logs/*.zip
 
-chat.txt
+chat.*
+
 map/map.txt
