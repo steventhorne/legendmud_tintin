@@ -48,7 +48,7 @@
 }
 {5}
 
-#ALIAS {listnicknames}
+#ALIAS {nicknames}
 {
     #MAP get {roomvnum} {roomvnum};
     #MAP list {roomnote} {{.+}} {variable} {nickname_list};

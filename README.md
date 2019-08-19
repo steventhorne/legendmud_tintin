@@ -32,13 +32,16 @@ To acquire my prompt simply enter the game and type `prompt acquire Svartur`.
 There are some aliases that can be viewed by typing `#ALIAS`.
 
 These include:
-- enmap - enable edit mode for the map
-- dismap - disable edit mode for the map
-- door - adds a door in the map (ex: `door e`, `door n`, `door w`, etc.)
-- rname - gives a room a nickname on the map (ex: `rname jb`, `rname stag`)
-- search - finds a room based on its nickname and jumps to it (ex: `search jb`, `search stag`)
-- find - finds a room based on your current room name and description and jumps to it (ex: `find`)
-- walk - finds a room based on its nickname and walks you to it (ex: `walk jb`, `walk stag`)
-- savemap - saves the map to file
-- loadclass - loads a class file which will allow you to unload it later (ex: `loadclass tank`)
-- killclass - unloads a class that has been loaded via `loadclass` (ex: `killclass tank`)
+- Map Aliases
+    - enmap - enable edit mode for the map
+    - dismap - disable edit mode for the map
+    - door - adds a door in the map (ex: `door e`, `door n`, `door w`, etc.)
+    - rname - gives a room a nickname on the map (ex: `rname jb`, `rname stag`)
+    - search - finds a room based on its nickname and jumps to it (ex: `search jb`, `search stag`)
+    - find - finds a room based on your current room name and description and jumps to it (ex: `find`)
+    - walk - finds a room based on its nickname and walks you to it (ex: `walk jb`, `walk stag`)
+    - nicknames - lists all rooms with nicknames
+    - savemap - saves the map to file
+- Other
+    - loadclass - loads a class file which will allow you to unload it later (ex: `loadclass tank`)
+    - killclass - unloads a class that has been loaded via `loadclass` (ex: `killclass tank`)
