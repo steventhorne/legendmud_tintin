@@ -1,0 +1,2 @@
+#VARIABLE {login_name} {<character name>}
+#VARIABLE {login_password} {<password>}
