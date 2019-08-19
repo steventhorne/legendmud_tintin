@@ -1,139 +1,139 @@
-.CONFIG           {256 COLORS}  {ON}
-.CONFIG           {AUTO TAB}  {5000}
-.CONFIG           {BUFFER SIZE}  {20000}
-.CONFIG           {CHARSET}  {ASCII}
-.CONFIG           {COLOR PATCH}  {OFF}
-.CONFIG           {COMMAND COLOR}  {<078>}
-.CONFIG           {COMMAND ECHO}  {OFF}
-.CONFIG           {CONNECT RETRY}  {0}
-.CONFIG           {CONVERT META}  {OFF}
-.CONFIG           {HISTORY SIZE}  {1000}
-.CONFIG           {LOG}  {RAW}
-.CONFIG           {PACKET PATCH}  {0.00}
-.CONFIG           {REPEAT CHAR}  {!}
-.CONFIG           {REPEAT ENTER}  {ON}
-.CONFIG           {SCROLL LOCK}  {ON}
-.CONFIG           {SPEEDWALK}  {ON}
-.CONFIG           {TINTIN CHAR}  {.}
-.CONFIG           {VERBATIM}  {OFF}
-.CONFIG           {VERBATIM CHAR}  {\}
-.CONFIG           {VERBOSE}  {OFF}
-.CONFIG           {WORDWRAP}  {ON}
-.EVENT {DAY}
+#CONFIG           {256 COLORS}  {ON}
+#CONFIG           {AUTO TAB}  {5000}
+#CONFIG           {BUFFER SIZE}  {20000}
+#CONFIG           {CHARSET}  {ASCII}
+#CONFIG           {COLOR PATCH}  {OFF}
+#CONFIG           {COMMAND COLOR}  {<078>}
+#CONFIG           {COMMAND ECHO}  {OFF}
+#CONFIG           {CONNECT RETRY}  {0}
+#CONFIG           {CONVERT META}  {OFF}
+#CONFIG           {HISTORY SIZE}  {1000}
+#CONFIG           {LOG}  {RAW}
+#CONFIG           {PACKET PATCH}  {0.00}
+#CONFIG           {REPEAT CHAR}  {!}
+#CONFIG           {REPEAT ENTER}  {ON}
+#CONFIG           {SCROLL LOCK}  {ON}
+#CONFIG           {SPEEDWALK}  {ON}
+#CONFIG           {TINTIN CHAR}  {#}
+#CONFIG           {VERBATIM}  {OFF}
+#CONFIG           {VERBATIM CHAR}  {\}
+#CONFIG           {VERBOSE}  {OFF}
+#CONFIG           {WORDWRAP}  {ON}
+#EVENT {DAY}
 {
-	.format date %t %F;
-	.log APPEND {logs/log_$date\.txt}
+	#FORMAT date %t %F;
+	#LOG APPEND {logs/log_$date\.txt};
+    #UNVARIABLE date;
 }
 
-.EVENT {MAP ENTER ROOM}
+#EVENT {MAP ENTER ROOM}
 {
-	.read map/map_size.tin;
-	.map map ${MAP_ROWS}x${MAP_LINES} map/map.txt;
-    .nop .system tmux send-prefix -t legendmud:tt.3;
-    .nop .system tmux send-keys -t legendmud:tt.3 :ee ENTER ENTER;
+    #READ map/map_size.tin;
+	#MAP map ${MAP_ROWS}x${MAP_LINES} map/map.txt;
 }
 
-.EVENT {PROGRAM START}
+#EVENT {PROGRAM START}
 {
-	.read config;
-	.session legendmud mud.legendmud.org 9999
+	#SESSION legendmud mud.legendmud.org 9999;
 }
 
-.EVENT {SESSION CONNECTED}
+#EVENT {SESSION CONNECTED}
 {
-	.regex {%0} {^legendmud$}
+	#REGEX {%0} {^legendmud$}
     {
-        .send $loginname\n$loginpassword;
-        .split 0 3;
-        .map read map/legendmud.map;
-        .map return;.format date %t %F;
-        .log APPEND {logs/log_$date\.txt};
+        #READ config;
+        #IF {&{login_name}}
+        {
+            #SEND $login_name;
+            #SEND $login_password;
+            #UNVARIABLE login_password;
+            #UNVARIABLE login_name;
+        };
 
-        .read combat.tin;
-        .read map/action.tin;
-        .read map/alias.tin;
+        #MAP read map/legendmud.map;
+        #MAP return;
+
+        #FORMAT date %t %F;
+        #LOG APPEND {logs/log_$date\.txt};
+        #UNVARIABLE date;
+        
+        #READ prompt.tin;
+        #READ combat.tin;
+        #READ map/action.tin;
+        #READ map/alias.tin;
     };
-	.unvariable loginname;
-	.unvariable loginpassword;
-	.else
-	{
-		0
-	}
 }
 
-.MACRO {\eOP}
+#MACRO {\eOP}
 {
-	.help
+	#HELP
 }
 
-.MACRO {\eOQ}
+#MACRO {\eOQ}
 {
-	who
+	#SEND who
 }
 
-.MACRO {\eOR}
+#MACRO {\eOR}
 {
-	group
+	#SEND group
 }
 
-.MACRO {\eOS}
+#MACRO {\eOS}
 {
-	stat
+	#SEND stat
 }
 
-.PATHDIR          {d}  {u}  {32}
-.PATHDIR          {e}  {w}  {2}
-.PATHDIR          {n}  {s}  {1}
-..PROMPT           {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}                                                                                                                                    {<099>%2  %3  %4}  {1}
-.PROMPT           {~{(\e\[[\;\d]{4,6}m[?\d\s]+\:[?\d]+\s[ap]m)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\-\d]+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\w+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}Leader:(\e\[[\;\d]{4,6}m[\w\-\']+)\e\[[\;\d]{4,6}m}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {%2  %3  %4  %5  %6  %7  %8  %9  %10}            {2}PATHDIR          {ne}  {sw}  {3}
-.PATHDIR          {nw}  {se}  {9}
-.PATHDIR          {s}  {n}  {4}
-.PATHDIR          {se}  {nw}  {6}
-.PATHDIR          {sw}  {ne}  {12}
-.PATHDIR          {u}  {d}  {16}
-.PATHDIR          {w}  {e}  {8}
+#PATHDIR          {d}  {u}  {32}
+#PATHDIR          {e}  {w}  {2}
+#PATHDIR          {n}  {s}  {1}
+#PATHDIR          {ne}  {sw}  {3}
+#PATHDIR          {nw}  {se}  {9}
+#PATHDIR          {s}  {n}  {4}
+#PATHDIR          {se}  {nw}  {6}
+#PATHDIR          {sw}  {ne}  {12}
+#PATHDIR          {u}  {d}  {16}
+#PATHDIR          {w}  {e}  {8}
 
-.TICKER           {idle}  {.send}  {300}
+#TICKER           {idle}  {#SEND}  {300}
 
-.ACTION {^Press RETURN to continue.$}
+#ACTION {^Press RETURN to continue.$}
 {
-	.delay {1} {.send}
+	#DELAY {1} {#SEND}
 }
 {5}
 
-.ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
+#ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
 {
-	%2
+	#SEND %2
 }
 {5}
 
-.ACTION {~{^(?:\e\[[\d\;]{4,6}m)*[<\[]\e\[[\d\;]{4,6}m(?!Exits)(\w+)(?:(?:\e\[[\d\;]{4,6}m)?\:(?:\e\[[\d\;]{4,6}m)?([^>\]]+))?(?:\e\[[\d\;]{4,6}m)?[>\]].*$}}
+#ACTION {~{^(?:\e\[[\d\;]{4,6}m)*[<\[]\e\[[\d\;]{4,6}m(?!Exits)(\w+)(?:(?:\e\[[\d\;]{4,6}m)?\:(?:\e\[[\d\;]{4,6}m)?([^>\]]+))?(?:\e\[[\d\;]{4,6}m)?[>\]].*$}}
 {
-	.format curtime {%t} {%T};
-	.line log chat.txt {$curtime %1}
+	#FORMAT curtime {%t} {%T};
+	#LINE log chat.txt {$curtime %1}
 }
 {5}
 
-.ACTION {~{\e\[0;33m.*? tell[s]? the group, '.*?$}}
+#ACTION {~{\e\[0;33m.*? tell[s]? the group, '.*?$}}
 {
-	.format curtime {%t} {%T};
-	.line log chat.txt {$curtime %1}
+	#FORMAT curtime {%t} {%T};
+	#LINE log chat.txt {$curtime %1}
 }
 {5}
 
-.ALIAS {loadchar %1} {.read chartypes/%1.tin;.showme loaded chartypes/%1.tin}
+#ALIAS {loadclass %1}
+{
+    #SHOWME Attempting to load classes/%1.tin;
+    #CLASS {%1} {read} {classes/%1.tin};
+}
 
-.VARIABLE         {MAP_LINES}  {22}
-.VARIABLE         {MAP_ROWS}  {81}
-.VARIABLE         {character}  {Vell}
-.VARIABLE         {curtime}  {19:35:18}
-.VARIABLE         {date}  {2019-01-25}
-.VARIABLE         {oocvnum}  {1}
-.VARIABLE         {roomdesc}  {The mouth of the cave to the south opens up into a giant chamber oddly free\nof any stone objects hanging from the ceiling or growing from the floor. Each\ndirection is blocked by a large wooden door.}
-.VARIABLE         {roomname}  {A Blocked Cavern}
-.VARIABLE         {roomnote}  {0}
-.VARIABLE         {xpcheck}  {A blood-thirsty pirate returns to his senses.}
+#ALIAS {killclass %1}
+{
+    #LINE verbose #CLASS {%1} kill;
+}
 
-.PROMPT           {~{^CD>\s(.*)}} {%2}  {3}
-.PROMPT           {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}                                                                                                                                    {<099>%2  %3  %4}  {1}
-.PROMPT           {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(am|pm|\?\?))\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\-\d]+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\w+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}Leader:(\e\[[\;\d]{4,6}m[\w\-\']+)\e\[[\;\d]{4,6}m}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {%2  %3  %4  %5  %6  %7  %8  %9  %10}            {2}
+#VARIABLE         {MAP_LINES}  {22}
+#VARIABLE         {MAP_ROWS}  {81}
+#VARIABLE         {oocvnum}  {1}

@@ -1,0 +1,5 @@
+#ACTION {{notices ([\S]+?)'s relative inexperience!}}
+{
+	#SEND rescue %2;
+}
+{5}

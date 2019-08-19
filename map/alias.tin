@@ -1,46 +1,47 @@
-.ALIAS {dismap}
+#ALIAS {dismap}
 {
-	.line verbose .unvar editmap;
-	.line verbose .map flag static on
+	#LINE verbose #UNVAR editmap;
+	#LINE verbose #MAP flag static on;
 }
 {5}
 
-.ALIAS {enmap}
+#ALIAS {enmap}
 {
-	.line verbose .var editmap true;
-	.line verbose .map flag static off
+	#LINE verbose #VAR editmap true;
+	#LINE verbose #MAP flag static off;
 }
 {5}
 
-.ALIAS {rname}
+#ALIAS {rname}
 {
-	.map set roomnote
+	#MAP set roomnote;
 }
 {5}
 
-.ALIAS {savemap}
+#ALIAS {savemap}
 {
-	.line verbose .map write map/legendmud.map
+	#LINE verbose #MAP write map/legendmud#MAP;
 }
 {5}
 
-.ALIAS {search %*}
+#ALIAS {search %*}
 {
-    .unvar search_list;
-	.line verbose .map list {roomnote} {%1} {roomflag} {show} {variable} {search_list};
-    .foreach {$search_list} {item} {.map goto $item;.break;};
+	#LINE verbose #MAP list {roomnote} {%1} {roomflag} {show} {variable} {search_list};
+    #FOREACH {$search_list} {item} {#MAP goto $item;#BREAK;};
+    #UNVAR search_list;
+    #UNVAR item;
 }
 {5}
 
-.ALIAS {walk %1}
+#ALIAS {walk %1}
 {
-	.map find {} {roomnote} {%1};
-	.path run 0.1
+	#MAP find {} {roomnote} {%1};
+	#PATH run 0.1;
 }
 {5}
 
-.ALIAS {door %1}
+#ALIAS {door %1}
 {
-    .map exit %1 command {open %1;%1};
+    #MAP exit %1 command {open %1;%1};
 }
 {5}

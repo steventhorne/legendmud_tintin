@@ -2,11 +2,13 @@
 
 MAP_FILE='map.txt'
 MAP_SIZE='map_size.tin'
-REFRESH_RATE=.2
+REFRESH_RATE=.25
 
 while [ "true"  ]; do
-    echo \.var MAP_ROWS $(tput cols)\; > $MAP_SIZE
-    echo \.var MAP_LINES $(tput lines)\; >> $MAP_SIZE
+    COLS=$(expr $(expr $(tput cols) - 1) '/' 3 '*' 3 + 1)
+    ROWS=$(expr $(expr $(tput lines) - 1) '/' 3 '*' 3 + 1)
+    echo \#VAR MAP_ROWS $COLS\; > $MAP_SIZE
+    echo \#VAR MAP_LINES $ROWS\; >> $MAP_SIZE
     clear
     cat $MAP_FILE
     sleep $REFRESH_RATE

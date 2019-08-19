@@ -1,184 +1,213 @@
-.ACTION {{^You follow (.*)\.$}}
+#ACTION {{^You follow (.*)\.$}}
 {
-    .var follow_char {%2};
-    .buffer get {follow_check} 1 10;
-    .foreach {$follow_check[%*]} {line}
+    #VAR follow_char {%2};
+    #BUFFER get {follow_check} 1 10;
+    #FOREACH {$follow_check[%*]} {line}
     {
-        .regex {$line} {{(?i)^(.*) leaves (.).*?\.$}}
+        #REGEX {$line} {{(?i)^(.*) leaves (.).*?\.$}}
         {
-            .if {"&2" == "%i$follow_char"}
+            #IF {"&2" == "%i$follow_char"}
             {
-                .map move &3;
-                .break;
+                #MAP move &3;
+                #BREAK;
             }
         }
     };
 }
 {5}
 
-.ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
+#ACTION {{^.Exits\:[^\]]*\]$}}
 {
-	.map move 2324
-}
-{5}
-
-.ACTION {{^A stunted old druid draws it across your throat swiftly... you struggle, but....$}}
-{
-	.map goto 287
-}
-{5}
-
-.ACTION {{^Alas, you cannot go that way.$}}
-{
-	.if {"$editmap" == "true"}
-	{
-		.map undo
-	}
-}
-{5}
-
-.ACTION {{^An old village farmer begins to drone on, you think for a minute he might never stop}}
-{
-	.map goto 883
-}
-{5}
-
-.ACTION {{^Captain Frederick Selous waves at you and returns back to his camp.}}
-{
-	.map goto 884
-}
-{5}
-
-.ACTION {{^Grer opens the great brass door and leads you into Dvalin's forge.$}}
-{
-	.map goto 2324
-}
-{5}
-
-.ACTION {{^The swan-maiden, Gorbela says to you, 'Just hop on my back, you will be safe.'$}}
-{
-	.map goto 2298
-}
-{5}
-
-.ACTION {{^The swan-maiden, Gorbela says, 'Hold on! We are landing.'$}}
-{
-	.map goto 2300
-}
-{5}
-
-.ACTION {{^The swan-maiden, Gorbela says, 'It is the heart of the land of the Svart Alfs.'$}}
-{
-	.map goto 2299
-}
-{5}
-
-.ACTION {{^You go Out of Character.$}}
-{
-	.map get roomvnum oocvnum;
-	.map goto ooc
-}
-{5}
-
-.ACTION {{^You return to being In Character.$}}
-{
-	.map goto $oocvnum
-}
-{5}
-
-.ACTION {~{^(?:\e\[0;1;37m)?\e\[0;1;32m(.*?)\e\[0;32m$}}
-{
-	.if {"$editmap" == "true"}
-	{
-		.variable roomname {%2};
-		.variable roomdesc {};
-		.action {{^(?!\[Exits:.*)(.*)$}}{.if {"$roomdesc" == ""}{.var roomdesc {%%2};}{.var roomdesc {$roomdesc\n%%2};};};
-		.action {{^\[Exits:.*$}} {.map set roomname $roomname;.map set roomdesc $roomdesc;.unact {{^(?!\[Exits:.*)(.*)$}};.unact {{^\[Exits:.*$}};}
-	}
-}
-{5}
-
-.ACTION {{^([\w\-\']+)\s([\d\.]+\/[\d\.]+)\s([\w\'\.\/\,\-\s]+)$}}
-{
-	.variable character %2;
-	.if {"$editmap" == "true"}
-	{
-		.map set {roomarea} {%4}
-	}
-}
-{5}
-
-.ACTION {{^The boatman, Charon dips his oar into the water, setting the barge into motion.$}}
-{
-    .map goto 3082;
-}
-{5}
-
-.ACTION {{^The black barge forges silently through the deep, murky waters of the Acheron.$}}
-{
-    .map goto 3083;
-}
-{5}
-
-.ACTION {{^The far shore begins to heave into view, desolate and barren.$}}
-{
-    .map goto 3084;
-}
-{5}
-
-
-.ACTION {{^The boatman, Phlegyas goes about readying his boat for the trip.$}}
-{
-    .map goto 3124;
-}
-{5}
-
-.ACTION {{^The boatman, Phlegyas guides his boat to shore.$}}
-{
-    .map goto 3125;
-}
-{5}
-
-
-.ACTION {{^Three-bodied Geryon says to you, 'climb on to my back, then, and off we shall be anon!'$}}
-{
-    .map goto 3176;
-}
-{5}
-
-.ACTION {{^The Malbowges of the Eighth Circle$}}
-{
-    .map goto 3177;
-}
-{5}
-
-.ACTION {{^You have been betrayed, my friend. The medallion is deadly to mortals. I wish I could have prevented this but it is not within my right to interfere on your behalf. Sleep well, the eternal sleep.$}}
-{
-    .map goto 2712;
-    .send stand;
-}
-{5}
-
-.ACTION {{^Soon, the welcome sight of Ithaca greets your eyes. The sailors bid you a hearty farewell and return to their land.$}}
-{
-    .map goto 1824
-}
-{5}
-
-.ACTION {{^\[Exits:[\w\s]+\]$}}
-{
-    .MATH index 1;
-    .BUFFER {get} {buffer_get} {$index};
-
-    .loop {1} {10} {cnt}
+    #if {"$editmap" == "true"}
     {
-        .BUFFER {get} {buffer_get} {$cnt};
+        #BUFFER get {room_check} 1 15;
+        #VAR count -1;
+        #FOREACH {$room_check[%*]} {line}
+        {
+            #REGEX {$line} {{^.+$}}
+            {
+                #MATH count {$count + 1};
+            }
+            {
+                #BREAK;
+            }
+        }
+
+        #VAR room_desc {};
+        #LOOP 1 $count cnt
+        {
+            #VAR room_desc {$room_check[$cnt] $room_desc};
+        }
+
+        #MATH count {$count + 1};
+        #VAR room_title {$room_check[$count]};
+
+        #LINE substitute variables #LINE strip #VAR {room_title} {$room_title};
+
+        #MAP set {roomname} {$room_title};
+        #MAP set {roomdesc} {$room_desc};
+        #UNVARIABLE room_title;
+        #UNVARIABLE room_desc;
+        #UNVARIABLE room_check;
+        #UNVARIABLE count;
+        #UNVARIABLE cnt;
+        #UNVARIABLE line;
     }
 }
 {5}
 
-.ACTION {{^You have now opened up a spacious hole large enough to stand in. Perhaps if you opened the tunnel up a little wider, you would be rewarded for your efforts.$}}
+#ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
 {
-    .MAP goto 6003;
+	#MAP move 2324
+}
+{5}
+
+#ACTION {{^A stunted old druid draws it across your throat swiftly... you struggle, but....$}}
+{
+	#MAP goto 287
+}
+{5}
+
+#ACTION {{^Alas, you cannot go that way.$}}
+{
+	#IF {"$editmap" == "true"}
+	{
+		#MAP undo
+	}
+}
+{5}
+
+#ACTION {{^An old village farmer begins to drone on, you think for a minute he might never stop}}
+{
+	#MAP goto 883
+}
+{5}
+
+#ACTION {{^Captain Frederick Selous waves at you and returns back to his camp.}}
+{
+	#MAP goto 884
+}
+{5}
+
+#ACTION {{^Grer opens the great brass door and leads you into Dvalin's forge.$}}
+{
+	#MAP goto 2324
+}
+{5}
+
+#ACTION {{^The swan-maiden, Gorbela says to you, 'Just hop on my back, you will be safe.'$}}
+{
+	#MAP goto 2298
+}
+{5}
+
+#ACTION {{^The swan-maiden, Gorbela says, 'Hold on! We are landing.'$}}
+{
+	#MAP goto 2300
+}
+{5}
+
+#ACTION {{^The swan-maiden, Gorbela says, 'It is the heart of the land of the Svart Alfs.'$}}
+{
+	#MAP goto 2299
+}
+{5}
+
+#ACTION {{^You go Out of Character.$}}
+{
+	#MAP get roomvnum oocvnum;
+	#MAP goto ooc
+}
+{5}
+
+#ACTION {{^You return to being In Character.$}}
+{
+	#MAP goto $oocvnum
+}
+{5}
+
+#ACTION {{^([\w\-\']+)\s([\d\.]+\/[\d\.]+)\s([\w\'\.\/\,\-\s]+)$}}
+{
+	#VARIABLE character %2;
+    #VARIABLE room_area %4;
+	#IF {"$editmap" == "true"}
+	{
+		#MAP set {roomarea} {%4}
+	}
+}
+{5}
+
+#ACTION {{^The boatman, Charon dips his oar into the water, setting the barge into motion.$}}
+{
+    #MAP goto 3082;
+}
+{5}
+
+#ACTION {{^The black barge forges silently through the deep, murky waters of the Acheron.$}}
+{
+    #MAP goto 3083;
+}
+{5}
+
+#ACTION {{^The far shore begins to heave into view, desolate and barren.$}}
+{
+    #MAP goto 3084;
+}
+{5}
+
+
+#ACTION {{^The boatman, Phlegyas goes about readying his boat for the trip.$}}
+{
+    #MAP goto 3124;
+}
+{5}
+
+#ACTION {{^The boatman, Phlegyas guides his boat to shore.$}}
+{
+    #MAP goto 3125;
+}
+{5}
+
+
+#ACTION {{^Three-bodied Geryon says to you, 'climb on to my back, then, and off we shall be anon!'$}}
+{
+    #MAP goto 3176;
+}
+{5}
+
+#ACTION {{^The Malbowges of the Eighth Circle$}}
+{
+    #MAP goto 3177;
+}
+{5}
+
+#ACTION {{^You have been betrayed, my friend. The medallion is deadly to mortals. I wish I could have prevented this but it is not within my right to interfere on your behalf. Sleep well, the eternal sleep.$}}
+{
+    #MAP goto 2712;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^Soon, the welcome sight of Ithaca greets your eyes. The sailors bid you a hearty farewell and return to their land.$}}
+{
+    #MAP goto 1824
+}
+{5}
+
+#ACTION {{^\[Exits:[\w\s]+\]$}}
+{
+    #MATH index 1;
+    #BUFFER {get} {buffer_get} {$index};
+
+    #LOOP {1} {10} {cnt}
+    {
+        #BUFFER {get} {buffer_get} {$cnt};
+    }
+}
+{5}
+
+#ACTION {{^You have now opened up a spacious hole large enough to stand in. Perhaps if you opened the tunnel up a little wider, you would be rewarded for your efforts.$}}
+{
+    #MAP goto 6003;
 }
 {5}
