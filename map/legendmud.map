@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 1161
+I 1130
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -4865,70 +4865,73 @@ R { 1144} {0} {} {A Trail off the Beaten Path} { } {A thin line of worn dirt run
 E { 1143} {s} {s} {4} {0} {}
 E { 1145} {w} {w} {8} {0} {}
 
-R { 1145} {0} {} {A Trail off the Beaten Path} { } {With the rising walls of gnarled trees and ancient trunks on either side of you, you are filled with an overwhelming sense of uneasiness. As if each stretching branch seems to reach out to grab hold of you and not let go, you take each step with an ounce of caution, careful to avoid anything that might slip your foot and send you into the welcoming arms of the briars that surround your legs.} {} {} {} {} {1.000}
+R { 1145} {0} {} {A Trail off the Beaten Path} { } {With the rising walls of gnarled trees and ancient trunks on either side of you, you are filled with an overwhelming sense of uneasiness. As if each stretching branch seems to reach out to grab hold of you and not let go, you take each step with an ounce of caution, careful to avoid anything that might slip your foot and send you into the welcoming arms of the briars that surround your legs.} {Celtic Ireland } {} {} {} {1.000}
 E { 1144} {e} {e} {2} {0} {}
 E { 1146} {w} {w} {8} {0} {}
 
-R { 1146} {0} {} {Nearing Callowhwyll Way} { } {The trail along here is not completely forgotten. Rounding a small bend and continuing westward, you see the ruts from cart tracks left ages ago, and a few footprints, some smaller than what you would expect to see from anyone who would venture this far into these dark of woods.} {} {} {} {} {1.000}
+R { 1146} {0} {} {Nearing Callowhwyll Way} { } {The trail along here is not completely forgotten. Rounding a small bend and continuing westward, you see the ruts from cart tracks left ages ago, and a few footprints, some smaller than what you would expect to see from anyone who would venture this far into these dark of woods.} {Celtic Ireland } {} {} {} {1.000}
 E { 1145} {e} {e} {2} {0} {}
 E { 1147} {w} {w} {8} {0} {}
 
-R { 1147} {0} {} {Old Callowhwyll Way} { } {This road was once a major thoroughfare, but you can see that it hasn't been used in quite some time. The old cart tracks can still be seen through the weeds and grasses that are taking over the roadway. A dusty footpath shows that this old road is not completely forgotten.} {} {} {} {} {1.000}
+R { 1147} {0} {} {Old Callowhwyll Way} { } {This road was once a major thoroughfare, but you can see that it hasn't been used in quite some time. The old cart tracks can still be seen through the weeds and grasses that are taking over the roadway. A dusty footpath shows that this old road is not completely forgotten.} {Celtic Ireland } {} {} {} {1.000}
 E { 1146} {e} {e} {2} {0} {}
 E { 1148} {w} {w} {8} {0} {}
 
-R { 1148} {0} {} {A Little Used Path in the Forest} { } {The path wanders among the trunks of oaks and elms. The canopy of leaves doesn't quite block out the sky. Small puddles dot the path in front of you. This path doesn't see much use and is nearly impossible to make out as you travel through the forest.} {} {} {} {} {1.000}
+R { 1148} {0} {} {A Little Used Path in the Forest} { } {The path wanders among the trunks of oaks and elms. The canopy of leaves doesn't quite block out the sky. This path doesn't see much use and is nearly impossible to make out as you travel through the forest.} {Celtic Ireland } {} {} {} {1.000}
 E { 1149} {d} {d} {32} {0} {}
 
-R { 1149} {0} {} {Before a Guarded Door} { } {You stand in front of a huge oaken door bound with gold and silver set in the mouth of what must be a cave. It looks extra-ordinarily heavy and difficult to move. You hear music and revelry coming through the door. The flashes of light coming from beneath the door light up the air around you. In the flashes you notice that there is nothing but stars filling an indigo sky and this huge door.} {} {} {} {} {1.000}
+R { 1149} {0} {} {Before a Guarded Door} { } {You stand in front of a huge oaken door bound with gold and silver set in the mouth of what must be a cave. It looks extra-ordinarily heavy and difficult to move. You hear music and revelry coming through the door. The flashes of light coming from beneath the door light up the air around you. In the flashes you notice that there is nothing but stars filling an indigo sky and this huge door.} {Celtic Ireland } {} {} {} {1.000}
 E { 1150} {e} {open e;e} {2} {0} {}
 
-R { 1150} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {} {} {} {} {1.000}
+R { 1150} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000}
 E { 1149} {w} {open w;w} {8} {0} {}
 E { 1151} {n} {n} {1} {0} {}
 
-R { 1151} {0} {} {The Well of Moonlight} { } {A soft glow arises from a pool of moonlight nestled in this small dip in the ground. It looks as if the light has collected here like raindrops. The gentle glow wraps you in a peaceful feeling. This place is obviously sacred to the Sidhe, and is not meant for mortal eyes.} {} {} {} {} {1.000}
+R { 1151} {0} {} {The Well of Moonlight} { } {A soft glow arises from a pool of moonlight nestled in this small dip in the ground. It looks as if the light has collected here like raindrops. The gentle glow wraps you in a peaceful feeling. This place is obviously sacred to the Sidhe, and is not meant for mortal eyes.} {Celtic Ireland } {} {} {} {1.000}
 E { 1150} {s} {s} {4} {0} {}
 E { 1152} {e} {e} {2} {0} {}
 
-R { 1152} {0} {} {Beneath the Rowan Tree} { } {This tree is tremendous. It looms higher than you can see, and its branches somehow stretch over the entire glade. The leaves of the tree are varying shades of argent and platinum. A path worn by centuries of dancing feet rings the trunk of this tree.} {} {} {} {} {1.000}
+R { 1152} {0} {} {Beneath the Rowan Tree} { } {This tree is tremendous. It looms higher than you can see, and its branches somehow stretch over the entire glade. The leaves of the tree are varying shades of argent and platinum. A path worn by centuries of dancing feet rings the trunk of this tree.} {Celtic Ireland } {} {} {} {1.000}
 E { 1151} {w} {w} {8} {0} {}
 E { 1153} {n} {n} {1} {0} {}
 
-R { 1153} {0} {} {A Briar Patch} { } {You have stumbled into a briar patch. The thorns and brambles rip at your clothing and tear across your skin. The inch-long thorns pierce your flesh deeply. You had better be careful, or you might lose an eye.} {} {} {} {} {1.000}
+R { 1153} {0} {} {A Briar Patch} { } {You have stumbled into a briar patch. The thorns and brambles rip at your clothing and tear across your skin. The inch-long thorns pierce your flesh deeply. You had better be careful, or you might lose an eye.} {Celtic Ireland } {} {} {} {1.000}
 E { 1154} {n} {n} {1} {0} {}
 E { 1147} {s} {s} {4} {0} {}
 
-R { 1154} {0} {} {A Ruined Dun} { } {You pick your way through the moss-covered ruins of an abandoned Dun. Scorch marks scar the walls of the Dun. Bits of rotten cloth remain of the intricate tapestries used to line the halls of this once thriving Dun. A few pieces of old rusted armor and weapons lie shattered amid the wreckage.} {} {} {} {} {1.000}
+R { 1154} {0} {} {A Ruined Dun} { } {You pick your way through the moss-covered ruins of an abandoned Dun. Scorch marks scar the walls of the Dun. Bits of rotten cloth remain of the intricate tapestries used to line the halls of this once thriving Dun. A few pieces of old rusted armor and weapons lie shattered amid the wreckage.} {Celtic Ireland } {} {} {} {1.000}
 E { 1153} {s} {s} {4} {0} {}
 E { 1155} {w} {w} {8} {0} {}
+E { 2724} {n} {n} {1} {0} {}
 
-R { 1155} {0} {} {Deep in the Forest} { } {Thick tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed lingers here. The bright sunlight shades to emerald as it filters through the leaves. The few bright points glimmer and dance like shifting stars in an evening sky. Dust motes filter down to gather in the patch of ground free from undergrowth. The little pinpricks of light trace a circle in the natural canopy, matching a ring of smooth pebbles on the ground at your feet.} {} {} {} {} {1.000}
+R { 1155} {0} {} {Deep in the Forest} { } {Thick tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed lingers here. The bright sunlight shades to emerald as it filters through the leaves. The few bright points glimmer and dance like shifting stars in an evening sky. Dust motes filter down to gather in the patch of ground free from undergrowth. The little pinpricks of light trace a circle in the natural canopy, matching a ring of smooth pebbles on the ground at your feet.} {Celtic Ireland } {} {} {} {1.000}
 E { 1154} {e} {e} {2} {0} {}
 E { 1156} {s} {s} {4} {0} {}
+E { 6772} {d} {d} {32} {0} {}
 
-R { 1156} {0} {} {Deep in the Elder Forest} { } {Thick tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed lingers here. The bright sunlight shades the deep leaves to black in silhouette. The few bright points glimmer and dance like shifting stars in an evening sky. Dust motes filter down to gather in the patch of ground free from undergrowth. A moss-covered cairn projects a hallowed aura as you realize you stand before the grave of a great ruler.} {} {} {} {} {1.000}
+R { 1156} {0} {} {Deep in the Elder Forest} { } {Thick tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed lingers here. The bright sunlight shades the deep leaves to black in silhouette. The few bright points glimmer and dance like shifting stars in an evening sky. Dust motes filter down to gather in the patch of ground free from undergrowth. A moss-covered cairn projects a hallowed aura as you realize you stand before the grave of a great ruler.} {Celtic Ireland } {} {} {} {1.000}
 E { 1155} {n} {n} {1} {0} {}
 E { 1157} {w} {w} {8} {0} {}
 
-R { 1157} {0} {} {Deep in the Elder Forest} { } {Thick mossy tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed has an ominous quality to it. The dim sunlight shades to emerald as it filters through the leaves. The few bright points wink and dance like shifting stars in a midnight sky. Dust motes filter down to gather in the patch of ground free from undergrowth. The river Boyne runs along its course, gathering silt and driftwood along this peaceful river bank.} {} {} {} {} {1.000}
+R { 1157} {0} {} {Deep in the Elder Forest} { } {Thick mossy tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed has an ominous quality to it. The dim sunlight shades to emerald as it filters through the leaves. The few bright points wink and dance like shifting stars in a midnight sky. Dust motes filter down to gather in the patch of ground free from undergrowth. The river Boyne runs along its course, gathering silt and driftwood along this peaceful river bank.} {Celtic Ireland } {} {} {} {1.000}
 E { 1156} {e} {e} {2} {0} {}
 E { 1158} {d} {d} {32} {0} {}
 E { 3668} {w} {w} {8} {0} {}
 
-R { 1158} {0} {} {Before a Silver Door} { } {You stand in front of a huge silver door covered with emerald and ruby chips tracing set in the mouth of what must be a cave. It looks extra-ordinarily heavy and difficult to move. You hear music and revelry coming from through the door. The flashes of light coming from beneath the door light up the air around you. In the flashes you notice that there is nothing but stars filling an indigo sky and this huge door.} {} {} {} {} {1.000}
+R { 1158} {0} {} {Before a Silver Door} { } {You stand in front of a huge silver door covered with emerald and ruby chips tracing set in the mouth of what must be a cave. It looks extra-ordinarily heavy and difficult to move. You hear music and revelry coming from through the door. The flashes of light coming from beneath the door light up the air around you. In the flashes you notice that there is nothing but stars filling an indigo sky and this huge door.} {Celtic Ireland } {} {} {} {1.000}
 E { 1159} {e} {open e;e} {2} {0} {}
 
-R { 1159} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {} {} {} {} {1.000}
-E { 1160} {e} {e} {2} {0} {}
+R { 1159} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {Celtic Ireland } {} {} {} {1.000}
+E { 1160} {e} {e} {2} {1} {}
 E { 1201} {s} {s} {4} {0} {}
+E { 6766} {n} {n} {1} {0} {}
 
-R { 1160} {0} {} {Lost in Underhill} { } {You have strayed from the path and become lost. Everything has become more stark, menacing. The Sidhe who dwells here has no love of mortals.} {} {} {} {} {1.000}
-E { 1202} {s} {s} {4} {0} {}
-E { 1201} {n} {open n;n} {1} {0} {}
+R { 1160} {0} {} {Lost in Underhill} { } {You have strayed from the path and become lost. Everything has become more stark, menacing. The Sidhe who dwells here has no love of mortals.} {Celtic Ireland } {} {} {} {1.000}
+E { 1161} {s} {s} {4} {0} {}
+E { 1201} {n} {open n;n} {1} {1} {}
 
-R { 1161} {0} {} {In the Land of Shadows} { } {Darkness crosses the horizon as the forest seems to crowd around you. Strange creatures lurk amongst the shadows, their eyes barely visible between the twisted and gnarled branches that block the paths. You wonder to yourself for a minute whether or not anyone has ever actually made it out alive. A deep mist blocks your view to the south.} {} {ferdia} {} {} {1.000}
-E { 1202} {n} {n} {1} {0} {}
+R { 1161} {0} {} {In the Land of Shadows} { } {Darkness crosses the horizon as the forest seems to crowd around you. Strange creatures lurk amongst the shadows, their eyes barely visible between the twisted and gnarled branches that block the paths. You wonder to yourself for a minute whether or not anyone has ever actually made it out alive. A deep mist blocks your view to the south.} {Land of Shadows } {ferdia} {} {} {1.000}
+E { 1160} {n} {n} {1} {0} {}
 E { 1162} {s} {s} {4} {0} {}
 E { 1583} {use portal} {use portal} {0} {0} {}
 
@@ -5097,37 +5100,53 @@ E { 1162} {w} {w} {8} {0} {}
 E { 1162} {n} {n} {1} {0} {}
 E { 1199} {s} {s} {4} {1} {}
 
-R { 1201} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {} {} {} {} {1.000}
-E { 1159} {n} {n} {1} {0} {}
+R { 1201} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {Celtic Ireland } {} {} {} {1.000}
 E { 1203} {s} {s} {4} {0} {}
+E { 1160} {e} {e} {2} {1} {}
+E { 1160} {w} {w} {8} {1} {}
+E { 1160} {n} {n} {1} {1} {}
 
-R { 1202} {10} {} {} { } {} {} {} {} {} {1.000}
-E { 1161} {s} {s} {4} {0} {}
-E { 1160} {n} {n} {1} {0} {}
+R { 1202} {0} {} {A Sidhe Hall} { } {Light and laughter assail you as you enter this magical hall. A large table fills the hall gleaming with silver and jeweled cutlery. A high feast of fruits and dishes you have never imagined lies spread out before you. Huge torches of flickering silver and gold light give off the scent of blossoming roses and lavender.} {Celtic Ireland } {} {} {} {1.000}
+E { 1207} {n} {n} {1} {0} {}
+E { 6764} {s} {s} {4} {0} {}
+E { 1207} {e} {e} {2} {1} {}
+E { 1207} {w} {w} {8} {1} {}
 
-R { 1203} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {} {} {} {} {1.000}
-E { 1201} {n} {n} {1} {0} {}
+R { 1203} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {Celtic Ireland } {} {} {} {1.000}
 E { 1204} {w} {w} {8} {0} {}
+E { 1160} {n} {n} {1} {1} {}
+E { 1160} {e} {e} {2} {1} {}
+E { 1160} {s} {s} {4} {1} {}
 
-R { 1204} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {} {} {} {} {1.000}
-E { 1203} {e} {e} {2} {0} {}
+R { 1204} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {Celtic Ireland } {} {} {} {1.000}
 E { 1205} {s} {s} {4} {0} {}
+E { 1160} {e} {e} {2} {1} {}
+E { 1160} {n} {n} {1} {1} {}
+E { 1160} {w} {w} {8} {1} {}
 
-R { 1205} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the sunlit realms of Underhill. The light is like that of midday, yet not quite. It has a paler cast to it than normal. The foliage twists and bends itself into shapes as impossibly beautiful as they are unnatural.} {} {} {} {} {1.000}
-E { 1204} {n} {n} {1} {0} {}
+R { 1205} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the sunlit realms of Underhill. The light is like that of midday, yet not quite. It has a paler cast to it than normal. The foliage twists and bends itself into shapes as impossibly beautiful as they are unnatural.} {Celtic Ireland } {} {} {} {1.000}
 E { 1206} {e} {e} {2} {0} {}
+E { 1160} {n} {n} {1} {1} {}
+E { 1160} {w} {w} {8} {1} {}
+E { 1160} {s} {s} {4} {1} {}
 
-R { 1206} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the sunlit realms of Underhill. The light is like that of midday, yet not quite. It has a paler cast to it than normal. The foliage twists and bends itself into shapes as impossibly beautiful as they are unnatural.} {} {} {} {} {1.000}
-E { 1205} {w} {w} {8} {0} {}
+R { 1206} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the sunlit realms of Underhill. The light is like that of midday, yet not quite. It has a paler cast to it than normal. The foliage twists and bends itself into shapes as impossibly beautiful as they are unnatural.} {Celtic Ireland } {} {} {} {1.000}
 E { 1207} {e} {e} {2} {0} {}
+E { 1160} {n} {n} {1} {1} {}
+E { 1160} {w} {w} {8} {1} {}
+E { 1160} {s} {s} {4} {1} {}
 
-R { 1207} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {} {} {} {} {1.000}
-E { 1206} {w} {w} {8} {0} {}
+R { 1207} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000}
 E { 1208} {e} {e} {2} {0} {}
+E { 1160} {n} {n} {1} {1} {}
+E { 1202} {s} {s} {4} {0} {}
+E { 6765} {w} {w} {8} {0} {}
 
-R { 1208} {0} {} {Beneath the Rowan Tree} { } {This tree is tremendous. It looms higher than you can see, and its branches somehow stretch over the entire glade. The leaves of the tree are varying shades of argent and platinum. A path worn by centuries of dancing feet rings the trunk of this tree.} {} {} {} {} {1.000}
-E { 1207} {w} {w} {8} {0} {}
+R { 1208} {0} {} {Beneath the Rowan Tree} { } {This tree is tremendous. It looms higher than you can see, and its branches somehow stretch over the entire glade. The leaves of the tree are varying shades of argent and platinum. A path worn by centuries of dancing feet rings the trunk of this tree.} {Celtic Ireland } {} {} {} {1.000}
 E { 1209} {e} {e} {2} {0} {}
+E { 1157} {w} {w} {8} {0} {}
+E { 4979} {s} {s} {4} {1} {}
+E { 1207} {n} {n} {1} {1} {}
 
 R { 1209} {10} {} {} { } {} {} {} {} {} {1.000}
 E { 1124} {e} {e} {2} {0} {}
@@ -11481,6 +11500,9 @@ R { 2723} {0} {} {Beside the Great Pyramid} { } {The pyramid is enormous, far bi
 E { 2722} {e} {e} {2} {0} {}
 E { 3355} {w} {w} {8} {0} {}
 E { 5933} {s} {s} {4} {0} {}
+
+R { 2724} {0} {} {A Path through the Forest} { } {The path wanders among the trunks of oaks and elms. The canopy of leaves doesn't quite block out the sky.} {Celtic Ireland } {} {} {} {1.000}
+E { 1154} {s} {s} {4} {0} {}
 
 R { 2725} {0} {} {Inside the Great Pyramid} { } {You step into the entrance hall of the great pyramid of Pharaoh Khufu. Built thousands of years ago, the great pyramid still stands proud over the desert, even if it has been visited many times by tomb robbers.} {Industrial Pyramid } {} {} {} {1.000}
 E {  645} {n} {n} {1} {0} {}
@@ -20860,6 +20882,7 @@ E { 4975} {s} {s} {4} {0} {}
 R { 4975} {0} {} {A Light Path through the Forest} { } {A faint path passes into the forest to the east and west. The tall trees tower over the path. The undergrowth between the trees keeps you from passing any other way. To the east is a small cottage huddles at the edge of the trees. The path dwindles to a game trail to the west.} {Celtic Ireland } {} {} {} {1.000}
 E { 4974} {n} {n} {1} {0} {}
 E { 5790} {e} {open e;e} {2} {0} {}
+E { 6785} {w} {w} {8} {0} {}
 
 R { 4976} {0} {} {A Small Croft} { } {You have entered a small cottage in the woods. There is a small hearth to your right, and a loom stands to your left. Sunlight filters down through small windows set high in the walls and through some of the roof where it needs patching. The back section of the cottage is hidden behind some tarps that conceal the sleeping areas of the family.} {Celtic Ireland } {} {} {} {1.000}
 E { 3667} {s} {open s;s} {4} {0} {}
@@ -20943,7 +20966,6 @@ E { 4992} {s} {s} {4} {1} {}
 E { 4987} {e} {e} {2} {0} {}
 
 R { 4996} {0} {} {The Northern Moors} { } {You wade your way through the muck and high grasses to a dry spot. As you breathe a sigh of relief you realize that this patch is perfectly circular. Looking down you see a small circle of stones that outline the boundary of this dry patch. You realize you've bungled into a Sidhe ring as your feet are pulled down into the ground.} {Celtic Ireland } {} {} {} {1.000}
-E { 4995} {s} {s} {4} {0} {}
 E { 4997} {e} {open e;e} {2} {0} {}
 
 R { 4997} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000}
@@ -24255,12 +24277,15 @@ R { 5789} {0} {} {Before the Big Top} { } {Forming great peaks of red and white 
 E { 5787} {n} {open n;n} {1} {0} {}
 E { 5656} {s} {s} {4} {0} {}
 
-R { 5790} {0} {} {A Small Cottage} { } {You have entered a small cottage in the woods. There is a small hearth to your right, and a loom stands to your left. Sunlight filters down through small windows set high in the walls and through some of the roof where it needs patching. The back section of the cottage is hidden behind some tarps that conceal the sleeping areas of the family. A small door stands next to the hearth.} {} {} {} {} {1.000}
+R { 5790} {0} {} {A Small Cottage} { } {You have entered a small cottage in the woods. There is a small hearth to your right, and a loom stands to your left. Sunlight filters down through small windows set high in the walls and through some of the roof where it needs patching. The back section of the cottage is hidden behind some tarps that conceal the sleeping areas of the family. A small door stands next to the hearth.} {Celtic Ireland } {} {} {} {1.000}
 E { 4975} {w} {open w;w} {8} {0} {}
 E { 5791} {s} {open s;s} {4} {0} {}
 
-R { 5791} {0} {} {A Game Trail in the Forest} { } {The light trail almost disappears in the sun-dappled shadows of the forest floor. The trail leads south where a huge stone monolith has been erected. A clearing lies to the east and you can almost make out a faint track to the west.} {} {} {} {} {1.000}
+R { 5791} {0} {} {A Game Trail in the Forest} { } {The light trail almost disappears in the sun-dappled shadows of the forest floor. The trail leads south where a huge stone monolith has been erected. A clearing lies to the east and you can almost make out a faint track to the west.} {Celtic Ireland } {} {} {} {1.000}
 E { 5790} {n} {open n;n} {1} {0} {}
+E { 6776} {e} {e} {2} {0} {}
+E { 6777} {s} {s} {4} {0} {}
+E { 6779} {w} {w} {8} {0} {}
 
 R { 5792} {0} {} {Strolling Along the Boardwalk} { } {Boards creak under your feet as you stroll along the boardwalk glancing in the windows. Horses-drawn carts rumble up and down a dusty side street carrying grizzled miners and mounds of supplies.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 6303} {n} {n} {1} {0} {}
@@ -28163,3 +28188,107 @@ E { 6761} {u} {u} {16} {0} {}
 
 R { 6763} {0} {} {A Roman Villa} { } {A high ceiling and fine craftsmanship mark this villa as the home of a wealthy citizen, likely a senator or a farmer of the curial class. The main room is spacious and filled with fine rugs, tapestries, and ornaments of wealth such as vases and finely crafted furniture. The windows have thick green glass in them through which daylight trickles on sunny afternoons.} {Player Housing } {} {} {} {1.000}
 E { 1112} {n} {n} {1} {0} {}
+
+R { 6764} {0} {} {The Dancing Ring} { } {Dozens of Sidhe dance merrily in a circle to ethereal music you have never heard before. The scene is lit by pale green moonlight pouring down through a hole in the ceiling. Everything here seems to shift and shimmer when you look at it closely.} {Celtic Ireland } {} {} {} {1.000}
+E { 1202} {n} {n} {1} {0} {}
+E { 1207} {e} {e} {2} {1} {}
+E { 1207} {s} {s} {4} {1} {}
+E { 1207} {w} {w} {8} {1} {}
+
+R { 6765} {0} {} {The Well of Moonlight} { } {A soft glow arises from a pool of moonlight nestled in this small dip in the ground. It looks as if the light has collected here like raindrops. The gentle glow wraps you in a peaceful feeling. This place is obviously sacred to the Sidhe, and is not meant for mortal eyes.} {Celtic Ireland } {} {} {} {1.000}
+E { 1207} {e} {e} {2} {0} {}
+E { 1150} {n} {n} {1} {1} {}
+E { 4997} {s} {s} {4} {1} {}
+E { 1160} {w} {w} {8} {1} {}
+
+R { 6766} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the midnight realms of Underhill. The light is like that of the midnight sky, yet not quite. A sliver of a pale green moon spills light over the landscape. The foliage twists and bends itself into shapes as impossibly beautiful as they are unnatural.} {Celtic Ireland } {} {} {} {1.000}
+E { 6767} {n} {n} {1} {0} {}
+E { 1160} {e} {e} {2} {1} {}
+E { 1160} {s} {s} {4} {1} {}
+E { 1160} {w} {w} {8} {1} {}
+
+R { 6767} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the midnight realms of Underhill. The light is like that of the midnight sky, yet not quite. A sliver of a pale green moon spills light over the landscape. The foliage twists and bends itself into shapes as impossibly beautiful as they are unnatural.} {Celtic Ireland } {} {} {} {1.000}
+E { 6768} {w} {w} {8} {0} {}
+E { 1160} {n} {n} {1} {1} {}
+E { 1160} {e} {e} {2} {1} {}
+E { 1160} {s} {s} {4} {1} {}
+
+R { 6768} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000}
+E { 1207} {s} {s} {4} {1} {}
+E { 6769} {w} {w} {8} {0} {}
+E { 6771} {n} {n} {1} {0} {}
+
+R { 6769} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000}
+E { 6768} {e} {e} {2} {0} {}
+E { 1207} {n} {n} {1} {1} {}
+E { 6768} {w} {w} {8} {0} {}
+E { 6770} {s} {s} {4} {0} {}
+
+R { 6770} {0} {} {Deep in the Elder Forest} { } {Thick mossy tree trunks gather together, branches twining together to form a room of deep green leaves. The quiet hush of forest life disturbed has an ominous quality to it. The dim sunlight shades to emerald as it filters through the leaves. The few bright points wink and dance like shifting stars in a midnight sky. Dust motes filter down to gather in the patch of ground free from undergrowth. The river Boyne runs along its course, gathering silt and driftwood along this peaceful river bank.} {Celtic Ireland } {} {} {} {1.000}
+E { 6769} {n} {n} {1} {0} {}
+E { 1207} {w} {w} {8} {1} {}
+E { 1157} {e} {e} {2} {1} {}
+E { 1157} {s} {s} {4} {1} {}
+
+R { 6771} {0} {} {The Well of Oblivion} { } {A soft aura of darkness arises from a pool of night nestled in this small dip in the ground. It looks as if the black of the evening sky has collected here like raindrops. The gentle shadow wraps you in a chilling feeling. This place is obviously sacred to the Sidhe, and is not meant for mortal eyes.} {Celtic Ireland } {} {} {} {1.000}
+E { 6768} {s} {s} {4} {0} {}
+E { 6768} {e} {e} {2} {0} {}
+E { 1150} {n} {n} {1} {1} {}
+E { 6772} {w} {w} {8} {0} {}
+
+R { 6772} {0} {} {A Sidhe Hall} { } {Light and laughter assail you as you enter this magical hall. A large table fills the hall gleaming with silver and jeweled cutlery. A high feast of fruits and dishes you have never imagined lies spread out before you. Huge torches of flickering silver and gold light give off the scent of blossoming roses and lavender.} {Celtic Ireland } {} {} {} {1.000}
+E { 1155} {u} {u} {16} {1} {}
+E { 6773} {w} {open w;w} {8} {0} {}
+E { 6774} {n} {n} {1} {0} {}
+
+R { 6773} {0} {} {A Small Alcove} { } {This cramped room seems full to bursting with cloaks and boots of woodland colors. They are all neatly arranged by color and size so that their owners can easily find them after the festivities.} {Celtic Ireland } {} {} {} {1.000}
+E { 6772} {e} {open e;e} {2} {0} {}
+
+R { 6774} {0} {} {The Dancing Ring} { } {Dozens of Sidhe dance merrily in a circle to ethereal music you have never heard before. The scene is lit by pale green moonlight pouring down through a hole in the ceiling. Everything here seems to shift and shimmer when you look at it closely.} {Celtic Ireland } {} {} {} {1.000}
+E { 6772} {s} {s} {4} {0} {}
+E { 6775} {w} {w} {8} {0} {}
+
+R { 6775} {0} {} {A Sidhe Kitchen} { } {A huge kitchen full of gleaming pots, pans, knives, spoons and ladles arranges itself before you. The huge brick ovens against the north wall have rows of fresh baked bread stacked upon them to keep warm. Lines of pies and pastries are cooling upon the long countertop to the south. Dozens of other wonderful smelling dishes lie scattered about on the counters and stoves of this room. The most amazing thing, however, is the unearthly spotlessness of every item in the kitchen. All the foods seem to have just come out of the oven, yet there is not one dirty dish to be seen.} {Celtic Ireland } {} {} {} {1.000}
+E { 6774} {e} {e} {2} {0} {}
+
+R { 6776} {0} {} {A Small Clearing} { } {This small patch of meadow arrogantly defies the surrounding trees. The soft light warms your face as you look up at the open sky. The high grass keeps you from noticing a small thread of a creek at first glance. Daisies and buttercups dot the ground.} {Celtic Ireland } {} {} {} {1.000}
+E { 5791} {w} {w} {8} {0} {}
+
+R { 6777} {0} {} {Before a Stone Monolith} { } {You stand beneath a semi-circle of huge stones standing against the forest. Five stones stand here higher than you can reach and wider than you are tall. One stone bridges the two central pillars forming a ceiling of sorts. A sense of quiet power resides in this place.} {Celtic Ireland } {} {} {} {1.000}
+E { 5791} {n} {n} {1} {0} {}
+
+R { 6778} {0} {} {Deep in the Forest} { } {The light trail almost disappears in the sun-dappled shadows of the forest floor. Bracken and undergrowth seem to shy away from this area. A small line of mushrooms trace a circle around the bit of clear ground where you stand.} {Celtic Ireland } {} {} {} {1.000}
+E { 6785} {e} {e} {2} {0} {}
+E { 6784} {s} {s} {4} {0} {}
+
+R { 6779} {0} {} {Caught in a Sidhe Ring} { } {The light game almost disappears in the sun-dappled shadows of the forest floor. Bracken and undergrowth seem to shy away from this area. You can't see the trail that lead to this spot in the woods. A small line of mushrooms trace a circle around the bit of clear ground where you stand. You start to feel your feet sink into the ground...} {Celtic Ireland } {} {} {} {1.000}
+E { 6780} {d} {d} {32} {0} {}
+
+R { 6780} {0} {} {Before a Guarded Door} { } {You stand in front of a huge oaken door bound with gold and silver set in the mouth of what must be a cave. It looks extra-ordinarily heavy and difficult to move. You hear music and revelry coming from through the door. The flashes of light coming from beneath the door light up the air around you. In the flashes you notice that there is nothing but stars filling an indigo sky and this huge door.} {Celtic Ireland } {} {} {} {1.000}
+E { 6779} {u} {u} {16} {0} {}
+E { 6781} {s} {s} {4} {0} {}
+
+R { 6781} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000}
+E { 6780} {n} {n} {1} {0} {}
+E { 6782} {w} {w} {8} {0} {}
+
+R { 6782} {0} {} {The Well of Starlight} { } {A soft glow arises from a pool of starlight nestled in this small dip in the ground. It looks as if the light has collected here like raindrops. The gentle glow wraps you in a peaceful feeling. This place is obviously sacred to the Sidhe and is not meant for mortal eyes.} {Celtic Ireland } {} {} {} {1.000}
+E { 6781} {e} {e} {2} {0} {}
+E { 6783} {s} {s} {4} {0} {}
+
+R { 6783} {0} {} {Beneath the Rowan Tree} { } {This tree is tremendous. It looms higher than you can see, and its branches somehow stretch over the entire glade. The leaves of the tree are varying shades of argent and platinum. A path worn by centuries of dancing feet rings the trunk of this tree.} {Celtic Ireland } {} {} {} {1.000}
+E { 6782} {n} {n} {1} {0} {}
+E { 2724} {s} {s} {4} {0} {}
+E { 6786} {w} {w} {8} {1} {}
+
+R { 6784} {0} {} {A Wolf's Den} { } {The dark shadows gather menacingly at the entrance to a cave. There are many wolf tracks and scattered bones scattered about the entrance. The strong scent of wet fur assails your nostrils.} {Celtic Ireland } {} {} {} {1.000}
+E { 6778} {n} {n} {1} {0} {}
+E { 6786} {e} {e} {2} {0} {}
+
+R { 6785} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 4975} {e} {e} {2} {0} {}
+E { 6778} {w} {w} {8} {0} {}
+
+R { 6786} {0} {} {By a River Bank} { } {A swift running river froths in the light filtering down through the roof of interlocking branches and leaves that overhang this path. The dark water reflects the forest back at you when you look down at it. There are a number of birds flitting from branch to branch, chirping contentedly.} {Celtic Ireland } {} {} {} {1.000}
+E { 6784} {w} {w} {8} {0} {}
+E { 6779} {e} {e} {2} {0} {}
