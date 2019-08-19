@@ -24,20 +24,34 @@
         #VAR count -1;
         #FOREACH {$room_check[%*]} {line}
         {
-            #REGEX {$line} {{^.+$}}
+            #REGEX {$line} {{(You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.)}}
             {
-                #MATH count {$count + 1};
+                #VAR break true;
             }
             {
+                #REGEX {$line} {{.+}}
+                {
+                    #MATH count {$count + 1};
+                }
+                {
+                    #VAR break true;
+                }
+            }
+
+            #IF {"$break" == "true"}
+            {
+                #UNVAR break;
                 #BREAK;
-            };
-        };
+            }
+        }
 
         #VAR room_desc {$room_check[1]};
         #LOOP 2 $count cnt
         {
             #VAR room_desc {$room_check[$cnt] $room_desc};
         };
+
+#showme $room_desc;
 
         #MATH count {$count + 1};
         #VAR room_title {$room_check[$count]};
@@ -62,7 +76,7 @@
             }
             #UNVAR findroom;
             #UNVAR findroom_results;
-        }
+        };
         
         #UNVARIABLE room_title;
         #UNVARIABLE room_desc;
@@ -71,6 +85,12 @@
         #UNVARIABLE cnt;
         #UNVARIABLE line;
     };
+}
+{5}
+
+#ACTION {{(^You step into a shimmering portal and vanish!|, and suddenly you are transported.)$}}
+{
+    #VAR findroom true;
 }
 {5}
 

@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 1625
+I 1161
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -4939,10 +4939,10 @@ E { 1199} {s} {s} {4} {0} {}
 E { 1200} {e} {e} {2} {0} {}
 
 R { 1163} {0} {} {The Plains of Ill-Luck} { } {Your feet get bogged down in the quicksand-like clay that clings to your toes. Cold winds brush against your face bearing the stench of a thousand corpses long buried underneath the mire's muck.} {} {} {} {} {1.000}
-E { 1162} {n} {n} {1} {0} {}
+E { 1162} {n} {n} {1} {1} {}
 E { 1164} {w} {w} {8} {0} {}
 E { 1162} {e} {e} {2} {0} {}
-E { 1199} {s} {s} {4} {0} {}
+E { 1199} {s} {s} {4} {1} {}
 
 R { 1164} {0} {} {The Perilous Glen} { } {Dark hills rise as far as the eyes can see, trapping you, making you feel choked in the pit of trees that surround you. The branches reach out, grabbing at your arms and legs, stretching out from the twisted and gnarled trunks that clutter the landscape. You can't get out of your mind the darting eyes in the darkness that seem to be constantly staring you down.} {} {} {} {} {1.000}
 E { 1163} {e} {e} {2} {0} {}
@@ -5089,13 +5089,13 @@ E { 1164} {s} {s} {4} {0} {}
 
 R { 1199} {0} {} {The Plains of Ill-Luck} { } {The rare tree stretches out from underneath the murky waters that surround your ankles. Forever sounding out in gurgles and pops, the swamp seems alive in itself. A black crow overhead cries out at your movements and you wonder what creatures lie ahead now alerted to your presence.} {} {} {} {} {1.000}
 E { 1162} {n} {n} {1} {0} {}
-E { 1163} {w} {w} {8} {0} {}
-E { 1200} {e} {e} {2} {0} {}
+E { 1163} {w} {w} {8} {1} {}
+E { 1200} {e} {e} {2} {1} {}
 
 R { 1200} {0} {} {The Plains of Ill-Luck} { } {Soft ground gives way underfoot as the clay clings to your feet. Black water, gurgling at every step seems to keep conversation with itself as you move about.} {} {} {} {} {1.000}
 E { 1162} {w} {w} {8} {0} {}
 E { 1162} {n} {n} {1} {0} {}
-E { 1199} {s} {s} {4} {0} {}
+E { 1199} {s} {s} {4} {1} {}
 
 R { 1201} {0} {} {An Underhill Path} { } {You travel along a clearly marked path through the twilight realms of Underhill. The light is like that of the sun poised between day and night. The elongated shadows stripe the landscape. The color bleeds out of your vision leaving the panorama one of varying shades of grey.} {} {} {} {} {1.000}
 E { 1159} {n} {n} {1} {0} {}
