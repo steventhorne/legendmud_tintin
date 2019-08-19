@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 1619
+I 1625
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -4713,6 +4713,7 @@ R { 1112} {0} {} {A Roman Intersection} { } {You stand at an intersection in the
 E { 2693} {w} {w} {8} {0} {}
 E { 1114} {n} {n} {1} {0} {}
 E { 1607} {e} {e} {2} {0} {}
+E { 6763} {s} {s} {4} {0} {}
 
 R { 1113} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 1108} {n} {n} {1} {0} {}
@@ -6857,11 +6858,11 @@ E { 3462} {e} {e} {2} {0} {}
 
 R { 1620} {0} {} {Off the Coast of Egypt} { } {To the south you can see a harbor filled with Phoenician vessels and the long,\nlow barges that sail the Nile. The waters of the Great Sea spread out to your\nnorth and west, and to the east are the lands of Canaan and Judea.} {Anc. Atlantic/Med. } {} {} {} {1.000}
 E { 1619} {n} {n} {1} {0} {}
-E { 1621} {s} {s} {4} {0} {}
+E { 1621} {s} {s} {4} {1} {}
 E { 2394} {w} {w} {8} {0} {}
 
 R { 1621} {0} {} {The Harbor} { } {Phoenician ships are moored here next to Nile barges, with personal dahabeeyas\nscuttling back and forth as trade agreements are made and goods exchanged.\nThough the harbor is crowded, there are only one or two buildings along the\nshore, probably just for storing goods coming into and out of Egypt. Those who\ndo business here must be returning south to settlements up the river for\nlodging. To your north the expanse of the Great Sea unfolds.} {Ancient Egypt } {} {} {} {1.000}
-E { 1620} {n} {n} {1} {0} {}
+E { 1620} {n} {n} {1} {1} {}
 E { 1622} {s} {s} {4} {0} {}
 
 R { 1622} {0} {} {The Nile Delta} { } {You have to struggle a bit here to maintain your course on the main part of\nthe river, as the eddies caused by the entering rush of water from minor\ntributaries try to sweep your small craft out into the Sea. You can allow the\ncurrent to carry you north, or plow your way upstream to the south.} {Ancient Egypt } {} {} {} {1.000}
@@ -6879,7 +6880,7 @@ E { 1625} {s} {s} {4} {0} {}
 R { 1625} {0} {} {At the Edge of the Two Lands} { } {You have come to the edge of two lands, in more senses than one. All land to\nthe north comprises Lower Egypt, while just to the south lies Upper Egypt, and\nthe capital of the Two Lands. Also, from here you can leave the Nile corridor\nto trek across the Great Eastern Desert.} {Ancient Egypt } {} {} {} {1.000}
 E { 1624} {n} {n} {1} {0} {}
 E { 1626} {e} {e} {2} {0} {}
-E { 2724} {s} {s} {4} {0} {}
+E { 2715} {s} {s} {4} {0} {}
 
 R { 1626} {0} {} {At the Edge of the Great Eastern Desert} { } {To the west the slow-moving, muddy waters of the Nile beckon to you, offering\nboth refreshment and a 'road' on which to continue your travels. Or, you can\nhead deeper into the desert towards the north and east, in search of the\nfabled civilization that supposedly lies across the desert.} {Ancient Egypt } {} {} {} {1.000}
 E { 1625} {w} {w} {8} {0} {}
@@ -11418,7 +11419,7 @@ R { 2710} {0} {} {Inside the Barracks Block} { } {This is a long, narrow buildin
 E { 2709} {s} {s} {4} {0} {}
 E { 2707} {e} {open e;e} {2} {0} {}
 
-R { 2711} {0} {<099>} {On the Ridge of a Sand Dune} { } {As you clamber to the top of what you wished was the last dune, you discover\nthat you are still in the middle of a vast desert. In every direction, you see\na sea of sand.} {Arabian Nights } {} {} {} {1.000}
+R { 2711} {0} {} {On the Ridge of a Sand Dune} { } {As you clamber to the top of what you wished was the last dune, you discover\nthat you are still in the middle of a vast desert. In every direction, you see\na sea of sand.} {Arabian Nights } {} {} {} {1.000}
 E { 1855} {n} {n} {1} {0} {}
 E { 2712} {s} {s} {4} {0} {}
 E { 3391} {w} {w} {8} {0} {}
@@ -11441,7 +11442,7 @@ E { 1855} {s} {s} {4} {0} {}
 E { 2713} {n} {n} {1} {0} {}
 
 R { 2715} {0} {} {Sailing on the Nile} { } {From here you can see that the peak of stone long visible on the horizon is\nnot part of the surrounding cliffs at all, but a massive pyramid, a stone\nhouse of immortality set directly in the path of the setting sun. The enormity\nof it is evident even from here, and you can only imagine its impact at closer\nrange. Sailing upstream will bring you to the City of the Living, and\ncontinuing downstream will take you into Lower Egypt and to the Great Sea\nbeyond.} {Ancient Egypt } {} {} {} {1.000}
-E { 2724} {n} {n} {1} {0} {}
+E { 1625} {n} {n} {1} {0} {}
 E { 2716} {s} {s} {4} {0} {}
 
 R { 2716} {0} {} {Sailing on the Nile} { } {Several dahabeeyah have been dragged onto both shores of the Nile here, while\nother boats float at anchor blocking traffic, and one unfortunate felucca has\nrun aground on a sandbar. Apparently the owners would rather abandon their\nvessels here, outside the precincts of the city, than have official notice of\ntheir visit taken down by officers of Pharaoh. You think it might be wiser to\npay the nominal tax and use the docks just upstream rather than risk bringing\nyour craft to shore here.} {Ancient Egypt } {} {} {} {1.000}
@@ -11480,10 +11481,6 @@ R { 2723} {0} {} {Beside the Great Pyramid} { } {The pyramid is enormous, far bi
 E { 2722} {e} {e} {2} {0} {}
 E { 3355} {w} {w} {8} {0} {}
 E { 5933} {s} {s} {4} {0} {}
-
-R { 2724} {10} {} {} { } {} {} {} {} {} {1.000}
-E { 2715} {s} {s} {4} {0} {}
-E { 1625} {n} {n} {1} {0} {}
 
 R { 2725} {0} {} {Inside the Great Pyramid} { } {You step into the entrance hall of the great pyramid of Pharaoh Khufu. Built\nthousands of years ago, the great pyramid still stands proud over the desert,\neven if it has been visited many times by tomb robbers.} {Industrial Pyramid } {} {} {} {1.000}
 E {  645} {n} {n} {1} {0} {}
@@ -11884,13 +11881,13 @@ E { 2823} {n} {n} {1} {0} {}
 
 R { 2823} {0} {} {Outside Thebes} { } {You stand outside the great polis of Thebes, founded by Cadmus, home of the\npatricide Oedipus, and famous the world over for its seven soaring gates. The\nElectran Gate, frescoes adorning its upper reaches, stands closed before you.\nIn the dim light cast by torches on either side of the gate, you can make\nout 3 short pillars upon which no birds will sit, nor beasts graze\nnear, where it is said Amphiaraus was swallowed up by the vengeful earth.} {Ancient Greece } {} {} {} {1.000}
 E { 2822} {s} {s} {4} {0} {}
-E { 2824} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 2824} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 2824} {0} {} {Inside the Electran Gate} { } {You stand inside the soaring Electran Gate, the southernmost point inside the\nwalls of Thebes. The house of Amphitryon looms to the west, while the Temple\nof Apollo sits a short climb up the Ismenian Hill to the east. The center of\nThebes is just north of you. Torches along the walls gutter but cast a decent\namount of light.} {Ancient Greece } {} {} {} {1.000}
 E { 2825} {w} {open w;w} {8} {0} {}
 E { 3330} {e} {e} {2} {0} {}
 E { 3337} {n} {n} {1} {0} {}
-E { 2823} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 2823} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 2825} {0} {} {The House of Amphitryon} { } {This simple house is the abode of one of the most powerful men in Greece,\nAmphitryon, ruler of Thebes. A small chamber lies south of the central room,\nand an atrium opens to the west. An inscription can be seen above the door to\nthe southern chamber.} {Ancient Greece } {} {} {} {1.000}
 E { 2824} {e} {open e;e} {2} {0} {}
@@ -14309,6 +14306,7 @@ R { 3401} {0} {} {Lost in a Sand Storm} { } {You stumble along through the swirl
 E { 2711} {w} {w} {8} {0} {}
 E { 3404} {n} {n} {1} {0} {}
 E { 3409} {s} {s} {4} {0} {}
+E { 3393} {e} {e} {2} {1} {}
 
 R { 3402} {0} {} {On the Ridge of a Sand Dune} { } {As you clamber to the top of what you thought was the last dune, you discover\nthat you are still in the middle of a vast desert. In every direction, you see\na sea of sand.} {Arabian Nights } {} {} {} {1.000}
 E { 2712} {w} {w} {8} {0} {}
@@ -18656,7 +18654,7 @@ E { 4796} {e} {e} {2} {0} {}
 
 R { 4447} {0} {} {Sawayama Castle} { } {A large many-storied castle stands here at the top of a low hill. Its white\nbleached walls reflect the rays of moon and sun to form an impressive view.\nThe many-storied castle is the home of Ishida Mitsunari, one of the most\npowerful Daimyo of the Emperor and loyal kempaku of the young Hideyori. The\ncastle is surrounded by a spectacular park of red cherry blossoms and guarded\nby fierce, heavily armored guards.} {Medieval Japan } {} {} {} {1.000}
 E { 1289} {e} {e} {2} {0} {}
-E { 4793} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 4793} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 4448} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 3560} {e} {e} {2} {0} {}
@@ -18762,7 +18760,7 @@ E { 6680} {ask rumuki kolat} {ask rumuki kolat} {0} {0} {}
 
 R { 4473} {0} {} {Before the Powerful Castle of Osaka} { } {The deep moat of the Osakajo lies between you and the magnificent eight-story\ncastle. Sheer walls of cut rock support the delicate structure of the building\nfrom platforms of stone that overlook the moat. A wooden bridge grants access\nto the fortress, but it is patrolled by many soldiers.} {Medieval Japan } {} {} {} {1.000}
 E { 4472} {s} {s} {4} {0} {}
-E { 4797} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 4797} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 4474} {0} {} {The Great Harbor of Osaka} { } {You stand at the docks of an impressively large and commercial harbor. Here,\nno fishermen sell smelly fish or cook food on the docks. Every activity on the\ndocks is monitored and controlled to optimize traffic of trade goods. Many\nmerchants discuss with colleagues and arrange important deals, while severe\nbushi soldiers wander around, enforcing peace and discipline.} {Medieval Japan } {} {} {} {1.000}
 E { 4468} {s} {s} {4} {0} {}
@@ -18904,7 +18902,7 @@ E { 4503} {e} {e} {2} {0} {}
 
 R { 4508} {0} {} {Iwadeyama Castle} { } {The small castle of Iwadeyama is the home of the powerful warlord Masamune\nDate, known to be friendly with strangers and especially with Christians. The\nfamous Daimyo has a passion for travels which can be observed in the classic\nbut unusual architecture of his stronghold. The castle itself is surrounded by\ngraceful gardens but you cannot help thinking it looks like a small residence\nfor such a powerful leader.} {Medieval Japan } {} {} {} {1.000}
 E { 4506} {w} {w} {8} {0} {}
-E { 4792} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 4792} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 4509} {0} {} {The Narrow Road to the Deep North} { } {Many hokku, short poems, describe the simple beauty of the Tohoku region\nwhich much of its charm lies in its wilderness and unspoiled nature. The area\nlooks very rural, with most villages maintaining folk culture, by running\nfrequent festivals and dances.} {Medieval Japan } {} {} {} {1.000}
 E { 4506} {e} {e} {2} {0} {}
@@ -18913,7 +18911,7 @@ E { 4807} {n} {n} {1} {0} {}
 
 R { 4510} {0} {} {The Village of Nikko} { } {The small village of Nikko resides at the foot of taller mountains to the\nwest. The village was born to host workers and visitors to the nearby sacred\nshrines hiding in the forested hills to the north.} {Medieval Japan Expansion } {} {} {} {1.000}
 E { 4509} {e} {e} {2} {0} {}
-E { 4814} {ask elder toshogu} {ask elder toshogu} {0} {0} {}
+E { 4814} {gate} {enq ask elder toshogu} {0} {0} {}
 
 R { 4511} {0} {} {On a Road Through Dodan Trees} { } {The Tokaido approaches a range of rounded mountains, rising up over the\nclouds ahead of you, where it appears to float. Along the road, several Dodan\ntrees grow wild on the slopes of the mountain. They bear pretty, bell-shaped\nwhite flowers where the mountain turns fresh green, or decorate the mountain\nslope with an astonishingly beautiful red.} {Medieval Japan } {} {} {} {1.000}
 E { 1279} {w} {w} {8} {0} {}
@@ -18992,7 +18990,7 @@ E { 4529} {w} {w} {8} {0} {}
 
 R { 4529} {0} {} {Entrance Gates to Edo-jo} { } {The base of the castle is heavily guarded with many bushi controlling papers\nand identities of the few visitors. It seems to you that spies or potential\nassassins are a concern to the other of the place who ordered massive security\nmeasures. Above your head, you can see the layered roofs of the castle with\nits blue titles and white walls, dominating the city.} {Medieval Japan } {} {} {} {1.000}
 E { 4528} {e} {e} {2} {0} {}
-E { 4800} {ask gate gate} {ask gate gate} {0} {0} {}
+E { 4800} {gate} {enq ask gate gate} {0} {0} {}
 
 R { 4530} {0} {} {A Street in the Chonin District} { } {A maze of narrow and dirty streets connect here within the merchant's district\nwith its simple abodes made of bamboo and dried mud. Lots of small shops open\ndirectly into the street, crowded at any hour of the day. Multicolored paper\nlanterns are attached over the streets to the houses' roofs, giving the dark\nalleyways a festive look.} {Medieval Japan } {} {} {} {1.000}
 E { 4527} {n} {n} {1} {0} {}
@@ -20109,7 +20107,7 @@ E { 4674} {use portal} {use portal} {0} {0} {}
 E { 4863} {s} {s} {4} {0} {}
 E { 4864} {n} {n} {1} {0} {}
 
-R { 4792} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 4792} {0} {} {Masamune's Audience Chamber} { } {You stand inside the small audience chamber of the Iwadeyama castle. The room\nis made from expensive types of wood, indicating the power of the Daimyo, even\nif the place do not force respect by its size. A wooden dais faces you from\nwhere the Date Daimyo receives his guests. The chamber is heavily guarded with\ncushions around the dais, reserved for the many ruthless yojimbo that protect\nthe Daimyo.} {Medieval Japan } {} {} {} {1.000}
 E { 4508} {w} {w} {8} {0} {}
 
 R { 4793} {0} {} {Inside the Ishida Stronghold} { } {The castle of the rich clan Ishida is heavily decorated in the inside with\ntrophies from the war in Korea and displays of yoroi armors that belonged to\nwarlords of the clan. The wooden pillars supporting the castle's structure are\npainted with gold and covered at their feet with flat silk cushions.} {Medieval Japan } {} {} {} {1.000}
@@ -20186,6 +20184,8 @@ E { 4813} {n} {n} {1} {0} {}
 
 R { 4813} {0} {} {Inside a Desolated Forest} { } {This once lush and green forest is now left dead and desicated. Only the\nmost stalwart of trees remain standing, and they have withered and blackened,\ntheir branches clutching at the grey skies like charred claws. The uneven\nground is littered with fallen logs that slowly rot.} {Medieval Japan } {} {} {} {1.000}
 E { 4812} {s} {s} {4} {0} {}
+E { 6738} {e} {e} {2} {0} {}
+E { 6738} {w} {w} {8} {0} {}
 
 R { 4814} {0} {} {The Village of Nikko} { } {The small village of Nikko resides at the foot of taller mountains to the\nwest. The village was born to host workers and visitors to the nearby sacred\nshrines hiding in the forested hills to the north.} {Player Housing } {} {} {} {1.000}
 E { 4509} {sleep} {sleep;st} {0} {0} {}
@@ -28052,3 +28052,114 @@ R { 6737} {0} {} {Lost in the Aegean} { } {Lost. You are completely lost. There 
 E { 6736} {e} {e} {2} {0} {}
 E { 6730} {d} {d} {32} {1} {}
 E { 4238} {n} {n} {1} {1} {}
+
+R { 6738} {0} {} {Inside a Desolated Forest} { } {This once lush and green forest is now left dead and desicated. Only the\nmost stalwart of trees remain standing, and they have withered and blackened,\ntheir branches clutching at the grey skies like charred claws. The uneven\nground is littered with fallen logs that slowly rot.} {Medieval Japan } {} {} {} {1.000}
+E { 4813} {w} {w} {8} {0} {}
+E { 4813} {s} {s} {4} {1} {}
+E { 6739} {e} {e} {2} {1} {}
+E { 6740} {n} {n} {1} {0} {}
+
+R { 6739} {0} {} {Inside a Desolated Forest} { } {This once lush and green forest is now left dead and desicated. Only the\nmost stalwart of trees remain standing, and they have withered and blackened,\ntheir branches clutching at the grey skies like charred claws. The uneven\nground is littered with fallen logs that slowly rot.} {Medieval Japan } {} {} {} {1.000}
+E { 4813} {e} {e} {2} {1} {}
+E { 6738} {n} {n} {1} {1} {}
+E { 6740} {w} {w} {8} {1} {}
+E { 6741} {s} {s} {4} {0} {}
+
+R { 6740} {0} {} {Inside a Desolated Forest} { } {This once lush and green forest is now left dead and desicated. Only the\nmost stalwart of trees remain standing, and they have withered and blackened,\ntheir branches clutching at the grey skies like charred claws. The uneven\nground is littered with fallen logs that slowly rot.} {Medieval Japan } {} {} {} {1.000}
+E { 6739} {e} {e} {2} {0} {}
+E { 6738} {n} {n} {1} {1} {}
+E { 4813} {w} {w} {8} {1} {}
+E { 6738} {s} {s} {4} {0} {}
+
+R { 6741} {0} {} {Inside a Desolated Forest} { } {This once lush and green forest is now left dead and desicated. Only the\nmost stalwart of trees remain standing, and they have withered and blackened,\ntheir branches clutching at the grey skies like charred claws. The uneven\nground is littered with fallen logs that slowly rot.} {Medieval Japan } {} {} {} {1.000}
+E { 6739} {n} {n} {1} {0} {}
+E { 6738} {w} {w} {8} {0} {}
+E { 4813} {s} {s} {4} {1} {}
+E { 6742} {e} {e} {2} {0} {}
+
+R { 6742} {0} {} {A Village of the Ainu} { } {At the edge of a vast and desolated forest sits a primitive village of the an\nAinu tribe, the real natives of this island. The village is made of a dozen\nof rudimentary huts where hid all the women and children as they saw you\narrive in their encampment. The Ainu look to be fierce and proud people as\nwell as excellent fishermen and hunters.} {Medieval Japan } {} {} {} {1.000}
+E { 6741} {w} {w} {8} {0} {}
+E { 6744} {n} {n} {1} {0} {}
+
+R { 6743} {0} {} {Wandering on Ezochi's Hills} { } {The region around you bursts with rivers, gorges, forests, waterfalls, and\nmany animals trails. Long magnificent valleys feature large plateaus with\nvarious alpine plants that bloom in between packs of permanent snow.} {Medieval Japan } {} {} {} {1.000}
+E { 6744} {s} {s} {4} {0} {}
+E { 6745} {e} {e} {2} {0} {}
+E { 6748} {w} {w} {8} {0} {}
+
+R { 6744} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6742} {s} {s} {4} {0} {}
+E { 6743} {n} {n} {1} {0} {}
+
+R { 6745} {0} {} {Before the Gates of an Icy Castle} { } {The cold hills of Ezochi bow before a vast castle encased in blocks of ice\nand surrounded by ghostly freezing mists. Stalagtites of ice drop from the\ncastle's roofs, its white-painted walls are coated with crusts of hoarfrost,\nand a strong wind blows from the castle's moat, sparkling flakes of snow at\nyou.} {Medieval Japan } {} {} {} {1.000}
+E { 6743} {w} {w} {8} {0} {}
+E { 6746} {n} {n} {1} {0} {}
+E { 6747} {s} {s} {4} {0} {}
+
+R { 6746} {0} {} {Before a Guardian's Statue} { } {You stand before the frightening statue of a grinning creature that guards the\nsides of the castle's gate. The statue resembles a man with many arms, each\nof them wielding a deadly weapon. The guardian's statue brandishes two of its\narms in your direction, opened palm of its hands facing you.} {Medieval Japan } {} {} {} {1.000}
+E { 6745} {s} {s} {4} {0} {}
+
+R { 6747} {0} {} {Before a Guardian's Statue} { } {You stand before the frightening statue of a grinning creature that guards the\nsides of the castle's gate. The statue resembles a man with many arms, each\nof them wielding a deadly weapon. The guardian's statue brandishes two of its\narms in your direction, opened palm of its hands facing you.} {Medieval Japan } {} {} {} {1.000}
+E { 6745} {n} {n} {1} {0} {}
+
+R { 6748} {0} {} {Wandering on Ezochi's Hills} { } {The region around you bursts with rivers, gorges, forests, waterfalls, and\nmany animals trails. Long magnificent valleys feature large plateaus with\nvarious alpine plants that bloom in between packs of permanent snow.} {Medieval Japan } {} {} {} {1.000}
+E { 6743} {e} {e} {2} {0} {}
+E { 6749} {n} {n} {1} {0} {}
+E { 6751} {w} {w} {8} {0} {}
+
+R { 6749} {0} {} {The Hot Springs of Sunkyo} { } {You reached an area of the mountains that forms a narrow gorge surrounded by\nhigh jagged cliffs and gorgeous cascading waterfalls. At the end of the gorge,\nyou see many Onsen, natural hot springs, where pools of warm water have formed\namong strange lava formations.} {Medieval Japan } {} {} {} {1.000}
+E { 6748} {s} {s} {4} {0} {}
+
+R { 6750} {0} {} {On Top of Mount Asahi} { } {Mount Asahi is an extinct volcano and probably the tallest mountain around.\nThe Sagatami pond's surface, directly extending at your feet, reflects the\npeak, snow, and steam escaping from the volcanic vents. From there, you can\nembrace a spectacular view of the whole island and its hostile wilderness.} {Medieval Japan } {} {} {} {1.000}
+E { 6751} {e} {e} {2} {0} {}
+E { 4813} {s} {s} {4} {1} {}
+E { 6752} {w} {w} {8} {0} {}
+E { 6757} {n} {n} {1} {0} {}
+
+R { 6751} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6748} {e} {e} {2} {0} {}
+E { 6750} {w} {w} {8} {0} {}
+
+R { 6752} {0} {} {Wandering on Ezochi's Hills} { } {The region around you bursts with rivers, gorges, forests, waterfalls, and\nmany animals trails. Long magnificent valleys feature large plateaus with\nvarious alpine plants that bloom between areas of permanent, hard-packed snow.} {Medieval Japan } {} {} {} {1.000}
+E { 6750} {e} {e} {2} {0} {}
+E { 6753} {w} {w} {8} {0} {}
+
+R { 6753} {0} {} {At Lake Shikotsu} { } {The lake is nested between volcanic peaks, probably created by the telluric\nactivity of the region. Its cold waters are very transparent and clear and you\ncan see many salmons gliding under its surface. To the south, you see the\nTarumae mountain which is a semi-active volcano threatening the area with loud\nand mighty growls.} {Medieval Japan } {} {} {} {1.000}
+E { 6752} {e} {e} {2} {0} {}
+E { 6754} {s} {s} {4} {0} {}
+
+R { 6754} {0} {} {The Extinct Caldera of Mount Tarumae} { } {Mount Tarumae is a majestic triple-coned volcano with a pudding-shaped dome,\nthat towers over the southern shore of Lake Shikotsu. The ground on top\nof the Volcano is made of small black lava rocks from where burst fumes of\nsulphur. A large caldera, half filled with stagnant water opens at your feet,\nfrom where you can spot a lava chimney going down into darkness.} {Medieval Japan } {} {} {} {1.000}
+E { 6753} {n} {n} {1} {0} {}
+E { 6760} {d} {d} {32} {0} {}
+
+R { 6755} {0} {} {Within a Frozen Marsh} { } {The lands that extend north of the Asashi mountain are covered by a deep and\nbarren marsh, solidified by the freezing waters trapped in the ground. The\nplace is desolated with few animals and birds, ruthlessly chased down by the\nexpert Ainu hunters.} {Medieval Japan } {} {} {} {1.000}
+E { 6757} {s} {s} {4} {0} {}
+E { 6756} {w} {w} {8} {0} {}
+
+R { 6756} {0} {} {Within a Frozen Marsh} { } {The lands that extend north of the Asashi mountain are covered by a deep and\nbarren marsh, solidified by the freezing waters trapped in the ground. The\nplace is desolated with few animals and birds, ruthlessly chased down by the\nexpert Ainu hunters.} {Medieval Japan } {} {} {} {1.000}
+E { 6755} {e} {e} {2} {0} {}
+E { 6758} {s} {s} {4} {0} {}
+E { 6759} {n} {n} {1} {0} {}
+
+R { 6757} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6750} {s} {s} {4} {0} {}
+E { 6755} {n} {n} {1} {0} {}
+
+R { 6758} {0} {} {A Village of the Ainu} { } {Setup in the middle of the frozen swamp sits a primitive village of an Ainu\ntribe, the real natives of this island. The village is made of a dozen of\nrudimentary huts where hid all the women and children as they saw you arrive\nin their encampment. The Ainu look to be fierce and proud people as well as\nexcellent fishermen and hunters.} {Medieval Japan } {} {} {} {1.000}
+E { 6756} {n} {n} {1} {0} {}
+
+R { 6759} {0} {} {Cape Soya} { } {You finally reached the northernmost point of the island of Ezochi, the savage\ncape Soya, battered by permanent tempests of snow and ice flakes. Before you,\nthe waves of the sea rage with fury as they slam against the cape, their\nheight obstructing vision further to the north. It is almost like you can hear\nthe thundering voice of Susano, great kami of the storms, growling around you.} {Medieval Japan } {} {} {} {1.000}
+E { 6756} {s} {s} {4} {0} {}
+
+R { 6760} {0} {} {Inside The Caldera} { } {You crawl into earth in a narrow natural tunnel made from a past eruption of\nthe volcano. The tunnel connects at irregular intervals with quartz chambers,\nsulphurous clouds and black areas of solidified lava.} {Medieval Japan } {} {} {} {1.000}
+E { 6754} {u} {u} {16} {0} {}
+E { 6761} {d} {d} {32} {0} {}
+
+R { 6761} {0} {} {Down The Caldera} { } {You crawl into earth in a narrow natural tunnel made from a past eruption of\nthe volcano. The tunnel connects at irregular intervals with quartz chambers,\nsulphurous clouds and black areas of solidified lava. The temperature has\nsuddenly risen very fast as under you light from a torrent of lava projects\nstrange shadows on the tunnel's walls.} {Medieval Japan } {} {} {} {1.000}
+E { 6760} {u} {u} {16} {0} {}
+E { 6762} {d} {d} {32} {0} {}
+
+R { 6762} {0} {} {Near the Gates to Jigoku} { } {You stand on a small rocky island just under the exit of the lava chimney,\ndeep inside the mountainain of Tarumae. All around you, a torrent of lava cascades\ninside the mountain, almost ready to explode and rush through the tunnel you\ncame through. The place radiates with raw energy which dazes you a little.} {Medieval Japan } {} {} {} {1.000}
+E { 6761} {u} {u} {16} {0} {}
+
+R { 6763} {0} {} {A Roman Villa} { } {A high ceiling and fine craftsmanship mark this villa as the home of a wealthy\ncitizen, likely a senator or a farmer of the curial class. The main room is\nspacious and filled with fine rugs, tapestries, and ornaments of wealth such\nas vases and finely crafted furniture. The windows have thick green glass in\nthem through which daylight trickles on sunny afternoons.} {Player Housing } {} {} {} {1.000}
+E { 1112} {n} {n} {1} {0} {}
