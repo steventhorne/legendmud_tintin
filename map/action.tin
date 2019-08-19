@@ -51,8 +51,6 @@
             #VAR room_desc {$room_check[$cnt] $room_desc};
         };
 
-#showme $room_desc;
-
         #MATH count {$count + 1};
         #VAR room_title {$room_check[$count]};
 
