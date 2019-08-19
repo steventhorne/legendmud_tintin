@@ -20,7 +20,15 @@
 
 #ALIAS {savemap}
 {
-	#LINE verbose #MAP write map/legendmud#MAP;
+    #IF {"$editmap" == "true"}
+    {
+        #MAP flag static on;
+    };
+	#LINE verbose #MAP write map/legendmud.map;
+    #IF {"$editmap" == "true"}
+    {
+        #MAP flag static off;
+    };
 }
 {5}
 
@@ -30,6 +38,34 @@
     #FOREACH {$search_list} {item} {#MAP goto $item;#BREAK;};
     #UNVAR search_list;
     #UNVAR item;
+}
+{5}
+
+#ALIAS {find}
+{
+    #VAR findroom true;
+    #SEND look;
+}
+{5}
+
+#ALIAS {listnicknames}
+{
+    #MAP get {roomvnum} {roomvnum};
+    #MAP list {roomnote} {{.+}} {variable} {nickname_list};
+    #LOOP 1 &nickname_list[] cnt
+    {
+        #MAP goto *nickname_list[+$cnt];
+        #MAP get {roomname} {roomname};
+        #MAP get {roomnote} {roomnote};
+        #FORMAT roomnote {%-10s} {$roomnote};
+        #SHOWME $roomnote - $roomname;
+    }
+    #MAP goto $roomvnum;
+    #UNVAR roomvnum;
+    #UNVAR nickname_list;
+    #UNVAR roomname;
+    #UNVAR roomnote;
+    #UNVAR cnt;
 }
 {5}
 

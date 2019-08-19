@@ -10,15 +10,15 @@
             {
                 #MAP move &3;
                 #BREAK;
-            }
-        }
+            };
+        };
     };
 }
 {5}
 
 #ACTION {{^.Exits\:[^\]]*\]$}}
 {
-    #if {"$editmap" == "true"}
+    #if {"$editmap" == "true" || "$findroom" == "true"}
     {
         #BUFFER get {room_check} 1 15;
         #VAR count -1;
@@ -30,41 +30,59 @@
             }
             {
                 #BREAK;
-            }
-        }
+            };
+        };
 
         #VAR room_desc {};
         #LOOP 1 $count cnt
         {
             #VAR room_desc {$room_check[$cnt] $room_desc};
-        }
+        };
 
         #MATH count {$count + 1};
         #VAR room_title {$room_check[$count]};
 
         #LINE substitute variables #LINE strip #VAR {room_title} {$room_title};
+        
+        #IF {"$editmap" == "true"}
+        {
+            #MAP set {roomname} {$room_title};
+            #MAP set {roomdesc} {$room_desc};
+        };
 
-        #MAP set {roomname} {$room_title};
-        #MAP set {roomdesc} {$room_desc};
+        #IF {"$findroom" == "true"}
+        {
+            #MAP list {roomname} {$room_title} {roomdesc} {$room_desc} {variable} {findroom_results};
+            #IF {&findroom_results > 0}
+            {
+                #MAP goto *findroom_results[+1];
+            }
+            {
+                #SHOWME Room not found.;
+            }
+            #UNVAR findroom;
+            #UNVAR findroom_results;
+        }
+        
         #UNVARIABLE room_title;
         #UNVARIABLE room_desc;
         #UNVARIABLE room_check;
         #UNVARIABLE count;
         #UNVARIABLE cnt;
         #UNVARIABLE line;
-    }
+    };
 }
 {5}
 
 #ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
 {
-	#MAP move 2324
+	#MAP move 2324;
 }
 {5}
 
 #ACTION {{^A stunted old druid draws it across your throat swiftly... you struggle, but....$}}
 {
-	#MAP goto 287
+	#MAP goto 287;
 }
 {5}
 
@@ -72,68 +90,57 @@
 {
 	#IF {"$editmap" == "true"}
 	{
-		#MAP undo
+		#MAP undo;
 	}
 }
 {5}
 
 #ACTION {{^An old village farmer begins to drone on, you think for a minute he might never stop}}
 {
-	#MAP goto 883
+	#MAP goto 883;
 }
 {5}
 
 #ACTION {{^Captain Frederick Selous waves at you and returns back to his camp.}}
 {
-	#MAP goto 884
+	#MAP goto 884;
 }
 {5}
 
 #ACTION {{^Grer opens the great brass door and leads you into Dvalin's forge.$}}
 {
-	#MAP goto 2324
+	#MAP goto 2324;
 }
 {5}
 
 #ACTION {{^The swan-maiden, Gorbela says to you, 'Just hop on my back, you will be safe.'$}}
 {
-	#MAP goto 2298
+	#MAP goto 2298;
 }
 {5}
 
 #ACTION {{^The swan-maiden, Gorbela says, 'Hold on! We are landing.'$}}
 {
-	#MAP goto 2300
+	#MAP goto 2300;
 }
 {5}
 
 #ACTION {{^The swan-maiden, Gorbela says, 'It is the heart of the land of the Svart Alfs.'$}}
 {
-	#MAP goto 2299
+	#MAP goto 2299;
 }
 {5}
 
 #ACTION {{^You go Out of Character.$}}
 {
 	#MAP get roomvnum oocvnum;
-	#MAP goto ooc
+	#MAP goto ooc;
 }
 {5}
 
 #ACTION {{^You return to being In Character.$}}
 {
-	#MAP goto $oocvnum
-}
-{5}
-
-#ACTION {{^([\w\-\']+)\s([\d\.]+\/[\d\.]+)\s([\w\'\.\/\,\-\s]+)$}}
-{
-	#VARIABLE character %2;
-    #VARIABLE room_area %4;
-	#IF {"$editmap" == "true"}
-	{
-		#MAP set {roomarea} {%4}
-	}
+	#MAP goto $oocvnum;
 }
 {5}
 
@@ -190,19 +197,7 @@
 
 #ACTION {{^Soon, the welcome sight of Ithaca greets your eyes. The sailors bid you a hearty farewell and return to their land.$}}
 {
-    #MAP goto 1824
-}
-{5}
-
-#ACTION {{^\[Exits:[\w\s]+\]$}}
-{
-    #MATH index 1;
-    #BUFFER {get} {buffer_get} {$index};
-
-    #LOOP {1} {10} {cnt}
-    {
-        #BUFFER {get} {buffer_get} {$cnt};
-    }
+    #MAP goto 1824;
 }
 {5}
 

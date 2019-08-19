@@ -27,11 +27,16 @@
 
 #ACTION {{^You hear (.*?)'s death cry.$}}
 {
-	#BUFFER get xpcheck 1;
-	#IF {"$xpcheck" == "\e[0;1;33m%*"}
-	{
-		#SEND get coin corpse;
-	}
+	#BUFFER get xp_check 1 5;
+    #FOREACH {$xp_check} {line}
+    {
+        #REGEX {$line} {{You receive \d+ experience.}}
+        {
+            #SEND get coin corpse,dollar corpse;
+        };
+    };
+    #UNVAR xp_check;
+    #UNVAR line;
 }
 {5}
 
