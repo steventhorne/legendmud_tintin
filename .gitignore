@@ -1,4 +1,6 @@
 # ignore unzipped logfiles
+config
+
 logs/*
 !logs/*.zip
 
