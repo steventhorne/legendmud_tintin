@@ -46,6 +46,7 @@ There are some aliases that can be viewed by typing `#ALIAS`.
 ### Other Aliases
 |Alias|Description|Usage|
 |:----|:----------|:----|
+|setrush|Sets the response for the rush trigger, %1 is the friendly and %2 is the enemy|`setrush resc %1`, `setrush rage %2`. `setrush #nop` will disable the trigger|
 |loadclass|Loads a class file which can be unloaded later|`loadclass tank`|
 |killclass|Unloads a class file that has been loaded via `loadclass`|`killclass tank`|
 

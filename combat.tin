@@ -4,6 +4,17 @@
 }
 {4}
 
+#ALIAS {setrush %*}
+{
+    #SHOWME Alias "rush" set to %1.;
+    #ALIAS {rush %%1 %%2} {%1};
+}
+
+#ALIAS {rush %1 %2}
+{
+    #SHOWME <119>Rush trigger not yet configured, use the "setrush" alias to configure.<099>;
+}
+
 #ACTION {PANIC! You couldn't escape!}
 {
 	#SEND flee;
