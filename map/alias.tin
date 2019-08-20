@@ -14,7 +14,7 @@
 
 #ALIAS {rname}
 {
-	#MAP set roomnote;
+	#MAP set roomnote
 }
 {5}
 

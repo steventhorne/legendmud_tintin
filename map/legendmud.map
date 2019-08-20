@@ -8,7 +8,7 @@ CB <099>
 
 F 11
 
-I 1130
+I 2816
 
 L ▪ ╹ ╺ ┗ ╻ ┃ ┏ ┣ ╸ ┛ ━ ┻ ┓ ┫ ┳ ╋ X
 
@@ -1198,7 +1198,7 @@ E {  283} {e} {e} {2} {0} {}
 R {  283} {0} {} {At Sutton Hoo} { } {Several large mounds dot the landscape here. Some are larger, some smaller. A few look as if they might have an upturned ship buried beneath them, they are so huge. It was common practice in the days of the Vikings to bury their dead kings in such a fashion. You stand near one of these particularly large mounds. It appears as if grave robbers have already begun digging a tunnel into the mound, but never completed it. They must have been interrupted.} {Medieval Britain } {rivet} {} {} {1.000}
 E {  282} {w} {w} {8} {0} {}
 
-R {  284} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  284} {0} {} {The Games Arcade and Snack Bar} { } {With every step you hear the 'squelch, squelch' of Coke and sticky foodstuffs which cling to your shoes and plaster you to the carpet. A snack bar off to one side seems to be the source of the food. The faint scent of vomit and beer assaults your senses and bright, flashing lights flicker in every direction. Beeps, sirens, bleeps and gongs attract your attention and you compulsively reach into your pockets for spare change. Teenagers repetitively feed coins into the games machines which line the walls and cluster in the center of the room like a huge mechanical flower of flashing lights and sound effects.} {PR Utility File } {} {} {} {1.000}
 E {  407} {w} {w} {8} {0} {}
 E {  395} {n} {n} {1} {0} {}
 E {  396} {s} {open s;s} {4} {0} {}
@@ -1654,19 +1654,21 @@ R {  393} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  271} {s} {s} {4} {0} {}
 E {  276} {n} {n} {1} {0} {}
 
-R {  394} {0} {} {ooc} { } {} {} {ooc} {} {} {1.000}
+R {  394} {0} {} {The Wild Boar Tavern} { } {A circular wooden bar sits in the center of this opulently appointed tavern. Stools stand in polite rows around it like mushrooms, and a vast mirror hangs behind the rows upon rows of bottles and drinks the bar stocks. Doorways lead out in all directions. A sign hangs prominently on the wall and an arrow points up with the words 'Immortal Office Complex' printed along its side.} {The Out of Character Lounge } {ooc} {} {} {1.000}
 E {  407} {e} {e} {2} {0} {}
 E {  398} {s} {s} {4} {0} {}
 E {  408} {w} {w} {8} {0} {}
 E {  406} {n} {n} {1} {0} {}
+E { 6789} {d} {d} {32} {0} {}
+E { 6791} {u} {u} {16} {0} {}
 
-R {  395} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  395} {0} {} {A Cramped Photo Booth} { } {The little cramped photo booth has seen better days. The bench is worn and the panels are greasy. The mirror is blackened and peeling, and across it somebody wrote in black, 'all ur booths r belong to us!'. Nevertheless, the camera is in perfect shape and looks inviting.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  284} {s} {s} {4} {0} {}
 
-R {  396} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  396} {0} {} {A Dark and Dusty Library} { } {Every footfall and cough resounds loudly in this large, quiet hallway of books, scrolls and tablets. Endless rows of scripture await your knowledge- hungry eyes and you pause to admire the beautiful gilding on the more ancient tomes -- and to wonder at the presence of notes quickly scribbled on chequered paper too. The marble floor seems particularly prone to creating noise as your feet touch down.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  284} {n} {open n;n} {1} {0} {}
 
-R {  397} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  397} {0} {} {The Card & Party Shop} { } {Cards for every occasion in all shapes and colors crowd the display shelves of the shop. By the counter, a special section is dedicated to party supplies: banners, balloons, and confetti. The man standing behind the counter looks a little familiar.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  398} {n} {n} {1} {0} {}
 E {  399} {e} {e} {2} {0} {}
 E {  400} {w} {w} {8} {0} {}
@@ -1675,31 +1677,32 @@ R {  398} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  394} {n} {n} {1} {0} {}
 E {  397} {s} {s} {4} {0} {}
 
-R {  399} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  399} {0} {} {A Small Flower Shop} { } {The scent of flowers in this little shop almost makes you dizzy. The ground is cramped with pots and buckets full of flowers and greenery, and the shelves are overflowing with vases in all shapes and colours. There is a chalkboard hanging behind the counter, and on it somebody scribbled in a rush the names of flowers available at the shop today.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  397} {w} {w} {8} {0} {}
 
-R {  400} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  400} {0} {} {Muriel's Bridal Boutique} { } {Racks and racks of wedding dresses fill most of the floor space, and you can barely squeeze past them to peruse the shelves full of packaged wedding invitations, garters, and other nuptial paraphernalia. The walls are covered with pictures of Muriel in various wedding gowns, and strains of ABBA's 'Fernando' waft through the air.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  397} {e} {e} {2} {0} {}
 
-R {  401} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  401} {0} {} {An Auditorium} { } {A space set aside specifically for large gatherings, this room features a stage set against one side of the hall. There are excellent acoustics here; every step you take resounds clearly in the air, despite the many plush chairs that are here to sit in. Events held in the auditorium range from singalongs to concerts to readings to lectures to plays, and all are announced on signs posted in the Wild Boar Tavern. The hall's exit is to the east.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  408} {e} {e} {2} {0} {}
 E {  402} {s} {open s;s} {4} {0} {}
 E {  403} {n} {open n;n} {1} {0} {}
 E {  404} {w} {open w;w} {8} {0} {}
 
-R {  402} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  402} {0} {} {The War Room} { } {This sparsely furnished room has a utilitarian air, which is borne out by the utter lack of seating provided. A huge bulletin board covers one wall, and the warriors and assassins and other skirmishers who visit here use this board to leave notes for one another. All are welcome to read their recruitment notices, challenges issued, discussions of tactics or ethics, though the characters who gather here may take offense if non-fighters presume to post notes of their own. Here aggressions are left behind, though, as fighters come to talk and write only when there are no fights to hold their attention.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  401} {n} {open n;n} {1} {0} {}
 
-R {  403} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  403} {0} {} {The Expie Trophy Room} { } {Hail to the winners of the coveted Expies! Here you may witness their glory, neatly arranged and categorized for viewing in the trophy display cases that line the room's walls. One of the cases has some kind of list fastened to it.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  401} {s} {open s;s} {4} {0} {}
 
-R {  404} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  404} {0} {} {The Trophy Room} { } {The room is very bright, lit from all directions. The walls are lined with shelves, where strange and curious trophies sit, inviting inspection. Most are sculptures -- you can see a silver cup, a giant number 5, and other less-recognizable structures. All of them have little brass plates nearby, showing who won the trophy each time the game was run. A list on the wall gives a guide to all the categories.} {PR Utility File } {} {} {} {1.000}
 E {  401} {e} {open e;e} {2} {0} {}
 
-R {  405} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  405} {0} {} {An Archway of Trees} { } {Massive trees seem to have bent their collective will toward creating this wide, grassy archway separating the loud and crowded bar to the south from the quiet and inviting meadow to the east. The shady grass is soft under your feet, the interlocking branches only barely rustling above your head. A delicate sensation of solitude and peace gradually washes over you.} {PR Utility File } {} {} {} {1.000}
 E {  406} {s} {s} {4} {0} {}
 E {  409} {w} {open w;w} {8} {0} {}
 E {  410} {e} {e} {2} {0} {}
+E { 6787} {n} {open n;n} {1} {0} {}
 
 R {  406} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  394} {s} {s} {4} {0} {}
@@ -1713,23 +1716,24 @@ R {  408} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  401} {w} {w} {8} {0} {}
 E {  394} {e} {e} {2} {0} {}
 
-R {  409} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  409} {0} {} {A Pleasant Little Coffee Shop} { } {Small tables dominate the back of the shop, while the front before the small scene seems to be open for people to hang out at the bar, stand around and chat, or even dance to the music. Candles burn on the tables, and a few flowers in vases help add a more pleasant atmosphere.} {The Out of Character Lounge } {} {} {} {1.000}
 E {  405} {e} {open e;e} {2} {0} {}
 
-R {  410} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  410} {0} {} {The Garden of Remembrance} { } {This ever-lit room exists in memory of the people who have brought light to the land of Legend and left us prematurely. The grass grows soft and green, the sky above seems always to be a perfect, endless blue. The memories of friendship and laughter and joy abound. A rose garden lies to the north and a quiet pond to the south. An imposing arch of trees leads out to the west.} {PR Utility File } {} {} {} {1.000}
 E {  405} {w} {w} {8} {0} {}
 E {  411} {s} {s} {4} {0} {}
 E {  412} {n} {n} {1} {0} {}
 E {  413} {e} {e} {2} {0} {}
 
-R {  411} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  411} {0} {} {A Serene Pond} { } {A small pond of crystal clarity settles slowly in the earth here, its edges calm against the grassy shore. The silence is amazing, the sunshine warming, the pond cool and reflective. Life seems very precious in a place this silently perfect.} {PR Utility File } {} {} {} {1.000}
 E {  410} {n} {n} {1} {0} {}
 
-R {  412} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  412} {0} {} {A Vast Rose Garden} { } {This rose garden seems nearly endless, the roses infinitely varied in size, hue, and fragrance. The paths wind tightly between bush after bush exploding in floral splendor. A bench sits in the middle of the garden, inviting silent contemplation or friendly conversation. To even consider taking a single rose seems like a horribly foreign idea.} {PR Utility File } {} {} {} {1.000}
 E {  410} {s} {s} {4} {0} {}
 
-R {  413} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  413} {0} {} {A Garden Pathway} { } {A pathway of cedar chips winds through this off-shoot of the memorial garden. The grass is still green, the sky a perfect and clear blue, darkness never troubling those who visit. Fairy lights hover near a few small saplings, planted with love and care for those who have left the lands of Legend. To the west lies the Garden proper, full of light and love, and at the eastern end of the path sits a curious blue police box, the door slightly ajar.} {PR Utility File } {} {} {} {1.000}
 E {  410} {w} {w} {8} {0} {}
+E { 6788} {e} {open e;e} {2} {0} {}
 
 R {  414} {0} {} {A Nest of Twisty Alleys} { } {Wandering among these myriad alleys and side streets, you swiftly become disoriented. Few, if any, of the streets are marked, and none are done so in a regular fashion. However, there does appear to be a general downward slope to these alleys and streets. Since the breeze which drifts up the narrow alleys bears the salty tang of seawater, you surmise that you are probably just above the docks of London.} {Tudor England } {} {} {} {1.000}
 E {  267} {n} {n} {1} {0} {}
@@ -28292,3 +28296,324 @@ E { 6778} {w} {w} {8} {0} {}
 R { 6786} {0} {} {By a River Bank} { } {A swift running river froths in the light filtering down through the roof of interlocking branches and leaves that overhang this path. The dark water reflects the forest back at you when you look down at it. There are a number of birds flitting from branch to branch, chirping contentedly.} {Celtic Ireland } {} {} {} {1.000}
 E { 6784} {w} {w} {8} {0} {}
 E { 6779} {e} {e} {2} {0} {}
+
+R { 6787} {0} {} {Did something just skitter along the floor?} { } { Did something just skitter along the floor?  Did something just skitter along the floor?} {The Out of Character Lounge } {} {} {} {1.000}
+E {  405} {s} {open s;s} {4} {0} {}
+
+R { 6788} {0} {} {Natalia's Tardis} { } {Entering this rather large room you do a double-take and wonder how it can be contained within that small wooden police box you just entered. You see hallways going in various directions from this central room. In the center of the room is a great pillar surrounded by controls, keyboards and monitors. A coat is hung over the railing to your left, and you wonder if the Doctor is in.} {The Out of Character Lounge } {} {} {} {1.000}
+E {  413} {w} {open w;w} {8} {0} {}
+
+R { 6789} {0} {} {A Dusty Beer Cellar} { } {Numerous barrels, taps and pipes crowd the cobwebbed beer cellar. Dark but for a few slits of the taverns light, shining through cracks in the floorboards above your head.} {The Out of Character Lounge } {} {} {} {1.000}
+E {  394} {u} {u} {16} {0} {}
+E { 6790} {e} {e} {2} {0} {}
+
+R { 6790} {0} {} {The Perma Booth} { } {Once housed in the arcade, the Perma Booth was moved after complaints of customers disappearing, mistaking it for the photo booth. Tragically, a number of small children were among the victims. Soothing bossa nova is being piped into the room through an array of tinny speakers.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6789} {w} {w} {8} {0} {}
+
+R { 6791} {0} {} {The Entrance to the Immortal Office Complex} { } {Drafty, it seems, this small little hall, probably a direct result of the busy little construction workers ripping out a few walls and casting their debris down a chute to a dumpster below. A sign is haphazardly placed indicating which floor belongs to which department. A rather large sign seems to list a directory of all the immortals.} {The Out of Character Lounge } {} {} {} {1.000}
+E {  394} {d} {d} {32} {0} {}
+E { 6836} {push 1} {push 1} {0} {0} {}
+E { 6844} {push 2} {push 2} {0} {0} {}
+E { 6848} {push 3} {push 3} {0} {0} {}
+E { 6849} {push 4} {push 4} {0} {0} {}
+E { 6850} {push penthouse} {push penthouse} {0} {0} {}
+E { 6792} {push basement} {push basement} {0} {0} {}
+
+R { 6792} {0} {} {A Dank, Gloomy Entrance to the Catacombs} { } {Dark. That's the easiest way to describe what you've wandered in to. It's dark and foreboding and the small bit of light merely casts terrible, frightening shadows across the walls and ground. None of the ways seem to welcome visitors and you think that perhaps you should turn back. There are four dusty, faded signs that appear to be maps of some kind.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6793} {n} {n} {1} {0} {}
+E { 6803} {e} {e} {2} {0} {}
+E { 6802} {w} {w} {8} {0} {}
+E { 6831} {s} {s} {4} {0} {}
+E { 6791} {push g} {push g} {0} {0} {}
+E { 6836} {push 1} {push 1} {0} {0} {}
+E { 6844} {push 2} {push 2} {0} {0} {}
+E { 6848} {push 3} {push 3} {0} {0} {}
+E { 6849} {push 4} {push 4} {0} {0} {}
+E { 6850} {push penthouse} {push penthouse} {0} {0} {}
+
+R { 6793} {0} {} {The Catacombs of the Coders} { } {Infinite loops and core dumps are laying around this tunnel collecting dust. Though they look inactive, you feel dread, as though they threaten to become unstable yet again. Perhaps buried under all of that gunk there might even be some skilltrees.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6792} {s} {s} {4} {0} {}
+E { 6794} {e} {e} {2} {0} {}
+E { 6795} {n} {n} {1} {0} {}
+
+R { 6794} {0} {} {The Office of Snapper} { } {This looks like a very high tech room, several computers line the walls. A pair of grey boots are discarded on the floor beside what appears to be a transporter pad. As you approach the computers to take a closer look you are zapped by a force field which encloses each terminal. Looking down you get a little queasy, as you realize you're standing on a glass floor, and can see the earth far below.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6793} {w} {w} {8} {0} {}
+
+R { 6795} {0} {} {The Catacombs of the Coders} { } {Infinite loops and core dumps are laying around this tunnel collecting dust. Though they look inactive, you feel dread, as though they threaten to become unstable yet again. Perhaps buried under all of that gunk there might even be some skilltrees.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6793} {s} {s} {4} {0} {}
+E { 6796} {w} {w} {8} {0} {}
+E { 6797} {e} {e} {2} {0} {}
+E { 6798} {n} {n} {1} {0} {}
+
+R { 6796} {0} {} {Hal's Deep Space} { } {Sure, you expected to stay standing when you walked through the door to Hal's office, but that wasn't meant to happen, now was it? Nope. Now you're here, floating endlessly in space, nothing around you for millions of lightyears. You're completely and utterly alone... except for the robot over there with the colony of life growing on his belly. What cruel universe would give you the wrong AI? This is such a terrible Hell...} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6795} {e} {e} {2} {0} {}
+
+R { 6797} {0} {} {Maharet's Division} { } {Innumerable light pulses course across the room's many surfaces, following tracks of silicon burned into them. Eerie shadows are cast upon workers who trod mechanically through a labyrinth of throbbing cubicles, silicon lanyards with glowing ID badges bouncing against their chests. Your senses are confounded by the bustle of so many. The sounds of keys hitting keyboards collide with a cacophony of murmurs, foot falls, and an omnipresent hum of electrons. Your skin tingles as a passerby brushes your shoulder.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6795} {w} {w} {8} {0} {}
+
+R { 6798} {0} {} {The Catacombs of the Coders} { } {Infinite loops and core dumps are laying around this tunnel collecting dust. Though they look inactive, you feel dread, as though they threaten to become unstable yet again. Perhaps buried under all of that gunk there might even be some skilltrees.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6795} {s} {s} {4} {0} {}
+E { 6799} {w} {w} {8} {0} {}
+E { 6800} {e} {e} {2} {0} {}
+
+R { 6799} {0} {} {Hoth's Office} { } {This office awaits a really spiffy description. [0;1;37m[0;1;32mHoth's Office[0;32m This office awaits a really spiffy description.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6798} {e} {e} {2} {0} {}
+
+R { 6800} {0} {} {A Raven's Perch} { } {A large murky room opens before you. The ceiling rises into the darkness, escaping your vision, while a fresh breeze from above brushes against your face. The floor is bare except for a few dark feathers but a dim light shines from a wooden platform which floats high in the air.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6798} {w} {w} {8} {0} {}
+
+R { 6801} {0} {} {The Catacombs of the Builders} { } {You enter another dusty tunnel. Beneath the thick layer of dust on the floor, you can see the ancient remains of faded notes on places like Antarctica and San Francisco, no longer legible.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6803} {w} {w} {8} {0} {}
+E { 6804} {n} {n} {1} {0} {}
+E { 6805} {s} {s} {4} {0} {}
+E { 6806} {e} {e} {2} {0} {}
+
+R { 6802} {0} {} {The Catacombs of Player Relations} { } {Obviously once plain and tranquil, this now dusty tunnel has peeling paint and rotting wooden posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6792} {e} {e} {2} {0} {}
+E { 6814} {n} {n} {1} {0} {}
+E { 6815} {w} {w} {8} {0} {}
+E { 6816} {s} {s} {4} {0} {}
+
+R { 6803} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6801} {e} {e} {2} {0} {}
+E { 6792} {w} {w} {8} {0} {}
+
+R { 6804} {0} {} {Mariachi's Office} { } {You find yourself in a mostly empty beachfront bar, with one side open to the sparkling blue waters and bright white sands. The shade is pleasant and a gentle breeze blows in, maintaining a perfectly comfortable temperature. At one end of the bar is a disheveled work area covered with piles of paper, seashells functioning as paperweights, and an old-fashioned Royal typewriter.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6801} {s} {s} {4} {0} {}
+
+R { 6805} {0} {} {LadyAce's Inner Sanctum} { } {Entering the enormous chamber would leave anyone in a state of awe. The room spans over a hundred yards, and the walls made of black glass give the room the feeling of being infinite. Looking up you can't see the ceiling, but a dusting of stars twinkle down at you, providing soft illumination. As you walk over the floor made of a smooth grey marble, you can't miss the golden emblem etched in the center of the floor. Etched gold also surrounds the very top of the walls and the edges of the ceiling, surrounding you in arcane symbols. A single exit south from the room looks dwarfed from the center and a few tables and chairs are spread near the other walls. A large stone cup on one of the tables provides water.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6801} {n} {n} {1} {0} {}
+
+R { 6806} {0} {} {The Catacombs of the Builders} { } {You enter another dusty tunnel. Beneath the thick layer of dust on the floor, you can see the ancient remains of faded notes on places like Antarctica and San Francisco, no longer legible.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6801} {w} {w} {8} {0} {}
+E { 6807} {n} {n} {1} {0} {}
+E { 6808} {s} {s} {4} {0} {}
+E { 6811} {e} {e} {2} {0} {}
+
+R { 6807} {0} {} {Kheldar's Domain} { } {You peer into the depths of your surroundings only to find that you're in a rough-hewn cavern. Along the walls are tremendous mounds of gold coins, artisan-worked crafts, weapons and armors of varying shapes and sizes. You exercise constraint in not pocketing souvenirs. Walking in further you find a small table made from a single green stone. To pure to be jade, you assume it was worked from a huge boulder of emerald. Behind it sits a high-backed oaken chair draped in deep green velvet. To one side rests a crystalline fountain with rivulets of water cascading down its faces. The sound of splashing water is soothing and the lightly phosphorescent walls lends itself to a romantic atmosphere.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6806} {s} {s} {4} {0} {}
+
+R { 6808} {0} {} {Throne Room of Nero} { } {After climbing thousands of steps, you have finally reached the top of the mountain where the throne room of Nero resides. Not only can you not breath from the lack of oxygen up here, you're nearly blinded by the intense sun light reflecting off of the mass amounts of hoarded gold. As you take a closer look, you notice an immense, golden throne, awkwardly positioned in the center of the pile.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6806} {n} {n} {1} {0} {}
+
+R { 6809} {0} {} {The Catacombs of the Builders} { } {You enter another dusty tunnel. Beneath the thick layer of dust on the floor, you can see the ancient remains of faded notes on places like Antarctica and San Francisco, no longer legible.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6811} {w} {w} {8} {0} {}
+E { 6810} {s} {s} {4} {0} {}
+
+R { 6810} {0} {} {The Catacombs of the Builders} { } {You enter another dusty tunnel. Beneath the thick layer of dust on the floor, you can see the ancient remains of faded notes on places like Antarctica and San Francisco, no longer legible.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6809} {n} {n} {1} {0} {}
+E { 6812} {w} {w} {8} {0} {}
+E { 6813} {e} {e} {2} {0} {}
+
+R { 6811} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6806} {w} {w} {8} {0} {}
+E { 6809} {e} {e} {2} {0} {}
+
+R { 6812} {0} {} {swooping from nowhere, and monkeys tossing coconut bombs from the top of} { } {those awkward trees. In the air above your head, or sometimes lined up in front of you are spinning yellow rings that make funny 'ding' noises when you grab them. But watch out for the spikes and cliffs! You're almost to the end, forced to hop on a box with a picture of your face on it. The instant you do you're serenaded by victory music and feel as if you could probably survive one of those nasty falls. Faster and faster you flee through this crazy world, darting past a sign so fast it's left spinning uncontrollably behind you. A glance back in time to see it stop shows your face with a peace sign. Victory music plays in the background! You've won the internet! And were running so fast without paying attention that you slammed right in to the cardboard backdrop and in to a bedroom with posters plastered along the wall, video game cartridges strewn about the floor, a messy bed, and something that looks suspiciously like that strange world you were in just seconds before on the television.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6810} {e} {e} {2} {0} {}
+
+R { 6813} {0} {} {Piccolo's Office} { } {This office awaits a really spiffy description. [0;1;37m[0;1;32mPiccolo's Office[0;32m This office awaits a really spiffy description.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6810} {w} {w} {8} {0} {}
+
+R { 6814} {0} {} {Carnegie's Surprisingly Spacious Treehouse} { } {You've climbed up the tree and through a trapdoor to find yourself standing in a surprisingly well-outfitted treehouse. Warm sunlight spills through the windows, between simple linen curtains and past bits of stained glass. To one side of the room is an antique mahogany writing desk, its surface cluttered with notes and memos. A colorful box kite has been suspended from the ceiling. You'd probably want to find somewhere else to weather a storm: but it'd be hard to find a more comfortable location for a warm, lazy afternoon like this one.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6802} {d} {d} {32} {0} {}
+
+R { 6815} {0} {} {The Catacombs of Player Relations} { } {Obviously once plain and tranquil, this now dusty tunnel has peeling paint and rotting wooden posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6802} {e} {e} {2} {0} {}
+E { 6817} {n} {n} {1} {0} {}
+E { 6818} {s} {s} {4} {0} {}
+E { 6821} {w} {w} {8} {0} {}
+
+R { 6816} {0} {} {Haley's Palace of Fun and Games} { } {The excitement of this room is almost overwhelming. All the games and all the fun! Pinball machines and arcade games filling the entire back wall of the office draw your attention. You wonder if it's possible to beat Haley's high scores! Hanging on another wall are hula hoops and roller skates and a set of pom poms. All this fun and so little time, where will you start first?} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6802} {n} {n} {1} {0} {}
+
+R { 6817} {0} {} {Le Salon de la Petite Fille Morte} { } {A flickering fireplace fills the octagonal parlor with an eerie glow. The chamber is dressed in decidedly Victorian manner; the walls are elaborately carved wainscoting to shoulder height above which they are papered with a somber damask pattern. Four massive portraits in hideously ornate frames rest above the wood paneling of every other wall. A large imposing coffin set in front of the fireplace serves as a makeshift desk. An ancient grandfather clock, a crystal ball atop a delicate oval end table and an odd looking black carriage round out the room's curious decor. You can't decide what is more disconcerting, the lack of doors and windows or the faint thump-thump, thump- thump of a beating heart coming from somewhere above.} {The Out of Character Lounge } {} {} {} {1.000}
+
+R { 6818} {0} {} {Autumn's Tranquil Meadow} { } {Amid the hustle and the bustle of corporate Legend, you have stumbled upon a lush and tranquil meadow. The sound of frantic typing is replaced by the chirping of birds and the faint humming of bees. Dotted with poppies, daisies, and lilies, the green grass stretches as far as the eye can see. Here and there you can discern a fluffy, happy bunny hopping about.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6815} {n} {n} {1} {0} {}
+
+R { 6819} {0} {} {The Catacombs of Player Relations} { } {Obviously once plain and tranquil, this now dusty tunnel has peeling paint and rotting wooden posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6821} {e} {e} {2} {0} {}
+E { 6820} {s} {s} {4} {0} {}
+
+R { 6820} {0} {} {The Catacombs of Player Relations} { } {Obviously once plain and tranquil, this now dusty tunnel has peeling paint and rotting wooden posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6819} {n} {n} {1} {0} {}
+E { 6822} {e} {e} {2} {0} {}
+E { 6823} {w} {w} {8} {0} {}
+E { 6824} {s} {s} {4} {0} {}
+
+R { 6821} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6815} {e} {e} {2} {0} {}
+E { 6819} {w} {w} {8} {0} {}
+
+R { 6822} {0} {} {You seem to find yourself within a subterranean cavern unknown to outsiders.} { } {The echoes your footfalls fail to make speak of this hidden grotto's enormity, but the deep gloom makes the height of the ceiling impossible to reckon. As your eyes adjust, enormous stalagmites and crystalline formations emerge from the darkness. But this chamber contains more than just nature's sculptures. You are within the high-tech domicile of a reclusive superhero! A series of lighted glass display cases showcase a myriad of colorful costumes. Trophies and souvenirs from a lifetime of adventures are propped here and there: a freak show carnival poster, a wrought-iron gate with the words 'Doane Manor' inscribed upon it, a framed photo of a group of men standing behind a waterfall. A wide assortment of high-tech crime-fighting gadgets are aligned in a rough circle at the center of the cavern floor, the centerpiece of which is an enormous mainframe computer with flashing lights and buttons and an array of glowing monitors displaying 24-hour surveillance views of every corner of LegendMUD.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6820} {u} {u} {16} {0} {}
+
+R { 6823} {0} {} {Spencer's Office} { } {Colorful concert posters from the Sixties cover most of the walls of this room from floor to ceiling. Names such as Jefferson Airplane, Quicksilver Messenger Service, Blue Cheer, Jimi Hendrix, and Velvet Underground playing at the Fillmore East, the Fillmore West, or the Avalon Ballroom evoke a nostalgic reminiscence of more peaceful and playful days. Burning incense, black lights, and lava lamps lend an intimate air to the room, broken periodically by a hidden strobe light. Half of one wall is a rack filled with records, neatly alphabetized. The thickly carpeted floor is covered with bean-bag chairs and pillows of all sizes.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6820} {e} {e} {2} {0} {}
+
+R { 6824} {0} {} {The Catacombs of Player Relations} { } {Obviously once plain and tranquil, this now dusty tunnel has peeling paint and rotting wooden posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6820} {n} {n} {1} {0} {}
+E { 6825} {e} {e} {2} {0} {}
+E { 6826} {w} {w} {8} {0} {}
+E { 6827} {s} {s} {4} {0} {}
+
+R { 6825} {0} {} {Cheese's Moon Base} { } {A familiar 'schoop' sounds behind you as you step through the airlock that leads into Cheese's enormous space station. Strange machines on the ceiling whirr and thump randomly, giving you the impression that they aren't working right. The place seems entirely deserted; research papers, mechanical parts, and space-rocks are strewn about the chamber at random. As you move through, you discover a display case labeled 'Moon Material' that contains a strange yellow object. It is porous and spongy, not at all resembling the rock you believed the moon to be made out of. A cursory glance at a nearby research document reveals that this is the true building block of the moon, the reported rock being a clever ruse. If you're reading it right, whoever wrote it has discovered that the moon is in fact made of... cheese?} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6824} {w} {w} {8} {0} {}
+
+R { 6826} {0} {} {Joule's Office} { } {Everywhere you look in this snug office you see the signs of a game player. There is a half finished jigsaw puzzle on a side table. There is a stack of crossword puzzle books in the corner. There are multiple video game machines connected to the wide screen television half hidden behind a wooden folding door. Shelves overflow with books and software to go with the computer. The half-open closet door reveals several shelves with rectangular boxes stacked on them. Mobiles of hummingbirds seem to float near the ceiling. A dart board hangs on the wall. The desk in here is covered with scribbled notes about games.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6824} {e} {e} {2} {0} {}
+
+R { 6827} {0} {} {The Catacombs of Player Relations} { } {Obviously once plain and tranquil, this now dusty tunnel has peeling paint and rotting wooden posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6824} {n} {n} {1} {0} {}
+E { 6828} {e} {e} {2} {0} {}
+E { 6829} {w} {w} {8} {0} {}
+
+R { 6828} {0} {} {green grass, making shoes unneeded if you wanted to go barefoot. There is} { } {a small pond in the middle of the room with a waterfall flowing peacefully into the pond waters. Little golden fish can be seen swimming peacefully in the pond, though beware, they are not what they seem. A small ring of flowers surrounds the pond, showing soft blues, purples and pinks to add a touch of decorum. Oddly enough there is a desk set right smack against the far wall and there is a rolling chair behind it. It seems as if the chair almost floats in midair, yet the wheels move around if someone were to sit there. The desk is piled high with papers and there is a *gasp* Macintosh computer sitting there, turned on. On the screen on can see that several windows are open, as if the person who was sitting there at the time were multi-tasking. The current screen is to that of Legend Mud. There seem to be several soft tufts of hay about for those who would like to sit down, and there is one exit out of the room, the strange and misplaced door that you entered.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6827} {w} {w} {8} {0} {}
+
+R { 6829} {0} {} {Rusalka's Room} { } {Despite the rows of bookshelves that reach to the ceiling, and the large, cluttered desktop and the music falling off the keyboard stand in the corner, the room has an open, breezy feel to it. Most of the light shines in from a large picture window on the southern wall. A couple of couches invite you to take a breather...} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6827} {e} {e} {2} {0} {}
+
+R { 6830} {0} {} {The Catacombs of the Elders} { } {There's something a bit different about this part of the catacombs. Whether it is the odd golden light that seems to emanate from both above and below, or the suspicious lack of dust, one will never truly be able to decide. Each guilded door is surrounded by pristine ornate posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6831} {n} {n} {1} {0} {}
+E { 6832} {w} {w} {8} {0} {}
+E { 6833} {s} {s} {4} {0} {}
+
+R { 6831} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6792} {n} {n} {1} {0} {}
+E { 6830} {s} {s} {4} {0} {}
+
+R { 6832} {0} {} {Charity's Office} { } {A million colors of light refracted through the large stained glass window at the back of the room bathes this sandstone office with a myriad of colors. In the center of the room sits a majestic black marble desk, a mac on one side, and a host of books ranging in topic from herbal lore to ancient Egyptian history on the other. On one corner, a statue of a black granite Egyptian cat overlooks the entire office.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6830} {e} {e} {2} {0} {}
+
+R { 6833} {0} {} {The Catacombs of the Elders} { } {There's something a bit different about this part of the catacombs. Whether it is the odd golden light that seems to emanate from both above and below, or the suspicious lack of dust, one will never truly be able to decide. Each guilded door is surrounded by pristine ornate posts.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6830} {n} {n} {1} {0} {}
+E { 6834} {e} {e} {2} {0} {}
+E { 6835} {w} {w} {8} {0} {}
+
+R { 6834} {0} {} {Ptah's Office} { } {This room is full of books. They are piled on desks, they are stacked in corners, they line the walls like a massive army of words ready to take over the world. And in between the books are covers that look rather unfairly scrunched on the shelves, just because the number of pages that are packed on there is so large. Then again, the shelves look scrunched too, just because books fill every available nook and cranny. When you stepped inside, you stepped on books, when you walk you step on books... the door is blocked by books... in fact, hmm. Are there walls and a floor here? Or just books?} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6833} {w} {w} {8} {0} {}
+
+R { 6835} {0} {} {Kaige's Office} { } {You crawl through a maze of yellow plastic tubes until you come to an open space. Cedar chips line the floor and an empty water bottle hangs from the ceiling. You rummage for a bit in the chips and come up with a handful of corn, sunflower seeds and pellets. You fear if you stay here too long you may be turned into some kind of rodent. Every once in a while, you hear nervous, scurrying sounds coming from one of tubes that leads off in one of the many directions.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6833} {e} {e} {2} {0} {}
+
+R { 6836} {0} {} {The Builder's Floor} { } {You nearly stumble over the tons of various pieces of acts and mobs that lie strewn about the floor. It looks as if all the builders revolted and opened their doors, throwing bits and pieces of the various areas of the mud all over the floor. All items seem to surround a board upon which thousands of scrawlings by various builders have been scratched. They seem to be written in blood, sweat, tears, or a mixture of all three. Beside the board a sign can barely be seen poking through with directions to each office on it.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6837} {w} {w} {8} {0} {}
+E { 6791} {push g} {push g} {0} {0} {}
+E { 6844} {push 2} {push 2} {0} {0} {}
+E { 6848} {push 3} {push 3} {0} {0} {}
+E { 6849} {push 4} {push 4} {0} {0} {}
+E { 6850} {push penthouse} {push penthouse} {0} {0} {}
+E { 6792} {push basement} {push basement} {0} {0} {}
+
+R { 6837} {0} {} {The Builder's Hallway} { } {More of the same, you suppose. Someone in a ravishing rage must have swept through this entire hallway blowing around the notes with things like 'Antarctica quests: ARGH!!!' written all over them. It looks like a mess; no it actually is a mess.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6836} {e} {e} {2} {0} {}
+E { 6838} {n} {n} {1} {0} {}
+E { 6839} {w} {w} {8} {0} {}
+E { 6843} {d} {d} {32} {0} {}
+
+R { 6838} {0} {} {Cap's Kitchen} { } {This rather odd room is the definition of multi-purpose. A red blind has been pulled down over window above the kitchen sink to avoid prying eyes. A washing machine lies dormant next to a small white fridge filled with goodies. An important kettle stands ready for duty on the side above some draughty cupboards. The room is dark but the light of a corner lamp that points down onto the large desk where a 27" iMac screen glows. A Keystation 49 II is situated underneath monitor screen. Papers litter the desk top and have been hastily stashed either side of two large multimedia monitor speakers in an attempt to create some order. A well-used darts board is mounted on one wall. In the centre of the room a sorry pool table has been re-purposed by the clutter of day-to-day life.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6837} {s} {s} {4} {0} {}
+
+R { 6839} {0} {} {The Builder's Hallway} { } {More of the same, you suppose. Someone in a ravishing rage must have swept through this entire hallway blowing around the notes with things like 'Antarctica quests: ARGH!!!' written all over them. It looks like a mess; no it actually is a mess.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6837} {e} {e} {2} {0} {}
+E { 6840} {w} {w} {8} {0} {}
+
+R { 6840} {0} {} {The Builder's Hallway} { } {More of the same, you suppose. Someone in a ravishing rage must have swept through this entire hallway blowing around the notes with things like 'Antarctica quests: ARGH!!!' written all over them. It looks like a mess; no it actually is a mess.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6839} {e} {e} {2} {0} {}
+E { 6841} {n} {n} {1} {0} {}
+E { 6842} {s} {s} {4} {0} {}
+
+R { 6841} {0} {} {} { } {} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6840} {s} {s} {4} {0} {}
+
+R { 6842} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6840} {n} {n} {1} {0} {}
+
+R { 6843} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6837} {u} {u} {16} {0} {}
+
+R { 6844} {0} {} {The Coder's Floor} { } {What seems like an infinite blur of variables and integers and all kinds of messy equations and for-loops greets you as you pass through this part of the hall. You wonder exactly what to make of all this, but assume that it must work or you wouldn't be standing here.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6845} {w} {w} {8} {0} {}
+E { 6791} {push g} {push g} {0} {0} {}
+E { 6836} {push 1} {push 1} {0} {0} {}
+E { 6848} {push 3} {push 3} {0} {0} {}
+E { 6849} {push 4} {push 4} {0} {0} {}
+E { 6850} {push penthouse} {push penthouse} {0} {0} {}
+E { 6792} {push basement} {push basement} {0} {0} {}
+
+R { 6845} {0} {} {The Coder's Hallway} { } {What seems like an infinite blur of variables and integers and all kinds of messy equations and for-loops greets you as you pass through this part of the hall. You wonder exactly what to make of all this, but assume that it must work or you wouldn't be standing here.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6844} {e} {e} {2} {0} {}
+E { 6846} {s} {s} {4} {0} {}
+E { 6847} {n} {n} {1} {0} {}
+
+R { 6846} {0} {} {The Office of Somar} { } {Your eyes are slow to adjust to the dimly lit room that you have entered. A large desk is centered in this room, covered with flowcharts, pseudocode, plans for world domination, and empty Coke cans. An Athlon-powered computer sits on the desk, intimidating you with its powerful presence. On either wall, you see a large black bookshelf, completely filled with assorted reading material.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6845} {n} {n} {1} {0} {}
+
+R { 6847} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6845} {s} {s} {4} {0} {}
+
+R { 6848} {0} {} {The Player Relations Floor} { } {Plain and tranquil, this hallway seems somewhat sanitary with its pure white walls and its not-too-ornate wooden posts. Doors line either side of the hallway, each leading to an office of a member of the player relations team.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6851} {w} {w} {8} {0} {}
+E { 6791} {push g} {push g} {0} {0} {}
+E { 6836} {push 1} {push 1} {0} {0} {}
+E { 6844} {push 2} {push 2} {0} {0} {}
+E { 6849} {push 4} {push 4} {0} {0} {}
+E { 6850} {push penthouse} {push penthouse} {0} {0} {}
+E { 6792} {push basement} {push basement} {0} {0} {}
+
+R { 6849} {0} {} {The Department Heads Floor} { } {Dark mahogany floors and woodwork contrast wonderfully with the large, hand-blown glass windows spaced evenly along this plush hallway. Images of lush rain forests and peaceful beach fronts have been framed in matching mahogany frames, words of encouragement noted at the bottom. Though, the poster of a cat hanging from a tree branch seems a bit out of place. On the poster a note of 'Just Hang in There' has been hastily written on it with.... oh, with Sharpie. Yup, '<3 Lamia' can be found at the very bottom of the picture. Good luck getting the tape off the wall.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6853} {w} {w} {8} {0} {}
+E { 6856} {e} {e} {2} {0} {}
+E { 6791} {push g} {push g} {0} {0} {}
+E { 6836} {push 1} {push 1} {0} {0} {}
+E { 6844} {push 2} {push 2} {0} {0} {}
+E { 6848} {push 3} {push 3} {0} {0} {}
+E { 6850} {push penthouse} {push penthouse} {0} {0} {}
+E { 6792} {push basement} {push basement} {0} {0} {}
+
+R { 6850} {0} {} {The Immortal Lounge} { } {A room totally encased in glass, from here you can see all points of Legend. Somehow the skies seem to shift and fold through the ages allowing you to see and hear everything that is going on everywhere. Around the edge are benches curiously upholstered with nothing but bean bag-like cushions. A large pile of Nerf toys are arranged in a pyramid in the center of the room, just in case anyone needs to be beaned with one during a heated argument.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6859} {n} {n} {1} {0} {}
+E { 6860} {s} {s} {4} {0} {}
+E { 6791} {push g} {push g} {0} {0} {}
+E { 6836} {push 1} {push 1} {0} {0} {}
+E { 6844} {push 2} {push 2} {0} {0} {}
+E { 6848} {push 3} {push 3} {0} {0} {}
+E { 6849} {push 4} {push 4} {0} {0} {}
+E { 6792} {push basement} {push basement} {0} {0} {}
+
+R { 6851} {0} {} {The Player Relations Wing} { } {Plain and tranquil, this hallway seems somewhat sanitary with its pure white walls and its not-too-ornate wooden posts. Doors line either side of the hallway, each leading to an office of a member of the player relations team.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6848} {e} {e} {2} {0} {}
+E { 6852} {s} {s} {4} {0} {}
+
+R { 6852} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6851} {n} {n} {1} {0} {}
+
+R { 6853} {0} {} {The Department Head's Hallway} { } {Dark mahogany floors and woodwork contrast wonderfully with the large, hand-blown glass windows spaced evenly along this plush hallway. Images of lush rain forests and peaceful beach fronts have been framed in matching mahogany frames, words of encouragement noted at the bottom. Though, the poster of a cat hanging from a tree branch seems a bit out of place. On the poster a note of 'Just Hang in There' has been hastily written on it with.... oh, with Sharpie. Yup, '<3 Lamia' can be found at the very bottom of the picture. Good luck getting the tape off the wall.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6849} {e} {e} {2} {0} {}
+E { 6854} {s} {s} {4} {0} {}
+E { 6855} {n} {n} {1} {0} {}
+
+R { 6854} {0} {} {Deep in the Jungle} { } {The heat is unbearable and you can feel insects stinging the back of your neck faster than you can swat them. No matter which way you turn, the scenery remains the same, and you can find no trace of the trail you came in on. You turn around and suddenly find yourself face to face with a menacing revolutionary carrying a torch. Silently, he puts a finger to his lips and motions for you to follow him down the ladder.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6853} {n} {n} {1} {0} {}
+
+R { 6855} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6853} {s} {s} {4} {0} {}
+
+R { 6856} {0} {} {The Department Head's Hallway} { } {Dark mahogany floors and woodwork contrast wonderfully with the large, hand-blown glass windows spaced evenly along this plush hallway. Images of lush rain forests and peaceful beach fronts have been framed in matching mahogany frames, words of encouragement noted at the bottom. Though, the poster of a cat hanging from a tree branch seems a bit out of place. On the poster a note of 'Just Hang in There' has been hastily written on it with.... oh, with Sharpie. Yup, '<3 Lamia' can be found at the very bottom of the picture. Good luck getting the tape off the wall.} {The Out of Character Lounge } {} {} {} {1.000}
+E { 6849} {w} {w} {8} {0} {}
+E { 6857} {n} {n} {1} {0} {}
+E { 6858} {s} {s} {4} {0} {}
+
+R { 6857} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6856} {s} {s} {4} {0} {}
+
+R { 6858} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6856} {n} {n} {1} {0} {}
+
+R { 6859} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6850} {s} {s} {4} {0} {}
+
+R { 6860} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6850} {n} {n} {1} {0} {}
