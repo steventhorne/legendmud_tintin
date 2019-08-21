@@ -1,3 +1,12 @@
+# Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Aliases](#aliases)
+        - [Map Aliases](#map-aliases)
+        - [Other Aliases](#other-aliases)
+    - [Map](#map)
+
 # Overview
 
 This package comes with a few things:
