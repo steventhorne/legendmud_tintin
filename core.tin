@@ -1,24 +1,3 @@
-#CONFIG           {256 COLORS}  {ON}
-#CONFIG           {AUTO TAB}  {5000}
-#CONFIG           {BUFFER SIZE}  {20000}
-#CONFIG           {CHARSET}  {ASCII}
-#CONFIG           {COLOR PATCH}  {OFF}
-#CONFIG           {COMMAND COLOR}  {<078>}
-#CONFIG           {COMMAND ECHO}  {OFF}
-#CONFIG           {CONNECT RETRY}  {0}
-#CONFIG           {CONVERT META}  {OFF}
-#CONFIG           {HISTORY SIZE}  {1000}
-#CONFIG           {LOG}  {RAW}
-#CONFIG           {PACKET PATCH}  {0.00}
-#CONFIG           {REPEAT CHAR}  {!}
-#CONFIG           {REPEAT ENTER}  {ON}
-#CONFIG           {SCROLL LOCK}  {ON}
-#CONFIG           {SPEEDWALK}  {ON}
-#CONFIG           {TINTIN CHAR}  {#}
-#CONFIG           {VERBATIM}  {OFF}
-#CONFIG           {VERBATIM CHAR}  {\}
-#CONFIG           {VERBOSE}  {OFF}
-#CONFIG           {WORDWRAP}  {ON}
 #EVENT {DAY}
 {
 	#FORMAT date %t %F;
@@ -34,6 +13,7 @@
 
 #EVENT {PROGRAM START}
 {
+    #READ config;
 	#SESSION legendmud mud.legendmud.org 9999;
 }
 
@@ -41,7 +21,6 @@
 {
 	#REGEX {%0} {^legendmud$}
     {
-        #READ config;
         #IF {&{login_name}}
         {
             #SEND $login_name;
