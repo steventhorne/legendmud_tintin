@@ -1,0 +1,36 @@
+#VAR spells[areasight] {vid bhu};
+#VAR spells[brainpower] {vid kala dyn};
+#VAR spells[bp] {vid kala dyn};
+#VAR spells[min] {vid kala dyn};
+#VAR spells[census] {vid gam jiv};
+#VAR spells[dh] {vid gam};
+#VAR spells[epiphany] {vid lak dyn};
+#VAR spells[epi] {vid lak dyn};
+#VAR spells[spi] {vid lak dyn};
+#VAR spells[forage] {vid drva lak};
+#VAR spells[idobj] {vid mahi};
+#VAR spells[idper] {vid dyn};
+#VAR spells[idmob] {vid dyn};
+#VAR spells[infra] {vid lak};
+#VAR spells[infravision] {vid lak};
+#VAR spells[judge] {vid drva};
+#VAR spells[limn] {vid gam vant};
+#VAR spells[locate] {vid gam bhu};
+#VAR spells[magicsink] {vid pur vant};
+#VAR spells[sink] {vid pur vant};
+#VAR spells[phase] {vid vayu mahi};
+#VAR spells[protfire] {vid pur agni};
+#VAR spells[protvfire] {vid pur agni};
+#VAR spells[fireprot] {vid pur agni};
+#VAR spells[sustained] {vid pur udan};
+#VAR spells[sustain] {vid pur udan};
+#VAR spells[timesight] {vid kala mahi};
+
+#FOREACH {*spells[%*]} {spell}
+{
+    #LINE sub {var}
+    {
+        #ALIAS {$spell} {chant $spells[$spell] ex};
+    }
+};
+
