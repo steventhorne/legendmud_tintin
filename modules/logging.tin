@@ -1,0 +1,10 @@
+#FORMAT date %t %F;
+#LOG APPEND {logs/log_$date\.txt};
+#UNVARIABLE date;
+
+#EVENT {DAY}
+{
+    #FORMAT date %t %F;
+    #LOG APPEND {logs/log_$date\.txt};
+    #UNVARIABLE date;
+}

@@ -1,0 +1,19 @@
+#MACRO {\eOP}
+{
+	#HELP
+}
+
+#MACRO {\eOQ}
+{
+	#SEND who
+}
+
+#MACRO {\eOR}
+{
+	#SEND group
+}
+
+#MACRO {\eOS}
+{
+	#SEND stat
+}

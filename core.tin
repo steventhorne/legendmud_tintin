@@ -1,66 +1,65 @@
-#EVENT {DAY}
+#ALIAS {load_user_config}
 {
-	#FORMAT date %t %F;
-	#LOG APPEND {logs/log_$date\.txt};
-    #UNVARIABLE date;
+    #SYSTEM touch user.config;
+    #LINE {quiet} {#READ user.config};
+
+    #CLASS default_config read defaults.config;
+
+    #CLASS config open;
+    #FOREACH {*defaults[%*]} {default}
+    {
+        #IF {&{$default}} {}
+        {
+            #LINE sub {var}
+            {
+                #VAR {$default} {$defaults[$default]};
+            }
+        }
+    }
+    #UNVAR default;
+    #CLASS config write user.config;
+    #CLASS config close;
+
+    #LIST modules create $modules;
+
+    #CLASS default_config kill;
 }
 
-#EVENT {MAP ENTER ROOM}
+#FUNCTION {has_module}
 {
-    #READ map/map_size.tin;
-	#MAP map ${MAP_ROWS}x${MAP_LINES} map/map.txt;
+    #LIST modules find %1 list_check;
+    #LOCAL check $list_check;
+    #UNVAR list_check;
+    #RETURN $check;
 }
 
 #EVENT {PROGRAM START}
 {
-    #READ config;
-	#SESSION legendmud mud.legendmud.org 9999;
+    #LINE quiet {#READ sys.config};
+    load_user_config;
+    #SESSION legendmud mud.legendmud.org 9999;
 }
 
 #EVENT {SESSION CONNECTED}
 {
 	#REGEX {%0} {^legendmud$}
     {
-        #IF {&{login_name}}
+        #IF {"$autologin" == "true"}
         {
             #SEND $login_name;
             #SEND $login_password;
-            #UNVARIABLE login_password;
-            #UNVARIABLE login_name;
         };
 
-        #MAP read map/legendmud.map;
-        #MAP return;
+        #UNVAR autologin;
+        #UNVAR login_name;
+        #UNVAR login_password;
 
-        #FORMAT date %t %F;
-        #LOG APPEND {logs/log_$date\.txt};
-        #UNVARIABLE date;
-        
-        #READ prompt.tin;
-        #READ combat.tin;
-        #READ map/action.tin;
-        #READ map/alias.tin;
+        #FOREACH {$modules[%*]} {module}
+        {
+            #READ modules/$module.tin;
+        };
+        #UNVAR module;
     };
-}
-
-#MACRO {\eOP}
-{
-	#HELP
-}
-
-#MACRO {\eOQ}
-{
-	#SEND who
-}
-
-#MACRO {\eOR}
-{
-	#SEND group
-}
-
-#MACRO {\eOS}
-{
-	#SEND stat
 }
 
 #PATHDIR          {d}  {u}  {32}
@@ -88,20 +87,6 @@
 }
 {5}
 
-#ACTION {~{^(?:\e\[[\d\;]{4,6}m)*[<\[]\e\[[\d\;]{4,6}m(?!Exits)(\w+)(?:(?:\e\[[\d\;]{4,6}m)?\:(?:\e\[[\d\;]{4,6}m)?([^>\]]+))?(?:\e\[[\d\;]{4,6}m)?[>\]].*$}}
-{
-	#FORMAT curtime {%t} {%T};
-	#LINE log chat.txt {$curtime %1}
-}
-{5}
-
-#ACTION {~{\e\[0;33m.*? tell[s]? the group, '.*?$}}
-{
-	#FORMAT curtime {%t} {%T};
-	#LINE log chat.txt {$curtime %1}
-}
-{5}
-
 #ALIAS {loadclass %1}
 {
     #SHOWME Attempting to load classes/%1.tin;
@@ -115,4 +100,3 @@
 
 #VARIABLE         {MAP_LINES}  {22}
 #VARIABLE         {MAP_ROWS}  {81}
-#VARIABLE         {oocvnum}  {1}

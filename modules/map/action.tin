@@ -158,7 +158,13 @@
 
 #ACTION {{^You return to being In Character.$}}
 {
-	#MAP goto $oocvnum;
+    #IF {&{oocvnum}}
+    {
+        #MAP goto $oocvnum;
+    }
+    {
+        find;
+    }
 }
 {5}
 

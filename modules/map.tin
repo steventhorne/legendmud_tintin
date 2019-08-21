@@ -1,0 +1,10 @@
+#MAP read modules/map/legendmud.map;
+#MAP return;
+#READ modules/map/action.tin;
+#READ modules/map/alias.tin;
+
+#EVENT {MAP ENTER ROOM}
+{
+    #READ modules/map/map_size.tin;
+    #MAP map ${MAP_ROWS}x${MAP_LINES} modules/map/map.txt;
+}
