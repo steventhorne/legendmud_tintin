@@ -24,7 +24,7 @@
         #VAR count -1;
         #FOREACH {$room_check[%*]} {line}
         {
-            #REGEX {$line} {{(You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.)}}
+            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.)}}
             {
                 #VAR break true;
             }
