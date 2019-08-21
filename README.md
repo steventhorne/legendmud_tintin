@@ -72,17 +72,20 @@ Next time you run Tintin++, the module will be enabled.
 
 ## Macros Module
 > Identifier: macros | Default: enabled
+
 The macros modules includes a few macros to make playing LegendMUD a little easier.
 
 Feel free to disable this and create your own custom macros module.
 
 ## Logging Module
 > Identifier: logging | Default: enabled
+
 The logging module will log the text of the game to log files in the `logs` folder.
 Each day a new log file will be created with that date as the filename.
 
 ## Combat Module
 > Identifier: combat | Default: enabled
+
 The combat module has some general purpose aliases and actions for use in combat. More specific aliases and actions may be found in classes.
 
 ### Combat Aliases
@@ -92,6 +95,7 @@ The combat module has some general purpose aliases and actions for use in combat
 
 ## Map Module
 > Identifier: map | Default: enabled
+
 The map module includes a pre-built map, automatic following, and mapping tools for the MUD.
 
 Display the map with one of the following methods:
@@ -114,6 +118,7 @@ Display the map with one of the following methods:
 
 ## Prompt Module
 > Identifier: prompt | Default: disabled
+
 The prompt module will capture the prompt and keep a single copy at the bottom of the screen.
 This module will not work out of the box. You have two options:
 - Update the `prompt.tin` module to work with your prompt
@@ -124,6 +129,7 @@ If you want to acquire my prompt, enter the game and type `prompt acquire Svartu
 
 ## Chat Module
 > Identifier: chat | Default: disabled
+
 The chat module will capture all channel and tells and log them to a chat.txt file which can be displayed in a separate terminal or used for other purposes.
 
 This module will not work out of the box. If you would like to use this module, update the `chat.tin` module to work with your channel messages.
