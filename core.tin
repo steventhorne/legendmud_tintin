@@ -98,5 +98,21 @@
     #LINE verbose #CLASS {%1} kill;
 }
 
+#ALIAS {jtform %1}
+{
+    #REGEX {%1} {{(?:\d+\.)?(.*)}}
+    {
+        #SEND remove %1;
+        #VAR tform_kw &2;
+        #SEND give $tform_kw old;
+        #ACTION {{^A mysterious shugenja gives .*? to you.$}}
+        {
+            #SEND wear $tform_kw;
+            #UNVAR tform_kw;
+            #UNACTION {{^A mysterious shugenja gives .*? to you.$}};
+        }
+    };
+}
+
 #VARIABLE         {MAP_LINES}  {22}
 #VARIABLE         {MAP_ROWS}  {81}
