@@ -1,15 +1,25 @@
 #!/usr/bin/env bash
 
+unhide_cursor() {
+    printf '\e[?25h'
+}
+trap unhide_cursor EXIT
+
 MAP_FILE='map.txt'
 MAP_SIZE='map_size.tin'
-REFRESH_RATE=.25
+REFRESH_RATE=.2
 
+#watch -c -t -n 0.2 cat $MAP_FILE
+
+printf '\e[?25l'
+clear
 while [ "true"  ]; do
     COLS=$(expr $(expr $(tput cols) - 1) '/' 3 '*' 3 + 1)
     ROWS=$(expr $(expr $(tput lines) - 1) '/' 3 '*' 3 + 1)
     echo \#VAR MAP_ROWS $COLS\; > $MAP_SIZE
     echo \#VAR MAP_LINES $ROWS\; >> $MAP_SIZE
-    clear
-    cat $MAP_FILE
+    printf '\033[;H'
+    output=$(cat $MAP_FILE)
+    printf '%s' "$output"
     sleep $REFRESH_RATE
 done
