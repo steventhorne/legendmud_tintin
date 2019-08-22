@@ -4,6 +4,17 @@
 {
     #FORMAT screen_width {%C};
     #FORMAT prompt1 {%-${screen_width}s} {<099>%2  %3  %4};
+
+    #LINE strip #VARIABLE character %2;
+
+    #IF {@has_module{map}}
+    {
+        #LINE strip #VARIABLE room_area %4;
+        #IF {"$editmap" == "true"}
+        {
+            #MAP set {roomarea} {$room_area};
+        };
+    };
 }
 {2}
 #PROMPT {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}
@@ -35,16 +46,3 @@
     ${prompt3}
 }
 {3}
-
-#ACTION {{^([\w\-\']+)\s([\d\.]+\/[\d\.]+)\s([\w\'\.\/\,\-\s]+)$}}
-{
-	#VARIABLE character %2;
-    #VARIABLE room_area %4;
-	#IF {"$editmap" == "true"}
-	{
-		#MAP set {roomarea} {%4};
-	};
-}
-{5}
-
-
