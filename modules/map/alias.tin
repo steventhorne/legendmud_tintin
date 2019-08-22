@@ -24,7 +24,7 @@
     {
         #MAP flag static on;
     };
-	#LINE verbose #MAP write map/legendmud.map;
+	#LINE verbose #MAP write modules/map/legendmud.map;
     #IF {"$editmap" == "true"}
     {
         #MAP flag static off;
@@ -81,3 +81,12 @@
     #MAP exit %1 command {open %1;%1};
 }
 {5}
+
+#ALIAS {sac bunny}
+{
+    #SEND enq sac bunny;
+    #SEND pause 1s;
+    #SEND sit circle;
+    #SEND enq ponder self;
+    #SEND st;
+}

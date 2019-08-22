@@ -10,9 +10,9 @@ F 11
 
 G 0
 
-I 581
+I 1136
 
-L {x} {o} {o} {\} {o} {|} {/} {]} {o} {/} {} {^} {\} {[} {v} {} {x} {?} {|} {} {\} {/} {\} {/} {x} {x} {x} {x} {x} {x} {x} {x} {⣏} {⣇} {⣎} {⣆} {⣉} {⣁} {⣈} {⣀} {⢏} {⢇} {⢎} {⢆} {⢉} {⢁} {⢈} {⢀} {⡏} {⡇} {⡎} {⡆} {⡉} {⡁} {⡈} {⢀} {⠏} {⠇} {⠎} {⠆} {⠉} {⠁} {⠈} {⠀} {⣹} {⣸} {⣱} {⣰} {⣉} {⣈} {⣂} {⣀} {⡹} {⡸} {⡱} {⡰} {⡉} {⡈} {⡂} {⡀} {⢹} {⢸} {⢱} {⢰} {⢉} {⢈} {⢂} {⢀} {⠹} {⠸} {⠱} {⠰} {⠉} {⠈} {⠂} {⠀} {⠰} {⠸} {⠱} {⠹} {⠶} {⠾} {⠷} {⠿} {⡰} {⡸} {⡱} {⡹} {⡶} {⡾} {⡷} {⡿} {⢰} {⢸} {⢱} {⢹} {⢶} {⢾} {⢷} {⢿} {⣰} {⣸} {⣱} {⣹} {⣶} {⣾} {⣷} {⣿}
+L {x} {o} {o} {} {o} {|} {/} {]} {o} {/} {} {^} {} {[} {v} {} {x} {?} {|} {} {} {/} {} {/} {x} {x} {x} {x} {x} {x} {x} {x} {⣏} {⣇} {⣎} {⣆} {⣉} {⣁} {⣈} {⣀} {⢏} {⢇} {⢎} {⢆} {⢉} {⢁} {⢈} {⢀} {⡏} {⡇} {⡎} {⡆} {⡉} {⡁} {⡈} {⢀} {⠏} {⠇} {⠎} {⠆} {⠉} {⠁} {⠈} {⠀} {⣹} {⣸} {⣱} {⣰} {⣉} {⣈} {⣂} {⣀} {⡹} {⡸} {⡱} {⡰} {⡉} {⡈} {⡂} {⡀} {⢹} {⢸} {⢱} {⢰} {⢉} {⢈} {⢂} {⢀} {⠹} {⠸} {⠱} {⠰} {⠉} {⠈} {⠂} {⠀} {⠰} {⠸} {⠱} {⠹} {⠶} {⠾} {⠷} {⠿} {⡰} {⡸} {⡱} {⡹} {⡶} {⡾} {⡷} {⡿} {⢰} {⢸} {⢱} {⢹} {⢶} {⢾} {⢷} {⢿} {⣰} {⣸} {⣱} {⣹} {⣶} {⣾} {⣷} {⣿}
 
 
 R {    1} {0} {<029>} {The Jolly Beggar} {I} {The interior of this inn does not bode well for the quality of your night's sleep. The walls are covered with old faded nautical charts in an attempt to provide an atmosphere congenial to the people likely to stop by, but all you can see as you turn your head from wall to wall to wall is 'here there be dragons' over and over again. There seems to be a small kitchen, and plenty of rooms available. A small table flanked by a couple of chairs sits to one side of the room and a couch sits against the opposite wall.} {London Port } {jb} {} {} {1.000}
@@ -209,20 +209,20 @@ E {   47} {s} {s} {4} {0} {} {1.000}
 
 R {   47} {0} {} {In the Bay} { } {The dilapidated buildings on one end of the Port of London stain the horizon. You can see multiple berths ahead, marked clearly as to what vessels should dock there. Ships arriving from the Americas are supposed to steer west, and vessels on the Africa run should go straight north. To the south lies the open sea, and to the east the other side of the Bay.} {London Port } {} {} {} {1.000}
 E {   46} {n} {n} {1} {0} {} {1.000}
-E {   48} {s} {s} {4} {0} {} {1.000}
-E {  104} {w} {w} {8} {0} {} {1.000}
+E {   48} {s} {s} {4} {1} {} {1.000}
+E {  104} {w} {w} {8} {1} {} {1.000}
 E {  129} {e} {e} {2} {0} {} {1.000}
 
 R {   48} {0} {} {Off the English Channel} { } {The cold Atlantic water is a deeper color of gray than that of the channel, which lies to the east. The water's surface tends to roll here, unlike the choppy waves of the channel. Looking to the west, nothing appears but the sky above the horizon and the deep ocean below.} {1930's Pittsburgh } {} {} {} {1.000}
-E {   47} {n} {n} {1} {0} {} {1.000}
-E {  123} {e} {e} {2} {0} {} {1.000}
-E {   50} {s} {s} {4} {0} {} {1.000}
-E {  107} {w} {w} {8} {0} {} {1.000}
+E {   47} {n} {n} {1} {1} {} {1.000}
+E {   49} {e} {e} {2} {1} {} {1.000}
+E {   50} {s} {s} {4} {1} {} {1.000}
+E {  105} {w} {w} {8} {0} {} {1.000}
 
 R {   49} {0} {} {In the English Channel} { } {The slate-grey waters of the English Channel surround you, choppy waves beating at the hull of your vessel. North of you lies Mother England, in the throes of the new science and engineering breakthroughs that create factories and steamships. You fancy you can see black smokestacks from here. Off to the east is France, but that is barely a smudge on the horizon. The really interesting part of the seas lies south: Africa, the passage around The Cape of Good Hope, the East Indies--and China!} {Tea Route } {} {} {} {1.000}
-E {  126} {w} {w} {8} {0} {} {1.000}
+E {   48} {w} {w} {8} {1} {} {1.000}
 E {   50} {s} {s} {4} {0} {} {1.000}
-E {   63} {n} {n} {1} {0} {} {1.000}
+E {   63} {n} {n} {1} {1} {} {1.000}
 E { 3018} {e} {e} {2} {0} {} {1.000}
 
 R {   50} {0} {} {Along the Coast of France} { } {Brittany lies somewhere off to the east, but it doesn't concern you now. Instead, you are exhilarated by the fresh salt spray, the strong sea breeze, the vigorous waves that rise and fall and rise and fall beneath you, an eternal swell, the lifeblood of the planet.} {Tea Route } {} {} {} {1.000}
@@ -281,9 +281,9 @@ E {   51} {e} {e} {2} {0} {} {1.000}
 E {   50} {w} {w} {8} {0} {} {1.000}
 
 R {   63} {0} {} {North of the English Channel} { } {The water below you appears cold and choppy, and generally unpleasant. Some cold sea-spray splashes, leaving the taste of salt in your mouth. To the west you can make out the Port of London, and you can almost see the coast of the Netherlands to the east. North of you is, appropriately, the North Sea.} {Russian Revolution of 1917 } {} {} {} {1.000}
-E {   49} {s} {s} {4} {0} {} {1.000}
-E {  124} {w} {w} {8} {0} {} {1.000}
-E {  132} {n} {n} {1} {0} {} {1.000}
+E {   49} {s} {s} {4} {1} {} {1.000}
+E {  124} {w} {w} {8} {1} {} {1.000}
+E {  130} {n} {n} {1} {0} {} {1.000}
 
 R {   64} {0} {} {The Northern Coast of Spain} { } {Southeast of you are the arid brown and green slopes of northern Spain, and beyond them the rising peaks of the Pyrenees. There blows a warm breeze here off the plains of Spain, but a strong cold current brings cold air from the open ocean.} {Tea Route } {} {} {} {1.000}
 E {   50} {n} {n} {1} {0} {} {1.000}
@@ -414,7 +414,7 @@ R {   95} {0} {} {Tacking off the Coast of Africa} { } {The bulge of western Afr
 E {   94} {n} {n} {1} {0} {} {1.000}
 E {   96} {w} {w} {8} {0} {} {1.000}
 
-R {   96} {0} {} {Amidst the Canary Islands} { } {These islands are a major stopping point on the tea trade shipping lanes. They look like paradise to you, who have been at sea for so long. They are a customary last port before attempting to cross the Atlantic to the Americas, a voyage fraught with danger. They are also a good signpost to indicate you are halfway along the long roundabout path around the western bulge of Africa. You can land at one tiny island north of you.} {Tea Route } {} {} {} {1.000}
+R {   96} {0} {} {Amidst the Canary Islands} { } {These islands are a major stopping point on the tea trade shipping lanes. They look like paradise to you, who have been at sea for so long. They are a customary last port before attempting to cross the Atlantic to the Americas, a voyage fraught with danger. They are also a good signpost to indicate you are halfway along the long roundabout path around the western bulge of Africa. You can land at one tiny island north of you.} {Tea Route} {} {} {} {1.000}
 E {   95} {e} {e} {2} {0} {} {1.000}
 E {   97} {w} {w} {8} {0} {} {1.000}
 E {  133} {n} {n} {1} {0} {} {1.000}
@@ -450,19 +450,15 @@ E {  441} {atoll} {get map bag;open hole;st;put map bag} {0} {0} {} {1.000}
 
 R {  104} {0} {} {Berth 1: The Americas Wharf} { } {Water laps at your ship here at the wharf. The Port of London at this end looks like a rather unappetizing place--you see people moving furtively along the streets, docks full of ships hidden by mist and clammy fog, and abandoned warehouses lining the narrow streets. North of you is the dock itself, and beyond it the offices of the harbormaster, who is no doubt already announcing the arrival or departure of yet another vessel.} {London Port } {} {} {} {1.000}
 E {   44} {n} {n} {1} {0} {} {1.000}
-E {   47} {s} {s} {4} {0} {} {1.000}
+E {   47} {s} {s} {4} {1} {} {1.000}
 
 R {  105} {0} {} {Into the Atlantic} { } {The wind smells of salt and the spray of the water stings your face as the ship cuts through the rolling sea. Looking off in all directions, you see nothing but water meeting the gray horizon. Adventure and excitement lie to the west, land of the Americas. Although unseen, England and the infamous channel are off to the east.} {1930's Pittsburgh } {} {} {} {1.000}
-E {  107} {e} {e} {2} {0} {} {1.000}
+E {   48} {e} {e} {2} {0} {} {1.000}
 E {  106} {w} {w} {8} {0} {} {1.000}
 
 R {  106} {0} {} {Deep Ocean} { } {The grayness of the sky is reflected in the water, with nothing to break the monotony of color surrounding you. The wind still blows from the west and the ship makes slow headway into it. The constant motion of the ship is no longer foreign to your body, though still you find it difficult to stay below in the hold for any stretch of time.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  105} {e} {e} {2} {0} {} {1.000}
 E {  108} {n} {n} {1} {0} {} {1.000}
-
-R {  107} {10} {} {} { } {} {} {} {} {} {1.000}
-E {  105} {w} {w} {8} {0} {} {1.000}
-E {   48} {e} {e} {2} {0} {} {1.000}
 
 R {  108} {0} {} {Deep Ocean} { } {Your ship continues on its solitary journey, no other signs of life to be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon is echoed in the ship itself, you begin to ponder whether it might be best to just turn back.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  106} {s} {s} {4} {0} {} {1.000}
@@ -526,12 +522,8 @@ E { 4224} {s} {open s;s} {4} {0} {} {1.000}
 R {  122} {0} {<139>} {First National Bank} {B} {The hard wood floor disappears behind the counter a few feet from the far wall. Bars made of iron reach from the countertop to the ceiling, leaving a small window of sorts for the teller behind it. A sign stands in the doorway, giving the latest currency exchange rate for new travellers to the city.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  121} {s} {s} {4} {0} {} {1.000}
 
-R {  123} {8} {} {} { } {} {} {} {} {} {1.000}
-E {   48} {w} {w} {8} {0} {} {1.000}
-E {  126} {e} {e} {2} {0} {} {1.000}
-
 R {  124} {0} {} {Berth 4: Open Wharf} { } {No ships customarily tie up here, so you feel safe in assuming that anyone may leave their vessel here. Of course, it may not be here when you get back. London Port looks from here like a town of cutthroats and low-born Cockneys, all ready to take a farthing and spit on your grave. North of you is the tail end of the docks.} {London Port } {} {} {} {1.000}
-E {   63} {e} {e} {2} {0} {} {1.000}
+E {   63} {e} {e} {2} {1} {} {1.000}
 E {  127} {n} {n} {1} {0} {} {1.000}
 E {  129} {w} {w} {8} {0} {} {1.000}
 
@@ -539,10 +531,6 @@ R {  125} {0} {} {On the Docks} { } {Here the docks end, an empty berth attestin
 E {  127} {s} {s} {4} {0} {} {1.000}
 E {   42} {w} {w} {8} {0} {} {1.000}
 E { 5651} {e} {e} {2} {1} {} {1.000}
-
-R {  126} {8} {} {} { } {} {} {} {} {} {1.000}
-E {  123} {w} {w} {8} {0} {} {1.000}
-E {   49} {e} {e} {2} {0} {} {1.000}
 
 R {  127} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  125} {n} {n} {1} {0} {} {1.000}
@@ -558,227 +546,215 @@ E {   47} {w} {w} {8} {0} {} {1.000}
 E {  124} {e} {e} {2} {0} {} {1.000}
 
 R {  130} {0} {} {The North Sea} { } {Your ship plows through the cold waters, and icy spray chills you to the bone. Much further to the north, and you'd be in icebergs. As it is, the water has darkened below you so that it appears almost inky-black. Your clothing is starting to grow heavy with the water it's absorbed from the repeated splashes.} {Russian Revolution of 1917 } {} {} {} {1.000}
-E {  132} {s} {s} {4} {0} {} {1.000}
+E {   63} {s} {s} {4} {0} {} {1.000}
 E {  131} {e} {e} {2} {0} {} {1.000}
 
 R {  131} {0} {} {Off the Coast of Denmark} { } {The coast of Denmark looms to the south, and you are surrounded by the Baltic and North Seas. Your journey seems to be slowed by the chill in the air and water, as if the ice were running in your veins and slowing everything down. The waters themselves are crowded with fishing trawlers, despite the fact that you're a ways from civilization at this point.} {Russian Revolution of 1917 } {} {} {} {1.000}
 E {  130} {w} {w} {8} {0} {} {1.000}
 E { 5385} {e} {e} {2} {0} {} {1.000}
 
-R {  132} {10} {} {} { } {} {} {} {} {} {1.000}
-E {  130} {n} {n} {1} {0} {} {1.000}
-E {   63} {s} {s} {4} {0} {} {1.000}
-
 R {  133} {0} {} {On a Canary Isle} { } {A golden beach greets your eyes, here on this deserted islet. The lush tropical greenery encroaches closely upon the strip of sand you stand on... Flowers and birds, colorful signs of the tropics, are everywhere. You can set sail again to the south.} {Tea Route } {} {} {} {1.000}
 E {   96} {s} {s} {4} {0} {} {1.000}
 
-R {  134} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  134} {0} {} {Off the Coast of Africa} { } {The jungle meets the desert on the coast you can just barely see through a spyglass. This part of the Dark Continent is fertile grounds for the slave trade, and boasts a thriving economy based on trafficking in flesh. It is not a safe place to visit, however, as the traffickers are rough, ignoble men and aren't too particular about whose flesh they traffic in, nor about its condition.} {Tea Route} {} {} {} {1.000}
 E {   96} {n} {n} {1} {0} {} {1.000}
 E {  135} {s} {s} {4} {0} {} {1.000}
 
-R {  135} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  135} {0} {} {Off the Coast of Africa} { } {Far to the east you see a faint line of darker smudge which you take to be the coast of Africa, and not a storm rising. You hope. The currents are strong here, and southwards they carry ships out to sea. To the north the seas are more favorable and bring you closer to land.} {Tea Route} {} {} {} {1.000}
 E {  134} {n} {n} {1} {0} {} {1.000}
 E {  136} {s} {s} {4} {0} {} {1.000}
 
-R {  136} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  136} {0} {} {In the Atlantic} { } {Strong currents push the vessel south, but you think you're not totally at their mercy. The coast of Africa has faded from sight far to the east, but you feel sure you can find it again. After all, it IS a very large continent, right? The shipping lanes lead west straight to it, and only rarely does one hear of a lost ship, its crew and passengers kidnapped and sold as slaves, or eaten by cannibals, or lost to the infamous sea serpents that lurk in the deeps, or sunk in a freak storm or swallowed by a maelstrom or... You try to think about sailing. And getting where you're going.} {Tea Route} {} {} {} {1.000}
 E {  135} {n} {n} {1} {0} {} {1.000}
 E {  137} {e} {e} {2} {0} {} {1.000}
 
-R {  137} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  137} {0} {} {Off the Coast of Africa} { } {To the north and east of you lies the enormity that is Africa. This is what is called the Ivory Coast, where traders come to collect the elephant tusks that fetch such high prices on the open market. South along the coast are countless small colonies of supposedly more civilized Europeans.} {Tea Route} {} {} {} {1.000}
 E {  136} {w} {w} {8} {0} {} {1.000}
 E {  138} {s} {s} {4} {0} {} {1.000}
 
-R {  138} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  138} {0} {} {Off the Coast of Africa} { } {The mighty Congo river meets the ocean a few leagues to your eastern side. The Belgians have colonized this part of Africa, and seem to be doing a bang-up job of it too. This part of the continent is rich in resources and ripe for colonies.} {Tea Route} {} {} {} {1.000}
 E {  137} {n} {n} {1} {0} {} {1.000}
 E {  139} {s} {s} {4} {0} {} {1.000}
 
-R {  139} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  139} {0} {} {Off the Coast of Africa} { } {There is a strong current pulling out to sea here, but you feel confident that a steady hand on the tiller will keep you on course. The land you can barely see to the east of you is by reputation full of broad plains, fertile farmland, and precious gemstones. Perhaps someday you will visit there--but for today, your path lies on the open seas.} {Tea Route} {} {} {} {1.000}
 E {  138} {n} {n} {1} {0} {} {1.000}
 E {  140} {s} {s} {4} {0} {} {1.000}
 
-R {  140} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  140} {0} {} {Rounding the Cape of Good Hope} { } {The dark and angry waters around you toss and storm, and your feet trip over themselves as you cross the deck. The Cape of Good Hope on the southern tip of Africa has a well-deserved reputation for being one of the stormiest stretches of sea in the world. You are currently so far out to sea you can't even see land despite the clouds and driving rain, but you hope to soon remedy that situation.} {Tea Route} {} {} {} {1.000}
 E {  139} {n} {n} {1} {0} {} {1.000}
 E {  141} {e} {e} {2} {0} {} {1.000}
 
-R {  141} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  141} {0} {} {Off the Cape of Good Hope} { } {This cape is certainly misnamed. Nothing about the raging seas around you gives you hope. North of you somewhere is a small settlement probably more likely the survivors of a shipwreck, but you certainly can't find it; you have enough trouble just keeping the sails trimmed in the fierce winds.} {Tea Route} {} {} {} {1.000}
 E {  140} {w} {w} {8} {0} {} {1.000}
 E {  142} {e} {e} {2} {0} {} {1.000}
 
-R {  142} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  142} {0} {} {Off the Coast of Africa} { } {The terrible passage past the Cape of Good Hope lies directly west of you, and from what you can see from here, you really wonder at the bravery of the captains of the ships that regularly make the trip through the dangerous waters on the southern tip of Africa.} {Tea Route} {} {} {} {1.000}
 E {  141} {w} {w} {8} {0} {} {1.000}
 E {  143} {e} {e} {2} {0} {} {1.000}
 
-R {  143} {0} {} {In the Indian Ocean} { } {Balmy waters are all around you, and you feel quite sure that the fins you've seen cutting through the waters belong to quite sizable sharks. You can just barely see the coast of Africa off to the west from here, if you use a spyglass and the weather is clear.} {Tea Route } {} {} {} {1.000}
+R {  143} {0} {} {In the Indian Ocean} { } {Balmy waters are all around you, and you feel quite sure that the fins you've seen cutting through the waters belong to quite sizable sharks. You can just barely see the coast of Africa off to the west from here, if you use a spyglass and the weather is clear.} {Tea Route} {} {} {} {1.000}
 E {  142} {w} {w} {8} {0} {} {1.000}
 E { 5819} {n} {n} {1} {0} {} {1.000}
 E { 5812} {e} {e} {2} {0} {} {1.000}
 
-R {  144} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  144} {0} {} {Off the Coast of Madagascar} { } {The island of bizarre lemurs and other strange animals is a few leagues to the west, as you carefully make your way past coral reefs. The vast Indian Ocean stretches out to the east--crossing it at this point would be to invite disaster.} {Tea Route} {} {} {} {1.000}
 E { 5815} {s} {s} {4} {0} {} {1.000}
 E { 5816} {n} {n} {1} {0} {} {1.000}
 
-R {  145} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  145} {0} {} {Off the Seychelles} { } {The Seychelles, little flyspecks of land lost in the middle of the vast Indian Ocean, serve as a signpost. They tell sailors that this is the ideal jumping- off point to attempt to cross to India. As a landmark they hint that Africa is quite near to the west, and that a safe haven and fresh water perhaps may be found there.} {Tea Route} {} {} {} {1.000}
 E { 5816} {s} {s} {4} {0} {} {1.000}
-E {  147} {w} {w} {8} {0} {} {1.000}
+E {  146} {w} {w} {8} {1} {} {1.000}
 E {  169} {e} {e} {2} {0} {} {1.000}
 
-R {  146} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  147} {e} {e} {2} {0} {} {1.000}
+R {  146} {0} {} {On the Indian Ocean} { } {The boundless waters of the Indian Ocean encircle you. The slow, steady rhythm of the waves and a warm, tropical breeze both help to lull you into a semiconscious stupor. Above you, carefree gulls swoop and dive, calling out to one another with their distinctive cries. Far to the west, the African shoreline is a dark smudge on the horizon.} {African Savanna} {} {} {} {1.000}
+E {  145} {e} {e} {2} {1} {} {1.000}
 E {  148} {w} {w} {8} {0} {} {1.000}
 
-R {  147} {10} {} {} { } {} {} {} {} {} {1.000}
-E {  146} {w} {w} {8} {0} {} {1.000}
-E {  145} {e} {e} {2} {0} {} {1.000}
-
-R {  148} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  148} {0} {} {South of Zanzibar} { } {To the north of you, Zanzibar, the Island of Spice, rises out of the sea. Its world-renowned green hills and fields of millet and cloves are made cloudy by the mist. Other ships, mainly trading vessels, vie for right of way with you on the dark waves. To the west, you can make out the distant shores of Africa.} {African Savanna} {} {} {} {1.000}
 E {  146} {e} {e} {2} {0} {} {1.000}
 E {  149} {n} {n} {1} {0} {} {1.000}
 
-R {  149} {0} {} {africa} { } {} {} {africa} {} {} {1.000}
+R {  149} {0} {} {On the Indian Ocean} { } {Drifting along the ocean, you contemplate the serenity of the calm waves and cloud-free skies. You are near land now, with the bustling harbor of Zanzibar to the east, and the beaches of Africa to the west.} {African Savanna} {africa} {} {} {1.000}
 E {  148} {s} {s} {4} {0} {} {1.000}
 E {  854} {w} {w} {8} {0} {} {1.000}
 E {  155} {e} {e} {2} {0} {} {1.000}
 E {  163} {n} {n} {1} {0} {} {1.000}
 
-R {  150} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  150} {0} {} {A Rocky Beach} { } {The surf pounds constantly against the craggy rocks that jut from the earth in various formations. The spray of water on your face is refreshing and stimulating. The land to the northeast seems to become even more rocky, and rises far above sea level.} {African Savanna} {} {} {} {1.000}
 E {  855} {e} {e} {2} {0} {} {1.000}
 E {  151} {n} {n} {1} {0} {} {1.000}
 
-R {  151} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  151} {0} {} {A Rocky Beach} { } {The surf pounds constantly against the craggy rocks that jut from the earth in various formations. The spray of water on your face is refreshing and stimulating. The land to the northeast seems to become even more rocky, and rises far above sea level. To the west the rocky hills look to gradually flatten into the monotony of vast plains and unbroken plateaus -- the very heartland of the African savanna.} {African Savanna} {} {} {} {1.000}
 E {  150} {s} {s} {4} {0} {} {1.000}
 E {  152} {w} {w} {8} {0} {} {1.000}
 
-R {  152} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  152} {0} {} {A Dusty Trail} { } {The ocean is but a thin blue line on the eastern horizon. Here, the land is flat and unbroken. Carrion birds wheel above in lazy circles. The well-trodden trail continues west, and a small path winds through the hills to the north. Scraggly bushes and the occasional thorn tree are the only landmarks in the wide-open spaces of the savanna. Long yellow grass bends and wavers in the infrequent breeze.} {African Savanna} {} {} {} {1.000}
 E {  842} {w} {w} {8} {0} {} {1.000}
 E {  150} {e} {e} {2} {0} {} {1.000}
 E {  840} {n} {n} {1} {0} {} {1.000}
 
-R {  153} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  153} {0} {} {A Dusty Trail} { } {You trudge along the seemingly unchanging landscape. The sky above you, stretching from horizon to horizon in a great blue canvas, is unbroken by any hint of clouds. Bothersome insects nip at you, and you hope fervently they carry no virulent diseases. A smaller trail breaks away from the main east-west path, leading north to the distant forest. In the west, the land rises to a slight plateau.} {African Savanna} {} {} {} {1.000}
 E {  845} {e} {e} {2} {0} {} {1.000}
 E {  154} {w} {w} {8} {0} {} {1.000}
 E {  849} {n} {n} {1} {0} {} {1.000}
 
-R {  154} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  154} {0} {} {The Masai Pasture} { } {Used by the Masai as a pasture for herds of cattle and long-haired sheep, this slight plateau has a distinct odor. The tall, scraggly grass grows faster than the herd can eat it, but the dung beetles cannot keep up with the amount of manure left behind. To the southwest is a circle of mud huts.} {African Savanna} {} {} {} {1.000}
 E {  153} {e} {e} {2} {0} {} {1.000}
 E {  798} {w} {w} {8} {0} {} {1.000}
 
-R {  155} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  155} {0} {} {Zanzibar Harbor} { } {You float amidst a great flotilla of ships of all sizes and shapes. The city of Zanzibar sprawls out before you, the red-tiled roofs and glistening spires beckoning you to explore the exotic streets. Winding streets, lined with whitewashed houses and honeycombed with mysterious alleyways, invite you to explore this tropical locale.} {African Savanna} {} {} {} {1.000}
 E {  149} {w} {w} {8} {0} {} {1.000}
 E {  156} {e} {e} {2} {0} {} {1.000}
 
-R {  156} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  156} {0} {} {On the Docks of Zanzibar} { } {You stand in awe as colorfully clad merchants bustle to and fro, directing their armies of servants. Cargo ships from all the great ports of the world are here, loading and unloading their cargo. Slaves, ivory, and cloves are on their way outbound, in exchange for the guns and ammunition that are being brought into the country to facilitate the "civilizing" of the natives and the gathering of more slaves. A cool breeze occasionally blows in from off the ocean, relieving you from the heat and from the smell of thousands of unbathed victims being packed aboard the ships.} {African Savanna} {} {} {} {1.000}
 E {  155} {w} {w} {8} {0} {} {1.000}
 E {  157} {e} {e} {2} {0} {} {1.000}
 
-R {  157} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  157} {0} {} {Main Street, Zanzibar City} { } {This busy thoroughfare serves as the main artery of traffic through the city. Overladen beasts of burden jostle with the palanquins and carriages of the wealthy. Buildings also seem to contest one another for the little space that is available. To the north, rising above the buildings around you, are the golden spires of the Sultan's palace. Frequent outbursts in Swahili erupt from the throngs of milling passers-by.} {African Savanna} {} {} {} {1.000}
 E {  156} {w} {w} {8} {0} {} {1.000}
 E {  158} {n} {n} {1} {0} {} {1.000}
 E {  160} {e} {e} {2} {0} {} {1.000}
 
-R {  158} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  158} {0} {} {Foyer to the Palace} { } {This large courtyard serves as the foyer to the main palace itself. The centerpiece of this beautiful garden is the magnificently carved ivory fountain that tinkles constantly. Sweet scents linger on the air, and birds of myriad colors frolic in the fountain. Carefully groomed trees offer shade to visitors from the harsh afternoon sun. The bustle and noise of the streets are but a distant humming in the background in this cool, sheltered courtyard.} {African Savanna} {} {} {} {1.000}
 E {  157} {s} {s} {4} {0} {} {1.000}
 E {  159} {n} {n} {1} {0} {} {1.000}
 
-R {  159} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  159} {0} {} {The Throne Room} { } {Thick, carved ivory columns support the vaulted, mosaic-decorated ceiling that lies far above your heads. Plush Persian rugs cushion your feet as you walk into this lap of wealth and decadence. The walls are decorated with intricately woven tapestries. The Sultan's elaborate divan sits upon a dais at the far end of the hall. Slaves stand behind the divan, ready to serve at the beck and call of the Sultan.} {African Savanna} {} {} {} {1.000}
 E {  158} {s} {s} {4} {0} {} {1.000}
 
-R {  160} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  160} {0} {} {Main Street, Zanzibar City} { } {The street begins to dwindle here, and the traffic is much lighter than to the west. The street leads into the residential area in the east, and there seems to be little of interest there. However, there is a large, clean building to the south, with glistening, whitewashed walls, and mosaics decorating the entryway.} {African Savanna} {} {} {} {1.000}
 E {  157} {w} {w} {8} {0} {} {1.000}
 E {  161} {s} {s} {4} {0} {} {1.000}
 
-R {  161} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  161} {0} {} {Wazizi Guest House} { } {The common room of the hostel is lit only barely by gaslight lanterns. Smoke curls in the lazy air and lingers near the ceiling. There are a dozen scattered tables, most of which are inhabited by an assortment of traders, hunters, townspeople, and the occasional riffraff. For the most part, the patrons consist of Muslim slave and ivory traders, though there are people of all backgrounds represented here. A wide staircase leads up to the bedrooms.} {African Savanna} {} {} {} {1.000}
 E {  160} {n} {n} {1} {0} {} {1.000}
 E {  162} {u} {u} {16} {0} {} {1.000}
 
-R {  162} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  162} {0} {} {A Hallway} { } {This hallway is rather narrow and dark, lit only by the gaslight lanterns hanging from the ceiling. Smoke curls lazily in the air and noise from the main room downstairs drifts up into this hallway.} {Zanzibar} {} {} {} {1.000}
 E {  161} {d} {d} {32} {0} {} {1.000}
 
-R {  163} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  163} {0} {} {Along the Coast} { } {Drifting along the coast, you contemplate the serenity of the calm waves. A rocky beach is to the west.} {African Savanna} {} {} {} {1.000}
 E {  149} {s} {s} {4} {0} {} {1.000}
 E {  857} {w} {w} {8} {0} {} {1.000}
 E {  164} {n} {n} {1} {0} {} {1.000}
 
-R {  164} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  164} {0} {} {Near the Shores of Ethiopia} { } {Waters get significantly warmer near the horn of Africa. Colors of the ocean change with shades of brown and dark green mixing with the deep blue sea. Dark brown stilt from the shores of Ethiopia blends with the waves and bring many floating branches and twigs from wild, hot and arid coasts.} {King Solomon's Mines} {} {} {} {1.000}
 E {  163} {s} {s} {4} {0} {} {1.000}
 E {  165} {n} {n} {1} {0} {} {1.000}
 
-R {  165} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  165} {0} {} {A Sandy Beach, on Eritrea's Southern Coast} { } {A long beach of white sands extends here along the coast, facing the hot waters of the Red Sea to the east. Far to the south, the horn of Africa extends and opens into the Indian ocean. Westwards lead inland to a landscape of green grass-covered hills made of jagged black rocks.} {King Solomon's Mines} {} {} {} {1.000}
 E {  164} {s} {s} {4} {0} {} {1.000}
 E {  166} {w} {w} {8} {0} {} {1.000}
 
-R {  166} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  166} {0} {} {Following a Game Trail} { } {A narrow game trail snakes through a landscape of hilly highlands covered with thick bushes that offer great protection for the many wild animals who live there. The trail was not created by a large predator but rather by a multitude of smaller birds, rodents and small mammals running between rock shelters and watering holes.} {King Solomon's Mines} {} {} {} {1.000}
 E {  165} {e} {e} {2} {0} {} {1.000}
 E {  167} {n} {n} {1} {0} {} {1.000}
 
-R {  167} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  167} {0} {} {The Hills of Eritrea} { } {You are surrounded by low hills made of sharp black rocks created from the great African rift. A carpet of thick green grass extends for miles around, with rare lone, low trees and tufts of even thicker grass.} {King Solomon's Mines} {} {} {} {1.000}
 E {  166} {s} {s} {4} {0} {} {1.000}
 E {  168} {e} {e} {2} {0} {} {1.000}
 E {  858} {w} {w} {8} {0} {} {1.000}
 
-R {  168} {0} {} {ksm} { } {} {King} {ksm} {} {} {1.000}
+R {  168} {0} {} {The Selous Expedition Base Camp} { } {The Union Jack flag floats proudly here above a large camp settled by British explorers. The camp is well organized with many large white tents rising between the black rocks of the Ethiopian highlands. Under a large canopy, a wooden table has been setup on which lies a map under the review of the expedition leaders.} {King Solomon's Mines} {ksm} {} {} {1.000}
 E {  167} {w} {w} {8} {0} {} {1.000}
 
-R {  169} {0} {} {} { } {} {King} {} {} {} {1.000}
+R {  169} {0} {} {On the Indian Ocean} { } {Water stretches around you for as far as you can see. It is very easy to lose your bearings here, with the huge sky and ceaseless hiss of water against the hull of the ship.} {Tea Route} {} {} {} {1.000}
 E {  145} {w} {w} {8} {0} {} {1.000}
 E {  170} {e} {e} {2} {0} {} {1.000}
 
-R {  170} {0} {} {} { } {} {Tea Route } {} {} {} {1.000}
+R {  170} {0} {} {On the Indian Ocean} { } {You can't really tell how far you have come across the waters... it feels like forever. But somewhere around here must be Ceylon; somewhere around here must be the shipping lane that leads north to Bengal. The smells of cinnamon and opium seem heavy in the air for just an instant as you think about it.} {Tea Route} {} {} {} {1.000}
 E {  169} {w} {w} {8} {0} {} {1.000}
-E {  172} {n} {n} {1} {0} {} {1.000}
+E {  171} {n} {n} {1} {0} {} {1.000}
 E { 1948} {e} {e} {2} {0} {} {1.000}
 
-R {  171} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  172} {s} {s} {4} {0} {} {1.000}
-E {  173} {n} {n} {1} {0} {} {1.000}
-
-R {  172} {10} {} {} { } {} {} {} {} {} {1.000}
-E {  171} {n} {n} {1} {0} {} {1.000}
+R {  171} {0} {} {In a Bay in Bengal} { } {A sultry, sweaty country lies before you, with a ramshackle but nonetheless heavily used pier. The heat is amazing--even here, offshore, you fancy you can hear the buzz of mosquitoes big enough to eat a man alive. The pier stretches out into the bay in such a fashion that you can see several possible directions to take to dock at it.} {Tea Route} {} {} {} {1.000}
 E {  170} {s} {s} {4} {0} {} {1.000}
+E {  173} {n} {n} {1} {1} {} {1.000}
 
-R {  173} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  171} {s} {s} {4} {0} {} {1.000}
+R {  173} {0} {} {The Bay of Bengal} { } {What a glorious sight! The blue waters of the Bay of Bengal are shaded so delicately that you are sure that if you could find a gem that color, you'd be rich. North and east of you are open berths on the wharf that pokes its way into the bay; to reach the berths for ships on the China trade runs, you'd have to go west to the other side of the Bay. South lies the Indian Ocean... huge, menacing, prone to sudden storms.} {Bengal} {} {} {} {1.000}
+E {  171} {s} {s} {4} {1} {} {1.000}
 E {  174} {n} {n} {1} {0} {} {1.000}
 E {  866} {e} {e} {2} {0} {} {1.000}
 E {  869} {w} {w} {8} {0} {} {1.000}
 
-R {  174} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  174} {0} {} {A Berth on the Wharf} { } {Directly north of you there stretches out a long wharf leading directly into the heart of a rather grubby little village. South lies the open sea, the Indian Ocean. This berth is open to any vessel that cares to use it, meaning that it is used mostly by pirates who could care less whose vessel they left port in.} {Bengal} {} {} {} {1.000}
 E {  173} {s} {s} {4} {0} {} {1.000}
 E {  175} {n} {n} {1} {0} {} {1.000}
 
-R {  175} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  175} {0} {} {On a Wharf} { } {This is the end of the wharf. The Bay of Bengal stretches out before you, off into the infinity of the blue Indian Ocean, an ocean prone to sudden storms. This end of the wharf has berths for ships on all sides--the one directly west of you is intended for vessels traveling to the South Seas and thence to Macao and Hong Kong.} {Bengal} {} {} {} {1.000}
 E {  176} {n} {n} {1} {0} {} {1.000}
 E {  173} {s} {s} {4} {0} {} {1.000}
 E {  866} {e} {e} {2} {0} {} {1.000}
 E {  868} {w} {w} {8} {0} {} {1.000}
 
-R {  176} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  176} {0} {} {On a Wharf} { } {The crystalline beauty of the bay around you serves as an antidote to the squalid town the wharf serves. South the wharf continues, docking point for countless graceful sailing ships from all over the world. One berth lies directly to the west of you, and a sign there indicates that it is reserved for ships going to and from London.} {Bengal} {} {} {} {1.000}
 E {  175} {s} {s} {4} {0} {} {1.000}
 E {  177} {n} {n} {1} {0} {} {1.000}
 E {  867} {w} {w} {8} {0} {} {1.000}
 
-R {  177} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  177} {0} {} {On the Docks in Bengal} { } {A wharf stretches out into the sapphire blue bay south of you, with countless ships anchored at it, no doubt here to collect opium for the China trade. Lord knows there is little else in this hot, flyblown land, except hot tempers and short lives. The docks stretch east and west of you, the only solidly constructed thing you can see. There is a building north of you that exemplifies the British colonies in Bengal: falling apart, the wooden sides are rotten and made of the worst lumber available.} {Bengal} {} {} {} {1.000}
 E {  176} {s} {s} {4} {0} {} {1.000}
 E {  178} {e} {e} {2} {0} {} {1.000}
 E {  870} {w} {w} {8} {0} {} {1.000}
 
-R {  178} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  178} {0} {} {On a Street in Bengal} { } {Mud streets, rotting houses. The few dwellings you can see built by the natives are well-constructed and definitely not falling apart. One such is the inn south of you. But the humid climate has taken its toll on the edifices of the Europeans, such as the provisioner's north of you: a ramshackle building only held together by the swelling of the damp wood. To the east a road leads into the jungle.} {Bengal} {} {} {} {1.000}
 E {  177} {w} {w} {8} {0} {} {1.000}
 E {  179} {s} {s} {4} {0} {} {1.000}
 E {  873} {n} {n} {1} {0} {} {1.000}
 E {  875} {e} {e} {2} {1} {} {1.000}
 
-R {  179} {0} {<029>} {} {I} {} {} {bengal} {} {} {1.000}
+R {  179} {0} {<029>} {In a Boarding House} {I} {This establishment, if it can be called that, caters to a varied clientele: China traders' daughters and wives on their way to and from England, prostitutes, women abandoned here by unscrupulous men... sometimes the distinctions between these people are not quite clear. The men who stay here are usually ruthless killers, which again does little to help identify them, as China traders and pirates alike share certain qualities that help them get their job done... The door out is north.} {Bengal} {bengal} {} {} {1.000}
 E {  178} {n} {n} {1} {0} {} {1.000}
 
-R {  180} {0} {} {Sailing on an Endless Sea} { } {You are beginning to feel as if this trip has been going for years, not just weeks, and you long for the sight of land, any land, even if it is just a desert island. Wait! Is that land you glimpse through the heaving seas to the north of you? It's impossible to tell now, since the seas have risen again and all you can see in any direction is rolling water.} {Gold Rush Melbourne } {} {} {} {1.000}
+R {  180} {0} {} {Sailing on an Endless Sea} { } {You are beginning to feel as if this trip has been going for years, not just weeks, and you long for the sight of land, any land, even if it is just a desert island. Wait! Is that land you glimpse through the heaving seas to the north of you? It's impossible to tell now, since the seas have risen again and all you can see in any direction is rolling water.} {Gold Rush Melbourne} {} {} {} {1.000}
 E { 5812} {w} {w} {8} {0} {} {1.000}
 E { 5813} {e} {e} {2} {0} {} {1.000}
 
-R {  181} {0} {} {West of Bass Straight} { } {You have been sailing for days without the sight of land, but you know from your charts that Bass Straight must lie just east of you now. You are many weeks sail from London port, and as the decks toss and heave beneath you in these stormy waters you begin to wish you'd never set forth upon this journey.} {Gold Rush Melbourne } {} {} {} {1.000}
+R {  181} {0} {} {West of Bass Straight} { } {You have been sailing for days without the sight of land, but you know from your charts that Bass Straight must lie just east of you now. You are many weeks sail from London port, and as the decks toss and heave beneath you in these stormy waters you begin to wish you'd never set forth upon this journey.} {Gold Rush Melbourne} {} {} {} {1.000}
 E { 5813} {w} {w} {8} {0} {} {1.000}
 E { 5814} {e} {e} {2} {0} {} {1.000}
 
-R {  182} {0} {} {Passing Through the Heads} { } {As you pass through the heads at Port Phillip Bay, your craft is picked up in a swift current. Swiftly moving into action, it is only with great skill that you turn it in time to avoid being smashed on rocks which look like devil's teeth. Adrenaline courses through your body as you sail into calmer waters.} {Gold Rush Melbourne } {} {} {} {1.000}
+R {  182} {0} {} {Passing Through the Heads} { } {As you pass through the heads at Port Phillip Bay, your craft is picked up in a swift current. Swiftly moving into action, it is only with great skill that you turn it in time to avoid being smashed on rocks which look like devil's teeth. Adrenaline courses through your body as you sail into calmer waters.} {Gold Rush Melbourne} {} {} {} {1.000}
 E { 5814} {w} {w} {8} {0} {} {1.000}
 E {  184} {n} {n} {1} {0} {} {1.000}
 E { 5817} {e} {e} {2} {0} {} {1.000}
@@ -1218,7 +1194,6 @@ E {  287} {w} {w} {8} {0} {} {1.000}
 R {  287} {0} {} {A Road in Sherwood Forest} { } {The road narrows here as it cuts between two giant oak trees. Several smaller oaks circle around them in the style of an ancient druids' circle. Perhaps there has been some renewed interest in the ancient druidic studies. The road travels east and west from here.} {Medieval Britain } {} {} {} {1.000}
 E {  286} {e} {e} {2} {0} {} {1.000}
 E {  288} {w} {w} {8} {0} {} {1.000}
-E { 1105} {sac bunny} {sac bunny;.delay {1} {sit circle;ponder self;st}} {0} {0} {} {1.000}
 
 R {  288} {0} {} {A Small Dirt Road} { } {The road continues east and west here through the heart of Sherwood Forest. Every once in a while you hear twigs snap, and the call of a bird echoing through the woods. It feels as if you are being watched, but you shrug it off as only forest animals unused to your presence here.} {Medieval Britain } {} {} {} {1.000}
 E {  287} {e} {e} {2} {0} {} {1.000}
@@ -1739,10 +1714,10 @@ E { 6788} {e} {open e;e} {2} {0} {} {1.000}
 
 R {  414} {0} {} {A Nest of Twisty Alleys} { } {Wandering among these myriad alleys and side streets, you swiftly become disoriented. Few, if any, of the streets are marked, and none are done so in a regular fashion. However, there does appear to be a general downward slope to these alleys and streets. Since the breeze which drifts up the narrow alleys bears the salty tang of seawater, you surmise that you are probably just above the docks of London.} {Tudor England } {} {} {} {1.000}
 E {  267} {n} {n} {1} {0} {} {1.000}
-E {  415} {d} {d} {32} {0} {} {1.000}
+E {  415} {d} {d} {32} {1} {} {1.000}
 
 R {  415} {0} {} {Black Friar's Dock} { } {Several years ago, the land this dock is built on was the site of a Catholic monastery. Unfortunately for the monks, it was one of the many Church properties seized by Henry VIII when he replaced the Pope as the head of the English Church. In this age, it is a bustling dock. Although various boats and barges are moored here, there are no seafaring ships, with their tall sails, since their masts are too lofty to sail under the confines of London Bridge.} {Tudor England } {} {} {} {1.000}
-E {  414} {u} {u} {16} {0} {} {1.000}
+E {  414} {u} {u} {16} {1} {} {1.000}
 E { 1032} {s} {s} {4} {0} {} {1.000}
 
 R {  416} {0} {} {Before Black Friar's Dock} { } {For a moment, your craft drifts out of the main current and into a small eddy in front of Black Friar's Dock. If you chose to, you could moor your vessel at the dock and continue your journey on land.} {Tudor England } {} {} {} {1.000}
@@ -1753,7 +1728,7 @@ E { 1034} {w} {w} {8} {0} {} {1.000}
 R {  417} {0} {} {Under the London Bridge} { } {You are fortunate that the tide is fairly low, for at high tide, this is one of the most treacherous stretches of the river. Many are the stories of ships and barges which have been dashed to pieces while 'shooting the Thames'. A small flight of stairs ascends one of the bridge's pilings, while southward, a rusty watergate is barely visible.} {Tudor England } {} {} {} {1.000}
 E { 1033} {w} {w} {8} {0} {} {1.000}
 E {  418} {e} {e} {2} {0} {} {1.000}
-E { 1031} {u} {u} {16} {0} {} {1.000}
+E { 1031} {u} {u} {16} {1} {} {1.000}
 
 R {  418} {0} {} {Off of Greenwich} { } {On the north bank lies Placentia, the royal residence at Greenwich. Here, Henry VIII wed his first wife, Katharine of Aragon, and here too also yet another of them, Ann of Cleves. Here Elizabeth I was born to her mother, Anne Boleyn, who was unfortunate enough to gain Henry's hate to the same degree that she had once attracted his love.} {Tudor England } {} {} {} {1.000}
 E {  417} {w} {w} {8} {0} {} {1.000}
@@ -1765,24 +1740,24 @@ E {  421} {e} {e} {2} {0} {} {1.000}
 
 R {  420} {0} {} {North of the English Channel} { } {The Channel to the south might allow the English to see the French and vice-versa, but from here France may as well be a thousand miles away. The gray water below you rises and falls in tight swells, whitecapped by the prevailing winds blowing towards England. To the west, a wide river opens its gaping mouth attempting to swallow all the sea. To the east, only empty ocean is visible.} {Viking Scandinavia } {} {} {} {1.000}
 E {  421} {w} {w} {8} {0} {} {1.000}
-E {  422} {s} {s} {4} {0} {} {1.000}
-E { 3583} {n} {n} {1} {0} {} {1.000}
+E {  422} {s} {s} {4} {1} {} {1.000}
+E { 3582} {n} {n} {1} {0} {} {1.000}
 
 R {  421} {10} {} {} { } {} {} {} {} {} {1.000}
 E {  419} {w} {w} {8} {0} {} {1.000}
 E {  420} {e} {e} {2} {0} {} {1.000}
 
 R {  422} {0} {} {Crossing the English Channel} { } {The water is cold and choppy. The white cliffs rise above a small beach to the west and the channel reaches to the French coastline in the east.} {Medieval Britain } {} {} {} {1.000}
-E {  420} {n} {n} {1} {0} {} {1.000}
+E {  420} {n} {n} {1} {1} {} {1.000}
 E {  423} {w} {w} {8} {0} {} {1.000}
 E {  424} {s} {s} {4} {0} {} {1.000}
 E {  425} {e} {e} {2} {0} {} {1.000}
 
 R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They really do look that white from close up too. The chalky limestone is slowly eroding and continuously renewing the glaring white surface. The English Channel separates you from the French coastline to the east.} {Medieval Britain } {} {} {} {1.000}
 E {  422} {e} {e} {2} {0} {} {1.000}
-E { 1051} {u} {u} {16} {0} {} {1.000}
+E { 1051} {u} {u} {16} {1} {} {1.000}
 
-R {  424} {0} {} {Just South of the English Channel} { } {The white cliffs of Dover sparkle to the northwest, while the coast of France is green and vibrant to the northeast. Southwards, you can follow the coasts of France, Spain and Portugal around the continent.} {Pirate Caribbean } {} {} {} {1.000}
+R {  424} {0} {} {Just South of the English Channel} { } {The white cliffs of Dover sparkle to the northwest, while the coast of France is green and vibrant to the northeast. Southwards, you can follow the coasts of France, Spain and Portugal around the continent.} {Pirate Caribbean} {} {} {} {1.000}
 E {  422} {n} {n} {1} {0} {} {1.000}
 E {  428} {w} {w} {8} {0} {} {1.000}
 E { 6457} {s} {s} {4} {0} {} {1.000}
@@ -1860,19 +1835,19 @@ E {  455} {s} {s} {4} {0} {} {1.000}
 E {  465} {w} {w} {8} {0} {} {1.000}
 E {  103} {red} {enqueue say yes;pause 2 pulses;st} {0} {0} {} {1.000}
 
-R {  442} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  442} {0} {} {Off the Coast of France Near Calais} { } {The dark and often stormy cliffs would make a perfect spot for smugglers to sneak in or out their goods. The white cliffs of Dover shine brightly in the far distance to the northwest.} {Pirate Caribbean} {} {} {} {1.000}
 E { 6457} {n} {n} {1} {0} {} {1.000}
 E {  443} {w} {w} {8} {0} {} {1.000}
 
-R {  443} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  443} {0} {} {Off the Coast of France} { } {The rolling French countryside, while beautiful to look at from this distance, offers no sense of adventure. The land is dotted with small cottages, much too close for efficient use of the land. Perhaps you should continue either north or south on your journey.} {Pirate Caribbean} {} {} {} {1.000}
 E {  442} {e} {e} {2} {0} {} {1.000}
 E {  444} {s} {s} {4} {0} {} {1.000}
 
-R {  444} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  444} {0} {} {Off the Coast of Southern France} { } {The lush green land quickly runs up to the foothills of the ragged Pyrenees mountains. The rich vineyards here are renowned for their exquisite wines. Travelling south will take you along the coasts of Spain and Portugal, whereas north along the French coast will eventually bring you to the English Channel.} {Pirate Caribbean} {} {} {} {1.000}
 E {  443} {n} {n} {1} {0} {} {1.000}
 E {  445} {s} {s} {4} {0} {} {1.000}
 
-R {  445} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  445} {0} {} {Off the Coast of Northern Spain} { } {The rocky mountains inland here are quite a contrast to the gentle snowy slopes of the Sierra Nevada in southern Spain. The Pyrenees form the border between France and Spain. Some say that the ghost of El Cid still guards his remains somewhere up in those mountains.} {Pirate Caribbean} {} {} {} {1.000}
 E {  444} {n} {n} {1} {0} {} {1.000}
 E {  446} {s} {s} {4} {0} {} {1.000}
 
@@ -1939,7 +1914,7 @@ R {  459} {0} {} {In the Caribbean} { } {A salty breeze stirs the gently rising 
 E {  458} {n} {n} {1} {0} {} {1.000}
 E {  460} {s} {s} {4} {0} {} {1.000}
 
-R {  460} {0} {} {In the Caribbean} { } {The turquoise waves rise and fall in a slow even tempo. A salty breeze blows by you. You feel all alone out here in the middle of the Windward Passage. You cannot be too far from land as seagulls and occasionally other birds wheel gracefully above you.} {Pirate Caribbean } {} {} {} {1.000}
+R {  460} {0} {} {In the Caribbean} { } {The turquoise waves rise and fall in a slow even tempo. A salty breeze blows by you. You feel all alone out here in the middle of the Windward Passage. You cannot be too far from land as seagulls and occasionally other birds wheel gracefully above you.} {Pirate Caribbean} {} {} {} {1.000}
 E {  459} {n} {n} {1} {0} {} {1.000}
 E {  462} {e} {e} {2} {0} {} {1.000}
 E { 1094} {w} {w} {8} {0} {} {1.000}
@@ -1949,12 +1924,12 @@ R {  461} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  440} {n} {n} {1} {0} {} {1.000}
 E {  441} {s} {s} {4} {0} {} {1.000}
 
-R {  462} {0} {} {Off the Coast of Turtle Island} { } {To the north, the seas dance and sparkle as the crests and troughs constantly chase each other. A small island rises up out of the water to the south. It appears as if the jungle growth and the breakers are having a tug of war over the beach.} {Pirate Caribbean } {} {} {} {1.000}
+R {  462} {0} {} {Off the Coast of Turtle Island} { } {To the north, the seas dance and sparkle as the crests and troughs constantly chase each other. A small island rises up out of the water to the south. It appears as if the jungle growth and the breakers are having a tug of war over the beach.} {Pirate Caribbean} {} {} {} {1.000}
 E {  460} {w} {w} {8} {0} {} {1.000}
 E { 2188} {e} {e} {2} {0} {} {1.000}
 E { 1086} {s} {s} {4} {0} {} {1.000}
 
-R {  463} {0} {} {Off the Coast of Turtle Island} { } {To the south, a gently sloping beach is licked rhythmically by the waves. You can hear several birds calling back and forth between the trees that line the shore. To the north, the open ocean is all you can see.} {Pirate Caribbean } {} {} {} {1.000}
+R {  463} {0} {} {Off the Coast of Turtle Island} { } {To the south, a gently sloping beach is licked rhythmically by the waves. You can hear several birds calling back and forth between the trees that line the shore. To the north, the open ocean is all you can see.} {Pirate Caribbean} {} {} {} {1.000}
 E { 1092} {w} {w} {8} {0} {} {1.000}
 E {  465} {e} {e} {2} {0} {} {1.000}
 E { 2187} {s} {s} {4} {0} {} {1.000}
@@ -1963,7 +1938,7 @@ R {  464} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  457} {w} {w} {8} {0} {} {1.000}
 E {  439} {e} {e} {2} {0} {} {1.000}
 
-R {  465} {0} {} {In the Caribbean} { } {You see a small sliver of grey rising above the waves in the distance. It might be where all the seagulls are coming from. The monotony of the waves are beginning to get to you. A small atoll can be seen rising out of the water to the east.} {Pirate Caribbean } {} {} {} {1.000}
+R {  465} {0} {} {In the Caribbean} { } {You see a small sliver of grey rising above the waves in the distance. It might be where all the seagulls are coming from. The monotony of the waves are beginning to get to you. A small atoll can be seen rising out of the water to the east.} {Pirate Caribbean} {} {} {} {1.000}
 E {  463} {w} {w} {8} {0} {} {1.000}
 E {  441} {e} {e} {2} {0} {} {1.000}
 E { 1083} {s} {s} {4} {0} {} {1.000}
@@ -3300,7 +3275,7 @@ R {  775} {0} {} {Nearing the French Countryside} { } {The small path leads away
 E {  774} {n} {n} {1} {0} {} {1.000}
 E {  776} {e} {e} {2} {0} {} {1.000}
 
-R {  776} {0} {} {Within Grand Parklands} { } {An enormous expanse of parkland stretches before you as far as the eye can see. A large dirt path leads off to the west towards the beginnings of a more built-up area of the French countryside, perhaps heading back towards the wonderful city of Paris itself. A small track meanders into the distance through the parkland to the north and east.} {19th Century Paris } {} {} {} {1.000}
+R {  776} {0} {} {Within Grand Parklands} { } {An enormous expanse of parkland stretches before you as far as the eye can see. A large dirt path leads off to the west towards the beginnings of a more built-up area of the French countryside, perhaps heading back towards the wonderful city of Paris itself. A small track meanders into the distance through the parkland to the north and east.} {19th Century Paris} {} {} {} {1.000}
 E {  775} {w} {w} {8} {0} {} {1.000}
 E {  777} {n} {n} {1} {0} {} {1.000}
 E {  779} {e} {e} {2} {0} {} {1.000}
@@ -3319,7 +3294,7 @@ R {  779} {0} {} {Within Grand Parklands} { } {The faint odour of... something, 
 E {  778} {n} {n} {1} {0} {} {1.000}
 E {  776} {w} {w} {8} {0} {} {1.000}
 
-R {  780} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  780} {0} {} {A Slime Covered Waterway} { } {Algae and effluent cover the surface of this small stream. The stench is overpowering and you can see the corpses of a few small animals littered about the sides of the stream. The undergrowth that lies about you recedes as you approach the edge, and the immediate surrounds of the creek bed is a mini desert, devoid of all signs of life except the buzz of a few insects and the gleam of algae from the surface.} {19th Century Paris} {} {} {} {1.000}
 E {  776} {u} {open u;u} {16} {0} {} {1.000}
 
 R {  781} {0} {} {A Well-Maintained Drive} { } {As you make your way towards the grand estate before you, your attention is drawn to the ground beneath you. The soft pitter-patter of your shoes against the charcoal gray stones is rather annoying, but all of that is forgotten once you notice the spectacular display of craftmanship the european fan design of the stones offers.} {PR Mansion } {} {} {} {1.000}
@@ -3389,62 +3364,62 @@ E {  795} {w} {open w;w} {8} {0} {} {1.000}
 R {  797} {0} {} {Apartment 5} { } {The shadows conceal the room's contents.} {19th Century Paris } {} {} {} {1.000}
 E {  795} {e} {open e;e} {2} {0} {} {1.000}
 
-R {  798} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  798} {0} {} {The Masai Pasture} { } {This is the center of the slight plateau used as a pasture. The long, brown grass provides what meager diet the cattle are allowed. The smell here is quite overpowering. Piles of dung are everywhere, the beetles unable to keep up with the production.} {African Savanna} {} {} {} {1.000}
 E {  154} {e} {e} {2} {0} {} {1.000}
 E {  799} {s} {s} {4} {0} {} {1.000}
 E {  851} {n} {n} {1} {0} {} {1.000}
 
-R {  799} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  799} {0} {} {The Masai Pasture} { } {You are very near the kraal, or circle of mud huts, that is to the south. The ground here is hard-packed and dusty, hundreds of hoofprints visible in the dust from the grazing cattle.} {African Savanna} {} {} {} {1.000}
 E {  798} {n} {n} {1} {0} {} {1.000}
 E {  800} {s} {s} {4} {0} {} {1.000}
 
-R {  800} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  800} {0} {} {The Masai Kraal} { } {You stand within the actual Masai kraal. The ground here is of packed dirt, and there is the smell of cooking lard, mud walls, and livestock in the air. The kraal consists of dome-shaped huts constructed from dried mud and thatching.} {African Savanna} {} {} {} {1.000}
 E {  799} {n} {n} {1} {0} {} {1.000}
 E {  801} {e} {e} {2} {0} {} {1.000}
 E {  815} {w} {w} {8} {0} {} {1.000}
 
-R {  801} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  801} {0} {} {The Masai Kraal} { } {The entrance to the mud hut that lies directly north of you is decorated with what appears to be a good deal of totems and fetishes. Hanging above the doorway is the skull of a monkey, grinning gruesomely. This doorway, unlike that of the other huts, is covered with a curtain of animal pelts.} {African Savanna} {} {} {} {1.000}
 E {  800} {w} {w} {8} {0} {} {1.000}
 E {  802} {n} {open n;n} {1} {0} {} {1.000}
 E {  803} {e} {e} {2} {0} {} {1.000}
 E {  809} {s} {s} {4} {0} {} {1.000}
 
-R {  802} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  802} {0} {} {The Laibon's Hut} { } {A large pile of sleeping furs takes up the greater part of this hut. A rhinoceros hide shield, dyed with a simple pattern, is propped along the far wall. There are also several jars and containers of foul-smelling concoctions, grouped together in another section of the floor.} {African Savanna} {} {} {} {1.000}
 E {  801} {s} {open s;s} {4} {0} {} {1.000}
 
-R {  803} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  803} {0} {} {The Masai Kraal} { } {Nearby, there are two of the mud huts that the tall, lean Masai live in. Southwest of you, there is a large, blazing bonfire.} {African Savanna} {} {} {} {1.000}
 E {  801} {w} {w} {8} {0} {} {1.000}
 E {  804} {s} {s} {4} {0} {} {1.000}
 
-R {  804} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  804} {0} {} {The Masai Kraal} { } {There is a doorway to one of the mud huts to the east of you. This is a plainly constructed edifice, with nothing to indicate the lifestyle of the occupants. West of you, a large bonfire blazes cheerfully.} {African Savanna} {} {} {} {1.000}
 E {  803} {n} {n} {1} {0} {} {1.000}
 E {  805} {e} {e} {2} {0} {} {1.000}
 E {  806} {s} {s} {4} {0} {} {1.000}
 E {  809} {w} {w} {8} {0} {} {1.000}
 
-R {  805} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  805} {0} {} {A Masai Hut} { } {The dark interior of this hut is only barely illuminated by the light coming in the entrance. A few animal pelts are piled up along the far wall, for sleeping. There are a few earthenware jars, probably containing salted meats and foodstuffs.} {African Savanna} {} {} {} {1.000}
 E {  804} {w} {w} {8} {0} {} {1.000}
 
-R {  806} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  806} {0} {} {The Masai Kraal} { } {Mud huts surround you, and to your northwest, there seems to be a large bonfire.} {African Savanna} {} {} {} {1.000}
 E {  804} {n} {n} {1} {0} {} {1.000}
 E {  807} {w} {w} {8} {0} {} {1.000}
 
-R {  807} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  807} {0} {} {The Masai Kraal} { } {A slightly lopsided mud hut stands to your south. The thatching of the hut sticks out in odd places. The hut seems to have been constructed in a slipshod fashion, and not at all like the others in the kraal. To the north, there is a large bonfire.} {African Savanna} {} {} {} {1.000}
 E {  806} {e} {e} {2} {0} {} {1.000}
 E {  808} {s} {s} {4} {0} {} {1.000}
 E {  809} {n} {n} {1} {0} {} {1.000}
 E {  811} {w} {w} {8} {0} {} {1.000}
 
-R {  808} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  808} {0} {} {A Masai Hut} { } {The dark interior of this hut is only barely illuminated by the light coming in the entrance. A few animal pelts are piled up along the far wall, for sleeping. There are a few earthenware jars, probably containing salted meats and foodstuffs.} {African Savanna} {} {} {} {1.000}
 E {  807} {n} {n} {1} {0} {} {1.000}
 
-R {  809} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  809} {0} {} {The Center of the Kraal} { } {A large bonfire blazes angrily, scattering shadows about the area in sporadic bursts. The hunters' daily catches are cooked on large spits here, before they are split among the villagers. This is also where the Laibon speaks to the Masai, in council or for storytelling. Several large logs are arranged about the fire, which is almost never out.} {African Savanna} {} {} {} {1.000}
 E {  807} {s} {s} {4} {0} {} {1.000}
 E {  804} {e} {e} {2} {0} {} {1.000}
 E {  801} {n} {n} {1} {0} {} {1.000}
 E {  813} {w} {w} {8} {0} {} {1.000}
 
-R {  810} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  810} {0} {} {The Masai Kraal} { } {An entrance to one of the mud huts lies directly to your west. There is a strong smell of leathers emanating from within the dark doorway. Directly next to the door, there are several racks, with the hides of different animals stretched out and drying.} {African Savanna} {} {} {} {1.000}
 E {  813} {e} {e} {2} {0} {} {1.000}
 E {  812} {s} {s} {4} {0} {} {1.000}
 E {  814} {w} {w} {8} {0} {} {1.000}
@@ -3454,7 +3429,7 @@ R {  811} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  807} {e} {e} {2} {0} {} {1.000}
 E {  812} {w} {w} {8} {0} {} {1.000}
 
-R {  812} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  812} {0} {} {The Masai Kraal} { } {You are in the southwest corner of the kraal. Mud huts similar in construction lie to your northwest and southeast. Looking towards the center of the circle, you see a large bonfire.} {African Savanna} {} {} {} {1.000}
 E {  810} {n} {n} {1} {0} {} {1.000}
 E {  811} {e} {e} {2} {0} {} {1.000}
 
@@ -3462,99 +3437,99 @@ R {  813} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  809} {e} {e} {2} {0} {} {1.000}
 E {  810} {w} {w} {8} {0} {} {1.000}
 
-R {  814} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  814} {0} {} {A Masai Hut} { } {This is obviously the home of the village tanner. Pelts of all shapes and sizes can be seen, hanging from racks, or just lying in piles. A vat of bark extract, used for tanning the hides, is bubbling over violently. The odor, mixed with that of salt brine, is not a pleasant one.} {African Savanna} {} {} {} {1.000}
 E {  810} {e} {e} {2} {0} {} {1.000}
 
-R {  815} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  815} {0} {} {The Masai Kraal} { } {Brown tufts of grass dot the earth in patches here and there. The mud huts surrounding you resemble nothing more than great piles of dirt. To the southeast, there is a large bonfire.} {African Savanna} {} {} {} {1.000}
 E {  810} {s} {s} {4} {0} {} {1.000}
 E {  800} {e} {e} {2} {0} {} {1.000}
 
-R {  816} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  816} {0} {} {The Masai Pasture} { } {The pasture of grazing sheep ends here, at the plateau's edge, and the boundless Serengeti stretches to the north as far as the eye can see. In the far northwest, you can make out a lush green forest, and beyond that, a purplish range of mist-crowned mountains.} {African Savanna} {} {} {} {1.000}
 E {  850} {s} {s} {4} {0} {} {1.000}
 E {  817} {n} {n} {1} {0} {} {1.000}
 
-R {  817} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  817} {0} {} {A Hunting Path} { } {The hunting trail leads further into the scrub here. To the north, the great savanna stretches to the ends of the horizon. South of you, the trail seems to lead up a slight plateau, where a small group of huts sit.} {African Savanna} {} {} {} {1.000}
 E {  816} {s} {s} {4} {0} {} {1.000}
 E {  818} {n} {n} {1} {0} {} {1.000}
 E {  819} {e} {e} {2} {0} {} {1.000}
 
-R {  818} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  818} {0} {} {A Hunting Path} { } {Herds of grazing antelopes can be seen off in the distance. The dun-colored wilderness is a desolate, if beautiful, vista. The great open spaces of the savanna create a sense of loneliness unlike that anywhere else in the world. Out here, miles from civilization, it feels as if you are the only human left on the planet.} {African Savanna} {} {} {} {1.000}
 E {  817} {s} {s} {4} {0} {} {1.000}
 E {  820} {n} {n} {1} {0} {} {1.000}
 
-R {  819} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  819} {0} {} {On the Plains} { } {Scragly bushes and skeletal thorn trees break up the dryness of the long, endless grass.} {Zanzibar} {} {} {} {1.000}
 E {  817} {w} {w} {8} {0} {} {1.000}
 E {  837} {e} {e} {2} {0} {} {1.000}
 
-R {  820} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  820} {0} {} {A Hunting Path} { } {This seems to be a popular hunting trail, as the grass here is mostly stamped into the earth by the many people that have come along this route. Beautiful blossoms, dark red and royal purple, provide a riotous spectacle alongside the trail.} {African Savanna} {} {} {} {1.000}
 E {  818} {s} {s} {4} {0} {} {1.000}
 E {  821} {n} {n} {1} {0} {} {1.000}
 
-R {  821} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  821} {0} {} {A Giant Baobab Tree} { } {This vast, ancient giant towers over you, a reminder of the power and beauty inherent in nature. The gnarled roots cut through the earth in vast grids. The massive trunk of the tree looks as immovable and impassive as a mountain. The branches, spreading out so far, seem to support the very arch of the heavens.} {African Savanna} {} {} {} {1.000}
 E {  820} {s} {s} {4} {0} {} {1.000}
 E {  822} {n} {n} {1} {0} {} {1.000}
 E {  824} {w} {w} {8} {0} {} {1.000}
 
-R {  822} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  822} {0} {} {A Campsite} { } {You come upon the campsite of a party of European hunters. A large tent is pitched beneath the boughs of a nearby thorn tree. There's a small campfire sitting near the tent, as well as a group of burdened mules, tied to a bush. The scent of roasted buffalo meat wafts on the air.} {African Savanna} {} {} {} {1.000}
 E {  821} {s} {s} {4} {0} {} {1.000}
 E {  823} {w} {open w;w} {8} {0} {} {1.000}
 
-R {  823} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  823} {0} {} {A Canvas Tent} { } {This tent is quite large and roomy. Shaded by a thorn tree outside, it is a little cooler in here than otherwise expected. The European hunters certainly know how to travel - the furnishings in this tent are comfortable.} {Zanzibar} {} {} {} {1.000}
 E {  822} {e} {open e;e} {2} {0} {} {1.000}
 
-R {  824} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  824} {0} {} {In the Tall Grass} { } {There is a small crest here, from where you can see much of the land around you. To the near east of you, a giant baobab tree looms over the terrain like a sovereign ruler. Northwest of here, the shining waters of Lake Victoria sparkle and glimmer, mirroring the skies above. A dark green forest lies to the northeast, both beautiful and foreboding.} {African Savanna} {} {} {} {1.000}
 E {  821} {e} {e} {2} {0} {} {1.000}
 E {  825} {w} {w} {8} {0} {} {1.000}
 
-R {  825} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  825} {0} {} {A Rhino Trail} { } {A deeply rutted trail cuts through the scrub and grass, an obvious rhinoceros trail. The trail is nearly a foot deep and the surrounding trees bow over it as if in obeisance. The grass alongside the trail would offer a safer place to tread, considering the amount of dung upon the trail itself.} {African Savanna} {} {} {} {1.000}
 E {  824} {e} {e} {2} {0} {} {1.000}
 E {  838} {n} {n} {1} {0} {} {1.000}
 
-R {  826} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  826} {0} {} {A Rhino Trail} { } {The deeply worn rhinoceros trail winds along in a meandering fashion. The grass alongside the path is brown and dried, which is, of course, natural. The occasional breeze sends wide ripples up and down the fields of grass. Yellow blossomed thorn trees also stand nearby the trail.} {African Savanna} {} {} {} {1.000}
 E {  838} {s} {s} {4} {0} {} {1.000}
 E {  827} {n} {n} {1} {0} {} {1.000}
 E {  828} {e} {e} {2} {0} {} {1.000}
 
-R {  827} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  827} {0} {} {A Watering Hole} { } {A small amount of muddy water, probably from some underground source, bubbles up here in a shallow pool, surrounded by rocks and yellow-blossomed thorn trees. The tracks of rhinoceros, antelope, and many other savanna denizens testify to the frequent usage of this rare commodity. The water seems to be only slightly sulphuric and is probably safe for the drinking. At any rate, the animals don't seem to be bothered by it.} {African Savanna} {} {} {} {1.000}
 E {  826} {s} {s} {4} {0} {} {1.000}
 E {  828} {e} {e} {2} {0} {} {1.000}
 E {  829} {n} {n} {1} {0} {} {1.000}
 
-R {  828} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  828} {0} {} {On the Savanna} { } {A low, dusty dirt path cuts through the scrub and bushes, making its way across the fields of brown grass. Dry red soil blows about in the wind. Brilliant blossoms decorate the sides of the path, but the dust that blows in your face makes it impossible to enjoy the beauty of the surroundings.} {African Savanna} {} {} {} {1.000}
 E {  827} {w} {w} {8} {0} {} {1.000}
 E {  832} {e} {e} {2} {0} {} {1.000}
 E {  834} {n} {n} {1} {0} {} {1.000}
 
-R {  829} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  829} {0} {} {A Dried Streambed} { } {You walk alongside what would be a nice stream during the wet season but is now merely a muddy ditch that carves a path through the tall, brown grass. Tufts of weed sprout along the banks of the dead stream. Insects buzz angrily in the hazy air.} {African Savanna} {} {} {} {1.000}
 E {  827} {s} {s} {4} {0} {} {1.000}
 E {  830} {n} {n} {1} {0} {} {1.000}
 
-R {  830} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  830} {0} {} {Along a Small Stream} { } {A trickle of muddy water is mostly soaked into the red soil here. In the rainy season, this would be a fast-moving stream, but at the present, it is only the feeble sliver of water that you see. The stream seems to feed into the large body of water you see to the northwest. To the south, the stream is totally dried up, leaving only a shallow gulf.} {African Savanna} {} {} {} {1.000}
 E {  829} {s} {s} {4} {0} {} {1.000}
 E {  831} {w} {w} {8} {0} {} {1.000}
 
-R {  831} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  831} {0} {} {Lakeside} { } {The waters of Lake Victoria, one of the largest bodies of fresh water in the world, lap at the shore and span to the farthest north you can see. The surface seems a perfect mirror, deep blue in color and reflecting anything over it. Tall reeds of papyrus and other plants grow along the shore. Flocks of colorful birds swoop along and bathe in the cool water.} {African Savanna} {} {} {} {1.000}
 E {  830} {e} {e} {2} {0} {} {1.000}
 
-R {  832} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  832} {0} {} {On the Savanna} { } {A well-worn path of dusty red soil runs in a general east-west direction. There seems to be a clearing of sorts to the east. To the west, the path's final destination is obscured by the scrubby brown grass and blossoming bushes.} {African Savanna} {} {} {} {1.000}
 E {  828} {w} {w} {8} {0} {} {1.000}
 E {  833} {e} {e} {2} {0} {} {1.000}
 
-R {  833} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  833} {0} {} {A Salt Lick} { } {A group of small thorn trees surround a patch of earth worn into deep circles by the animals that come here to lick salt from the dirt. The slightly briny air tickles your nostrils. There are many animal tracks of varying species here, but mostly of kudu bulls and that of an occasional rhinoceros or two.} {African Savanna} {} {} {} {1.000}
 E {  832} {w} {w} {8} {0} {} {1.000}
 
-R {  834} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  834} {0} {} {A Rough Trail} { } {The rough scrub here is a tangle of branches and grass, and the going is nearly impossible. You have to shove your way through the tall grass, and scrabble madly along a trail that barely exists.} {African Savanna} {} {} {} {1.000}
 E {  828} {s} {s} {4} {0} {} {1.000}
 E {  835} {n} {n} {1} {0} {} {1.000}
 
-R {  835} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  835} {0} {} {A Rough Trail} { } {The trail is barely visible here, overgrown with grass and scrub. It bends around a large group of rocks, and heads in a northeast direction. To the south, the trail is overgrown with grass and scrub as well.} {African Savanna} {} {} {} {1.000}
 E {  834} {s} {s} {4} {0} {} {1.000}
 E {  836} {e} {e} {2} {0} {} {1.000}
 
-R {  836} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  836} {0} {} {A Rough Trail} { } {The rough bush gives way to a clear plain of less tangled weeds and grass to the west. North of you, there are no paths or trails, only the endless, never changing landscape of windblown yellow grass, and stunted thorn and baobab trees.} {African Savanna} {} {} {} {1.000}
 E {  835} {w} {w} {8} {0} {} {1.000}
 
-R {  837} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  837} {0} {} {On the Plains} { } {A number of trees break up the monotony of scragly bushes and long grass, growing in larger numbers until they meld into the forest to the north. The hot plains spread in all other directions. Far to the east, snow-topped mountains stand majestically on the horizon. The forest to the north beckons you with the promise of cool shade...} {Zanzibar} {} {} {} {1.000}
 E {  819} {w} {w} {8} {0} {} {1.000}
 E {  839} {s} {s} {4} {0} {} {1.000}
 E {  844} {e} {e} {2} {0} {} {1.000}
@@ -3564,16 +3539,16 @@ R {  838} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  825} {s} {s} {4} {0} {} {1.000}
 E {  826} {n} {n} {1} {0} {} {1.000}
 
-R {  839} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  839} {0} {} {A Dusty Trail} { } {The trail is narrow here, scragly bushes growing thickly on either side. It wanders off into the long grass to the north, and widens to the south. A side trail, if you can call it that, leads to the plains eastward - beyond which are snow-capped mountains.} {Zanzibar} {} {} {} {1.000}
 E {  837} {n} {n} {1} {0} {} {1.000}
 E {  848} {s} {s} {4} {0} {} {1.000}
 E {  843} {e} {e} {2} {0} {} {1.000}
 
-R {  840} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  840} {0} {} {A Path Among the Hills} { } {The path you follow steadily climbs into the foothills of the Kilimanjaro. Large formations of rocks, shaped somewhat like overripe melons split asunder, dot the landscape frequently. Assorted trees also decorate the hills, their far-reaching branches grasping at the blue sky above. Small animals dart from tree to tree, and occasionally, you feel the gaze of larger denizens of the wilderness linger on you.} {African Savanna} {} {} {} {1.000}
 E {  152} {s} {s} {4} {0} {} {1.000}
 E {  841} {n} {n} {1} {0} {} {1.000}
 
-R {  841} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  841} {0} {} {Among the Hills} { } {Small lizards dart from your path and hide in the shadows of the craggy hills. The trail you are on is becoming increasingly difficult to follow, as it winds its way through the rough terrain. North of you, the path becomes even more treacherous, as it leads up into the mountains. South of you, the trail descends into a series of gentler, green hills, and eventually onto the endless African plain.} {African Savanna} {} {} {} {1.000}
 E {  840} {s} {s} {4} {0} {} {1.000}
 E {  847} {n} {n} {1} {0} {} {1.000}
 
@@ -3581,12 +3556,12 @@ R {  842} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  152} {e} {e} {2} {0} {} {1.000}
 E {  845} {w} {w} {8} {0} {} {1.000}
 
-R {  843} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  843} {0} {} {On the Plains} { } {Limp, scraggly bushes and skeletal thorn trees provide for variance in the landscape. A green line on the northern horizon promises the cool recesses of a large forest. The land seems to become increasingly hilly to the east of you.} {African Savanna} {} {} {} {1.000}
 E {  839} {w} {w} {8} {0} {} {1.000}
 E {  844} {n} {n} {1} {0} {} {1.000}
 E {  846} {e} {e} {2} {0} {} {1.000}
 
-R {  844} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  844} {0} {} {Edge of the Plains} { } {Sporadic growths of leafy trees finally give way to a forest to the north of you. On one hand, the forest seems to offer a great deal of cool shade, which would be a welcome respite from the hot savanna sun, but on the other hand, there are no doubt others that also enjoy the dark and cool confines of the forest, such as innumerable predators and animals capable of doing you no small amount of harm.} {African Savanna} {} {} {} {1.000}
 E {  843} {s} {s} {4} {0} {} {1.000}
 E {  837} {w} {w} {8} {0} {} {1.000}
 E {  865} {n} {n} {1} {0} {} {1.000}
@@ -3595,11 +3570,11 @@ R {  845} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  842} {e} {e} {2} {0} {} {1.000}
 E {  153} {w} {w} {8} {0} {} {1.000}
 
-R {  846} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  846} {0} {} {Among the Hills} { } {The land here rises and falls gently, as if a great green ocean. Leafy deciduous trees, in full bloom, dot the hillsides in large groups. Mountains rise to their majestic peaks to the east of you, while the brown grasses of the savanna start where the hills end, to your west.} {African Savanna} {} {} {} {1.000}
 E {  843} {w} {w} {8} {0} {} {1.000}
 E {  847} {e} {e} {2} {0} {} {1.000}
 
-R {  847} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  847} {0} {} {In the Mountains} { } {The trail is dangerously narrow. The footing here is extremely unstable, rocks frequently tumble over the edge of the rock ledge. The stones on the trail are sharp - stumbling would be painful, and even walking on them with no shoes or thins shoes would hurt. A lonely vista, the only sounds not made by you come from birds occasionally screeching overhead.} {African Savanna} {} {} {} {1.000}
 E {  841} {s} {s} {4} {0} {} {1.000}
 E {  846} {w} {w} {8} {0} {} {1.000}
 E {  853} {n} {n} {1} {0} {} {1.000}
@@ -3620,7 +3595,7 @@ R {  851} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  850} {n} {n} {1} {0} {} {1.000}
 E {  798} {s} {s} {4} {0} {} {1.000}
 
-R {  852} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  852} {0} {} {Climbing a Steep Trail} { } {The trail follows a very narrow ledge here, precariously curving around a jut in the rock face. Beyond the curve, the trail splits. Moss clings to the rock, growing thickest where there are pocks and cracks. To the north, are rocky hills. South leads to the mountains, and east leads up a steep slope.} {African Savanna} {} {} {} {1.000}
 E {  862} {s} {s} {4} {0} {} {1.000}
 E {  863} {e} {e} {2} {0} {} {1.000}
 E {  864} {n} {n} {1} {0} {} {1.000}
@@ -3645,19 +3620,19 @@ R {  857} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  856} {w} {w} {8} {0} {} {1.000}
 E {  163} {e} {e} {2} {0} {} {1.000}
 
-R {  858} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  858} {0} {} {The Hills of Eritrea} { } {You are surrounded by low hills made of sharp black rocks created from the great African rift. A carpet of thick green grass extends for miles around, with rare lone, low trees and tufts of even thicker grass.} {King Solomon's Mines} {} {} {} {1.000}
 E {  167} {e} {e} {2} {0} {} {1.000}
 E {  859} {w} {w} {8} {0} {} {1.000}
 
-R {  859} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  859} {0} {} {The Hills of Eritrea} { } {You are surrounded by low hills made of sharp black rocks created from the great African rift. A carpet of thick green grass extends for miles around, with rare lone, low trees and tufts of even thicker grass.} {King Solomon's Mines} {} {} {} {1.000}
 E {  858} {e} {e} {2} {0} {} {1.000}
 E {  860} {s} {s} {4} {0} {} {1.000}
 E {  861} {n} {n} {1} {0} {} {1.000}
 
-R {  860} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  860} {0} {} {Among Tangled Trees} { } {The flora grows fast and dense along the coastline, protecting the shoreline with a thick jungle between the hilly back-country of Eritrea and the coast. Animal noises echo all around you.} {King Solomon's Mines} {} {} {} {1.000}
 E {  859} {n} {n} {1} {0} {} {1.000}
 
-R {  861} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  861} {0} {} {Among Tangled Trees} { } {The flora grows fast and dense along the coastline, protecting the shoreline with a thick jungle between the hilly back-country of Eritrea and the coast. Animal noises echo all around you. In the midst of tangled trees and branches you spot a large stone statue on the ground, all covered in moss that seems to come from another age.} {King Solomon's Mines} {} {} {} {1.000}
 E {  859} {s} {s} {4} {0} {} {1.000}
 E { 1303} {kneel statue} {kneel statue;st} {0} {0} {} {1.000}
 
@@ -3665,93 +3640,93 @@ R {  862} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  853} {s} {s} {4} {0} {} {1.000}
 E {  852} {n} {n} {1} {0} {} {1.000}
 
-R {  863} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  863} {0} {} {Climbing a Steep Trail} { } {The narrow trail winds along up the mountainside on a northerly path. It stretches up the mountain above and disappears around the side. The path is wider and easier to the west, down the mountain...} {African Savanna} {} {} {} {1.000}
 E {  852} {w} {w} {8} {0} {} {1.000}
 
-R {  864} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  864} {0} {} {Rocky Hills} { } {The craggy hills and malformed rock formations give this area the appearance of an utterly desolate wasteland. Surprisingly, though, quite a few species of animals are capable of surviving even in these harsh conditions, like the lizards scrambling to hide as you pass by. North of you, trees sparsely cover a hill.} {African Savanna} {} {} {} {1.000}
 E {  852} {s} {s} {4} {0} {} {1.000}
 
-R {  865} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  865} {0} {} {In the Forest} { } {Giant heather trees tower over you, moss cascading from their branches. A thick layer of green fungus carpets the forest floor beneath the dense ferns. The trees grow all around you, but to the south, they thin just enough for you to see the wide-open plains beyond.} {Zanzibar} {} {} {} {1.000}
 E {  819} {s} {s} {4} {0} {} {1.000}
 
-R {  866} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  866} {0} {} {A Berth on the Wharf} { } {To the west of you is the wharf that leads into town... a dirty, revolting little town, a place where a cut throat sells for a very low price. South of you are the open seas. This berth is left open for whoever cares to use it, meaning pirates, or people like yourself: carefree adventurers with few morals and their own boat.} {Bengal} {} {} {} {1.000}
 E {  175} {w} {w} {8} {0} {} {1.000}
 E {  173} {s} {s} {4} {0} {} {1.000}
 
-R {  867} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  867} {0} {} {A Berth on the Wharf} { } {This berth is reserved for ships on the London-Bengal trade route, making the dangerous trip around the Cape of Good Hope and up the coast of Africa. It offers a magnificent view of the pathetic little town before you--squalid, dirty houses, cruel colonials, ruthless men... South lies the open sea, and the wharf is east.} {Bengal} {} {} {} {1.000}
 E {  176} {e} {e} {2} {0} {} {1.000}
 E {  173} {s} {s} {4} {0} {} {1.000}
 
-R {  868} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  868} {0} {} {A Berth on the Wharf} { } {This berth is reserved for ships entering the most deadly seas in the world: the South Seas, the Pacific and the maze of Malayan islands that must be traversed to reach Macao and Hong Kong. South lies the path to that terrible passage. More prosaically, the wharf itself and the squalid little town whose reason for existence is opium are to the east.} {Bengal} {} {} {} {1.000}
 E {  175} {e} {e} {2} {0} {} {1.000}
 E {  173} {s} {s} {4} {0} {} {1.000}
 
-R {  869} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  869} {0} {} {The West Side of the Bay} { } {North and west of you are two berths reserved for shipping--west is where ships on the London leg of the long China trade journey tie up, and north is where ships bound for the South Seas dock. To the east lies the entrance to this gorgeous, crystal blue bay; a bay marred only by the smudge of a town that occupies its north shore.} {Bengal} {} {} {} {1.000}
 E {  173} {e} {e} {2} {0} {} {1.000}
 E {  868} {n} {n} {1} {0} {} {1.000}
 E {  867} {w} {w} {8} {0} {} {1.000}
 
-R {  870} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  870} {0} {} {On the Docks} { } {A cruel and unusual sight greets your eyes. Some enterprising but evil person has lined up cages worth of animals from the northern jungle and brought them here for display. There are chattering monkeys, a proud but dying kite pining for the skies, and even a Bengal tiger. The entrance to the tiger's cage is directly north of you. The docks lead east and west from here. The glorious blue ocean is south of you, a bay full of clipper ships collecting opium for the China trade.} {Bengal} {} {} {} {1.000}
 E {  177} {e} {e} {2} {0} {} {1.000}
 E {  871} {w} {w} {8} {0} {} {1.000}
 
-R {  871} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  871} {0} {} {In Front of an Opium Dealer's} { } {Directly north of you, you can see a huge warehouse that does nothing but refine the poppies from the interior of this sultry country into the heavy liquid that is opium. The wide door to the establishment is wide open, as if the owners know full well how much of a market there is for the drug. The docks continue to the east.} {Bengal} {} {} {} {1.000}
 E {  870} {e} {e} {2} {0} {} {1.000}
 E {  872} {n} {n} {1} {0} {} {1.000}
 
-R {  872} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  872} {0} {} {An Opium Warehouse} { } {The sweet smell of poppies and opium greets your nostrils as you walk into this establishment. Behind a counter you can see workers diligently picking the petals off of poppies and handing them to other people who work their magic in a back room, rendering out the liquid that sells for such a high price. The bodies of the workers are pathetically thin. A wide door leads south onto the docks.} {Bengal} {} {} {} {1.000}
 E {  871} {s} {s} {4} {0} {} {1.000}
 
-R {  873} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  873} {0} {} {In the Provisioner's} { } {A large room offering countless bits of rotting and supposedly fresh vegetables, the provisioner's also sells slightly safer fare. It is the only reliable market in this place, selling everything from food to clothing. A doorway leads west to a back room where more ominous things are sold.} {Bengal} {} {} {} {1.000}
 E {  178} {s} {s} {4} {0} {} {1.000}
 E {  874} {w} {w} {8} {0} {} {1.000}
 
-R {  874} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  874} {0} {} {The Weapons Room} { } {This back room looks like it's mostly frequented by murderers and cutthroats. The amount of instruments of death sold here is quite impressive. There are no windows and only one door leading out. You wonder who might be hiding in the shadows, waiting until they see the color of your money...} {Bengal} {} {} {} {1.000}
 E {  873} {e} {e} {2} {0} {} {1.000}
 
-R {  875} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  875} {0} {} {A Dirt Road} { } {Despite all the efforts of the English, this road refuses to become more civilized. It is still a mud pit spread across the miles north into the Seoni district, where the jungle looms dank and dark. To the west, a small port has been carved out of the coastline, a common stop for the opium vendors on their way to poisoning the Chinese in exchange for tea.} {Seoni Jungle India} {} {} {} {1.000}
 E {  178} {w} {w} {8} {1} {} {1.000}
 E { 5888} {n} {n} {1} {0} {} {1.000}
 
-R {  876} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  876} {0} {} {A Dirt Road} { } {To both sides of you, jungle and grasslands meet and clash. The constant struggle of nature to recapture the cultivated fields is an ongoing drama in the lives of these peasants, as they hack away at encroaching vines, trying to preserve their barley from the trampling sambhur and choking jungle plants.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5888} {s} {s} {4} {0} {} {1.000}
 E { 5889} {n} {n} {1} {0} {} {1.000}
 
-R {  877} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  877} {0} {} {A Dirt Road} { } {The road here turns south and east, as the jungle grows deeper. It is from this point south that the English maintain their colonial control--everything north of here is still far from the quaint ideas they have of justice and reality. North of here the Seoni district begins, and the jungle breathes with its own rhythms and its own reasons.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5889} {s} {s} {4} {0} {} {1.000}
 E {  878} {e} {e} {2} {0} {} {1.000}
 
-R {  878} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  878} {0} {} {A Dirt Road} { } {Here the road kinks, turning past the dense jungle to bear both west and north. Occasional ruts of wheels show where villagers from the deep Seoni carry goods to the port for market, but for the most part this road is just a knife cut through the jungle, and no amount of use will ever claim it fully from its source.} {Seoni Jungle India} {} {} {} {1.000}
 E {  877} {w} {w} {8} {0} {} {1.000}
 E { 5851} {n} {n} {1} {0} {} {1.000}
 
-R {  879} {0} {} {A Dirt Road} { } {Overhanging foliage and the chattering of monkeys makes this slender muddy road seem like a canyon watched over by insane jabbering ghosts... not a place you'd choose to spend the night in, not a place to dream about the phantom black panther that can sleekly sneak out of the jungle and stand over your campfires with dripping jowls, wet from the kill... even in the day this road has the feel of a road into the unknown, like traveling down the gullet of some vast animal you do not comprehend. North and south, the road goes, north and south, jungle, jungle, and more jungle...} {Seoni Jungle India } {} {} {} {1.000}
+R {  879} {0} {} {A Dirt Road} { } {Overhanging foliage and the chattering of monkeys makes this slender muddy road seem like a canyon watched over by insane jabbering ghosts... not a place you'd choose to spend the night in, not a place to dream about the phantom black panther that can sleekly sneak out of the jungle and stand over your campfires with dripping jowls, wet from the kill... even in the day this road has the feel of a road into the unknown, like traveling down the gullet of some vast animal you do not comprehend. North and south, the road goes, north and south, jungle, jungle, and more jungle...} {Seoni Jungle India} {} {} {} {1.000}
 E { 5851} {s} {s} {4} {0} {} {1.000}
 E { 5852} {n} {n} {1} {0} {} {1.000}
 
-R {  880} {0} {} {A Dirt Road} { } {Directly west of you a small village sits, like a patch of sanity amidst the rioting jungle. Wavy amber fields surround the village, but quickly give way to the Seoni jungle that encroaches on all sides. A road leads north and south through the wilderness, and should prove reasonably free of man-eating tigers.} {Seoni Jungle India } {} {} {} {1.000}
+R {  880} {0} {} {A Dirt Road} { } {Directly west of you a small village sits, like a patch of sanity amidst the rioting jungle. Wavy amber fields surround the village, but quickly give way to the Seoni jungle that encroaches on all sides. A road leads north and south through the wilderness, and should prove reasonably free of man-eating tigers.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5852} {s} {s} {4} {0} {} {1.000}
 E {  881} {w} {w} {8} {0} {} {1.000}
 E { 5657} {n} {n} {1} {0} {} {1.000}
 
-R {  881} {0} {} {Entering a Village} { } {The small village of Khanhiwara lies to the west of you, the heart of this part of the Seoni district. At one end of the ploughed lands stands the village, and at the other the thick jungle comes down in a sweep to the grazing-grounds, and stops there as if cut off by a hoe. All over the plain, cattle and buffaloes are grazing. The gate to the village is normally closed by dragging a large thorn-bush in front of it. Directly north of you sits a small hut.} {Seoni Jungle India } {} {} {} {1.000}
+R {  881} {0} {} {Entering a Village} { } {The small village of Khanhiwara lies to the west of you, the heart of this part of the Seoni district. At one end of the ploughed lands stands the village, and at the other the thick jungle comes down in a sweep to the grazing-grounds, and stops there as if cut off by a hoe. All over the plain, cattle and buffaloes are grazing. The gate to the village is normally closed by dragging a large thorn-bush in front of it. Directly north of you sits a small hut.} {Seoni Jungle India} {} {} {} {1.000}
 E {  880} {e} {e} {2} {0} {} {1.000}
 E {  882} {w} {w} {8} {0} {} {1.000}
 E { 5637} {n} {n} {1} {0} {} {1.000}
 
-R {  882} {0} {} {In Khanhiwara} { } {The sacred peepul-tree is by far the most notable thing here in this village of Khanhiwara. It stands, thick and leafy, roots forming dark hollows where you know, by tradition, the village's sacred cobra hides. North of you is the village's granary, where they place some of every harvest in order to save up for lean years. The dusty village continues to the east and west.} {Seoni Jungle India } {} {} {} {1.000}
+R {  882} {0} {} {In Khanhiwara} { } {The sacred peepul-tree is by far the most notable thing here in this village of Khanhiwara. It stands, thick and leafy, roots forming dark hollows where you know, by tradition, the village's sacred cobra hides. North of you is the village's granary, where they place some of every harvest in order to save up for lean years. The dusty village continues to the east and west.} {Seoni Jungle India} {} {} {} {1.000}
 E {  881} {e} {e} {2} {0} {} {1.000}
 E {  883} {s} {s} {4} {0} {} {1.000}
 E { 5241} {w} {w} {8} {0} {} {1.000}
 E { 5243} {n} {n} {1} {0} {} {1.000}
 
-R {  883} {0} {} {In a Hut} { } {The thatch roof of this adobe hut is somewhat in disrepair, and the shutters are falling off the large windows. If the owner of this hut isn't careful, a tiger may creep in one night and steal a life. An exit leads north to the square in the village.} {Seoni Jungle India } {} {} {} {1.000}
+R {  883} {0} {} {In a Hut} { } {The thatch roof of this adobe hut is somewhat in disrepair, and the shutters are falling off the large windows. If the owner of this hut isn't careful, a tiger may creep in one night and steal a life. An exit leads north to the square in the village.} {Seoni Jungle India} {} {} {} {1.000}
 E {  882} {n} {n} {1} {0} {} {1.000}
 
 R {  884} {0} {} {A Ford on Kulawahe River} { } {The rushing waters of the Kulawahe River flow here, a rocky ford allowing passage across. To the west, the green hills leave place to a barren plain, a hopeless wasteland filled with dangers.} {King Solomon's Mines } {} {} {} {1.000}
 E {  885} {n} {n} {1} {0} {} {1.000}
 
-R {  885} {0} {} {} { } {A foot-wide creek used to snake here, coming from the nearby mountains but has completely dried out under the sun and the rocky dust covering these barren plains.} {King Solomon's Mines } {} {} {} {1.000}
+R {  885} {0} {} {By a Dried Out Creek} { } {A foot-wide creek used to snake here, coming from the nearby mountains but has completely dried out under the sun and the rocky dust covering these barren plains.} {King Solomon's Mines} {} {} {} {1.000}
 E {  884} {s} {s} {4} {0} {} {1.000}
 E {  886} {n} {n} {1} {0} {} {1.000}
 E { 1244} {e} {open e;e} {2} {0} {} {1.000}
@@ -4356,7 +4331,7 @@ E { 6109} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 1031} {0} {} {London Bridge} { } {Ambling along the bridge, you marvel at the daring of the inhabitants who live here. You doubt that a bridge could be an overly safe place during times of war since it presents an obvious target to those who would besiege London\; the large gate at the south end seems scarcely heavy enough to keep out local thieves, let alone an army of Spanish soldiers. As you muse on these grave thoughts, the colorful striped pole of a barber-surgeon attracts your eye. You also notice a narrow stair which leads downward.} {Tudor England } {} {} {} {1.000}
 E { 1030} {n} {n} {1} {0} {} {1.000}
-E {  417} {d} {d} {32} {0} {} {1.000}
+E {  417} {d} {d} {32} {1} {} {1.000}
 E { 1037} {u} {open u;u} {16} {0} {} {1.000}
 E { 1038} {s} {open s;s} {4} {0} {} {1.000}
 E { 5240} {w} {w} {8} {1} {} {1.000}
@@ -4405,7 +4380,7 @@ E { 1042} {e} {e} {2} {0} {} {1.000}
 
 R { 1042} {0} {} {On the Cliffs of Dover} { } {You stand not atop the cliffs, but on a narrow and rocky beach alongside the cliffs, where boats come in to make a landing. The water here is washing gently along the rocks, but it still looks as gray and cold as the English Channel has throughout history. A well-trod road leads north and an ancient Roman road goes west from here. A small treacherous path leads down to the sandy beach below.} {Medieval Britain } {} {} {} {1.000}
 E { 1041} {w} {w} {8} {0} {} {1.000}
-E { 1051} {d} {d} {32} {0} {} {1.000}
+E { 1051} {d} {d} {32} {1} {} {1.000}
 
 R { 1043} {0} {} {An Ale House} { } {The loud songs and shouts of the patrons greet your ears, and your nose is assaulted by the scent of unwashed bodies. From their unshaven and bleary look, some of the men have been drinking here for days on end. Long, crudely finished wooden tables fill the room, the straw beneath them damp and discolored from spilt ale. Although the proprietor is eager to take your money and fill your cup, there is something oddly guarded about his manner.} {Tudor England } {} {} {} {1.000}
 E { 1040} {w} {open w;w} {8} {0} {} {1.000}
@@ -4425,10 +4400,10 @@ E { 1047} {w} {w} {8} {0} {} {1.000}
 
 R { 1047} {0} {} {Before the Globe Theatre} { } {The Globe rises up before you, looking almost like a wide roll of parchment, or an egg. Its high, plastered walls are half crowned by a thatch of straw, on top of which perches a cannon. Although the Globe looks round from a distance, it is actually octagonal, the timber of its walls too weak to be curved. Originally built north of the river in London, it was dismantled and rebuilt on this site less than ten years ago. Although several other theatres have followed the Globe across the river, it still draws massive crowds for its sundry comedies and dramas performed by the Chamberlain's Men.} {Tudor England } {} {} {} {1.000}
 E { 1046} {e} {e} {2} {0} {} {1.000}
-E { 1048} {n} {open n;n} {1} {1} {} {1.000}
+E { 1048} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 1048} {0} {} {Entrance Way} { } {The entrance way is badly lit, and the timbers of its walls are rough and rudely hewn. The floor is littered with bit of straw, mud, and other matter tracked in by the Globe's audiences. A doorway to the right leads to the stairs that climb up to the galleries. One may also view performances from the courtyard, through a doorway on the left.} {Tudor England } {} {} {} {1.000}
-E { 1047} {s} {open s;s} {4} {1} {} {1.000}
+E { 1047} {s} {open s;s} {4} {0} {} {1.000}
 E { 1049} {w} {w} {8} {0} {} {1.000}
 E { 6118} {u} {u} {16} {1} {} {1.000}
 
@@ -4437,7 +4412,7 @@ E { 1048} {e} {e} {2} {0} {} {1.000}
 E { 6110} {s} {s} {4} {0} {} {1.000}
 E { 6113} {u} {u} {16} {0} {} {1.000}
 
-R { 1050} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1050} {0} {} {The Bear Baiting Pit} { } {The pit itself is dark, lit only by the light of the torches in the walls of the building above it. In the center, a large iron pole is embedded, to which the bear is chained. The floor is layered with straw, on top of which lies the litter of the various bits of food, bone, and other matter thrown down into the pit by the spectators above.} {Tudor England} {} {} {} {1.000}
 E { 1045} {u} {u} {16} {0} {} {1.000}
 
 R { 1051} {10} {} {} { } {} {} {} {} {} {1.000}
@@ -4632,16 +4607,16 @@ E { 1104} {w} {w} {8} {0} {} {1.000}
 E { 2187} {e} {e} {2} {0} {} {1.000}
 E { 4830} {n} {n} {1} {0} {} {1.000}
 
-R { 1094} {0} {} {In the Caribbean} { } {The turquoise waves rise and fall in a slow even tempo in all directions. According to your charts, traveling southwest will take you further into the Caribbean. The Windward Passage will take you north and on to the Atlantic Ocean. To the east, there are a few small islands marked in on the charts. Perhaps they might be worth exploring.} {Pirate Caribbean } {} {} {} {1.000}
+R { 1094} {0} {} {In the Caribbean} { } {The turquoise waves rise and fall in a slow even tempo in all directions. According to your charts, traveling southwest will take you further into the Caribbean. The Windward Passage will take you north and on to the Atlantic Ocean. To the east, there are a few small islands marked in on the charts. Perhaps they might be worth exploring.} {Pirate Caribbean} {} {} {} {1.000}
 E {  460} {e} {e} {2} {0} {} {1.000}
 E { 1103} {s} {s} {4} {0} {} {1.000}
 
-R { 1095} {0} {} {In the Caribbean} { } {Far to the west must lie Mexico, where the tribes are always rebellious. But here the waters are peaceful and crystal-clear and fresh breezes greet your nostrils. The clouds scud across the wide open sky, on their own sea journeys.} {Pirate Caribbean } {} {} {} {1.000}
+R { 1095} {0} {} {In the Caribbean} { } {Far to the west must lie Mexico, where the tribes are always rebellious. But here the waters are peaceful and crystal-clear and fresh breezes greet your nostrils. The clouds scud across the wide open sky, on their own sea journeys.} {Pirate Caribbean} {} {} {} {1.000}
 E { 1103} {n} {n} {1} {0} {} {1.000}
 E { 1096} {w} {w} {8} {0} {} {1.000}
 E { 1101} {e} {e} {2} {0} {} {1.000}
 
-R { 1096} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1096} {0} {} {Off the Coast of Jamaica} { } {North of you is a gem of a green island, pristine and mostly uninhabited. Unfortunately, it has nothing to offer you except pretty scenery. Deeper into the Caribbean, to the east, are verdant islands with better things to offer the covetous heart... South of you lies the continent of South America.} {Pirate Caribbean} {} {} {} {1.000}
 E { 1095} {e} {e} {2} {0} {} {1.000}
 E { 1097} {s} {s} {4} {0} {} {1.000}
 
@@ -6198,13 +6173,13 @@ E { 1458} {u} {u} {16} {0} {} {1.000}
 R { 1458} {0} {<029>} {A Pocket of Air!} {I} {For some reason a bubble of air has formed here in the attic of the old house. For some time, you will be able to breathe and rest here.} {Ys } {pocket} {} {} {1.000}
 E { 1457} {d} {d} {32} {0} {} {1.000}
 
-R { 1459} {0} {} {The Grand Place} { } {All main avenues of the vast city meet here, in a great place at the heart of sunken Ys, the forgotten sinful home of the Breton princess Dahut. At the time of its splendor, this grand plaza was probably filled with merchant stalls, poets, and politicians exhorting the citizens with a few verses or brilliant speeches. The place is now filled with muddy brown sand and tufts of seaweed.} {Ys } {pale} {} {} {1.000}
+R { 1459} {0} {} {The Grand Place} { } {All main avenues of the vast city meet here, in a great place at the heart of sunken Ys, the forgotten sinful home of the Breton princess Dahut. At the time of its splendor, this grand plaza was probably filled with merchant stalls, poets, and politicians exhorting the citizens with a few verses or brilliant speeches. The place is now filled with muddy brown sand and tufts of seaweed.} {Ys} {pale} {} {} {1.000}
 E { 1456} {e} {e} {2} {0} {} {1.000}
 E { 1461} {n} {n} {1} {0} {} {1.000}
 E { 1505} {w} {w} {8} {0} {} {1.000}
 E { 1506} {s} {s} {4} {0} {} {1.000}
 
-R { 1460} {0} {} {Entrance to Lexobie, Quarter of Sins} { } {You stand at the entrance of the dangerous quarter of Lexobie, which hosted the cutthroats and whores of the city, which proliferated in the last years of Ys, under the unholy influence of the princess Dahut. Lexobie lies to the north, up the hill that leads to the bell tower and is made of narrow dark streets where wealthy visitors to Lexobie services could hide from their family eyes.} {Ys } {} {} {} {1.000}
+R { 1460} {0} {} {Entrance to Lexobie, Quarter of Sins} { } {You stand at the entrance of the dangerous quarter of Lexobie, which hosted the cutthroats and whores of the city, which proliferated in the last years of Ys, under the unholy influence of the princess Dahut. Lexobie lies to the north, up the hill that leads to the bell tower and is made of narrow dark streets where wealthy visitors to Lexobie services could hide from their family eyes.} {Ys} {} {} {} {1.000}
 E { 1462} {s} {s} {4} {0} {} {1.000}
 E { 1463} {e} {e} {2} {0} {} {1.000}
 E { 1482} {n} {n} {1} {0} {} {1.000}
@@ -6218,43 +6193,43 @@ R { 1462} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 1461} {s} {s} {4} {0} {} {1.000}
 E { 1460} {n} {n} {1} {0} {} {1.000}
 
-R { 1463} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1463} {0} {} {Entrance to Lexobie, Quarter of Sins} { } {You stand at the entrance of the dangerous quarter of Lexobie, which hosted the cutthroats and whores of the city, which proliferated in the last years of Ys, under the unholy influence of the princess Dahut. Lexobie lies to the north, up the hill that leads to the bell tower and is made of narrow dark streets where wealthy visitors to Lexobie services could hide from their family eyes.} {Ys} {} {} {} {1.000}
 E { 1460} {w} {w} {8} {0} {} {1.000}
 E { 1464} {s} {s} {4} {0} {} {1.000}
 E { 1483} {n} {n} {1} {0} {} {1.000}
 
-R { 1464} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1464} {0} {} {A Dark Cul-de-Sac} { } {The street ends here in the darkness of Lexobie alleys. A huge pile of trash remains dumped at the end of the street, unmoved by the tide or strong underwater currents.} {Ys} {} {} {} {1.000}
 E { 1463} {n} {n} {1} {0} {} {1.000}
 
-R { 1465} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1465} {0} {} {A Crossroads of Alleys} { } {The narrow and dark streets of Lexobie come here to a crossroads, not far away from the entrance to the fortified barracks of the city guards. Here and there schools of sardines and mackerels pass around you, reminding you that you are underwater.} {Ys} {} {} {} {1.000}
 E { 1483} {s} {s} {4} {0} {} {1.000}
 E { 1466} {n} {n} {1} {0} {} {1.000}
 E { 1467} {e} {open e;e} {2} {0} {} {1.000}
 
-R { 1466} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1466} {0} {} {Strolling in Lexobie} { } {You move through the cold waters that drown the dangerous streets of Ys most dangerous and sinful quarter, Lexobie. Know for its whores and other less recommendable services, Lexobie contributed to the sulfurous reputation of the city and the blame from the angry clergy.} {Ys} {} {} {} {1.000}
 E { 1465} {s} {s} {4} {0} {} {1.000}
 E { 1469} {w} {w} {8} {0} {} {1.000}
 E { 1470} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 1467} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1467} {0} {} {Inside the Guards Barracks} { } {This fortified house has been built like a castle with narrow hallways and thick stone walls. Rotten banners bearing the city's arms still float in the inner courtyard that hosted the elite battalion of Ys guards. Alas, when the city fell under the grasp of Dahut, the proximity of the Lexobie whores distracted the fierce guards from their important mission.} {Ys} {} {} {} {1.000}
 E { 1465} {w} {open w;w} {8} {0} {} {1.000}
 E { 1468} {e} {e} {2} {0} {} {1.000}
 
-R { 1468} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1468} {0} {} {Inside a Simple Jail} { } {A simple jail has been setup in a room adjacent to the barracks. It is probably meant to serve for simpler crimes that do not require sending criminals to the prison of Ys. The room is dark and totally flooded with seaweed pilling up in the absence of currents.} {Ys} {} {} {} {1.000}
 E { 1467} {w} {w} {8} {0} {} {1.000}
 
-R { 1469} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1469} {0} {} {A Narrow Street in Lexobie} { } {You stand in a shadowy and narrow street, especially built this way so that visitors to Lexobie would risk less meeting relatives as they spent time in this place of sins. It probably also served interests of the thieves guild who preyed on the same visitors.} {Ys} {} {} {} {1.000}
 E { 1466} {e} {e} {2} {0} {} {1.000}
 E { 1471} {n} {open n;n} {1} {0} {} {1.000}
 E { 1472} {w} {w} {8} {0} {} {1.000}
 
-R { 1470} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1470} {0} {} {Inside a Simple House} { } {You stand inside what was a wooden house belonging to the poor in the dangerous quarter of Lexobie. The roof of this abode has probably been washed away when the sea flooded the city and now weed float inside the house, obscuring vision.} {Ys} {} {} {} {1.000}
 E { 1466} {s} {open s;s} {4} {0} {} {1.000}
 
-R { 1471} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1471} {0} {} {A House in Ys} { } {You stepped inside the flooding building of what was a townsfolk house in the city of Ys. The house is well furnished and quite vast, but now totally under water. Cupboards, rugs, and wooden chairs float inside the house, suspended mid-air by some magic. The waters are cold and dark.} {Ys} {} {} {} {1.000}
 E { 1469} {s} {open s;s} {4} {0} {} {1.000}
 
-R { 1472} {0} {} {Under the Shadow of the Watchtower} { } {When you face the north from this intersection, the water is suddenly colder as you bask under the shadow of a massive bell tower, once used by the city guard to call on any invaders or threats to the city. The powerful bell has not rung in many years, and its doors are blocked by some powerful spell.} {Ys } {} {} {} {1.000}
+R { 1472} {0} {} {Under the Shadow of the Watchtower} { } {When you face the north from this intersection, the water is suddenly colder as you bask under the shadow of a massive bell tower, once used by the city guard to call on any invaders or threats to the city. The powerful bell has not rung in many years, and its doors are blocked by some powerful spell.} {Ys} {} {} {} {1.000}
 E { 1469} {e} {e} {2} {0} {} {1.000}
 E { 1473} {n} {n} {1} {0} {} {1.000}
 E { 1474} {w} {w} {8} {0} {} {1.000}
@@ -6263,29 +6238,29 @@ R { 1473} {0} {} {Before the Ruined Watchtower} { } {The old watchtower of the c
 E { 1472} {s} {s} {4} {0} {} {1.000}
 E { 1528} {n} {n} {1} {0} {} {1.000}
 
-R { 1474} {0} {} {On a Street, Towards the Watchtower} { } {The vast quarter of Lexobie lies to the south, on the slopes of the small hill inside the city on top of which culminates the old bell tower of Ys. The tower still culminates above the city in the distance, its top almost scratching the surface of the ocean.} {Ys } {} {} {} {1.000}
+R { 1474} {0} {} {On a Street, Towards the Watchtower} { } {The vast quarter of Lexobie lies to the south, on the slopes of the small hill inside the city on top of which culminates the old bell tower of Ys. The tower still culminates above the city in the distance, its top almost scratching the surface of the ocean.} {Ys} {} {} {} {1.000}
 E { 1472} {e} {e} {2} {0} {} {1.000}
 E { 1475} {w} {open w;w} {8} {0} {} {1.000}
 E { 1476} {s} {s} {4} {0} {} {1.000}
 
-R { 1475} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1475} {0} {} {The Brothel de Monsieur} { } {The front porch of this house is painted with erotic scenes that make it very obvious what kind of establishment is at business here. The inside of the house is organized in small rooms or cubicles where customers would get some privacy with the house hosts.} {Ys} {} {} {} {1.000}
 E { 1474} {e} {open e;e} {2} {0} {} {1.000}
 
-R { 1476} {0} {} {At Lexobie Speaker Corner} { } {A simple white stone lies here at the corner of the street where simple citizens of Ys could stand on and speak out their minds or political opinions, indicating the strong influence of Athens philosophers in Ys and the early concepts of democracy.} {Ys } {} {} {} {1.000}
+R { 1476} {0} {} {At Lexobie Speaker Corner} { } {A simple white stone lies here at the corner of the street where simple citizens of Ys could stand on and speak out their minds or political opinions, indicating the strong influence of Athens philosophers in Ys and the early concepts of democracy.} {Ys} {} {} {} {1.000}
 E { 1474} {n} {n} {1} {0} {} {1.000}
 E { 1477} {e} {e} {2} {0} {} {1.000}
 E { 1481} {s} {s} {4} {0} {} {1.000}
 
-R { 1477} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1477} {0} {} {At the Lexobie Agora} { } {The Agora, or meeting place, name is given here to a small plaza in the middle of the dangerous Lexobie quarter. This was a place where cutthroats would gather and plan their next attack or where pimps gathered payment from their... employees.} {Ys} {} {} {} {1.000}
 E { 1476} {w} {w} {8} {0} {} {1.000}
 E { 1478} {e} {e} {2} {0} {} {1.000}
 E { 1484} {s} {open s;s} {4} {0} {} {1.000}
 
-R { 1478} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1478} {0} {} {A Narrow Street in Lexobie} { } {You stand in a shadowy and narrow street, especially built this way so that visitors to Lexobie would risk less meeting relatives as they spent time in this place of sins. It probably also served interests of the thieves guild who preyed on the same visitors.} {Ys} {} {} {} {1.000}
 E { 1477} {w} {w} {8} {0} {} {1.000}
 E { 1482} {s} {s} {4} {0} {} {1.000}
 
-R { 1479} {0} {} {On a Street, Towards the Watchtower} { } {The vast quarter of Lexobie lies to the north, on the slopes of the small hill inside the city on top of which culminates the old bell tower of Ys. The tower still culminates above the city in the distance, its top almost scratching the surface of the ocean.} {Ys } {} {} {} {1.000}
+R { 1479} {0} {} {On a Street, Towards the Watchtower} { } {The vast quarter of Lexobie lies to the north, on the slopes of the small hill inside the city on top of which culminates the old bell tower of Ys. The tower still culminates above the city in the distance, its top almost scratching the surface of the ocean.} {Ys} {} {} {} {1.000}
 E { 1460} {e} {e} {2} {0} {} {1.000}
 E { 1480} {w} {w} {8} {0} {} {1.000}
 
@@ -6305,55 +6280,55 @@ R { 1483} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 1465} {n} {n} {1} {0} {} {1.000}
 E { 1463} {s} {s} {4} {0} {} {1.000}
 
-R { 1484} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1484} {0} {} {The Ladies' Brothel} { } {The front porch of this house is painted with erotic scenes that make very obvious what kind of establishment is at business here. The inside of the house is organized in small rooms or cubicles where customers would get some privacy with the house hosts.} {Ys} {} {} {} {1.000}
 E { 1477} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 1485} {0} {} {A Steep Street in the Merchants Quarter} { } {You stand at the base of a tall hill that dominates the city of Ys. To the west, on top of the hill, raises the magnificent cathedral that could rival with Notre Dame of Paris at the time of its splendor. The cathedral now looms over the city, covered with seaweed, in a black shroud of darkness. At the base of the hill, you can see the remnants of what was the Golden Cauldron, the merchant quarter of the city. To the east, the street opens on grand place of Ys, connecting with other quarters of the city.} {Ys } {} {} {} {1.000}
+R { 1485} {0} {} {A Steep Street in the Merchants Quarter} { } {You stand at the base of a tall hill that dominates the city of Ys. To the west, on top of the hill, raises the magnificent cathedral that could rival with Notre Dame of Paris at the time of its splendor. The cathedral now looms over the city, covered with seaweed, in a black shroud of darkness. At the base of the hill, you can see the remnants of what was the Golden Cauldron, the merchant quarter of the city. To the east, the street opens on grand place of Ys, connecting with other quarters of the city.} {Ys} {} {} {} {1.000}
 E { 1505} {e} {e} {2} {0} {} {1.000}
 E { 1486} {n} {n} {1} {0} {} {1.000}
 E { 1499} {w} {w} {8} {0} {} {1.000}
 E { 1493} {s} {s} {4} {0} {} {1.000}
 
-R { 1486} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1486} {0} {} {The Ruins of the Foodstores} { } {Large holes in the ground here used to contain pick-up street food for the city inhabitants. The are now empty and used as nests by moray eels and bigger fish.} {Ys} {} {} {} {1.000}
 E { 1485} {s} {s} {4} {0} {} {1.000}
 E { 1500} {w} {w} {8} {0} {} {1.000}
 
-R { 1487} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1487} {0} {} {The Golden Cauldron} { } {Once one the wealthiest places in the known world, the hill of the golden cauldron, where the stalls and shops of the merchants of Ys were installed, is now just a vast collection of drowned ruins, dense with underwater flora. A steep street climbs up the hill towards the Cathedral with shops on its both sides.} {Ys} {} {} {} {1.000}
 E { 1500} {e} {e} {2} {0} {} {1.000}
 E { 1488} {s} {s} {4} {0} {} {1.000}
 E { 1491} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 1488} {0} {} {Inside the Golden Cauldron} { } {All around you lie the ruins of large luxury shops once selling at high prices the most exquisite goods of the known world. From these large streets designed for customers to feel at ease and secure, you can see a panorama of the sea floor beyond the walls of Ys where years ago, chariots of important merchants and wealthy visitors were queuing up before the gates of the city. Westwards, you can see the walls of the imposing cathedral raise, symbol of the Church power over the city. A dark maelstrom of water and fury now clouds over the cathedral, perpetrating the curse of Dahut over Ys.} {Ys } {} {} {} {1.000}
+R { 1488} {0} {} {Inside the Golden Cauldron} { } {All around you lie the ruins of large luxury shops once selling at high prices the most exquisite goods of the known world. From these large streets designed for customers to feel at ease and secure, you can see a panorama of the sea floor beyond the walls of Ys where years ago, chariots of important merchants and wealthy visitors were queuing up before the gates of the city. Westwards, you can see the walls of the imposing cathedral raise, symbol of the Church power over the city. A dark maelstrom of water and fury now clouds over the cathedral, perpetrating the curse of Dahut over Ys.} {Ys} {} {} {} {1.000}
 E { 1487} {n} {n} {1} {0} {} {1.000}
 E { 1499} {e} {e} {2} {0} {} {1.000}
 E { 1489} {w} {w} {8} {0} {} {1.000}
 E { 1502} {s} {s} {4} {0} {} {1.000}
 
-R { 1489} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1489} {0} {} {The Gardens of the Cathedral} { } {A vast area surrounds the large walls of the Cathedral's once peaceful and green gardens. The place has been invaded by wild seaweed, floating under the sea.} {Ys} {} {} {} {1.000}
 E { 1488} {e} {e} {2} {0} {} {1.000}
 E { 1501} {s} {s} {4} {0} {} {1.000}
 
-R { 1490} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1490} {0} {} {The Gardens of the Cathedral} { } {A vast area surrounds the large walls of the Cathedral's once peaceful and green gardens. The place has been invaded by wild seaweed, floating under the sea.} {Ys} {} {} {} {1.000}
 E { 1501} {n} {n} {1} {0} {} {1.000}
 E { 1504} {e} {open e;e} {2} {0} {} {1.000}
 
-R { 1491} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1491} {0} {} {The Hall of the Merchants Guild} { } {One of the shops of the Golden Cauldron hosts the headquarters of the merchant association, the Guild of the Silver Harp. The goals of the guild were to establish fair trade and competition among the merchants of Ys as well as prevent development of criminal organizations.} {Ys} {} {} {} {1.000}
 E { 1487} {s} {open s;s} {4} {0} {} {1.000}
 E { 1492} {d} {open d;d} {32} {0} {} {1.000}
 
-R { 1492} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1492} {0} {} {A Storeroom} { } {A vast storage space lies under one of the massive houses of the Golden Cauldron. The place is a total mess since the flooding of the city, with crates of wood floating between the ground and the ceiling, making movement through the room difficult.} {Ys} {} {} {} {1.000}
 E { 1491} {u} {open u;u} {16} {0} {} {1.000}
 
-R { 1493} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1493} {0} {} {Inside the Merchants Quarter} { } {A step network of streets climb up the hill on top of which lies the majestic cathedral of Ys. On the sides of the road, you can see the sunken ruins of many shops, indicating the once wealth of the city and its probable influence over merchants route of all Europe.} {Ys} {} {} {} {1.000}
 E { 1485} {n} {n} {1} {0} {} {1.000}
 E { 1494} {s} {s} {4} {0} {} {1.000}
 
-R { 1494} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1494} {0} {} {A Street through Residential Quarters} { } {A large building occupies the whole corner of the street here, like a small fort inside the city. With shops and stalls opening at his base, this massive house has its upper floor reserved for private residential quarters.} {Ys} {} {} {} {1.000}
 E { 1493} {n} {n} {1} {0} {} {1.000}
 E { 1498} {w} {open w;w} {8} {0} {} {1.000}
 E { 1497} {s} {open s;s} {4} {0} {} {1.000}
 
-R { 1495} {0} {} {The Golden Cauldron} { } {It is not hard to imagine the past magnificence of Ys and its bustling, loud, and exquisite merchants quarter, even from looking at the sunken ruins that surround you. Each shop facade had a strong door to greet important customers in private backyards as well as street arcades in the shadow of which secret trades were probably completed. To the west, a set of steps climb up to the vast square in front of the cathedral, where grow sinister bushes of the dark crysobacteria algae.} {Ys } {} {} {} {1.000}
+R { 1495} {0} {} {The Golden Cauldron} { } {It is not hard to imagine the past magnificence of Ys and its bustling, loud, and exquisite merchants quarter, even from looking at the sunken ruins that surround you. Each shop facade had a strong door to greet important customers in private backyards as well as street arcades in the shadow of which secret trades were probably completed. To the west, a set of steps climb up to the vast square in front of the cathedral, where grow sinister bushes of the dark crysobacteria algae.} {Ys} {} {} {} {1.000}
 E { 1496} {n} {n} {1} {0} {} {1.000}
 E { 1503} {w} {w} {8} {0} {} {1.000}
 
@@ -6361,10 +6336,10 @@ R { 1496} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 1495} {s} {s} {4} {0} {} {1.000}
 E { 1502} {n} {n} {1} {0} {} {1.000}
 
-R { 1497} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1497} {0} {} {A House in Ys} { } {You stepped inside the flooding building of what was a townsfolk house in the city of Ys. The house is well furnished and quite vast, but now totally under water. Cupboards, rugs, and wooden chairs float inside the house, suspended mid-air by some magic. The waters are cold and dark.} {Ys} {} {} {} {1.000}
 E { 1494} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 1498} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1498} {0} {} {The Sunken Residence of Plato} { } {Only the walls of this vast house stand still. Its roof collapsed on the ground, probably from the pressure of the sea when it flooded the city. On the plankton-covered walls, you can see the remnants of paintings and mosaic describing the warm and green landscape of Greece. A small plaque on the wall indicates this house was used by the philosopher Plato during his travels between Athens and Ys.} {Ys} {} {} {} {1.000}
 E { 1494} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 1499} {8} {} {} { } {} {} {} {} {} {1.000}
@@ -15110,15 +15085,11 @@ E { 3849} {w} {w} {8} {0} {} {1.000}
 
 R { 3582} {0} {} {East of Lincoln's Coast} { } {The great county of Lincoln lies to the south and west, home to the burgeoning English peoples. They weathered the Roman occupation, and since the collapse of the great empire have succumbed to the battles of ambitious kings.} {Viking Scandinavia } {} {} {} {1.000}
 E {  388} {w} {w} {8} {0} {} {1.000}
-E { 3583} {s} {s} {4} {0} {} {1.000}
-
-R { 3583} {10} {} {} { } {} {} {} {} {} {1.000}
-E { 3582} {n} {n} {1} {0} {} {1.000}
 E {  420} {s} {s} {4} {0} {} {1.000}
 
 R { 3584} {0} {} {Near a Small Village} { } {This small road travels west into the heart of Britain. It doesn't look that well traveled as the local folk are mostly self sufficient and don't like outsiders too much. A small beach lies to the east. A small hill rises out of the ground to the north.} {Medieval Britain } {} {} {} {1.000}
 E {  386} {n} {n} {1} {0} {} {1.000}
-E { 3582} {e} {e} {2} {0} {} {1.000}
+E { 3582} {e} {e} {2} {1} {} {1.000}
 
 R { 3585} {0} {} {One End of a Rough Dirt Road} { } {You're standing in a clearing. The road to the west is muddy and almost impassable from overuse, but the grass where you're standing is firm, as though it has been seldom trodden. Oak, birch, and alder crush together closely to the east, with what little space there is between the trees being filled with scrub. The tales of Norwegian forests are indeed true\; you do not envy those who must leave the path and try to forge through the underbrush. If it wasn't for the trail leading in, you would think that no one had ever penetrated the forest.} {Viking Scandinavia } {} {} {} {1.000}
 E { 2529} {w} {w} {8} {0} {} {1.000}
@@ -18684,7 +18655,7 @@ R { 4447} {0} {} {Sawayama Castle} { } {A large many-storied castle stands here 
 E { 1289} {e} {e} {2} {0} {} {1.000}
 E { 4793} {gate} {enq ask gate gate} {0} {0} {} {1.000}
 
-R { 4448} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 4448} {0} {} {The Ruins of Azuchi Castle} { } {The home from which Oda Nobunaga planned to rule all of Japan, Azuchi Castle is now just a ruin. The castle's stone wall, still standing fiercely, was the biggest in Japan at the time, and from observing the ruins, you can guess that Azuchi was one of the largest castles in the Empire. The ruins overlook the Nakasendo highway and are surrounded by Lake Biwa on the three sides, forming a natural moat for the ideal natural defense.} {Medieval Japan} {} {} {} {1.000}
 E { 3560} {e} {e} {2} {0} {} {1.000}
 
 R { 4449} {0} {} {Before the Imperial City of Kyoto} { } {You stand before a large and deep moat with a bed of perfectly polished white stones which surrounds the Imperial city. This impressive construction was built a hundred years ago during Jingu's reign, to protect the city that became the center of the Empire. On the other side of the moat to the west, several bushi patrol. A short distance beyond them rise the roofs and verdant gardens of the city of Kyoto.} {Medieval Japan } {} {} {} {1.000}
@@ -21977,18 +21948,18 @@ R { 5240} {0} {<029>} {A Townhouse} {P} {Wrought of white plaster and dark beams
 E { 1031} {e} {e} {2} {1} {} {1.000}
 E { 5459} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 5241} {0} {} {In the Village} { } {Khanhiwara is around you, grubby and boring. This is a hot place, and the air is humid, but the ground is packed solid and dusty. You long for the cool fields that surround the village, for the shady jungle beyond the fields, for anything that will relieve the tedium and the heat. Thatch roofed huts are north and south, and the center of the village spreads east and west.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5241} {0} {} {In the Village} { } {Khanhiwara is around you, grubby and boring. This is a hot place, and the air is humid, but the ground is packed solid and dusty. You long for the cool fields that surround the village, for the shady jungle beyond the fields, for anything that will relieve the tedium and the heat. Thatch roofed huts are north and south, and the center of the village spreads east and west.} {Seoni Jungle India} {} {} {} {1.000}
 E {  882} {e} {e} {2} {0} {} {1.000}
 E { 5242} {w} {w} {8} {0} {} {1.000}
 E { 5635} {n} {n} {1} {0} {} {1.000}
 E { 5636} {s} {s} {4} {0} {} {1.000}
 
-R { 5242} {0} {} {Towards the Grazing Grounds} { } {Here is one end of the village, and south of here lie the grazing grounds for the cattle. The custom of most Indian villages is for a few boys to take the cattle out every morning and bring them back in the evening\; the same cattle that would trample a man in short order are led about by children banging on their noses with sticks. A rather nice-looking hut lies north of you, and the village proper is to the east.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5242} {0} {} {Towards the Grazing Grounds} { } {Here is one end of the village, and south of here lie the grazing grounds for the cattle. The custom of most Indian villages is for a few boys to take the cattle out every morning and bring them back in the evening; the same cattle that would trample a man in short order are led about by children banging on their noses with sticks. A rather nice-looking hut lies north of you, and the village proper is to the east.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5241} {e} {e} {2} {0} {} {1.000}
 E { 5848} {n} {n} {1} {0} {} {1.000}
 E { 5849} {s} {s} {4} {0} {} {1.000}
 
-R { 5243} {0} {} {The Granary} { } {This shadowy, cool, stone building is where the villagers store up their grain--the chaff and powder is making you sneeze! Moldy and fresh are intermingled here without much regard to age, as the moldy barley is removed to be fermented anyway. Rustling behind the mounds of yellow grain are the unmistakable sounds of the perennial inhabitants of granaries: rats and mice.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5243} {0} {} {The Granary} { } {This shadowy, cool, stone building is where the villagers store up their grain--the chaff and powder is making you sneeze! Moldy and fresh are intermingled here without much regard to age, as the moldy barley is removed to be fermented anyway. Rustling behind the mounds of yellow grain are the unmistakable sounds of the perennial inhabitants of granaries: rats and mice.} {Seoni Jungle India} {} {} {} {1.000}
 E {  882} {s} {s} {4} {0} {} {1.000}
 
 R { 5244} {0} {} {The Entrance to the Prison of Ys} { } {The only tunnel leading inside the prison of Ys exits here at the bottom of the great wall protecting the city. When the sea invaded Ys, the prison was probably one of the first places to be sunken as it opens outside of the city without any elevated protection from the dike.} {Ys } {} {} {} {1.000}
@@ -23613,13 +23584,13 @@ E { 5632} {d} {d} {32} {0} {} {1.000}
 R { 5634} {0} {} {St. Stephen's Church} { } {There is an unholy feeling about the interior of this place. By day or night, dirty columns of light filter down through holes in the walls and ceiling, and fog shrouds the upper reaches of the nave. The altar has been desecrated and the pews overturned. As you walk on the flagstones, noticing the names of people inscribed on them, you suddenly realize this is a church old enough to have graves under the floor. As the wind rises and whistles through the broken windows, long since broken to bits for the colored glass, a shiver runs down your spine and you prepare to run. You think you might be able to escape through the south entry.} {London Port } {} {} {} {1.000}
 E {    3} {s} {open s;s;close n} {4} {0} {} {1.000}
 
-R { 5635} {0} {} {In a Hut} { } {Solid adobe construction and a good old thatch roof protect you well from the elements here. This village is even fairly well off, as there are wooden shutters on the doors. The inhabitant of this hut must be a mighty hunter, for trophies of past kills are along one wall. Singed tiger's whiskers are carefully placed in expensive wooden boxes, to kill the soul of the beast.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5635} {0} {} {In a Hut} { } {Solid adobe construction and a good old thatch roof protect you well from the elements here. This village is even fairly well off, as there are wooden shutters on the doors. The inhabitant of this hut must be a mighty hunter, for trophies of past kills are along one wall. Singed tiger's whiskers are carefully placed in expensive wooden boxes, to kill the soul of the beast.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5241} {s} {s} {4} {0} {} {1.000}
 
-R { 5636} {0} {} {In a Hut} { } {The huts in this village are mostly constructed out of adobe, a red thick mud the villagers probably get from the Waingunga River and harden with straw. Thatched roofs are all that keep out the rains, but they seem to suffice. In this area the floods do not come high enough to warrant the village's being built on stilts, but some of the herding platforms in the fields are.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5636} {0} {} {In a Hut} { } {The huts in this village are mostly constructed out of adobe, a red thick mud the villagers probably get from the Waingunga River and harden with straw. Thatched roofs are all that keep out the rains, but they seem to suffice. In this area the floods do not come high enough to warrant the village's being built on stilts, but some of the herding platforms in the fields are.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5241} {n} {n} {1} {0} {} {1.000}
 
-R { 5637} {0} {} {The Priest's Hut} { } {Ornate red-and-green painted latticework guards one side of the hut. The art is crudely done, but it is still good to see the old Hindu faith kept here, despite the encroachment of the pale English beliefs. Behind the lattice is a small worship area, with small paintings and iconic representations of various gods. The rest of the hut is bare and not very comfortable--the priest must live off of the donations of the village members.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5637} {0} {} {The Priest's Hut} { } {Ornate red-and-green painted latticework guards one side of the hut. The art is crudely done, but it is still good to see the old Hindu faith kept here, despite the encroachment of the pale English beliefs. Behind the lattice is a small worship area, with small paintings and iconic representations of various gods. The rest of the hut is bare and not very comfortable--the priest must live off of the donations of the village members.} {Seoni Jungle India} {} {} {} {1.000}
 E {  881} {s} {s} {4} {0} {} {1.000}
 
 R { 5638} {0} {<149>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of Experience,' and an odd looking metal contraption carefully labeled 'orrery' dominates the room. This curio shop is clearly a haven for the eccentric. A whole shelf is marked 'treasure maps,' and the hardwood floor has bizarre, perhaps pagan symbols scratched into it. The glass window provides a view of the alley opening across the street, and in the poor lighting in here, it seems to waver like a gaping maw.} {London Port } {} {} {} {1.000}
@@ -24394,7 +24365,7 @@ R { 5816} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  145} {n} {n} {1} {0} {} {1.000}
 E {  144} {s} {s} {4} {0} {} {1.000}
 
-R { 5817} {0} {} {In the Tasman Sea} { } {The choppy waves and chill winds blowing from the south combine to numb you to the bone, and make you dream of a good warm fire on warm land, but you know you have some ways to go before you have that luxury. West of you lies Bass Straight, and the entrance to the Port of Melbourne, where no doubt you could satisfy all your desires, but mayhaps you should travel northward, to the East Indies? You have heard tales of many strange and exotic things to explore there.} {Gold Rush Melbourne } {} {} {} {1.000}
+R { 5817} {0} {} {In the Tasman Sea} { } {The choppy waves and chill winds blowing from the south combine to numb you to the bone, and make you dream of a good warm fire on warm land, but you know you have some ways to go before you have that luxury. West of you lies Bass Straight, and the entrance to the Port of Melbourne, where no doubt you could satisfy all your desires, but mayhaps you should travel northward, to the East Indies? You have heard tales of many strange and exotic things to explore there.} {Gold Rush Melbourne} {} {} {} {1.000}
 E {  182} {w} {w} {8} {0} {} {1.000}
 E { 5818} {n} {n} {1} {0} {} {1.000}
 

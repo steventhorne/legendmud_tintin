@@ -24,7 +24,7 @@
         #VAR count -1;
         #FOREACH {$room_check[%*]} {line}
         {
-            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.)}}
+            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!)}}
             {
                 #VAR break true;
             }
@@ -92,9 +92,15 @@
 }
 {5}
 
+#ACTION {{^The circle of oaks fades around you. The forest blurs around you.$}}
+{
+    #MAP goto 1105;
+}
+{5}
+
 #ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
 {
-	#MAP move 2324;
+	#MAP goto 2324;
 }
 {5}
 
