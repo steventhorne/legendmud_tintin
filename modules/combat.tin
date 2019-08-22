@@ -1,6 +1,18 @@
-#ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*(\S+).*?rushes at(?!\syou\s)(?:\s([\w'\.\-]+))*(?:,\s.*?)? and attacks!$}}
+#ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?rushes at(?!\syou\s)(?:\s([\w'\.\-]+))*(?:,\s.*?)? and attacks!$}}
 {
-	#SEND rush %2 %3;
+    #IF {"%2" == "somebody"}
+    {
+        #VAR somebody_check %3;
+        #ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?fades into existence.$}}
+        {
+            rush %2 $somebody_check;
+            #UNVAR somebody_check;
+            #UNACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?fades into existence.$}}
+        }
+    }
+    {
+        rush %2 %3;
+    }
 }
 {4}
 
