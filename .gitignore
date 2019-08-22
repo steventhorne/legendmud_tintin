@@ -4,5 +4,6 @@ user.config
 logs/*
 
 chat.*
+group.txt
 
 map/map.txt

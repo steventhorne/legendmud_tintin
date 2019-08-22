@@ -1,0 +1,56 @@
+#ACTION {{^Your group:$}}
+{
+    #IF {"$show_group" != "true"}
+    {
+        #LINE gag;
+        #ACTION {^$}
+        {
+            #LINE gag;
+            #UNACTION {^$};
+        }
+    }
+    {
+        #ACTION {^$}
+        {
+            #UNVAR show_group;
+            #UNACTION {^$};
+        }
+    }
+}
+{2}
+
+#ACTION {~{^\s\|\|(.*?)\|\s(.*?)\|\|}}
+{
+    #IF {"$show_group" == "true"}
+    {
+        #SHOWME %2 %3;
+    }
+    {
+        #SYSTEM echo "" > group.txt;
+        #LINE log group.txt {%2 %3};
+    }
+    #LINE gag;
+}
+{2}
+
+#ALIAS {gr}
+{
+    #VAR show_group true;
+    #SEND gr;
+}
+
+#ALIAS {groupsetup}
+{
+    #SEND groupformat ||@r [@l] @n | @p @h|U6/@Hhp @m|U6/@Mma @v|U6/@Vmv@w||;
+}
+
+#TICKER {group}
+{
+    #SEND group;
+    #ACTION {^$}
+    {
+        #LINE gag;
+        #UNACTION {^$};
+    };
+}
+{1}
