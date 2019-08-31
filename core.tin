@@ -40,6 +40,12 @@
     #SESSION legendmud mud.legendmud.org 9999;
 }
 
+#EVENT {SCREEN RESIZE}
+{
+    #NOP Hack to fix the weird behavior in latest version of tintin.;
+    #SPLIT $split_top $split_bottom;
+}
+
 #EVENT {SESSION CONNECTED}
 {
 	#REGEX {%0} {^legendmud$}

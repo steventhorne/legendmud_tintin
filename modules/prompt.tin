@@ -1,4 +1,5 @@
-#SPLIT 0 3;
+#VARIABLE split_bottom 3;
+#SPLIT $split_top $split_bottom;
 
 #ACTION {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}
 {
