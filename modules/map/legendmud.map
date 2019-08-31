@@ -10,7 +10,7 @@ F 11
 
 G 0
 
-I 1136
+I 1
 
 L {x} {o} {o} {} {o} {|} {/} {]} {o} {/} {} {^} {} {[} {v} {} {x} {?} {|} {} {} {/} {} {/} {x} {x} {x} {x} {x} {x} {x} {x} {⣏} {⣇} {⣎} {⣆} {⣉} {⣁} {⣈} {⣀} {⢏} {⢇} {⢎} {⢆} {⢉} {⢁} {⢈} {⢀} {⡏} {⡇} {⡎} {⡆} {⡉} {⡁} {⡈} {⢀} {⠏} {⠇} {⠎} {⠆} {⠉} {⠁} {⠈} {⠀} {⣹} {⣸} {⣱} {⣰} {⣉} {⣈} {⣂} {⣀} {⡹} {⡸} {⡱} {⡰} {⡉} {⡈} {⡂} {⡀} {⢹} {⢸} {⢱} {⢰} {⢉} {⢈} {⢂} {⢀} {⠹} {⠸} {⠱} {⠰} {⠉} {⠈} {⠂} {⠀} {⠰} {⠸} {⠱} {⠹} {⠶} {⠾} {⠷} {⠿} {⡰} {⡸} {⡱} {⡹} {⡶} {⡾} {⡷} {⡿} {⢰} {⢸} {⢱} {⢹} {⢶} {⢾} {⢷} {⢿} {⣰} {⣸} {⣱} {⣹} {⣶} {⣾} {⣷} {⣿}
 
@@ -460,6 +460,10 @@ R {  106} {0} {} {Deep Ocean} { } {The grayness of the sky is reflected in the w
 E {  105} {e} {e} {2} {0} {} {1.000}
 E {  108} {n} {n} {1} {0} {} {1.000}
 
+R {  107} {0} {} {} { } {} {Land of Shadows} {} {} {} {1.000}
+E { 5987} {u} {u} {16} {0} {} {1.000}
+E {  123} {d} {d} {32} {0} {} {1.000}
+
 R {  108} {0} {} {Deep Ocean} { } {Your ship continues on its solitary journey, no other signs of life to be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon is echoed in the ship itself, you begin to ponder whether it might be best to just turn back.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  106} {s} {s} {4} {0} {} {1.000}
 E {  109} {w} {w} {8} {0} {} {1.000}
@@ -522,6 +526,10 @@ E { 4224} {s} {open s;s} {4} {0} {} {1.000}
 R {  122} {0} {<139>} {First National Bank} {B} {The hard wood floor disappears behind the counter a few feet from the far wall. Bars made of iron reach from the countertop to the ceiling, leaving a small window of sorts for the teller behind it. A sign stands in the doorway, giving the latest currency exchange rate for new travellers to the city.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  121} {s} {s} {4} {0} {} {1.000}
 
+R {  123} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  107} {u} {u} {16} {0} {} {1.000}
+E {  126} {d} {d} {32} {0} {} {1.000}
+
 R {  124} {0} {} {Berth 4: Open Wharf} { } {No ships customarily tie up here, so you feel safe in assuming that anyone may leave their vessel here. Of course, it may not be here when you get back. London Port looks from here like a town of cutthroats and low-born Cockneys, all ready to take a farthing and spit on your grave. North of you is the tail end of the docks.} {London Port } {} {} {} {1.000}
 E {   63} {e} {e} {2} {1} {} {1.000}
 E {  127} {n} {n} {1} {0} {} {1.000}
@@ -531,6 +539,9 @@ R {  125} {0} {} {On the Docks} { } {Here the docks end, an empty berth attestin
 E {  127} {s} {s} {4} {0} {} {1.000}
 E {   42} {w} {w} {8} {0} {} {1.000}
 E { 5651} {e} {e} {2} {1} {} {1.000}
+
+R {  126} {0} {} {The Bowels of Annwn} { } {Here the cave is dark and narrow. Cold winds whistle through the cavern, chilling your bones and making you desire someplace with far more warmth and life. Denying what you have heard about the great beyond, black corruption fouls the very air. On one wall you notice a faint hint of blood.} {Land of Shadows} {} {} {} {1.000}
+E {  132} {w} {w} {8} {0} {} {1.000}
 
 R {  127} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  125} {n} {n} {1} {0} {} {1.000}
@@ -544,6 +555,7 @@ R {  129} {0} {} {On the Bay} { } {Docks stretch out before you, and an armlet o
 E {  128} {n} {n} {1} {0} {} {1.000}
 E {   47} {w} {w} {8} {0} {} {1.000}
 E {  124} {e} {e} {2} {0} {} {1.000}
+E {   49} {s} {s} {4} {1} {} {1.000}
 
 R {  130} {0} {} {The North Sea} { } {Your ship plows through the cold waters, and icy spray chills you to the bone. Much further to the north, and you'd be in icebergs. As it is, the water has darkened below you so that it appears almost inky-black. Your clothing is starting to grow heavy with the water it's absorbed from the repeated splashes.} {Russian Revolution of 1917 } {} {} {} {1.000}
 E {   63} {s} {s} {4} {0} {} {1.000}
@@ -552,6 +564,10 @@ E {  131} {e} {e} {2} {0} {} {1.000}
 R {  131} {0} {} {Off the Coast of Denmark} { } {The coast of Denmark looms to the south, and you are surrounded by the Baltic and North Seas. Your journey seems to be slowed by the chill in the air and water, as if the ice were running in your veins and slowing everything down. The waters themselves are crowded with fishing trawlers, despite the fact that you're a ways from civilization at this point.} {Russian Revolution of 1917 } {} {} {} {1.000}
 E {  130} {w} {w} {8} {0} {} {1.000}
 E { 5385} {e} {e} {2} {0} {} {1.000}
+
+R {  132} {0} {} {A Tunnel in Annwn} { } {You have barely enough room to walk without crouching. Even the strong of mind could not help but feel claustrophobic in a tight crevice such as this. You think you hear something to the west: a growling, a crunching, maybe a deep breath.} {Land of Shadows} {} {} {} {1.000}
+E {  126} {e} {e} {2} {0} {} {1.000}
+E {  147} {w} {w} {8} {0} {} {1.000}
 
 R {  133} {0} {} {On a Canary Isle} { } {A golden beach greets your eyes, here on this deserted islet. The lush tropical greenery encroaches closely upon the strip of sand you stand on... Flowers and birds, colorful signs of the tropics, are everywhere. You can set sail again to the south.} {Tea Route } {} {} {} {1.000}
 E {   96} {s} {s} {4} {0} {} {1.000}
@@ -609,6 +625,10 @@ E {  169} {e} {e} {2} {0} {} {1.000}
 R {  146} {0} {} {On the Indian Ocean} { } {The boundless waters of the Indian Ocean encircle you. The slow, steady rhythm of the waves and a warm, tropical breeze both help to lull you into a semiconscious stupor. Above you, carefree gulls swoop and dive, calling out to one another with their distinctive cries. Far to the west, the African shoreline is a dark smudge on the horizon.} {African Savanna} {} {} {} {1.000}
 E {  145} {e} {e} {2} {1} {} {1.000}
 E {  148} {w} {w} {8} {0} {} {1.000}
+
+R {  147} {0} {} {} { } {} {Land of Shadows} {} {} {} {1.000}
+E {  132} {e} {e} {2} {0} {} {1.000}
+E {  172} {w} {w} {8} {0} {} {1.000}
 
 R {  148} {0} {} {South of Zanzibar} { } {To the north of you, Zanzibar, the Island of Spice, rises out of the sea. Its world-renowned green hills and fields of millet and cloves are made cloudy by the mist. Other ships, mainly trading vessels, vie for right of way with you on the dark waves. To the west, you can make out the distant shores of Africa.} {African Savanna} {} {} {} {1.000}
 E {  146} {e} {e} {2} {0} {} {1.000}
@@ -710,6 +730,10 @@ E { 1948} {e} {e} {2} {0} {} {1.000}
 R {  171} {0} {} {In a Bay in Bengal} { } {A sultry, sweaty country lies before you, with a ramshackle but nonetheless heavily used pier. The heat is amazing--even here, offshore, you fancy you can hear the buzz of mosquitoes big enough to eat a man alive. The pier stretches out into the bay in such a fashion that you can see several possible directions to take to dock at it.} {Tea Route} {} {} {} {1.000}
 E {  170} {s} {s} {4} {0} {} {1.000}
 E {  173} {n} {n} {1} {1} {} {1.000}
+
+R {  172} {0} {} {A Narrow Passage} { } {Cramped in by all walls, the ceiling and floor, whoever made this choked passageway was evidently much smaller than you.} {Land of Shadows} {} {} {} {1.000}
+E {  147} {e} {e} {2} {0} {} {1.000}
+E { 3583} {s} {s} {4} {0} {} {1.000}
 
 R {  173} {0} {} {The Bay of Bengal} { } {What a glorious sight! The blue waters of the Bay of Bengal are shaded so delicately that you are sure that if you could find a gem that color, you'd be rich. North and east of you are open berths on the wharf that pokes its way into the bay; to reach the berths for ships on the China trade runs, you'd have to go west to the other side of the Bay. South lies the Indian Ocean... huge, menacing, prone to sudden storms.} {Bengal} {} {} {} {1.000}
 E {  171} {s} {s} {4} {1} {} {1.000}
@@ -15087,6 +15111,12 @@ R { 3582} {0} {} {East of Lincoln's Coast} { } {The great county of Lincoln lies
 E {  388} {w} {w} {8} {0} {} {1.000}
 E {  420} {s} {s} {4} {0} {} {1.000}
 
+R { 3583} {0} {} {Inside a Subterranean Grotto} { } {You gaze in awe at the sheer size of this place. The ceiling disappears hundreds of feet into the darkness, the only hint of its existence being the slanted joint where wall meets roof. About you mundane spirits flitter about, seemingly oblivious to your existence. You then realize that some may be more interested...} {Land of Shadows} {} {} {} {1.000}
+E {  172} {n} {n} {1} {0} {} {1.000}
+E { 6861} {e} {e} {2} {0} {} {1.000}
+E { 6862} {w} {w} {8} {0} {} {1.000}
+E { 6863} {s} {s} {4} {0} {} {1.000}
+
 R { 3584} {0} {} {Near a Small Village} { } {This small road travels west into the heart of Britain. It doesn't look that well traveled as the local folk are mostly self sufficient and don't like outsiders too much. A small beach lies to the east. A small hill rises out of the ground to the north.} {Medieval Britain } {} {} {} {1.000}
 E {  386} {n} {n} {1} {0} {} {1.000}
 E { 3582} {e} {e} {2} {1} {} {1.000}
@@ -25067,8 +25097,9 @@ E { 5984} {n} {n} {1} {0} {} {1.000}
 R { 5986} {0} {} {A Draughty Hayloft} { } {The loft is dark but for strips of sunlight that shine through the gaps in the outer cladding. Hay is stacked in neat cubes, ready to feed the animals below.} {Heroic Gear } {} {} {} {1.000}
 E { 3786} {d} {d} {32} {0} {} {1.000}
 
-R { 5987} {0} {} {Standing On a Giant Seal} { } {You stand in an unnatural cavern, carved from the stone long ago. Circular and symmetrical in every directon, the room is centered around a massive stone seal buried flush with the floor. A cold wind wisps around the room throwing bits of dirt and dead leaves in front of you. Every footstep, every breath and every whisper echoes continually throughout the chamber. Could this be the entrance to Annwn?} {Land of Shadows } {} {} {} {1.000}
+R { 5987} {0} {} {Standing On a Giant Seal} { } {You stand in an unnatural cavern, carved from the stone long ago. Circular and symmetrical in every directon, the room is centered around a massive stone seal buried flush with the floor. A cold wind wisps around the room throwing bits of dirt and dead leaves in front of you. Every footstep, every breath and every whisper echoes continually throughout the chamber. Could this be the entrance to Annwn?} {Land of Shadows} {} {} {} {1.000}
 E { 1606} {u} {u} {16} {0} {} {1.000}
+E {  107} {d} {d} {32} {0} {} {1.000}
 
 R { 5988} {0} {} {Trekking the Sands of Time} { } {You've traveled the dunes for quite some time now. The faint noise of an ocean's tide comes and goes, playing games with your ears and leaving you to question many things. The vastness of the desert is eerie -- as if it never ends.} {Arabian Dreams } {} {} {} {1.000}
 E { 1627} {n} {n} {1} {1} {} {1.000}
@@ -28590,3 +28621,28 @@ E { 6850} {s} {s} {4} {0} {} {1.000}
 
 R { 6860} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 6850} {n} {n} {1} {0} {} {1.000}
+
+R { 6861} {0} {} {The Northeast Corner of the Grotto} { } {You stand where wall meets wall at a near perfect ninety-degree angle. Cut into the smooth sides of the rock, you can see small carvings.} {Land of Shadows} {} {} {} {1.000}
+E { 3583} {w} {w} {8} {0} {} {1.000}
+E { 6865} {s} {s} {4} {0} {} {1.000}
+
+R { 6862} {0} {} {A Corner in a Subterranean Grotto} { } {Wall meets wall here at a slight but distinct angle. The stone is carved in rough fashion, clearly intending this to look natural but failing miserably. The mundane spirits that cycle around you in hypnotic patterns seem not to take any notice of your presence. But it is increasingly clear that they are not the only ones inhabiting this cursed place.} {Land of Shadows} {} {} {} {1.000}
+E { 3583} {e} {e} {2} {0} {} {1.000}
+E { 6864} {s} {s} {4} {0} {} {1.000}
+
+R { 6863} {0} {} {Center of the Grotto} { } {No walls visible, the growing darkness of this massive cave has consumed any boundary to which you might make reference. It is colder here than anywhere else, and the area eminates with a strong, powerful, evil magical force that overwhelms you. Under your feet you see that you are standing in massive footprints pressed into the cold, solid floors.} {Land of Shadows} {} {} {} {1.000}
+E { 3583} {n} {n} {1} {0} {} {1.000}
+
+R { 6864} {0} {} {The West Wall of the Grotto} { } {The spirits here are collected into small, fast-moving packs. They flitter in and about, rushing you but dodging at the last second. You cannot help but cling to the wall to avoid getting pummelled by their ethereal forms.} {Land of Shadows} {} {} {} {1.000}
+E { 6862} {n} {n} {1} {0} {} {1.000}
+
+R { 6865} {0} {} {The East Wall of the Grotto} { } {Along the east wall, nearly forty feet wide, is carved an elaborate mural. In detail, a being, humanlike in form with a hideous face, stands defiant against a horde of men and Sidhe bearing flags with the symbols of Danaan. Waves under her feet make the stone almost tremble with realism, the peaks of which toss the onslaught of her attackers to and fro, each face carved with hideous grimaces of pain. At her sides are three men, one distinctly dark and black, another brawn and burly, and the third with a face that would strike fear into the boldest of souls.} {Land of Shadows} {} {} {} {1.000}
+E { 6861} {n} {n} {1} {0} {} {1.000}
+E { 6866} {s} {s} {4} {0} {} {1.000}
+
+R { 6866} {0} {} {The Southeast Corner of the Grotto} { } {The air here is cold and dank; the smell of mold is nearly overwhelming. The corner of the wall here leaks water down from somewhere above. Slowly trickling down to a pool on the ground, green sickly molds and mildew cling desperately to the slick walls.} {Land of Shadows} {} {} {} {1.000}
+E { 6865} {n} {n} {1} {0} {} {1.000}
+E { 6867} {w} {w} {8} {0} {} {1.000}
+
+R { 6867} {0} {} {The South Wall of the Grotto} { } {Along the south wall you see a strange circular carving in the sheer stone. It is tall, half again as you are high. To the north, the darkness spreads out. Souls that flitter about pay you little mind.} {Land of Shadows} {} {} {} {1.000}
+E { 6866} {e} {e} {2} {0} {} {1.000}
