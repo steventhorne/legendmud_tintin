@@ -1,11 +1,11 @@
 #ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?rushes at(?!\syou\s)(?:\s([\w'\.\-]+))*(?:,\s.*?)? and attacks!$}}
 {
-    #IF {"%2" == "somebody"}
+    #IF {"%2" == "Somebody"}
     {
         #VAR somebody_check %3;
         #ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?fades into existence.$}}
         {
-            rush %2 $somebody_check;
+            rush %%2 $somebody_check;
             #UNVAR somebody_check;
             #UNACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?fades into existence.$}}
         }
