@@ -10,7 +10,7 @@ F 11
 
 G 0
 
-I 1
+I 5100
 
 L {x} {o} {o} {} {o} {|} {/} {]} {o} {/} {} {^} {} {[} {v} {} {x} {?} {|} {} {} {/} {} {/} {x} {x} {x} {x} {x} {x} {x} {x} {⣏} {⣇} {⣎} {⣆} {⣉} {⣁} {⣈} {⣀} {⢏} {⢇} {⢎} {⢆} {⢉} {⢁} {⢈} {⢀} {⡏} {⡇} {⡎} {⡆} {⡉} {⡁} {⡈} {⢀} {⠏} {⠇} {⠎} {⠆} {⠉} {⠁} {⠈} {⠀} {⣹} {⣸} {⣱} {⣰} {⣉} {⣈} {⣂} {⣀} {⡹} {⡸} {⡱} {⡰} {⡉} {⡈} {⡂} {⡀} {⢹} {⢸} {⢱} {⢰} {⢉} {⢈} {⢂} {⢀} {⠹} {⠸} {⠱} {⠰} {⠉} {⠈} {⠂} {⠀} {⠰} {⠸} {⠱} {⠹} {⠶} {⠾} {⠷} {⠿} {⡰} {⡸} {⡱} {⡹} {⡶} {⡾} {⡷} {⡿} {⢰} {⢸} {⢱} {⢹} {⢶} {⢾} {⢷} {⢿} {⣰} {⣸} {⣱} {⣹} {⣶} {⣾} {⣷} {⣿}
 
@@ -293,16 +293,16 @@ R {   65} {0} {} {Off the Coast of Portugal} { } {If you had time, you could sto
 E {   64} {n} {n} {1} {0} {} {1.000}
 E {   66} {s} {s} {4} {0} {} {1.000}
 
-R {   66} {0} {} {Before the Straits of Gibraltar} { } {The famed Straits of Gibraltar lie to the east of you, offering passage into the Mediterranean. The waters are usually stormy and dangerous, and for those who do not seek anything in the balmy waters that are the heart of Europe, the normal sea route leads north and south.} {Tea Route } {} {} {} {1.000}
+R {   66} {64} {} {Before the Straits of Gibraltar} { } {The famed Straits of Gibraltar lie to the east of you, offering passage into the Mediterranean. The waters are usually stormy and dangerous, and for those who do not seek anything in the balmy waters that are the heart of Europe, the normal sea route leads north and south.} {Tea Route } {} {} {} {1.000}
 E {   65} {n} {n} {1} {0} {} {1.000}
 E {   67} {e} {e} {2} {0} {} {1.000}
 E {   94} {s} {s} {4} {0} {} {1.000}
 
-R {   67} {0} {} {In the Mediterranean} { } {Here, just east of the Straits of Gibraltar, you feel dizzied by the weight of history around you. This sea has been the site of so many major historical events that you feel sure that if you were to move, the world would change around you. In the blink of an eye, you might find yourself in a totally different world from the one you thought you knew.  The idea induces paranoia. South lies landfall in North Africa--perhaps there is a safe port?} {Tea Route } {} {} {} {1.000}
+R {   67} {64} {} {In the Mediterranean} { } {Here, just east of the Straits of Gibraltar, you feel dizzied by the weight of history around you. This sea has been the site of so many major historical events that you feel sure that if you were to move, the world would change around you. In the blink of an eye, you might find yourself in a totally different world from the one you thought you knew.  The idea induces paranoia. South lies landfall in North Africa--perhaps there is a safe port?} {Tea Route } {} {} {} {1.000}
 E {   66} {w} {w} {8} {0} {} {1.000}
 E {   69} {s} {s} {4} {0} {} {1.000}
 
-R {   68} {0} {} {The Docks of Casablanca} { } {The sounds of the waterfront mix with the calm breeze. As you step onto the dock your senses are awash with the shipyard sights, sounds and smells. A constant bustle of activity ebbs and flows between the ships and warehouses and on the fringe of activity you see the refugees. Yearning floods their faces, a yearning for a passage to freedom.} {Casablanca } {casa} {} {} {1.000}
+R {   68} {64} {} {The Docks of Casablanca} { } {The sounds of the waterfront mix with the calm breeze. As you step onto the dock your senses are awash with the shipyard sights, sounds and smells. A constant bustle of activity ebbs and flows between the ships and warehouses and on the fringe of activity you see the refugees. Yearning floods their faces, a yearning for a passage to freedom.} {Casablanca } {casa} {} {} {1.000}
 E {   69} {n} {n} {1} {0} {} {1.000}
 E {   70} {s} {s} {4} {0} {} {1.000}
 
@@ -310,11 +310,11 @@ R {   69} {10} {} {} { } {} {} {} {} {} {1.000}
 E {   68} {s} {s} {4} {0} {} {1.000}
 E {   67} {n} {n} {1} {0} {} {1.000}
 
-R {   70} {0} {} {Near the Waterfront} { } {The buildings along the street change in character here. The buildings are more run-down and dilapidated to the north as they get closer to the docks and the waterfront. In comparison, to the south the buildings get nicer and newer the closer to the center of town they are located.} {Casablanca } {} {} {} {1.000}
+R {   70} {64} {} {Near the Waterfront} { } {The buildings along the street change in character here. The buildings are more run-down and dilapidated to the north as they get closer to the docks and the waterfront. In comparison, to the south the buildings get nicer and newer the closer to the center of town they are located.} {Casablanca } {} {} {} {1.000}
 E {   68} {n} {n} {1} {0} {} {1.000}
 E {   71} {s} {s} {4} {0} {} {1.000}
 
-R {   71} {0} {} {An Intersection} { } {This is an intersection near downtown. To the east is the main stretch of street in Casablanca, known for the two clubs that sit on either side of the street. To the south is a well-used road. To the west is the Prefect's Office. To the north, the well-used road continues.} {Casablanca } {} {} {} {1.000}
+R {   71} {64} {} {An Intersection} { } {This is an intersection near downtown. To the east is the main stretch of street in Casablanca, known for the two clubs that sit on either side of the street. To the south is a well-used road. To the west is the Prefect's Office. To the north, the well-used road continues.} {Casablanca } {} {} {} {1.000}
 E {   70} {n} {n} {1} {0} {} {1.000}
 E {   72} {w} {open w;w} {8} {0} {} {1.000}
 E {   75} {s} {s} {4} {0} {} {1.000}
@@ -334,7 +334,7 @@ E {   72} {n} {open n;n} {1} {0} {} {1.000}
 R {   75} {0} {} {The Casablanca Airport} { } {After a short walk you arrive at the airport. This is where some of the lucky begin their trip to freedom. The plane for Lisbon leaves once a day and there is always a small crowd of the unlucky to see it off, with hope and longing flowing from their eyes. There is one hangar building and a tower along with a few smaller maintenance buildings. The road heads north, back to town.} {Casablanca } {} {} {} {1.000}
 E {   71} {n} {n} {1} {0} {} {1.000}
 
-R {   76} {0} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
+R {   76} {64} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
 E {   71} {w} {w} {8} {0} {} {1.000}
 E {   77} {s} {open s;s} {4} {0} {} {1.000}
 E {   78} {n} {open n;n} {1} {0} {} {1.000}
@@ -379,7 +379,7 @@ E {   86} {w} {open w;w} {8} {0} {} {1.000}
 R {   86} {0} {} {Rick's Office} { } {This office is quite large. It is split into two levels, separated by a landing on which the door sits. The lower level looks as if it is used for casual meetings and chats with visiting friends. The upper portion is where the work is done. The desk holds the day's financial information and a warm breeze blows through the open shutters of the window. In the south wall of this section of the office is a safe. The only exit is the door to the east.} {Casablanca } {} {} {} {1.000}
 E {   85} {e} {open e;e} {2} {0} {} {1.000}
 
-R {   87} {0} {} {A Turn in the Street} { } {Here the main street turns north and the people thin out as you move away from the center of town. To the east is a shop of some kind. The center of town is to the west.} {Casablanca } {} {} {} {1.000}
+R {   87} {64} {} {A Turn in the Street} { } {Here the main street turns north and the people thin out as you move away from the center of town. To the east is a shop of some kind. The center of town is to the west.} {Casablanca } {} {} {} {1.000}
 E {   90} {w} {w} {8} {0} {} {1.000}
 E {   89} {n} {n} {1} {0} {} {1.000}
 E {   93} {e} {open e;e} {2} {0} {} {1.000}
@@ -388,7 +388,7 @@ R {   88} {8} {} {} { } {} {} {} {} {} {1.000}
 E {   76} {w} {w} {8} {0} {} {1.000}
 E {   90} {e} {e} {2} {0} {} {1.000}
 
-R {   89} {0} {} {An Intersection on the Way Out of Town} { } {This is a junction of the main road out of town and a smaller one that leads out of town to the east. The road to the north looks more heavily travelled and has a sign next to it that reads 'To Rabat.' The train station sits beside the tracks to the west.} {Casablanca } {} {} {} {1.000}
+R {   89} {64} {} {An Intersection on the Way Out of Town} { } {This is a junction of the main road out of town and a smaller one that leads out of town to the east. The road to the north looks more heavily travelled and has a sign next to it that reads 'To Rabat.' The train station sits beside the tracks to the west.} {Casablanca } {} {} {} {1.000}
 E {   87} {s} {s} {4} {0} {} {1.000}
 E {   92} {w} {w} {8} {0} {} {1.000}
 E {  572} {n} {n} {1} {0} {} {1.000}
@@ -406,45 +406,45 @@ E {   89} {e} {e} {2} {0} {} {1.000}
 R {   93} {0} {} {A Small Shop} { } {This is a small shop that sells various useful items. Assorted flashlights, writing tools, batteries, and rolls of canvas cover the counters and shelves of this cramped space. The exit is to the west.} {Casablanca } {} {} {} {1.000}
 E {   87} {w} {open w;w} {8} {0} {} {1.000}
 
-R {   94} {0} {} {Off the African Coast} { } {From here, you fancy you could hear the call of muezzins summoning the faithful to prayer--but you would be kidding yourself. You are many leagues from the dry desert coast, in the vast Atlantic Ocean. A few seabirds timorously circle overhead, as if they knew that you were embarked upon a momentous journey.} {Tea Route } {} {} {} {1.000}
+R {   94} {64} {} {Off the African Coast} { } {From here, you fancy you could hear the call of muezzins summoning the faithful to prayer--but you would be kidding yourself. You are many leagues from the dry desert coast, in the vast Atlantic Ocean. A few seabirds timorously circle overhead, as if they knew that you were embarked upon a momentous journey.} {Tea Route } {} {} {} {1.000}
 E {   66} {n} {n} {1} {0} {} {1.000}
 E {   95} {s} {s} {4} {0} {} {1.000}
 
-R {   95} {0} {} {Tacking off the Coast of Africa} { } {The bulge of western Africa forces you to tack here, to avoid ramming your vessel into land. The air is hot and humid at these latitudes, and you can't help but wish you had brought more oranges and lemons on board, for fear of scurvy.} {Tea Route } {} {} {} {1.000}
+R {   95} {64} {} {Tacking off the Coast of Africa} { } {The bulge of western Africa forces you to tack here, to avoid ramming your vessel into land. The air is hot and humid at these latitudes, and you can't help but wish you had brought more oranges and lemons on board, for fear of scurvy.} {Tea Route } {} {} {} {1.000}
 E {   94} {n} {n} {1} {0} {} {1.000}
 E {   96} {w} {w} {8} {0} {} {1.000}
 
-R {   96} {0} {} {Amidst the Canary Islands} { } {These islands are a major stopping point on the tea trade shipping lanes. They look like paradise to you, who have been at sea for so long. They are a customary last port before attempting to cross the Atlantic to the Americas, a voyage fraught with danger. They are also a good signpost to indicate you are halfway along the long roundabout path around the western bulge of Africa. You can land at one tiny island north of you.} {Tea Route} {} {} {} {1.000}
+R {   96} {64} {} {Amidst the Canary Islands} { } {These islands are a major stopping point on the tea trade shipping lanes. They look like paradise to you, who have been at sea for so long. They are a customary last port before attempting to cross the Atlantic to the Americas, a voyage fraught with danger. They are also a good signpost to indicate you are halfway along the long roundabout path around the western bulge of Africa. You can land at one tiny island north of you.} {Tea Route} {} {} {} {1.000}
 E {   95} {e} {e} {2} {0} {} {1.000}
 E {   97} {w} {w} {8} {0} {} {1.000}
 E {  133} {n} {n} {1} {0} {} {1.000}
 E {  134} {s} {s} {4} {0} {} {1.000}
 
-R {   97} {0} {} {On the Atlantic Ocean} { } {Gray-green waters surround you, icy cold and infinite. The sky looms overhead like a giant dome of heavy stone, and its plenitude constantly feels like it's about to fall on you. The emptiness is overwhelming.} {Tea Route } {} {} {} {1.000}
+R {   97} {64} {} {On the Atlantic Ocean} { } {Gray-green waters surround you, icy cold and infinite. The sky looms overhead like a giant dome of heavy stone, and its plenitude constantly feels like it's about to fall on you. The emptiness is overwhelming.} {Tea Route } {} {} {} {1.000}
 E {   96} {e} {e} {2} {0} {} {1.000}
 E {   98} {w} {w} {8} {0} {} {1.000}
 
-R {   98} {0} {} {On the Atlantic Ocean} { } {A strong current of warm water pushes the ship north and east, but you think your ship is under control. Water is everywhere, salty and sticky, spray hitting your face and making it itch. You're getting a sunburn.} {Tea Route } {} {} {} {1.000}
+R {   98} {64} {} {On the Atlantic Ocean} { } {A strong current of warm water pushes the ship north and east, but you think your ship is under control. Water is everywhere, salty and sticky, spray hitting your face and making it itch. You're getting a sunburn.} {Tea Route } {} {} {} {1.000}
 E {   97} {e} {e} {2} {0} {} {1.000}
 E {   99} {w} {w} {8} {0} {} {1.000}
 
-R {   99} {0} {} {On the Atlantic Ocean} { } {Your eyes ache from straining at the horizon. This forsaken view makes you think of your own insignificance, how tiny a speck you are in the infinite reaches of the universe. There is something about the sea that makes one philosophical--how you wish you were back on land!} {Tea Route } {} {} {} {1.000}
+R {   99} {64} {} {On the Atlantic Ocean} { } {Your eyes ache from straining at the horizon. This forsaken view makes you think of your own insignificance, how tiny a speck you are in the infinite reaches of the universe. There is something about the sea that makes one philosophical--how you wish you were back on land!} {Tea Route } {} {} {} {1.000}
 E {   98} {e} {e} {2} {0} {} {1.000}
 E {  100} {w} {w} {8} {0} {} {1.000}
 
-R {  100} {0} {} {On the Atlantic Ocean} { } {Tiny bits of shredded seaweed, yellow and green, bob in the water around, providing a welcome respite from the eternal blue-green of the Atlantic waters. It has become hard to keep your eyes on what surrounds the ship, so alike is it all, and so reflective. Every hint of sunlight on water is like a dagger in your tired eyes.} {Tea Route } {} {} {} {1.000}
+R {  100} {64} {} {On the Atlantic Ocean} { } {Tiny bits of shredded seaweed, yellow and green, bob in the water around, providing a welcome respite from the eternal blue-green of the Atlantic waters. It has become hard to keep your eyes on what surrounds the ship, so alike is it all, and so reflective. Every hint of sunlight on water is like a dagger in your tired eyes.} {Tea Route } {} {} {} {1.000}
 E {   99} {e} {e} {2} {0} {} {1.000}
 E {  101} {s} {s} {4} {0} {} {1.000}
 
-R {  101} {0} {} {On the Atlantic Ocean} { } {How do the words of that poem go? 'Water water everywhere...' Your parched lips fully appreciate the irony of the next little bit, for it feels like months you have been at sea -- perhaps it has even been years -- and you long for a taste of fresh spring water, water not taken from a rotting cask, water not collected from brackish rain, water without a hint of salt in every drop.} {Tea Route } {} {} {} {1.000}
+R {  101} {64} {} {On the Atlantic Ocean} { } {How do the words of that poem go? 'Water water everywhere...' Your parched lips fully appreciate the irony of the next little bit, for it feels like months you have been at sea -- perhaps it has even been years -- and you long for a taste of fresh spring water, water not taken from a rotting cask, water not collected from brackish rain, water without a hint of salt in every drop.} {Tea Route } {} {} {} {1.000}
 E {  100} {n} {n} {1} {0} {} {1.000}
 E {  102} {w} {w} {8} {0} {} {1.000}
 
-R {  102} {0} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Tea Route } {} {} {} {1.000}
+R {  102} {64} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Tea Route } {} {} {} {1.000}
 E {  101} {e} {e} {2} {0} {} {1.000}
 E {  103} {s} {s} {4} {0} {} {1.000}
 
-R {  103} {0} {} {An Atoll} { } {This flyspeck of land is uncharted, and unoccupied save by the few lonesome palms that struggle for life. The beach sand is pristine and glaringly white, the water as it laps on the beach is crystal clear. A few feet in from the beach you see a place where something was obviously hastily buried--a half- covered-up hole, marring the paradise.} {Tea Route } {atoll} {} {} {1.000}
+R {  103} {64} {} {An Atoll} { } {This flyspeck of land is uncharted, and unoccupied save by the few lonesome palms that struggle for life. The beach sand is pristine and glaringly white, the water as it laps on the beach is crystal clear. A few feet in from the beach you see a place where something was obviously hastily buried--a half- covered-up hole, marring the paradise.} {Tea Route } {atoll} {} {} {1.000}
 E {  102} {n} {n} {1} {0} {} {1.000}
 E {  441} {atoll} {get map bag;open hole;st;put map bag} {0} {0} {} {1.000}
 
@@ -1806,54 +1806,54 @@ R {  429} {0} {} {On the Atlantic Ocean} { } {The wind smells of salt and the sp
 E {  428} {e} {e} {2} {0} {} {1.000}
 E {  456} {w} {w} {8} {0} {} {1.000}
 
-R {  430} {0} {} {On the Atlantic Ocean} { } {The water reflects the sky's greyness and nothing else breaks the monotonous colors surrounding you. The constant motion of the waves is no longer foreign to your body, though you think it would be difficult to stay below in a ship's hold for any stretch of time.} {} {} {} {} {1.000}
+R {  430} {64} {} {On the Atlantic Ocean} { } {The water reflects the sky's greyness and nothing else breaks the monotonous colors surrounding you. The constant motion of the waves is no longer foreign to your body, though you think it would be difficult to stay below in a ship's hold for any stretch of time.} {} {} {} {} {1.000}
 E {  456} {e} {e} {2} {0} {} {1.000}
 E { 6456} {w} {w} {8} {0} {} {1.000}
 E { 3574} {n} {n} {1} {0} {} {1.000}
 
-R {  431} {0} {} {Outside Boston Harbor} { } {A small, but busy harbor lies to the west. The charts indicate that the best way to travel from here is to follow the currents east and then north toward the colder territories or south along the coast. The winds are brisk here when they blow, but not intolerably so.} {} {} {} {} {1.000}
+R {  431} {64} {} {Outside Boston Harbor} { } {A small, but busy harbor lies to the west. The charts indicate that the best way to travel from here is to follow the currents east and then north toward the colder territories or south along the coast. The winds are brisk here when they blow, but not intolerably so.} {} {} {} {} {1.000}
 E { 6456} {e} {e} {2} {0} {} {1.000}
 E {  432} {s} {s} {4} {0} {} {1.000}
 E { 4287} {w} {w} {8} {0} {} {1.000}
 
-R {  432} {0} {} {On the Atlantic Ocean} { } {You are sailing very near the island of Manhattan. You remember talk about how the Dutch purchased it from the Indians in 1626 for a reportedly small sum. As you pass it, you're not quite sure why anyone would want it. It doesn't look particularly that rich in natural resources or very hospitable. The currents here can easily carry you north or west.} {} {} {} {} {1.000}
+R {  432} {64} {} {On the Atlantic Ocean} { } {You are sailing very near the island of Manhattan. You remember talk about how the Dutch purchased it from the Indians in 1626 for a reportedly small sum. As you pass it, you're not quite sure why anyone would want it. It doesn't look particularly that rich in natural resources or very hospitable. The currents here can easily carry you north or west.} {} {} {} {} {1.000}
 E {  431} {n} {n} {1} {0} {} {1.000}
 E {  433} {w} {w} {8} {0} {} {1.000}
 
-R {  433} {0} {} {On the Atlantic Ocean} { } {The current takes you near New Amsterdam, a busy little colony here in the new world. The English have done quite well since seizing it from the Dutch. Trade with the new Hudson's Bay Company hasn't hurt either. From here, you can travel either south along the coast or east out past Manhattan Island.} {} {} {} {} {1.000}
+R {  433} {64} {} {On the Atlantic Ocean} { } {The current takes you near New Amsterdam, a busy little colony here in the new world. The English have done quite well since seizing it from the Dutch. Trade with the new Hudson's Bay Company hasn't hurt either. From here, you can travel either south along the coast or east out past Manhattan Island.} {} {} {} {} {1.000}
 E {  432} {e} {e} {2} {0} {} {1.000}
 E {  434} {s} {s} {4} {0} {} {1.000}
 
-R {  434} {0} {} {On the Atlantic Ocean} { } {Here along the coast, rolling mountains can be seen in the distance. As the mountains give way to the rolling hills and smooth down to the coast, you see several locations that could prove to sustain colonies. To the north, the currents will take you to colder climates and south toward where the English settled in Virginia.} {} {} {} {} {1.000}
+R {  434} {64} {} {On the Atlantic Ocean} { } {Here along the coast, rolling mountains can be seen in the distance. As the mountains give way to the rolling hills and smooth down to the coast, you see several locations that could prove to sustain colonies. To the north, the currents will take you to colder climates and south toward where the English settled in Virginia.} {} {} {} {} {1.000}
 E {  433} {n} {n} {1} {0} {} {1.000}
 E {  435} {s} {s} {4} {0} {} {1.000}
 
-R {  435} {0} {} {On the Atlantic Ocean} { } {You are passing the mouth of a large estuary. The salt and freshwater mixes freely as the tides ebb and flow. The variety in wildlife that you have seen along the shore is amazing. You can continue either north or south as long as you remain on the eastern side of the barrier islands formed by the tides.} {} {} {} {} {1.000}
+R {  435} {64} {} {On the Atlantic Ocean} { } {You are passing the mouth of a large estuary. The salt and freshwater mixes freely as the tides ebb and flow. The variety in wildlife that you have seen along the shore is amazing. You can continue either north or south as long as you remain on the eastern side of the barrier islands formed by the tides.} {} {} {} {} {1.000}
 E {  434} {n} {n} {1} {0} {} {1.000}
 E {  436} {s} {s} {4} {0} {} {1.000}
 
-R {  436} {0} {} {On the Atlantic Ocean} { } {The mouth of the James River comes down to meet the ocean to the west. The gently rolling land looks promising for colonization along here. You can see why the English chose this area for their first landings. Following the currents here will take you either north or south.} {} {} {} {} {1.000}
+R {  436} {64} {} {On the Atlantic Ocean} { } {The mouth of the James River comes down to meet the ocean to the west. The gently rolling land looks promising for colonization along here. You can see why the English chose this area for their first landings. Following the currents here will take you either north or south.} {} {} {} {} {1.000}
 E {  435} {n} {n} {1} {0} {} {1.000}
 E {  437} {s} {s} {4} {0} {} {1.000}
 
-R {  437} {0} {} {On the Atlantic Ocean} { } {Glorious beaches line the coast, many trees look severely storm damaged by the last hurricane season, but the land beyond looks bountiful and perfect for farming. From here you can travel either north or south along the coast.} {} {} {} {} {1.000}
+R {  437} {64} {} {On the Atlantic Ocean} { } {Glorious beaches line the coast, many trees look severely storm damaged by the last hurricane season, but the land beyond looks bountiful and perfect for farming. From here you can travel either north or south along the coast.} {} {} {} {} {1.000}
 E {  436} {n} {n} {1} {0} {} {1.000}
 E {  438} {s} {s} {4} {0} {} {1.000}
 
-R {  438} {0} {} {On the Atlantic Ocean} { } {The land along the coast is extremely flat and very close to sea level. The grass is sparser and less luxurious but the warm, rainy climate might be nice to sit back, relax and contemplate retiring. North, you can follow the coast and pass near the English settlement in Virginia or travel south toward the more tropic regions.} {} {} {} {} {1.000}
+R {  438} {64} {} {On the Atlantic Ocean} { } {The land along the coast is extremely flat and very close to sea level. The grass is sparser and less luxurious but the warm, rainy climate might be nice to sit back, relax and contemplate retiring. North, you can follow the coast and pass near the English settlement in Virginia or travel south toward the more tropic regions.} {} {} {} {} {1.000}
 E {  437} {n} {n} {1} {0} {} {1.000}
 E {  439} {s} {s} {4} {0} {} {1.000}
 
-R {  439} {0} {} {On the Atlantic Ocean} { } {Small islands dot the horizon to the west as you travel along the palm dotted coastline here. Marvelous beaches line the shore, beckoning you to sit and relax and while away the days. If you're looking for tropical paradise you'll be likely to find it after threading through the many small islands to the west. North will take you along the east coast and to cooler regions.} {} {} {} {} {1.000}
+R {  439} {64} {} {On the Atlantic Ocean} { } {Small islands dot the horizon to the west as you travel along the palm dotted coastline here. Marvelous beaches line the shore, beckoning you to sit and relax and while away the days. If you're looking for tropical paradise you'll be likely to find it after threading through the many small islands to the west. North will take you along the east coast and to cooler regions.} {} {} {} {} {1.000}
 E {  438} {n} {n} {1} {0} {} {1.000}
 E { 1091} {e} {e} {2} {0} {} {1.000}
 E {  464} {w} {w} {8} {0} {} {1.000}
 
-R {  440} {0} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Medieval Seas } {} {} {} {1.000}
+R {  440} {64} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Medieval Seas } {} {} {} {1.000}
 E { 1091} {w} {w} {8} {0} {} {1.000}
 E {  461} {s} {s} {4} {0} {} {1.000}
 
-R {  441} {0} {} {A Deserted Isle} { } {You are surrounded by turquoise waves rising and falling slowly and evenly. The white foam licks at the narrow beach. A single palm tree grows up from the sand, where a coconut chanced to land. Looking down through the crystal clear water you can clearly see that the water isn't that deep, and the colors of the reef invite you to explore their mysteries. This island isn't charted on any maps and would probably be the perfect spot to bury treasure.} {Pirate Caribbean } {red} {} {} {1.000}
+R {  441} {64} {} {A Deserted Isle} { } {You are surrounded by turquoise waves rising and falling slowly and evenly. The white foam licks at the narrow beach. A single palm tree grows up from the sand, where a coconut chanced to land. Looking down through the crystal clear water you can clearly see that the water isn't that deep, and the colors of the reef invite you to explore their mysteries. This island isn't charted on any maps and would probably be the perfect spot to bury treasure.} {Pirate Caribbean } {red} {} {} {1.000}
 E {  461} {n} {n} {1} {0} {} {1.000}
 E {  455} {s} {s} {4} {0} {} {1.000}
 E {  465} {w} {w} {8} {0} {} {1.000}
@@ -2398,39 +2398,39 @@ E {  571} {e} {e} {2} {0} {} {1.000}
 R {  571} {0} {} {A Storehouse of Charitable Donations} { } {Those with a charitable turn of mind often bring donations to this room of the mosque, to be shared among those who might need them. Furthermore, Muslims must pay a zakat or charity tax, and do so here, according to their means. Unfortunately, these desperate times have forced the Imam to establish an overseer in the storehouse, to insure that only the neediest receive the highest percentage of assistance.} {The Crusades } {} {} {} {1.000}
 E {  570} {w} {w} {8} {0} {} {1.000}
 
-R {  572} {0} {} {The Road to Rabat} { } {The well-traveled road lies flat and straight, heading north to Rabat and south to Casablanca.} {WWII North Africa } {} {} {} {1.000}
+R {  572} {64} {} {The Road to Rabat} { } {The well-traveled road lies flat and straight, heading north to Rabat and south to Casablanca.} {WWII North Africa } {} {} {} {1.000}
 E {   89} {s} {s} {4} {0} {} {1.000}
 E {  573} {n} {n} {1} {0} {} {1.000}
 
-R {  573} {0} {} {Rabat} { } {Rabat is a small town to the north of Casablanca. Its few shops and houses are a welcome sight after the long travels through the desert.} {WWII North Africa } {} {} {} {1.000}
+R {  573} {64} {} {Rabat} { } {Rabat is a small town to the north of Casablanca. Its few shops and houses are a welcome sight after the long travels through the desert.} {WWII North Africa } {} {} {} {1.000}
 E {  572} {s} {s} {4} {0} {} {1.000}
 E {  574} {n} {n} {1} {0} {} {1.000}
 
-R {  574} {0} {} {The Road Between Rabat and Port Lyautey} { } {The long road through the desert continues. Sand stretches to the horizon on either side.} {WWII North Africa } {} {} {} {1.000}
+R {  574} {64} {} {The Road Between Rabat and Port Lyautey} { } {The long road through the desert continues. Sand stretches to the horizon on either side.} {WWII North Africa } {} {} {} {1.000}
 E {  573} {s} {s} {4} {0} {} {1.000}
 E {  575} {n} {n} {1} {0} {} {1.000}
 
-R {  575} {0} {} {Port Lyautey} { } {The small port town serves as a host for traders coming to port from the the Atlantic Ocean. The ocean stretches out ahead of you, no land to be seen.} {WWII North Africa } {} {} {} {1.000}
+R {  575} {64} {} {Port Lyautey} { } {The small port town serves as a host for traders coming to port from the the Atlantic Ocean. The ocean stretches out ahead of you, no land to be seen.} {WWII North Africa } {} {} {} {1.000}
 E {  574} {s} {s} {4} {0} {} {1.000}
 E {  576} {e} {e} {2} {0} {} {1.000}
 
-R {  576} {0} {} {Moulouya River} { } {The smooth-flowing river flows from the north and pours itself west to meet the ocean. The wonder of the river has created a small foothold for life to sustain itself in an otherwise barren landscape.} {WWII North Africa } {} {} {} {1.000}
+R {  576} {64} {} {Moulouya River} { } {The smooth-flowing river flows from the north and pours itself west to meet the ocean. The wonder of the river has created a small foothold for life to sustain itself in an otherwise barren landscape.} {WWII North Africa } {} {} {} {1.000}
 E {  575} {w} {w} {8} {0} {} {1.000}
 E {  577} {e} {e} {2} {0} {} {1.000}
 
-R {  577} {0} {} {French Moroccan-Algerian Border} { } {Stretching around you for miles in any direction is nothinginess. One wonders where, how and why this was determined as the border to anything. You doubt the sage brush, sand or camels acknowledge allegiance to any country.} {WWII North Africa } {} {} {} {1.000}
+R {  577} {64} {} {French Moroccan-Algerian Border} { } {Stretching around you for miles in any direction is nothinginess. One wonders where, how and why this was determined as the border to anything. You doubt the sage brush, sand or camels acknowledge allegiance to any country.} {WWII North Africa } {} {} {} {1.000}
 E {  576} {w} {w} {8} {0} {} {1.000}
 E {  578} {n} {n} {1} {0} {} {1.000}
 
-R {  578} {0} {} {Oran} { } {This is the port of Oran on the Mediterranean Sea. Into this port flow the refugees from Europe, on their way to Casablanca and hopefully a trip across the ocean to safety.} {WWII North Africa } {} {} {} {1.000}
+R {  578} {64} {} {Oran} { } {This is the port of Oran on the Mediterranean Sea. Into this port flow the refugees from Europe, on their way to Casablanca and hopefully a trip across the ocean to safety.} {WWII North Africa } {} {} {} {1.000}
 E {  577} {s} {s} {4} {0} {} {1.000}
 E {  579} {e} {e} {2} {0} {} {1.000}
 
-R {  579} {0} {} {The Western Edge of Algiers} { } {You stand at the edge of the city and find yourself glancing about the area, wondering which direction you should head.} {WWII North Africa } {} {} {} {1.000}
+R {  579} {64} {} {The Western Edge of Algiers} { } {You stand at the edge of the city and find yourself glancing about the area, wondering which direction you should head.} {WWII North Africa } {} {} {} {1.000}
 E {  578} {w} {w} {8} {0} {} {1.000}
 E {  580} {e} {e} {2} {0} {} {1.000}
 
-R {  580} {0} {} {The Center of Algiers} { } {Many carts sit along the roadsides here waiting for weary travellers to come along and empty them of their wares. The local hotel sits to the north as a welcome place for much needed rest. People bustle about in a rush and you find yourself fighting to go in any direction.} {WWII North Africa } {} {} {} {1.000}
+R {  580} {64} {} {The Center of Algiers} { } {Many carts sit along the roadsides here waiting for weary travellers to come along and empty them of their wares. The local hotel sits to the north as a welcome place for much needed rest. People bustle about in a rush and you find yourself fighting to go in any direction.} {WWII North Africa } {} {} {} {1.000}
 E {  579} {w} {w} {8} {0} {} {1.000}
 E {  581} {n} {open n;n} {1} {0} {} {1.000}
 E {  582} {e} {e} {2} {0} {} {1.000}
@@ -2444,11 +2444,11 @@ E {  580} {w} {w} {8} {0} {} {1.000}
 E {  586} {s} {s} {4} {0} {} {1.000}
 E {  597} {e} {e} {2} {0} {} {1.000}
 
-R {  583} {0} {} {Road to Tebessa} { } {The road stretches along the dry ground and slowly climbs the slopes and valleys through the Nemencha mountains.} {WWII North Africa } {} {} {} {1.000}
+R {  583} {64} {} {Road to Tebessa} { } {The road stretches along the dry ground and slowly climbs the slopes and valleys through the Nemencha mountains.} {WWII North Africa } {} {} {} {1.000}
 E {  580} {n} {n} {1} {0} {} {1.000}
 E {  584} {s} {s} {4} {0} {} {1.000}
 
-R {  584} {0} {} {Tebessa} { } {Situated within the Nemencha Mountains the town of Tebessa makes its living from the mountains and plateaus around it. Surrounded on all sides by the high mountains and the deep passes through them the town seems to rest in a giant hand. It rests near the border of Algiers and Tunisia.} {WWII North Africa } {old} {} {} {1.000}
+R {  584} {64} {} {Tebessa} { } {Situated within the Nemencha Mountains the town of Tebessa makes its living from the mountains and plateaus around it. Surrounded on all sides by the high mountains and the deep passes through them the town seems to rest in a giant hand. It rests near the border of Algiers and Tunisia.} {WWII North Africa } {old} {} {} {1.000}
 E {  583} {n} {n} {1} {0} {} {1.000}
 E {  585} {e} {e} {2} {0} {} {1.000}
 E {  587} {s} {s} {4} {0} {} {1.000}
@@ -10743,6 +10743,7 @@ E { 2541} {leap} {leap} {0} {0} {} {1.000}
 E { 2542} {w} {w} {8} {0} {} {1.000}
 E { 2543} {n} {n} {1} {0} {} {1.000}
 E { 2545} {s} {s} {4} {0} {} {1.000}
+E { 6868} {e} {e} {2} {0} {} {1.000}
 
 R { 2541} {0} {} {On the Bridge of Leaps} { } {You stand gingerly on the bridge, each footstep making the bridge sway, the wind gusting through the valley only making it worse. You lose your footing and hold on for dear life, grasping at a rope that should have given way long ago. You wonder how long you can maintain your balance? Long enough to get across?} {Land of Shadows } {} {} {} {1.000}
 E { 1168} {leap} {leap} {0} {0} {} {1.000}
@@ -15072,29 +15073,29 @@ R { 3573} {0} {} {The Sala del Maggior Consiglio} { } {The Hall of the Supreme C
 E { 3572} {s} {s} {4} {0} {} {1.000}
 E { 6628} {e} {e} {2} {0} {} {1.000}
 
-R { 3574} {0} {} {On the Atlantic Ocean} { } {You continue on your journey, no other signs of life can be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon seems to echo back to you and you begin to ponder whether it might be best to turn back.} {French Indian War } {} {} {} {1.000}
+R { 3574} {64} {} {On the Atlantic Ocean} { } {You continue on your journey, no other signs of life can be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon seems to echo back to you and you begin to ponder whether it might be best to turn back.} {French Indian War } {} {} {} {1.000}
 E {  430} {s} {s} {4} {0} {} {1.000}
 E { 3841} {n} {n} {1} {0} {} {1.000}
 E { 3758} {w} {w} {8} {0} {} {1.000}
 
-R { 3575} {0} {} {On the Atlantic Ocean} { } {Both the sun and the stars have been hidden from view by the never ending cloud cover, making it impossible to track your exact position with your rusty sextant. By your best calculations you guess that you are at the halfway point of your trip across the Atlantic. You hope that you will be able to confirm your position soon. You pray for a clearing of the sky.} {French Indian War } {} {} {} {1.000}
+R { 3575} {64} {} {On the Atlantic Ocean} { } {Both the sun and the stars have been hidden from view by the never ending cloud cover, making it impossible to track your exact position with your rusty sextant. By your best calculations you guess that you are at the halfway point of your trip across the Atlantic. You hope that you will be able to confirm your position soon. You pray for a clearing of the sky.} {French Indian War } {} {} {} {1.000}
 E { 3841} {s} {s} {4} {0} {} {1.000}
 E { 3576} {w} {w} {8} {0} {} {1.000}
 
-R { 3576} {0} {} {On the Atlantic Ocean} { } {Onward you continue with your adventurous trip. The sky and sea blend together at the horizon in a haze. You try to keep your spirits up in such dismal surroundings, not knowing what lies ahead of you. Another check of your provisions assures you that you have planned well for your journey.} {French Indian War } {} {} {} {1.000}
+R { 3576} {64} {} {On the Atlantic Ocean} { } {Onward you continue with your adventurous trip. The sky and sea blend together at the horizon in a haze. You try to keep your spirits up in such dismal surroundings, not knowing what lies ahead of you. Another check of your provisions assures you that you have planned well for your journey.} {French Indian War } {} {} {} {1.000}
 E { 3575} {e} {e} {2} {0} {} {1.000}
 E { 3577} {n} {n} {1} {0} {} {1.000}
 
-R { 3577} {0} {} {Off Nova Scotia} { } {The green cliffs of Nova Scotia rise up on the western horizon like an emerald beacon against night's darkness. Though it is tempting to land there, you travel onwards. The weather breaks and you are able to get an accurate reading of your position. You plot your course on the rough nautical charts you carry with you.} {French Indian War } {} {} {} {1.000}
+R { 3577} {64} {} {Off Nova Scotia} { } {The green cliffs of Nova Scotia rise up on the western horizon like an emerald beacon against night's darkness. Though it is tempting to land there, you travel onwards. The weather breaks and you are able to get an accurate reading of your position. You plot your course on the rough nautical charts you carry with you.} {French Indian War } {} {} {} {1.000}
 E { 3576} {s} {s} {4} {0} {} {1.000}
 E { 3578} {n} {n} {1} {0} {} {1.000}
 
-R { 3578} {0} {} {Between Isle Royale and Newfoundland} { } {Looking north and south you see two islands rising up from the sea. They disappear in a green haze on the horizon as you make the wide turn round Isle Royale. You keep an eager eye out for the small stray islands that show as dots on your chart, marking dangers to ships where they could run aground at night.} {French Indian War } {} {} {} {1.000}
+R { 3578} {64} {} {Between Isle Royale and Newfoundland} { } {Looking north and south you see two islands rising up from the sea. They disappear in a green haze on the horizon as you make the wide turn round Isle Royale. You keep an eager eye out for the small stray islands that show as dots on your chart, marking dangers to ships where they could run aground at night.} {French Indian War } {} {} {} {1.000}
 E { 3577} {s} {s} {4} {0} {} {1.000}
 E { 3579} {w} {w} {8} {0} {} {1.000}
 E { 4902} {n} {n} {1} {0} {} {1.000}
 
-R { 3579} {0} {} {The Gulf of St. Lawrence} { } {Carefully you mark your course as you make your way around Cape St. Lawrence and into the gulf. The blue-green highlands of Isle Royale are off the south of you. To the north you can still see the Long Range Mountains of Nova Scotia. You are torn between heading northward to St. George's Bay or across the gulf to another island that is marked on your sea chart.} {French Indian War } {fiwar} {} {} {1.000}
+R { 3579} {64} {} {The Gulf of St. Lawrence} { } {Carefully you mark your course as you make your way around Cape St. Lawrence and into the gulf. The blue-green highlands of Isle Royale are off the south of you. To the north you can still see the Long Range Mountains of Nova Scotia. You are torn between heading northward to St. George's Bay or across the gulf to another island that is marked on your sea chart.} {French Indian War } {fiwar} {} {} {1.000}
 E { 3578} {e} {e} {2} {0} {} {1.000}
 E { 3581} {w} {w} {8} {0} {} {1.000}
 
@@ -15102,7 +15103,7 @@ R { 3580} {0} {} {On the Beach at Ile St. Jean} { } {Leaving behind the serene, 
 E { 3581} {n} {n} {1} {0} {} {1.000}
 E { 3842} {s} {s} {4} {0} {} {1.000}
 
-R { 3581} {0} {} {Off the coast of Ile St. Jean} { } {The sky reflected in the blue seas is stark in contrast to the dark red cliffs of the island. Further back, green grass and dark forests blanket the rolling hills in the distance. The water looks calmer as you look toward a small bay to the south.} {French Indian War } {} {} {} {1.000}
+R { 3581} {64} {} {Off the coast of Ile St. Jean} { } {The sky reflected in the blue seas is stark in contrast to the dark red cliffs of the island. Further back, green grass and dark forests blanket the rolling hills in the distance. The water looks calmer as you look toward a small bay to the south.} {French Indian War } {} {} {} {1.000}
 E { 3579} {e} {e} {2} {0} {} {1.000}
 E { 3580} {s} {s} {4} {0} {} {1.000}
 E { 3849} {w} {w} {8} {0} {} {1.000}
@@ -16207,11 +16208,11 @@ E { 3842} {n} {n} {1} {0} {} {1.000}
 R { 3846} {0} {} {In the Forests of Ile St. Jean} { } {Following a pathway into the deep forest, you keep your voice and your steps hushed. You trudge along the track which is strewn with pine needles. The undergrowth is sparse here, making it easy for you to advance. The huge pine trees rise up over you, branches interlocking in such a way as to block out the light. It is so quiet here that you easily can hear the beating of your own heart.} {French Indian War } {} {} {} {1.000}
 E { 3842} {e} {e} {2} {0} {} {1.000}
 
-R { 3847} {0} {} {Rounding Cap-de-Rosiers} { } {The shoreline looks hostile with its granite boulders tumbling to the sea. Cautiously, you head your ship along the coast although your sea charts show that it is a clear passageway. The weather clears a bit and the waves seem more placid than they were in the deep ocean of the Atlantic.} {French Indian War } {} {} {} {1.000}
+R { 3847} {64} {} {Rounding Cap-de-Rosiers} { } {The shoreline looks hostile with its granite boulders tumbling to the sea. Cautiously, you head your ship along the coast although your sea charts show that it is a clear passageway. The weather clears a bit and the waves seem more placid than they were in the deep ocean of the Atlantic.} {French Indian War } {} {} {} {1.000}
 E { 3849} {e} {e} {2} {0} {} {1.000}
 E { 3848} {w} {w} {8} {0} {} {1.000}
 
-R { 3848} {0} {} {Entering the St. Lawrence} { } {At last you enter the mouth of the great St. Lawrence! Looking northward, you see Ile D'Anticosti, and further east lies the settlement at Sept-Iles. You tack southward though, hugging along the coast. The wind is cool, blowing down from the north, and speeds your progress along through the choppy waters.} {French Indian War } {} {} {} {1.000}
+R { 3848} {64} {} {Entering the St. Lawrence} { } {At last you enter the mouth of the great St. Lawrence! Looking northward, you see Ile D'Anticosti, and further east lies the settlement at Sept-Iles. You tack southward though, hugging along the coast. The wind is cool, blowing down from the north, and speeds your progress along through the choppy waters.} {French Indian War } {} {} {} {1.000}
 E { 3847} {n} {n} {1} {0} {} {1.000}
 E { 3850} {s} {s} {4} {0} {} {1.000}
 
@@ -16219,44 +16220,44 @@ R { 3849} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3581} {e} {e} {2} {0} {} {1.000}
 E { 3847} {w} {w} {8} {0} {} {1.000}
 
-R { 3850} {0} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the water. Here and there, you see an occasional porpoise dance alongside the ship, seeming to guide it along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
+R { 3850} {64} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the water. Here and there, you see an occasional porpoise dance alongside the ship, seeming to guide it along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
 E { 3848} {n} {n} {1} {0} {} {1.000}
 E { 3851} {s} {s} {4} {0} {} {1.000}
 
-R { 3851} {0} {} {Down the St. Lawrence} { } {The water laps quietly at the sides of your vessel as you travel along the St. Lawrence. To the north is the entrance to the river, beyond that lies the gulf, and beyond that the Atlantic. The settlement of River-Ouelle is over on the eastern bank, marked by pillars of smoke rising from the chimneys. The river continues on southward toward the larger settlement of Quebec.} {French Indian War } {} {} {} {1.000}
+R { 3851} {64} {} {Down the St. Lawrence} { } {The water laps quietly at the sides of your vessel as you travel along the St. Lawrence. To the north is the entrance to the river, beyond that lies the gulf, and beyond that the Atlantic. The settlement of River-Ouelle is over on the eastern bank, marked by pillars of smoke rising from the chimneys. The river continues on southward toward the larger settlement of Quebec.} {French Indian War } {} {} {} {1.000}
 E { 3850} {n} {n} {1} {0} {} {1.000}
 E { 3852} {s} {s} {4} {0} {} {1.000}
 
-R { 3852} {0} {} {Down the St. Lawrence} { } {Deep forests and dense brush line each side of the river, offering little room to land. The water is a bit choppy through here, but still traversable. From the smoke rising up to the north and southeast, you can tell that the forests are inhabited, but not whether by friend or foe.} {French Indian War } {} {} {} {1.000}
+R { 3852} {64} {} {Down the St. Lawrence} { } {Deep forests and dense brush line each side of the river, offering little room to land. The water is a bit choppy through here, but still traversable. From the smoke rising up to the north and southeast, you can tell that the forests are inhabited, but not whether by friend or foe.} {French Indian War } {} {} {} {1.000}
 E { 3851} {n} {n} {1} {0} {} {1.000}
 E { 3853} {s} {s} {4} {0} {} {1.000}
 
-R { 3853} {0} {} {Weighing Anchor at Quebec} { } {Several ships have weighed anchor here, just within rowing distance of the weather-worn wharves. What you can see of the settlement seems to be a good size. You watch as small boats row to and from the other ships, riding low in the water because of their heavy burdens.} {French Indian War } {} {} {} {1.000}
+R { 3853} {64} {} {Weighing Anchor at Quebec} { } {Several ships have weighed anchor here, just within rowing distance of the weather-worn wharves. What you can see of the settlement seems to be a good size. You watch as small boats row to and from the other ships, riding low in the water because of their heavy burdens.} {French Indian War } {} {} {} {1.000}
 E { 3852} {n} {n} {1} {0} {} {1.000}
 E { 3854} {s} {s} {4} {0} {} {1.000}
 
-R { 3854} {0} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
+R { 3854} {64} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
 E { 3853} {n} {n} {1} {0} {} {1.000}
 E { 3855} {w} {w} {8} {0} {} {1.000}
 
-R { 3855} {0} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas that you have been warned about by more experienced travelers, as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
+R { 3855} {64} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas that you have been warned about by more experienced travelers, as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
 E { 3854} {e} {e} {2} {0} {} {1.000}
 E { 3856} {s} {s} {4} {0} {} {1.000}
 
-R { 3856} {0} {} {At the Mouth of the Richelieu River} { } {A small river empties into the St. Lawrence here. The smell of the fresh water from it mingles with the slightly salty smell of the larger river. The waters are teeming with salmon here and the woods close by offer the promise of good hunting for fresh game. The banks are clear and pebbled, offering several good places for landing.} {French Indian War } {} {} {} {1.000}
+R { 3856} {64} {} {At the Mouth of the Richelieu River} { } {A small river empties into the St. Lawrence here. The smell of the fresh water from it mingles with the slightly salty smell of the larger river. The waters are teeming with salmon here and the woods close by offer the promise of good hunting for fresh game. The banks are clear and pebbled, offering several good places for landing.} {French Indian War } {} {} {} {1.000}
 E { 3855} {e} {e} {2} {0} {} {1.000}
 E { 3857} {s} {s} {4} {0} {} {1.000}
 
-R { 3857} {0} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hand's reach and the buzz of mosquitoes and black flies sound obnoxious in your ears. To the south you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
+R { 3857} {64} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hand's reach and the buzz of mosquitoes and black flies sound obnoxious in your ears. To the south you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
 E { 3856} {n} {n} {1} {0} {} {1.000}
 E { 3858} {s} {s} {4} {0} {} {1.000}
 E { 3860} {w} {w} {8} {0} {} {1.000}
 
-R { 3858} {0} {} {The Rapids Along the Richelieu River} { } {The river runs swift and wild here, churning up a frothy white foam as you are swept along. Your heartbeat quickens\; you feel a tremendous rush of adrenaline as you work instinctively to keep off the treacherous rocks which suddenly appear below the foaming water. Straining your muscles against the rushing water, you pray you have the strength to endure...} {French Indian War } {} {} {} {1.000}
+R { 3858} {64} {} {The Rapids Along the Richelieu River} { } {The river runs swift and wild here, churning up a frothy white foam as you are swept along. Your heartbeat quickens\; you feel a tremendous rush of adrenaline as you work instinctively to keep off the treacherous rocks which suddenly appear below the foaming water. Straining your muscles against the rushing water, you pray you have the strength to endure...} {French Indian War } {} {} {} {1.000}
 E { 3857} {n} {n} {1} {0} {} {1.000}
 E { 3859} {s} {s} {4} {0} {} {1.000}
 
-R { 3859} {0} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hands' reach and the buzz of mosquitoes and black flies sounds obnoxious in your ears. To the north you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
+R { 3859} {64} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hands' reach and the buzz of mosquitoes and black flies sounds obnoxious in your ears. To the north you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
 E { 3858} {n} {n} {1} {0} {} {1.000}
 E { 3870} {s} {s} {4} {0} {} {1.000}
 E { 3871} {w} {w} {8} {0} {} {1.000}
@@ -16290,13 +16291,13 @@ R { 3866} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3863} {n} {n} {1} {0} {} {1.000}
 E { 3865} {s} {s} {4} {0} {} {1.000}
 
-R { 3867} {0} {} {A Landing Off Lake Champlain} { } {Looking about, you spy a place off to the western shore which would be a good landing spot. A natural opening in the forest and the small sandy beach offer good footing and a secure place to hide your vessel. The lake is open to the north and south, the waters still calm. Another of the many islands of these waters is to the east of you.} {French Indian War } {} {} {} {1.000}
+R { 3867} {64} {} {A Landing Off Lake Champlain} { } {Looking about, you spy a place off to the western shore which would be a good landing spot. A natural opening in the forest and the small sandy beach offer good footing and a secure place to hide your vessel. The lake is open to the north and south, the waters still calm. Another of the many islands of these waters is to the east of you.} {French Indian War } {} {} {} {1.000}
 E { 3869} {w} {w} {8} {0} {} {1.000}
 E { 3868} {n} {n} {1} {0} {} {1.000}
 E { 3872} {e} {e} {2} {0} {} {1.000}
 E { 3884} {s} {s} {4} {0} {} {1.000}
 
-R { 3868} {0} {} {Between Two Islands} { } {In between the two islands, Ille Lamotte and Valcour, you have a chance to appreciate the true size of the lake. The shorelines to the east and west are hazy in the distance. The southern shore is barely visible from this vantage point. The area surrounding the lake is heavily forested, with a high ridge following along to the east, and a smaller one to the west.} {French Indian War } {} {} {} {1.000}
+R { 3868} {64} {} {Between Two Islands} { } {In between the two islands, Ille Lamotte and Valcour, you have a chance to appreciate the true size of the lake. The shorelines to the east and west are hazy in the distance. The southern shore is barely visible from this vantage point. The area surrounding the lake is heavily forested, with a high ridge following along to the east, and a smaller one to the west.} {French Indian War } {} {} {} {1.000}
 E { 3867} {s} {s} {4} {0} {} {1.000}
 E { 3870} {n} {n} {1} {0} {} {1.000}
 E { 3873} {e} {e} {2} {0} {} {1.000}
@@ -16305,7 +16306,7 @@ R { 3869} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3865} {w} {w} {8} {0} {} {1.000}
 E { 3867} {e} {e} {2} {0} {} {1.000}
 
-R { 3870} {0} {} {Ile La Motte} { } {Rocky boulders tumble down to the water, crowned by an overgrowth of brush and pines. The grey of the craggy rocks blend in with the grey of the deep water here. You look for a break along the shoreline where you might land, but cannot find one.} {French Indian War } {} {} {} {1.000}
+R { 3870} {64} {} {Ile La Motte} { } {Rocky boulders tumble down to the water, crowned by an overgrowth of brush and pines. The grey of the craggy rocks blend in with the grey of the deep water here. You look for a break along the shoreline where you might land, but cannot find one.} {French Indian War } {} {} {} {1.000}
 E { 3868} {s} {s} {4} {0} {} {1.000}
 E { 3859} {n} {n} {1} {0} {} {1.000}
 
@@ -16339,12 +16340,12 @@ R { 3878} {0} {} {A Clearing Along the Trail} { } {The trees seem to space out m
 E { 3877} {w} {w} {8} {0} {} {1.000}
 E { 3879} {s} {s} {4} {0} {} {1.000}
 
-R { 3879} {0} {} {A Narrow Deer Trail} { } {The walking is a bit easier here along this narrow deer trail. Delicate woodland flowers peek up through the fallen leaves, their soft petals of pink, cream and light purple unfold above their light green stems. The tree trunks are covered in thick moss and ribbed with multi-colored fungi. By the creaking sounds of frogs, you know that a water source must be nearby.} {French Indian War } {} {} {} {1.000}
+R { 3879} {64} {} {A Narrow Deer Trail} { } {The walking is a bit easier here along this narrow deer trail. Delicate woodland flowers peek up through the fallen leaves, their soft petals of pink, cream and light purple unfold above their light green stems. The tree trunks are covered in thick moss and ribbed with multi-colored fungi. By the creaking sounds of frogs, you know that a water source must be nearby.} {French Indian War } {} {} {} {1.000}
 E { 3878} {n} {n} {1} {0} {} {1.000}
 E { 3881} {e} {e} {2} {0} {} {1.000}
 E { 3892} {s} {s} {4} {0} {} {1.000}
 
-R { 3880} {0} {} {On Lake Champlain, North of the Narrows} { } {The lake begins to narrow sharply here and southward on, the shoreline becoming more pronounced. The shore on each side is rocky, large boulders tumble down from the greenery to the clear water's edge. The scenery is wild and rugged and nothing like you could have imagined. The forest lifts, climbing into the surrounding mountains. It seems to go on forever, in an ocean of blue-green.} {French Indian War } {} {} {} {1.000}
+R { 3880} {64} {} {On Lake Champlain, North of the Narrows} { } {The lake begins to narrow sharply here and southward on, the shoreline becoming more pronounced. The shore on each side is rocky, large boulders tumble down from the greenery to the clear water's edge. The scenery is wild and rugged and nothing like you could have imagined. The forest lifts, climbing into the surrounding mountains. It seems to go on forever, in an ocean of blue-green.} {French Indian War } {} {} {} {1.000}
 E { 3883} {n} {n} {1} {0} {} {1.000}
 E { 3886} {s} {s} {4} {0} {} {1.000}
 E { 3882} {w} {w} {8} {0} {} {1.000}
@@ -16357,12 +16358,12 @@ R { 3882} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3881} {w} {w} {8} {0} {} {1.000}
 E { 3880} {e} {e} {2} {0} {} {1.000}
 
-R { 3883} {0} {} {Lake Champlain, Near a Group of Islands} { } {The water runs deep and cold here on the large lake. A group of small islands lay off to the west, tall pines rising upward beyond their rocky shorelines. The open water continues on the south and north, even though it looks as though the lake is growing more narrow southward. The shoreline shows no signs of inhabitants, though you get the feeling that you are being watched as you travel along.} {French Indian War } {} {} {} {1.000}
+R { 3883} {64} {} {Lake Champlain, Near a Group of Islands} { } {The water runs deep and cold here on the large lake. A group of small islands lay off to the west, tall pines rising upward beyond their rocky shorelines. The open water continues on the south and north, even though it looks as though the lake is growing more narrow southward. The shoreline shows no signs of inhabitants, though you get the feeling that you are being watched as you travel along.} {French Indian War } {} {} {} {1.000}
 E { 3880} {s} {s} {4} {0} {} {1.000}
 E { 3884} {n} {n} {1} {0} {} {1.000}
 E { 3885} {w} {w} {8} {0} {} {1.000}
 
-R { 3884} {0} {} {Schuyler Island} { } {Off to the west of you lies another of the many islands which populate these waters. Looking along the shore, you see a cow moose and her calf rising up from the water and disappearing into the thickets of the isle. The hunting and fishing promises to be good close by and you make a mental note to stop here at sometime in the future to explore the island.} {French Indian War } {} {} {} {1.000}
+R { 3884} {64} {} {Schuyler Island} { } {Off to the west of you lies another of the many islands which populate these waters. Looking along the shore, you see a cow moose and her calf rising up from the water and disappearing into the thickets of the isle. The hunting and fishing promises to be good close by and you make a mental note to stop here at sometime in the future to explore the island.} {French Indian War } {} {} {} {1.000}
 E { 3883} {s} {s} {4} {0} {} {1.000}
 E { 3867} {n} {n} {1} {0} {} {1.000}
 
@@ -16382,7 +16383,7 @@ E { 3887} {n} {n} {1} {0} {} {1.000}
 E { 3893} {w} {w} {8} {0} {} {1.000}
 E { 3898} {s} {s} {4} {0} {} {1.000}
 
-R { 3889} {0} {} {A Dark Trail Through the Forest} { } {The forest vegetation is thick here, making your passing difficult. Saplings, wild grape vines, and overgrown bushes all compete for what little sunlight they can get in the filtered light. The tapping of a woodpecker reverberates through the wood, and the call of a nearby quail startles you to alertness.} {French Indian War } {} {} {} {1.000}
+R { 3889} {64} {} {A Dark Trail Through the Forest} { } {The forest vegetation is thick here, making your passing difficult. Saplings, wild grape vines, and overgrown bushes all compete for what little sunlight they can get in the filtered light. The tapping of a woodpecker reverberates through the wood, and the call of a nearby quail startles you to alertness.} {French Indian War } {} {} {} {1.000}
 E { 3890} {n} {n} {1} {0} {} {1.000}
 E { 3894} {e} {e} {2} {0} {} {1.000}
 E { 3895} {s} {s} {4} {0} {} {1.000}
@@ -16407,15 +16408,15 @@ R { 3894} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3893} {e} {e} {2} {0} {} {1.000}
 E { 3889} {w} {w} {8} {0} {} {1.000}
 
-R { 3895} {0} {} {A Hickory Grove} { } {You wander beneath a grove of tall hickory trees, fallen nuts crunching beneath your feet. The trail is marked by the infrequent deer tracks and droppings. Busy chipmunks and squirrels busily gather the ripe nuts and then disappear into the hollows of the trees. Birds flit from the ground to their hidden nests up in the branches.} {French Indian War } {} {} {} {1.000}
+R { 3895} {64} {} {A Hickory Grove} { } {You wander beneath a grove of tall hickory trees, fallen nuts crunching beneath your feet. The trail is marked by the infrequent deer tracks and droppings. Busy chipmunks and squirrels busily gather the ripe nuts and then disappear into the hollows of the trees. Birds flit from the ground to their hidden nests up in the branches.} {French Indian War } {} {} {} {1.000}
 E { 3889} {n} {n} {1} {0} {} {1.000}
 E { 3896} {w} {w} {8} {0} {} {1.000}
 
-R { 3896} {0} {} {A Small Copse} { } {You pause a moment as you take notice of a dull roar heard off in the distance. The small copse you are in muffles the sound somewhat, making it difficult to distinguish from which direction it is coming from. The small trail you are on is easy to follow here, obviously a popular path for the deer to travel along from the number of tracks you've seen so far.} {French Indian War } {} {} {} {1.000}
+R { 3896} {64} {} {A Small Copse} { } {You pause a moment as you take notice of a dull roar heard off in the distance. The small copse you are in muffles the sound somewhat, making it difficult to distinguish from which direction it is coming from. The small trail you are on is easy to follow here, obviously a popular path for the deer to travel along from the number of tracks you've seen so far.} {French Indian War } {} {} {} {1.000}
 E { 3895} {e} {e} {2} {0} {} {1.000}
 E { 3897} {w} {w} {8} {0} {} {1.000}
 
-R { 3897} {0} {} {A Poplar Thicket} { } {You walk through a dense thicket of poplar saplings and berry bushes, along the only clear path, that of a well-tracked deer trail. A deep roar can be heard close by, reminding you of some of the other waterfalls you have seen during your travels. The leaves of the trees rustling in the wind combine with the rushing sound of water in a wild clash of noise.} {French Indian War } {} {} {} {1.000}
+R { 3897} {64} {} {A Poplar Thicket} { } {You walk through a dense thicket of poplar saplings and berry bushes, along the only clear path, that of a well-tracked deer trail. A deep roar can be heard close by, reminding you of some of the other waterfalls you have seen during your travels. The leaves of the trees rustling in the wind combine with the rushing sound of water in a wild clash of noise.} {French Indian War } {} {} {} {1.000}
 E { 3896} {e} {e} {2} {0} {} {1.000}
 E { 3921} {w} {w} {8} {0} {} {1.000}
 
@@ -21407,7 +21408,7 @@ E { 5080} {n} {n} {1} {0} {} {1.000}
 
 R { 5100} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 5085} {s} {s} {4} {0} {} {1.000}
-E { 5101} {n} {n} {1} {0} {} {1.000}
+E { 5101} {n} {n} {1} {2} {} {1.000}
 
 R { 5101} {0} {} {The Source of the River Styx} { } {You stand beside an ancient rock from which a torrential river bursts, flowing down the slope before you and forming the River Styx. The River flows into the Great Marsh far below. A path leads alongside the bank here to the east.} {Tartarus } {} {} {} {1.000}
 E { 5102} {e} {e} {2} {0} {} {1.000}
@@ -21420,19 +21421,19 @@ E { 5103} {e} {e} {2} {0} {} {1.000}
 R { 5103} {0} {} {Before the Great Marsh} { } {You have come to an end of the path, a small beach before the Great Marsh of the Styx. Disturbances in the sand here indicate that a boat or raft of some sort has been beached here recently. Wisps of fog and foul gasses rise up from the marsh before you. At the entrance of the Marsh you notice a dark cave from where exales a fetid odor of rotting flesh.} {Tartarus } {} {} {} {1.000}
 E { 5102} {w} {w} {8} {0} {} {1.000}
 
-R { 5104} {0} {} {A Steep Path} { } {You stand astride a steep path leading up and out of the Underworld to the east, and down and north to the River Styx. Nothing grows here, but high above you can see a grove of black poplars which are said to hide the exit from Hades. The underside of Oceanus can be seen above you, bowing down into view.} {Tartarus } {} {} {} {1.000}
+R { 5104} {64} {} {A Steep Path} { } {You stand astride a steep path leading up and out of the Underworld to the east, and down and north to the River Styx. Nothing grows here, but high above you can see a grove of black poplars which are said to hide the exit from Hades. The underside of Oceanus can be seen above you, bowing down into view.} {Tartarus } {} {} {} {1.000}
 E { 5101} {n} {n} {1} {0} {} {1.000}
 E { 5105} {e} {e} {2} {0} {} {1.000}
 
-R { 5105} {0} {} {A View of the Great Elm} { } {You stand astride a steep, rocky path. To the east you can see the great Elm, which is said to mark the entrance to Hades for souls. The Elm stretches up from the marsh far below and towers up above you, some of its leaves just within your reach. It is said that beneath each leaf lies a false dream.} {Tartarus } {} {} {} {1.000}
+R { 5105} {64} {} {A View of the Great Elm} { } {You stand astride a steep, rocky path. To the east you can see the great Elm, which is said to mark the entrance to Hades for souls. The Elm stretches up from the marsh far below and towers up above you, some of its leaves just within your reach. It is said that beneath each leaf lies a false dream.} {Tartarus } {} {} {} {1.000}
 E { 5104} {w} {w} {8} {0} {} {1.000}
 E { 5106} {s} {s} {4} {0} {} {1.000}
 
-R { 5106} {0} {} {A Steep Path} { } {You stand astride a steep path. You are just below a thick grove of black poplars, through which Odysseus was said to have journeyed when he visited Hades. Far below you can see the Great Marsh that marks the confluence of the Rivers of Hades.} {Tartarus } {} {} {} {1.000}
+R { 5106} {64} {} {A Steep Path} { } {You stand astride a steep path. You are just below a thick grove of black poplars, through which Odysseus was said to have journeyed when he visited Hades. Far below you can see the Great Marsh that marks the confluence of the Rivers of Hades.} {Tartarus } {} {} {} {1.000}
 E { 5105} {n} {n} {1} {0} {} {1.000}
 E { 5107} {u} {u} {16} {0} {} {1.000}
 
-R { 5107} {0} {} {A Grove of Black Poplars} { } {You are among the stately limbs and boughs of a grove of black poplars. Tall, thin trunks rise on all sides of you, obscuring your view of the great Rivers below. A cavern opens below, and the reek of sulphur and brimstone suggest it may be the path out mentioned in legend.} {Tartarus } {} {} {} {1.000}
+R { 5107} {64} {} {A Grove of Black Poplars} { } {You are among the stately limbs and boughs of a grove of black poplars. Tall, thin trunks rise on all sides of you, obscuring your view of the great Rivers below. A cavern opens below, and the reek of sulphur and brimstone suggest it may be the path out mentioned in legend.} {Tartarus } {} {} {} {1.000}
 E { 5106} {d} {d} {32} {0} {} {1.000}
 E { 3267} {s} {s} {4} {1} {} {1.000}
 E { 3897} {w} {w} {8} {1} {} {1.000}
@@ -28646,3 +28647,6 @@ E { 6867} {w} {w} {8} {0} {} {1.000}
 
 R { 6867} {0} {} {The South Wall of the Grotto} { } {Along the south wall you see a strange circular carving in the sheer stone. It is tall, half again as you are high. To the north, the darkness spreads out. Souls that flitter about pay you little mind.} {Land of Shadows} {} {} {} {1.000}
 E { 6866} {e} {e} {2} {0} {} {1.000}
+
+R { 6868} {0} {} {At the Bottom of a Gorge, Amidst a Boiling Sea} { } {SPLASH! You hit the water with a tremendous spray of water. The boiling sea throws you about as if you were a plaything in a child's hand. You feel something against your leg! Before you know it, you're surrounded by a horde of creatures to which there can be no names.} {Land of Shadows} {} {} {} {1.000}
+E { 2540} {u} {u} {16} {0} {} {1.000}
