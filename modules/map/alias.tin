@@ -72,7 +72,7 @@
 #ALIAS {walk %1}
 {
 	#MAP find {} {roomnote} {%1};
-	#PATH run 0.1;
+	#PATH run 0.05;
 }
 {5}
 
