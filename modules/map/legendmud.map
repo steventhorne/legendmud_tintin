@@ -1,21 +1,223 @@
 C 50000
 
-CE <278>
-CH <118>
-CP <138>
-CR <178>
-CB <099>
+V 2020
 
-F 11
+CAVOID <118>
+CBACKGROUND <099>
+CEXITS <278>
+CHIDE <118>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS 
+CUSER <258>
+
+F 257
 
 G 0
 
-I 5100
+I 1
 
-L {x} {o} {o} {} {o} {|} {/} {]} {o} {/} {} {^} {} {[} {v} {} {x} {?} {|} {} {} {/} {} {/} {x} {x} {x} {x} {x} {x} {x} {x} {⣏} {⣇} {⣎} {⣆} {⣉} {⣁} {⣈} {⣀} {⢏} {⢇} {⢎} {⢆} {⢉} {⢁} {⢈} {⢀} {⡏} {⡇} {⡎} {⡆} {⡉} {⡁} {⡈} {⢀} {⠏} {⠇} {⠎} {⠆} {⠉} {⠁} {⠈} {⠀} {⣹} {⣸} {⣱} {⣰} {⣉} {⣈} {⣂} {⣀} {⡹} {⡸} {⡱} {⡰} {⡉} {⡈} {⡂} {⡀} {⢹} {⢸} {⢱} {⢰} {⢉} {⢈} {⢂} {⢀} {⠹} {⠸} {⠱} {⠰} {⠉} {⠈} {⠂} {⠀} {⠰} {⠸} {⠱} {⠹} {⠶} {⠾} {⠷} {⠿} {⡰} {⡸} {⡱} {⡹} {⡶} {⡾} {⡷} {⡿} {⢰} {⢸} {⢱} {⢹} {⢶} {⢾} {⢷} {⢿} {⣰} {⣸} {⣱} {⣹} {⣶} {⣾} {⣷} {⣿}
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u28CF}
+L {MUDFONT NWS} {N} {\u28C7}
+L {MUDFONT NWS} {  NW} {\u28CE}
+L {MUDFONT NWS} {N NW} {\u28C6}
+L {MUDFONT NWS} {     W} {\u28C9}
+L {MUDFONT NWS} {N    W} {\u28C1}
+L {MUDFONT NWS} {  NW W} {\u28C8}
+L {MUDFONT NWS} {N NW W} {\u28C0}
+L {MUDFONT NWS} {       SW} {\u288F}
+L {MUDFONT NWS} {N      SW} {\u2887}
+L {MUDFONT NWS} {  NW   SW} {\u288E}
+L {MUDFONT NWS} {N NW   SW} {\u2886}
+L {MUDFONT NWS} {     W SW} {\u2889}
+L {MUDFONT NWS} {N    W SW} {\u2881}
+L {MUDFONT NWS} {  NW W SW} {\u2888}
+L {MUDFONT NWS} {N NW W SW} {\u2880}
+L {MUDFONT NWS} {          S} {\u284F}
+L {MUDFONT NWS} {N         S} {\u2847}
+L {MUDFONT NWS} {  NW      S} {\u284E}
+L {MUDFONT NWS} {N NW      S} {\u2846}
+L {MUDFONT NWS} {     W    S} {\u2849}
+L {MUDFONT NWS} {N    W    S} {\u2841}
+L {MUDFONT NWS} {  NW W    S} {\u2848}
+L {MUDFONT NWS} {N NW W    S} {\u2880}
+L {MUDFONT NWS} {       SW S} {\u280F}
+L {MUDFONT NWS} {N      SW S} {\u2807}
+L {MUDFONT NWS} {  NW   SW S} {\u280E}
+L {MUDFONT NWS} {N NW   SW S} {\u2806}
+L {MUDFONT NWS} {     W SW S} {\u2809}
+L {MUDFONT NWS} {N    W SW S} {\u2801}
+L {MUDFONT NWS} {  NW W SW S} {\u2808}
+L {MUDFONT NWS} {N NW W SW S} {\u2800}
+L {MUDFONT NES} {NO EXITS} {\u28F9}
+L {MUDFONT NES} {N} {\u28F8}
+L {MUDFONT NES} {  NE} {\u28F1}
+L {MUDFONT NES} {N NE} {\u28F0}
+L {MUDFONT NES} {     W} {\u28C9}
+L {MUDFONT NES} {N    W} {\u28C8}
+L {MUDFONT NES} {  NE W} {\u28C2}
+L {MUDFONT NES} {N NE W} {\u28C0}
+L {MUDFONT NES} {       SE} {\u2879}
+L {MUDFONT NES} {N      SE} {\u2878}
+L {MUDFONT NES} {  NE   SE} {\u2871}
+L {MUDFONT NES} {N NE   SE} {\u2870}
+L {MUDFONT NES} {     W SE} {\u2849}
+L {MUDFONT NES} {N    W SE} {\u2848}
+L {MUDFONT NES} {  NE W SE} {\u2842}
+L {MUDFONT NES} {N NE W SE} {\u2840}
+L {MUDFONT NES} {          S} {\u28B9}
+L {MUDFONT NES} {N         S} {\u28B8}
+L {MUDFONT NES} {  NE      S} {\u28B1}
+L {MUDFONT NES} {N NE      S} {\u28B0}
+L {MUDFONT NES} {     W    S} {\u2889}
+L {MUDFONT NES} {N    W    S} {\u2888}
+L {MUDFONT NES} {  NE W    S} {\u2882}
+L {MUDFONT NES} {N NE W    S} {\u2880}
+L {MUDFONT NES} {       SE S} {\u2839}
+L {MUDFONT NES} {N      SE S} {\u2838}
+L {MUDFONT NES} {  NE   SE S} {\u2831}
+L {MUDFONT NES} {N NE   SE S} {\u2830}
+L {MUDFONT NES} {     W SE S} {\u2809}
+L {MUDFONT NES} {N    W SE S} {\u2808}
+L {MUDFONT NES} {  NE W SE S} {\u2802}
+L {MUDFONT NES} {N NE W SE S} {\u2800}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2830}
+L {MUDFONT VOID NWS} {N} {\u2838}
+L {MUDFONT VOID NWS} {  NW} {\u2831}
+L {MUDFONT VOID NWS} {N NW} {\u2839}
+L {MUDFONT VOID NWS} {     W} {\u2836}
+L {MUDFONT VOID NWS} {N    W} {\u283E}
+L {MUDFONT VOID NWS} {  NW W} {\u2837}
+L {MUDFONT VOID NWS} {N NW W} {\u283F}
+L {MUDFONT VOID NWS} {       SW} {\u2870}
+L {MUDFONT VOID NWS} {N      SW} {\u2878}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2871}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2879}
+L {MUDFONT VOID NWS} {     W SW} {\u2876}
+L {MUDFONT VOID NWS} {N    W SW} {\u287E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2877}
+L {MUDFONT VOID NWS} {N NW W SW} {\u287F}
+L {MUDFONT VOID NWS} {          S} {\u28B0}
+L {MUDFONT VOID NWS} {N         S} {\u28B8}
+L {MUDFONT VOID NWS} {  NW      S} {\u28B1}
+L {MUDFONT VOID NWS} {N NW      S} {\u28B9}
+L {MUDFONT VOID NWS} {     W    S} {\u28B6}
+L {MUDFONT VOID NWS} {N    W    S} {\u28BE}
+L {MUDFONT VOID NWS} {  NW W    S} {\u28B7}
+L {MUDFONT VOID NWS} {N NW W    S} {\u28BF}
+L {MUDFONT VOID NWS} {       SW S} {\u28F0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28F8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28F6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28FE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2806}
+L {MUDFONT VOID NES} {N} {\u2807}
+L {MUDFONT VOID NES} {  NE} {\u280E}
+L {MUDFONT VOID NES} {N NE} {\u280F}
+L {MUDFONT VOID NES} {     W} {\u2836}
+L {MUDFONT VOID NES} {N    W} {\u2837}
+L {MUDFONT VOID NES} {  NE W} {\u283E}
+L {MUDFONT VOID NES} {N NE W} {\u283F}
+L {MUDFONT VOID NES} {       SE} {\u2886}
+L {MUDFONT VOID NES} {N      SE} {\u2887}
+L {MUDFONT VOID NES} {  NE   SE} {\u288E}
+L {MUDFONT VOID NES} {N NE   SE} {\u288F}
+L {MUDFONT VOID NES} {     W SE} {\u28B6}
+L {MUDFONT VOID NES} {N    W SE} {\u28B7}
+L {MUDFONT VOID NES} {  NE W SE} {\u28BE}
+L {MUDFONT VOID NES} {N NE W SE} {\u28BF}
+L {MUDFONT VOID NES} {          S} {\u2846}
+L {MUDFONT VOID NES} {N         S} {\u2847}
+L {MUDFONT VOID NES} {  NE      S} {\u284E}
+L {MUDFONT VOID NES} {N NE      S} {\u284F}
+L {MUDFONT VOID NES} {     W    S} {\u2876}
+L {MUDFONT VOID NES} {N    W    S} {\u2877}
+L {MUDFONT VOID NES} {  NE W    S} {\u287E}
+L {MUDFONT VOID NES} {N NE W    S} {\u287F}
+L {MUDFONT VOID NES} {       SE S} {\u28C6}
+L {MUDFONT VOID NES} {N      SE S} {\u28C7}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28CE}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28CF}
+L {MUDFONT VOID NES} {     W SE S} {\u28F6}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F7}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28FE}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28FF}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
 
 
-R {    1} {0} {<029>} {The Jolly Beggar} {I} {The interior of this inn does not bode well for the quality of your night's sleep. The walls are covered with old faded nautical charts in an attempt to provide an atmosphere congenial to the people likely to stop by, but all you can see as you turn your head from wall to wall to wall is 'here there be dragons' over and over again. There seems to be a small kitchen, and plenty of rooms available. A small table flanked by a couple of chairs sits to one side of the room and a couch sits against the opposite wall.} {London Port } {jb} {} {} {1.000}
+
+R {    1} {0} {<029>} {The Jolly Beggar} {I} {The interior of this inn does not bode well for the quality of your night's sleep. The walls are covered with old faded nautical charts in an attempt to provide an atmosphere congenial to the people likely to stop by, but all you can see as you turn your head from wall to wall to wall is 'here there be dragons' over and over again. There seems to be a small kitchen, and plenty of rooms available. A small table flanked by a couple of chairs sits to one side of the room and a couch sits against the opposite wall.} {London Port} {jb} {} {} {1.000}
 E {    2} {e} {open e;e} {2} {0} {} {1.000}
 
 R {    2} {0} {<099>} {Harbor Row} { } {A wide street full of hustle and activity, Harbor Row serves as the main artery to the docks on this side of town. The cobblestones in the paving are worn smooth, and more than a few have been pried loose by sailors' wives to give to their husbands as a token of home. The Row, as it is familiarly called, leads north to abandoned old St. Stephen's Church and south to the docks. A large inn is west and the postal office is to the east.} {London Port } {} {} {} {1.000}
@@ -88,7 +290,7 @@ E { 6718} {e} {e} {2} {0} {} {1.000}
 E {   18} {s} {s} {4} {0} {} {1.000}
 E {   19} {w} {w} {8} {0} {} {1.000}
 
-R {   18} {0} {} {Waterloo Train Station} { } {The large train station of the south bank of London city is named after an important victory of the British armies over the French emperor Napoleon. It is a massive building of grey stone which you access by walking under the Victory Arch, built of Portland stone, that leads inside the vast station's hall. Inside the hall, you spot many booths where ticket vendors sell trips to many destinations within the south and west regions of the United Kingdom.} {Dartmoor } {} {} {} {1.000}
+R {   18} {0} {} {Waterloo Train Station} { } {The large train station of the south bank of London city is named after an important victory of the British armies over the French emperor Napoleon. It is a massive building of grey stone which you access by walking under the Victory Arch, built of Portland stone, that leads inside the vast station's hall. Inside the hall, you spot many booths where ticket vendors sell trips to many destinations within the south and west regions of the United Kingdom.} {Dartmoor} {} {} {} {1.000}
 E {   17} {n} {n} {1} {0} {} {1.000}
 
 R {   19} {0} {} {The Westminster Bridge} { } {A large green bridge lies here across the Thames River. The structure of the bridge is made of seven gothic wrought iron arches supporting both carriage and foot heavy traffic between the city of Westminster and the poorer south London quarters to the east.} {London Port } {} {} {} {1.000}
@@ -293,28 +495,24 @@ R {   65} {0} {} {Off the Coast of Portugal} { } {If you had time, you could sto
 E {   64} {n} {n} {1} {0} {} {1.000}
 E {   66} {s} {s} {4} {0} {} {1.000}
 
-R {   66} {64} {} {Before the Straits of Gibraltar} { } {The famed Straits of Gibraltar lie to the east of you, offering passage into the Mediterranean. The waters are usually stormy and dangerous, and for those who do not seek anything in the balmy waters that are the heart of Europe, the normal sea route leads north and south.} {Tea Route } {} {} {} {1.000}
+R {   66} {0} {} {Before the Straits of Gibraltar} { } {The famed Straits of Gibraltar lie to the east of you, offering passage into the Mediterranean. The waters are usually stormy and dangerous, and for those who do not seek anything in the balmy waters that are the heart of Europe, the normal sea route leads north and south.} {Tea Route } {} {} {} {1.000}
 E {   65} {n} {n} {1} {0} {} {1.000}
 E {   67} {e} {e} {2} {0} {} {1.000}
 E {   94} {s} {s} {4} {0} {} {1.000}
 
-R {   67} {64} {} {In the Mediterranean} { } {Here, just east of the Straits of Gibraltar, you feel dizzied by the weight of history around you. This sea has been the site of so many major historical events that you feel sure that if you were to move, the world would change around you. In the blink of an eye, you might find yourself in a totally different world from the one you thought you knew.  The idea induces paranoia. South lies landfall in North Africa--perhaps there is a safe port?} {Tea Route } {} {} {} {1.000}
+R {   67} {0} {} {In the Mediterranean} { } {Here, just east of the Straits of Gibraltar, you feel dizzied by the weight of history around you. This sea has been the site of so many major historical events that you feel sure that if you were to move, the world would change around you. In the blink of an eye, you might find yourself in a totally different world from the one you thought you knew.  The idea induces paranoia. South lies landfall in North Africa--perhaps there is a safe port?} {Tea Route } {} {} {} {1.000}
 E {   66} {w} {w} {8} {0} {} {1.000}
-E {   69} {s} {s} {4} {0} {} {1.000}
+E {   68} {s} {s} {4} {1} {} {1.000}
 
-R {   68} {64} {} {The Docks of Casablanca} { } {The sounds of the waterfront mix with the calm breeze. As you step onto the dock your senses are awash with the shipyard sights, sounds and smells. A constant bustle of activity ebbs and flows between the ships and warehouses and on the fringe of activity you see the refugees. Yearning floods their faces, a yearning for a passage to freedom.} {Casablanca } {casa} {} {} {1.000}
-E {   69} {n} {n} {1} {0} {} {1.000}
+R {   68} {0} {} {The Docks of Casablanca} { } {The sounds of the waterfront mix with the calm breeze. As you step onto the dock your senses are awash with the shipyard sights, sounds and smells. A constant bustle of activity ebbs and flows between the ships and warehouses and on the fringe of activity you see the refugees. Yearning floods their faces, a yearning for a passage to freedom.} {Casablanca } {casa} {} {} {1.000}
+E {   67} {n} {n} {1} {1} {} {1.000}
 E {   70} {s} {s} {4} {0} {} {1.000}
 
-R {   69} {10} {} {} { } {} {} {} {} {} {1.000}
-E {   68} {s} {s} {4} {0} {} {1.000}
-E {   67} {n} {n} {1} {0} {} {1.000}
-
-R {   70} {64} {} {Near the Waterfront} { } {The buildings along the street change in character here. The buildings are more run-down and dilapidated to the north as they get closer to the docks and the waterfront. In comparison, to the south the buildings get nicer and newer the closer to the center of town they are located.} {Casablanca } {} {} {} {1.000}
+R {   70} {0} {} {Near the Waterfront} { } {The buildings along the street change in character here. The buildings are more run-down and dilapidated to the north as they get closer to the docks and the waterfront. In comparison, to the south the buildings get nicer and newer the closer to the center of town they are located.} {Casablanca } {} {} {} {1.000}
 E {   68} {n} {n} {1} {0} {} {1.000}
 E {   71} {s} {s} {4} {0} {} {1.000}
 
-R {   71} {64} {} {An Intersection} { } {This is an intersection near downtown. To the east is the main stretch of street in Casablanca, known for the two clubs that sit on either side of the street. To the south is a well-used road. To the west is the Prefect's Office. To the north, the well-used road continues.} {Casablanca } {} {} {} {1.000}
+R {   71} {0} {} {An Intersection} { } {This is an intersection near downtown. To the east is the main stretch of street in Casablanca, known for the two clubs that sit on either side of the street. To the south is a well-used road. To the west is the Prefect's Office. To the north, the well-used road continues.} {Casablanca } {} {} {} {1.000}
 E {   70} {n} {n} {1} {0} {} {1.000}
 E {   72} {w} {open w;w} {8} {0} {} {1.000}
 E {   75} {s} {s} {4} {0} {} {1.000}
@@ -334,7 +532,7 @@ E {   72} {n} {open n;n} {1} {0} {} {1.000}
 R {   75} {0} {} {The Casablanca Airport} { } {After a short walk you arrive at the airport. This is where some of the lucky begin their trip to freedom. The plane for Lisbon leaves once a day and there is always a small crowd of the unlucky to see it off, with hope and longing flowing from their eyes. There is one hangar building and a tower along with a few smaller maintenance buildings. The road heads north, back to town.} {Casablanca } {} {} {} {1.000}
 E {   71} {n} {n} {1} {0} {} {1.000}
 
-R {   76} {64} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
+R {   76} {0} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
 E {   71} {w} {w} {8} {0} {} {1.000}
 E {   77} {s} {open s;s} {4} {0} {} {1.000}
 E {   78} {n} {open n;n} {1} {0} {} {1.000}
@@ -379,7 +577,7 @@ E {   86} {w} {open w;w} {8} {0} {} {1.000}
 R {   86} {0} {} {Rick's Office} { } {This office is quite large. It is split into two levels, separated by a landing on which the door sits. The lower level looks as if it is used for casual meetings and chats with visiting friends. The upper portion is where the work is done. The desk holds the day's financial information and a warm breeze blows through the open shutters of the window. In the south wall of this section of the office is a safe. The only exit is the door to the east.} {Casablanca } {} {} {} {1.000}
 E {   85} {e} {open e;e} {2} {0} {} {1.000}
 
-R {   87} {64} {} {A Turn in the Street} { } {Here the main street turns north and the people thin out as you move away from the center of town. To the east is a shop of some kind. The center of town is to the west.} {Casablanca } {} {} {} {1.000}
+R {   87} {0} {} {A Turn in the Street} { } {Here the main street turns north and the people thin out as you move away from the center of town. To the east is a shop of some kind. The center of town is to the west.} {Casablanca } {} {} {} {1.000}
 E {   90} {w} {w} {8} {0} {} {1.000}
 E {   89} {n} {n} {1} {0} {} {1.000}
 E {   93} {e} {open e;e} {2} {0} {} {1.000}
@@ -388,7 +586,7 @@ R {   88} {8} {} {} { } {} {} {} {} {} {1.000}
 E {   76} {w} {w} {8} {0} {} {1.000}
 E {   90} {e} {e} {2} {0} {} {1.000}
 
-R {   89} {64} {} {An Intersection on the Way Out of Town} { } {This is a junction of the main road out of town and a smaller one that leads out of town to the east. The road to the north looks more heavily travelled and has a sign next to it that reads 'To Rabat.' The train station sits beside the tracks to the west.} {Casablanca } {} {} {} {1.000}
+R {   89} {0} {} {An Intersection on the Way Out of Town} { } {This is a junction of the main road out of town and a smaller one that leads out of town to the east. The road to the north looks more heavily travelled and has a sign next to it that reads 'To Rabat.' The train station sits beside the tracks to the west.} {Casablanca } {} {} {} {1.000}
 E {   87} {s} {s} {4} {0} {} {1.000}
 E {   92} {w} {w} {8} {0} {} {1.000}
 E {  572} {n} {n} {1} {0} {} {1.000}
@@ -406,45 +604,45 @@ E {   89} {e} {e} {2} {0} {} {1.000}
 R {   93} {0} {} {A Small Shop} { } {This is a small shop that sells various useful items. Assorted flashlights, writing tools, batteries, and rolls of canvas cover the counters and shelves of this cramped space. The exit is to the west.} {Casablanca } {} {} {} {1.000}
 E {   87} {w} {open w;w} {8} {0} {} {1.000}
 
-R {   94} {64} {} {Off the African Coast} { } {From here, you fancy you could hear the call of muezzins summoning the faithful to prayer--but you would be kidding yourself. You are many leagues from the dry desert coast, in the vast Atlantic Ocean. A few seabirds timorously circle overhead, as if they knew that you were embarked upon a momentous journey.} {Tea Route } {} {} {} {1.000}
+R {   94} {0} {} {Off the African Coast} { } {From here, you fancy you could hear the call of muezzins summoning the faithful to prayer--but you would be kidding yourself. You are many leagues from the dry desert coast, in the vast Atlantic Ocean. A few seabirds timorously circle overhead, as if they knew that you were embarked upon a momentous journey.} {Tea Route } {} {} {} {1.000}
 E {   66} {n} {n} {1} {0} {} {1.000}
 E {   95} {s} {s} {4} {0} {} {1.000}
 
-R {   95} {64} {} {Tacking off the Coast of Africa} { } {The bulge of western Africa forces you to tack here, to avoid ramming your vessel into land. The air is hot and humid at these latitudes, and you can't help but wish you had brought more oranges and lemons on board, for fear of scurvy.} {Tea Route } {} {} {} {1.000}
+R {   95} {0} {} {Tacking off the Coast of Africa} { } {The bulge of western Africa forces you to tack here, to avoid ramming your vessel into land. The air is hot and humid at these latitudes, and you can't help but wish you had brought more oranges and lemons on board, for fear of scurvy.} {Tea Route } {} {} {} {1.000}
 E {   94} {n} {n} {1} {0} {} {1.000}
 E {   96} {w} {w} {8} {0} {} {1.000}
 
-R {   96} {64} {} {Amidst the Canary Islands} { } {These islands are a major stopping point on the tea trade shipping lanes. They look like paradise to you, who have been at sea for so long. They are a customary last port before attempting to cross the Atlantic to the Americas, a voyage fraught with danger. They are also a good signpost to indicate you are halfway along the long roundabout path around the western bulge of Africa. You can land at one tiny island north of you.} {Tea Route} {} {} {} {1.000}
+R {   96} {0} {} {Amidst the Canary Islands} { } {These islands are a major stopping point on the tea trade shipping lanes. They look like paradise to you, who have been at sea for so long. They are a customary last port before attempting to cross the Atlantic to the Americas, a voyage fraught with danger. They are also a good signpost to indicate you are halfway along the long roundabout path around the western bulge of Africa. You can land at one tiny island north of you.} {Tea Route} {} {} {} {1.000}
 E {   95} {e} {e} {2} {0} {} {1.000}
 E {   97} {w} {w} {8} {0} {} {1.000}
 E {  133} {n} {n} {1} {0} {} {1.000}
 E {  134} {s} {s} {4} {0} {} {1.000}
 
-R {   97} {64} {} {On the Atlantic Ocean} { } {Gray-green waters surround you, icy cold and infinite. The sky looms overhead like a giant dome of heavy stone, and its plenitude constantly feels like it's about to fall on you. The emptiness is overwhelming.} {Tea Route } {} {} {} {1.000}
+R {   97} {0} {} {On the Atlantic Ocean} { } {Gray-green waters surround you, icy cold and infinite. The sky looms overhead like a giant dome of heavy stone, and its plenitude constantly feels like it's about to fall on you. The emptiness is overwhelming.} {Tea Route } {} {} {} {1.000}
 E {   96} {e} {e} {2} {0} {} {1.000}
 E {   98} {w} {w} {8} {0} {} {1.000}
 
-R {   98} {64} {} {On the Atlantic Ocean} { } {A strong current of warm water pushes the ship north and east, but you think your ship is under control. Water is everywhere, salty and sticky, spray hitting your face and making it itch. You're getting a sunburn.} {Tea Route } {} {} {} {1.000}
+R {   98} {0} {} {On the Atlantic Ocean} { } {A strong current of warm water pushes the ship north and east, but you think your ship is under control. Water is everywhere, salty and sticky, spray hitting your face and making it itch. You're getting a sunburn.} {Tea Route } {} {} {} {1.000}
 E {   97} {e} {e} {2} {0} {} {1.000}
 E {   99} {w} {w} {8} {0} {} {1.000}
 
-R {   99} {64} {} {On the Atlantic Ocean} { } {Your eyes ache from straining at the horizon. This forsaken view makes you think of your own insignificance, how tiny a speck you are in the infinite reaches of the universe. There is something about the sea that makes one philosophical--how you wish you were back on land!} {Tea Route } {} {} {} {1.000}
+R {   99} {0} {} {On the Atlantic Ocean} { } {Your eyes ache from straining at the horizon. This forsaken view makes you think of your own insignificance, how tiny a speck you are in the infinite reaches of the universe. There is something about the sea that makes one philosophical--how you wish you were back on land!} {Tea Route } {} {} {} {1.000}
 E {   98} {e} {e} {2} {0} {} {1.000}
 E {  100} {w} {w} {8} {0} {} {1.000}
 
-R {  100} {64} {} {On the Atlantic Ocean} { } {Tiny bits of shredded seaweed, yellow and green, bob in the water around, providing a welcome respite from the eternal blue-green of the Atlantic waters. It has become hard to keep your eyes on what surrounds the ship, so alike is it all, and so reflective. Every hint of sunlight on water is like a dagger in your tired eyes.} {Tea Route } {} {} {} {1.000}
+R {  100} {0} {} {On the Atlantic Ocean} { } {Tiny bits of shredded seaweed, yellow and green, bob in the water around, providing a welcome respite from the eternal blue-green of the Atlantic waters. It has become hard to keep your eyes on what surrounds the ship, so alike is it all, and so reflective. Every hint of sunlight on water is like a dagger in your tired eyes.} {Tea Route } {} {} {} {1.000}
 E {   99} {e} {e} {2} {0} {} {1.000}
 E {  101} {s} {s} {4} {0} {} {1.000}
 
-R {  101} {64} {} {On the Atlantic Ocean} { } {How do the words of that poem go? 'Water water everywhere...' Your parched lips fully appreciate the irony of the next little bit, for it feels like months you have been at sea -- perhaps it has even been years -- and you long for a taste of fresh spring water, water not taken from a rotting cask, water not collected from brackish rain, water without a hint of salt in every drop.} {Tea Route } {} {} {} {1.000}
+R {  101} {0} {} {On the Atlantic Ocean} { } {How do the words of that poem go? 'Water water everywhere...' Your parched lips fully appreciate the irony of the next little bit, for it feels like months you have been at sea -- perhaps it has even been years -- and you long for a taste of fresh spring water, water not taken from a rotting cask, water not collected from brackish rain, water without a hint of salt in every drop.} {Tea Route } {} {} {} {1.000}
 E {  100} {n} {n} {1} {0} {} {1.000}
 E {  102} {w} {w} {8} {0} {} {1.000}
 
-R {  102} {64} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Tea Route } {} {} {} {1.000}
+R {  102} {0} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Tea Route } {} {} {} {1.000}
 E {  101} {e} {e} {2} {0} {} {1.000}
 E {  103} {s} {s} {4} {0} {} {1.000}
 
-R {  103} {64} {} {An Atoll} { } {This flyspeck of land is uncharted, and unoccupied save by the few lonesome palms that struggle for life. The beach sand is pristine and glaringly white, the water as it laps on the beach is crystal clear. A few feet in from the beach you see a place where something was obviously hastily buried--a half- covered-up hole, marring the paradise.} {Tea Route } {atoll} {} {} {1.000}
+R {  103} {0} {} {An Atoll} { } {This flyspeck of land is uncharted, and unoccupied save by the few lonesome palms that struggle for life. The beach sand is pristine and glaringly white, the water as it laps on the beach is crystal clear. A few feet in from the beach you see a place where something was obviously hastily buried--a half- covered-up hole, marring the paradise.} {Tea Route } {atoll} {} {} {1.000}
 E {  102} {n} {n} {1} {0} {} {1.000}
 E {  441} {atoll} {get map bag;open hole;st;put map bag} {0} {0} {} {1.000}
 
@@ -1806,54 +2004,54 @@ R {  429} {0} {} {On the Atlantic Ocean} { } {The wind smells of salt and the sp
 E {  428} {e} {e} {2} {0} {} {1.000}
 E {  456} {w} {w} {8} {0} {} {1.000}
 
-R {  430} {64} {} {On the Atlantic Ocean} { } {The water reflects the sky's greyness and nothing else breaks the monotonous colors surrounding you. The constant motion of the waves is no longer foreign to your body, though you think it would be difficult to stay below in a ship's hold for any stretch of time.} {} {} {} {} {1.000}
+R {  430} {0} {} {On the Atlantic Ocean} { } {The water reflects the sky's greyness and nothing else breaks the monotonous colors surrounding you. The constant motion of the waves is no longer foreign to your body, though you think it would be difficult to stay below in a ship's hold for any stretch of time.} {} {} {} {} {1.000}
 E {  456} {e} {e} {2} {0} {} {1.000}
 E { 6456} {w} {w} {8} {0} {} {1.000}
 E { 3574} {n} {n} {1} {0} {} {1.000}
 
-R {  431} {64} {} {Outside Boston Harbor} { } {A small, but busy harbor lies to the west. The charts indicate that the best way to travel from here is to follow the currents east and then north toward the colder territories or south along the coast. The winds are brisk here when they blow, but not intolerably so.} {} {} {} {} {1.000}
+R {  431} {0} {} {Outside Boston Harbor} { } {A small, but busy harbor lies to the west. The charts indicate that the best way to travel from here is to follow the currents east and then north toward the colder territories or south along the coast. The winds are brisk here when they blow, but not intolerably so.} {} {} {} {} {1.000}
 E { 6456} {e} {e} {2} {0} {} {1.000}
 E {  432} {s} {s} {4} {0} {} {1.000}
 E { 4287} {w} {w} {8} {0} {} {1.000}
 
-R {  432} {64} {} {On the Atlantic Ocean} { } {You are sailing very near the island of Manhattan. You remember talk about how the Dutch purchased it from the Indians in 1626 for a reportedly small sum. As you pass it, you're not quite sure why anyone would want it. It doesn't look particularly that rich in natural resources or very hospitable. The currents here can easily carry you north or west.} {} {} {} {} {1.000}
+R {  432} {0} {} {On the Atlantic Ocean} { } {You are sailing very near the island of Manhattan. You remember talk about how the Dutch purchased it from the Indians in 1626 for a reportedly small sum. As you pass it, you're not quite sure why anyone would want it. It doesn't look particularly that rich in natural resources or very hospitable. The currents here can easily carry you north or west.} {} {} {} {} {1.000}
 E {  431} {n} {n} {1} {0} {} {1.000}
 E {  433} {w} {w} {8} {0} {} {1.000}
 
-R {  433} {64} {} {On the Atlantic Ocean} { } {The current takes you near New Amsterdam, a busy little colony here in the new world. The English have done quite well since seizing it from the Dutch. Trade with the new Hudson's Bay Company hasn't hurt either. From here, you can travel either south along the coast or east out past Manhattan Island.} {} {} {} {} {1.000}
+R {  433} {0} {} {On the Atlantic Ocean} { } {The current takes you near New Amsterdam, a busy little colony here in the new world. The English have done quite well since seizing it from the Dutch. Trade with the new Hudson's Bay Company hasn't hurt either. From here, you can travel either south along the coast or east out past Manhattan Island.} {} {} {} {} {1.000}
 E {  432} {e} {e} {2} {0} {} {1.000}
 E {  434} {s} {s} {4} {0} {} {1.000}
 
-R {  434} {64} {} {On the Atlantic Ocean} { } {Here along the coast, rolling mountains can be seen in the distance. As the mountains give way to the rolling hills and smooth down to the coast, you see several locations that could prove to sustain colonies. To the north, the currents will take you to colder climates and south toward where the English settled in Virginia.} {} {} {} {} {1.000}
+R {  434} {0} {} {On the Atlantic Ocean} { } {Here along the coast, rolling mountains can be seen in the distance. As the mountains give way to the rolling hills and smooth down to the coast, you see several locations that could prove to sustain colonies. To the north, the currents will take you to colder climates and south toward where the English settled in Virginia.} {} {} {} {} {1.000}
 E {  433} {n} {n} {1} {0} {} {1.000}
 E {  435} {s} {s} {4} {0} {} {1.000}
 
-R {  435} {64} {} {On the Atlantic Ocean} { } {You are passing the mouth of a large estuary. The salt and freshwater mixes freely as the tides ebb and flow. The variety in wildlife that you have seen along the shore is amazing. You can continue either north or south as long as you remain on the eastern side of the barrier islands formed by the tides.} {} {} {} {} {1.000}
+R {  435} {0} {} {On the Atlantic Ocean} { } {You are passing the mouth of a large estuary. The salt and freshwater mixes freely as the tides ebb and flow. The variety in wildlife that you have seen along the shore is amazing. You can continue either north or south as long as you remain on the eastern side of the barrier islands formed by the tides.} {} {} {} {} {1.000}
 E {  434} {n} {n} {1} {0} {} {1.000}
 E {  436} {s} {s} {4} {0} {} {1.000}
 
-R {  436} {64} {} {On the Atlantic Ocean} { } {The mouth of the James River comes down to meet the ocean to the west. The gently rolling land looks promising for colonization along here. You can see why the English chose this area for their first landings. Following the currents here will take you either north or south.} {} {} {} {} {1.000}
+R {  436} {0} {} {On the Atlantic Ocean} { } {The mouth of the James River comes down to meet the ocean to the west. The gently rolling land looks promising for colonization along here. You can see why the English chose this area for their first landings. Following the currents here will take you either north or south.} {} {} {} {} {1.000}
 E {  435} {n} {n} {1} {0} {} {1.000}
 E {  437} {s} {s} {4} {0} {} {1.000}
 
-R {  437} {64} {} {On the Atlantic Ocean} { } {Glorious beaches line the coast, many trees look severely storm damaged by the last hurricane season, but the land beyond looks bountiful and perfect for farming. From here you can travel either north or south along the coast.} {} {} {} {} {1.000}
+R {  437} {0} {} {On the Atlantic Ocean} { } {Glorious beaches line the coast, many trees look severely storm damaged by the last hurricane season, but the land beyond looks bountiful and perfect for farming. From here you can travel either north or south along the coast.} {} {} {} {} {1.000}
 E {  436} {n} {n} {1} {0} {} {1.000}
 E {  438} {s} {s} {4} {0} {} {1.000}
 
-R {  438} {64} {} {On the Atlantic Ocean} { } {The land along the coast is extremely flat and very close to sea level. The grass is sparser and less luxurious but the warm, rainy climate might be nice to sit back, relax and contemplate retiring. North, you can follow the coast and pass near the English settlement in Virginia or travel south toward the more tropic regions.} {} {} {} {} {1.000}
+R {  438} {0} {} {On the Atlantic Ocean} { } {The land along the coast is extremely flat and very close to sea level. The grass is sparser and less luxurious but the warm, rainy climate might be nice to sit back, relax and contemplate retiring. North, you can follow the coast and pass near the English settlement in Virginia or travel south toward the more tropic regions.} {} {} {} {} {1.000}
 E {  437} {n} {n} {1} {0} {} {1.000}
 E {  439} {s} {s} {4} {0} {} {1.000}
 
-R {  439} {64} {} {On the Atlantic Ocean} { } {Small islands dot the horizon to the west as you travel along the palm dotted coastline here. Marvelous beaches line the shore, beckoning you to sit and relax and while away the days. If you're looking for tropical paradise you'll be likely to find it after threading through the many small islands to the west. North will take you along the east coast and to cooler regions.} {} {} {} {} {1.000}
+R {  439} {0} {} {On the Atlantic Ocean} { } {Small islands dot the horizon to the west as you travel along the palm dotted coastline here. Marvelous beaches line the shore, beckoning you to sit and relax and while away the days. If you're looking for tropical paradise you'll be likely to find it after threading through the many small islands to the west. North will take you along the east coast and to cooler regions.} {} {} {} {} {1.000}
 E {  438} {n} {n} {1} {0} {} {1.000}
 E { 1091} {e} {e} {2} {0} {} {1.000}
 E {  464} {w} {w} {8} {0} {} {1.000}
 
-R {  440} {64} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Medieval Seas } {} {} {} {1.000}
+R {  440} {0} {} {On the Atlantic Ocean} { } {A tiny smudge breaks the perfect line of the horizon--you see gulls circling above it. Perhaps an atoll? You are glad for any bit of difference to vary the boring, infinite horizon. The smell of salt spray, once so exhilarating to you, now feels like a vast weight upon your shoulders. You think now you know how a corpse feels when the coffin lid shuts... much like you do every night as you go below decks to be rocked by the current and the wind.} {Medieval Seas } {} {} {} {1.000}
 E { 1091} {w} {w} {8} {0} {} {1.000}
 E {  461} {s} {s} {4} {0} {} {1.000}
 
-R {  441} {64} {} {A Deserted Isle} { } {You are surrounded by turquoise waves rising and falling slowly and evenly. The white foam licks at the narrow beach. A single palm tree grows up from the sand, where a coconut chanced to land. Looking down through the crystal clear water you can clearly see that the water isn't that deep, and the colors of the reef invite you to explore their mysteries. This island isn't charted on any maps and would probably be the perfect spot to bury treasure.} {Pirate Caribbean } {red} {} {} {1.000}
+R {  441} {0} {} {A Deserted Isle} { } {You are surrounded by turquoise waves rising and falling slowly and evenly. The white foam licks at the narrow beach. A single palm tree grows up from the sand, where a coconut chanced to land. Looking down through the crystal clear water you can clearly see that the water isn't that deep, and the colors of the reef invite you to explore their mysteries. This island isn't charted on any maps and would probably be the perfect spot to bury treasure.} {Pirate Caribbean } {red} {} {} {1.000}
 E {  461} {n} {n} {1} {0} {} {1.000}
 E {  455} {s} {s} {4} {0} {} {1.000}
 E {  465} {w} {w} {8} {0} {} {1.000}
@@ -2398,39 +2596,39 @@ E {  571} {e} {e} {2} {0} {} {1.000}
 R {  571} {0} {} {A Storehouse of Charitable Donations} { } {Those with a charitable turn of mind often bring donations to this room of the mosque, to be shared among those who might need them. Furthermore, Muslims must pay a zakat or charity tax, and do so here, according to their means. Unfortunately, these desperate times have forced the Imam to establish an overseer in the storehouse, to insure that only the neediest receive the highest percentage of assistance.} {The Crusades } {} {} {} {1.000}
 E {  570} {w} {w} {8} {0} {} {1.000}
 
-R {  572} {64} {} {The Road to Rabat} { } {The well-traveled road lies flat and straight, heading north to Rabat and south to Casablanca.} {WWII North Africa } {} {} {} {1.000}
+R {  572} {0} {} {The Road to Rabat} { } {The well-traveled road lies flat and straight, heading north to Rabat and south to Casablanca.} {WWII North Africa } {} {} {} {1.000}
 E {   89} {s} {s} {4} {0} {} {1.000}
 E {  573} {n} {n} {1} {0} {} {1.000}
 
-R {  573} {64} {} {Rabat} { } {Rabat is a small town to the north of Casablanca. Its few shops and houses are a welcome sight after the long travels through the desert.} {WWII North Africa } {} {} {} {1.000}
+R {  573} {0} {} {Rabat} { } {Rabat is a small town to the north of Casablanca. Its few shops and houses are a welcome sight after the long travels through the desert.} {WWII North Africa } {} {} {} {1.000}
 E {  572} {s} {s} {4} {0} {} {1.000}
 E {  574} {n} {n} {1} {0} {} {1.000}
 
-R {  574} {64} {} {The Road Between Rabat and Port Lyautey} { } {The long road through the desert continues. Sand stretches to the horizon on either side.} {WWII North Africa } {} {} {} {1.000}
+R {  574} {0} {} {The Road Between Rabat and Port Lyautey} { } {The long road through the desert continues. Sand stretches to the horizon on either side.} {WWII North Africa } {} {} {} {1.000}
 E {  573} {s} {s} {4} {0} {} {1.000}
 E {  575} {n} {n} {1} {0} {} {1.000}
 
-R {  575} {64} {} {Port Lyautey} { } {The small port town serves as a host for traders coming to port from the the Atlantic Ocean. The ocean stretches out ahead of you, no land to be seen.} {WWII North Africa } {} {} {} {1.000}
+R {  575} {0} {} {Port Lyautey} { } {The small port town serves as a host for traders coming to port from the the Atlantic Ocean. The ocean stretches out ahead of you, no land to be seen.} {WWII North Africa } {} {} {} {1.000}
 E {  574} {s} {s} {4} {0} {} {1.000}
 E {  576} {e} {e} {2} {0} {} {1.000}
 
-R {  576} {64} {} {Moulouya River} { } {The smooth-flowing river flows from the north and pours itself west to meet the ocean. The wonder of the river has created a small foothold for life to sustain itself in an otherwise barren landscape.} {WWII North Africa } {} {} {} {1.000}
+R {  576} {0} {} {Moulouya River} { } {The smooth-flowing river flows from the north and pours itself west to meet the ocean. The wonder of the river has created a small foothold for life to sustain itself in an otherwise barren landscape.} {WWII North Africa } {} {} {} {1.000}
 E {  575} {w} {w} {8} {0} {} {1.000}
 E {  577} {e} {e} {2} {0} {} {1.000}
 
-R {  577} {64} {} {French Moroccan-Algerian Border} { } {Stretching around you for miles in any direction is nothinginess. One wonders where, how and why this was determined as the border to anything. You doubt the sage brush, sand or camels acknowledge allegiance to any country.} {WWII North Africa } {} {} {} {1.000}
+R {  577} {0} {} {French Moroccan-Algerian Border} { } {Stretching around you for miles in any direction is nothinginess. One wonders where, how and why this was determined as the border to anything. You doubt the sage brush, sand or camels acknowledge allegiance to any country.} {WWII North Africa } {} {} {} {1.000}
 E {  576} {w} {w} {8} {0} {} {1.000}
 E {  578} {n} {n} {1} {0} {} {1.000}
 
-R {  578} {64} {} {Oran} { } {This is the port of Oran on the Mediterranean Sea. Into this port flow the refugees from Europe, on their way to Casablanca and hopefully a trip across the ocean to safety.} {WWII North Africa } {} {} {} {1.000}
+R {  578} {0} {} {Oran} { } {This is the port of Oran on the Mediterranean Sea. Into this port flow the refugees from Europe, on their way to Casablanca and hopefully a trip across the ocean to safety.} {WWII North Africa } {} {} {} {1.000}
 E {  577} {s} {s} {4} {0} {} {1.000}
 E {  579} {e} {e} {2} {0} {} {1.000}
 
-R {  579} {64} {} {The Western Edge of Algiers} { } {You stand at the edge of the city and find yourself glancing about the area, wondering which direction you should head.} {WWII North Africa } {} {} {} {1.000}
+R {  579} {0} {} {The Western Edge of Algiers} { } {You stand at the edge of the city and find yourself glancing about the area, wondering which direction you should head.} {WWII North Africa } {} {} {} {1.000}
 E {  578} {w} {w} {8} {0} {} {1.000}
 E {  580} {e} {e} {2} {0} {} {1.000}
 
-R {  580} {64} {} {The Center of Algiers} { } {Many carts sit along the roadsides here waiting for weary travellers to come along and empty them of their wares. The local hotel sits to the north as a welcome place for much needed rest. People bustle about in a rush and you find yourself fighting to go in any direction.} {WWII North Africa } {} {} {} {1.000}
+R {  580} {0} {} {The Center of Algiers} { } {Many carts sit along the roadsides here waiting for weary travellers to come along and empty them of their wares. The local hotel sits to the north as a welcome place for much needed rest. People bustle about in a rush and you find yourself fighting to go in any direction.} {WWII North Africa } {} {} {} {1.000}
 E {  579} {w} {w} {8} {0} {} {1.000}
 E {  581} {n} {open n;n} {1} {0} {} {1.000}
 E {  582} {e} {e} {2} {0} {} {1.000}
@@ -2444,11 +2642,11 @@ E {  580} {w} {w} {8} {0} {} {1.000}
 E {  586} {s} {s} {4} {0} {} {1.000}
 E {  597} {e} {e} {2} {0} {} {1.000}
 
-R {  583} {64} {} {Road to Tebessa} { } {The road stretches along the dry ground and slowly climbs the slopes and valleys through the Nemencha mountains.} {WWII North Africa } {} {} {} {1.000}
+R {  583} {0} {} {Road to Tebessa} { } {The road stretches along the dry ground and slowly climbs the slopes and valleys through the Nemencha mountains.} {WWII North Africa } {} {} {} {1.000}
 E {  580} {n} {n} {1} {0} {} {1.000}
 E {  584} {s} {s} {4} {0} {} {1.000}
 
-R {  584} {64} {} {Tebessa} { } {Situated within the Nemencha Mountains the town of Tebessa makes its living from the mountains and plateaus around it. Surrounded on all sides by the high mountains and the deep passes through them the town seems to rest in a giant hand. It rests near the border of Algiers and Tunisia.} {WWII North Africa } {old} {} {} {1.000}
+R {  584} {0} {} {Tebessa} { } {Situated within the Nemencha Mountains the town of Tebessa makes its living from the mountains and plateaus around it. Surrounded on all sides by the high mountains and the deep passes through them the town seems to rest in a giant hand. It rests near the border of Algiers and Tunisia.} {WWII North Africa } {old} {} {} {1.000}
 E {  583} {n} {n} {1} {0} {} {1.000}
 E {  585} {e} {e} {2} {0} {} {1.000}
 E {  587} {s} {s} {4} {0} {} {1.000}
@@ -3309,7 +3507,7 @@ R {  777} {0} {} {Within Grand Parklands} { } {You are tucked in a small corner 
 E {  776} {s} {s} {4} {0} {} {1.000}
 E {  778} {e} {e} {2} {0} {} {1.000}
 
-R {  778} {0} {} {Within Grand Parklands} { } {The vast, tree lined parklands lead away in all directions. A faint path cuts its way through the heavily grassed surrounds, leading to yet more areas to escape from the mundane realities of life. Sit, relax, stay a while -- what more could you wish for in this wonderful, calming setting?} {19th Century Paris } {} {} {} {1.000}
+R {  778} {0} {} {Within Grand Parklands} { } {The vast, tree lined parklands lead away in all directions. A faint path cuts its way through the heavily grassed surrounds, leading to yet more areas to escape from the mundane realities of life. Sit, relax, stay a while -- what more could you wish for in this wonderful, calming setting?} {19th Century Paris} {} {} {} {1.000}
 E {  777} {w} {w} {8} {0} {} {1.000}
 E {  779} {s} {s} {4} {0} {} {1.000}
 E {  782} {n} {n} {1} {0} {} {1.000}
@@ -3321,7 +3519,7 @@ E {  776} {w} {w} {8} {0} {} {1.000}
 R {  780} {0} {} {A Slime Covered Waterway} { } {Algae and effluent cover the surface of this small stream. The stench is overpowering and you can see the corpses of a few small animals littered about the sides of the stream. The undergrowth that lies about you recedes as you approach the edge, and the immediate surrounds of the creek bed is a mini desert, devoid of all signs of life except the buzz of a few insects and the gleam of algae from the surface.} {19th Century Paris} {} {} {} {1.000}
 E {  776} {u} {open u;u} {16} {0} {} {1.000}
 
-R {  781} {0} {} {A Well-Maintained Drive} { } {As you make your way towards the grand estate before you, your attention is drawn to the ground beneath you. The soft pitter-patter of your shoes against the charcoal gray stones is rather annoying, but all of that is forgotten once you notice the spectacular display of craftmanship the european fan design of the stones offers.} {PR Mansion } {} {} {} {1.000}
+R {  781} {0} {} {A Well-Maintained Drive} { } {As you make your way towards the grand estate before you, your attention is drawn to the ground beneath you. The soft pitter-patter of your shoes against the charcoal gray stones is rather annoying, but all of that is forgotten once you notice the spectacular display of craftmanship the european fan design of the stones offers.} {PR Mansion} {} {} {} {1.000}
 E {  782} {s} {s} {4} {0} {} {1.000}
 E { 1342} {n} {n} {1} {0} {} {1.000}
 
@@ -5722,33 +5920,40 @@ R { 1341} {0} {} {A Narrow Corridor} { } {You must have arrived in an older port
 E { 1336} {e} {e} {2} {0} {} {1.000}
 E { 1429} {w} {push wall} {8} {0} {} {1.000}
 
-R { 1342} {0} {} {An Elegant Foyer} { } {This well-lit entry way is warm and welcoming. It is tastefully decorated, designed to encourage visitors to stay and talk for awhile, drawing them into the mansion, rather than hurry through whatever their agenda may have in store. The walls are decorated with delightful tapestries and the floor is made of immaculate white marble, accented with gold details, while the chandelier hangs in a golden splendor.} {PR Mansion } {} {} {} {1.000}
+R { 1342} {0} {} {An Elegant Foyer} { } {This well-lit entry way is warm and welcoming. It is tastefully decorated, designed to encourage visitors to stay and talk for awhile, drawing them into the mansion, rather than hurry through whatever their agenda may have in store. The walls are decorated with delightful tapestries and the floor is made of immaculate white marble, accented with gold details, while the chandelier hangs in a golden splendor.} {PR Mansion} {} {} {} {1.000}
 E {  781} {s} {s} {4} {0} {} {1.000}
 E { 1343} {n} {n} {1} {0} {} {1.000}
+E { 6976} {u} {u} {16} {0} {} {1.000}
 
-R { 1343} {0} {} {A Well-Lit Lounge} { } {This room, though separated by a curtained doorway, is merely an extension of the foyer, offering visitors a chance to rest their feet as they socialize. It is open and the overhanging chandelier offers just the right amount of light to set a casual social atmosphere.} {PR Mansion } {} {} {} {1.000}
+R { 1343} {0} {} {A Well-Lit Lounge} { } {This room, though separated by a curtained doorway, is merely an extension of the foyer, offering visitors a chance to rest their feet as they socialize. It is open and the overhanging chandelier offers just the right amount of light to set a casual social atmosphere.} {PR Mansion} {} {} {} {1.000}
 E { 1342} {s} {s} {4} {0} {} {1.000}
 E { 1344} {e} {e} {2} {0} {} {1.000}
+E { 6971} {n} {n} {1} {0} {} {1.000}
+E { 6974} {w} {w} {8} {0} {} {1.000}
 
-R { 1344} {0} {} {A Long, Plush Hallway} { } {During the day, sunlight illuminates this hallway via the large windows that line the southern wall. In the evening, however, soft light fills the area, emanating from the decorative sconces that fill the wall where paintings and tapestries do not.} {PR Mansion } {} {} {} {1.000}
+R { 1344} {0} {} {A Long, Plush Hallway} { } {During the day, sunlight illuminates this hallway via the large windows that line the southern wall. In the evening, however, soft light fills the area, emanating from the decorative sconces that fill the wall where paintings and tapestries do not.} {PR Mansion} {} {} {} {1.000}
 E { 1343} {w} {w} {8} {0} {} {1.000}
 E { 1345} {e} {e} {2} {0} {} {1.000}
+E { 6970} {n} {n} {1} {0} {} {1.000}
 
-R { 1345} {0} {} {A Relaxing Patio} { } {This patio, situated between the mansion's eastern wing and the flower garden, offers visitors yet another place to relax. The cedar benches are situated along the edge of the stonework which covers the ground. Well-crafted ceramic pots have been placed in the corners of the patio, as well as between the benches.} {PR Mansion } {} {} {} {1.000}
+R { 1345} {0} {} {A Relaxing Patio} { } {This patio, situated between the mansion's eastern wing and the flower garden, offers visitors yet another place to relax. The cedar benches are situated along the edge of the stonework which covers the ground. Well-crafted ceramic pots have been placed in the corners of the patio, as well as between the benches.} {PR Mansion} {} {} {} {1.000}
 E { 1344} {w} {w} {8} {0} {} {1.000}
 E { 1346} {n} {n} {1} {0} {} {1.000}
 
-R { 1346} {0} {} {The Flower Garden} { } {Cedar benches, covered in intricate engravings, have been placed around the large, colourful flower beds. Poppies, hyacinths, tulips, and tiger lilies have been planted in the main flower bed, around the large pond within, while petunias and mums decorate the smaller ones.} {PR Mansion } {} {} {} {1.000}
+R { 1346} {0} {} {The Flower Garden} { } {Cedar benches, covered in intricate engravings, have been placed around the large, colourful flower beds. Poppies, hyacinths, tulips, and tiger lilies have been planted in the main flower bed, around the large pond within, while petunias and mums decorate the smaller ones.} {PR Mansion} {} {} {} {1.000}
 E { 1345} {s} {s} {4} {0} {} {1.000}
 E { 1347} {e} {e} {2} {0} {} {1.000}
 
-R { 1347} {0} {} {A Forked Path} { } {The path splits here, leading to a rather spooky looking graveyard to the north. Trees grow more common along the western side of the path, lush Maples growing near the Chapel to the south, and sickly oaks growing near the graveyard. The path to the west leads to a flower garden, and the trail is free of trees, allowing one to see the garden as well as the mansion in the distance.} {PR Mansion } {} {} {} {1.000}
+R { 1347} {0} {} {A Forked Path} { } {The path splits here, leading to a rather spooky looking graveyard to the north. Trees grow more common along the western side of the path, lush Maples growing near the Chapel to the south, and sickly oaks growing near the graveyard. The path to the west leads to a flower garden, and the trail is free of trees, allowing one to see the garden as well as the mansion in the distance.} {PR Mansion} {} {} {} {1.000}
 E { 1346} {w} {w} {8} {0} {} {1.000}
 E { 1348} {n} {n} {1} {0} {} {1.000}
+E { 6969} {s} {s} {4} {0} {} {1.000}
 
-R { 1348} {0} {} {The Graveyard} { } {The shadows conceal the room's contents.} {PR Mansion } {} {} {} {1.000}
+R { 1348} {0} {} {The Graveyard} { } {The smell of decay assaults your nose and an ominous feeling descends upon you. To either side, the ground is obscured by an eerie fog which twists and turns among gravestones like vaporous serpents. To the east the outline of a small building can be seen, a mausoleum, perhaps. The trail which leads to the west meets with a large hedge maze, the southern trail leading to a crossroad of sorts.} {PR Mansion} {} {} {} {1.000}
 E { 1347} {s} {s} {4} {0} {} {1.000}
 E { 1349} {e} {e} {2} {0} {} {1.000}
+E { 6967} {n} {n} {1} {0} {} {1.000}
+E { 6968} {w} {w} {8} {0} {} {1.000}
 
 R { 1349} {0} {} {A Dusty Mausoleum} { } {The shadows conceal the room's contents.} {PR Mansion } {} {} {} {1.000}
 E { 1348} {w} {w} {8} {0} {} {1.000}
@@ -15073,29 +15278,29 @@ R { 3573} {0} {} {The Sala del Maggior Consiglio} { } {The Hall of the Supreme C
 E { 3572} {s} {s} {4} {0} {} {1.000}
 E { 6628} {e} {e} {2} {0} {} {1.000}
 
-R { 3574} {64} {} {On the Atlantic Ocean} { } {You continue on your journey, no other signs of life can be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon seems to echo back to you and you begin to ponder whether it might be best to turn back.} {French Indian War } {} {} {} {1.000}
+R { 3574} {0} {} {On the Atlantic Ocean} { } {You continue on your journey, no other signs of life can be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon seems to echo back to you and you begin to ponder whether it might be best to turn back.} {French Indian War } {} {} {} {1.000}
 E {  430} {s} {s} {4} {0} {} {1.000}
 E { 3841} {n} {n} {1} {0} {} {1.000}
 E { 3758} {w} {w} {8} {0} {} {1.000}
 
-R { 3575} {64} {} {On the Atlantic Ocean} { } {Both the sun and the stars have been hidden from view by the never ending cloud cover, making it impossible to track your exact position with your rusty sextant. By your best calculations you guess that you are at the halfway point of your trip across the Atlantic. You hope that you will be able to confirm your position soon. You pray for a clearing of the sky.} {French Indian War } {} {} {} {1.000}
+R { 3575} {0} {} {On the Atlantic Ocean} { } {Both the sun and the stars have been hidden from view by the never ending cloud cover, making it impossible to track your exact position with your rusty sextant. By your best calculations you guess that you are at the halfway point of your trip across the Atlantic. You hope that you will be able to confirm your position soon. You pray for a clearing of the sky.} {French Indian War } {} {} {} {1.000}
 E { 3841} {s} {s} {4} {0} {} {1.000}
 E { 3576} {w} {w} {8} {0} {} {1.000}
 
-R { 3576} {64} {} {On the Atlantic Ocean} { } {Onward you continue with your adventurous trip. The sky and sea blend together at the horizon in a haze. You try to keep your spirits up in such dismal surroundings, not knowing what lies ahead of you. Another check of your provisions assures you that you have planned well for your journey.} {French Indian War } {} {} {} {1.000}
+R { 3576} {0} {} {On the Atlantic Ocean} { } {Onward you continue with your adventurous trip. The sky and sea blend together at the horizon in a haze. You try to keep your spirits up in such dismal surroundings, not knowing what lies ahead of you. Another check of your provisions assures you that you have planned well for your journey.} {French Indian War } {} {} {} {1.000}
 E { 3575} {e} {e} {2} {0} {} {1.000}
 E { 3577} {n} {n} {1} {0} {} {1.000}
 
-R { 3577} {64} {} {Off Nova Scotia} { } {The green cliffs of Nova Scotia rise up on the western horizon like an emerald beacon against night's darkness. Though it is tempting to land there, you travel onwards. The weather breaks and you are able to get an accurate reading of your position. You plot your course on the rough nautical charts you carry with you.} {French Indian War } {} {} {} {1.000}
+R { 3577} {0} {} {Off Nova Scotia} { } {The green cliffs of Nova Scotia rise up on the western horizon like an emerald beacon against night's darkness. Though it is tempting to land there, you travel onwards. The weather breaks and you are able to get an accurate reading of your position. You plot your course on the rough nautical charts you carry with you.} {French Indian War } {} {} {} {1.000}
 E { 3576} {s} {s} {4} {0} {} {1.000}
 E { 3578} {n} {n} {1} {0} {} {1.000}
 
-R { 3578} {64} {} {Between Isle Royale and Newfoundland} { } {Looking north and south you see two islands rising up from the sea. They disappear in a green haze on the horizon as you make the wide turn round Isle Royale. You keep an eager eye out for the small stray islands that show as dots on your chart, marking dangers to ships where they could run aground at night.} {French Indian War } {} {} {} {1.000}
+R { 3578} {0} {} {Between Isle Royale and Newfoundland} { } {Looking north and south you see two islands rising up from the sea. They disappear in a green haze on the horizon as you make the wide turn round Isle Royale. You keep an eager eye out for the small stray islands that show as dots on your chart, marking dangers to ships where they could run aground at night.} {French Indian War } {} {} {} {1.000}
 E { 3577} {s} {s} {4} {0} {} {1.000}
 E { 3579} {w} {w} {8} {0} {} {1.000}
 E { 4902} {n} {n} {1} {0} {} {1.000}
 
-R { 3579} {64} {} {The Gulf of St. Lawrence} { } {Carefully you mark your course as you make your way around Cape St. Lawrence and into the gulf. The blue-green highlands of Isle Royale are off the south of you. To the north you can still see the Long Range Mountains of Nova Scotia. You are torn between heading northward to St. George's Bay or across the gulf to another island that is marked on your sea chart.} {French Indian War } {fiwar} {} {} {1.000}
+R { 3579} {0} {} {The Gulf of St. Lawrence} { } {Carefully you mark your course as you make your way around Cape St. Lawrence and into the gulf. The blue-green highlands of Isle Royale are off the south of you. To the north you can still see the Long Range Mountains of Nova Scotia. You are torn between heading northward to St. George's Bay or across the gulf to another island that is marked on your sea chart.} {French Indian War } {fiwar} {} {} {1.000}
 E { 3578} {e} {e} {2} {0} {} {1.000}
 E { 3581} {w} {w} {8} {0} {} {1.000}
 
@@ -15103,7 +15308,7 @@ R { 3580} {0} {} {On the Beach at Ile St. Jean} { } {Leaving behind the serene, 
 E { 3581} {n} {n} {1} {0} {} {1.000}
 E { 3842} {s} {s} {4} {0} {} {1.000}
 
-R { 3581} {64} {} {Off the coast of Ile St. Jean} { } {The sky reflected in the blue seas is stark in contrast to the dark red cliffs of the island. Further back, green grass and dark forests blanket the rolling hills in the distance. The water looks calmer as you look toward a small bay to the south.} {French Indian War } {} {} {} {1.000}
+R { 3581} {0} {} {Off the coast of Ile St. Jean} { } {The sky reflected in the blue seas is stark in contrast to the dark red cliffs of the island. Further back, green grass and dark forests blanket the rolling hills in the distance. The water looks calmer as you look toward a small bay to the south.} {French Indian War } {} {} {} {1.000}
 E { 3579} {e} {e} {2} {0} {} {1.000}
 E { 3580} {s} {s} {4} {0} {} {1.000}
 E { 3849} {w} {w} {8} {0} {} {1.000}
@@ -16208,11 +16413,11 @@ E { 3842} {n} {n} {1} {0} {} {1.000}
 R { 3846} {0} {} {In the Forests of Ile St. Jean} { } {Following a pathway into the deep forest, you keep your voice and your steps hushed. You trudge along the track which is strewn with pine needles. The undergrowth is sparse here, making it easy for you to advance. The huge pine trees rise up over you, branches interlocking in such a way as to block out the light. It is so quiet here that you easily can hear the beating of your own heart.} {French Indian War } {} {} {} {1.000}
 E { 3842} {e} {e} {2} {0} {} {1.000}
 
-R { 3847} {64} {} {Rounding Cap-de-Rosiers} { } {The shoreline looks hostile with its granite boulders tumbling to the sea. Cautiously, you head your ship along the coast although your sea charts show that it is a clear passageway. The weather clears a bit and the waves seem more placid than they were in the deep ocean of the Atlantic.} {French Indian War } {} {} {} {1.000}
+R { 3847} {0} {} {Rounding Cap-de-Rosiers} { } {The shoreline looks hostile with its granite boulders tumbling to the sea. Cautiously, you head your ship along the coast although your sea charts show that it is a clear passageway. The weather clears a bit and the waves seem more placid than they were in the deep ocean of the Atlantic.} {French Indian War } {} {} {} {1.000}
 E { 3849} {e} {e} {2} {0} {} {1.000}
 E { 3848} {w} {w} {8} {0} {} {1.000}
 
-R { 3848} {64} {} {Entering the St. Lawrence} { } {At last you enter the mouth of the great St. Lawrence! Looking northward, you see Ile D'Anticosti, and further east lies the settlement at Sept-Iles. You tack southward though, hugging along the coast. The wind is cool, blowing down from the north, and speeds your progress along through the choppy waters.} {French Indian War } {} {} {} {1.000}
+R { 3848} {0} {} {Entering the St. Lawrence} { } {At last you enter the mouth of the great St. Lawrence! Looking northward, you see Ile D'Anticosti, and further east lies the settlement at Sept-Iles. You tack southward though, hugging along the coast. The wind is cool, blowing down from the north, and speeds your progress along through the choppy waters.} {French Indian War } {} {} {} {1.000}
 E { 3847} {n} {n} {1} {0} {} {1.000}
 E { 3850} {s} {s} {4} {0} {} {1.000}
 
@@ -16220,44 +16425,44 @@ R { 3849} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3581} {e} {e} {2} {0} {} {1.000}
 E { 3847} {w} {w} {8} {0} {} {1.000}
 
-R { 3850} {64} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the water. Here and there, you see an occasional porpoise dance alongside the ship, seeming to guide it along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
+R { 3850} {0} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the water. Here and there, you see an occasional porpoise dance alongside the ship, seeming to guide it along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
 E { 3848} {n} {n} {1} {0} {} {1.000}
 E { 3851} {s} {s} {4} {0} {} {1.000}
 
-R { 3851} {64} {} {Down the St. Lawrence} { } {The water laps quietly at the sides of your vessel as you travel along the St. Lawrence. To the north is the entrance to the river, beyond that lies the gulf, and beyond that the Atlantic. The settlement of River-Ouelle is over on the eastern bank, marked by pillars of smoke rising from the chimneys. The river continues on southward toward the larger settlement of Quebec.} {French Indian War } {} {} {} {1.000}
+R { 3851} {0} {} {Down the St. Lawrence} { } {The water laps quietly at the sides of your vessel as you travel along the St. Lawrence. To the north is the entrance to the river, beyond that lies the gulf, and beyond that the Atlantic. The settlement of River-Ouelle is over on the eastern bank, marked by pillars of smoke rising from the chimneys. The river continues on southward toward the larger settlement of Quebec.} {French Indian War } {} {} {} {1.000}
 E { 3850} {n} {n} {1} {0} {} {1.000}
 E { 3852} {s} {s} {4} {0} {} {1.000}
 
-R { 3852} {64} {} {Down the St. Lawrence} { } {Deep forests and dense brush line each side of the river, offering little room to land. The water is a bit choppy through here, but still traversable. From the smoke rising up to the north and southeast, you can tell that the forests are inhabited, but not whether by friend or foe.} {French Indian War } {} {} {} {1.000}
+R { 3852} {0} {} {Down the St. Lawrence} { } {Deep forests and dense brush line each side of the river, offering little room to land. The water is a bit choppy through here, but still traversable. From the smoke rising up to the north and southeast, you can tell that the forests are inhabited, but not whether by friend or foe.} {French Indian War } {} {} {} {1.000}
 E { 3851} {n} {n} {1} {0} {} {1.000}
 E { 3853} {s} {s} {4} {0} {} {1.000}
 
-R { 3853} {64} {} {Weighing Anchor at Quebec} { } {Several ships have weighed anchor here, just within rowing distance of the weather-worn wharves. What you can see of the settlement seems to be a good size. You watch as small boats row to and from the other ships, riding low in the water because of their heavy burdens.} {French Indian War } {} {} {} {1.000}
+R { 3853} {0} {} {Weighing Anchor at Quebec} { } {Several ships have weighed anchor here, just within rowing distance of the weather-worn wharves. What you can see of the settlement seems to be a good size. You watch as small boats row to and from the other ships, riding low in the water because of their heavy burdens.} {French Indian War } {} {} {} {1.000}
 E { 3852} {n} {n} {1} {0} {} {1.000}
 E { 3854} {s} {s} {4} {0} {} {1.000}
 
-R { 3854} {64} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
+R { 3854} {0} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse of water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
 E { 3853} {n} {n} {1} {0} {} {1.000}
 E { 3855} {w} {w} {8} {0} {} {1.000}
 
-R { 3855} {64} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas that you have been warned about by more experienced travelers, as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
+R { 3855} {0} {} {Down the St. Lawrence} { } {The clear sky is reflected in the great expanse water, coloring it a deep blue. The waters are calm and the ship glides along the smooth surface of the river. You pick your way carefully along here, being wary of shallow areas that you have been warned about by more experienced travelers, as you sail along the wild, forested coast.} {French Indian War } {} {} {} {1.000}
 E { 3854} {e} {e} {2} {0} {} {1.000}
 E { 3856} {s} {s} {4} {0} {} {1.000}
 
-R { 3856} {64} {} {At the Mouth of the Richelieu River} { } {A small river empties into the St. Lawrence here. The smell of the fresh water from it mingles with the slightly salty smell of the larger river. The waters are teeming with salmon here and the woods close by offer the promise of good hunting for fresh game. The banks are clear and pebbled, offering several good places for landing.} {French Indian War } {} {} {} {1.000}
+R { 3856} {0} {} {At the Mouth of the Richelieu River} { } {A small river empties into the St. Lawrence here. The smell of the fresh water from it mingles with the slightly salty smell of the larger river. The waters are teeming with salmon here and the woods close by offer the promise of good hunting for fresh game. The banks are clear and pebbled, offering several good places for landing.} {French Indian War } {} {} {} {1.000}
 E { 3855} {e} {e} {2} {0} {} {1.000}
 E { 3857} {s} {s} {4} {0} {} {1.000}
 
-R { 3857} {64} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hand's reach and the buzz of mosquitoes and black flies sound obnoxious in your ears. To the south you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
+R { 3857} {0} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hand's reach and the buzz of mosquitoes and black flies sound obnoxious in your ears. To the south you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
 E { 3856} {n} {n} {1} {0} {} {1.000}
 E { 3858} {s} {s} {4} {0} {} {1.000}
 E { 3860} {w} {w} {8} {0} {} {1.000}
 
-R { 3858} {64} {} {The Rapids Along the Richelieu River} { } {The river runs swift and wild here, churning up a frothy white foam as you are swept along. Your heartbeat quickens\; you feel a tremendous rush of adrenaline as you work instinctively to keep off the treacherous rocks which suddenly appear below the foaming water. Straining your muscles against the rushing water, you pray you have the strength to endure...} {French Indian War } {} {} {} {1.000}
+R { 3858} {0} {} {The Rapids Along the Richelieu River} { } {The river runs swift and wild here, churning up a frothy white foam as you are swept along. Your heartbeat quickens\; you feel a tremendous rush of adrenaline as you work instinctively to keep off the treacherous rocks which suddenly appear below the foaming water. Straining your muscles against the rushing water, you pray you have the strength to endure...} {French Indian War } {} {} {} {1.000}
 E { 3857} {n} {n} {1} {0} {} {1.000}
 E { 3859} {s} {s} {4} {0} {} {1.000}
 
-R { 3859} {64} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hands' reach and the buzz of mosquitoes and black flies sounds obnoxious in your ears. To the north you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
+R { 3859} {0} {} {Along the Richelieu River} { } {Traveling along the river, the woods on either side are noisy with the chirping of birds, the cry of an occasional hawk on the hunt, and the chatter of squirrels. Closer by, frogs leap into the water from the lily pads within your hands' reach and the buzz of mosquitoes and black flies sounds obnoxious in your ears. To the north you hear the quiet roar of rushing water and you prepare yourself for what could be a rough water ride.} {French Indian War } {} {} {} {1.000}
 E { 3858} {n} {n} {1} {0} {} {1.000}
 E { 3870} {s} {s} {4} {0} {} {1.000}
 E { 3871} {w} {w} {8} {0} {} {1.000}
@@ -16291,13 +16496,13 @@ R { 3866} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3863} {n} {n} {1} {0} {} {1.000}
 E { 3865} {s} {s} {4} {0} {} {1.000}
 
-R { 3867} {64} {} {A Landing Off Lake Champlain} { } {Looking about, you spy a place off to the western shore which would be a good landing spot. A natural opening in the forest and the small sandy beach offer good footing and a secure place to hide your vessel. The lake is open to the north and south, the waters still calm. Another of the many islands of these waters is to the east of you.} {French Indian War } {} {} {} {1.000}
+R { 3867} {0} {} {A Landing Off Lake Champlain} { } {Looking about, you spy a place off to the western shore which would be a good landing spot. A natural opening in the forest and the small sandy beach offer good footing and a secure place to hide your vessel. The lake is open to the north and south, the waters still calm. Another of the many islands of these waters is to the east of you.} {French Indian War } {} {} {} {1.000}
 E { 3869} {w} {w} {8} {0} {} {1.000}
 E { 3868} {n} {n} {1} {0} {} {1.000}
 E { 3872} {e} {e} {2} {0} {} {1.000}
 E { 3884} {s} {s} {4} {0} {} {1.000}
 
-R { 3868} {64} {} {Between Two Islands} { } {In between the two islands, Ille Lamotte and Valcour, you have a chance to appreciate the true size of the lake. The shorelines to the east and west are hazy in the distance. The southern shore is barely visible from this vantage point. The area surrounding the lake is heavily forested, with a high ridge following along to the east, and a smaller one to the west.} {French Indian War } {} {} {} {1.000}
+R { 3868} {0} {} {Between Two Islands} { } {In between the two islands, Ille Lamotte and Valcour, you have a chance to appreciate the true size of the lake. The shorelines to the east and west are hazy in the distance. The southern shore is barely visible from this vantage point. The area surrounding the lake is heavily forested, with a high ridge following along to the east, and a smaller one to the west.} {French Indian War } {} {} {} {1.000}
 E { 3867} {s} {s} {4} {0} {} {1.000}
 E { 3870} {n} {n} {1} {0} {} {1.000}
 E { 3873} {e} {e} {2} {0} {} {1.000}
@@ -16306,7 +16511,7 @@ R { 3869} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3865} {w} {w} {8} {0} {} {1.000}
 E { 3867} {e} {e} {2} {0} {} {1.000}
 
-R { 3870} {64} {} {Ile La Motte} { } {Rocky boulders tumble down to the water, crowned by an overgrowth of brush and pines. The grey of the craggy rocks blend in with the grey of the deep water here. You look for a break along the shoreline where you might land, but cannot find one.} {French Indian War } {} {} {} {1.000}
+R { 3870} {0} {} {Ile La Motte} { } {Rocky boulders tumble down to the water, crowned by an overgrowth of brush and pines. The grey of the craggy rocks blend in with the grey of the deep water here. You look for a break along the shoreline where you might land, but cannot find one.} {French Indian War } {} {} {} {1.000}
 E { 3868} {s} {s} {4} {0} {} {1.000}
 E { 3859} {n} {n} {1} {0} {} {1.000}
 
@@ -16340,12 +16545,12 @@ R { 3878} {0} {} {A Clearing Along the Trail} { } {The trees seem to space out m
 E { 3877} {w} {w} {8} {0} {} {1.000}
 E { 3879} {s} {s} {4} {0} {} {1.000}
 
-R { 3879} {64} {} {A Narrow Deer Trail} { } {The walking is a bit easier here along this narrow deer trail. Delicate woodland flowers peek up through the fallen leaves, their soft petals of pink, cream and light purple unfold above their light green stems. The tree trunks are covered in thick moss and ribbed with multi-colored fungi. By the creaking sounds of frogs, you know that a water source must be nearby.} {French Indian War } {} {} {} {1.000}
+R { 3879} {0} {} {A Narrow Deer Trail} { } {The walking is a bit easier here along this narrow deer trail. Delicate woodland flowers peek up through the fallen leaves, their soft petals of pink, cream and light purple unfold above their light green stems. The tree trunks are covered in thick moss and ribbed with multi-colored fungi. By the creaking sounds of frogs, you know that a water source must be nearby.} {French Indian War } {} {} {} {1.000}
 E { 3878} {n} {n} {1} {0} {} {1.000}
 E { 3881} {e} {e} {2} {0} {} {1.000}
 E { 3892} {s} {s} {4} {0} {} {1.000}
 
-R { 3880} {64} {} {On Lake Champlain, North of the Narrows} { } {The lake begins to narrow sharply here and southward on, the shoreline becoming more pronounced. The shore on each side is rocky, large boulders tumble down from the greenery to the clear water's edge. The scenery is wild and rugged and nothing like you could have imagined. The forest lifts, climbing into the surrounding mountains. It seems to go on forever, in an ocean of blue-green.} {French Indian War } {} {} {} {1.000}
+R { 3880} {0} {} {On Lake Champlain, North of the Narrows} { } {The lake begins to narrow sharply here and southward on, the shoreline becoming more pronounced. The shore on each side is rocky, large boulders tumble down from the greenery to the clear water's edge. The scenery is wild and rugged and nothing like you could have imagined. The forest lifts, climbing into the surrounding mountains. It seems to go on forever, in an ocean of blue-green.} {French Indian War } {} {} {} {1.000}
 E { 3883} {n} {n} {1} {0} {} {1.000}
 E { 3886} {s} {s} {4} {0} {} {1.000}
 E { 3882} {w} {w} {8} {0} {} {1.000}
@@ -16358,12 +16563,12 @@ R { 3882} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3881} {w} {w} {8} {0} {} {1.000}
 E { 3880} {e} {e} {2} {0} {} {1.000}
 
-R { 3883} {64} {} {Lake Champlain, Near a Group of Islands} { } {The water runs deep and cold here on the large lake. A group of small islands lay off to the west, tall pines rising upward beyond their rocky shorelines. The open water continues on the south and north, even though it looks as though the lake is growing more narrow southward. The shoreline shows no signs of inhabitants, though you get the feeling that you are being watched as you travel along.} {French Indian War } {} {} {} {1.000}
+R { 3883} {0} {} {Lake Champlain, Near a Group of Islands} { } {The water runs deep and cold here on the large lake. A group of small islands lay off to the west, tall pines rising upward beyond their rocky shorelines. The open water continues on the south and north, even though it looks as though the lake is growing more narrow southward. The shoreline shows no signs of inhabitants, though you get the feeling that you are being watched as you travel along.} {French Indian War } {} {} {} {1.000}
 E { 3880} {s} {s} {4} {0} {} {1.000}
 E { 3884} {n} {n} {1} {0} {} {1.000}
 E { 3885} {w} {w} {8} {0} {} {1.000}
 
-R { 3884} {64} {} {Schuyler Island} { } {Off to the west of you lies another of the many islands which populate these waters. Looking along the shore, you see a cow moose and her calf rising up from the water and disappearing into the thickets of the isle. The hunting and fishing promises to be good close by and you make a mental note to stop here at sometime in the future to explore the island.} {French Indian War } {} {} {} {1.000}
+R { 3884} {0} {} {Schuyler Island} { } {Off to the west of you lies another of the many islands which populate these waters. Looking along the shore, you see a cow moose and her calf rising up from the water and disappearing into the thickets of the isle. The hunting and fishing promises to be good close by and you make a mental note to stop here at sometime in the future to explore the island.} {French Indian War } {} {} {} {1.000}
 E { 3883} {s} {s} {4} {0} {} {1.000}
 E { 3867} {n} {n} {1} {0} {} {1.000}
 
@@ -16383,7 +16588,7 @@ E { 3887} {n} {n} {1} {0} {} {1.000}
 E { 3893} {w} {w} {8} {0} {} {1.000}
 E { 3898} {s} {s} {4} {0} {} {1.000}
 
-R { 3889} {64} {} {A Dark Trail Through the Forest} { } {The forest vegetation is thick here, making your passing difficult. Saplings, wild grape vines, and overgrown bushes all compete for what little sunlight they can get in the filtered light. The tapping of a woodpecker reverberates through the wood, and the call of a nearby quail startles you to alertness.} {French Indian War } {} {} {} {1.000}
+R { 3889} {0} {} {A Dark Trail Through the Forest} { } {The forest vegetation is thick here, making your passing difficult. Saplings, wild grape vines, and overgrown bushes all compete for what little sunlight they can get in the filtered light. The tapping of a woodpecker reverberates through the wood, and the call of a nearby quail startles you to alertness.} {French Indian War } {} {} {} {1.000}
 E { 3890} {n} {n} {1} {0} {} {1.000}
 E { 3894} {e} {e} {2} {0} {} {1.000}
 E { 3895} {s} {s} {4} {0} {} {1.000}
@@ -16408,15 +16613,15 @@ R { 3894} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 3893} {e} {e} {2} {0} {} {1.000}
 E { 3889} {w} {w} {8} {0} {} {1.000}
 
-R { 3895} {64} {} {A Hickory Grove} { } {You wander beneath a grove of tall hickory trees, fallen nuts crunching beneath your feet. The trail is marked by the infrequent deer tracks and droppings. Busy chipmunks and squirrels busily gather the ripe nuts and then disappear into the hollows of the trees. Birds flit from the ground to their hidden nests up in the branches.} {French Indian War } {} {} {} {1.000}
+R { 3895} {0} {} {A Hickory Grove} { } {You wander beneath a grove of tall hickory trees, fallen nuts crunching beneath your feet. The trail is marked by the infrequent deer tracks and droppings. Busy chipmunks and squirrels busily gather the ripe nuts and then disappear into the hollows of the trees. Birds flit from the ground to their hidden nests up in the branches.} {French Indian War } {} {} {} {1.000}
 E { 3889} {n} {n} {1} {0} {} {1.000}
 E { 3896} {w} {w} {8} {0} {} {1.000}
 
-R { 3896} {64} {} {A Small Copse} { } {You pause a moment as you take notice of a dull roar heard off in the distance. The small copse you are in muffles the sound somewhat, making it difficult to distinguish from which direction it is coming from. The small trail you are on is easy to follow here, obviously a popular path for the deer to travel along from the number of tracks you've seen so far.} {French Indian War } {} {} {} {1.000}
+R { 3896} {0} {} {A Small Copse} { } {You pause a moment as you take notice of a dull roar heard off in the distance. The small copse you are in muffles the sound somewhat, making it difficult to distinguish from which direction it is coming from. The small trail you are on is easy to follow here, obviously a popular path for the deer to travel along from the number of tracks you've seen so far.} {French Indian War } {} {} {} {1.000}
 E { 3895} {e} {e} {2} {0} {} {1.000}
 E { 3897} {w} {w} {8} {0} {} {1.000}
 
-R { 3897} {64} {} {A Poplar Thicket} { } {You walk through a dense thicket of poplar saplings and berry bushes, along the only clear path, that of a well-tracked deer trail. A deep roar can be heard close by, reminding you of some of the other waterfalls you have seen during your travels. The leaves of the trees rustling in the wind combine with the rushing sound of water in a wild clash of noise.} {French Indian War } {} {} {} {1.000}
+R { 3897} {0} {} {A Poplar Thicket} { } {You walk through a dense thicket of poplar saplings and berry bushes, along the only clear path, that of a well-tracked deer trail. A deep roar can be heard close by, reminding you of some of the other waterfalls you have seen during your travels. The leaves of the trees rustling in the wind combine with the rushing sound of water in a wild clash of noise.} {French Indian War } {} {} {} {1.000}
 E { 3896} {e} {e} {2} {0} {} {1.000}
 E { 3921} {w} {w} {8} {0} {} {1.000}
 
@@ -28650,3 +28855,469 @@ E { 6866} {e} {e} {2} {0} {} {1.000}
 
 R { 6868} {0} {} {At the Bottom of a Gorge, Amidst a Boiling Sea} { } {SPLASH! You hit the water with a tremendous spray of water. The boiling sea throws you about as if you were a plaything in a child's hand. You feel something against your leg! Before you know it, you're surrounded by a horde of creatures to which there can be no names.} {Land of Shadows} {} {} {} {1.000}
 E { 2540} {u} {u} {16} {0} {} {1.000}
+
+R { 6869} {0} {} {Waterloo Station's Platform} { } {You stand on the large platform of the Waterloo Station, linking the west parts of the United Kingdom to the capital city of London. Several trains transport travellers to Bristol, Reading, Plymouth or many other smaller cities. Well-dressed ladies sit on the many benches that decorate the platform while gents prefer to gather together and talk about the last cricket game.} {Dartmoor} {} {} {} {1.000}
+E {   18} {s} {s} {4} {0} {} {1.000}
+
+R { 6870} {0} {} {In the Train} { } {You are inside a comfortable car aboard the London-Tavistock express. The railway winds serpentine within the western regions to the deepest parts of Cornwall. Thick grey smoke from the loud steam locomotive collects along the windows, often obscuring views on the landscapes of English countryside. The train itself is decorated with Victorian-styled furniture and seems reserved to the richest citizens who can afford the substantial cost of a ticket.} {Dartmoor} {} {} {} {1.000}
+
+R { 6871} {0} {} {Tavistock Train Station} { } {You stand inside the small train station of the city of Tavistock, a tiny city 15 miles north of the maritime city of Plymouth. The train station looks to also serve as a firestation and a field hospital as testament to the several ambulances and trucks parked in front of the building. A large gate opens on a small street that climbs down a hill to the town center.} {Dartmoor} {} {} {} {1.000}
+E { 6873} {e} {e} {2} {0} {} {1.000}
+
+R { 6872} {0} {} {Tavistock Station's Platform} { } {You stand on the small platform of a small provincial train station. Some tufts of grass are growing between the paving stones and birds have made their nests under the rusty roof of the station. In the distance, you can admire the hilly landscape of Devonshire, so different than the next stop on this line: London.} {Dartmoor} {} {} {} {1.000}
+E { 6871} {n} {n} {1} {0} {} {1.000}
+
+R { 6873} {0} {} {The City of Tavistock} { } {The medieval city of Tavistock still has nice ruins including an old abbey, circled by shadowy English gardens and a majestic tower, the last remains of the estates of a long-gone ruling family. Modern buildings now mix with these old stones, showing that the small provincial city now wishes to look into the future.} {Dartmoor} {} {} {} {1.000}
+E { 6871} {w} {w} {8} {0} {} {1.000}
+E { 6874} {e} {e} {2} {0} {} {1.000}
+
+R { 6874} {0} {} {A Quiet Road in Devonshire} { } {A small road mostly used by carriages and very few cars winds between the vast green fields and hills of the typical Devonshire landscape. In the distance, you can spot the roofs of stone-built cottages and the occasional black sheep roaming peacefully around. The pleasant smell of fresh grass comes to your nostrils and birds chirp from the nearby trees.} {Dartmoor} {} {} {} {1.000}
+E { 6873} {w} {w} {8} {0} {} {1.000}
+E { 6875} {e} {e} {2} {0} {} {1.000}
+
+R { 6875} {0} {} {A Quiet Road in Devonshire} { } {Rich valleys surround you with a patchwork of meadows, hedgerows, forests, and villages, forming a peaceful landscape dotted with stone bridges and thatched farmhouses. A bit further from the road, the river Dart slowly flows from the east, announcing its presence with a pleasant and refreshing babble.} {Dartmoor} {} {} {} {1.000}
+E { 6874} {w} {w} {8} {0} {} {1.000}
+E { 6876} {s} {s} {4} {0} {} {1.000}
+
+R { 6876} {0} {} {At the Feet of a Tall Plateau} { } {You stand at the edge of the grassy Devonshire valleys where looms a boggy, granite-topped, moorland plateau covered in grass, brambles, and heather. Big grey clouds in the sky seem to only wander above the plateau and ignore the rest of the countryside.} {Dartmoor} {} {} {} {1.000}
+E { 6875} {n} {n} {1} {0} {} {1.000}
+E { 6877} {u} {u} {16} {0} {} {1.000}
+
+R { 6877} {0} {} {The Dartmoor Plateau} { } {A large pill-shaped tableland in the west of England, Dartmoor spans a thirty mile tract of untamed countryside. Above the peaceful and sunlit Devonshire valleys there rises dark against the cloudy grey sky, the long, gloomy curve of the moor, broken by jagged and sinister hills.} {Dartmoor} {} {} {} {1.000}
+E { 6876} {d} {d} {32} {0} {} {1.000}
+E { 6878} {e} {e} {2} {0} {} {1.000}
+
+R { 6878} {0} {} {On the Moor} { } {Your steps take you through an open moor, treeless but maybe for some rare stunted oaks and firs which have been twisted and bent by the fury of years of storm. The ground is soaked with muddy waters and the roots of wild plants appear along the surface here and there. To the east, the road takes you to a small village, while to the west it seems to follow down a slope towards the fields of Devonshire.} {Dartmoor} {} {} {} {1.000}
+E { 6877} {w} {w} {8} {0} {} {1.000}
+E { 6879} {e} {e} {2} {0} {} {1.000}
+E { 6893} {n} {n} {1} {0} {} {1.000}
+
+R { 6879} {0} {} {A Clapper Bridge over the River Dart} { } {The road comes here over an ancient stone bridge above the muddy waters of the Dart river. The river continues to the north, losing itself among the sand bars and thick marsh peat. To the east, you can see the roofs of the village of Grimpen while to the west, the road leads out of the moor, back to more peaceful valleys.} {Dartmoor} {} {} {} {1.000}
+E { 6878} {w} {w} {8} {0} {} {1.000}
+E { 6908} {e} {e} {2} {0} {} {1.000}
+E { 6886} {d} {d} {32} {1} {} {1.000}
+
+R { 6880} {0} {} {The Village of Grimpen} { } {Grimpen is a small hilltop settlement on the southeastern fringes of the Dartmoor mire. Surrounded by rolling hills covered in mature woodland, the main square offers spectacular views of the nearby marsh and barren fields. The houses of the village are made from dark grey blocks of granite and you even discern some impressive Jacobean style almshouses, featuring mullioned windows and an unusual granite arcade. To the north, a door opens on an old, dusty pub.} {Dartmoor} {} {} {} {1.000}
+E { 6908} {w} {w} {8} {0} {} {1.000}
+E { 6881} {e} {e} {2} {0} {} {1.000}
+E { 6892} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 6881} {0} {} {A Provincial Marketplace} { } {Between the stone-built houses of the village sits a tiny marketplace where most of Grimpen's townsfolk gather. The ground is not paved and has been covered by a thick layer of the moor's sand in which you can guess the footprints of many ponies and the occasional carriage that comes from Tavistock.} {Dartmoor} {} {} {} {1.000}
+E { 6880} {w} {w} {8} {0} {} {1.000}
+E { 6885} {s} {s} {4} {0} {} {1.000}
+E { 6890} {e} {e} {2} {0} {} {1.000}
+E { 6909} {n} {n} {1} {0} {} {1.000}
+
+R { 6882} {0} {} {A Provincial Marketplace} { } {Between the stone-built houses of the village sits a tiny marketplace where most of Grimpen's townsfolk gather. The ground is not paved and has been covered by a thick layer of the moor's sand in which you can guess the footprints of many ponies and the occasional carriage that comes from Tavistock.} {Dartmoor} {} {} {} {1.000}
+E { 6885} {n} {n} {1} {0} {} {1.000}
+E { 6883} {w} {w} {8} {0} {} {1.000}
+E { 6888} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 6883} {0} {} {Outside the Village} { } {The village is totaly surrounded by small fields that quickly leave place to uncultivated moors. The yellow grass struggles for life against the black peat of the marshes, and from here and there, muddy water emerges from the ground creating small pools. These ponds make the fields a great place for raising sheep and the wild ponies of Dartmoor.} {Dartmoor} {} {} {} {1.000}
+E { 6882} {e} {e} {2} {0} {} {1.000}
+E { 6884} {w} {w} {8} {0} {} {1.000}
+E { 6887} {s} {s} {4} {0} {} {1.000}
+
+R { 6884} {0} {} {The Dartmoor Plateau} { } {A large pill-shaped tableland in the west of England, Dartmoor spans a thirty mile tract of untamed countryside. Above the peaceful and sunlit Devonshire valleys here rises, dark against the cloudy grey sky, the long, gloomy curve of the moor, broken by jagged and sinister hills.} {Dartmoor} {} {} {} {1.000}
+E { 6883} {e} {e} {2} {0} {} {1.000}
+E { 6886} {n} {n} {1} {0} {} {1.000}
+
+R { 6885} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6881} {n} {n} {1} {0} {} {1.000}
+E { 6882} {s} {s} {4} {0} {} {1.000}
+
+R { 6886} {0} {} {Under the Bridge} { } {The bottom of the bridge is covered with green and beige moss, making the banks of the Dart very slippery. The river doesn't look very deep here but its waters are heavily charged with mud and branches giving it a sinister aspect. Under the shadow of the bridge, you spot some construction made of bushes and heather, probably the nest or the lair of some creature.} {Dartmoor} {} {} {} {1.000}
+E { 6884} {s} {s} {4} {0} {} {1.000}
+E { 6879} {u} {u} {16} {1} {} {1.000}
+
+R { 6887} {0} {} {Lindon's Stables} { } {The stables of Grimpen are one of the few economic ressources of the village. Ponies are captured on the moor and tamed here to be sold through the whole country. Every rider knows about the reputation of Dartmoor ponies as a sturdy and trustworthy breed. The stables can welcome a dozen ponies and are well cleaned and kept.} {Dartmoor} {} {} {} {1.000}
+E { 6883} {n} {n} {1} {0} {} {1.000}
+
+R { 6888} {0} {} {A Comfortable House} { } {You entered the comfortable home of Grimpen's doctor, James Mortimer. The house, from the inside, appears much bigger than its outside appearance would let you guess. It is decorated with charm and the typical English touch. A small fireplace burns in the main room, projecting dancing shadows and warm waves of heat.} {Dartmoor} {} {} {} {1.000}
+E { 6882} {w} {open w;w} {8} {0} {} {1.000}
+E { 6889} {u} {u} {16} {0} {} {1.000}
+
+R { 6889} {0} {} {A Strictly-Decorated Bedroom} { } {You stand in a bedroom under the roof of the house. A round window opens in the wall opposite to the stairs to let the light from outside enter -- be it the warm rays of sun or gloomy moonbeams. A simple bed lies here, probably waiting for the doctor's guests.} {Dartmoor} {} {} {} {1.000}
+E { 6888} {d} {d} {32} {0} {} {1.000}
+
+R { 6890} {0} {} {Brentor Church} { } {You stand in the middle of the choir of a small provincial Anglican church. All around, you see simple wooden benches and only a couple stucco statues ornament the inside of the sparsely decorated church. The walls are made from grey granite, in which very narrow windows allow dim rays of light to enter the church and light a small marble altar.} {Dartmoor} {} {} {} {1.000}
+E { 6881} {w} {w} {8} {0} {} {1.000}
+
+R { 6891} {0} {} {Among Tall Bushes of Fern} { } {An old road connects here the village of Grimpen to the south, to the northern moors. The once-paved road is now covered by gravel and mire sand with roots of the moor's plants crawling under its surface. Huge bushes of green wild fern grow along the sides of the road, obscuring view on the nearby landscape.} {Dartmoor} {} {} {} {1.000}
+E { 6909} {s} {s} {4} {0} {} {1.000}
+E { 6910} {n} {n} {1} {0} {} {1.000}
+
+R { 6892} {0} {} {The Grimpen Arms Tavern} { } {A small but cozy and comfortable tavern has been built in the middle of the village. All the furniture is made from dark brown wood that probably comes from the soaked trees of the moor. Each table has been installed into a lowly-lighted cubicle that guarantees the privacy of customers' conversations. Near the owner's desk stands a large ardoise board where has been written today's menu.} {Dartmoor} {} {} {} {1.000}
+E { 6880} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 6893} {0} {} {On a Dying Trail, in the Mire} { } {You follow the narrow rocky trail between the mature woodland to the north and the vast barren moor to the south. Under your feet, the peat of the mire is thick and soaked with mud. The sloggy trail almost disappears under your feet and it's getting more and more difficult to discern it from the bushes and ponds of the surrounding marsh.} {Dartmoor} {} {} {} {1.000}
+E { 6878} {s} {s} {4} {0} {} {1.000}
+E { 6894} {n} {n} {1} {0} {} {1.000}
+
+R { 6894} {0} {} {On a Dying Trail, in the Mire} { } {You follow the narrow rocky trail between the mature woodland to the north and the vast barren moor to the south. Under your feet, the peat of the mire is thick and soaked with mud. The sloggy trail almost disappears under your feet and it's getting more and more difficult to discern it from the bushes and ponds of the surrounding marsh.} {Dartmoor} {} {} {} {1.000}
+E { 6893} {s} {s} {4} {0} {} {1.000}
+E { 6895} {w} {w} {8} {0} {} {1.000}
+
+R { 6895} {0} {} {On the Moor} { } {You stand on a rough and desolate plain covered by wild plants, fern and mosses. The grounds here are marshy, filled with swamps and little ponds, even high up in the hills. The water absorbed by the shallow layers of peat and vegetation is prevented from seeping into deeper soil by a bedrock of impenetrable granite. A cold wind emphasizes the dismal, dangerous and evil-smelling qualities of the bogs.} {Dartmoor} {} {} {} {1.000}
+E { 6894} {e} {e} {2} {0} {} {1.000}
+E { 6900} {n} {n} {1} {0} {} {1.000}
+
+R { 6896} {0} {} {Wistman Woods} { } {You stand inside a gloomy upland oakwood in the valley of Devonport Leat, a tributary of the West Dart River. The wood is surrounded by granite rocks and moorland. Mosses and lichens festoon the trees and granite boulders lie amid the humus composting on the ground.} {Dartmoor} {} {} {} {1.000}
+E { 6900} {s} {s} {4} {0} {} {1.000}
+E { 6897} {n} {n} {1} {0} {} {1.000}
+E { 6899} {e} {e} {2} {0} {} {1.000}
+
+R { 6897} {0} {} {Wistman Woods} { } {You stand inside a gloomy upland oakwood in the valley of Devonport Leat, a tributary of the West Dart River. The wood is surrounded by granite rocks and moorland. Mosses and lichens festoon the trees and granite boulders lie amid the humus composting on the ground.} {Dartmoor} {} {} {} {1.000}
+E { 6896} {s} {s} {4} {0} {} {1.000}
+E { 6898} {e} {e} {2} {0} {} {1.000}
+
+R { 6898} {0} {} {Wistman Woods} { } {You stand inside a gloomy upland oakwood in the valley of Devonport Leat, a tributary of the West Dart River. The wood is surrounded by granite rocks and moorland. Mosses and lichens festoon the trees and granite boulders lie amid the humus composting on the ground.} {Dartmoor} {} {} {} {1.000}
+E { 6897} {w} {w} {8} {0} {} {1.000}
+E { 6899} {s} {s} {4} {0} {} {1.000}
+E { 6902} {e} {e} {2} {0} {} {1.000}
+
+R { 6899} {0} {} {Wistman Woods} { } {You stand inside a gloomy upland oakwood in the valley of Devonport Leat, a tributary of the West Dart River. The wood is surrounded by granite rocks and moorland. Mosses and lichens festoon the trees and granite boulders lie amid the humus composting on the ground.} {Dartmoor} {} {} {} {1.000}
+E { 6898} {n} {n} {1} {0} {} {1.000}
+E { 6896} {w} {w} {8} {0} {} {1.000}
+E { 6901} {s} {s} {4} {0} {} {1.000}
+
+R { 6900} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6895} {s} {s} {4} {0} {} {1.000}
+E { 6896} {n} {n} {1} {0} {} {1.000}
+
+R { 6901} {0} {} {Wistman Woods} { } {You stand inside a gloomy upland oakwood in the valley of Devonport Leat, a tributary of the West Dart River. The wood is surrounded by granite rocks and moorland. Mosses and lichens festoon the trees and granite boulders lie amid the humus composting on the ground.} {Dartmoor} {} {} {} {1.000}
+E { 6899} {n} {n} {1} {0} {} {1.000}
+
+R { 6902} {0} {} {Wistman Woods} { } {You stand inside a gloomy upland oakwood in the valley of Devonport Leat, a tributary of the West Dart River. The wood is surrounded by granite rocks and moorland. Mosses and lichens festoon the trees and granite boulders lie amid the humus composting on the ground.} {Dartmoor} {} {} {} {1.000}
+E { 6898} {w} {w} {8} {0} {} {1.000}
+E { 6903} {e} {e} {2} {0} {} {1.000}
+
+R { 6903} {0} {} {On a Gloomy Moor, before a Vast Forest} { } {A vast plain lies before your eyes, covered by yellow and green mosses and lichens. Sharp rocks are dispersed on the ground like they fell down from the sky. To the west, the desolate lands come leech the first trees of a vast forest. Dark trees, narrowly spaced, are transfigured by the constant blowing wind, giving the forest an eerie look.} {Dartmoor} {} {} {} {1.000}
+E { 6902} {w} {w} {8} {0} {} {1.000}
+E { 6904} {s} {s} {4} {0} {} {1.000}
+
+R { 6904} {0} {} {On the Moor} { } {You wander for a long time on barren moor, observing the same landscape for hours. Peering at the horizon, there rises in the distance a gray, melancholic hill, with a strange jagged summit, dim and vague on the horizon, like some fantastic landscape in a dream.} {Dartmoor} {} {} {} {1.000}
+E { 6903} {n} {n} {1} {0} {} {1.000}
+E { 6905} {s} {s} {4} {0} {} {1.000}
+E { 6906} {e} {e} {2} {0} {} {1.000}
+
+R { 6905} {0} {} {At Bellever Tor} { } {A granite megalith raises here at the top of a low flat hill. The ground is covered with grass and big slabs of grey granite partially covered with moss. A dangerous area of waterlogged, deep peat surrounds the Tor, leaving it out of reach for more cautious visitors.} {Dartmoor} {} {} {} {1.000}
+E { 6904} {n} {n} {1} {0} {} {1.000}
+
+R { 6906} {0} {} {On the Moor} { } {You follow a footpath on the moor, alongside a small pool of rainwater. The pond is filled with mud and branches of dead fern float at its surface, almost completely covering the pool. Beyond, you see two copses of trees moaned and swung in a rising wind. In the cold light you spot beyond the trees a broken fringe of rocks, and the long, low curve of the melancholic moor.} {Dartmoor} {} {} {} {1.000}
+E { 6904} {w} {w} {8} {0} {} {1.000}
+E { 6907} {e} {e} {2} {0} {} {1.000}
+
+R { 6907} {0} {} {On the Moor} { } {You stand on a rough and desolate plain covered by wild plants, fern and mosses. The grounds here are marshy, abounding with swamps and little ponds, even high up in the hills. The water absorbed by the shallow layers of peat and vegetation is prevented from seeping into deeper soil by a bedrock of impenetrable granite. A cold wind emphasizes the dismal, dangerous and evil-smelling qualities of the bogs.} {Dartmoor} {} {} {} {1.000}
+E { 6904} {w} {w} {8} {1} {} {1.000}
+E { 6910} {s} {s} {4} {0} {} {1.000}
+E { 6911} {n} {n} {1} {0} {} {1.000}
+
+R { 6908} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6880} {e} {e} {2} {0} {} {1.000}
+E { 6879} {w} {w} {8} {0} {} {1.000}
+
+R { 6909} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6881} {s} {s} {4} {0} {} {1.000}
+E { 6891} {n} {n} {1} {0} {} {1.000}
+
+R { 6910} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 6907} {n} {n} {1} {0} {} {1.000}
+E { 6891} {s} {s} {4} {0} {} {1.000}
+
+R { 6911} {0} {} {At the Base of a Small Hill} { } {The old graveled road follows here the slopes of a low hill, covered with yellow grass and sharp rocks. All around, you can admire the view off desolate and untamed moors. Small paths seem to connect to the main road, probably made by wild animals or farmers.} {Dartmoor} {} {} {} {1.000}
+E { 6907} {s} {s} {4} {0} {} {1.000}
+E { 6912} {n} {n} {1} {0} {} {1.000}
+
+R { 6912} {0} {} {A Road Around Barren Hills} { } {You follow the old road that struggles against the moor, which starts to cover some of its parts with lichens while wild roots dismantle the pavements. Far to the south you can spot the roofs of Grimpen that disappear slowly into the thick fog. A cold wind blows here, likely discouraging any plant but wet grass and mosses to grow.} {Dartmoor} {} {} {} {1.000}
+E { 6911} {s} {s} {4} {0} {} {1.000}
+E { 6913} {n} {n} {1} {0} {} {1.000}
+E { 6921} {e} {e} {2} {0} {} {1.000}
+
+R { 6913} {0} {} {On the Moor} { } {You stand on a rough and desolate plain covered by wild plants, fern and mosses. The grounds here are marshy, abounding with swamps and little ponds, even high up in the hills. The water absorbed by the shallow layers of peat and vegetation is prevented from seeping into deeper soil by a bedrock of impenetrable granite. A cold wind emphasises the dismal, dangerous and evil-smelling qualities of the bogs.} {Dartmoor} {} {} {} {1.000}
+E { 6912} {s} {s} {4} {0} {} {1.000}
+E { 6914} {n} {n} {1} {0} {} {1.000}
+
+R { 6914} {0} {} {Near the Top of a Flat Hill} { } {The road climbs up the slopes of a flat hill, offering a spectacular view on the high moor and wet grassland pastures. The colors of the moor are very different from the dark green stains of bogs and mires to the bright purple flowers of bog orchids and damselfly flowers. To the west, the road seems to climb the meters towards the hidden top of the hill. Southwards, the road quickly disappears from view inside a thick natural fog.} {Dartmoor} {} {} {} {1.000}
+E { 6913} {s} {s} {4} {0} {} {1.000}
+E { 6915} {n} {n} {1} {0} {} {1.000}
+E { 6916} {w} {w} {8} {0} {} {1.000}
+
+R { 6915} {0} {} {At an Old Saxon Well} { } {A very old, low brick well has been covered by moss and wild plants. The orifice is completely obstructed by thick bushes of fern. This well has been disused for a long time.} {Dartmoor} {} {} {} {1.000}
+E { 6914} {s} {s} {4} {0} {} {1.000}
+E { 6964} {d} {d} {32} {0} {} {1.000}
+
+R { 6916} {0} {} {At a Moor-Gate, Before a Manor} { } {You walk under an avenue of old trees where cartwheels are hushed amid the leaves, and the old trees shoot their branches in a sombre tunnel overhead, separating civilized gardens from rough wilderness. Beyond the old trees, you see sophisticated English gardens spread out before a large mansion.} {Dartmoor} {} {} {} {1.000}
+E { 6914} {e} {e} {2} {0} {} {1.000}
+E { 6917} {w} {w} {8} {0} {} {1.000}
+
+R { 6917} {0} {} {Baskerville Hall} { } {A large stone-built house lays before you. In the fading light you could see that the centre is a heavy block of building from which a vast porch projects. The whole front is draped in ivy, with a patch clipped bare here and there where a window or a coat-of-arms breaks through the dark veil. From this central block rises the twin towers, ancient, crenelated, and pierced with many loopholes. To right and left of the turrets are more modern wings of black granite. A dull light shines through heavy mullioned windows, and from the high chimneys which rise from the steep, high-angled roof there winds a single black column of smoke.} {Dartmoor} {} {} {} {1.000}
+E { 6916} {e} {e} {2} {0} {} {1.000}
+E { 6918} {w} {w} {8} {0} {} {1.000}
+
+R { 6918} {0} {} {The Porch of a Vast Manor} { } {Through the vast porch of the Baskerville manor, you can see fine apartments, large, lofty, and heavily raftered with huge balks of age-blackened oak. The porch itself rises above the ground from a few steps, offering a spectacular view of the moorlands below the hill. Inside the mansion, you can hear logs crackling and snapping in a great old-fashioned fireplace.} {Dartmoor} {} {} {} {1.000}
+E { 6917} {e} {e} {2} {0} {} {1.000}
+E { 6919} {w} {w} {8} {0} {} {1.000}
+
+R { 6919} {0} {} {The Dining Hall} { } {The ancient dining-room of the mansion is a place of shadow and gloom. It is a long chamber with a step separating the dais where the family formerly sat, from the lower portion reserved for their dependents. At one end a minstrel's gallery overlooks it. Black beams shoot across above your heads, with a smoke-darkened ceiling beyond them. On the stone walls, large tapestries describe scenes of hunting on the moor, as well as tall portraits of the former lords of Baskerville Hall, daunting you with their silent company.} {Dartmoor} {} {} {} {1.000}
+E { 6918} {e} {e} {2} {0} {} {1.000}
+E { 6920} {u} {u} {16} {0} {} {1.000}
+
+R { 6920} {0} {} {A Hallway Leading to Bedrooms} { } {A square balustraded gallery runs around the top of the old hall, approached by a double stair. From this central point two long corridors extend the whole length of the building, on to which all the bedrooms open. These rooms appear to be much more modern than the central part of the house, and the bright paper and numerous candles do something to counter the sombre ambiance of the dining hall.} {Dartmoor} {} {} {} {1.000}
+E { 6919} {d} {d} {32} {0} {} {1.000}
+
+R { 6921} {0} {} {** LOST IN THE GRIMPEN MIRE **} { } {You have completely lost track of the small path you were following into the moor. The bed of dead sphagnum mosses has become really thick here and it clearly blocks any other plant from growing on the barren marsh. A cold wind blows hard over the high moor, knifing straight through your wet clothes and chilling your bones.} {Dartmoor} {} {} {} {1.000}
+E { 6912} {w} {w} {8} {0} {} {1.000}
+E { 6922} {e} {e} {2} {0} {} {1.000}
+
+R { 6922} {0} {} {At a Valley Mire} { } {You follow the bed of a small but rapid stream that cascades from the jagged hills of the high moor down to a small valley. The bottom of this valley is covered by wet woodlands and mire areas of waterlogged deep peat that drain the moor from its waters. Muddy peat has accumulated here, making the place very difficult and dangerous to walk through.} {Dartmoor} {} {} {} {1.000}
+E { 6923} {s} {s} {4} {0} {} {1.000}
+
+R { 6923} {0} {} {On a Wet Grassland, Among the Wilderness} { } {Your steps make sloggish sounds as you progress on the watersoaked plains of grass over the Dartmoor plateau. The ground level follows the slope of low hills and boggy valleys scattered with copses of alder trees and slabs of granite.} {Dartmoor} {} {} {} {1.000}
+E { 6922} {n} {n} {1} {0} {} {1.000}
+E { 6924} {e} {e} {2} {0} {} {1.000}
+
+R { 6924} {0} {} {Wandering on the High Moor} { } {The northern parts of the Dartmoor plateau are much more wild and hostile. Before you lies a landscape of low hills and water ponds, covered by a yellow and green carpet of moss. Most of these hills are covered with large granite rocks that could almost touch the low sky filled with dark threatening clouds.} {Dartmoor} {} {} {} {1.000}
+E { 6923} {w} {w} {8} {0} {} {1.000}
+E { 6925} {s} {s} {4} {0} {} {1.000}
+
+R { 6925} {0} {} {On a Desolate Plain} { } {Long blades of grass dance here over a high plain on the barren moor. Here and there, you spot the dens of small animals, probably bog rats that invade the moor during summer. Cairns of piled white stone decorate the moor's landscape, contrasting with the black blocks of granite scattered all around.} {Dartmoor} {} {} {} {1.000}
+E { 6924} {n} {n} {1} {0} {} {1.000}
+E { 6926} {s} {s} {4} {0} {} {1.000}
+E { 6927} {e} {e} {2} {0} {} {1.000}
+
+R { 6926} {0} {} {At Childe's Tomb} { } {A large stone cross has been erected here over the kistvaen, burial chamber, of Childe the hunter. The cross has its base in a socket stone, resting on granite blocks over the chamber. The whole is surrounded by a circle of black stones set upon their edge, in the fashion of a number of cairns on the moor.} {Dartmoor} {} {} {} {1.000}
+E { 6925} {n} {n} {1} {0} {} {1.000}
+
+R { 6927} {0} {} {Wandering on the High Moor} { } {A melancholic atmosphere lingers on the moor, as if it was living creature filled with sorrow and loneliness. Wandering through this landscape, you come across a series of treacherous bogs and deep pools that make each of your steps a dangerous endeavor. Miles around, the only fauna seems to be of birds -- even the famous Dartmoor ponies do not adventure on the northern moors.} {Dartmoor} {} {} {} {1.000}
+E { 6925} {w} {w} {8} {0} {} {1.000}
+E { 6928} {s} {s} {4} {0} {} {1.000}
+E { 6929} {n} {n} {1} {0} {} {1.000}
+
+R { 6928} {0} {} {Grimspound Site} { } {You stand before a small Bronze Age settlement, exceptionally well-preserved by the moor's weather. The site is enclosed by a stone wall, interrupted by a large, paved entrance facing south. The wall runs uphill, towards the high moor. Nothing but these small but impressive ruins is left from the small community that used to raise livestock on these hostile lands.} {Dartmoor} {} {} {} {1.000}
+E { 6927} {n} {n} {1} {0} {} {1.000}
+
+R { 6929} {0} {} {On a Desolate Plain} { } {Long blades of grass dance here over a high plain on the barren moor. From here and there, you spot the dens of small animals, probably bog rats that invade the moor during summer. Cairns of piled white stone ornate the moor's landscape, contrasting with the black blocks of granite scattered all around.} {Dartmoor} {} {} {} {1.000}
+E { 6927} {s} {s} {4} {0} {} {1.000}
+E { 6905} {n} {n} {1} {1} {} {1.000}
+E { 6930} {e} {e} {2} {0} {} {1.000}
+
+R { 6930} {0} {} {By a Twisted Alder Tree} { } {A lone alder tree has grown here, twisted by the harsh weather conditions on the moor and the violent wind. Its dark brown trunk gives it a sinister aspect and it is not surprising to you anymore that the region is the setting for many a Dartmoor yarn.} {Dartmoor} {} {} {} {1.000}
+E { 6929} {w} {w} {8} {0} {} {1.000}
+E { 6931} {n} {n} {1} {0} {} {1.000}
+E { 6932} {s} {s} {4} {0} {} {1.000}
+E { 6934} {e} {e} {2} {0} {} {1.000}
+
+R { 6931} {0} {} {The Entrance of an Abandoned Tin Mine} { } {An old but still sturdy heavy wooden door closes the entrance of an old tin mine, built underground. A broken waterwheel still sits by the entrance as if trying to still prevent the floods from the waterlogged moors which so often cause extreme danger to miners. A man-made leat, still flowing with water, disappears under the heavy door into the depth of the mines.} {Dartmoor} {} {} {} {1.000}
+E { 6930} {s} {s} {4} {0} {} {1.000}
+E { 6950} {push wheel} {push wheel} {0} {0} {} {1.000}
+
+R { 6932} {0} {} {On a Footpath, around Burrator Reservoir} { } {You see a picturesque body of water surrounded on all sides by fog-shrouded groves and copses. From the boggy footpath you follow, you can see old bridges and the remnants of granite walls which are lying under the water's surface. Far to the east, the sinister silhouette of Dinger Tor looms large over you.} {Dartmoor} {} {} {} {1.000}
+E { 6930} {n} {n} {1} {0} {} {1.000}
+E { 6933} {s} {s} {4} {0} {} {1.000}
+
+R { 6933} {0} {} {A Pebbled Beach} { } {You stand on a small muddy beach covered by tiny rocks and stockpiled dead plants from the bottom of the lake that lies to the north. All around you, a plain of tall, wet grass dances under the blows of the cold wind coming from the north. No trace of civilization can be seen for miles.} {Dartmoor} {} {} {} {1.000}
+E { 6932} {n} {n} {1} {0} {} {1.000}
+
+R { 6934} {0} {} {Wandering on the High Moor} { } {The northern parts of the Dartmoor plateau are much more wild and hostile. Before you lies a landscape of low hills and water ponds, covered by a yellow and green carpet of moss. Most of these hills are covered with large granite rocks that could almost touch the low sky filled with dark threatening clouds.} {Dartmoor} {} {} {} {1.000}
+E { 6930} {w} {w} {8} {0} {} {1.000}
+E { 6935} {s} {s} {4} {0} {} {1.000}
+E { 6941} {e} {e} {2} {0} {} {1.000}
+
+R { 6935} {0} {} {Wandering on the High Moor} { } {A melancholic atmosphere lingers on the moor, as if it was living creature filled with sorrow and loneliness. Wandering through this landscape, you come across a series of treacherous bogs and deep pools that make each of your steps a dangerous endeavor. Miles around, the only fauna seems to be birds -- even the famous Dartmoor ponies do not adventure on the northern moors.} {Dartmoor} {} {} {} {1.000}
+E { 6934} {n} {n} {1} {0} {} {1.000}
+E { 6936} {s} {s} {4} {0} {} {1.000}
+E { 6938} {u} {u} {16} {0} {} {1.000}
+E { 6946} {e} {e} {2} {0} {} {1.000}
+
+R { 6936} {0} {} {On a Desolate Plain} { } {Long blades of grass dance over a high plain on the barren moor. From here and there, you spot the dens of small animals, probably bog rats that infect the moor during summer. Cairns of piled white stone ornate the moor's landscape, contrasting with the black blocks of granite scattered all around.} {Dartmoor} {} {} {} {1.000}
+E { 6935} {n} {n} {1} {0} {} {1.000}
+E { 6937} {s} {s} {4} {0} {} {1.000}
+
+R { 6937} {0} {} {Merryvale Stone Rows} { } {Many granite stones have been placed here in rows leading to a circle of stones -- probably the remains of a prehistoric village. In the middle of the site, amongst the clutter of stones, hut circles and other remains, can be found a big cider mill stone. From this place, you can also enjoy a vast panorama of the high moor, covered by a carpet of thick fog.} {Dartmoor} {} {} {} {1.000}
+E { 6936} {n} {n} {1} {0} {} {1.000}
+
+R { 6938} {0} {} {Near a Nasty Bog} { } {You stand on a thin peninsula of firm, peaty soil which tapers out into the vast bog. From the end of it, a small stick buried here and there shows where the path zigzags from tuft to tuft of rushes among the green-scummed pits and foul quagmires which bar the way to the heart of the bog.} {Dartmoor} {} {} {} {1.000}
+E { 6935} {d} {d} {32} {0} {} {1.000}
+E { 6939} {s} {s} {4} {0} {} {1.000}
+E { 6940} {e} {e} {2} {0} {} {1.000}
+
+R { 6939} {0} {} {At Bowerman's Nose} { } {You stand before a spectacular stack of weathered granite which has a visibly crystalline texture, sitting flat on the high moor. Local tales named this place after a hunter who was turned to stone by an angry coven of witches. With a little imagination, it is possible to see something resembling a human face in the rocky outline.} {Dartmoor} {} {} {} {1.000}
+E { 6938} {n} {n} {1} {0} {} {1.000}
+
+R { 6940} {0} {} {At Dinger Tor} { } {Before you, a tor of granite rocks emerges from the ground. Slabs of stone are piled on each other, mimicking a solid cyclopean masonry structure. Back in the days when Celt tribes wandered the moor, tales said that Dinger Tor was the summer residence of a nasty giant. Nothing today is left from his stay, however -- the place's flora has grown wild and untamed.} {Dartmoor} {} {} {} {1.000}
+E { 6938} {w} {w} {8} {0} {} {1.000}
+E { 6945} {put kettle slab} {put kettle slab} {0} {0} {} {1.000}
+
+R { 6941} {0} {} {At the Start of a Rough Footpath} { } {You have come to a point where a narrow grassy path struck off to the north and wound away across the moor. A steep, boulder-sprinkled hill which lies on the right had in bygone days been cut into a granite quarry. The face which turns towards you forms a dark cliff, with ferns and brambles growing in its niches.} {Dartmoor} {} {} {} {1.000}
+E { 6934} {w} {w} {8} {0} {} {1.000}
+E { 6942} {n} {n} {1} {0} {} {1.000}
+
+R { 6942} {0} {} {Wandering on a Rhos Pasture} { } {You stand over a large prairie of yellow grass, surrounded by wet and obscure woodlands. Somewhere beyond the trees, you hear the loud sound of the rushing waters of river Dart, probably cascading down to the moors. To the south, the pasture slowly disappears, giving way to sand pits and sharp rocks that turn the place into a nasty bog.} {Dartmoor} {} {} {} {1.000}
+E { 6941} {s} {s} {4} {0} {} {1.000}
+E { 6943} {n} {n} {1} {0} {} {1.000}
+
+R { 6943} {0} {} {Before a Once-Abandoned Farmstead} { } {A medieval longhouse rises here, isolated from civilisation and many miles from the nearest village. The bleak moorland house, once the farm of some grazier in the old prosperous days, is now in disrepair. An orchard surrounds it, but the trees, as is usual upon the moor, are stunted and nipped, and the effect of the whole place is mean and melancholy. The building consists of a long granite structure, with a central entrance, protected by a porch. A thin column of smoke rises in the sky from the thatched roof of the ancient tenement.} {Dartmoor} {} {} {} {1.000}
+E { 6942} {s} {s} {4} {0} {} {1.000}
+E { 6944} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 6944} {0} {} {Main Room of the Stapletons' Farm} { } {The inside of the ancient longhouse is very simple. Walls are built from large blocks are granite and a mix of mud and dried peat. In the middle of the room, a central fire pit has been fed and warms the whole house. Here and there, you spot ornamental items that surprisingly bear the marks of a Moorish style. The smoke from the central fire simply filters through the thatched roof.} {Dartmoor} {} {} {} {1.000}
+E { 6943} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 6945} {0} {} {A Dark Cave Under Dinger Tor} { } {You stand in huge cave that probably occupies the whole of the hill under Dinger Tor. The place is cold and looks empty but for the strange runes that ornate the walls and hum with a fiery glow. Your movements and thoughts seem slower, as if the power of the runes was slowing the motion of time.} {Dartmoor} {} {} {} {1.000}
+E { 6940} {u} {u} {16} {0} {} {1.000}
+
+R { 6946} {0} {} {Before the Ruins of an Old Abbey} { } {Encircled by a thick cloud of fog, you see at short distance to the east the spectral silhouette of medieval ruins. Over the years of abandon, the place has grown very wild with complete areas of full-grown giant fern that obstruct your passage.} {Dartmoor} {} {} {} {1.000}
+E { 6935} {w} {w} {8} {0} {} {1.000}
+E { 6947} {e} {e} {2} {0} {} {1.000}
+
+R { 6947} {0} {} {Inside the Ruins of an Old Abbey} { } {You stand within the ruins of an old abbey, lost in the wilderness on the middle of the high moor. Some walls are still standing, including decorated stone windows and some gargoyles, but the whole roof and everything wooden in the abbey have now disappeared under the assaults of time. You wonder if this place was not part of the Baskerville estates, a long time ago when the domain of the cursed family was much larger.} {Dartmoor} {} {} {} {1.000}
+E { 6946} {w} {w} {8} {0} {} {1.000}
+E { 6948} {s} {s} {4} {0} {} {1.000}
+
+R { 6948} {0} {} {A Courtyard Within the Ruins} { } {The most preserved parts of the ruins surround a small courtyard below the moor's level. Probably once covered by a roof, the place now opens to the sky and you spot a broken stairway that seems to lead nowhere but the middle of the air above your head. Near a large stone that sits in the middle of the courtyard, you see another stone staircase that seems to lead down to a gloomy crypt.} {Dartmoor} {} {} {} {1.000}
+E { 6947} {n} {n} {1} {0} {} {1.000}
+E { 6949} {d} {d} {32} {0} {} {1.000}
+
+R { 6949} {0} {} {A Dark Crypt in the Ruins} { } {The low-ceilinged crypt is almost intact under the ruins. More than just a crypt, it has something almost like a little underground chapel, where you recognize a low granite altar and some stone benches. The crypt itself extends to the east, somewhere in deep shadows.} {Dartmoor} {} {} {} {1.000}
+E { 6948} {u} {u} {16} {0} {} {1.000}
+
+R { 6950} {0} {} {Down the Shaft of an Old Mine} { } {You stand in a large room at the bottom of a deep shaft that goes down the old tin mine abandoned in the great Grimpen mire. The shaft itself is completely obstructed by brambles and thick roots that make it impossible to regain access to the surface from there. A dark tunnel leads north into the darkness of the mine.} {Dartmoor} {} {} {} {1.000}
+E { 6951} {n} {n} {1} {0} {} {1.000}
+
+R { 6951} {0} {} {An Intersection in the Mine} { } {The dark tunnels in the mine meet here at a crossroads. Heavy wooden beams sustain the ceiling but they look old and fragile, making the mine a dangerous place to wander. At the bottom of the beams, you spot indentations -- as if small creatures have been busily chewing the wooden structure.} {Dartmoor} {} {} {} {1.000}
+E { 6952} {e} {e} {2} {0} {} {1.000}
+E { 6953} {n} {n} {1} {0} {} {1.000}
+
+R { 6952} {0} {} {A Blocked Tunnel} { } {You follow a murky tunnel in the mine that leads before a wall of rubble. It looks like this part of the mines has been condemned on purpose, which happens sometimes when miners discovered emanations of natural gas or some particularly feature. The ground is soaked with water that filters from the clay walls. The sloggish sounds of your steps echo far into the dark tunnels.} {Dartmoor} {} {} {} {1.000}
+E { 6951} {w} {w} {8} {0} {} {1.000}
+E { 6959} {e} {e} {2} {0} {} {1.000}
+
+R { 6953} {0} {} {In the Darkness of the Mine} { } {You follow subterranean passages that seem to climb up the old mine. The walls of earth are completely soaked by waters coming from the bog at the surface and you're really surprised that this place has not completely crumbled yet. On the ground, you can see -- and smell -- the traces of presence of a colony of small animals, probably rats.} {Dartmoor} {} {} {} {1.000}
+E { 6951} {s} {s} {4} {0} {} {1.000}
+E { 6954} {u} {u} {16} {0} {} {1.000}
+
+R { 6954} {0} {} {In the Darkness of the Mine} { } {You follow subterranean passages that seem to climb up the old mine. The walls of earth are completely soaked by waters coming from the bogs at the surface and you're really surprised that this place has not completely crumbled yet. On the ground, you can see -- and smell -- the traces of presence of a colony of small animals, probably rats.} {Dartmoor} {} {} {} {1.000}
+E { 6953} {d} {d} {32} {0} {} {1.000}
+E { 6955} {n} {n} {1} {0} {} {1.000}
+
+R { 6955} {0} {} {In the Darkness of the Mine} { } {You follow subterranean passages that seem to climb up the old mine. The walls of earth are completely soaked by waters coming from the bogs at the surface and you're really surprised that this place has not completely crumbled yet. On the ground, you can see -- and smell -- the traces of presence of a colony of small animals, probably rats.} {Dartmoor} {} {} {} {1.000}
+E { 6954} {s} {s} {4} {0} {} {1.000}
+E { 6956} {u} {u} {16} {0} {} {1.000}
+
+R { 6956} {0} {} {A Tunnel Intersection} { } {The tunnel that climbs from the lower parts of the mine meets here a passage that connects the upper caves of the complex. On the ceiling you spot light bulbs covered by a thick layer of dust, they probably have not worked for a long time. On the ground, some rails connect different parts of the mines but the chariot that used to roll over them is nowhere to be seen.} {Dartmoor} {} {} {} {1.000}
+E { 6955} {d} {d} {32} {0} {} {1.000}
+E { 6957} {w} {w} {8} {0} {} {1.000}
+E { 6958} {e} {e} {2} {0} {} {1.000}
+
+R { 6957} {0} {} {The Bottom of an Old Well} { } {You stand in a natural cave inside the mine, where there probably ran a subterranean stream a long time ago. The stream does not flow here anymore, obviously disturbed by the mine tunnels which turned it away from this room. On the ceiling, you see the shaft of a very old well that opens a dozen feet above you on the surface.} {Dartmoor} {} {} {} {1.000}
+E { 6956} {e} {e} {2} {0} {} {1.000}
+E { 6915} {u} {u} {16} {0} {} {1.000}
+
+R { 6958} {0} {} {Before an Old Power Generator} { } {You stand in an underground cave in the mines, mostly occupied by a huge power generator and its command consoles. The generator was probably used to maintain electricity in the mines, to provide light to certain areas and also to pump some water from sunken tunnels. The generator looks to be in some state of disrepair and is now covered by a thick layer of red rust.} {Dartmoor} {} {} {} {1.000}
+E { 6956} {w} {w} {8} {0} {} {1.000}
+
+R { 6959} {0} {} {A Dark Mine Tunnel, Under the Bog} { } {You are in a very old part of the mine, deep below the surface. The ground is covered by rat turds, warning you of the most probable inhabitant of this part of the mines. An unpleasant odor of stale air and mold lingers in the tunnel.} {Dartmoor} {} {} {} {1.000}
+E { 6952} {w} {w} {8} {0} {} {1.000}
+E { 6960} {e} {e} {2} {0} {} {1.000}
+
+R { 6960} {0} {} {A Dark Mine Tunnel, Under the Bog} { } {You are in a very old part of the mine, deep below the surface. The ground is covered by rat turds, warning you of the most probable inhabitant of this part of the mines. An unpleasant odor of stale air and mold lingers in the tunnel.} {Dartmoor} {} {} {} {1.000}
+E { 6959} {w} {w} {8} {0} {} {1.000}
+E { 6961} {e} {e} {2} {0} {} {1.000}
+
+R { 6961} {0} {} {A Dark Mine Tunnel, Under the Bog} { } {You are in a very old part of the mine, deep below the surface. The ground is covered by rat turds, warning you of the most probable inhabitant of this part of the mines. An unpleasant odor of stale air and mold lingers in the tunnel.} {Dartmoor} {} {} {} {1.000}
+E { 6960} {w} {w} {8} {0} {} {1.000}
+E { 6962} {n} {n} {1} {0} {} {1.000}
+E { 6963} {e} {e} {2} {0} {} {1.000}
+
+R { 6962} {0} {} {A Dark Mine Tunnel, Under the Bog} { } {You are in a very old part of the mine, deep below the surface. The ground is covered by rat turds, warning you of the most probable inhabitant of this part of the mines. An unpleasant odor of stale air and mold lingers in the tunnel.} {Dartmoor} {} {} {} {1.000}
+E { 6961} {s} {s} {4} {0} {} {1.000}
+
+R { 6963} {0} {} {The Lair of Boggy Mary} { } {UGH -- the horrid stench that haunts this small room of the mine is absolute torture to your senses. Corpses of dead rats are littering the floor and decomposing in a closed space which has not had fresh air for years. The room itself is dark and gloomy, making you feel observed by a malevolent presence.} {Dartmoor} {} {} {} {1.000}
+E { 6961} {w} {w} {8} {0} {} {1.000}
+
+R { 6964} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 6915} {u} {u} {16} {0} {} {1.000}
+
+R { 6965} {0} {} {SURROUNDED BY A COVEN OF WITCHES} { } {You cannot see any exit to the small clearing filled with thick and cold magical mists. The air is filled with a melancholic melody of flutes that starts to lead you into deep slumber.} {Dartmoor} {} {} {} {1.000}
+
+R { 6966} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1350} {worship} {worship} {0} {0} {} {1.000}
+
+R { 6967} {0} {} {A Sacred Grove} { } {This little grove in the woods has been carefully tended and arranged, encouraging certain trees to thrive, and planting some that did not used to be here. There is no altar, no sign at all that might indicate that man has a presence here, and yet there is an unmistakable feeling to the place. The shadowy kindness of the trees encourages you to sit here awhile, and a small spring provides refreshment.} {PR Mansion} {} {} {} {1.000}
+E { 1348} {s} {s} {4} {0} {} {1.000}
+
+R { 6968} {0} {} {A Dark Path} { } {Freeeeedoooooommmmmmmmmmmmmmmm. That's all you can think of as you run down this dark path. Sure, it's pretty creepy, and you're pretty sure there's something hiding behind any of the many trees and rocks that line the path, but still... you're not in that damnable hedge maze anymore. Though, the trail seems to be leading you to the graveyard... maybe the maze wasn't so bad, afterall.} {PR Mansion} {} {} {} {1.000}
+E { 1348} {e} {e} {2} {0} {} {1.000}
+
+R { 6969} {0} {} {The Chapel} { } {Pews line the aisle of this small chapel, which leads to a low dais at the back of the building. A simple yet elegant lectern sits in the middle of the dais, the altar behind it cluttered with candles and pictures of loved ones.} {PR Mansion} {} {} {} {1.000}
+E { 1347} {n} {n} {1} {0} {} {1.000}
+
+R { 6970} {0} {} {The room has been split into two sections: one carpeted, one open. Round} { } {tables with a dozen chairs at each have been set up on the lush carpet which dominates the western half of the room. The carpet is a delightful ruby, yet it manages to not overwhelm the senses. The open section dominates the eastern half, bordered on two sides by the large windows. The floor is similar to that of the foyer, this, too, marble, seemingly untouched despite the use this ballroom receives from Waltzing feet.} {PR Mansion} {} {} {} {1.000}
+E { 1344} {s} {s} {4} {0} {} {1.000}
+
+R { 6971} {0} {} {An Airy Patio} { } {This patio, situated between the mansion's conservatory, maze, and lounge, offers visitors yet another place to relax. The cedar benches are situated along the edge of the stonework which covers the ground. Well-crafted ceramic pots have been placed in the corners of the patio, as well as between the benches.} {PR Mansion} {} {} {} {1.000}
+E { 1343} {s} {s} {4} {0} {} {1.000}
+E { 6972} {w} {w} {8} {0} {} {1.000}
+
+R { 6972} {0} {} {The Conservatory} { } {The humidity and warmth of this room are on the verge of being suffocating. Tropical plants have been left to their own devices, vines covering the walls and bushes nearly blocking off pathways. Yet, regardless of all the plantlife, sunlight still trickles through the windows, allowing those who enjoy warmer temperatures to find comfort here, perhaps to pull up a chair and chat with a friend or read a good book.} {PR Mansion} {} {} {} {1.000}
+E { 6971} {e} {e} {2} {0} {} {1.000}
+E { 6973} {u} {u} {16} {0} {} {1.000}
+
+R { 6973} {0} {} {A Balcony} { } {This small balcony overlooks the hedge maze, allowing those standing on it to watch as people make their way through the many paths of the maze, as well as spy on those in the graveyard and beyond.} {PR Mansion} {} {} {} {1.000}
+E { 6972} {d} {d} {32} {0} {} {1.000}
+
+R { 6974} {0} {} {A Welcoming Drawing Room} { } {This is a man's room. While women are welcome, it is likely that one could not be found anywhere near it due to the smoke that hangs in the air from the cigars of past and current visitors. The furniture has more of a masculine feel to it, chairs larger and tables heavier. Anyone seeking the use of the theatre must quickly make his or her way through the room, careful to not disrupt any important conversation which might be happening.} {PR Mansion} {} {} {} {1.000}
+E { 1343} {e} {e} {2} {0} {} {1.000}
+E { 6975} {s} {s} {4} {0} {} {1.000}
+
+R { 6975} {0} {} {A Silent Theatre} { } {You seem to be standing inside a flickering theatre, everything seems perfectly normal until you try to speak, all sound is absorbed into the strobing lights and all of your movements look strange and pantomimed. Centre stage there are a collection of miniature statues each reflecting an area of art or celebrity.} {PR Utility File} {} {} {} {1.000}
+E { 6974} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 6976} {0} {} {A Simply Decorated Hallway} { } {Unlike the hallway on the first floor of the mansion, this one lacks much of the opulent decor of its sibling. The carpet is still a lush red, the walls covered with a lovely cream wallpaper, accented with mahogany trim. The hall continues to the north.} {PR Mansion} {} {} {} {1.000}
+E { 1342} {d} {d} {32} {1} {} {1.000}
+E { 6977} {n} {n} {1} {0} {} {1.000}
+
+R { 6977} {0} {} {A Simply Decorated Hallway} { } {This hallway is decorated much like the one to the south, though a mahogany door is situated on both the eastern and western walls. The eastern door has a small golden plaque reading 'Private Office', while the sign on the western door reads 'Apt. 2C' and has a 'Do Not Disturb' sign hanging from the handle.} {PR Mansion} {} {} {} {1.000}
+E { 6976} {s} {s} {4} {0} {} {1.000}
+E { 6978} {n} {n} {1} {0} {} {1.000}
+E { 6979} {e} {e} {2} {0} {} {1.000}
+E { 6983} {w} {w} {8} {0} {} {1.000}
+
+R { 6978} {0} {} {The Offices of the Legendary Times} { } {Banks of Deco-inspired oak desks line two sides of this bustling office space, most supporting large typewriters. Several telephones ring unanswered and occasionally you can still hear the ticking of the office's last remaining telegraph line somewhere towards the back of the room. Framed front pages of famous issues from the Times' past line the walls, and the entire space smells of newsprint, smoke, and stale coffee.} {PR Mansion} {} {} {} {1.000}
+E { 6977} {s} {s} {4} {0} {} {1.000}
+E { 6980} {n} {n} {1} {0} {} {1.000}
+E { 6980} {w} {w} {8} {0} {} {1.000}
+
+R { 6979} {0} {} {A Clinic's Lobby} { } {This room is quite open. Chairs line the walls with a row set in the very middle of the room, small tables sitting in the corners. Magazines and various books have been left on the tables, as well as in a wooden rack near the receptionist's desk at the far end of the room. Two mahogany doors can be found near the desk, one leading to the examination room, the other to the doctor's private office.} {PR Mansion} {} {} {} {1.000}
+E { 6977} {w} {w} {8} {0} {} {1.000}
+E { 6981} {n} {n} {1} {0} {} {1.000}
+E { 6982} {e} {e} {2} {0} {} {1.000}
+
+R { 6980} {0} {} {The Editor's Office} { } {The room is a mess of old Legendary Times issues and coffee-stained notepads. The smell of cigarette smoke clings to the very walls and furniture. There is a big board on the north wall containing possible outlines for future issues. It is the only thing in the room that isn't stained or messy.} {PR Mansion} {} {} {} {1.000}
+E { 6978} {s} {s} {4} {0} {} {1.000}
+
+R { 6981} {0} {} {The Doctor's Private Office} { } {A mahogany desk has been placed near a large window which offers a wonderful view of the estate. A door leads east to the exam room and south to the lobby. Tall bookshelves contain dozens of medical texts, ranging from Anaesthesiology to Urology.} {PR Mansion} {} {} {} {1.000}
+E { 6979} {s} {s} {4} {0} {} {1.000}
+
+R { 6982} {0} {} {An Exam Room} { } {Three of the walls have been painted an off-white color while the forth wall, opposite the door, is a deep red. A leather-topped examination table sits against one wall. Across from the table is a marble countertop, a sink situated closest to the wall. Various magazines and pamphlets have been tossed on the open counter space. A stool with wheels has been left beside the table, though it certainly isn't meant to stay there. A poster depicting a healthy to diseased heart hangs next to the door, a pin-up of a healthy ear beside it.} {PR Mansion} {} {} {} {1.000}
+E { 6979} {w} {w} {8} {0} {} {1.000}
+
+R { 6983} {0} {} {An Apartment} { } {The carpet meets your feet as you step into the apartment. Curtains decorate the large window cut out of the center of one of the walls. Soft rugs cover the wooden floor, the largest of the rugs in the center of the room, furniture settled atop it.} {PR Mansion} {} {} {} {1.000}
+E { 6977} {e} {e} {2} {0} {} {1.000}
+E { 6984} {n} {n} {1} {0} {} {1.000}
+E { 6986} {w} {w} {8} {0} {} {1.000}
+
+R { 6984} {0} {} {The Modern Kitchen} { } {It has all the appliances of every modern kitchen of the decade. Cabinets cover the top halves of the walls. The spacious floor provides plenty of space for a busy body to move about, making a delicious dinner.} {PR Mansion} {} {} {} {1.000}
+E { 6983} {s} {s} {4} {0} {} {1.000}
+E { 6985} {n} {n} {1} {0} {} {1.000}
+
+R { 6985} {0} {} {A Private Bath} { } {The small cast iron tub sits out a few inches from the back wall; its stainless steel faucet reflects the light overhead. An ivory-colored sink rests below a hanging mirror just inside the door.} {PR Mansion} {} {} {} {1.000}
+E { 6984} {s} {s} {4} {0} {} {1.000}
+
+R { 6986} {0} {} {A Hallway} { } {The small hallway before you connects the living area to the bedroom. The walls, a pale white color, are offset by the oaken picture frames that hold photographs of famous locations around the world.} {PR Mansion} {} {} {} {1.000}
+E { 6983} {e} {e} {2} {0} {} {1.000}
+E { 6987} {n} {n} {1} {0} {} {1.000}
+
+R { 6987} {0} {} {The Master Bedroom} { } {Dark red curtains cover the windows centered on two of the walls of this quaint bedroom. A nicely-made bed sits centered against a third wall.} {PR Mansion} {} {} {} {1.000}
+E { 6986} {s} {s} {4} {0} {} {1.000}

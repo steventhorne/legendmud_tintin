@@ -34,7 +34,7 @@
 
 #ALIAS {search %*}
 {
-	#LINE verbose #MAP list {roomnote} {%1} {roomflag} {show} {variable} {search_list};
+	#LINE verbose #MAP list {} {} {} {} {%1} {variable} {search_list};
     #FOREACH {$search_list} {item} {#MAP goto $item;#BREAK;};
     #UNVAR search_list;
     #UNVAR item;

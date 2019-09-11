@@ -65,6 +65,11 @@
             #READ modules/$module.tin;
         };
         #UNVAR module;
+        
+        #DELAY {.25}
+        {
+            #SPLIT $split_top $split_bottom;
+        }
     };
 }
 

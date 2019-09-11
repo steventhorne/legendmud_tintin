@@ -236,3 +236,59 @@
     #MAP goto 6003;
 }
 {5}
+
+#NOP WHY DOES THIS ACTION NOT WORK WITHOUT ".{0}"?!?!?!?!
+#ACTION {{^.{0}You follow the doorway and get on the station's platform.$}}
+{
+	#MAP get roomvnum rv_check;
+    #IF {"$rv_check" == "18"}
+    {
+        #MAP goto 6869;
+    }
+    {
+        #MAP goto 6872;
+    };
+    #UNVAR rv_check;
+}
+{5}
+
+#ACTION {{^Before you can sit at your place, the train has already left the station.$}}
+{
+    #MAP goto 6870;
+}
+{5}
+
+#ACTION {{^As the train stops, all passengers grab their luggage and disembark.$}}
+{
+    #MAP goto 6871;
+}
+{5}
+
+#ACTION {{^You sit in the car and quickly fall asleep, waking up just when the train arrives in Waterloo.$}}
+{
+    #MAP goto 18;
+}
+{5}
+
+#ACTION {{^A chasm opens right under your feet and you fall into darkness!$}}
+{
+	#MAP get roomvnum rv_check;
+    #IF {"$rv_check" == "6940"}
+    {
+        #MAP goto 6945;
+    };
+    #UNVAR rv_check;
+}
+{5}
+
+#ACTION {{^A coven of witches approaches to your call!$}}
+{
+    #MAP goto 6965;
+}
+{5}
+
+#ACTION {{^Belet-Seri waves a scroll in your direction. An eerie, pale light surrounds you.$}}
+{
+    #MAP goto 6966;
+}
+{5}

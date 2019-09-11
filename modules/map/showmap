@@ -14,8 +14,8 @@ REFRESH_RATE=.05
 printf '\e[?25l'
 clear
 while [ "true"  ]; do
-    COLS=$(expr $(tput cols) '/' 6 '*' 6 + 12)
-    ROWS=$(expr $(tput lines) '/' 3 '*' 3 + 6)
+    COLS=$(expr $(tput cols) '/' 6 '*' 6)
+    ROWS=$(expr $(tput lines) '/' 3 '*' 3)
     echo \#VAR MAP_ROWS $COLS\; > $MAP_SIZE
     echo \#VAR MAP_LINES $ROWS\; >> $MAP_SIZE
     printf '\033[;H'

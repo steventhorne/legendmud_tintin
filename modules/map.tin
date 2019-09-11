@@ -3,8 +3,11 @@
 #READ modules/map/action.tin;
 #READ modules/map/alias.tin;
 
+#MAP FLAG $map_graphics ON;
+#MAP FLAG vtmap $map_vtmap;
+
 #EVENT {MAP ENTER ROOM}
 {
     #READ modules/map/map_size.tin;
-    #MAP map ${MAP_ROWS}x${MAP_LINES} modules/map/map.txt;
+    #MAP map ${MAP_LINES} ${MAP_ROWS} overwrite modules/map/map.txt;
 }

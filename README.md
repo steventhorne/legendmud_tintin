@@ -37,7 +37,8 @@ The following features will not work without loading the prompt file or updating
 
 # Installation
 Install Tintin++ on your system.
-Download this repository to a directory on your system.
+This package requires you to use at least tintin++ version 2.01.90.
+Clone this repository to a directory on your system.
 
 # Usage
 To run Tintin++ with this package, simply run `tt++ core.tin` in the root of this directory.
@@ -100,7 +101,9 @@ The map module includes a pre-built map, automatic following, and mapping tools 
 
 Display the map with one of the following methods:
 - Typing `#map map` will display the map on demand
-- Set `#map flag vtmap on` and set `#split 16 1` if not using my prompt file, or update the prompt.tin file to say `#SPLIT 16 3` instead of `#SPLIT 0 3`
+- Update the following user.config settings
+    - {map_vtmap} {on}
+    - {split_top} {16}
 - Navigate to map/ in a separate terminal and run `./showmap`
 
 ### Map Aliases
