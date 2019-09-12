@@ -1,6 +1,8 @@
 # Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
+    - [Linux](#linux)
+    - [Windows](#windows)
 - [Usage](#usage)
 - [Config](#config)
 - [Modules](#modules)
@@ -38,7 +40,16 @@ The following features will not work without loading the prompt file or updating
 # Installation
 Install Tintin++ on your system.
 This package requires you to use at least tintin++ version 2.01.90.
+
+## Linux
 Clone this repository to a directory on your system.
+
+## Windows
+Navigate to %APPDATA%\WinTin++\bin and clone this repository to the bin directory.
+The core.tin file should be in the root of the bin directory.
+
+Navigate up to the WinTin++ directory, right click on the WinTin++ shortcut and click properties.
+Change the `main.tin` at the end of the Target field to `core.tin`.
 
 # Usage
 To run Tintin++ with this package, simply run `tt++ core.tin` in the root of this directory.
