@@ -76,6 +76,25 @@
 }
 {5}
 
+#ALIAS {slowwalk %1}
+{
+    #MAP find {} {roomnote} {%1};
+    #TICK {slowwalk} {#PATH walk f} {0.51};
+}
+{5}
+
+#EVENT {END OF PATH}
+{
+    #UNTICK slowwalk;
+}
+
+#ALIAS {stop}
+{
+    #UNTICK slowwalk;
+    #SEND clear;
+}
+{5}
+
 #ALIAS {door %1}
 {
     #MAP exit %1 command {open %1;%1};
