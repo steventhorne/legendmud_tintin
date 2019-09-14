@@ -24,7 +24,7 @@
         #VAR count -1;
         #FOREACH {$room_check[%*]} {line}
         {
-            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!)}}
+            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.)}}
             {
                 #VAR break true;
             }
@@ -65,13 +65,22 @@
         #IF {"$findroom" == "true"}
         {
             #MAP list {roomname} {$room_title} {roomdesc} {$room_desc} {variable} {findroom_results};
-            #IF {&findroom_results > 0}
+            #IF {&findroom_results[] > 0}
             {
                 #MAP goto *findroom_results[+1];
             }
             {
-                #SHOWME Room not found.;
-            }
+                #MAP list {roomname} {$room_title} {variable} {findroom_results};
+                #IF {&findroom_results[] > 0}
+                {
+                    #SHOWME <001>Could not match room description.;
+                    #SHOWME <001>Using first room with name: $room_title.;
+                    #MAP goto *findroom_results[+1];
+                }
+                {
+                    #SHOWME Could not match room with name: $room_title.;
+                };
+            };
             #UNVAR findroom;
             #UNVAR findroom_results;
         };
@@ -86,7 +95,7 @@
 }
 {5}
 
-#ACTION {{(^You step into a shimmering portal and vanish!|, and suddenly you are transported.)$}}
+#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$)}}
 {
     #VAR findroom true;
 }
