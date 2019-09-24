@@ -7,6 +7,10 @@ trap unhide_cursor EXIT
 
 MAP_FILE='map.txt'
 MAP_SIZE='map_size.tin'
+
+touch $MAP_FILE
+touch $MAP_SIZE
+
 REFRESH_RATE=.05
 
 #watch -c -t -n 0.2 cat $MAP_FILE

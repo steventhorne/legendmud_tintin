@@ -8,6 +8,45 @@
 
 #EVENT {MAP ENTER ROOM}
 {
-    #READ modules/map/map_size.tin;
+    #LINE quiet #READ modules/map/map_size.tin;
     #MAP map ${MAP_LINES} ${MAP_ROWS} overwrite modules/map/map.txt;
+}
+
+#EVENT {MAP DOUBLE-CLICKED MOUSE BUTTON ONE}
+{
+    #MAP find %0;
+    #PATH run 0.05;
+}
+
+#EVENT {MAP SHORT-CLICKED MOUSE BUTTON ONE}
+{
+    #MAP at %0 {#MAP get all room_vars};
+    #IF {"$room_vars[note]" != ""}
+    {
+        #VAR note {Nickname: <fca>($room_vars[note]) };
+    }
+    {
+        #VAR note {};
+    }
+    #SHOWME {\n<129>$room_vars[name] <179>-<129> $room_vars[area]};
+    #SHOWME {<169>Vnum: <fca>%0<169>   $note};
+    #UNVAR room_vars;
+    #UNVAR note;
+}
+
+#EVENT {MAP LONG-CLICKED MOUSE BUTTON ONE}
+{
+    #MAP at %0 {#MAP get all room_vars};
+    #IF {"$room_vars[note]" != ""}
+    {
+        #VAR note {Nickname: <fca>($room_vars[note]) };
+    }
+    {
+        #VAR note {};
+    }
+    #SHOWME {\n<129>$room_vars[name] <179>-<129> $room_vars[area]};
+    #SHOWME {<169>Vnum: <fca>%0<169>   $note};
+    #SHOWME {<179>$room_vars[desc]\n};
+    #UNVAR room_vars;
+    #UNVAR note;
 }

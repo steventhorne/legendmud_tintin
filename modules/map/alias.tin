@@ -79,7 +79,7 @@
 #ALIAS {slowwalk %1}
 {
     #MAP find {} {roomnote} {%1};
-    #TICK {slowwalk} {#PATH walk f} {0.51};
+    #TICK {slowwalk} {#PATH walk f} {0.25};
 }
 {5}
 
