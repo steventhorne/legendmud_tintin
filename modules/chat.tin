@@ -1,0 +1,13 @@
+#ACTION {~{^(?:\e\[[\d\;]{4,6}m)*[<\[]\e\[[\d\;]{4,6}m(?!Exits)(\w+)(?:(?:\e\[[\d\;]{4,6}m)?\:(?:\e\[[\d\;]{4,6}m)?([^>\]]+))?(?:\e\[[\d\;]{4,6}m)?[>\]].*$}}
+{
+	#FORMAT curtime {%t} {%T};
+	#LINE log chat.txt {$curtime %1}
+}
+{5}
+
+#ACTION {~{\e\[0;33m.*? tell[s]? the group, '.*?$}}
+{
+	#FORMAT curtime {%t} {%T};
+	#LINE log chat.txt {$curtime %1}
+}
+{5}
