@@ -5,18 +5,18 @@ V 2020
 CAVOID <118>
 CBACKGROUND <099>
 CEXITS <278>
-CHIDE <118>
+CHIDE 
 CINVISIBLE <208>
 CPATHS <138>
 CROOMS <178>
 CSYMBOLS 
 CUSER <258>
 
-F 273
+F 275
 
 G 0
 
-I 1
+I 4607
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -66,7 +66,7 @@ L {NESW LINE} {    S W} {\u2513}
 L {NESW LINE} {N   S W} {\u252B}
 L {NESW LINE} {  E S W} {\u2533}
 L {NESW LINE} {N E S W} {\u254B}
-L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {USER} {@}
 L {NESW MISC} {DIR UNKNOWN} {\u2012}
 L {NESW MISC} {N S VOID} {\u2507}
 L {NESW MISC} {E W VOID} {\u254D}
@@ -3953,7 +3953,7 @@ E { 5243} {n} {n} {1} {0} {} {1.000}
 R {  883} {0} {} {In a Hut} { } {The thatch roof of this adobe hut is somewhat in disrepair, and the shutters are falling off the large windows. If the owner of this hut isn't careful, a tiger may creep in one night and steal a life. An exit leads north to the square in the village.} {Seoni Jungle India} {} {} {} {1.000}
 E {  882} {n} {n} {1} {0} {} {1.000}
 
-R {  884} {0} {} {A Ford on Kulawahe River} { } {The rushing waters of the Kulawahe River flow here, a rocky ford allowing passage across. To the west, the green hills leave place to a barren plain, a hopeless wasteland filled with dangers.} {King Solomon's Mines } {} {} {} {1.000}
+R {  884} {0} {} {A Ford on Kulawahe River} { } {The rushing waters of the Kulawahe River flow here, a rocky ford allowing passage across. To the west, the green hills leave place to a barren plain, a hopeless wasteland filled with dangers.} {King Solomon's Mines} {} {} {} {1.000}
 E {  885} {n} {n} {1} {0} {} {1.000}
 
 R {  885} {0} {} {By a Dried Out Creek} { } {A foot-wide creek used to snake here, coming from the nearby mountains but has completely dried out under the sun and the rocky dust covering these barren plains.} {King Solomon's Mines} {} {} {} {1.000}
@@ -3961,7 +3961,7 @@ E {  884} {s} {s} {4} {0} {} {1.000}
 E {  886} {n} {n} {1} {0} {} {1.000}
 E { 1244} {e} {open e;e} {2} {0} {} {1.000}
 
-R {  886} {0} {} {Entrance to the Wastelands} { } {The top of razor sharp hills open here to a landscape of dry and barren lands to the west. Taking a peek at the distance, all you can see are desolate and ravaged hills that haven't been used for culture or building in a very long time. Nothing welcoming to men, or other animals can be seen lying ahead. To the east, you can see the coast of the Red Sea in the far distance.} {King Solomon's Mines } {} {} {} {1.000}
+R {  886} {0} {} {Entrance to the Wastelands} { } {The top of razor sharp hills open here to a landscape of dry and barren lands to the west. Taking a peek at the distance, all you can see are desolate and ravaged hills that haven't been used for culture or building in a very long time. Nothing welcoming to men, or other animals can be seen lying ahead. To the east, you can see the coast of the Red Sea in the far distance.} {King Solomon's Mines} {} {} {} {1.000}
 E {  885} {s} {s} {4} {0} {} {1.000}
 E {  887} {w} {w} {8} {0} {} {1.000}
 E { 1248} {e} {e} {2} {0} {} {1.000}
@@ -5521,35 +5521,35 @@ E { 1240} {n} {n} {1} {0} {} {1.000}
 E { 1686} {w} {w} {8} {0} {} {1.000}
 E { 1687} {s} {s} {4} {0} {} {1.000}
 
-R { 1244} {0} {} {On a Dusty Path} { } {A crude path descends to the bottom of the ravine. There are footsteps which are barely visible, but it seems there are visitors down here. You see a faint light down the ravine, but it is impossible to make out where it comes from.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1244} {0} {} {On a Dusty Path} { } {A crude path descends to the bottom of the ravine. There are footsteps which are barely visible, but it seems there are visitors down here. You see a faint light down the ravine, but it is impossible to make out where it comes from.} {King Solomon's Mines} {} {} {} {1.000}
 E {  885} {w} {open w;w} {8} {0} {} {1.000}
 E { 1245} {d} {d} {32} {0} {} {1.000}
 
-R { 1245} {0} {} {At the Bottom of a Ravine} { } {You stand at the bottom of a rocky ravine that has not seen water flowing through in a long time. The ground is covered by small and medium-sized rocks which have fallen from the top of the ravine or its walls over time.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1245} {0} {} {At the Bottom of a Ravine} { } {You stand at the bottom of a rocky ravine that has not seen water flowing through in a long time. The ground is covered by small and medium-sized rocks which have fallen from the top of the ravine or its walls over time.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1244} {u} {u} {16} {0} {} {1.000}
 E { 1246} {e} {e} {2} {0} {} {1.000}
 
-R { 1246} {0} {} {Before a Strange Thatched Hut} { } {An eerie-looking, strange little hut has been built at the bottom of the ravine, its owner obviously choosing this spot for its seclusion. The hut stands rather low above the ground, covered with a thatched roof made of dry twigs from the rare trees around the highlands and covered with the rain of small rocks falling from the ravine's fragile walls.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1246} {0} {} {Before a Strange Thatched Hut} { } {An eerie-looking, strange little hut has been built at the bottom of the ravine, its owner obviously choosing this spot for its seclusion. The hut stands rather low above the ground, covered with a thatched roof made of dry twigs from the rare trees around the highlands and covered with the rain of small rocks falling from the ravine's fragile walls.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1245} {w} {w} {8} {0} {} {1.000}
 E { 1247} {e} {e} {2} {0} {} {1.000}
 E { 1257} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 1247} {0} {} {The End of the Ravine} { } {You stand at a dead end in the depths of the ravine. Around you the walls expose hundreds of years of history through stratas of stilt and dust. On a rock at the bottom of the ravine you can clearly identify primitive drawings caked in mud.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1247} {0} {} {The End of the Ravine} { } {You stand at a dead end in the depths of the ravine. Around you the walls expose hundreds of years of history through stratas of stilt and dust. On a rock at the bottom of the ravine you can clearly identify primitive drawings caked in mud.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1246} {w} {w} {8} {0} {} {1.000}
 
-R { 1248} {0} {} {The Land of the Kukuana} { } {The barren spectacle of the wastelands turns into an arid volcanic plain with sparse flora, home of the wild tribe of the Kukuanas.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1248} {0} {} {The Land of the Kukuana} { } {The barren spectacle of the wastelands turns into an arid volcanic plain with sparse flora, home of the wild tribe of the Kukuanas.} {King Solomon's Mines} {} {} {} {1.000}
 E {  886} {w} {w} {8} {0} {} {1.000}
 E { 1249} {e} {e} {2} {0} {} {1.000}
 
-R { 1249} {0} {} {The Land of the Kukuana} { } {The barren spectacle of the wastelands turns into an arid volcanic plain with sparse flora, home of the wild tribe of the Kukuanas.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1249} {0} {} {The Land of the Kukuana} { } {The barren spectacle of the wastelands turns into an arid volcanic plain with sparse flora, home of the wild tribe of the Kukuanas.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1248} {w} {w} {8} {0} {} {1.000}
 E { 1250} {s} {s} {4} {0} {} {1.000}
 
-R { 1250} {0} {} {The End of the Trail} { } {You are surrounded by arid plains where cultures do not grow and nature is a threat to the survival of mankind. Yet, the fierce Kukuana tribe rules these lands and turn unwanted visitors into rare feasts.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1250} {0} {} {The End of the Trail} { } {You are surrounded by arid plains where cultures do not grow and nature is a threat to the survival of mankind. Yet, the fierce Kukuana tribe rules these lands and turn unwanted visitors into rare feasts.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1249} {n} {n} {1} {0} {} {1.000}
 E { 1251} {s} {s} {4} {0} {} {1.000}
 
-R { 1251} {0} {} {The Land of the Kukuana} { } {The barren spectacle of the wastelands turn here into an arid volcanic plain with sparse flora, home of the wild tribe of the Kukuanas.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1251} {0} {} {The Land of the Kukuana} { } {The barren spectacle of the wastelands turn here into an arid volcanic plain with sparse flora, home of the wild tribe of the Kukuanas.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1250} {n} {n} {1} {0} {} {1.000}
 E { 1252} {s} {s} {4} {0} {} {1.000}
 E { 1253} {e} {e} {2} {0} {} {1.000}
@@ -5557,19 +5557,19 @@ E { 1253} {e} {e} {2} {0} {} {1.000}
 R { 1252} {0} {} {A Deserted Kraal} { } {A collection of low huts made out of dried brambles gather here around an empty and cold fire pit. Starved vultures circle around the village where no kids are at play and the dry, hot wind gushing through the huts is the only noise to be heard.} {King Solomon's Mines } {} {} {} {1.000}
 E { 1251} {n} {n} {1} {0} {} {1.000}
 
-R { 1253} {0} {} {On Blood-Soaked Grounds} { } {Thousands of human bones are covering the ground of this peaceful clearing. You are not sure what happened there but it involved the slaughtering of dozens of human souls. The earth is dark and humid as if still soaked with gallons of warm, thick blood.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1253} {0} {} {On Blood-Soaked Grounds} { } {Thousands of human bones are covering the ground of this peaceful clearing. You are not sure what happened there but it involved the slaughtering of dozens of human souls. The earth is dark and humid as if still soaked with gallons of warm, thick blood.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1251} {w} {w} {8} {0} {} {1.000}
 E { 1254} {e} {e} {2} {0} {} {1.000}
 
-R { 1254} {0} {} {The End of the Trail} { } {You are surrounded by dense patches of lofty forests, walking along faint trail that seems to stop right in the middle of the jungle. Sounds of the forest are loud around you and the air is humid.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1254} {0} {} {The End of the Trail} { } {You are surrounded by dense patches of lofty forests, walking along faint trail that seems to stop right in the middle of the jungle. Sounds of the forest are loud around you and the air is humid.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1253} {w} {w} {8} {0} {} {1.000}
 E { 1255} {n} {n} {1} {0} {} {1.000}
 
-R { 1255} {0} {} {The Ruins of a Fortified Kraal} { } {You are surrounded by dense patches of lofty forests, where a rapid river wounds its silvery way. Ahead of you stretches a vast expanse of rich, undulating veldt and appearing to be ringed by a wall of distant and impenetrable mountains.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1255} {0} {} {The Ruins of a Fortified Kraal} { } {You are surrounded by dense patches of lofty forests, where a rapid river wounds its silvery way. Ahead of you stretches a vast expanse of rich, undulating veldt and appearing to be ringed by a wall of distant and impenetrable mountains.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1254} {s} {s} {4} {0} {} {1.000}
 E { 1256} {n} {n} {1} {0} {} {1.000}
 
-R { 1256} {0} {} {The Seat of the Tribe Leader} { } {You enter the ruins of what was once a large house, probably the seat of power for the authority of the Queen of Sheba over the valley. The place has marks of battle left on its walls and remnants of a burnt down thatched roof.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1256} {0} {} {The Seat of the Tribe Leader} { } {You enter the ruins of what was once a large house, probably the seat of power for the authority of the Queen of Sheba over the valley. The place has marks of battle left on its walls and remnants of a burnt down thatched roof.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1255} {s} {s} {4} {0} {} {1.000}
 
 R { 1257} {0} {} {Inside a Straw Hut} { } {Multiple lanterns hang around the room, a rickety table in the center. The walls are made of an assembled mortar of dark rocks and brown mud with very little decor, leaving the inside of the hut with a dark, grisly ambiance. A tiny bed stands at the back of the room, a strong smell of filth exuding from its dirty sheets.} {King Solomon's Mines } {} {} {} {1.000}
@@ -5582,20 +5582,20 @@ R { 1259} {0} {} {} { } {} {King Solomon's Mines } {} {} {} {1.000}
 E {  888} {e} {e} {2} {0} {} {1.000}
 E { 1260} {w} {w} {8} {0} {} {1.000}
 
-R { 1260} {0} {} {On Desolate Plains} { } {You are far from the luscious, moist savanna filled with animal life. The plains around you are barren, empty of colors, but for the dull grey clouds that seem to bleed over miles and miles of rocky plains and their rare, dried-up trees. The wind blows a cold chill from tall mountains raising on the horizon to the east.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1260} {0} {} {On Desolate Plains} { } {You are far from the luscious, moist savanna filled with animal life. The plains around you are barren, empty of colors, but for the dull grey clouds that seem to bleed over miles and miles of rocky plains and their rare, dried-up trees. The wind blows a cold chill from tall mountains raising on the horizon to the east.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1261} {w} {w} {8} {0} {} {1.000}
 E {  888} {e} {e} {2} {0} {} {1.000}
 E { 1263} {s} {s} {4} {0} {} {1.000}
 
-R { 1261} {0} {} {On Desolate Plains} { } {You are far from the luscious, moist savanna filled with animal life. The plains are you are barren, empty of colors, but for the dull grey clouds that seem to bleed over miles and miles of rocky plains and their rare, dried-up trees. The wind blows a cold chill from tall mountains raising on the horizon to the east.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1261} {0} {} {On Desolate Plains} { } {You are far from the luscious, moist savanna filled with animal life. The plains are you are barren, empty of colors, but for the dull grey clouds that seem to bleed over miles and miles of rocky plains and their rare, dried-up trees. The wind blows a cold chill from tall mountains raising on the horizon to the east.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1260} {e} {e} {2} {0} {} {1.000}
 E { 1262} {n} {n} {1} {0} {} {1.000}
 
-R { 1262} {0} {} {The Foot of Tall Mountains} { } {Wastelands retreat here and leave place to a desert of rocks and large boulders that rolled from high impenetrable mountains towering high above. Up in the sky, mean dark clouds gather, stuck on the fierce peaks and casting the promise of rains that never come.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1262} {0} {} {The Foot of Tall Mountains} { } {Wastelands retreat here and leave place to a desert of rocks and large boulders that rolled from high impenetrable mountains towering high above. Up in the sky, mean dark clouds gather, stuck on the fierce peaks and casting the promise of rains that never come.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1261} {s} {s} {4} {0} {} {1.000}
 E { 1264} {u} {u} {16} {0} {} {1.000}
 
-R { 1263} {0} {} {The Long Lost Forest} { } {A forest of dried-out trunks and stumps raise here, with apparent roots dangerously poking out of the ground like nature had setup her own spiked traps on the ground. A grey dust covers everything, raising opaque clouds when the rare wind blows.} {King Solomon's Mines } {} {} {} {1.000}
+R { 1263} {0} {} {The Long Lost Forest} { } {A forest of dried-out trunks and stumps raise here, with apparent roots dangerously poking out of the ground like nature had setup her own spiked traps on the ground. A grey dust covers everything, raising opaque clouds when the rare wind blows.} {King Solomon's Mines} {} {} {} {1.000}
 E { 1260} {n} {n} {1} {0} {} {1.000}
 
 R { 1264} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -19529,6 +19529,7 @@ E { 4595} {n} {n} {1} {0} {} {1.000}
 R { 4595} {0} {} {The Foot of the Celestial Mountain} { } {The Garden of Edin comes to its edge here, before a gigantic, lonely mountain that rises very high into the clouds. The celestial mountain, while larger than any other mountain you have ever seen, did not reveal itself to your sight before you stepped closer to its base.} {The Seven Heavens } {} {} {} {1.000}
 E { 4594} {s} {s} {4} {0} {} {1.000}
 E { 4606} {transport} {enq ask angel transport;pause 1s;stand} {0} {0} {} {1.000}
+E { 4606} {ask angel transport} {enq ask angel transport;pause 1s;stand} {0} {0} {} {1.000}
 
 R { 4596} {0} {} {Inside a Dark Cave} { } {The cave is dark and something old, something evil and malicious still dwelling within, waiting for another opportunity to corrupt the Garden of Edin and its innocent inhabitants.} {The Seven Heavens } {} {} {} {1.000}
 E { 4590} {n} {n} {1} {0} {} {1.000}
@@ -19571,7 +19572,6 @@ E { 3416} {w} {w} {8} {0} {} {1.000}
 
 R { 4606} {0} {} {Inside a Simple House} { } {You are inside of simple stone house built simply under a thatched roof. There is no apparent fire but the place feels warm and clean. As you peek outside through the open windows you see a landscape of low hills, covered with green grass bathing under a bright sunshine.} {The Seven Heavens } {layer2} {} {} {1.000}
 E { 4607} {n} {open n;n} {1} {0} {} {1.000}
-E { 4607} {slee} {slee} {0} {0} {} {1.000}
 E { 4595} {sleep} {sleep;st} {0} {0} {} {1.000}
 
 R { 4607} {0} {} {The Hills of Raqia, the Second Heaven} { } {You see a landscape of low hills, covered with green grass bathing under a bright sunshine. Many people wander the hills purposelessly, only enjoying the company of each other and the spectacular weather. All around you are just sounds of joy, laughter, and communicative happiness.} {The Seven Heavens } {} {} {} {1.000}
