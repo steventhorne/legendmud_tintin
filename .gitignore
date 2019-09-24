@@ -3,7 +3,8 @@ user.config
 
 logs/*
 
-chat.*
+/chat.*
 group.txt
 
-map/map.txt
+/modules/map/map.txt
+/modules/map/map_size.tin
