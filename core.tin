@@ -37,6 +37,7 @@
 {
     #LINE quiet {#READ sys.config};
     load_user_config;
+    #READ utils.tin;
     #SESSION legendmud mud.legendmud.org 9999;
 }
 
