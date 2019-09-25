@@ -95,7 +95,7 @@
 }
 {5}
 
-#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$)}}
+#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$|^Reconnecting.$)}}
 {
     #VAR findroom true;
 }
