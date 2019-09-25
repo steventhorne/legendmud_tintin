@@ -12,11 +12,11 @@ CROOMS <178>
 CSYMBOLS 
 CUSER <258>
 
-F 275
+F 273
 
 G 0
 
-I 4607
+I 278
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -12132,12 +12132,14 @@ E { 2823} {n} {n} {1} {0} {} {1.000}
 R { 2823} {0} {} {Outside Thebes} { } {You stand outside the great polis of Thebes, founded by Cadmus, home of the patricide Oedipus, and famous the world over for its seven soaring gates. The Electran Gate, frescoes adorning its upper reaches, stands closed before you. In the dim light cast by torches on either side of the gate, you can make out 3 short pillars upon which no birds will sit, nor beasts graze near, where it is said Amphiaraus was swallowed up by the vengeful earth.} {Ancient Greece } {} {} {} {1.000}
 E { 2822} {s} {s} {4} {0} {} {1.000}
 E { 2824} {gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 2824} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
 
 R { 2824} {0} {} {Inside the Electran Gate} { } {You stand inside the soaring Electran Gate, the southernmost point inside the walls of Thebes. The house of Amphitryon looms to the west, while the Temple of Apollo sits a short climb up the Ismenian Hill to the east. The center of Thebes is just north of you. Torches along the walls gutter but cast a decent amount of light.} {Ancient Greece } {} {} {} {1.000}
 E { 2825} {w} {open w;w} {8} {0} {} {1.000}
 E { 3330} {e} {e} {2} {0} {} {1.000}
 E { 3337} {n} {n} {1} {0} {} {1.000}
 E { 2823} {gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 2823} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
 
 R { 2825} {0} {} {The House of Amphitryon} { } {This simple house is the abode of one of the most powerful men in Greece, Amphitryon, ruler of Thebes. A small chamber lies south of the central room, and an atrium opens to the west. An inscription can be seen above the door to the southern chamber.} {Ancient Greece } {} {} {} {1.000}
 E { 2824} {e} {open e;e} {2} {0} {} {1.000}
