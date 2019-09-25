@@ -1,11 +1,71 @@
 #MATH split_bottom {$split_bottom + 3};
 
-#ACTION {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}
+#FUNCTION {display_progress}
 {
-    #FORMAT screen_width {%C};
-    #FORMAT prompt1 {%-${screen_width}s} {<099>%2  %3  %4};
+    #LOCAL display {};
+    #LOCAL args[perc] {%1};
+    #LOCAL args[display] {%2};
+    #LOCAL args[length] {%3};
+    #LOCAL args[color] {%4};
 
-    #LINE strip #VARIABLE character %2;
+    #FORMAT display_text {%.$args[length]s} {$args[display]};
+    #FORMAT display_text_len {%L} {$args[display]};
+
+    #IF {"$args[color]" == ""}
+    {
+        #LOCAL display_color_r {};
+        #LOCAL display_color_g {};
+
+        #MATH display_color_r {5 * @clamp{2 * (1 - $args[perc]);0;1} + 65};
+        #FORMAT display_color_r {%a} {$display_color_r};
+
+        #MATH display_color_g {5* @clamp{2 * $args[perc];0;1} + 65};
+        #FORMAT display_color_g {%a} {$display_color_g};
+
+        #FORMAT display_color {<%s%sA><aaa>} {$display_color_r} {$display_color_g};
+    }
+    {
+        #VAR display_color {$args[color]};
+    };
+
+    #MATH display_text_pre {(($args[length] + 1) - $display_text_len) / 2 + $display_text_len};
+    #FORMAT display_text {%+${display_text_pre}s} {$display_text};
+    #FORMAT display_text {%-$args[length]s} {$display_text};
+    #UNVAR display_text_pre;
+    #UNVAR display_text_post;
+
+    #LOCAL i 0;
+    #PARSE {$display_text} {display_text_char}
+    {
+        #IF {$i < $args[perc]}
+        {
+            #FORMAT display {%s%c%s} {$display} {$display_color} {$display_text_char};
+        }
+        {
+            #FORMAT display {%s%c%s} {$display} {<099><G04>} {$display_text_char};
+        };
+
+        #MATH i {$i + (1.00/$args[length])};
+    };
+    #FORMAT display {%s%c} {$display} {<099>};
+    #UNVAR display_text;
+    #UNVAR display_color;
+    #UNVAR display_text_char;
+    #UNVAR display_text_len;
+
+    #RETURN $display;
+}
+
+#ACTION {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:\e\[[\;\d]{4,6}m([\w\-\']+)\e\[[\;\d]{4,6}m}}
+{
+    #VAR prompt[time] {%2};
+    #VAR prompt[area] {%3};
+    #VAR prompt[gold] {%4};
+    #VAR prompt[weight_carried] {%5};
+    #VAR prompt[weight_max] {%6};
+    #VAR prompt[leader] {%7};
+    
+    #FORMAT prompt1 {%s} {$prompt[color]$prompt[time]<099>  $prompt[area]  GP:$prompt[color]$prompt[gold]<099>  KG:$prompt[color]$prompt[weight_carried]<099>/$prompt[color]$prompt[weight_max]<099>  $prompt[leader]};
 
     #IF {@has_module{map}}
     {
@@ -17,19 +77,69 @@
     };
 }
 {2}
-#PROMPT {~{^([\w\-\']+)\s(\e\[[\;\d]{4,6}m[\d\.]+\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d\.]+)\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m}}
+#PROMPT {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:\e\[[\;\d]{4,6}m([\w\-\']+)\e\[[\;\d]{4,6}m}}
 {
     ${prompt1}
 }
 {-2}
 
-#ACTION {~{(\e\[[\;\d]{4,6}m\s*[\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\-\d]+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\w+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:(\e\[[\;\d]{4,6}m[\w\-\']+)\e\[[\;\d]{4,6}m}}
+#ACTION {~{\e\[[\;\d]{4,6}m([\w\-\']+)\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/(\e\[[\;\d]{4,6}m)([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\-\d]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\w+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m}}
 {
-    #FORMAT screen_width {%C};
-    #FORMAT prompt2 {%-${screen_width}s} {%2  %3  %4  %5  %6  %7  %8  %9  %10};
+    #VAR prompt[name] %2;
+    #VAR prompt[hp] %3;
+    #VAR prompt[color] %4;
+    #VAR prompt[hp_max] %5;
+    #VAR prompt[ma] %6;
+    #VAR prompt[ma_max] %7;
+    #VAR prompt[mv] %8;
+    #VAR prompt[mv_max] %9;
+    #VAR prompt[ac] %10;
+    #VAR prompt[pos] %11;
+    #VAR prompt[xp] %12;
+    #VAR prompt[lvl] %13;
+
+    #LOCAL perc {};
+    #LOCAL label {};
+
+    #MATH perc {1.000*$prompt[hp]/$prompt[hp_max]};
+    #VAR prompt[hp_gauge] @display_progress{$perc;$prompt[hp]/$prompt[hp_max];10};
+
+    #MATH perc {1.000*$prompt[ma]/$prompt[ma_max]};
+    #VAR prompt[ma_gauge] @display_progress{$perc;$prompt[ma]/$prompt[ma_max];10};
+
+    #MATH perc {1.000*$prompt[mv]/$prompt[mv_max]};
+    #VAR prompt[mv_gauge] @display_progress{$perc;$prompt[mv]/$prompt[mv_max];10};
+
+    #LOCAL prev_xp {};
+    #LOCAL next_xp {};
+    #LOCAL perc_xp {};
+    #LOCAL display_perc_xp {};
+    #IF {$prompt[lvl] < 50}
+    {
+        #IF {$prompt[lvl] == 1}
+        {
+            #LOCAL prev_xp {0};
+        }
+        {
+            #MATH prev_xp {200*($prompt[lvl]**3)};
+        };
+        #MATH next_xp {200*(($prompt[lvl]+1)**3)};
+    }
+    {
+        #MATH prev_xp {$prompt[xp] - ($prompt[xp] % 25000000)};
+        #MATH next_xp {$prompt[xp] - ($prompt[xp] % 25000000) + 25000000};
+    };
+
+    #MATH perc_xp {1.000*($prompt[xp] - $prev_xp)/($next_xp - $prev_xp)};
+    #MATH prompt[tnl] {$next_xp - $prompt[xp]};
+    #MATH display_perc_xp {$perc_xp * 100};
+    #FORMAT display_perc_xp {%d} {$display_perc_xp};
+    #VAR prompt[xp_gauge] @display_progress{$perc_xp;$prompt[tnl] (${display_perc_xp}%);16;<002>};
+
+    #FORMAT prompt2 {%s} {$prompt[name]  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]$prompt[ac]<099>  $prompt[pos]  TNL:$prompt[xp_gauge]};
 }
 {2}
-#PROMPT {~{(\e\[[\;\d]{4,6}m\s*[\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s(\e\[[\;\d]{4,6}m[\d]{1,4}\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m[\d]{1,4})\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m[\-\d]+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\w+)\e\[[\;\d]{4,6}m\s{2}(\e\[[\;\d]{4,6}m\d+)\e\[[\;\d]{4,6}m\s{2}(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:(\e\[[\;\d]{4,6}m[\w\-\']+)\e\[[\;\d]{4,6}m}}
+#PROMPT {~{\e\[[\;\d]{4,6}m([\w\-\']+)\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\-\d]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\w+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m}}
 {
     ${prompt2}
 }
