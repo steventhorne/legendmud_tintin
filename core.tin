@@ -35,10 +35,21 @@
 
 #EVENT {PROGRAM START}
 {
-    #LINE quiet {#READ sys.config};
-    load_user_config;
-    #READ utils.tin;
-    #SESSION legendmud mud.legendmud.org 9999;
+    #INFO system save;
+    #VAR tt_version {$info[SYSTEM][CLIENT_VERSION]};
+    #REPLACE {tt_version} {.} {};
+    #REPLACE {tt_version} {b} {};
+    #IF {$tt_version < 20190}
+    {
+        #SHOWME <001>Your version of tintin++ is out of date. Please upgrade to version 2.01.90 or later;
+    }
+    {
+        #LINE quiet {#READ sys.config};
+        load_user_config;
+        #READ utils.tin;
+        #SESSION legendmud mud.legendmud.org 9999;
+    }
+    
 }
 
 #EVENT {SCREEN RESIZE}
