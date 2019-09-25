@@ -41,7 +41,8 @@
     #REPLACE {tt_version} {b} {};
     #IF {$tt_version < 20190}
     {
-        #SHOWME <001>Your version of tintin++ is out of date. Please upgrade to version 2.01.90 or later;
+        #SHOWME <001>Your version of Tintin++ is out of date.;
+        #SHOWME <001>Please upgrade to v2.01.90 or later;
     }
     {
         #LINE quiet {#READ sys.config};
