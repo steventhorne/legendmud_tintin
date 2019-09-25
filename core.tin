@@ -75,7 +75,9 @@
 
         #FOREACH {$modules[%*]} {module}
         {
+            #CLASS {module_$module} {open};
             #READ modules/$module.tin;
+            #CLASS {module_$module} {close};
         };
         #UNVAR module;
         
@@ -83,6 +85,32 @@
         {
             #SPLIT $split_top $split_bottom;
         }
+    };
+}
+
+#ALIAS {reload}
+{
+    #IF {"%1" == "" || "%1" == "all"}
+    {
+        #SHOWME \nReloading all modules...;
+        #FOREACH {$modules[%*]} {module}
+        {
+            #CLASS {module_$module} {kill};
+            #CLASS {module_$module} {open};
+            #SHOWME Reloading <069>$module<099>...;
+            #READ modules/$module.tin;
+            #CLASS {module_$module} {close};
+        };
+        #UNVAR module;
+        #SHOWME Reload complete.\n;
+    }
+    {
+        #CLASS {module_%1} {kill};
+        #CLASS {module_%1} {open};
+        #SHOWME \nReloading <069>%1<099>...;
+        #READ modules/%1.tin;
+        #CLASS {module_%1} {close};
+        #SHOWME Reload complete.\n;
     };
 }
 
