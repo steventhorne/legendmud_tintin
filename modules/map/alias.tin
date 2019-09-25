@@ -50,18 +50,14 @@
 
 #ALIAS {nicknames}
 {
-    #MAP get {roomvnum} {roomvnum};
     #MAP list {roomnote} {{.+}} {variable} {nickname_list};
     #LOOP 1 &nickname_list[] cnt
     {
-        #MAP goto *nickname_list[+$cnt];
-        #MAP get {roomname} {roomname};
-        #MAP get {roomnote} {roomnote};
+        #MAP at {*nickname_list[+$cnt]} {#MAP get {roomname} {roomname}};
+        #MAP at {*nickname_list[+$cnt]} {#MAP get {roomnote} {roomnote}};
         #FORMAT roomnote {%-10s} {$roomnote};
         #SHOWME $roomnote - $roomname;
     }
-    #MAP goto $roomvnum;
-    #UNVAR roomvnum;
     #UNVAR nickname_list;
     #UNVAR roomname;
     #UNVAR roomnote;
