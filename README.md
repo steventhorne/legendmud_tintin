@@ -21,7 +21,7 @@
 
 # Overview
 
-This is an all-in-one package for Tintin++ to play LegendMUD.
+This is an all-in-one package for TinTin++ to play LegendMUD.
 A few of the features include:
 - An autologin system
 - A map with mapping triggers
@@ -38,8 +38,8 @@ The following features will not work without loading the prompt file or updating
 - Logging of channels and tells to chat.txt and displaying them with `./showchat`
 
 # Installation
-Install Tintin++ on your system.
-This package requires you to use at least tintin++ version 2.01.90.
+Install TinTin++ on your system.
+This package requires you to use at least TinTin++ version 2.01.90.
 
 ## Linux
 Clone this repository to a directory on your system.
@@ -52,14 +52,14 @@ Navigate up to the WinTin++ directory, right click on the WinTin++ shortcut and 
 Change the `main.tin` at the end of the Target field to `core.tin`.
 
 # Usage
-To run Tintin++ with this package, simply run `tt++ core.tin` in the root of this directory.
+To run TinTin++ with this package, simply run `tt++ core.tin` in the root of this directory.
 
 # Config
 After running `tt++ core.tin` for the first time, there will be two config files that you can modify:
 - sys.config
 - user.config
 
-The `sys.config` config contains settings for the Tintin++ client.
+The `sys.config` config contains settings for the TinTin++ client.
 The `user.config` config contains settings for this package.
 You will need to restart the client for any changed settings to take effect.
 
@@ -67,10 +67,10 @@ You can add your own custom settings to these files if you need more for your sc
 
 # Modules
 This package comes with optional modules that can be enabled or disabled at your discretion.
-Modules are Tintin++ scripts that are automatically loaded as soon as the client starts.
+Modules are TinTin++ scripts that are automatically loaded as soon as the client starts.
 These are different from [Classes](#classes) which can be loaded and unloaded after the client has started.
 
-In order to enable a module, exit Tintin++ and edit the user.config file.
+In order to enable a module, exit TinTin++ and edit the user.config file.
 Within this file you will find the following line:
 `#VARIABLE         {modules}  {logging;combat;map}`
 
@@ -78,7 +78,10 @@ Add the module identifier to the list of modules in this variable.
 For example, if you wanted to enable the prompt module:
 `#VARIABLE         {modules}  {logging;combat;map;prompt}`
 
-Next time you run Tintin++, the module will be enabled.
+Next time you run TinTin++, the module will be enabled.
+
+In order to reload a module after making changes to the module's file, use the `reload` alias.
+For example: `reload all` will reload all modules, while `reload <module name>` will reload a specific module.
 
 ***Please note that some of these modules may require extra work in order to use.***
 
@@ -154,6 +157,9 @@ Put the new `.tin` file in the `modules/` directory and add it to the user.confi
 
 This is great for creating your own custom content without altering the files in this package.
 
+You can also use the `reload` alias to reload custom modules.
+For example: `reload all` will reload all modules, while `reload <module name>` will reload a specific module.
+
 # Classes
 This package has support for loading character specific classes on the fly.
 
@@ -167,4 +173,4 @@ An example of this would be logging into a vina mage and loading up the vina cla
 
 ## Custom Classes
 You can create your own classes by creating a `.tin` file with your scripts.
-Put the new `.tin` file in the `classes/` directory and you can load it with the `loadclass` alias without restarting Tintin++.
+Put the new `.tin` file in the `classes/` directory and you can load it with the `loadclass` alias without restarting TinTin++.
