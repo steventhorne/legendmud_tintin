@@ -1,4 +1,7 @@
-#MATH split_bottom {$split_bottom + 3};
+#IF {&{is_startup}}
+{
+    #MATH split_bottom {$split_bottom + 3};
+};
 
 #FUNCTION {display_progress}
 {
@@ -134,7 +137,7 @@
     #MATH prompt[tnl] {$next_xp - $prompt[xp]};
     #MATH display_perc_xp {$perc_xp * 100};
     #FORMAT display_perc_xp {%d} {$display_perc_xp};
-    #VAR prompt[xp_gauge] @display_progress{$perc_xp;$prompt[tnl] (${display_perc_xp}%);16;<002>};
+    #VAR prompt[xp_gauge] @display_progress{$perc_xp;$prompt[tnl] (${display_perc_xp}%);20;<AFA><aaa>};
 
     #FORMAT prompt2 {%s} {$prompt[name]  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]$prompt[ac]<099>  $prompt[pos]  TNL:$prompt[xp_gauge]};
 }
@@ -147,8 +150,7 @@
 
 #ACTION {~{^CD>\s(.*)}}
 {
-    #FORMAT screen_width {%C};
-    #FORMAT prompt3 {%-${screen_width}s} {%2};
+    #VAR prompt3 {%2};
 }
 {2}
 #PROMPT {~{^CD>\s(.*)}}
