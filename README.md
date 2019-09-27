@@ -39,7 +39,7 @@ The following features will not work without acquiring my prompt format:
 - Using the area name to help find the room you're in on the map
 
 # Installation
-Install TinTin++ on your system.
+[Download](https://tintin.sourceforge.io/download.php) and install TinTin++ on your system.
 This package requires you to use at least TinTin++ version 2.01.90.
 
 ## Linux {#install-linux}
