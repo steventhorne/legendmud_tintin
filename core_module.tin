@@ -1,0 +1,161 @@
+#CLASS core kill;
+#CLASS core open;
+#SHOWME Loading <069>core<099>...;
+
+#FUNCTION {load_user_config}
+{
+    #CLASS config kill;
+    #READ user.config;
+
+    #CLASS default_config read defaults.config;
+
+    #CLASS config open;
+    #FOREACH {*defaults[%*]} {default}
+    {
+        #IF {&{$default}} {#NOP;}
+        {
+            #LINE sub {var}
+            {
+                #VAR {$default} {$defaults[$default]};
+            }
+        }
+    }
+    #UNVAR default;
+    #CLASS config write user.config;
+    #CLASS config close;
+
+    #LIST modules create $modules;
+
+    #CLASS default_config kill;
+
+    #RETURN #NOP;
+};
+
+#FUNCTION {load_all_modules}
+{
+    #FOREACH {$modules[%*]} {module}
+    {
+        #CLASS {module_$module} {kill};
+        #CLASS {module_$module} {open};
+        #SHOWME Loading <069>$module<099>...;
+        #READ modules/$module.tin;
+        #CLASS {module_$module} {close};
+    };
+    #UNVAR module;
+
+    #RETURN #NOP;
+};
+
+#ALIAS {loadclass %1}
+{
+    #LIST loaded_classes find %1 loaded_classes_search;
+    #IF {$loaded_classes_search > 0}
+    {
+        #SHOWME <019>Class <069>%1<019> is already loaded.<099>;
+    }
+    {
+        #SHOWME Loading class <069>%1<099>.;
+        #LIST loaded_classes add %1;
+        #CLASS {%1} {read} {classes/%1.tin};
+    }
+    #UNVAR loaded_classes_search;
+};
+
+#ALIAS {reloadclass %1}
+{
+    #IF {"%1" == "all"}
+    {
+        #IF {&{loaded_classes} && &loaded_classes[]}
+        {
+            #FOREACH {$loaded_classes[%*]} {loaded_classes_class}
+            {
+                #CLASS {$loaded_classes_class} kill;
+                #CLASS {$loaded_classes_class} {read} {classes/$loaded_classes_class.tin};
+                
+                #SHOWME Class <069>%1<099> has been reloaded.;
+            }
+            #UNVAR loaded_classes_class;
+        }
+        {
+            #SHOWME <019>No classes are loaded.<099>;
+        }
+    }
+    {
+        #LIST loaded_classes find %1 loaded_classes_search;
+        #IF {$loaded_classes_search > 0}
+        {
+            #CLASS {%1} kill;
+            #CLASS {%1} {read} {classes/%1.tin};
+            #SHOWME Class <069>%1<099> has been reloaded.;
+        }
+        {
+            #SHOWME <019>Class <069>%1<019> is not loaded.<099>;
+        }
+        #UNVAR loaded_classes_search;
+    }
+};
+
+#ALIAS {killclass %1}
+{
+    #IF {"%1" == "all"}
+    {
+        #IF {&{loaded_classes} && &loaded_classes[]}
+        {
+            #FOREACH {$loaded_classes[%*]} {loaded_classes_class}
+            {
+                #CLASS {$loaded_classes_class} kill;
+                #SHOWME Class <069>$loaded_classes_class<099> has been killed.
+            }
+            #UNVAR loaded_classes_class;
+            #UNVAR loaded_classes;
+        }
+        {
+            #SHOWME <019>No classes are loaded.<099>;
+        }
+    }
+    {
+        #LIST loaded_classes find %1 loaded_classes_search;
+        #IF {$loaded_classes_search > 0}
+        {
+            #CLASS {%1} kill;
+            #LIST loaded_classes delete $loaded_classes_search;
+            #SHOWME Class <069>%1<099> has been killed.;
+        }
+        {
+            #SHOWME <019>Class <069>%1<019> is not loaded.<099>;
+        }
+        #UNVAR loaded_classes_search;
+    }
+};
+
+#ACTION {^Press RETURN to continue.$}
+{
+    #DELAY {0.5} {#SEND;};
+}
+{5};
+
+#ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
+{
+    #SEND %2;
+}
+{5};
+
+#TICKER           {idle}  {#SEND}  {300};
+
+#VARIABLE         {MAP_LINES}  {0};
+#VARIABLE         {MAP_ROWS}  {0};
+
+#CLASS core close;
+
+@load_user_config{};
+
+#CLASS utils kill;
+#CLASS utils open;
+#READ utils.tin;
+#CLASS utils close;
+
+#VAR is_startup 1;
+@load_all_modules{};
+#UNVAR is_startup;
+
+#SPLIT $split_top $split_bottom;

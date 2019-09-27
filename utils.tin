@@ -34,3 +34,11 @@
 
     #RETURN %1;
 }
+
+#FUNCTION {has_module}
+{
+    #LIST modules find %1 list_check;
+    #LOCAL check $list_check;
+    #UNVAR list_check;
+    #RETURN $check;
+}

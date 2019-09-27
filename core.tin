@@ -1,90 +1,18 @@
-#ALIAS {load_user_config}
-{
-    #SYSTEM touch user.config;
-    #LINE {quiet} {#READ user.config};
+#LINE quiet {#READ sys.config};
 
-    #CLASS default_config read defaults.config;
-
-    #CLASS config open;
-    #FOREACH {*defaults[%*]} {default}
-    {
-        #IF {&{$default}} {}
-        {
-            #LINE sub {var}
-            {
-                #VAR {$default} {$defaults[$default]};
-            }
-        }
-    }
-    #UNVAR default;
-    #CLASS config write user.config;
-    #CLASS config close;
-
-    #LIST modules create $modules;
-
-    #CLASS default_config kill;
-}
-
-#FUNCTION {has_module}
-{
-    #LIST modules find %1 list_check;
-    #LOCAL check $list_check;
-    #UNVAR list_check;
-    #RETURN $check;
-}
-
-#EVENT {PROGRAM START}
+#FUNCTION {is_out_of_date}
 {
     #INFO system save;
-    #VAR tt_version {$info[SYSTEM][CLIENT_VERSION]};
+    #LOCAL tt_version {$info[SYSTEM][CLIENT_VERSION]};
+    #UNVAR info;
     #REPLACE {tt_version} {.} {};
     #REPLACE {tt_version} {b} {};
     #IF {$tt_version < 20190}
     {
-        #SHOWME <001>Your version of Tintin++ is out of date.;
-        #SHOWME <001>Please upgrade to v2.01.90 or later;
+        #RETURN 1;
     }
     {
-        #LINE quiet {#READ sys.config};
-        load_user_config;
-        #READ utils.tin;
-        #SESSION legendmud mud.legendmud.org 9999;
-    }
-    
-}
-
-#EVENT {SCREEN RESIZE}
-{
-    #NOP Hack to fix the weird behavior in latest version of tintin.;
-    #SPLIT $split_top $split_bottom;
-}
-
-#EVENT {SESSION CONNECTED}
-{
-	#REGEX {%0} {^legendmud$}
-    {
-        #IF {"$autologin" == "true"}
-        {
-            #SEND $login_name;
-            #SEND $login_password;
-        };
-
-        #UNVAR autologin;
-        #UNVAR login_name;
-        #UNVAR login_password;
-
-        #FOREACH {$modules[%*]} {module}
-        {
-            #CLASS {module_$module} {open};
-            #READ modules/$module.tin;
-            #CLASS {module_$module} {close};
-        };
-        #UNVAR module;
-        
-        #DELAY {.25}
-        {
-            #SPLIT $split_top $split_bottom;
-        }
+        #RETURN 0;
     };
 }
 
@@ -93,15 +21,12 @@
     #IF {"%1" == "" || "%1" == "all"}
     {
         #SHOWME \nReloading all modules...;
-        #FOREACH {$modules[%*]} {module}
-        {
-            #CLASS {module_$module} {kill};
-            #CLASS {module_$module} {open};
-            #SHOWME Reloading <069>$module<099>...;
-            #READ modules/$module.tin;
-            #CLASS {module_$module} {close};
-        };
-        #UNVAR module;
+        #LINE quiet {#READ core_module.tin};
+
+        #UNVAR autologin;
+        #UNVAR login_name;
+        #UNVAR login_password;
+
         #SHOWME Reload complete.\n;
     }
     {
@@ -112,42 +37,45 @@
         #CLASS {module_%1} {close};
         #SHOWME Reload complete.\n;
     };
+};
+
+
+
+#EVENT {PROGRAM START}
+{
+    #IF {@is_out_of_date{}}
+    {
+        #SHOWME <001>Your version of Tintin++ is out of date.;
+        #SHOWME <001>Please upgrade to v2.01.90 or later.;
+    }
+    {
+        #SESSION legendmud mud.legendmud.org 9999;
+    };
 }
 
-#PATHDIR          {d}  {u}  {32}
-#PATHDIR          {e}  {w}  {2}
-#PATHDIR          {n}  {s}  {1}
-#PATHDIR          {ne}  {sw}  {3}
-#PATHDIR          {nw}  {se}  {9}
-#PATHDIR          {s}  {n}  {4}
-#PATHDIR          {se}  {nw}  {6}
-#PATHDIR          {sw}  {ne}  {12}
-#PATHDIR          {u}  {d}  {16}
-#PATHDIR          {w}  {e}  {8}
-
-#TICKER           {idle}  {#SEND}  {300}
-
-#ACTION {^Press RETURN to continue.$}
+#EVENT {SESSION CONNECTED}
 {
-	#DELAY {1} {#SEND}
-}
-{5}
+    #LINE quiet {#READ core_module.tin};
+    #IF {"$autologin" == "true"}
+    {
+        #ACTION {{^Enter your choice or the name of your character:}}
+        {
+            #SEND $login_name;
+            #SEND $login_password;
 
-#ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
-{
-	#SEND %2
-}
-{5}
+            #UNVAR autologin;
+            #UNVAR login_name;
+            #UNVAR login_password;
 
-#ALIAS {loadclass %1}
-{
-    #SHOWME Attempting to load classes/%1.tin;
-    #CLASS {%1} {read} {classes/%1.tin};
-}
-
-#ALIAS {killclass %1}
-{
-    #LINE verbose #CLASS {%1} kill;
+            #UNACTION {{^Enter your choice or the name of your character:}}
+        }
+        {5};
+    }
+    {
+        #UNVAR autologin;
+        #UNVAR login_name;
+        #UNVAR login_password;
+    };
 }
 
 #ALIAS {jtform %1}
@@ -165,6 +93,3 @@
         }
     };
 }
-
-#VARIABLE         {MAP_LINES}  {22}
-#VARIABLE         {MAP_ROWS}  {81}
