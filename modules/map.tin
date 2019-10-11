@@ -1,15 +1,42 @@
 #MAP read modules/map/legendmud.map;
 #MAP return;
+#LINE quiet #READ modules/map/map_size.tin;
+#MAP map ${MAP_LINES} ${MAP_ROWS} overwrite modules/map/map.txt;
+
 #READ modules/map/action.tin;
 #READ modules/map/alias.tin;
 
 #MAP FLAG $map_graphics ON;
+#UNVAR map_graphics;
+#MAP offset $screen[panes][$map_pane][y1] $screen[panes][$map_pane][x1] $screen[panes][$map_pane][y2] $screen[panes][$map_pane][x2];
 #MAP FLAG vtmap $map_vtmap;
 
 #EVENT {MAP ENTER ROOM}
 {
     #LINE quiet #READ modules/map/map_size.tin;
     #MAP map ${MAP_LINES} ${MAP_ROWS} overwrite modules/map/map.txt;
+}
+
+#EVENT {MAP UPDATED VTMAP}
+{
+    #NOP draw room info;
+    #MAP get all room_vars;
+
+    #MATH map_info_line {$screen[panes][$map_pane][y2] - 2};
+    #FORMAT map_info_text {%s} {  <039>$room_vars[area]<099>};
+    #DRAW tile $map_info_line $screen[panes][$map_pane][x1] $map_info_line $screen[panes][$map_pane][x2] $map_info_text;
+
+    #MATH map_info_line {$map_info_line + 1};
+    #FORMAT map_info_text {%s} {  <169>[<fca>$room_vars[vnum]<169>] <129>$room_vars[name]<099>};
+    #IF {"$room_vars[note]" != ""}
+    {
+        #FORMAT map_info_text {%s %s} {$map_info_text} {<169>(<fca>$room_vars[note]<169>)<099>};
+    };
+    #DRAW tile $map_info_line $screen[panes][$map_pane][x1] $map_info_line $screen[panes][$map_pane][x2] $map_info_text;
+
+    #UNVAR map_info_line;
+    #UNVAR map_info_text;
+    #UNVAR room_vars;
 }
 
 #EVENT {MAP DOUBLE-CLICKED MOUSE BUTTON ONE}
@@ -23,13 +50,13 @@
     #MAP at %0 {#MAP get all room_vars};
     #IF {"$room_vars[note]" != ""}
     {
-        #VAR note {Nickname: <fca>($room_vars[note]) };
+        #VAR note {<169>(<fca>$room_vars[note]<169>)<099>};
     }
     {
         #VAR note {};
     }
-    #SHOWME {\n<129>$room_vars[name] <179>-<129> $room_vars[area]};
-    #SHOWME {<169>Vnum: <fca>%0<169>   $note};
+    #SHOWME {\n<039>$room_vars[area]};
+    #SHOWME {<169>[<fca>%0<169>] <129>$room_vars[name] $note\n};
     #UNVAR room_vars;
     #UNVAR note;
 }
@@ -39,13 +66,13 @@
     #MAP at %0 {#MAP get all room_vars};
     #IF {"$room_vars[note]" != ""}
     {
-        #VAR note {Nickname: <fca>($room_vars[note]) };
+        #VAR note {<169>(<fca>$room_vars[note]<169>)<099>};
     }
     {
         #VAR note {};
     }
-    #SHOWME {\n<129>$room_vars[name] <179>-<129> $room_vars[area]};
-    #SHOWME {<169>Vnum: <fca>%0<169>   $note};
+    #SHOWME {\n<039>$room_vars[area]};
+    #SHOWME {<169>[<fca>%0<169>] <129>$room_vars[name] $note};
     #SHOWME {<179>$room_vars[desc]\n};
     #UNVAR room_vars;
     #UNVAR note;

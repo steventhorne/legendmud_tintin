@@ -13,10 +13,10 @@
 {
     #IF {%1 > %2}
     {
-        #RETURN %1;
+        #RETURN %2;
     }
     {
-        #RETURN %2;
+        #RETURN %1;
     };
 }
 
@@ -37,8 +37,23 @@
 
 #FUNCTION {has_module}
 {
+    #LOCAL list_check {};
     #LIST modules find %1 list_check;
-    #LOCAL check $list_check;
-    #UNVAR list_check;
-    #RETURN $check;
+    #RETURN $list_check;
+}
+
+#FUNCTION {time_start}
+{
+    #FORMAT timers[%1][start] {%U};
+    #RETURN #NOP;
+}
+
+#FUNCTION {time_end}
+{
+    #FORMAT timers[%1][end] {%U};
+    #MATH timers[%1][elapsed] {($timers[%1][end] - $timers[%1][start]) / 1000.000};
+    #SHOWME %1: $timers[%1][elapsed]ms;
+    #UNVAR timers[%1];
+
+    #RETURN #NOP;
 }

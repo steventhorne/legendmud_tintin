@@ -24,8 +24,11 @@
 
 # Overview
 
+![Version v=19.10.0](http://img.shields.io/badge/version-v=2.1.0-brightgreen.svg?style=flat-square) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
 This is an all-in-one package for TinTin++ to play LegendMUD.
 A few of the features include:
+- Automatic updates
 - An autologin system
 - A map with mapping triggers
 - General purpose combat triggers and aliases
@@ -42,11 +45,14 @@ The following features will not work without acquiring my prompt format:
 [Download](https://tintin.sourceforge.io/download.php) and install TinTin++ on your system.
 This package requires you to use at least TinTin++ version 2.01.90.
 
+[Download](https://github.com/steventhorne/legendmud_tintin/releases/latest) the latest release of this package.
+Do not download the repository as it may not be a stable release.
+
 ## Linux {#install-linux}
-Clone this repository to a directory on your system.
+Download the latest release to a directory on your system.
 
 ## Windows {#install-windows}
-Navigate to %APPDATA%\WinTin++\bin and clone this repository to the bin directory.
+Navigate to %APPDATA%\WinTin++\bin and download the latest release to the bin directory.
 The core.tin file should be in the root of the bin directory.
 
 Navigate up to the WinTin++ directory, right click on the WinTin++ shortcut and click properties.

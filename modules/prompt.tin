@@ -1,48 +1,44 @@
-#IF {&{is_startup}}
+#ALIAS {initprompt}
 {
-    #MATH split_bottom {$split_bottom + 3};
-};
+    #SEND prompt format @n @h/@H @m/@M @v/@V @c @p @x @l@$@t @an @g @wc/@wm @L@$CD> @#0 @#1 @#2;
+}
 
 #FUNCTION {display_progress}
 {
-    #LOCAL display {};
     #LOCAL args[perc] {%1};
     #LOCAL args[display] {%2};
     #LOCAL args[length] {%3};
     #LOCAL args[color] {%4};
 
-    #FORMAT display_text {%.$args[length]s} {$args[display]};
-    #FORMAT display_text_len {%L} {$args[display]};
+    #FORMAT args[display] {%.$args[length]s} {$args[display]};
 
     #IF {"$args[color]" == ""}
     {
-        #LOCAL display_color_r {};
-        #LOCAL display_color_g {};
+        #MATH display_color_r {2 * (1 - $args[perc])};
+        #MATH display_color_g {2 * $args[perc]};
 
-        #MATH display_color_r {5 * @clamp{2 * (1 - $args[perc]);0;1} + 65};
-        #FORMAT display_color_r {%a} {$display_color_r};
+        #MATH display_color_r {5 * @clamp{$display_color_r;0;1} + 65};
+        #MATH display_color_g {5* @clamp{$display_color_g;0;1} + 65};
 
-        #MATH display_color_g {5* @clamp{2 * $args[perc];0;1} + 65};
-        #FORMAT display_color_g {%a} {$display_color_g};
-
-        #FORMAT display_color {<%s%sA><aaa>} {$display_color_r} {$display_color_g};
-    }
-    {
-        #VAR display_color {$args[color]};
+        #FORMAT args[color] {<%a%aA><aaa>} {$display_color_r} {$display_color_g};
+        #UNVAR display_color_r;
+        #UNVAR display_color_g;
     };
 
+    #FORMAT display_text_len {%L} {$args[display]};
     #MATH display_text_pre {(($args[length] + 1) - $display_text_len) / 2 + $display_text_len};
-    #FORMAT display_text {%+${display_text_pre}s} {$display_text};
-    #FORMAT display_text {%-$args[length]s} {$display_text};
+    #FORMAT args[display] {%+${display_text_pre}s} {$args[display]};
+    #FORMAT args[display] {%-$args[length]s} {$args[display]};
     #UNVAR display_text_pre;
-    #UNVAR display_text_post;
+    #UNVAR display_text_len;
 
     #LOCAL i 0;
-    #PARSE {$display_text} {display_text_char}
+    #LOCAL display {};
+    #PARSE {$args[display]} {display_text_char}
     {
         #IF {$i < $args[perc]}
         {
-            #FORMAT display {%s%c%s} {$display} {$display_color} {$display_text_char};
+            #FORMAT display {%s%c%s} {$display} {$args[color]} {$display_text_char};
         }
         {
             #FORMAT display {%s%c%s} {$display} {<099><G04>} {$display_text_char};
@@ -51,10 +47,7 @@
         #MATH i {$i + (1.00/$args[length])};
     };
     #FORMAT display {%s%c} {$display} {<099>};
-    #UNVAR display_text;
-    #UNVAR display_color;
     #UNVAR display_text_char;
-    #UNVAR display_text_len;
 
     #RETURN $display;
 }
@@ -72,22 +65,23 @@
 
     #IF {@has_module{map}}
     {
-        #LINE strip #VARIABLE room_area %4;
-        #IF {"$editmap" == "true"}
+        #IF {"$editmap" == "true" && &{prompt[area]}}
         {
-            #MAP set {roomarea} {$room_area};
+            #MAP set {roomarea} {$prompt[area]};
         };
     };
+
+    #DRAW tile -2 1 1 $screen[scroll][x2] $prompt1;
+    #UNVAR prompt1;
+
+    #LINE gag;
 }
 {2}
-#PROMPT {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:\e\[[\;\d]{4,6}m([\w\-\']+)\e\[[\;\d]{4,6}m}}
-{
-    ${prompt1}
-}
-{-2}
 
-#ACTION {~{\e\[[\;\d]{4,6}m([\w\-\']+)\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/(\e\[[\;\d]{4,6}m)([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\-\d]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\w+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m}}
+#ACTION {~{\e\[[\;\d]{4,6}m([\w\-\']+)\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/(\e\[[\;\d]{4,6}m)([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\-\d]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([A-Za-z!]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m}}
 {
+    #NOP @time_start{Prompt 2};
+
     #VAR prompt[name] %2;
     #VAR prompt[hp] %3;
     #VAR prompt[color] %4;
@@ -117,6 +111,7 @@
     #LOCAL next_xp {};
     #LOCAL perc_xp {};
     #LOCAL display_perc_xp {};
+    #LOCAL display_tnl_xp {};
     #IF {$prompt[lvl] < 50}
     {
         #IF {$prompt[lvl] == 1}
@@ -137,24 +132,23 @@
     #MATH prompt[tnl] {$next_xp - $prompt[xp]};
     #MATH display_perc_xp {$perc_xp * 100};
     #FORMAT display_perc_xp {%d} {$display_perc_xp};
-    #VAR prompt[xp_gauge] @display_progress{$perc_xp;$prompt[tnl] (${display_perc_xp}%);20;<AFA><aaa>};
+    #FORMAT display_tnl_xp {%g} {$prompt[tnl]};
+    #VAR prompt[xp_gauge] @display_progress{$perc_xp;${display_tnl_xp} (${display_perc_xp}%);20;<AFA><aaa>};
 
     #FORMAT prompt2 {%s} {$prompt[name]  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]$prompt[ac]<099>  $prompt[pos]  TNL:$prompt[xp_gauge]};
+
+    #DRAW tile -3 1 1 $screen[scroll][x2] $prompt2;
+    #UNVAR prompt2;
+
+    #NOP @time_end{Prompt 2};
+
+    #LINE gag;
 }
 {2}
-#PROMPT {~{\e\[[\;\d]{4,6}m([\w\-\']+)\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\-\d]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\w+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m}}
-{
-    ${prompt2}
-}
-{-3}
 
 #ACTION {~{^CD>\s(.*)}}
 {
-    #VAR prompt3 {%2};
+    #LINE gag;
+    #DRAW tile -4 1 1 $screen[scroll][x2] %2;
 }
 {2}
-#PROMPT {~{^CD>\s(.*)}}
-{
-    ${prompt3}
-}
-{-4}

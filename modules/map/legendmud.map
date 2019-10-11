@@ -2,7 +2,7 @@ C 50000
 
 V 2020
 
-CAVOID <118>
+CAVOID <018>
 CBACKGROUND <099>
 CEXITS <278>
 CHIDE 
@@ -12,11 +12,11 @@ CROOMS <178>
 CSYMBOLS 
 CUSER <258>
 
-F 273
+F 275
 
 G 0
 
-I 278
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -397,7 +397,7 @@ E {  128} {s} {s} {4} {0} {} {1.000}
 R {   43} {0} {<039>} {The East India Company Office} {B} {This small anteroom is the place where tea is weighed, cargo manifests examined, and bank balances adjusted. The East India Company maintains its chokehold over the Orient sea trade from this room, where goods from China and Bengal are brought to be sold. There are countless tables with weights and measures, clerks running back and forth, and huge ledgers keeping track of all transactions.} {London Port } {clerk} {} {} {1.000}
 E {   42} {s} {s} {4} {0} {} {1.000}
 
-R {   44} {0} {<169>} {On the Docks} {W} {South of you spreads the English Channel, the passageway to limitless opportunities and impractical dreams. More prosaically, to the north of you is the Harbormaster's office. Berth 1 lies immediately to the south, reserved for ships travelling to America. The docks end here, as a creaking old warehouse juts out almost into the water. Rot has crept up its wooden sides, and you can hardly see the trademark that was once painted on the wall, a reminder of the fortunes made and lost in the Orient: The South Seas Bubble (?) Company.} {London Port } {} {} {} {1.000}
+R {   44} {0} {<069>} {On the Docks} {W} {South of you spreads the English Channel, the passageway to limitless opportunities and impractical dreams. More prosaically, to the north of you is the Harbormaster's office. Berth 1 lies immediately to the south, reserved for ships travelling to America. The docks end here, as a creaking old warehouse juts out almost into the water. Rot has crept up its wooden sides, and you can hardly see the trademark that was once painted on the wall, a reminder of the fortunes made and lost in the Orient: The South Seas Bubble (?) Company.} {London Port } {} {} {} {1.000}
 E {   38} {e} {e} {2} {0} {} {1.000}
 E {   45} {n} {n} {1} {0} {} {1.000}
 E {  104} {s} {s} {4} {0} {} {1.000}
@@ -475,7 +475,7 @@ E {   59} {n} {n} {1} {0} {} {1.000}
 E {   61} {e} {open e;e} {2} {0} {} {1.000}
 E {  681} {s} {s} {4} {0} {} {1.000}
 
-R {   61} {0} {<029>} {Cafe de la Paix} {I} {The smell of baking bread and brewing coffee greets you as you enter this small streetside cafe. The patrons here are spread throughout the shop, from the quiet couples in the corners to the rowdy and boisterous people on the streetside. Turning southward gives the reason for this cafe as your eyes gaze upon the magnificent Place de L'Opera, and the grand opera house it contains. The sight gives you pause as you gaze in awe at this grand spectacle before you, surely the most magnificent structure you have ever seen.} {Paris Theatre } {cafe} {} {} {1.000}
+R {   61} {0} {<029>} {Cafe de la Paix} {I} {The smell of baking bread and brewing coffee greets you as you enter this small streetside cafe. The patrons here are spread throughout the shop, from the quiet couples in the corners to the rowdy and boisterous people on the streetside. Turning southward gives the reason for this cafe as your eyes gaze upon the magnificent Place de L'Opera, and the grand opera house it contains. The sight gives you pause as you gaze in awe at this grand spectacle before you, surely the most magnificent structure you have ever seen.} {Paris Theatre } {paris} {} {} {1.000}
 E {   60} {w} {open w;w} {8} {0} {} {1.000}
 
 R {   62} {0} {} {In Dangerous Waters} { } {The crystal clear, blue-green sea has undergone a transformation and is now a deep aquamarine with flecks of foam from the whitecaps disrupting its surface. The wind has picked up and seems to change direction quickly, as if seeking a way around you.} {Ancient Greece} {} {} {} {1.000}
@@ -536,7 +536,7 @@ E {   72} {n} {open n;n} {1} {0} {} {1.000}
 R {   75} {0} {} {The Casablanca Airport} { } {After a short walk you arrive at the airport. This is where some of the lucky begin their trip to freedom. The plane for Lisbon leaves once a day and there is always a small crowd of the unlucky to see it off, with hope and longing flowing from their eyes. There is one hangar building and a tower along with a few smaller maintenance buildings. The road heads north, back to town.} {Casablanca } {} {} {} {1.000}
 E {   71} {n} {n} {1} {0} {} {1.000}
 
-R {   76} {0} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
+R {   76} {0} {<069>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
 E {   71} {w} {w} {8} {0} {} {1.000}
 E {   77} {s} {open s;s} {4} {0} {} {1.000}
 E {   78} {n} {open n;n} {1} {0} {} {1.000}
@@ -571,7 +571,7 @@ E {   82} {s} {s} {4} {0} {} {1.000}
 E {   84} {w} {open w;w} {8} {0} {} {1.000}
 E {   85} {u} {u} {16} {0} {} {1.000}
 
-R {   84} {0} {} {The Gambling Room} { } {This is the gambling room in Rick's. It is not supposed to be here but the Prefect of Police gets special attention and allows it to remain open. There is only one criteria for entering this room. Does Rick like you? If he doesn't, you don't get in. The rattle of the roulette wheel and the pleas of the craps shooter dance on your eardrums. The players are obviously anxious to win enough money to obtain an exit visa from the chief of police. There is a door to the east.} {Casablanca } {} {} {} {1.000}
+R {   84} {0} {<039>} {The Gambling Room} {B} {This is the gambling room in Rick's. It is not supposed to be here but the Prefect of Police gets special attention and allows it to remain open. There is only one criteria for entering this room. Does Rick like you? If he doesn't, you don't get in. The rattle of the roulette wheel and the pleas of the craps shooter dance on your eardrums. The players are obviously anxious to win enough money to obtain an exit visa from the chief of police. There is a door to the east.} {Casablanca } {} {} {} {1.000}
 E {   83} {e} {open e;e} {2} {0} {} {1.000}
 
 R {   85} {0} {} {Balcony} { } {This balcony affords a nice view of the better part of the dining area. The only door is to the west and is marked 'OFFICE.' A staircase leads down to the dining room.} {Casablanca } {} {} {} {1.000}
@@ -726,7 +726,7 @@ E {  122} {n} {n} {1} {0} {} {1.000}
 E {  199} {w} {w} {8} {0} {} {1.000}
 E { 4224} {s} {open s;s} {4} {0} {} {1.000}
 
-R {  122} {0} {<139>} {First National Bank} {B} {The hard wood floor disappears behind the counter a few feet from the far wall. Bars made of iron reach from the countertop to the ceiling, leaving a small window of sorts for the teller behind it. A sign stands in the doorway, giving the latest currency exchange rate for new travellers to the city.} {1930's Pittsburgh } {} {} {} {1.000}
+R {  122} {0} {<039>} {First National Bank} {B} {The hard wood floor disappears behind the counter a few feet from the far wall. Bars made of iron reach from the countertop to the ceiling, leaving a small window of sorts for the teller behind it. A sign stands in the doorway, giving the latest currency exchange rate for new travellers to the city.} {1930's Pittsburgh } {} {} {} {1.000}
 E {  121} {s} {s} {4} {0} {} {1.000}
 
 R {  123} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -1315,7 +1315,7 @@ E {  261} {w} {w} {8} {0} {} {1.000}
 R {  263} {0} {<029>} {The Dewe Droppe Inn} {I} {Lit only by lanterns and the central fireplace, this inn is dim and smoky. Regardless of the time of day, several of Mistress Quickley's patrons can be found slumped over their ale glasses in various states of inebriation. The fact that most of their food is untouched suggests that Mistress Quickley is better known for her ale than her food. Peering through the haze, you can barely make out a shadowy flight of stairs which lead upward to her outrageously expensive guest rooms. You wonder whether you have enough crowns to secure a straw pallet in the stables....} {Tudor England } {dewe} {} {} {1.000}
 E {  264} {s} {open s;s} {4} {0} {} {1.000}
 
-R {  264} {0} {<169>} {The Inn Yard} {W} {The walls of the surrounding buildings rise high around you. The air is fragrant with the odor of horse manure wafting from the stables. To your right a crowd is gathered around a singer\; in the far left corner, a juggler mesmerizes all with his spinning clubs. Around the edges of the yard are rough wooden tiers in which an audience may sit for the occasional play performed by a traveling troupe of actors. The inn itself lies to the north, its doors open to the traveler and his coins.} {Tudor England } {} {} {} {1.000}
+R {  264} {0} {<069>} {The Inn Yard} {W} {The walls of the surrounding buildings rise high around you. The air is fragrant with the odor of horse manure wafting from the stables. To your right a crowd is gathered around a singer\; in the far left corner, a juggler mesmerizes all with his spinning clubs. Around the edges of the yard are rough wooden tiers in which an audience may sit for the occasional play performed by a traveling troupe of actors. The inn itself lies to the north, its doors open to the traveler and his coins.} {Tudor England } {} {} {} {1.000}
 E {  263} {n} {open n;n} {1} {0} {} {1.000}
 E {  265} {s} {s} {4} {0} {} {1.000}
 
@@ -1497,7 +1497,7 @@ E {  313} {n} {n} {1} {0} {} {1.000}
 R {  305} {0} {<149>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters, such as those that frequent the tavern on Gilbert Way, are among the regulars here. Outsiders are charged three times the going rate for a room as insurance that the innkeeper gets his money. Outsiders have a way of dying before they can pay their full week's rent and are not welcome here.} {Medieval Britain } {salut} {} {} {1.000}
 E {  304} {n} {n} {1} {0} {} {1.000}
 
-R {  306} {0} {<169>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been erected here. Executions are held and well-attended for common thieves and bold poachers. Special festivities are held when a suspected member of the outlaw band is captured. Watling Road continues east to the Castle and west to the gates. Gilbert Lane runs in a north-south direction here crossing the square.} {Medieval Britain } {} {} {} {1.000}
+R {  306} {0} {<069>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been erected here. Executions are held and well-attended for common thieves and bold poachers. Special festivities are held when a suspected member of the outlaw band is captured. Watling Road continues east to the Castle and west to the gates. Gilbert Lane runs in a north-south direction here crossing the square.} {Medieval Britain } {} {} {} {1.000}
 E {  304} {w} {w} {8} {0} {} {1.000}
 E {  314} {n} {n} {1} {0} {} {1.000}
 E {  316} {s} {s} {4} {0} {} {1.000}
@@ -2476,7 +2476,7 @@ R {  539} {0} {} {Climbing On the Wall} { } {You suddenly realize what a precari
 E {  538} {d} {d} {32} {0} {} {1.000}
 E {  540} {u} {u} {16} {0} {} {1.000}
 
-R {  540} {0} {} {The City Walls} { } {This lonely stone walk is all that separates the city from the world outside, a weakening barrier to chaos. Some of the women and children were able to leave at the beginning of the siege, and sneaked out by some method the Franks could not discover. Those who have stayed are resolved to remain here\; to support the soldiers with prayer and hot meals, to care for those sick and aged who were unable to escape, and to maintain honor by protecting the mosque.} {The Crusades } {} {} {} {1.000}
+R {  540} {0} {} {The City Walls} { } {This lonely stone walk is all that separates the city from the world outside, a weakening barrier to chaos. Some of the women and children were able to leave at the beginning of the siege, and sneaked out by some method the Franks could not discover. Those who have stayed are resolved to remain here; to support the soldiers with prayer and hot meals, to care for those sick and aged who were unable to escape, and to maintain honor by protecting the mosque.} {The Crusades} {} {} {} {1.000}
 E {  539} {d} {d} {32} {0} {} {1.000}
 E {  541} {e} {e} {2} {0} {} {1.000}
 E {  545} {n} {n} {1} {0} {} {1.000}
@@ -2525,7 +2525,7 @@ E {  549} {n} {open n;n} {1} {0} {} {1.000}
 R {  551} {0} {} {A Ceramics Workshop} { } {The thick smell of earth fills your nose and lungs as you peer through the dust. The front of the room is lined with baskets and tables full of goods for sale. A table stands at the back, holding works in various stages of progress. You see dark, soft jugs which have been newly formed beside lighter-colored ones, ready for painting. Out the back, you can see several ovens of varying shapes and sizes.} {The Crusades } {} {} {} {1.000}
 E {  549} {s} {open s;s} {4} {0} {} {1.000}
 
-R {  552} {0} {<169>} {A Fountain on the Corner of Sharih' al-Thalj and Sharih' al-Narr} {W} {This ornate fountain is large and looks pleasantly cool and fresh to your travel-worn feet. Children are splashing in the water while their parents bathe in the bath house off to the west. The streets continue in all directions around the fountain.} {The Crusades } {} {} {} {1.000}
+R {  552} {0} {<069>} {A Fountain on the Corner of Sharih' al-Thalj and Sharih' al-Narr} {W} {This ornate fountain is large and looks pleasantly cool and fresh to your travel-worn feet. Children are splashing in the water while their parents bathe in the bath house off to the west. The streets continue in all directions around the fountain.} {The Crusades } {} {} {} {1.000}
 E {  566} {e} {e} {2} {0} {} {1.000}
 E {  553} {s} {s} {4} {0} {} {1.000}
 E {  554} {n} {n} {1} {0} {} {1.000}
@@ -2821,7 +2821,7 @@ E {  614} {s} {s} {4} {0} {} {1.000}
 E {  599} {w} {w} {8} {0} {} {1.000}
 E {  616} {e} {e} {2} {0} {} {1.000}
 
-R {  616} {0} {<169>} {Sirte} {W} {This is a small coastal town on the Gulf of Sidra. A well sits in the center of the street. The people have mostly abandoned the town and the boom of artillery can be heard in the distance.} {WWII North Africa } {} {} {} {1.000}
+R {  616} {0} {<069>} {Sirte} {W} {This is a small coastal town on the Gulf of Sidra. A well sits in the center of the street. The people have mostly abandoned the town and the boom of artillery can be heard in the distance.} {WWII North Africa } {} {} {} {1.000}
 E {  615} {w} {w} {8} {0} {} {1.000}
 E {  617} {s} {s} {4} {0} {} {1.000}
 E {  622} {e} {e} {2} {0} {} {1.000}
@@ -3108,7 +3108,7 @@ E {  682} {e} {e} {2} {0} {} {1.000}
 E {  684} {s} {s} {4} {0} {} {1.000}
 E {  689} {w} {w} {8} {0} {} {1.000}
 
-R {  682} {0} {} {Place de L'Opera} { } {The Avenue ends and you find yourself to the north of the entrance to the grand theatre. The structure towers upwards to the heavens, its domed heights littered with ornate statues and carvings. Two intricately sculpted angels stand at either side of the roof, as if standing guard over the art and richness of the structure. The square itself was obviously constructed with the purpose of housing the theatre and extends about the entire area. Seven avenues radiate outwards from the square before being swallowed up by the city, and you notice what appears to be the main street heading to the west.} {Paris Theatre } {} {} {} {1.000}
+R {  682} {0} {<069>} {Place de L'Opera} {W} {The Avenue ends and you find yourself to the north of the entrance to the grand theatre. The structure towers upwards to the heavens, its domed heights littered with ornate statues and carvings. Two intricately sculpted angels stand at either side of the roof, as if standing guard over the art and richness of the structure. The square itself was obviously constructed with the purpose of housing the theatre and extends about the entire area. Seven avenues radiate outwards from the square before being swallowed up by the city, and you notice what appears to be the main street heading to the west.} {Paris Theatre } {} {} {} {1.000}
 E {  681} {w} {w} {8} {0} {} {1.000}
 E {  683} {s} {s} {4} {0} {} {1.000}
 
@@ -3894,7 +3894,7 @@ E {  173} {s} {s} {4} {0} {} {1.000}
 R {  869} {0} {} {The West Side of the Bay} { } {North and west of you are two berths reserved for shipping--west is where ships on the London leg of the long China trade journey tie up, and north is where ships bound for the South Seas dock. To the east lies the entrance to this gorgeous, crystal blue bay; a bay marred only by the smudge of a town that occupies its north shore.} {Bengal} {} {} {} {1.000}
 E {  173} {e} {e} {2} {0} {} {1.000}
 E {  868} {n} {n} {1} {0} {} {1.000}
-E {  867} {w} {w} {8} {0} {} {1.000}
+E {  867} {w} {w} {8} {1} {} {1.000}
 
 R {  870} {0} {} {On the Docks} { } {A cruel and unusual sight greets your eyes. Some enterprising but evil person has lined up cages worth of animals from the northern jungle and brought them here for display. There are chattering monkeys, a proud but dying kite pining for the skies, and even a Bengal tiger. The entrance to the tiger's cage is directly north of you. The docks lead east and west from here. The glorious blue ocean is south of you, a bay full of clipper ships collecting opium for the China trade.} {Bengal} {} {} {} {1.000}
 E {  177} {e} {e} {2} {0} {} {1.000}
@@ -5651,7 +5651,7 @@ E { 1275} {n} {n} {1} {0} {} {1.000}
 
 R { 1275} {0} {} {Near a Small But Mighty Fortress} { } {You stand on a well-kept white paved road that passes near a large fortress which towers above the tiny beach below. The fortress seems to be constructed of painted wood with a solid stone foundation. A massive dungeon sits in the middle of the fortress, surrounded by rings of thick stone wall. A very narrow stairway to the east spirals up toward the entrance gate of the citadel.} {Medieval Japan } {} {} {} {1.000}
 E { 1274} {s} {s} {4} {0} {} {1.000}
-E { 1276} {n} {n} {1} {0} {} {1.000}
+E { 1276} {n} {n;pause 2p} {1} {0} {} {1.000}
 E { 4482} {e} {e} {2} {0} {} {1.000}
 E { 4819} {w} {w} {8} {0} {} {1.000}
 
@@ -6068,6 +6068,7 @@ E { 6185} {s} {s} {4} {0} {} {1.000}
 R { 1373} {0} {} {On the South Seas} { } {The waters to the north look unusually disturbed--there is surely a treacherous coral reef laying just under the surface of the sea there. The sailing looks smoother to the east and south. West of you is blocked by the distant bulk of the coast of Siam, at these altitudes a dangerous place that does not welcome foreigners.} {Medieval Seas } {} {} {} {1.000}
 E { 1372} {s} {s} {4} {0} {} {1.000}
 E { 1374} {e} {e} {2} {0} {} {1.000}
+E { 7423} {n} {n} {1} {0} {} {1.000}
 
 R { 1374} {0} {} {On the South Seas} { } {A tricky passage this! North and south of you are impassable coral reefs, old enough and mighty enough to be clearly charted, clearly noticeable. You see that one of them has accumulated enough sand to begin growing hardy plants on it. In the centuries before it becomes an island, however, it is still a troublesome hazard to you, forcing you on a narrow channel east and west. You wonder how deadly the reefs must be at their edges, where they are not nearly so visible.} {Medieval Seas } {} {} {} {1.000}
 E { 1373} {w} {w} {8} {0} {} {1.000}
@@ -7373,7 +7374,7 @@ E { 1239} {n} {n} {1} {0} {} {1.000}
 E { 1684} {w} {w} {8} {0} {} {1.000}
 E { 1243} {e} {e} {2} {0} {} {1.000}
 
-R { 1687} {0} {<169>} {A Fenced Off Area} {W} {A rickety wooden fence has been erected in an attempt to keep wildlife from straying into the area. Two large wooden buildings are served by an unremarkable well in the center of the clearing. Children's toys scatter the floor.} {Abilene, Kansas } {} {} {} {1.000}
+R { 1687} {0} {<069>} {A Fenced Off Area} {W} {A rickety wooden fence has been erected in an attempt to keep wildlife from straying into the area. Two large wooden buildings are served by an unremarkable well in the center of the clearing. Children's toys scatter the floor.} {Abilene, Kansas } {} {} {} {1.000}
 E { 1243} {n} {n} {1} {0} {} {1.000}
 E { 1688} {e} {e} {2} {0} {} {1.000}
 E { 1689} {w} {w} {8} {0} {} {1.000}
@@ -7668,7 +7669,7 @@ R { 1758} {0} {} {In the Streets of Uruk} { } {This pathway has been worn by the
 E { 1756} {s} {s} {4} {0} {} {1.000}
 E { 1759} {n} {n} {1} {0} {} {1.000}
 
-R { 1759} {0} {<169>} {By a Deep, Stone Well} {W} {Pulleys and buckets are ordained around the well and used by Uruk's citizens for all tasks requiring fresh water. Animals used in trade such as horses and camels also gather around the well, looking for some shade and fluid.} {Sumer } {} {} {} {1.000}
+R { 1759} {0} {<069>} {By a Deep, Stone Well} {W} {Pulleys and buckets are ordained around the well and used by Uruk's citizens for all tasks requiring fresh water. Animals used in trade such as horses and camels also gather around the well, looking for some shade and fluid.} {Sumer } {} {} {} {1.000}
 E { 1758} {s} {s} {4} {0} {} {1.000}
 E { 1760} {e} {open e;e} {2} {0} {} {1.000}
 E { 1761} {n} {n} {1} {0} {} {1.000}
@@ -8140,7 +8141,7 @@ E { 1868} {s} {s} {4} {0} {} {1.000}
 R { 1866} {0} {<029>} {The Agrabah Camela Inn} {I} {Large arched doorways and windows swagged with light airy fabric, providing the sense of a breeze. Rows and rows of room keys line the wall behind the counter standing before you. Behind the counter, a small sign is posted on the wall. A small door leads to the back where the tenants stay. A door leads out and onto the porch. Occupying the center of the room is a plain wooden table used for meals and a work surface. In the corner, a large collection of multicolored silk cushions has been piled to provide a space for conversation and relaxation.} {Arabian Nights } {asabi} {} {} {1.000}
 E { 1865} {s} {s} {4} {0} {} {1.000}
 
-R { 1867} {0} {<169>} {The Fountain Square} {W} {Here, at the heart of the city, is an obvious gathering place as many citizens come to fill their large pitchers and skins with the precious water gushing forth from the fountain. This square always seems to be busy with people coming and going about their business where roads lead off in all directions.} {Arabian Nights } {} {} {} {1.000}
+R { 1867} {0} {<069>} {The Fountain Square} {W} {Here, at the heart of the city, is an obvious gathering place as many citizens come to fill their large pitchers and skins with the precious water gushing forth from the fountain. This square always seems to be busy with people coming and going about their business where roads lead off in all directions.} {Arabian Nights } {} {} {} {1.000}
 E { 1864} {n} {n} {1} {0} {} {1.000}
 E { 1868} {w} {w} {8} {0} {} {1.000}
 E { 1882} {s} {s} {4} {0} {} {1.000}
@@ -8916,7 +8917,7 @@ R { 2047} {0} {} {Inside the City Gates of Mosul} { } {You have stepped inside a
 E { 2046} {n} {n} {1} {0} {} {1.000}
 E { 2048} {s} {s} {4} {0} {} {1.000}
 
-R { 2048} {0} {<169>} {In the Street Market of Mosul} {W} {The sprawling market continues in all directions. The sellers here are obviously among the more wealthy merchants around. Their goods are exotic and high-quality, and they are dressed in a luxuriant variety of styles and colors.} {The Crusades } {mosul} {} {} {1.000}
+R { 2048} {0} {<069>} {In the Street Market of Mosul} {W} {The sprawling market continues in all directions. The sellers here are obviously among the more wealthy merchants around. Their goods are exotic and high-quality, and they are dressed in a luxuriant variety of styles and colors.} {The Crusades } {mosul} {} {} {1.000}
 E { 2047} {n} {n} {1} {0} {} {1.000}
 E { 2049} {e} {open e;e} {2} {0} {} {1.000}
 E { 2050} {w} {w} {8} {0} {} {1.000}
@@ -9666,7 +9667,7 @@ E { 5401} {w} {open w;w} {8} {0} {} {1.000}
 R { 2227} {0} {<029>} {La Posada} {I} {The atmosphere of this quaint little inn is bright and welcoming, even to the most world-weary traveler. The posada provides a stop over for those traveling back and forth between Madrid and the New World -- those carrying gold and other riches back to the royal court, seeking the favor of the throne. Yes, this little inn has prospered greatly from the influx of gold into Spain.} {The Alhambra } {jose} {} {} {1.000}
 E { 2226} {w} {open w;w} {8} {0} {} {1.000}
 
-R { 2228} {0} {<169>} {The Square of the Virrambla} {W} {This crowded contemporary marketplace was once the scene of Moorish jousts and tournaments. Now, although several shops line the Zacatin, many vendors hawk their wares here in the busy street, aggressively seeking customers, and bodegones de puntapie, or tavern stalls, are plentiful.} {The Alhambra } {} {} {} {1.000}
+R { 2228} {0} {<069>} {The Square of the Virrambla} {W} {This crowded contemporary marketplace was once the scene of Moorish jousts and tournaments. Now, although several shops line the Zacatin, many vendors hawk their wares here in the busy street, aggressively seeking customers, and bodegones de puntapie, or tavern stalls, are plentiful.} {The Alhambra } {} {} {} {1.000}
 E { 2226} {s} {s} {4} {0} {} {1.000}
 E { 2229} {n} {n} {1} {0} {} {1.000}
 
@@ -9709,15 +9710,17 @@ R { 2237} {0} {} {The Port of Callao} { } {Tall masted ships with billowing sail
 E { 2235} {w} {w} {8} {0} {} {1.000}
 E { 3535} {s} {s} {4} {0} {} {1.000}
 
-R { 2238} {0} {} {On the Wine-Dark Sea} { } {Geatland's promontories are to the south, but there is no safe place, no beckoning shore, on which to land. Instead crashing rocks, the graveyards of ships, guard the edges of the water-world. A barrow surmounts the highest peak on the cliffs. Westwards you can sail your way out of this Gothic Sea.} {Beowulf } {} {} {} {1.000}
+R { 2238} {0} {} {On the Wine-Dark Sea} { } {Geatland's promontories are to the south, but there is no safe place, no beckoning shore, on which to land. Instead crashing rocks, the graveyards of ships, guard the edges of the water-world. A barrow surmounts the highest peak on the cliffs. Westwards you can sail your way out of this Gothic Sea.} {Beowulf} {} {} {} {1.000}
 E { 1818} {w} {w} {8} {0} {} {1.000}
 E { 2239} {s} {s} {4} {0} {} {1.000}
 E { 2827} {e} {e} {2} {0} {} {1.000}
+E { 7495} {d} {d} {32} {0} {} {1.000}
 
-R { 2239} {0} {} {On the Wine-Dark Sea} { } {The life-giver, water, flows under your feet, bucking and twirling. Birds, swift seekers, sail over the white caps of the waves that break on the shore to the west, where the hearths of the Geats welcome the wayfarers, the world- walkers who venture upon the paths of oceans.} {Beowulf } {} {} {} {1.000}
+R { 2239} {0} {} {On the Wine-Dark Sea} { } {The life-giver, water, flows under your feet, bucking and twirling. Birds, swift seekers, sail over the white caps of the waves that break on the shore to the west, where the hearths of the Geats welcome the wayfarers, the world- walkers who venture upon the paths of oceans.} {Beowulf} {} {} {} {1.000}
 E { 2238} {n} {n} {1} {0} {} {1.000}
 E { 2241} {w} {w} {8} {0} {} {1.000}
 E { 2826} {e} {e} {2} {0} {} {1.000}
+E { 7492} {d} {d} {32} {0} {} {1.000}
 
 R { 2240} {0} {} {The Pebbled Beach} { } {A swept shore, small rocks and stones, bounds the sea here. East lie the waves, path to seabirds and the fish and home to deep-swimmers. This beach is heart to a Geatish village, land won by the sons of Hygelac. South the meadhall of this great ring-giver stands, its sturdy timbers standing strong, mighty-thewed. A small trail leads along the shore, northwards, along the cliffs and precipices. The main village, homes to the stout souls of the Geats, is west.} {Beowulf } {beowulf} {} {} {1.000}
 E { 2241} {e} {e} {2} {0} {} {1.000}
@@ -9733,7 +9736,7 @@ R { 2242} {0} {} {Hygelac's Mead-Hall} { } {Mighty Hygelac's mead-hall, of timbe
 E { 2240} {n} {n} {1} {0} {} {1.000}
 E { 2243} {s} {s} {4} {0} {} {1.000}
 
-R { 2243} {0} {} {Hygelac's Mead-Hall} { } {Long tables, feast-laden, adorn this warrior's hall. Here the mighty songs are sung, and here the dream of the rood is dreamt when men are moved to think of God. Hearth-fire blazes in a pit at the back, where careful women, bread-bakers, prepare the meals\; and sand lines the floors, small-grained stone, to absorb the fallen wine and blood.} {Beowulf } {} {} {} {1.000}
+R { 2243} {0} {} {Hygelac's Mead-Hall} { } {Long tables, feast-laden, adorn this warrior's hall. Here the mighty songs are sung, and here the dream of the rood is dreamt when men are moved to think of God. Hearth-fire blazes in a pit at the back, where careful women, bread-bakers, prepare the meals; and sand lines the floors, small-grained stone, to absorb the fallen wine and blood.} {Beowulf} {} {} {} {1.000}
 E { 2242} {n} {n} {1} {0} {} {1.000}
 
 R { 2244} {0} {} {Among the Geats} { } {Here the heart of the Geats, the halls and hearths and homes gather around a square of vacant dust. Doorways lead in all directions save east, where the eternally lapping waves touch the shore, entry to the sea-roads. There the foam-necked ships set sail on the swan's road for the lands where the sea currents eddy, sea against sand.} {Beowulf } {} {} {} {1.000}
@@ -10372,12 +10375,12 @@ R { 2399} {0} {} {Sailing on the Mediterranean} { } {A band of wild anchovies da
 E { 3463} {n} {n} {1} {0} {} {1.000}
 E { 2400} {s} {s} {4} {0} {} {1.000}
 
-R { 2400} {0} {} {The Bay of Cape Bon} { } {You pass the impressive cape that hides the bay of Cape Bon. Waters are gentle here and you glide smoothly under the sky, your eye catching the occasional dolphin. To the west, the shore suddenly rises high above the sea. Atop the orange cliffs of sun-dried earth, you see a powerful citadel towering over the ocean. At its feet, a bustling and already famous city, Carthage of the Phoenicians, is under construction.} {Ancient Carthage } {carthage} {} {} {1.000}
+R { 2400} {0} {} {The Bay of Cape Bon} { } {You pass the impressive cape that hides the bay of Cape Bon. Waters are gentle here and you glide smoothly under the sky, your eye catching the occasional dolphin. To the west, the shore suddenly rises high above the sea. Atop the orange cliffs of sun-dried earth, you see a powerful citadel towering over the ocean. At its feet, a bustling and already famous city, Carthage of the Phoenicians, is under construction.} {Ancient Carthage } {} {} {} {1.000}
 E { 2399} {n} {n} {1} {0} {} {1.000}
-E { 2401} {w} {w} {8} {0} {} {1.000}
+E { 2401} {w} {w;enq lift chain} {8} {0} {} {1.000}
 
 R { 2401} {0} {} {A Canal Near Carthage} { } {A large man-made canal directs all kind of boats into Carthage's harbors. The canal ends in a very large circular port where dozens of impressive war vessels wait quietly for Carthage's next campaign. The Mediterranean sea shines under the moon to the east and a heavy iron chain has been tied to columns at harbor's entrance, blocking passage for the night.} {Ancient Carthage } {} {} {} {1.000}
-E { 2400} {e} {e} {2} {0} {} {1.000}
+E { 2400} {e} {e;enq lift chain} {2} {0} {} {1.000}
 E { 2402} {w} {w} {8} {0} {} {1.000}
 
 R { 2402} {0} {} {A Circular Military Harbor} { } {A harbor is being built here by the Carthaginians in a convenient circular lagoon. A tower of considerable height has been built on an island at the very center of the basin where great quays are set at intervals around the island. These embankments are full of shipyards, getting ready to host a formidable fleet of warships and galleys, providing the base for the Carthaginian admiralty.} {Ancient Carthage } {} {} {} {1.000}
@@ -10404,7 +10407,7 @@ E { 2405} {n} {n} {1} {0} {} {1.000}
 E { 2407} {w} {open w;w} {8} {0} {} {1.000}
 E { 2408} {s} {s} {4} {0} {} {1.000}
 
-R { 2407} {0} {<029>} {The Tyrian Pleasures Inn} {I} {Here is the biggest, brand new inn in Carthage. Merchants from all over the Mediterranean sea gather here and make important deals. The main room is small but warm and you can see private cubicles where the most wealthy tradesmen conclude important transactions. The marinated, roasted chickens whet your appetite as they finish cooking in a huge stone fireplace.} {Ancient Carthage } {} {} {} {1.000}
+R { 2407} {0} {<029>} {The Tyrian Pleasures Inn} {I} {Here is the biggest, brand new inn in Carthage. Merchants from all over the Mediterranean sea gather here and make important deals. The main room is small but warm and you can see private cubicles where the most wealthy tradesmen conclude important transactions. The marinated, roasted chickens whet your appetite as they finish cooking in a huge stone fireplace.} {Ancient Carthage } {carthage} {} {} {1.000}
 E { 2406} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 2408} {0} {} {At a Crossroads in the Punic Quarter} { } {You stand at the crossroads of a recently built Phoenician colony. The streets are still filled with mud and dust but it appears that nice buildings are rising among wooden huts. Marble and precious wood have been brought from other Phoenician trade outposts. Already, some villas and public buildings give Carthage the look of an important city. To the south, you see a lovely set of terraces that compose what looks like nice hanging gardens. To the west, the street goes deeper in the Punic quarter where the most important houses have been constructed.} {Ancient Carthage } {} {} {} {1.000}
@@ -10451,7 +10454,7 @@ E { 2417} {w} {w} {8} {0} {} {1.000}
 
 R { 2417} {0} {} {The Temple of Moloch} { } {The canyon ends in a valley where stands a magnificent building supported by enormous columns covered with gold, and formed of a glass-like substance which begins to glitter and sparkle in a curious manner in the dim light of the canyon. Before the bronze gate stands the hideous bull-headed statue of Moloch, with its downward-sloping hands and a fiery furnace at its feet.} {Ancient Carthage } {} {} {} {1.000}
 E { 2416} {e} {e} {2} {0} {} {1.000}
-E { 2418} {w} {unlock statue} {8} {0} {} {1.000}
+E { 2418} {unlock statue} {unlock statue} {0} {0} {} {1.000}
 
 R { 2418} {0} {} {Inside the Temple} { } {The entrance of Moloch Temple is far less decorated than the impressive outside aspects of the building. You stand in a large hall of stone where old carpets have been laid without providing any warm atmosphere to the place. It looks more like a tomb, and if you listened to local legends, that is probably what it was for years before the priests of Moloch settled here.} {Ancient Carthage } {} {} {} {1.000}
 E { 2419} {w} {w} {8} {0} {} {1.000}
@@ -10654,22 +10657,24 @@ R { 2466} {0} {} {Deep in a Darkling Forest} { } {The trees have closed in tight
 E { 3285} {e} {e} {2} {0} {} {1.000}
 E { 2467} {n} {n} {1} {0} {} {1.000}
 
-R { 2467} {0} {} {A Boggy Place in the Forest} { } {The ground has become decidedly wet, and your feet sink in with each tentative step. The trees, heavy with hanging moss, are large and twisted, but fairly well spaced out compared to the thick stand to the south. The ground remains soft but is somewhat firmer to the north, bordering the large marsh, while the land rises to the south.} {Ancient Greece } {} {} {} {1.000}
+R { 2467} {0} {} {A Boggy Place in the Forest} { } {The ground has become decidedly wet, and your feet sink in with each tentative step. The trees, heavy with hanging moss, are large and twisted, but fairly well spaced out compared to the thick stand to the south. The ground remains soft but is somewhat firmer to the north, bordering the large marsh, while the land rises to the south.} {Ancient Greece} {} {} {} {1.000}
 E { 2466} {s} {s} {4} {0} {} {1.000}
 E { 2468} {n} {n} {1} {0} {} {1.000}
 
-R { 2468} {0} {} {Lerna} { } {The land here is slightly elevated compared to the boggy ground south and east of you, allowing the simple huts which make up the village of Lerna to rest firm on their foundations. After a quick look around, you decide the village is empty. You look about for signs that anyone has been here to keep the village in livable shape, but the doors gape open and the unshuttered windows do nothing to keep out the elements. You wonder what could force an entire village to leave in a time of relative peace, with a mighty neighbor such as Mycenae nearby. A massive swamp spreads out to the east, while firmer ground and a wide cartpath lies just to the north of you. Scattered trees herald the beginning of a great forest to the south.} {Ancient Greece } {} {} {} {1.000}
+R { 2468} {0} {} {Lerna} { } {The land here is slightly elevated compared to the boggy ground south and east of you, allowing the simple huts which make up the village of Lerna to rest firm on their foundations. After a quick look around, you decide the village is empty. You look about for signs that anyone has been here to keep the village in livable shape, but the doors gape open and the unshuttered windows do nothing to keep out the elements. You wonder what could force an entire village to leave in a time of relative peace, with a mighty neighbor such as Mycenae nearby. A massive swamp spreads out to the east, while firmer ground and a wide cartpath lies just to the north of you. Scattered trees herald the beginning of a great forest to the south.} {Ancient Greece} {} {} {} {1.000}
 E { 2467} {s} {s} {4} {0} {} {1.000}
 E { 2469} {e} {e} {2} {0} {} {1.000}
 E { 3271} {n} {n} {1} {0} {} {1.000}
 
-R { 2469} {4} {} {Alcyonian Lake} { } {The trackless marsh opens up here, revealing a broad lake. The opposite shore is difficult to spy in the far distance due to the haze that lies over everything in this bleak place. The water just offshore looks too deep to enter and too dark to chance to swim.} {Ancient Greece } {} {} {} {1.000}
-E { 2468} {w} {w} {8} {0} {} {1.000}
-E { 2470} {d} {d} {32} {0} {} {1.000}
+R { 2469} {0} {} {The Lerna Marsh} { } {The Lerna Marsh seems trackless at first glance, but as you walk around a bit you realize that there are paths of a sort through the high grasses and pools of water. Despite its forbidding reputation, the marsh is beautiful in a way; it is serene and overflowing with life. However, the occasional odd odor wafting up from subterranean sources and the slight tickle on the nape of your neck keep you from growing entirely comfortable here. As you explore a bit, you lose track of the time, and realize you are entirely lost! The thick mist and constantly shifting mud make it impossible to follow your own tracks or even someone just a few feet in front of you.} {Ancient Greece} {} {} {} {1.000}
+E { 2468} {w} {#line quiet #var findroom true;w} {8} {0} {} {1.000}
+E { 7496} {e} {#line quiet #var findroom true;e} {2} {0} {} {1.000}
+E { 7497} {s} {#line quiet #var findroom true;s} {4} {0} {} {1.000}
+E { 7498} {n} {#line quiet #var findroom true;n} {1} {4} {} {1.000}
 
 R { 2470} {0} {} {Under the Alcyonian Lake} { } {Deep, deep, deep into the murky depths you plunge.... Just when you think the lake must be bottomless you spy an area below you that is darker than the dark water around you.} {Ancient Greece } {} {} {} {1.000}
-E { 2469} {u} {u} {16} {0} {} {1.000}
 E { 2471} {d} {d} {32} {0} {} {1.000}
+E { 7497} {u} {u} {16} {0} {} {1.000}
 
 R { 2471} {0} {} {At the Bottom of the Lake} { } {Just when you think the lake must be bottomless, you spy an area below you that is darker than the dark water around you. Columns ornament the entrance of a deep cave, the fabled gate to the Underworld, where Hades holds sway.} {Tartarus } {} {} {} {1.000}
 E { 2470} {u} {u} {16} {0} {} {1.000}
@@ -10973,7 +10978,7 @@ E { 1168} {leap} {leap} {0} {0} {} {1.000}
 R { 2542} {0} {} {In the Land of Skatha} { } {A vast flat expanse of ground is torn to shreds. Small holes in the ground where spears have placed their points make you stumble and falter as you walk amongst the short stalks of green. A harsh wind blows across the plain sweeping with it the warcries of the warriors who are casting their spears in the distance.} {Land of Shadows } {} {} {} {1.000}
 E { 2540} {e} {e} {2} {0} {} {1.000}
 E { 2544} {n} {n} {1} {0} {} {1.000}
-E { 2545} {s} {s} {4} {0} {} {1.000}
+E { 2545} {s} {s} {4} {1} {} {1.000}
 
 R { 2543} {0} {} {In the Land of Skatha} { } {Rolling hills, trees cluttering the tops of small mountains provide hiding places for the warriors to train in their vicious ambushes. You pass a stain of blood on the ground that turns the green grass almost a black color. Traces lead off to the south. Perhaps that unlucky warrior got away.} {Land of Shadows } {} {} {} {1.000}
 E { 2540} {s} {s} {4} {0} {} {1.000}
@@ -10986,7 +10991,7 @@ E { 2542} {s} {s} {4} {0} {} {1.000}
 
 R { 2545} {0} {} {In the Land of Skatha} { } {The center of this large field rises up in a great mound. Green grass giving way to bare earth as it rises up before you, you conclude quickly that this must either be one of the legendary mounds of the faerie-folk or a rather large burial mound.} {Land of Shadows } {} {} {} {1.000}
 E { 2540} {n} {n} {1} {0} {} {1.000}
-E { 2542} {w} {w} {8} {0} {} {1.000}
+E { 2542} {w} {w} {8} {1} {} {1.000}
 
 R { 2546} {0} {} {Near a Cave} { } {A narrow trail bends southward and westward along the side of a large mountain that protrudes majestically toward the sky. The sheer rockface looks entirely unmanageable. A dark patch catches your eye, first you think it might be a large shadow cast by one of the huge rocks that intrude on the trail, but you realize that the gaping jaws of the mountain open up.} {Land of Shadows } {} {} {} {1.000}
 E { 2571} {s} {s} {4} {0} {} {1.000}
@@ -11371,7 +11376,7 @@ E { 2643} {n} {n} {1} {0} {} {1.000}
 E { 2647} {s} {s} {4} {0} {} {1.000}
 E { 2649} {w} {open w;w} {8} {0} {} {1.000}
 
-R { 2640} {0} {<169>} {The Forum} {W} {This wide, open-air courtyard is used as a gathering place for the town. A fountain dedicated to Minerva dominates the center of the forum, and posts with notices and flyers tacked to them are scattered here and there about the place. Several low benches provide a place for a moment's respite. The great thermae of Aquae Sulis open to the south, and a theatre lies just north of you.} {Roman Britain } {} {} {} {1.000}
+R { 2640} {0} {<069>} {The Forum} {W} {This wide, open-air courtyard is used as a gathering place for the town. A fountain dedicated to Minerva dominates the center of the forum, and posts with notices and flyers tacked to them are scattered here and there about the place. Several low benches provide a place for a moment's respite. The great thermae of Aquae Sulis open to the south, and a theatre lies just north of you.} {Roman Britain } {} {} {} {1.000}
 E { 2643} {s} {s} {4} {0} {} {1.000}
 E { 2641} {e} {e} {2} {0} {} {1.000}
 E { 2646} {n} {open n;n} {1} {0} {} {1.000}
@@ -12145,14 +12150,16 @@ R { 2825} {0} {} {The House of Amphitryon} { } {This simple house is the abode o
 E { 2824} {e} {open e;e} {2} {0} {} {1.000}
 E { 3329} {s} {s} {4} {0} {} {1.000}
 
-R { 2826} {0} {} {On the Wine-Dark Sea} { } {East of you the land of the Scyldings, the Danes, Ing's friends, rises from the waters. It was there that the Scylds defeated the Jutes, Frisians who fought at Finnsburg, and earned their Heorot, grand mead-hall. There is no place to make landing, unless you search the coast, stern guardian of the shores, to the north.} {Beowulf } {} {} {} {1.000}
+R { 2826} {0} {} {On the Wine-Dark Sea} { } {East of you the land of the Scyldings, the Danes, Ing's friends, rises from the waters. It was there that the Scylds defeated the Jutes, Frisians who fought at Finnsburg, and earned their Heorot, grand mead-hall. There is no place to make landing, unless you search the coast, stern guardian of the shores, to the north.} {Beowulf} {} {} {} {1.000}
 E { 2239} {w} {w} {8} {0} {} {1.000}
 E { 2827} {n} {n} {1} {0} {} {1.000}
+E { 7493} {d} {d} {32} {0} {} {1.000}
 
-R { 2827} {0} {} {On the Wine-Dark Sea} { } {Water courses beneath you, a swift road under the clouds. In the deep the behemoths swim, the great-fish who course through the deep roads in the darkness. To the north of you the cliffs of the land of the Scyldings, the children of Healfdene, rise from the waters, sturdy and rock-strong.} {Beowulf } {} {} {} {1.000}
+R { 2827} {0} {} {On the Wine-Dark Sea} { } {Water courses beneath you, a swift road under the clouds. In the deep the behemoths swim, the great-fish who course through the deep roads in the darkness. To the north of you the cliffs of the land of the Scyldings, the children of Healfdene, rise from the waters, sturdy and rock-strong.} {Beowulf} {} {} {} {1.000}
 E { 2826} {s} {s} {4} {0} {} {1.000}
 E { 2238} {w} {w} {8} {0} {} {1.000}
 E { 2828} {n} {n} {1} {0} {} {1.000}
+E { 7494} {d} {d} {32} {0} {} {1.000}
 
 R { 2828} {0} {} {The Land of the Scyldings} { } {Water crashes on the sharp rocks, eaters of ships, that guard the coast. Here the beach provides little to comfort the wayfarer, only dreary sand ground down by waves' insistence. Fens, treacherous softened country, line the sides of the beach, where the cliffs reach down to the water and the moors give into mud. A trail, path cut by weary feet, leads into the fertile ground, the home of the Bright-Danes, the children of Scyld.} {Beowulf } {} {} {} {1.000}
 E { 2827} {s} {s} {4} {0} {} {1.000}
@@ -12918,10 +12925,12 @@ E { 3007} {w} {w} {8} {0} {} {1.000}
 R { 3009} {0} {} {A Dusty Trail} { } {To the north, the towering adobe walls of the Presidio loom over you gloomily, and the hustle of the city lies to the south. San Francisco, where hundreds of people pour into town hoping to make their fortunes ever since gold was discovered, where anything can be had for a price and fortunes are made and lost in a day.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 3005} {s} {s} {4} {0} {} {1.000}
 E { 3010} {n} {n} {1} {0} {} {1.000}
+E { 5651} {w} {w} {8} {1} {} {1.000}
 
-R { 3010} {0} {} {Entrance to the Presidio} { } {Iron-bound rough-hewn doors block the entrance to this old Spanish fort. Looking closely at the adobe walls, you can discern many nicks and scorch marks and it's obvious these walls have withstood the attacks of many attempted raiders. A dusty trail leads south and east from the entrance.} {Gold Rush San Francisco } {} {} {} {1.000}
+R { 3010} {0} {} {Entrance to the Presidio} { } {Iron-bound rough-hewn doors block the entrance to this old Spanish fort. Looking closely at the adobe walls, you can discern many nicks and scorch marks and it's obvious these walls have withstood the attacks of many attempted raiders. A dusty trail leads south and east from the entrance.} {Gold Rush San Francisco} {} {} {} {1.000}
 E { 3009} {s} {s} {4} {0} {} {1.000}
 E { 3011} {e} {e} {2} {0} {} {1.000}
+E { 7425} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 3011} {0} {} {Near the Presidio} { } {The Presidio is situated to the west at the end of a well travelled dusty trail. Another trail branches off and leads eastwards to the beach. Small buildings can be seen far to the south and the cry of gulls can be heard as they soar inland from the bay and shore.} {Gold Rush San Francisco } {} {} {} {1.000}
 E { 3010} {w} {w} {8} {0} {} {1.000}
@@ -14010,7 +14019,7 @@ R { 3270} {0} {} {An Olive Grove} { } {Neat rows of olive trees grace this arbor
 E { 3269} {e} {e} {2} {0} {} {1.000}
 E { 2460} {n} {n} {1} {0} {} {1.000}
 
-R { 3271} {0} {} {A Washed-Out Road} { } {The road is nearly washed out here in the low rocky foothills between Tiryns and Lerna. Loose shale and sandy earth slip underneath your tread as you try to avoid slipping off what is left of the track.} {Ancient Greece } {} {} {} {1.000}
+R { 3271} {0} {} {A Washed-Out Road} { } {The road is nearly washed out here in the low rocky foothills between Tiryns and Lerna. Loose shale and sandy earth slip underneath your tread as you try to avoid slipping off what is left of the track.} {Ancient Greece} {} {} {} {1.000}
 E { 2468} {s} {s} {4} {0} {} {1.000}
 E { 3272} {n} {n} {1} {0} {} {1.000}
 
@@ -14379,7 +14388,7 @@ E { 3361} {e} {e} {2} {0} {} {1.000}
 
 R { 3361} {0} {} {Hikuptah, the City of the Living} { } {You stand at the main intersection of the city that once ruled supreme over the houses of Upper and Lower Egypt. An administrative palace lies to the north, its massive doors shut, slowly decaying from neglect as the governmental center of Egypt moved away, first to Thebes in Upper Egypt and more recently to the Pharaoh Akhenaten's new city Akhetaten. The once awe-inspiring palace entrance would probably cave in if you pushed hard on it, and indeed it looks like people may have slipped in this way, either to loot or to camp. Despite the palace's neglect, Hikuptah retains pride of place as the ancient capital of Egypt, and mail is still regularly picked up from the dispatch box attached to the palace wall. The city is now a haven for priests and citizens still devoted to the old gods, whose temples lie to the south. To the east you can shop in the mouski.} {Ancient Egypt } {} {} {} {1.000}
 E { 3360} {w} {w} {8} {0} {} {1.000}
-E { 3362} {n} {push crack} {1} {0} {} {1.000}
+E { 3362} {n} {enq push crack} {1} {0} {} {1.000}
 E { 3363} {s} {s} {4} {0} {} {1.000}
 E { 3372} {e} {e} {2} {0} {} {1.000}
 
@@ -15161,8 +15170,9 @@ E { 3542} {n} {n} {1} {0} {} {1.000}
 E { 3543} {e} {e} {2} {0} {} {1.000}
 E { 5627} {s} {s} {4} {0} {} {1.000}
 
-R { 3542} {0} {} {A Cathedral} { } {Arching ceilings and carefully carved wooden pews are drenched in the light that dazzles you, reflected off the gold leaf and the gilt walls, the stained glass and the jeweled statuary. The bishopric here is a very rich one, for the country is rich\; but it too has its dark secrets: you can see a trap door half hidden under an ancient woven mat with glorious but faded colors.} {Viceroyal Lima } {} {} {} {1.000}
+R { 3542} {0} {} {A Cathedral} { } {Arching ceilings and carefully carved wooden pews are drenched in the light that dazzles you, reflected off the gold leaf and the gilt walls, the stained glass and the jeweled statuary. The bishopric here is a very rich one, for the country is rich\; but it too has its dark secrets: you can see a trap door half hidden under an ancient woven mat with glorious but faded colors.} {Viceroyal Lima} {} {} {} {1.000}
 E { 3541} {s} {s} {4} {0} {} {1.000}
+E { 7424} {d} {d} {32} {0} {} {1.000}
 
 R { 3543} {0} {} {La Alameda Meets La Avenida} { } {One of the loveliest streets in Old Lima, the Alameda leads its way south here, breaking off from the increasingly unappetizing sections of Old Lima. South of you it crosses a bridge over a gorge overgrown with trees and plants, with a burbling river running deep in its depths. The Avenida continues into the narrow streets of Old Lima to the east\; west seems to be an open area. A sign of the encroaching decadence is the tavern north of you.} {Viceroyal Lima } {} {} {} {1.000}
 E { 3541} {w} {w} {8} {0} {} {1.000}
@@ -15702,6 +15712,7 @@ E { 3668} {n} {n} {1} {0} {} {1.000}
 
 R { 3672} {0} {} {In a Small Clearing} { } {A small clearing has formed here at the banks of a shallow creek. Several burnt patches on the ground indicate that this is a commonly used camping spot, but by whom you're not sure - it's certainly cleaner than most camp sites you've seen along the road. The stream runs crystal clear, and looks extremely refreshing. The main road lies south of you, and the bush looks impenetrable in every other direction.} {Gold Rush Melbourne } {} {} {} {1.000}
 E { 2966} {s} {s} {4} {0} {} {1.000}
+E { 7419} {ask leader elder} {enq ask leader elder} {0} {0} {} {1.000}
 
 R { 3673} {0} {} {Decontamination Center} { } {Before you can make your way to the docks, you get sidetracked into a large room. Several orderlies bustle about here asking soldiers to remove their clothes and step through a shower after being deloused. When they are finished they receive a clean uniform.} {Somme, France } {} {} {} {1.000}
 E { 3019} {e} {e} {2} {0} {} {1.000}
@@ -16213,7 +16224,7 @@ E { 3792} {n} {n} {1} {0} {} {1.000}
 E { 3793} {w} {w} {8} {0} {} {1.000}
 E { 7397} {s} {s} {4} {1} {} {1.000}
 
-R { 3792} {0} {<169>} {A Stone Well} {W} {A mound of large rocks surrounds a large hole in the ground here. An iron handle comes off of a pulley enabling anyone to bring up the bucket that sits in the water below. Smaller buckets set along the side of the stones on the ground.} {17th Century Salem } {} {} {} {1.000}
+R { 3792} {0} {<069>} {A Stone Well} {W} {A mound of large rocks surrounds a large hole in the ground here. An iron handle comes off of a pulley enabling anyone to bring up the bucket that sits in the water below. Smaller buckets set along the side of the stones on the ground.} {17th Century Salem } {} {} {} {1.000}
 E { 3791} {s} {s} {4} {0} {} {1.000}
 
 R { 3793} {0} {} {West Ipswich Street} { } {This road seems a lot quieter than the others in town. There is a soft breeze coming from the ocean. A few buildings line this end of the street. An old-looking building to the south seems to be some sort of store. You hear the echo of the chimes above the door as villagers enter and leave at quick paces.} {17th Century Salem } {} {} {} {1.000}
@@ -16680,7 +16691,7 @@ E { 3907} {w} {w} {8} {0} {} {1.000}
 E { 3905} {e} {e} {2} {0} {} {1.000}
 E { 3906} {n} {n} {1} {0} {} {1.000}
 
-R { 3905} {0} {} {A Clearing in Front of a Great Long House} { } {You stand in a clearing, hard-traversing swamp lies just to the west. The door to a sizable long house opens south of you, shaded by a large willow tree. Looking at the surrounding area, you are surprised at the location of the house, so desolate is the area. A quietness looms in the area and a sense of dread begins to overtake your senses. You wonder whether it is wise to attempt to explore the bark-covered house, which appears from the outside to be empty.} {French Indian War } {} {} {} {1.000}
+R { 3905} {0} {} {A Clearing in Front of a Great Long House} { } {You stand in a clearing, hard-traversing swamp lies just to the west. The door to a sizable long house opens south of you, shaded by a large willow tree. Looking at the surrounding area, you are surprised at the location of the house, so desolate is the area. A quietness looms in the area and a sense of dread begins to overtake your senses. You wonder whether it is wise to attempt to explore the bark-covered house, which appears from the outside to be empty.} {French Indian War } {longhouse} {} {} {1.000}
 E { 3904} {w} {w} {8} {0} {} {1.000}
 E { 5639} {s} {open s;s} {4} {0} {} {1.000}
 
@@ -17898,14 +17909,14 @@ E { 4198} {w} {w} {8} {0} {} {1.000}
 E { 4200} {s} {s} {4} {0} {} {1.000}
 
 R { 4197} {0} {} {The End of a Line} { } {As you look south and west you can see parallel lines traced in the sand, like the feathers of some giant bird. The path you came on curved slightly, so that to retrace your steps you'd have to walk west.} {Ancient Nazca } {} {} {} {1.000}
-E { 4196} {w} {w} {8} {0} {} {1.000}
+E { 4196} {w} {w} {8} {1} {} {1.000}
 
 R { 4198} {0} {} {At A Right Angle} { } {The pebbled line you were following here makes a sharp right angle, leading north and east. You can see that the eastern line has several side paths leading north from it. From here, south of some dunes, the lines crossing the desert look like parallel furrows dug by some giant hand.} {Ancient Nazca } {} {} {} {1.000}
 E { 4196} {e} {e} {2} {0} {} {1.000}
 E { 4199} {n} {n} {1} {0} {} {1.000}
 
 R { 4199} {0} {} {The End of a Line} { } {South and east of you stretches out a design you can see from this vantage as a giant bird drawn in the sand. A road cuts right through the middle of it east of you, as if the builders had not been aware of its presence. The path you took curved slightly, so to retrace your steps you'd have to walk west.} {Ancient Nazca } {} {} {} {1.000}
-E { 4198} {w} {w} {8} {0} {} {1.000}
+E { 4198} {w} {w} {8} {1} {} {1.000}
 
 R { 4200} {0} {} {By A Foot} { } {Here the designs drawn in the sand are more detailed and easier to make out. You fancy that the pebbles form giant bird claws. You could walk northwards towards the body, faintly visible in the sands, or west, where you think you hear ocean waves.} {Ancient Nazca } {} {} {} {1.000}
 E { 4196} {n} {n} {1} {0} {} {1.000}
@@ -18524,7 +18535,7 @@ E { 4350} {s} {s} {4} {0} {} {1.000}
 E { 4352} {e} {e} {2} {0} {} {1.000}
 E { 4841} {w} {w} {8} {0} {} {1.000}
 
-R { 4350} {0} {<169>} {Before a Grey Marble Fountain} {W} {A sharp cliff abruptly marks the end of the city of Carthage. At its bottom, a beautiful marble fountain is being sculpted, fresh water from the nearby cistern already runs from it. At the top of the cliff, you can spot the banners of the Byrsa Citadel, home of Queen Dido. Behind you, a street runs down to the harbor through a maze of little shops and gardens.} {Ancient Carthage } {} {} {} {1.000}
+R { 4350} {0} {<069>} {Before a Grey Marble Fountain} {W} {A sharp cliff abruptly marks the end of the city of Carthage. At its bottom, a beautiful marble fountain is being sculpted, fresh water from the nearby cistern already runs from it. At the top of the cliff, you can spot the banners of the Byrsa Citadel, home of Queen Dido. Behind you, a street runs down to the harbor through a maze of little shops and gardens.} {Ancient Carthage } {} {} {} {1.000}
 E { 4349} {n} {n} {1} {0} {} {1.000}
 E { 4351} {w} {open w;w} {8} {0} {} {1.000}
 
@@ -19185,8 +19196,8 @@ E { 4807} {n} {n} {1} {0} {} {1.000}
 
 R { 4510} {0} {} {The Village of Nikko} { } {The small village of Nikko resides at the foot of taller mountains to the west. The village was born to host workers and visitors to the nearby sacred shrines hiding in the forested hills to the north.} {Medieval Japan Expansion } {} {} {} {1.000}
 E { 4509} {e} {e} {2} {0} {} {1.000}
-E { 4814} {gate} {enq ask elder toshogu} {0} {0} {} {1.000}
-E { 4814} {ask elder toshogu} {enq ask elder toshogu} {0} {0} {} {1.000}
+E { 4814} {gate} {enq ask elder toshogu;pause 1s} {0} {0} {} {1.000}
+E { 4814} {ask elder toshogu} {enq ask elder toshogu;pause 1s} {0} {0} {} {1.000}
 
 R { 4511} {0} {} {On a Road Through Dodan Trees} { } {The Tokaido approaches a range of rounded mountains, rising up over the clouds ahead of you, where it appears to float. Along the road, several Dodan trees grow wild on the slopes of the mountain. They bear pretty, bell-shaped white flowers where the mountain turns fresh green, or decorate the mountain slope with an astonishingly beautiful red.} {Medieval Japan } {} {} {} {1.000}
 E { 1279} {w} {w} {8} {0} {} {1.000}
@@ -19207,7 +19218,7 @@ E { 4515} {e} {e} {2} {0} {} {1.000}
 R { 4515} {0} {} {The Hakone Seki Outpost} { } {Caravans, merchants and travelers line up before a heavily guarded checkpoint built across the Tokaido road at the foot of the Hakone mountains. To the east lies the rich Kanto region and the important city of Edo which protects itself by restricting and controlling access on the Tokaido. This seki is filled with many bushi who intensively question all travelers before letting them pass.} {Medieval Japan } {} {} {} {1.000}
 E { 4514} {w} {w} {8} {0} {} {1.000}
 E { 4516} {u} {u} {16} {0} {} {1.000}
-E { 4517} {e} {e} {2} {0} {} {1.000}
+E { 4517} {e} {e;pause 2p} {2} {0} {} {1.000}
 
 R { 4516} {0} {} {Inside a Military Office} { } {Perched on top of the Hakone seki, this rudimentary office is used to store the papers, letters and other authorizations of traffic on the Tokaido that are handed out by travelers. Also, in one corner of the room, you can see a pile of seized goods, judged improper for commercialization in the Kanto.} {Medieval Japan } {} {} {} {1.000}
 E { 4515} {d} {d} {32} {0} {} {1.000}
@@ -19719,7 +19730,6 @@ E { 4644} {s} {s} {4} {0} {} {1.000}
 
 R { 4638} {0} {} {Before a Grand Fortress} { } {A fierce and well-defended fortress rises to the north, with Cherubim angels flying around it, pointing their keen spears toward any movement they spot within a few miles of the fortress. Banners showing a comet, or a firestar, float on the crenelated walls of the fortress.} {The Seven Heavens } {} {} {} {1.000}
 E { 4637} {s} {s} {4} {0} {} {1.000}
-E { 4865} {fortress} {fortress} {0} {0} {} {1.000}
 
 R { 4639} {0} {} {Lonely Plains} { } {All around, you see a landscape of low hills that extend to the horizon. The place brings a conflicting sense of both peace and melancholy to your soul.} {The Seven Heavens } {} {} {} {1.000}
 E { 4641} {w} {w} {8} {0} {} {1.000}
@@ -19784,7 +19794,7 @@ E { 4662} {n} {n} {1} {0} {} {1.000}
 R { 4654} {0} {} {Deep Inside the Marshes} { } {These marshes reek with despair and solitude. The Grigori were banned here, them who had the task to watch over mortals were sent to suffer an eternity of abandonment and shame for failing miserably their important mission. You struggle to move through this landscape of treacherous bogs and mud pits.} {The Seven Heavens } {} {} {} {1.000}
 E { 4642} {s} {s} {4} {0} {} {1.000}
 E { 4655} {n} {n} {1} {0} {} {1.000}
-E { 4664} {w} {open w;w} {8} {0} {} {1.000}
+E { 4664} {w} {open w;w} {8} {2} {} {1.000}
 
 R { 4655} {0} {} {A Dead-End in Sagun} { } {The opaque and thick muddy waters of the marsh are turning warmer here, powered by the radiating aura of a very powerful Grigori, whose presence affects the very nature of celestial reality around it.} {The Seven Heavens } {} {} {} {1.000}
 E { 4654} {s} {s} {4} {0} {} {1.000}
@@ -19825,7 +19835,7 @@ E { 4660} {s} {s} {4} {0} {} {1.000}
 R { 4664} {0} {} {A Crossing in the Marshes} { } {The mud is thick and deep here, making your journey through the Sagun marshes difficult and exhausting. You frequently have to stop moving when the howl of despair of a nearby Grigori resonates through the echoing land.} {The Seven Heavens } {} {} {} {1.000}
 E { 4658} {n} {n} {1} {0} {} {1.000}
 E { 4665} {w} {w} {8} {0} {} {1.000}
-E { 4654} {e} {open e;e} {2} {0} {} {1.000}
+E { 4654} {e} {open e;e} {2} {2} {} {1.000}
 
 R { 4665} {0} {} {By a Dead Weeping Willow} { } {The flooded path in the marsh stops here before the rotten trunk of a giant willow tree. The place screams with an aura of sadness and confusion, left here by the lingering presence of a powerful Grigori.} {The Seven Heavens } {} {} {} {1.000}
 E { 4664} {e} {e} {2} {0} {} {1.000}
@@ -19834,7 +19844,7 @@ R { 4666} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 4657} {e} {e} {2} {0} {} {1.000}
 E { 4660} {w} {w} {8} {0} {} {1.000}
 
-R { 4667} {0} {} {Atop a Magnificent Peak} { } {A small cave opens up here on the side of a very tall peak towering over an impressive chains of mountains. In the cave, you see a scintillating staiway of light that descends far below to Shehaqim, the Third Heaven. A small path leads north following the mountain ridge. Above you opens up on a dark sky constellated with billions of bright stars and comets.} {The Seven Heavens } {} {} {} {1.000}
+R { 4667} {0} {} {Atop a Magnificent Peak} { } {A small cave opens up here on the side of a very tall peak towering over an impressive chains of mountains. In the cave, you see a scintillating staiway of light that descends far below to Shehaqim, the Third Heaven. A small path leads north following the mountain ridge. Above you opens up on a dark sky bedecked with constellations of billions of bright stars and comets.} {The Seven Heavens } {} {} {} {1.000}
 E { 4661} {d} {d} {32} {0} {} {1.000}
 E { 4668} {w} {w} {8} {0} {} {1.000}
 E { 4670} {n} {n} {1} {0} {} {1.000}
@@ -19880,7 +19890,7 @@ R { 4676} {0} {} {The Gardens of the Citadel} { } {Very elaborate gardens surrou
 E { 4675} {n} {n} {1} {0} {} {1.000}
 E { 4677} {s} {s} {4} {0} {} {1.000}
 
-R { 4677} {0} {<169>} {A Pool of Radiance} {W} {Angels and Archons gather around a large pool of water in the gardens of the Citadel. As they approach the clear waters, you notice that they bear no reflection and that the pool's surface is undisturbed by the heavy traffic around it.} {The Seven Heavens } {} {} {} {1.000}
+R { 4677} {0} {<069>} {A Pool of Radiance} {W} {Angels and Archons gather around a large pool of water in the gardens of the Citadel. As they approach the clear waters, you notice that they bear no reflection and that the pool's surface is undisturbed by the heavy traffic around it.} {The Seven Heavens } {} {} {} {1.000}
 E { 4676} {n} {n} {1} {0} {} {1.000}
 
 R { 4678} {0} {} {The Village of Nikko} { } {The small village of Nikko resides at the foot of taller mountains to the west. The village was born to host workers and visitors to the nearby sacred shrines hiding in the forested hills to the north.} {Medieval Japan Expansion } {} {} {} {1.000}
@@ -20057,6 +20067,7 @@ E { 4712} {e} {e} {2} {0} {} {1.000}
 R { 4712} {0} {} {By a Beautiful Fountain} { } {A marble fountain stands there in the middle of small clearing in the forest. Pure water flows peacefully from the fountain. A cherub angel plays music, enjoying the quietness of the place.} {The Seven Heavens } {} {} {} {1.000}
 E { 4711} {w} {w} {8} {0} {} {1.000}
 E { 4713} {ask angel transport} {ask angel transport;pause 1 second;stand} {0} {0} {} {1.000}
+E { 4713} {transport} {enq ask angel transport;pause 1s;stand} {0} {0} {} {1.000}
 
 R { 4713} {0} {} {Makon, The Fifth Heaven} { } {In Three Enoch, the Song-Uttering Choirs are a collective class of angels who frequently sing the Trisagion and reside in Makon, the Fifth Heaven, alongside the Sarim.  They are all under the direction of Tagas, the angel of music.} {The Seven Heavens } {layer5} {} {} {1.000}
 E { 4714} {s} {s} {4} {0} {} {1.000}
@@ -21312,7 +21323,8 @@ E { 5486} {n} {n} {1} {0} {} {1.000}
 R { 5018} {0} {} {In a Small Clearing} { } {A small clearing has formed here at the banks of a shallow creek. Surrounding the clearing is a semi-circle of stone houses, constructed of rocks packed with earth, the roofs are thatched of grass and ferns. Each house has a large arched doorway looking out into the clearing. A track leads southwards alongside the last house, and another heads eastward across the crystal clear stream, which looks extremely refreshing.} {Aboriginal Dreamtime } {} {} {} {1.000}
 E { 5017} {e} {e} {2} {0} {} {1.000}
 E { 5019} {s} {s} {4} {0} {} {1.000}
-E { 5487} {n} {n} {1} {0} {} {1.000}
+E { 5558} {n} {n} {1} {0} {} {1.000}
+E { 5491} {w} {w} {8} {0} {} {1.000}
 
 R { 5019} {0} {} {Beside Some Rough Shelters} { } {Some rough shelters have been constructed here beside the last of the houses. Some are of stone, others made of pieces of wood lashed together, and others of woven plant fibres. The seem to be filled with vegetable produce, enough to feed the tribe for a good long time.} {Aboriginal Dreamtime } {} {} {} {1.000}
 E { 5018} {n} {n} {1} {0} {} {1.000}
@@ -21345,13 +21357,13 @@ E { 5025} {e} {e} {2} {0} {} {1.000}
 R { 5025} {0} {} {The Blasphemy Cell Block} { } {A vast cell block has been constructed, designed to house the souls of those who committed the worst crimes, while awaiting interrogation by the Cherubim. Instead of going straight to Hell, the souls reside here and the angels try to understand, if possible, how such vile behaviors could be perpetrated. The blasphemers - Those who dared not only to turn their back to good deeds, but defile their souls doing so - await their sentence here, one which will likely send them for a long, long stay in Hell.} {The Seven Heavens } {} {} {} {1.000}
 E { 5024} {w} {w} {8} {0} {} {1.000}
 E { 5026} {e} {e} {2} {0} {} {1.000}
-E { 5027} {n} {n} {1} {0} {} {1.000}
+E { 5027} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 5026} {0} {} {The Blasphemy Cell Block} { } {A vast cell block has been constructed, designed to house the souls of those who committed the worst crimes, while awaiting interrogation by the Cherubim. Instead of going straight to Hell, the souls reside here and the angels try to understand, if possible, how such vile behaviors could be perpetrated. The blasphemers - Those who dared not only to turn their back to good deeds, but defile their souls doing so - await their sentence here, one which will likely send them for a long, long stay in Hell.} {The Seven Heavens } {} {} {} {1.000}
 E { 5025} {w} {w} {8} {0} {} {1.000}
 
 R { 5027} {0} {} {Within a Cell of Blasphemy} { } {A small cot sits in a corner. Manacles latched to chains hang near the cot. The dampness of the cell is oppressive.} {The Seven Heavens } {} {} {} {1.000}
-E { 5025} {s} {s} {4} {0} {} {1.000}
+E { 5025} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 5028} {0} {} {The Source of the Winds} { } {A narrow gorge ends here in front of a tall cliff. All around you, you can hear the harsh winds that blow, howling in an furious growl. You barely manage to maintain a stationary stance as you remain exposed to the celestial winds.} {The Seven Heavens } {} {} {} {1.000}
 E { 4688} {s} {s} {4} {0} {} {1.000}
@@ -21405,7 +21417,7 @@ E { 5038} {e} {e} {2} {0} {} {1.000}
 R { 5038} {0} {} {Die Apotheke} { } {The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. At the back of the shop, a heavy wooden workbench sits scattered with a variety of tools for pounding, grinding, extracting, and otherwise preparing herbs for use. In the corner sits a separate table, scattered with more ominous components, for preparing poisons and dangerous concoctions.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5037} {w} {w} {8} {0} {} {1.000}
 
-R { 5039} {0} {<169>} {Der Brunnen im Stadtplatz} {W} {You have found your way into a spacious, colonnaded square with a well in the center. The people swarm about here, exchanging greetings, insults, and the occasional blow, as they draw water from the Brunnen. What grass there was at one point has now been trampled down, but this area still has great aesthetic appeal. The cobbled street here is quite crowded, as people hurry from the marketplace to the west to the open area to the east and back again. The attractive design of the area has not kept anyone from their usual behavior, and thus the street here is absolutely foul with refuse, and you have to trudge through quite a bit of it to continue along Hauptstrasse either to the north or to the south.} {Medieval Kleinstadt } {} {} {} {1.000}
+R { 5039} {0} {<069>} {Der Brunnen im Stadtplatz} {W} {You have found your way into a spacious, colonnaded square with a well in the center. The people swarm about here, exchanging greetings, insults, and the occasional blow, as they draw water from the Brunnen. What grass there was at one point has now been trampled down, but this area still has great aesthetic appeal. The cobbled street here is quite crowded, as people hurry from the marketplace to the west to the open area to the east and back again. The attractive design of the area has not kept anyone from their usual behavior, and thus the street here is absolutely foul with refuse, and you have to trudge through quite a bit of it to continue along Hauptstrasse either to the north or to the south.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 6390} {s} {s} {4} {0} {} {1.000}
 E { 5587} {n} {n} {1} {0} {} {1.000}
 E { 6385} {w} {w} {8} {0} {} {1.000}
@@ -21445,7 +21457,7 @@ E { 4698} {u} {u} {16} {0} {} {1.000}
 R { 5047} {0} {} {The Shinkyo Bridge} { } {You stand on the sacred Shinkyo bridge, a red lacquered span that arches gracefully across the Daiya River. The Shinkyo is considered one of the most beautiful structures in Japan, its simple elegance contrasting with the wildness of the river gorge, the green hills, and the tumbling waters.} {Medieval Japan Expansion} {} {} {} {1.000}
 E { 4814} {s} {s} {4} {0} {} {1.000}
 E { 5048} {n} {n} {1} {0} {} {1.000}
-E {  417} {jump bridge} {jump bridge} {0} {0} {} {1.000}
+E {  417} {jump bridge} {enq jump bridge} {0} {0} {} {1.000}
 
 R { 5048} {0} {} {On a Large Alley} { } {A long alley connects the Shinkyo bridge with the entrance of Toshogu, the shrine dedicated to Ieyasu, the first Shogun of the Tokugawa clan. A path of white crushed rocks is bordered by a medium-sized stone wall, guiding processions to the shrine.} {Medieval Japan Expansion} {} {} {} {1.000}
 E { 5047} {s} {s} {4} {0} {} {1.000}
@@ -23284,7 +23296,7 @@ R { 5486} {0} {} {A Vast Cave} { } {You are standing inside an enormous cave. En
 E { 5017} {s} {s} {4} {0} {} {1.000}
 
 R { 5487} {0} {} {Inside a Rough Stone House} { } {The house is really just a single room, with an arch in one wall connecting it to the next in the row, and another archway looking out into the forest clearing. A fire burns in the center of the room, the smoke escaping through a hole in the center of the thatched roof.} {Aboriginal Dreamtime } {} {} {} {1.000}
-E { 5018} {s} {s} {4} {0} {} {1.000}
+E { 5558} {s} {s} {4} {0} {} {1.000}
 E { 5489} {w} {w} {8} {0} {} {1.000}
 
 R { 5488} {0} {} {A Foul-Smelling Rubbish Dump} { } {The stench here is unbelievable! A huge pile of rubbish has been accumulated here, so much that you'd guess the natives have been living here many years. You're amazed that you don't catch the faintest whiff of the putrid smell from inside the huts, because the pile almost touches their rear wall. Then you realise that the prevailing wind blows away from the huts, and they have no openings on this side - even the roofs are angled to face away from here.} {Aboriginal Dreamtime } {} {} {} {1.000}
@@ -23292,13 +23304,13 @@ E { 5019} {e} {e} {2} {0} {} {1.000}
 
 R { 5489} {0} {} {Inside a Rough Stone House} { } {The house is really just a single room, with an arch in each end wall connecting it to the next in the row, and another archway looking out into the forest clearing. A fire burns in the center of the room, the smoke escaping through a hole in the center of the thatched roof.} {Aboriginal Dreamtime } {} {} {} {1.000}
 E { 5487} {e} {e} {2} {0} {} {1.000}
-E { 5490} {w} {w} {8} {0} {} {1.000}
-E { 5018} {s} {s} {4} {0} {} {1.000}
+E { 5490} {w} {w} {8} {1} {} {1.000}
+E { 5018} {s} {s} {4} {1} {} {1.000}
 
 R { 5490} {0} {} {Inside a Rough Stone House} { } {The house is really just a single room, with an arch in each end wall connecting it to the next in the row, and another archway looking out into the forest clearing. A fire burns in the center of the room, the smoke escaping through a hole in the center of the thatched roof.} {Aboriginal Dreamtime } {} {} {} {1.000}
 E { 5491} {s} {s} {4} {0} {} {1.000}
-E { 5018} {e} {e} {2} {0} {} {1.000}
-E { 5489} {n} {n} {1} {0} {} {1.000}
+E { 5018} {e} {e} {2} {1} {} {1.000}
+E { 5489} {n} {n} {1} {1} {} {1.000}
 
 R { 5491} {0} {} {Inside a Rough Stone House} { } {The house is really just a single room, with an arch in one wall connecting it to the next in the row, and another archway looking out into the forest clearing. A fire burns in the center of the room, the smoke escaping through a hole in the center of the thatched roof.} {Aboriginal Dreamtime } {} {} {} {1.000}
 E { 5490} {n} {n} {1} {0} {} {1.000}
@@ -23579,6 +23591,10 @@ R { 5557} {0} {} {The Dungeon Cell Doorway} { } {You stand in a small alcove in 
 E { 5556} {n} {n} {1} {0} {} {1.000}
 E { 4343} {s} {open s;s} {4} {0} {} {1.000}
 
+R { 5558} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5487} {n} {n} {1} {0} {} {1.000}
+E { 5018} {s} {s} {4} {0} {} {1.000}
+
 R { 5559} {0} {} {Schatzenstrasse East} { } {The street is swept clean. This effort at cleanliness has not improved the smell much, but it does seem to have encouraged the rats to play elsewhere, and it is certainly safer and more pleasant. The area is semi-residential, with private homes and government buildings crowded side by side to the north and south. The street continues to the east and west, and people hurry back and forth, intent on the business of the day.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5030} {w} {w} {8} {0} {} {1.000}
 E { 5560} {e} {e} {2} {0} {} {1.000}
@@ -23805,9 +23821,11 @@ R { 5616} {0} {} {On the Nazca Plain} { } {The Nazca Lines spread out before you
 E { 5615} {e} {e} {2} {0} {} {1.000}
 E { 6420} {w} {w} {8} {0} {} {1.000}
 
-R { 5617} {0} {} {A T in the Sand} { } {At your feet are double rows of stones making a sort of T. These lines lead off north and west. A trail heads away from them to the east. There are furrows scored into the sand and soil between the pebbles, and you get the impression that the design you can see stretching across the sand is one that people labor to preserve.} {Viceroyal Lima } {} {} {} {1.000}
+R { 5617} {0} {} {A T in the Sand} { } {At your feet are double rows of stones making a sort of T. These lines lead off north and west. A trail heads away from them to the east. There are furrows scored into the sand and soil between the pebbles, and you get the impression that the design you can see stretching across the sand is one that people labor to preserve.} {Viceroyal Lima} {} {} {} {1.000}
 E { 5602} {e} {e} {2} {0} {} {1.000}
 E { 5618} {s} {s} {4} {0} {} {1.000}
+E { 7420} {n} {n} {1} {0} {} {1.000}
+E { 7421} {w} {w} {8} {0} {} {1.000}
 
 R { 5618} {0} {} {By A Foot} { } {Here the designs drawn in the sand are more detailed and easier to make out. You fancy that the pebbles form giant bird claws. You could walk northwards towards the body, faintly visible in the sands, or west, where you think you hear ocean waves.} {Viceroyal Lima } {} {} {} {1.000}
 E { 5617} {n} {n} {1} {0} {} {1.000}
@@ -23850,7 +23868,7 @@ R { 5627} {0} {} {The Viceroyal Palace} { } {This immense foyer has countless ro
 E { 3541} {n} {n} {1} {0} {} {1.000}
 E { 6427} {u} {u} {16} {0} {} {1.000}
 
-R { 5628} {0} {} {At Abraham's} { } {You stand in Abraham the moneylender's. Despite periodic condemnations from the Church, Abraham continues the practice of usury and banking with his usual good humor and gentle mien. The inside of this building is well-lit\; the street lies south.} {Viceroyal Lima } {} {} {} {1.000}
+R { 5628} {0} {<039>} {At Abraham's} {B} {You stand in Abraham the moneylender's. Despite periodic condemnations from the Church, Abraham continues the practice of usury and banking with his usual good humor and gentle mien. The inside of this building is well-lit\; the street lies south.} {Viceroyal Lima } {} {} {} {1.000}
 E { 3540} {s} {s} {4} {0} {} {1.000}
 
 R { 5629} {0} {} {The Armorer's} { } {Despite the torches on the walls, it's pretty dark in here. The red glow of the forge on one wall doesn't help much, nor do the occasional sprays of sparks that scatter like fireflies into the room. A counter is on one side of the shop, however, safely away from the forge. It is here that you stand, admiring the huge range of horseshoes, cuirasses, hauberks, breastplates, and other iron and steel things hanging from the walls.} {Viceroyal Lima } {} {} {} {1.000}
@@ -23884,7 +23902,6 @@ R { 5637} {0} {} {The Priest's Hut} { } {Ornate red-and-green painted latticewor
 E {  881} {s} {s} {4} {0} {} {1.000}
 
 R { 5638} {0} {<149>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of Experience,' and an odd looking metal contraption carefully labeled 'orrery' dominates the room. This curio shop is clearly a haven for the eccentric. A whole shelf is marked 'treasure maps,' and the hardwood floor has bizarre, perhaps pagan symbols scratched into it. The glass window provides a view of the alley opening across the street, and in the poor lighting in here, it seems to waver like a gaping maw.} {London Port } {} {} {} {1.000}
-E {    6} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 5639} {0} {} {Entrance to the Long House} { } {You enter into the darkened room, a musty smell pervades the air. The walls are covered with sheets of rough elm bark stripped from massive trees. The floor is nothing but hard packed dirt. You think you can see the outline of a door leading further into the house in the south wall of the room. A doorway leads back out to the north.} {French Indian War } {} {} {} {1.000}
 E { 3905} {n} {open n;n} {1} {0} {} {1.000}
@@ -23967,75 +23984,82 @@ E { 5789} {n} {n} {1} {0} {} {1.000}
 
 R { 5657} {0} {} {End of a Dirt Road} { } {A dirt road ends here in a wide circle, pitted and pocked by puddles of mud and manure. You can hear the rushing of a river somewhere nearby, probably on the other side of the impassably thick trees and underbrush north of you. The Waingunga River is somewhere around here... A small opening in the foliage to the east seems to provide access to the deep and deadly jungle, no doubt used by hunters seeking tigers to kill, to singe their whiskers and bring them back as trophies.} {Seoni Jungle India } {} {} {} {1.000}
 E {  880} {s} {s} {4} {0} {} {1.000}
-E { 5658} {e} {e} {2} {0} {} {1.000}
+E { 7467} {e} {e} {2} {0} {} {1.000}
 
-R { 5658} {0} {} {The Entrance to the Deep Seoni} { } {From here it can only get worse\; the jungle deepens to the south and east, a maze of stalks and tendrils, leaves and vines and sturdy spines. The jungle canopy overhangs you here so much it is hard to make out the road that is only a few feet away to the west. The ground rises sharply to the west. Past this point, the jungle is deadly and certainly not for any but the expert adventurer.} {Seoni Jungle India } {} {} {} {1.000}
-E { 5657} {w} {w} {8} {0} {} {1.000}
+R { 5658} {0} {} {The Entrance to the Deep Seoni} { } {From here it can only get worse; the jungle deepens to the south and east, a maze of stalks and tendrils, leaves and vines and sturdy spines. The jungle canopy overhangs you here so much it is hard to make out the road that is only a few feet away to the west. The ground rises sharply to the west. Past this point, the jungle is deadly and certainly not for any but the expert adventurer.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7466} {w} {w} {8} {0} {} {1.000}
 E { 5659} {e} {e} {2} {0} {} {1.000}
+E { 7432} {s} {s} {4} {0} {} {1.000}
 
-R { 5659} {0} {} {High Above the Waingunga} { } {In one of those sudden drops that characterize the Seoni district, the ground beneath you falls away in a steep cliff down to the placid waters of the muddy Waingunga river. On the far banks you can see the pockmark holes that deadly black bees make their home. South along the edge of the ravine you are bound to come across a watering hole for the animals of the area.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5659} {0} {} {High Above the Waingunga} { } {In one of those sudden drops that characterize the Seoni district, the ground beneath you falls away in a steep cliff down to the placid waters of the muddy Waingunga river. On the far banks you can see the pockmark holes that deadly black bees make their home. South along the edge of the ravine you are bound to come across a watering hole for the animals of the area.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5658} {w} {w} {8} {0} {} {1.000}
 E { 5660} {s} {s} {4} {0} {} {1.000}
 
-R { 5660} {0} {} {On the Banks of the Waingunga} { } {Here atop a tall cliff, the rockiness of the area and its odd stone protuberances are explained: the Waingunga flows hundreds of feet below you, but you can see downstream to a spot south where the river's course was altered by a rockfall. Once the river carved the ground you stand on. Since then, the plants have run rampant, and a soil of rotting logs and rich dirt has covered the bare rock.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5660} {0} {} {On the Banks of the Waingunga} { } {Here atop a tall cliff, the rockiness of the area and its odd stone protuberances are explained: the Waingunga flows hundreds of feet below you, but you can see downstream to a spot south where the river's course was altered by a rockfall. Once the river carved the ground you stand on. Since then, the plants have run rampant, and a soil of rotting logs and rich dirt has covered the bare rock.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5659} {n} {n} {1} {0} {} {1.000}
 E { 5661} {s} {s} {4} {0} {} {1.000}
+E { 7432} {w} {w} {8} {0} {} {1.000}
 
-R { 5661} {0} {} {The Edge of a Crevice} { } {The Waingunga has blocked your path\; a narrow arm of a large river ravine has crept inwards, and a tangle of brambles and vines has choked it. You suppose it might be possible, with a machete, to hack through the resulting tangle\; but such a crevice is certainly a favored hunting spot for the rock python. You'll have to go around to the west to go south here. North the side of the ravine edges ever higher.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5661} {0} {} {The Edge of a Crevice} { } {The Waingunga has blocked your path; a narrow arm of a large river ravine has crept inwards, and a tangle of brambles and vines has choked it. You suppose it might be possible, with a machete, to hack through the resulting tangle; but such a crevice is certainly a favored hunting spot for the rock python. You'll have to go around to the west to go south here. North the side of the ravine edges ever higher.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5660} {n} {n} {1} {0} {} {1.000}
 E { 5662} {w} {w} {8} {0} {} {1.000}
 
-R { 5662} {0} {} {Along a Crevice in the Ground} { } {What seems to be a hunting path winds its way around a nasty-looking crevice that cuts its way deep into the ground, like a notch in the side of the ravine a little ways to the east. The path ends here and heads south, shadowed by the massive trees around you. To the north one such tree has fallen, making the way impassable.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5662} {0} {} {Along a Crevice in the Ground} { } {What seems to be a hunting path winds its way around a nasty-looking crevice that cuts its way deep into the ground, like a notch in the side of the ravine a little ways to the east. The path ends here and heads south, shadowed by the massive trees around you. To the north one such tree has fallen, making the way impassable.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5661} {e} {e} {2} {0} {} {1.000}
 E { 5663} {s} {s} {4} {0} {} {1.000}
 
-R { 5663} {0} {} {Along a Crevice in the Ground} { } {North and east of you an arm of a huge ravine has dug into the stone, blocking passage. From here you can see the small paths cut into the brambles that fill it by animals who lair amidst the fallen rocks and the vines. A faint hunting path leads north around the crevice and to the east.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5663} {0} {} {Along a Crevice in the Ground} { } {North and east of you an arm of a huge ravine has dug into the stone, blocking passage. From here you can see the small paths cut into the brambles that fill it by animals who lair amidst the fallen rocks and the vines. A faint hunting path leads north around the crevice and to the east.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5662} {n} {n} {1} {0} {} {1.000}
 E { 5664} {e} {e} {2} {0} {} {1.000}
 
-R { 5664} {0} {} {Beside the Waingunga} { } {The ground slopes sharply down to the south here, falling away from the edges of a ravine to a sandy declivity beside the water. A faintly visible hunting path ends here, as south of you the land opens up again to a maze of trees and shady clearings. Boulders half overgrown with moss and grass have not moved here for centuries, but they look ready to roll downhill.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5664} {0} {} {Beside the Waingunga} { } {The ground slopes sharply down to the south here, falling away from the edges of a ravine to a sandy declivity beside the water. A faintly visible hunting path ends here, as south of you the land opens up again to a maze of trees and shady clearings. Boulders half overgrown with moss and grass have not moved here for centuries, but they look ready to roll downhill.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5663} {w} {w} {8} {0} {} {1.000}
 E { 5665} {s} {s} {4} {0} {} {1.000}
 
-R { 5665} {0} {} {Beside the Waingunga} { } {A watering hole lies directly to the east\; a place where the Truce of the Jungle is declared and animals come to drink during the dry times. The Waingunga flows shallow and muddy past you, sluggish in its majesty. To the south a few mattocks of tall spiky grass prevent visibility, but you can walk around them to the west. Northwards the river cuts into a steep ravine.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5665} {0} {} {Beside the Waingunga} { } {A watering hole lies directly to the east; a place where the Truce of the Jungle is declared and animals come to drink during the dry times. The Waingunga flows shallow and muddy past you, sluggish in its majesty. To the south a few mattocks of tall spiky grass prevent visibility, but you can walk around them to the west. Northwards the river cuts into a steep ravine.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5664} {n} {n} {1} {0} {} {1.000}
 E { 5666} {e} {e} {2} {0} {} {1.000}
+E { 7433} {w} {w} {8} {0} {} {1.000}
 
-R { 5666} {0} {} {A Watering Hole} { } {The grass is nipped back, the mud is trampled flat and clear of the rocks, and the very rocks seem to have been pushed aside, to provide clear access to the water. A large rock is visible just underwater a few feet into the river\; when that rock shows its dry back above the surface, you know the drought has come. To the east lies the main part of the river Waingunga, and the shore lies west.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5666} {0} {} {A Watering Hole} { } {The grass is nipped back, the mud is trampled flat and clear of the rocks, and the very rocks seem to have been pushed aside, to provide clear access to the water. A large rock is visible just underwater a few feet into the river; when that rock shows its dry back above the surface, you know the drought has come. To the east lies the main part of the river Waingunga, and the shore lies west.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5665} {w} {w} {8} {0} {} {1.000}
 E { 5667} {e} {e} {2} {0} {} {1.000}
 
-R { 5667} {0} {} {On the Waingunga} { } {Placid and dull, muddy and rather cold, the Waingunga river sluggishly turns the corner, bending north and east. To the south a sandy strip beach allows landfall. To the west is the local watering hole\; you can tell from the cleared space that many a drought has seen wildlife gather to sip desperately of the lifegiving water and hope that the carnivores allow them to live.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5667} {0} {} {On the Waingunga} { } {Placid and dull, muddy and rather cold, the Waingunga river sluggishly turns the corner, bending north and east. To the south a sandy strip beach allows landfall. To the west is the local watering hole; you can tell from the cleared space that many a drought has seen wildlife gather to sip desperately of the lifegiving water and hope that the carnivores allow them to live.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5666} {w} {w} {8} {0} {} {1.000}
-E { 5826} {e} {e} {2} {0} {} {1.000}
+E { 5668} {e} {e} {2} {0} {} {1.000}
 E { 5821} {n} {n} {1} {0} {} {1.000}
+E { 7443} {s} {s} {4} {0} {} {1.000}
 
-R { 5668} {0} {} {On the Waingunga, A Wrecked Bridge} { } {The water here is turbulent and dangerous, as the jagged remnants of a fallen bridge block the way to the east, where the river flows on. The north and south banks of the river seem to have the remnants of a cobblestoned road\; perhaps some maharajah once had a palace deep in the jungle near here.} {Seoni Jungle India } {} {} {} {1.000}
-E { 5826} {w} {w} {8} {0} {} {1.000}
+R { 5668} {0} {} {On the Waingunga, A Wrecked Bridge} { } {The water here is turbulent and dangerous, as the jagged remnants of a fallen bridge block the way to the east, where the river flows on. The north and south banks of the river seem to have the remnants of a cobblestoned road; perhaps some maharajah once had a palace deep in the jungle near here.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5667} {w} {w} {8} {0} {} {1.000}
 E { 5669} {n} {n} {1} {0} {} {1.000}
+E { 7440} {s} {s} {4} {0} {} {1.000}
 
-R { 5669} {0} {} {A Crumbling Road} { } {To the south of you flows the Waingunga, a placid, dull river interrupted here by the shattered remnants of a stonework bridge long since crumbled to jagged debris. Across the river to the south lies jungle, and here on the northern bank is even more jungle, thick and threatening. A barely visible and overgrown cobblestone road turns to the east here, perhaps turning away from the jagged rocks you see rising directly north of you. The northern path looks extremely treacherous.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5669} {0} {} {A Crumbling Road} { } {To the south of you flows the Waingunga, a placid, dull river interrupted here by the shattered remnants of a stonework bridge long since crumbled to jagged debris. Across the river to the south lies jungle, and here on the northern bank is even more jungle, thick and threatening. A barely visible and overgrown cobblestone road turns to the east here, perhaps turning away from the jagged rocks you see rising directly north of you. The northern path looks extremely treacherous.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5668} {s} {s} {4} {0} {} {1.000}
 E { 5670} {n} {n} {1} {0} {} {1.000}
+E { 7462} {e} {e} {2} {0} {} {1.000}
 
-R { 5670} {0} {} {Along the Cliff} { } {Your feet are angled impossibly along the rocks here\; every instant threatens to twist an ankle or shatter a thigh-bone as you step gingerly from pockmarked twisted rock to jagged sharp stone. You hear an ominous buzz all around you\; the deep crevices here are certainly home to the deadly black bees that have driven caravans over the edges of precipices, maddened by the endless blankets of stinging insects. To the north the path looks like a landscape out of hell, all deep shadows and thrumming bees.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5670} {0} {} {Along the Cliff} { } {Your feet are angled impossibly along the rocks here; every instant threatens to twist an ankle or shatter a thigh-bone as you step gingerly from pockmarked twisted rock to jagged sharp stone. You hear an ominous buzz all around you; the deep crevices here are certainly home to the deadly black bees that have driven caravans over the edges of precipices, maddened by the endless blankets of stinging insects. To the north the path looks like a landscape out of hell, all deep shadows and thrumming bees.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5669} {s} {s} {4} {0} {} {1.000}
 E { 5671} {n} {n} {1} {0} {} {1.000}
 
-R { 5671} {0} {} {Among the Bees} { } {The humming is like a note struck by a god upon a vast drum, echoing and booming forever. For an instant you pause, stricken by the unearthly voice of the bees that crawl through tiny caverns endlessly under your feet. The beauty of the harmony magnified by swelling voices under the rock belies the way the landscape crawls at your feet, inching away, the very stone creeping. To the west the river flows, a hundred and more feet below, sluggishly moving. The river flows, the ground flows--the bees flow, in and out and around and on you as you walk...} {Seoni Jungle India } {} {} {} {1.000}
+R { 5671} {0} {} {Among the Bees} { } {The humming is like a note struck by a god upon a vast drum, echoing and booming forever. For an instant you pause, stricken by the unearthly voice of the bees that crawl through tiny caverns endlessly under your feet. The beauty of the harmony magnified by swelling voices under the rock belies the way the landscape crawls at your feet, inching away, the very stone creeping. To the west the river flows, a hundred and more feet below, sluggishly moving. The river flows, the ground flows--the bees flow, in and out and around and on you as you walk...} {Seoni Jungle India} {} {} {} {1.000}
 E { 5670} {s} {s} {4} {0} {} {1.000}
 E { 5672} {n} {n} {1} {0} {} {1.000}
 
-R { 5672} {0} {} {Among the Bees} { } {To the east, this hellish landscape ends in the cool surcease of jungle, but here it is rock. Not bare rock, for it is clothed in the living garment of hundreds of thousands of bees. Your feet crackle as you walk. To the south you can follow the edge of the cliff along the Waingunga, deeper into the deadly hives of the black bees. They litter the air like black dust, airborne like ashes, angry and seeking a target for their wrath.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5672} {0} {} {Among the Bees} { } {To the east, this hellish landscape ends in the cool surcease of jungle, but here it is rock. Not bare rock, for it is clothed in the living garment of hundreds of thousands of bees. Your feet crackle as you walk. To the south you can follow the edge of the cliff along the Waingunga, deeper into the deadly hives of the black bees. They litter the air like black dust, airborne like ashes, angry and seeking a target for their wrath.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5671} {s} {s} {4} {0} {} {1.000}
 E { 5673} {e} {e} {2} {0} {} {1.000}
 
-R { 5673} {0} {} {Lost in the Jungle} { } {Around you the jungle is thick and brooding, dreaming its eternal dreams of hunger. For a while you shudder, thinking that perhaps it dreams of you, of swallowing you in its green and black oblivion\; but no, for the remains of a cobblestoned road surface from the trackless ground, and lead northwards deeper into the unknown. To the west you hear a deadly, ominous thrumming noise.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5673} {0} {} {Lost in the Jungle} { } {Around you the jungle is thick and brooding, dreaming its eternal dreams of hunger. For a while you shudder, thinking that perhaps it dreams of you, of swallowing you in its green and black oblivion; but no, for the remains of a cobblestoned road surface from the trackless ground, and lead northwards deeper into the unknown. To the west you hear a deadly, ominous thrumming noise.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5672} {w} {w} {8} {0} {} {1.000}
-E { 5674} {n} {n} {1} {0} {} {1.000}
+E { 7461} {n} {n} {1} {0} {} {1.000}
+E { 7464} {s} {s} {4} {2} {} {1.000}
 
 R { 5674} {0} {} {In the Jungle, Before a Marker} { } {It stands, a battered obelisk of stone held together by mildew and cobwebs, at the northern end of what must have once been a well-travelled road. It reads, simply, 'Oodeypore,' which means nothing to you. Perhaps once this road that stretches south, this obelisk, and even the fallen gateway that lies tumbled and broken-backed to the west, were all kept polished and clean, gleaming white and grey in honor of the maharajah... now all that is left is that word, Oodeypore, rendered insignificant and ludicrous by the miracles of decay.} {Seoni Jungle India } {} {} {} {1.000}
-E { 5673} {s} {s} {4} {0} {} {1.000}
+E { 7461} {s} {s} {4} {0} {} {1.000}
 E { 5675} {w} {w} {8} {0} {} {1.000}
 
 R { 5675} {0} {} {The Gates of Oodeypore} { } {A small courtyard is around you, flagstones marked clearly by the creeping grass. They are limned in green flame. An arching gateway to the east, one minaret cracked and the other fallen, leads out to the jungle, but you sense that such a gateway is futile, for the jungle is here already. Any separation between this city and the wild faded from your mind as you saw the majestic entrance to Oodeypore to the north: iron gates garlanded with vines, crowned with flowers, heralded by the calls of swooping bats in the night.} {Seoni Jungle India } {} {} {} {1.000}
@@ -24294,7 +24318,7 @@ E { 5900} {w} {w} {8} {0} {} {1.000}
 E { 5735} {n} {open n;n} {1} {0} {} {1.000}
 E { 5901} {e} {e} {2} {0} {} {1.000}
 
-R { 5735} {0} {<169>} {Plato's Cave Bar and Grill} {I} {The walls of this bar are painted in dark colours and leather booths provide discreet eating nooks for diners. Potted palm trees decorate the room and at the bar are stools for those who have come just to drink. Maroon leather barstools flank an expansive bar and upstairs are numerous rooms for rent for out of town patrons of the carnival. A huge fireplace burns brightly in a corner of the room and before it is a gauzy white screen which casts interesting shadows over the walls. Curiously, the patrons here do not face the beautiful fire.} {Gypsy Carnival } {} {} {} {1.000}
+R { 5735} {0} {<069>} {Plato's Cave Bar and Grill} {I} {The walls of this bar are painted in dark colours and leather booths provide discreet eating nooks for diners. Potted palm trees decorate the room and at the bar are stools for those who have come just to drink. Maroon leather barstools flank an expansive bar and upstairs are numerous rooms for rent for out of town patrons of the carnival. A huge fireplace burns brightly in a corner of the room and before it is a gauzy white screen which casts interesting shadows over the walls. Curiously, the patrons here do not face the beautiful fire.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5734} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 5736} {0} {} {Rounding a Path to the Midway} { } {Northward lies the Midway with all its wonders. All around is the buzz of activity as people wander from the Midway to the Circus and the Hall of Wonders. Children strain to break free of tight parental handgrips as they attempt to race into the crowds, and performers mill about indulging the desire for free entertainment. From here one can hear the horses and the sound of gunshots which must come from the Wild West display to the south.} {Gypsy Carnival } {} {} {} {1.000}
@@ -24687,17 +24711,18 @@ R { 5823} {0} {} {On the Waingunga, In a Ravine} { } {The river here flows throu
 E { 5822} {s} {s} {4} {0} {} {1.000}
 E { 5824} {n} {n} {1} {0} {} {1.000}
 
-R { 5824} {0} {} {On the Waingunga, Before a Cavern} { } {The water slams against the rocks face to the east of you insistently, creating a thrumming noise that reverberates around you like a tight bass drum. The very air vibrates, despite the fact that the river sluices smoothly around the curve to the south. It is exiting a low cavern mouth to the west, clearing the rock with a few inches to spare.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5824} {0} {} {On the Waingunga, Before a Cavern} { } {The water slams against the rocks face to the east of you insistently, creating a thrumming noise that reverberates around you like a tight bass drum. The very air vibrates, despite the fact that the river sluices smoothly around the curve to the south. It is exiting a low cavern mouth to the west, clearing the rock with a few inches to spare.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5823} {s} {s} {4} {0} {} {1.000}
 E { 5825} {w} {w} {8} {0} {} {1.000}
 
-R { 5825} {0} {} {On the Waingunga, Underground} { } {Darkness surrounds you. Your feeble light can hardly penetrate the shadows here as the low slung roof brushes the top of your head. A few more inches of water and you'd be underwater. The rock above you, worn smooth by rushing particles of sand borne by current, glistens moistly above your head, occasionally revealing large caverns notched into the walls and ceiling.} {Seoni Jungle India } {} {} {} {1.000}
+R { 5825} {0} {} {On the Waingunga, Underground} { } {Darkness surrounds you. Your feeble light can hardly penetrate the shadows here as the low slung roof brushes the top of your head. A few more inches of water and you'd be underwater. The rock above you, worn smooth by rushing particles of sand borne by current, glistens moistly above your head, occasionally revealing large caverns notched into the walls and ceiling.} {Seoni Jungle India} {} {} {} {1.000}
 E { 5824} {e} {e} {2} {0} {} {1.000}
 E { 5827} {n} {n} {1} {0} {} {1.000}
+E { 7431} {s} {s} {4} {0} {} {1.000}
 
-R { 5826} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 5668} {e} {e} {2} {0} {} {1.000}
-E { 5667} {w} {w} {8} {0} {} {1.000}
+R { 5826} {0} {} {Beside a Pool} { } {Mud, red and well-trod, mixed with water from the pool to the north, tries to capture your feet as you walk. Massive footprints hold pooled water in them. You can walk into the very marshy water to the north, or follow the dry grasses to the west; but a rocky ridge curves around to the south and east blocking passage in other directions.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7453} {n} {n} {1} {0} {} {1.000}
+E { 7427} {w} {w} {8} {0} {} {1.000}
 
 R { 5827} {0} {} {On the Waingunga, Underground} { } {A glimmering of light to the west bobs and flickers, dancing shadows across the ragged stone ceiling and walls of this cavern. During flood season you are sure that the cavern fills with water completely... but for now it is a magical ride through echoing darkness, a floating, bobbing ride into shadow. The cavern's ceiling gets dangerously low to the east, however... if it floods, you'd be in trouble.} {Seoni Jungle India } {} {} {} {1.000}
 E { 5825} {s} {s} {4} {0} {} {1.000}
@@ -24711,9 +24736,10 @@ R { 5829} {0} {} {On the Waingunga} { } {Water flows around you, streaked brown 
 E { 5828} {e} {e} {2} {0} {} {1.000}
 E { 5830} {w} {w} {8} {0} {} {1.000}
 
-R { 5830} {0} {} {On The Waingunga, in Shallows} { } {Loud grumbling rapids to the west seem distant as you look out upon the lovely beach north of you. Sand deposited by the current has collected along the northern shore and shines silvery against the verdant grass of the Dekkan. It would very easy to simply head north into the trackless green plain and keep walking forever...} {Seoni Jungle India } {} {} {} {1.000}
+R { 5830} {0} {} {On The Waingunga, in Shallows} { } {Loud grumbling rapids to the west seem distant as you look out upon the lovely beach north of you. Sand deposited by the current has collected along the northern shore and shines silvery against the verdant grass of the Dekkan. It would very easy to simply head north into the trackless green plain and keep walking forever...} {Seoni Jungle India} {} {} {} {1.000}
 E { 5829} {e} {e} {2} {0} {} {1.000}
 E { 5831} {n} {n} {1} {0} {} {1.000}
+E { 7428} {w} {w} {8} {0} {} {1.000}
 
 R { 5831} {0} {} {On a Beach in the Dekkan} { } {A silvery beach of crushed rocks and gray sand leads east from here. South of you flows the muddy Waingunga, here somewhat lively with ripples and wavelets caused by rapids to the west. In all other directions the grasslands of the Dekkan stretch out, formless and ropy green.} {Seoni Jungle India } {} {} {} {1.000}
 E { 5830} {s} {s} {4} {0} {} {1.000}
@@ -25742,7 +25768,7 @@ E { 6083} {e} {e} {2} {0} {} {1.000}
 R { 6083} {0} {} {Kuznetsov Foundry} { } {The heat and noise from the blast furnaces make this area almost unbearable! It is probably not too safe to stay back here very long unprotected, as the furnaces are running constantly and molten bronze and iron are being poured into casts all around you.} {Russian Revolution of 1917 } {} {} {} {1.000}
 E { 6082} {w} {w} {8} {0} {} {1.000}
 
-R { 6084} {0} {<129>} {The Anglia Hotel} {I} {One of the oldest hotels in Petrograd, the Anglia is also one of the most respected in all of Europe. The staff is known for being highly professional, discreet, and able to meet any demand. It seems there are a few rooms available to let.} {Russian Revolution of 1917 } {} {} {} {1.000}
+R { 6084} {0} {<029>} {The Anglia Hotel} {I} {One of the oldest hotels in Petrograd, the Anglia is also one of the most respected in all of Europe. The staff is known for being highly professional, discreet, and able to meet any demand. It seems there are a few rooms available to let.} {Russian Revolution of 1917 } {} {} {} {1.000}
 E { 6081} {e} {e} {2} {0} {} {1.000}
 E { 6085} {n} {n} {1} {0} {} {1.000}
 
@@ -26202,7 +26228,7 @@ E { 6196} {s} {s} {4} {0} {} {1.000}
 E { 6197} {n} {n} {1} {0} {} {1.000}
 E { 6198} {e} {e} {2} {0} {} {1.000}
 
-R { 6196} {0} {} {On a Tiny Island} { } {This island must have been home to generations of natives. Flimsy huts lie abandoned on the beach, thatch blowing away in the tropical winds. Some seem to have been burned--the depredations of pirates perhaps. Surprisingly, there a circle of unlit tiki torches surrounds the immediate vicinity. The open ocean lies to the north and east of here.} {Medieval Seas } {} {} {} {1.000}
+R { 6196} {0} {} {On a Tiny Island} { } {This island must have been home to generations of natives. Flimsy huts lie abandoned on the beach, thatch blowing away in the tropical winds. Some seem to have been burned--the depredations of pirates perhaps. Surprisingly, there is a circle of burning tiki torches surrounding the immediate vicinity. The open ocean lies to the north and east of here.} {Medieval Seas} {} {} {} {1.000}
 E { 6195} {n} {n} {1} {0} {} {1.000}
 E { 6200} {e} {e} {2} {0} {} {1.000}
 
@@ -26488,7 +26514,7 @@ R { 6265} {0} {} {In a Small Bay} { } {North of you lies a deceptively pretty be
 E { 6264} {n} {n} {1} {0} {} {1.000}
 E { 1960} {s} {s} {4} {0} {} {1.000}
 
-R { 6266} {0} {} {On a Tiny Island} { } {This island must have been home to generations of natives. Flimsy huts lie abandoned on the beach, thatch blowing away in the tropical winds. Some seem to have been burned--the depredations of pirates perhaps. The open ocean lies to the north.} {South Seas } {} {} {} {1.000}
+R { 6266} {0} {} {On a Tiny Island} { } {This island must have been home to generations of natives. Flimsy huts lie abandoned on the beach, thatch blowing away in the tropical winds. Some seem to have been burned--the depredations of pirates perhaps. Surprisingly, there is a circle of burning tiki torches surrounding the immediate vicinity. The open ocean lies to the north and east of here.} {Medieval Seas} {} {} {} {1.000}
 E { 2029} {n} {n} {1} {0} {} {1.000}
 
 R { 6267} {0} {} {Near the Philippines} { } {Storm clouds scud by in the far distance, testament to the changeable temper of this, the largest of seas. They seem massive and dark, swirling around in a circular pattern, suggestive of the power of the great tsunamis and monsoon storms that plague the islands of the South Pacific. Every year trading vessels are sent to a watery grave by the devil winds and their high-crested waves.} {Gold Rush San Francisco } {} {} {} {1.000}
@@ -28574,7 +28600,7 @@ R { 6786} {0} {} {By a River Bank} { } {A swift running river froths in the ligh
 E { 6784} {w} {w} {8} {0} {} {1.000}
 E { 6779} {e} {e} {2} {0} {} {1.000}
 
-R { 6787} {0} {} {Did something just skitter along the floor?} { } { Did something just skitter along the floor?  Did something just skitter along the floor?} {The Out of Character Lounge } {} {} {} {1.000}
+R { 6787} {0} {} {Jas'raj's Palace} { } {You enter through a curtain of jade colored beading. The doorways and windows in this expansive room are sloped and peaked in a domed fashion, their frames stroked with ruby paint. Sheer fabric strips of purple and goldenrod cross and overlap along the walls, each with gold or silver stamped patterns on them. The corners of this room are graced with a pedestal, each holding a large, elaborately painted elephant. The tables you see are circular and low to the ground, the standard chairs replaced by piles of overstuffed pillows to rest on. In the center of the room three men in traditional garb play flutes as a veiled woman with finger chimes dances from table to table.} {The Out of Character Lounge} {} {} {} {1.000}
 E {  405} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 6788} {0} {} {Natalia's Tardis} { } {Entering this rather large room you do a double-take and wonder how it can be contained within that small wooden police box you just entered. You see hallways going in various directions from this central room. In the center of the room is a great pillar surrounded by controls, keyboards and monitors. A coat is hung over the railing to your left, and you wonder if the Doctor is in.} {The Out of Character Lounge } {} {} {} {1.000}
@@ -29997,7 +30023,7 @@ R { 7131} {0} {} {Inside the Mission Walls at Yerba Buena} { } {You can see why 
 E { 7129} {s} {s} {4} {0} {} {1.000}
 E { 7132} {n} {n} {1} {0} {} {1.000}
 
-R { 7132} {0} {} {A Tiny Chapel} { } {A feeling of peace surrounds you as you enter this holy place. Two sets of pews along each wall face a small altar at the north end of the room and a colorful beaded wall hanging lends some color to an otherwise austere room. A pulpit stands in front of the altar and overlooks the pews.} {Gold Rush San Francisco} {} {} {} {1.000}
+R { 7132} {0} {} {A Tiny Chapel} { } {A feeling of peace surrounds you as you enter this holy place. Two sets of pews along each wall face a small altar at the north end of the room and a colorful beaded wall hanging lends some color to an otherwise austere room. A pulpit stands in front of the altar and overlooks the pews.} {Gold Rush San Francisco} {yerba} {} {} {1.000}
 E { 7131} {s} {s} {4} {0} {} {1.000}
 
 R { 7133} {0} {} {Passing the Aleksander Archipelagos} { } {The waters to the east are littered with small islands of rock. The waters here are safe, unlike among the archipelagos where shallow waters and rocks threaten any boats that try to pass through them.} {1802 Alaska} {} {} {} {1.000}
@@ -30722,7 +30748,7 @@ R { 7308} {0} {} {On the Northern Ramparts of Mdina} { } {Below the solid stonew
 E { 7307} {e} {e} {2} {0} {} {1.000}
 E { 7311} {s} {s} {4} {0} {} {1.000}
 
-R { 7309} {0} {<169>} {On Pjazza San Pawl, Before the Cathedral Church} {W} {Throbbing and bustling, the activity on Pjazza San Pawl seems to cease a bit when you make it safely to the stairs to the great Cathedral Church beyond. Leaning against one of the two cannons mounted there to defend the church against an intruding force, you wonder how so many people can be crammed into such a relatively small city.} {Hospitaller Malta} {} {} {} {1.000}
+R { 7309} {0} {<069>} {On Pjazza San Pawl, Before the Cathedral Church} {W} {Throbbing and bustling, the activity on Pjazza San Pawl seems to cease a bit when you make it safely to the stairs to the great Cathedral Church beyond. Leaning against one of the two cannons mounted there to defend the church against an intruding force, you wonder how so many people can be crammed into such a relatively small city.} {Hospitaller Malta} {} {} {} {1.000}
 E { 7310} {n} {n} {1} {0} {} {1.000}
 E { 7338} {e} {e} {2} {0} {} {1.000}
 E { 7326} {w} {w} {8} {0} {} {1.000}
@@ -31211,3 +31237,388 @@ E { 7418} {n} {n} {1} {0} {} {1.000}
 
 R { 7418} {0} {} {The Grave of Lord Tokugawa Ieyasu} { } {A stone-paved platform with a large metal urn in the middle of it is the last home of the powerful Shogun. The urn is coiffed with a metal roof, much like a pagoda, and shows two doors to gain access the remains of Lord Tokugawa.} {Medieval Japan Expansion} {} {} {} {1.000}
 E { 7417} {s} {s} {4} {0} {} {1.000}
+
+R { 7419} {0} {} {A Vast Cave} { } {You are standing inside an enormous cave. Enormous stalactites descend from the vaulted ceiling, and the faint twittering up there makes you shudder as you think of bats. You're not sure quite how you came to be here, because the only light is filtering through a tiny crack high in one wall - you couldn't possibly have fit through that. The light falls on the far wall, illuminating intricate paintings consisting entirely of finger tip dabs of paint. The other walls are unseen, somewhere off in the shadows.} {Gold Rush Melbourne} {} {} {} {1.000}
+E { 3672} {ask elder leave} {enq ask elder leave} {0} {0} {} {1.000}
+E { 3672} {ask elder return} {enq ask elder return} {0} {0} {} {1.000}
+
+R { 7420} {0} {} {The End of a Line} { } {As you look south and west you can see parallel lines traced in the sand, like the feathers of some giant bird. The path you came on curved slightly, so that to retrace your steps you'd have to walk west.} {Viceroyal Lima} {} {} {} {1.000}
+E { 5617} {w} {w} {8} {1} {} {1.000}
+
+R { 7421} {0} {} {At A Right Angle} { } {The pebbled line you were following here makes a sharp right angle, leading north and east. You can see that the eastern line has several side paths leading north from it. From here, south of some dunes, the lines crossing the desert look like parallel furrows dug by some giant hand.} {Viceroyal Lima} {} {} {} {1.000}
+E { 5617} {e} {e} {2} {0} {} {1.000}
+E { 7422} {n} {n} {1} {0} {} {1.000}
+
+R { 7422} {0} {} {The End of a Line} { } {South and east of you stretches out a design you can see from this vantage as a giant bird drawn in the sand. A road cuts right through the middle of it east of you, as if the builders had not been aware of its presence. The path you took curved slightly, so to retrace your steps you'd have to walk south.} {Viceroyal Lima} {} {} {} {1.000}
+E { 7421} {s} {s} {4} {0} {} {1.000}
+
+R { 7423} {0} {<019>} {} {X} {} {Medieval Seas} {} {} {} {1.000}
+E { 1373} {s} {s} {4} {0} {} {1.000}
+
+R { 7424} {0} {} {La Inquisicion} { } {It's dark and deadly down here--you can faintly make out a stretching rack against one wall, blood dried in the leathers, and thumbscrews attached to the table. Heaps of tattered clothing ripped from hapless owners lie in the corners to dry rot, and a single battered crucifix hangs on one wall, doubtless the witness of atrocities and the guarantor of many regretted confessions. A trap door leads up.} {Viceroyal Lima} {} {} {} {1.000}
+E { 3542} {u} {u} {16} {0} {} {1.000}
+
+R { 7425} {0} {} {Inside The Presidio} { } {You can see why these walls have stood for so long... they must be at least two feet thick. The top of the walls have spaces for men to patrol along them and holes along the walls allow the defenders a wide field of fire without endangering themselves. An archway leads north to a small chapel.} {Gold Rush San Francisco} {} {} {} {1.000}
+E { 3010} {s} {open s;s} {4} {0} {} {1.000}
+E { 7426} {n} {n} {1} {0} {} {1.000}
+
+R { 7426} {0} {} {A Tiny Chapel} { } {A feeling of peace surrounds you as you enter this holy place. Two sets of pews along each wall face a small altar at the north end of the room and a colorful tapestry lends some color to an otherwise austere room. A pulpit stands to one side of the altar and overlooks the pews.} {Gold Rush San Francisco} {} {} {} {1.000}
+E { 7425} {s} {s} {4} {0} {} {1.000}
+
+R { 7427} {0} {} {In the Jungle} { } {A few saplings seem to have been ripped out by the roots and mostly eaten here. They are half-hidden, the bones of baby trees, by the tall grasses that wave in the breeze like a sea at high tide. You are constantly tripping over one or another of these fallen trees as you walk, but there are certainly enough of them left standing, enough to block the horizon from view and have you praying for the open sky.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5826} {e} {e} {2} {0} {} {1.000}
+E { 7446} {w} {w} {8} {0} {} {1.000}
+E { 7473} {u} {u} {16} {0} {} {1.000}
+
+R { 7428} {0} {} {On the Waingunga, in Rapids} { } {The water swirls bumpily around you; it feels like being tossed about by massive hands of water. Mud clots are tossed hither and thither, ripped from the shore by the eddies that churn madly at the banks. Few rocks are poking over the water here, and you feel sure that these rapids are all menace beneath the surface, where the teeth of rocks gnash impatiently as they chew everything to sand.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5830} {e} {e} {2} {0} {} {1.000}
+E { 7429} {w} {w} {8} {0} {} {1.000}
+
+R { 7429} {0} {} {On the Waingunga} { } {South of you are the fields of the village of Khanhiwara, but you don't see any place to make landfall. The current here moves too swiftly, and the waters are too treacherous. To the north stretches out the Dekkan, a deadly maze of grasses inhabited only by the insignificant and the red dholes. To the east you see rapids, where the water seems turbulent and swirling.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7428} {e} {e} {2} {0} {} {1.000}
+E { 7430} {w} {w} {8} {0} {} {1.000}
+
+R { 7430} {0} {} {On the Waingunga} { } {The Waingunga flows broad and placidly muddy here by the grassy banks of the Seoni farming district. Years ago this land was reclaimed from the jungle, and it still stands empty of trees. South lie grassy plains, some cultivated by villagers. To the north the same plains lie empty of man, but full of the wild dhole, mad dog of the Dekkan.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7429} {e} {e} {2} {0} {} {1.000}
+
+R { 7431} {0} {} {In a Cavern Underground} { } {Here, where the water has slammed against the cavern wall for eons, a ledge has been carved out. As the river bends to the west, it has eroded away a sizable little pocket, slippery smooth and neatly curved, a bite out of the heart of the stone. North of you is the Waingunga, cold and dark, a watery ribbon threaded through a mountain.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5825} {n} {n} {1} {0} {} {1.000}
+
+R { 7432} {0} {} {Deep in the Jungle} { } {Every step crunches on creepers, and your feet become coated with yellowish sap. Surprisingly there is plenty of space to walk; the Indian jungle seems characterized by spaces of broad grass interrupted by massive dense thickets like the one you are in now. Over to the east the thicket thins out as it approaches the banks of the Waingunga.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5660} {e} {e} {2} {0} {} {1.000}
+E { 5658} {n} {n} {1} {0} {} {1.000}
+
+R { 7433} {0} {} {A Marshy Spot} { } {The water is hip-deep here, and it caught you by surprise. You can only hope the leeches are not biting today. Tall grass pokes above the water providing so much cover that it looks like solid ground. The leaves of the trees above hang so low they rest on your shoulders as you hold your arms high and try to walk through the surprisingly chilly water. You think you can clamber out to the south and the east.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5665} {e} {e} {2} {0} {} {1.000}
+E { 7434} {s} {s} {4} {0} {} {1.000}
+
+R { 7434} {0} {} {In the Jungle} { } {There are no paths. There is far more than green, however. The riotous colors and smells of the jungle surround you: the brilliant red and yellow flowers cascading like a shower of jewels from that bush on your left; the deep blues and purples of the broad leaf palm you are almost leaning on; the ruby color of the giant ants that trickle along the grasses, seen out of the corner of the eyes. To the north the ground seems squishier.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7433} {n} {n} {1} {0} {} {1.000}
+E { 7435} {s} {s} {4} {0} {} {1.000}
+E { 7437} {e} {e} {2} {0} {} {1.000}
+
+R { 7435} {0} {} {In The Jungle} { } {The ground is uneven, the stones scattered about the size of fists. Perhaps once this was a river bed, back in prehistory; now it is dark and cavernous, an accidental hollow made by the canopy of trees. One of the trees looks possible to climb; but the canopy is the home of the Bandar-Log, the shameless Monkey People of the trees, and surely a dangerous place.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7434} {n} {n} {1} {0} {} {1.000}
+E { 7436} {u} {u} {16} {0} {} {1.000}
+E { 7448} {e} {e} {2} {0} {} {1.000}
+E { 7449} {s} {s} {4} {0} {} {1.000}
+E { 7468} {w} {w} {8} {0} {} {1.000}
+
+R { 7436} {0} {} {High in a Tree} { } {Far below you, the ground is uneven with stones scattered about the size of fists. Perhaps a river once coursed through this part of the jungle; now the hollow below you is dark and cavernous, shaded completely by the canopy of the trees. What appears to be a roughly woven vine bridge leads west to yet another tree and a narrow limb stretches out to the east.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7435} {d} {d} {32} {0} {} {1.000}
+E { 7470} {w} {w} {8} {0} {} {1.000}
+E { 7477} {s} {s} {4} {0} {} {1.000}
+E { 7479} {e} {e} {2} {0} {} {1.000}
+
+R { 7437} {0} {} {A Sambhur Run} { } {This must be a place where the small Indian deer run; the grass is cropped short, and the fallen trees that raise skeletal boughs to their still-living neighbors offer shelter and a hiding place in case of attacks by wolves or the sly panther. You wander the clearing, cracking twigs with every step, feeling your way through the vast maze of fallen logs and hoping you do not catch and turn an ankle this far from civilization.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7434} {w} {w} {8} {0} {} {1.000}
+E { 7438} {e} {e} {2} {0} {} {1.000}
+
+R { 7438} {0} {} {Under a Log} { } {Dark and musty, the underside of a log hangs above you, supported on one side by its massive stump, long since carved away by the tusks of boar and the claws of bear for its succulent insect larvae, and on the other by a largish rock that stands firmly in the ground, proud of its role. This log may be the perfect ambush site, as small deer pass under it, heading south or east. The claw marks on the top of the log attest to many a leap taken onto unsuspecting backs.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7437} {w} {w} {8} {0} {} {1.000}
+E { 7439} {s} {s} {4} {0} {} {1.000}
+
+R { 7439} {0} {} {In the Jungle} { } {Creepers have taken over a hapless tree to your left, choking it with their usual glacial patience. They will grow longer and heavier on the bough until the weight of the massed coils makes it creak in the spring rains, when the blood runs hot and mating bellows of elephants cross the sky. Then the bough will break, and the tree will fall, making another rotting log on the trampled grasses. Such is the Law of the Jungle. South of you, a pool of water glints darkly.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7438} {n} {n} {1} {0} {} {1.000}
+E { 7444} {e} {e} {2} {0} {} {1.000}
+E { 7448} {w} {w} {8} {0} {} {1.000}
+E { 7451} {s} {s} {4} {0} {} {1.000}
+E { 7480} {u} {u} {16} {0} {} {1.000}
+
+R { 7440} {0} {} {On the Banks of the Waingunga} { } {North of you the Waingunga flows placidly under the wreckage of an old, old stone bridge. The bridge is thoroughly impassable, but it stands as dilapidated evidence that once upon a time man walked through this jungle without fear. You think you might be able to swim the river if you don't get slammed against the stones. To the south the remnants of the cobblestoned road that led to the bridge quickly disappear into the wilderness.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5668} {n} {n} {1} {0} {} {1.000}
+E { 7441} {s} {s} {4} {0} {} {1.000}
+
+R { 7441} {0} {} {In the Jungle} { } {A faint trail seems to widen here briefly, and you think you even detect the hint of a once-cobblestoned road underneath the years of grassy growth. Perhaps far to the north there lurks a great city swallowed by the jungle? Perhaps; but all that is here now are the sad remnants of masonry, left behind to trip the unwary.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7440} {n} {n} {1} {0} {} {1.000}
+E { 7442} {s} {s} {4} {0} {} {1.000}
+
+R { 7442} {0} {} {In the Jungle} { } {Is this a faint trail? Perhaps; the little Gond tribesmen are reputed to hunt this area of the jungle, daring their bare feet against snakes and the nips of wolves jealous of their prey. South the trees look more passable, but to the west the underbrush encroaches. The hunting trail, if it is such, leads north.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7441} {n} {n} {1} {0} {} {1.000}
+E { 7445} {w} {w} {8} {0} {} {1.000}
+E { 7447} {s} {s} {4} {0} {} {1.000}
+E { 7487} {u} {u} {16} {0} {} {1.000}
+
+R { 7443} {0} {} {A Sandy Strip} { } {The Waingunga curves gracelessly north and east directly north of this small beach. The sand ends abruptly only a few feet from the water, where the underbrush grows thick and sudden. For some reason this does not seem to be a favored drinking spot for the local fauna; the sand was pristine and undisturbed until you walked on it.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5667} {n} {n} {1} {0} {} {1.000}
+E { 7444} {s} {s} {4} {0} {} {1.000}
+
+R { 7444} {0} {} {A Open Glade} { } {Even here, in the deep recesses of the junglwhat dim light there is makes its filtered way down past the leaves and the monkeys and the prowling tigers on high boughs, down to quiet grassy glades like this one. The sky can be seen above, where clouds scud past; but the jungle encroaches as always, making the path to the east impassable.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7443} {n} {n} {1} {0} {} {1.000}
+E { 7439} {w} {w} {8} {0} {} {1.000}
+E { 7445} {s} {s} {4} {0} {} {1.000}
+
+R { 7445} {0} {} {In the Jungle} { } {Tall trees are hugged close by smaller bushes here, as the undergrowth grows thick. Brambly flower-bearing vines make nets between branches, barring passage in some directions. The colors are almost painful to see, and the scents are overwhelming; they seem flowers of wax, candles that burn with their own inner light, exuding their own intoxicating fragrance.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7444} {n} {n} {1} {0} {} {1.000}
+E { 7442} {e} {e} {2} {0} {} {1.000}
+
+R { 7446} {0} {} {In the Jungle} { } {There are gradually wider spaces here, and the trees look different. Perhaps this is elephant territory; the trunks are denuded of foliage a goodly ways up, and the branches seem to have been ripped off. One tree, in particular, has been pushed over so that its roots are exposed and it leans wildly against its neighbor. There are wider grassy spaces here, and the ground rolls along, lumpy and uneven. A huge rock outcropping looks unclimbable, however, blocking passage south and west.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7427} {e} {e} {2} {0} {} {1.000}
+E { 7458} {n} {n} {1} {0} {} {1.000}
+E { 7472} {u} {u} {16} {0} {} {1.000}
+
+R { 7447} {0} {} {In the Jungle} { } {The trees here stand apart from each other, as if they were afraid to come too close. The lower trunks are worn smooth, polished by generations of wolves and deer rubbing against them to scratch. Far, far above, the canopy closes off the sky; this is a cathedral of trees, a place of arches and infinite doorways formed by branches silently curving arcs into the air.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7442} {n} {n} {1} {0} {} {1.000}
+E { 7457} {w} {w} {8} {0} {} {1.000}
+E { 7459} {s} {s} {4} {0} {} {1.000}
+E { 7486} {u} {u} {16} {0} {} {1.000}
+
+R { 7448} {0} {} {Above a Pool} { } {The foliage clears to reveal a pool of water shining limpid and clear below you. It must be fed by a spring from below; you can see some sort of upwelling of water in the center. However, you can't really reach it from here, sheltered as it is by trees and sharp brambles. Here above it, on this rock outcropping, you probably have a better view of it than if you were in it, living with the water-snakes and the turtles.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7439} {e} {e} {2} {0} {} {1.000}
+E { 7437} {n} {n} {1} {0} {} {1.000}
+E { 7435} {w} {w} {8} {0} {} {1.000}
+
+R { 7449} {0} {} {The Edge of a Pool} { } {Dark and motionless, water laps your toes. You stand at the edge of what is clearly a deep pool. The water at the edges is hidden from view by a thick covering of lily pads and floating leaves, some dark brown and decaying, others a sickly vibrant green. Insects skate across the water as if it were glass, leaving sketchy ripples that ooze away from their tiny pockmark feet. The buzz of dragonflies is heavy in the air.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7435} {n} {n} {1} {0} {} {1.000}
+E { 7450} {e} {e} {2} {0} {} {1.000}
+E { 7460} {w} {w} {8} {0} {} {1.000}
+
+R { 7450} {0} {} {In a Pool} { } {The glistening water seems to slide against your skin, so cold and oily it is. You try not to think about the creepy slithering you feel against your feet, which you know intellectually to be the whispery touches of waterlily roots and underwater plants. A large rock outcropping stands north of the pool, a perfect vantage point to watch over the water. The pool continues to the south and east, getting deeper as it goes.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7449} {w} {w} {8} {0} {} {1.000}
+E { 7451} {e} {e} {2} {0} {} {1.000}
+E { 7453} {s} {s} {4} {0} {} {1.000}
+
+R { 7451} {0} {} {In a Pool} { } {The water is deep! Frighteningly deep, and with no warning. The north bank of the pool provides no gradual incline, but merely dumps the unwary into this inky, chilly water. The pool continues to the south and west, disturbed by your thrashings, rippling and wavering like a beast alive.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7439} {n} {n} {1} {0} {} {1.000}
+E { 7450} {w} {w} {8} {0} {} {1.000}
+E { 7452} {s} {s} {4} {0} {} {1.000}
+E { 7469} {u} {u} {16} {1} {} {1.000}
+
+R { 7452} {0} {} {In a Pool} { } {Despite the really deep water, you know the bank is only a few feet away to the south. It looks like a very nice bank too, much nicer than the depths you feel sure lurk to the north, where the water upwells from a spring underneath. The pool stretches out to the north and west.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7451} {n} {n} {1} {0} {} {1.000}
+E { 7453} {w} {w} {8} {0} {} {1.000}
+E { 7455} {s} {s} {4} {0} {} {1.000}
+
+R { 7453} {0} {} {In a Pool} { } {This end of the pool is marshy and overgrown with grasses, the perfect home for snakes. Creepers hang low over it; a little lower and you could pull yourself onto them and walk the canopy over the pool. Unfortunately, that option is not open to you, and you might walk, ankle-deep in muck, arms over your head, through the oily water, sending ripples before you like explorers.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7452} {e} {e} {2} {0} {} {1.000}
+E { 7450} {n} {n} {1} {0} {} {1.000}
+E { 7454} {w} {w} {8} {0} {} {1.000}
+E { 5826} {s} {s} {4} {0} {} {1.000}
+
+R { 7454} {0} {} {Hanging from Creepers} { } {You're half-suspended above water, walking on a fragile bridge of creeper vines that are both alive and dead; in fact, you try hard to pull on the wiry dead ones, brown and sturdy. To the east, a limpid pool of black water stretches out, probable home of watersnakes. You are using the creepers to haul yourself over the rustling marshy grasses inches under your feet, unsure of what may be rustling the vegetation.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7453} {e} {e} {2} {0} {} {1.000}
+E { 7458} {w} {w} {8} {0} {} {1.000}
+E { 7476} {u} {u} {16} {0} {} {1.000}
+
+R { 7455} {0} {} {The Bank of a Pool} { } {To the east and west an eerie water-cut landscape of rocky ridges and sedimented stone columns rises from the grassy plain. Oddly, many of the spires rise higher than the trees that choke the channels between them. Vines creep up the rock as if trying to strangle it. You can't go west--a ridge prevents it--and water pools deep and black to the north; but to the east a slope cluttered with spiny bushes and slender saplings leads up to one of the largest outcroppings around.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7452} {n} {n} {1} {0} {} {1.000}
+E { 7456} {e} {e} {2} {0} {} {1.000}
+E { 7483} {u} {u} {16} {0} {} {1.000}
+
+R { 7456} {0} {} {In the Jungle} { } {A steep slope is under your feet, giving you an ankle-ache. Walking at an angle is tiring, and were it not for the thick moss carpet that grows on the bare rocks, giving you handholds to dig your grubby fingers into, you'd slide away, falling into a spiny berry bush or some other equally uncomfortable resting place. To the north the rock is clear, however, as the slope reaches its peak and there is no more soil left for the underbrush to cling to.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7455} {w} {w} {8} {0} {} {1.000}
+E { 7457} {n} {n} {1} {0} {} {1.000}
+E { 7459} {e} {e} {2} {0} {} {1.000}
+E { 7484} {u} {u} {16} {0} {} {1.000}
+
+R { 7457} {0} {} {Council Rock} { } {Bare and bone-dry, striated red and yellow, Council Rock rises out of the valleys and runnels of rock like a leviathan surfacing from the sea. From here you can survey the Jungle, and bay to the moon; smaller spires grow off of even this giant promontory, offering individual places to stand and feel lord of all you can see. The jungle below steams with heat and sweat, and a mist overlays everything except the shining Waingunga far to the north.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7456} {s} {s} {4} {0} {} {1.000}
+E { 7447} {e} {e} {2} {0} {} {1.000}
+
+R { 7458} {0} {} {By the Mohwa Tree} { } {It's a landmark, but little else; the mohwa tree stands here, distinct from the tiring mass of creepers and vines and broad leaf palms. An occasional wild plantain stretches out its sharp triangular leaf to scratch your ankle or arm. The grass, however, is springy, and the ground firm; you feel ready to take on the world.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7446} {s} {s} {4} {0} {} {1.000}
+E { 7454} {e} {e} {2} {0} {} {1.000}
+E { 7460} {n} {n} {1} {0} {} {1.000}
+
+R { 7459} {0} {} {In the Jungle} { } {The steep slope to the west leads down to a maze of old river channels cut through sedimented rock; here however, higher up, you can see across the old flood plain. The ridges and spires of rock form channels filled with flowing grass, and there are sprays of green trees and a mist of vines over it all. To the northwest your view is blocked, however, by the massive rock outcropping that dominates the view.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7447} {n} {n} {1} {0} {} {1.000}
+E { 7456} {w} {w} {8} {0} {} {1.000}
+E { 7484} {u} {u} {16} {1} {} {1.000}
+
+R { 7460} {0} {} {In the Jungle} { } {It is said by superstitious villagers that when the moon rises full and the water in the Waingunga is not high enough to cover the rocks that grind and grumble the current deep in the depths, only once each year--then does the tiger kill Man. If the legend is true, the tiger begins his bloodthirsty hunt from places like these: lush and sultry, where the breeze that blows by raises hackles on the neck, rustling leaves and providing momentary relief from the vampiric sucking of mosquitoes.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7458} {s} {s} {4} {0} {} {1.000}
+E { 7449} {e} {e} {2} {0} {} {1.000}
+E { 7468} {n} {n} {1} {0} {} {1.000}
+E { 7469} {u} {u} {16} {0} {} {1.000}
+
+R { 7461} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 5674} {n} {n} {1} {0} {} {1.000}
+E { 5673} {s} {s} {4} {0} {} {1.000}
+
+R { 7462} {0} {} {A Crumbling Road Through the Jungle} { } {This is wilder jungle than any you have heretofore seen; the creepers look unnatural and twisted, as if they gained their length by practicing the arts of noose and choke. The cobblestones at your feet are embedded in moss and blackened grass, burnt by summer heat and still managing to live on. The road arcs here, turning north and west, weaving along the rolling ground and around the gnarled trees.} {Seoni Jungle India} {} {} {} {1.000}
+E { 5669} {w} {w} {8} {0} {} {1.000}
+E { 7463} {n} {n} {1} {0} {} {1.000}
+
+R { 7463} {0} {} {In the Jungle} { } {A road? Perhaps. The last traces of cobblestones that try to struggle through the undergrowth are swallowed in vegetation. The heat is oppressive; your clothes are plastered to your body. All around loom the creepers and vines, the trees and shrubs, with giant leaves and ropelike scarred hammocks and tummocks. The chattering of monkeys in the distance is no more than the snickering of the dark. North and south are your only choices, unless you dare to tread off the faint track that is your only guide in the world.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7462} {s} {s} {4} {0} {} {1.000}
+E { 7464} {n} {n} {1} {2} {} {1.000}
+
+R { 7464} {0} {<019>} {Lost in the Jungle} {X} {There are no landmarks anymore. It is all the jungle. Soon you yourself will be jungle, say the voices in your mind. Soon you yourself will lay down and let the creepers become your veins and the trunks your bones. You have no choice: the very world is conspiring against you, to confound you. There can be no maps of this troubled, twisted land. North is south, east is west, and to lay down is death. Do you seek an exit? If only the plants stopped moving...} {Seoni Jungle India} {} {} {} {1.000}
+E { 7463} {s} {s} {4} {0} {} {1.000}
+E { 5673} {n} {n} {1} {0} {} {1.000}
+
+R { 7465} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 7466} {e} {e} {2} {0} {} {1.000}
+E { 7467} {w} {w} {8} {0} {} {1.000}
+
+R { 7466} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 7465} {w} {w} {8} {0} {} {1.000}
+E { 5658} {e} {e} {2} {0} {} {1.000}
+
+R { 7467} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 7465} {e} {e} {2} {0} {} {1.000}
+E { 5657} {w} {w} {8} {0} {} {1.000}
+
+R { 7468} {0} {} {The Bee-Tree} { } {Massive and swollen, the bee-tree bulges like a barrel full of buzz. The honeybees have catacombed the bark and wood, chewing at its porous grain to make a hiding place and home. Within the tree no doubt honey drips in glistening trails along dry wood passages, feeding a queen bee and her warriors for another generation of petal eaters and nectar drinkers.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7460} {s} {s} {4} {0} {} {1.000}
+E { 7435} {e} {e} {2} {0} {} {1.000}
+
+R { 7469} {0} {} {High Above the Jungle Floor} { } {The jungle surrounding you is lush and sultry, and the breeze that blows by raises hackles on the neck, rustles leaves and provides momentary relief from the vampiric sucking of mosquitoes. The perfect setting for a tiger to begin his hunt. Unsteady woven vine bridges lead north and east from here.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7460} {d} {d} {32} {0} {} {1.000}
+E { 7470} {n} {n} {1} {0} {} {1.000}
+E { 7471} {s} {s} {4} {0} {} {1.000}
+E { 7477} {e} {e} {2} {0} {} {1.000}
+
+R { 7470} {0} {} {High Above the Bee-Tree} { } {Below, the bee-tree sits, massive and swollen, huddled on the ground. Not much is left of the original tree as the honeybees have catacombed the bark and wood, chewing at its porous grain to make a hiding place and home. From up here, you can see through an opening in the trunk where the honey drips in glistening trails along dry wood passages, feeding the queen bee and her warriors. Roughly woven vine bridges connect this tree to the one to the east and the one to the south.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7469} {s} {s} {4} {0} {} {1.000}
+E { 7436} {e} {e} {2} {0} {} {1.000}
+
+R { 7471} {0} {} {Above the Mohwa Tree} { } {The mohwa tree stands distinct from the tiring mass of creepers, vines and broad leaf palms growing so abundantly here. An occasional wild plantain stretches out its sharp triangular leaves in contrast to the surrounding foliage as well. Your movement from this place seems to be restricted to finding a vine to swing east, climbing down the tangled vines or heading south across that unsteady looking branch.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7472} {s} {s} {4} {0} {} {1.000}
+E { 7476} {e} {e} {2} {2} {} {1.000}
+
+R { 7472} {0} {} {On a Limb of a Wildly Leaning Tree} { } {The trees look different and the spaces between them grow wider here. The trunks of the trees stripped of their lower foliage and the wider, grassy spaces here where the ground rolls along, lumpy and uneven, suggests this is elephant territory. The huge rock outcropping to the south and west looks looks impassable. However, you could probably cautiously climb your way down the limb you are standing on, and manage to shimmy down the wildly leaning trunk to the ground.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7471} {n} {n} {1} {0} {} {1.000}
+E { 7446} {d} {d} {32} {0} {} {1.000}
+E { 7473} {e} {e} {2} {0} {} {1.000}
+
+R { 7473} {0} {} {High above the Jungle Floor} { } {Dry grasses wave in the breeze like a sea at high tide across the jungle floor. Occasionally you see an uprooted sapling -- half-hidden, the bones of baby trees -- peek through the grasses. The jungle floor seems to be littered with fallen trees as you walk, but there are certainly enough of them left standing from which thick, green vines drape themselves.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7472} {w} {w} {8} {0} {} {1.000}
+E { 7427} {d} {d} {32} {0} {} {1.000}
+E { 7474} {e} {e} {2} {0} {} {1.000}
+E { 7476} {n} {n} {1} {2} {} {1.000}
+
+R { 7474} {0} {} {High Above a Muddy Stomping Ground} { } {The stand of the trees to the west is unsettling as many of the saplings and a few of the larger trees lean at wild angles with their roots barely clinging to the earth. The thick, red mud below you has been well-trod by several large animals. Massive footprints hold pooled water in them near the edge of the very marshy water to the north and a rocky ridge curves around to the south and east.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7473} {w} {w} {8} {0} {} {1.000}
+E { 5826} {d} {d} {32} {0} {} {1.000}
+E { 7475} {n} {n} {1} {0} {} {1.000}
+E { 7483} {e} {e} {2} {0} {} {1.000}
+
+R { 7475} {0} {} {High Above a Marshy Pool} { } {The pool below is marshy and overgrown with grasses, the perfect home for snakes. Creepers hang low over the pool's mucky surface, but not so close that you could touch the water if you were hanging from them. However, you might be able to swing across one one of the vines to the west.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7474} {s} {s} {4} {0} {} {1.000}
+E { 7453} {d} {d} {32} {0} {} {1.000}
+E { 7476} {w} {w} {8} {2} {} {1.000}
+E { 7478} {n} {n} {1} {0} {} {1.000}
+E { 7482} {e} {e} {2} {0} {} {1.000}
+
+R { 7476} {0} {} {Hanging from Creepers High Above a Pool} { } {You find yourself half-suspended high above a pool of water, hanging from a fragile rope of creeper vines that are both alive and dead. Far below to the east, a limpid pool of black water stretches out, probable home of deadly watersnakes. You could probably swing from vine to vine in any direction here, or climb down the thread of vines holding you from your death. Nary a bird can be seen here among the numerous vines dangling from the high limbs. The sheer number of vines to avoid must make flying a nightmare.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7454} {d} {d} {32} {0} {} {1.000}
+E { 7475} {e} {e} {2} {2} {} {1.000}
+E { 7471} {w} {w} {8} {2} {} {1.000}
+E { 7473} {s} {s} {4} {2} {} {1.000}
+E { 7477} {n} {n} {1} {2} {} {1.000}
+
+R { 7477} {0} {} {High Above the Water's Edge} { } {High among the upper branches of this tree, you can see where creeper vines have been roughly woven together to fashion crude bridges between the trees to the north and the west. To the south and east a dark glistening pool spreads out from the banks like a dark stain on the jungle floor. The water at the edges is hidden from view by a thick covering of lily pads and floating leaves, some dark brown and decaying, others a sickly vibrant green. Several creepers dangle from higher branches. Perhaps you could swing across the pool's edge to that big tree to the south?} {Seoni Jungle India} {} {} {} {1.000}
+E { 7469} {w} {w} {8} {0} {} {1.000}
+E { 7476} {s} {s} {4} {2} {} {1.000}
+E { 7449} {d} {d} {32} {0} {} {1.000}
+E { 7436} {n} {n} {1} {0} {} {1.000}
+E { 7478} {e} {e} {2} {0} {} {1.000}
+
+R { 7478} {0} {} {Among the Gnarled Branches of a Tree} { } {Despite the heat and humidity in the air around you, looking deep into the depths of the black motionless pool far below you brings a chill to your flesh. Large gnarled branches reach northwards from this tree standing atop the large rock outcropping rising from the edge of the pool. To the east, you can climb out onto the rock itself and get a better view of the water below.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7477} {w} {w} {8} {0} {} {1.000}
+E { 7450} {d} {d} {32} {0} {} {1.000}
+E { 7475} {s} {s} {4} {0} {} {1.000}
+E { 7479} {n} {n} {1} {0} {} {1.000}
+E { 7481} {e} {e} {2} {0} {} {1.000}
+
+R { 7479} {0} {} {Out On a Limb} { } {Precariously perched out here on a quickly thinning piece of wood, you glance uneasily down at the sharp brambles below. A pool of shining water, certainly the home of many watersnakes and turtles, can be seen below the jagged rock outcropping. If you jump over onto another branch, moving around might not be such a balancing act. A sturdy bough leads off to the east. To the south, a gnarled branch reaches out from a tree toward you and a narrow limb leads off to the west.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7478} {s} {s} {4} {0} {} {1.000}
+E { 7436} {w} {w} {8} {0} {} {1.000}
+E { 7448} {d} {d} {32} {0} {} {1.000}
+E { 7480} {e} {e} {2} {0} {} {1.000}
+
+R { 7480} {0} {} {Above a Dying Tree} { } {A sturdy bough reaches out to the west away from this tree passing by a hapless tree, ensnared by the creepers, that is slowly succumbing to the weight of the massed coils. Each spring when the rains come, the tree creaks wearily and in time it will break and fall to become another rotting log on the trampled grasses of the jungle floor. You could inch your way south by climbing hand over hand along the twisted rope of creepers out to where the rock outcropping juts over the pool. Another branch leads away from the tree to the east here.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7479} {w} {w} {8} {0} {} {1.000}
+E { 7439} {d} {d} {32} {0} {} {1.000}
+E { 7481} {s} {s} {4} {0} {} {1.000}
+E { 7489} {e} {e} {2} {0} {} {1.000}
+
+R { 7481} {0} {} {High Above a Pool of Glistening Black Water} { } {Far below this jutting outcropping of rock, the north bank of the pool sinks quickly beneath the surface of the inky, chilly water. To the south and west, the pool spreads out like a giant stain across the jungle floor. A twisted rope of creepers looks as if it could support your weight well enough to climb hand over hand to the tree north of here. A tall tree supporting a tangled net of flowering brambles might be reached by swinging across on one of the many long dangling vines, or you might see if one could reach all the way to one of the trees on the south side of the pool.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7480} {n} {n} {1} {0} {} {1.000}
+E { 7451} {d} {d} {32} {0} {} {1.000}
+E { 7478} {w} {w} {8} {0} {} {1.000}
+E { 7482} {s} {s} {4} {0} {} {1.000}
+E { 7488} {e} {e} {2} {0} {} {1.000}
+
+R { 7482} {0} {} {High Above A Pool of Water} { } {The black inky water reflects back the canopy that overhangs its surface, slyly obscuring just how deep the water might be below you. The bank of the pool can be seen along the southern edge of the pool and it looks much more inviting than the waters to the north where a large outcropping of rock juts out over the water below. To the west, the canopy continues over the marshy, grassy snake-spawning shallows.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7475} {w} {w} {8} {0} {} {1.000}
+E { 7481} {n} {n} {1} {0} {} {1.000}
+E { 7483} {s} {s} {4} {0} {} {1.000}
+E { 7452} {d} {d} {32} {0} {} {1.000}
+
+R { 7483} {0} {} {Above a High Ridge Bordering the Bank of a Pool} { } {To the north, the black murky water of the pool of water licks at the toes of the stone ridge. A stand of trees rises out of the well-trod, red mud at the pool's edge to the west. A steep slope rises to the east, building up to an impressive rock promontory.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7482} {n} {n} {1} {0} {} {1.000}
+E { 7474} {w} {w} {8} {0} {} {1.000}
+E { 7484} {e} {e} {2} {0} {} {1.000}
+E { 7455} {d} {d} {32} {0} {} {1.000}
+
+R { 7484} {0} {} {Overlooking a Steep Slope} { } {The mossy-carpeted ground drops away quickly below you to the west. Spiny berry bushes and equally uncomfortable underbrush gathers at the base of the slope. The rock is clear, but jagged and a lone limb stretches out over it from the north.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7483} {w} {w} {8} {0} {} {1.000}
+E { 7485} {e} {e} {2} {0} {} {1.000}
+E { 7456} {d} {d} {32} {0} {} {1.000}
+
+R { 7485} {0} {} {On a Limb Above an Outcropping} { } {The limb stretches out from a tree to the north. From here, you have a good view of the steep slope to the west that leads down to a maze of old river channels cut through sedimented rock. The green mist of vines obscures your view to the south and east. To the northwest your view is blocked, however, by the massive rock outcropping that dominates the view.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7484} {w} {w} {8} {0} {} {1.000}
+E { 7486} {n} {n} {1} {0} {} {1.000}
+E { 7459} {d} {d} {32} {0} {} {1.000}
+
+R { 7486} {0} {} {High Up in a Tree} { } {The trees here stand apart from each other, as if they were afraid to come too close. The lower trunks are worn smooth, polished by generations of wolves and deer rubbing against them to scratch. Above you, the canopy closes off the sky; this is a cathedral of trees, a place of arches and infinite doorways formed by branches silently curving arcs into the air.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7485} {s} {s} {4} {0} {} {1.000}
+E { 7487} {n} {n} {1} {0} {} {1.000}
+E { 7447} {d} {d} {32} {0} {} {1.000}
+
+R { 7487} {0} {} {High Above a Faint Trail} { } {Far below you, a faint trail looks like it has been worn through the grass and underbrush. Perhaps by wolves, perhaps by the little Gond tribesmen as they scurry along after their prey. A net of flowers stretches low across the embankment of a pool of water to the west. To the south, the trail continues, heading toward a large rock promontory.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7486} {s} {s} {4} {0} {} {1.000}
+E { 7488} {w} {w} {8} {0} {} {1.000}
+E { 7442} {d} {d} {32} {0} {} {1.000}
+
+R { 7488} {0} {} {Suspended Above a Net of Flowers} { } {The bases of the tall trees are hugged close by smaller bushes down below where the undergrowth grows thick. Brambly flower-bearing vines make nets between branches, barring passage to the south while making it possible to climb down from this tree to the jungle floor. Exuding an overpowering fragrance all their own, the waxy flowers burn with their own inner light that is almost painful to behold. A twisted rope of creepers dangles down from above and a narrow limb leads off to the north.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7487} {e} {e} {2} {0} {} {1.000}
+E { 7481} {w} {w} {8} {0} {} {1.000}
+E { 7489} {n} {n} {1} {0} {} {1.000}
+E { 7491} {u} {u} {16} {0} {} {1.000}
+
+R { 7489} {0} {} {On a Branch Overlooking an Open Glade} { } {Here at the edge of the canopy, you can over look an open glade. The sky can be seen above to the east, where kites wheel and clouds scud; but the jungle encroaches, as always, once again to the north and east beyond the glade. The drop down is a doozy and would probably hurt if you fell that far. A twisted rope of creepers hangs invitingly down from above. The branch leads back to the west toward the trunk of the tree. A gnarled limb reaches out from the a tall tree covered with a living net of brambly flower-bearing vines.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7488} {s} {s} {4} {0} {} {1.000}
+E { 7480} {w} {w} {8} {0} {} {1.000}
+E { 7490} {u} {u} {16} {0} {} {1.000}
+E { 7444} {d} {d} {32} {0} {} {1.000}
+
+R { 7490} {0} {} {On a Rough Platform} { } {You suppose that 'platform' is the best way to describe where you are. Several broken branches have been placed across the branches in such a way that provides somewhat steady footing. Several humongous flat leaves have been broken off and laid over the branches. A twisted rope of creepers hangs invitingly down near a branch below. An open glade can be seen below slightly to the east and a roughly woven vine bridge leads off to the south.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7489} {d} {d} {32} {0} {} {1.000}
+E { 7491} {s} {s} {4} {0} {} {1.000}
+
+R { 7491} {0} {} {High Above the Jungle Floor} { } {Nestled among the highest branches of this tree, you are out of reach of the stinging nettles of the flowering vines that are slowly and methodically climbing their way up the trunk, weaving themselves into a living net. More creepers have been gathered together and twisted into something that serves as a makeshift bridge heading north. A twisted rope of creepers hangs invitingly down near a branch below.} {Seoni Jungle India} {} {} {} {1.000}
+E { 7488} {d} {d} {32} {0} {} {1.000}
+E { 7490} {n} {n} {1} {0} {} {1.000}
+
+R { 7492} {0} {} {In the Behemoth's Realm} { } {Undrinkable wine, sour as sweat, the ocean waters gather around you, a brother to you in a tight embrace, for this time and this time alone. Here, deep under the cliffs of the Geats, under the promontories of the Scyldings, where no Frisian dare come and the wanderers, the rimwalkers, and shadowed ones make their homes, you swim, a small soul in the frightening dark.} {Beowulf} {} {} {} {1.000}
+E { 2239} {u} {u} {16} {0} {} {1.000}
+E { 7493} {e} {e} {2} {0} {} {1.000}
+E { 7495} {n} {n} {1} {0} {} {1.000}
+
+R { 7493} {0} {} {In the Behemoth's Realm} { } {You can only hope the malice-workers, foul fish that prey on men, shall not have you for a banquet on the sea-bottom. For here you are, adrift in the deep wine, the salty depths of the sea. Sea-beasts hide in the flood with its current, in the surging waters... and you float, a speck of life, insignificant, hidden even from the sight of the sky, if not from the eyes of God.} {Beowulf} {} {} {} {1.000}
+E { 7492} {w} {w} {8} {0} {} {1.000}
+E { 7494} {n} {n} {1} {0} {} {1.000}
+E { 2826} {u} {u} {16} {0} {} {1.000}
+
+R { 7494} {0} {} {In the Behemoth's Realm} { } {The whale-fishes hide here in the cloak of waters. You embrace the sea-streams with your arms, measuring the sea-ways, but darkness is everywhere. The sea boils with bubbles from the deep, where the great hand of God crushes men, where air vanishes from lungs, and you cannot see for far at all.} {Beowulf} {} {} {} {1.000}
+E { 7493} {s} {s} {4} {0} {} {1.000}
+E { 7495} {w} {w} {8} {0} {} {1.000}
+E { 2827} {u} {u} {16} {0} {} {1.000}
+
+R { 7495} {0} {} {In the Behemoth's Realm} { } {Where water rushes past you in swift waves, the sea can be understood; but here, deep in the caverns of the water, deep as in the depths of the mind, must one gather a stouter heart and a questing soul. The behemoths roam the deeps. This is the coldest of weathers, and the darkening night.} {Beowulf} {} {} {} {1.000}
+E { 7494} {e} {e} {2} {0} {} {1.000}
+E { 7492} {s} {s} {4} {0} {} {1.000}
+E { 2238} {u} {u} {16} {0} {} {1.000}
+
+R { 7496} {0} {} {Amymone} { } {A low hill rising to the north hides the source of the spring itself, but the bubbling rush of water welling up here and forming small rivulets that coalesce into a stream running south into the swamp tells you this must be Amymone. The ground is moist and soft below you, and every step you take breaks a score of the slender reeds that line the stream's banks.} {Ancient Greece} {} {} {} {1.000}
+E { 2469} {w} {w} {8} {0} {} {1.000}
+
+R { 7497} {0} {} {Alcyonian Lake} { } {The trackless marsh opens up here, revealing a broad lake. The opposite shore is difficult to spy in the far distance due to the haze that lies over everything in this bleak place. The water just offshore looks too deep to enter and too dark to chance to swim.} {Ancient Greece} {} {} {} {1.000}
+E { 2469} {n} {n} {1} {0} {} {1.000}
+E { 2470} {d} {d} {32} {0} {} {1.000}
+
+R { 7498} {256} {} {} { } {} {Ancient Greece} {} {} {} {1.000}
+E { 2469} {s} {s} {4} {4} {} {1.000}

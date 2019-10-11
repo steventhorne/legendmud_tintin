@@ -20,8 +20,12 @@ clear
 while [ "true"  ]; do
     COLS=$(expr $(tput cols) '/' 6 '*' 6)
     ROWS=$(expr $(tput lines) '/' 3 '*' 3)
+    (
+    flock -x 200
+
     echo \#VAR MAP_ROWS $COLS\; > $MAP_SIZE
     echo \#VAR MAP_LINES $ROWS\; >> $MAP_SIZE
+    ) 200>/var/lock/mylockfile
     printf '\033[;H'
     output=$(cat $MAP_FILE)
     printf '%s' "$output"

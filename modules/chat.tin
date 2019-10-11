@@ -1,13 +1,108 @@
+#FUNCTION {display_chat_log}
+{
+    #LOCAL chat_height {};
+    #MATH chat_height {(($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1]) + 1) * -1};
+
+    #LOCAL chat_draw_line {};
+    #LOCAL chat_index {};
+    #LOOP $chat_height -1 {count}
+    {
+        #MATH chat_draw_line {$screen[panes][$chat_pane][y2] + $count + 1};
+        #MATH chat_index {$count + $chat_offset};
+        #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$chat_pane][x1] $chat_draw_line $screen[panes][$chat_pane][x2] $chat_log[$chat_index];
+    };
+    #UNVAR count;
+
+    #RETURN #NOP;
+};
+
+#FUNCTION {add_chat_item}
+{
+    #LOCAL item {%1};
+    #FORMAT item {%t %s} {%T} {$item};
+    #LIST chat_log add $item;
+	#LINE log chat.txt {$item};
+
+    @display_chat_log{};
+
+    #RETURN #NOP;
+};
+
+#FUNCTION {add_test_chat}
+{
+    #LOOP 1 %1 count
+    {
+        @add_chat_item{$count};
+    }
+    #UNVAR count;
+};
+
 #ACTION {~{^(?:\e\[[\d\;]{4,6}m)*[<\[]\e\[[\d\;]{4,6}m(?!Exits)(\w+)(?:(?:\e\[[\d\;]{4,6}m)?\:(?:\e\[[\d\;]{4,6}m)?([^>\]]+))?(?:\e\[[\d\;]{4,6}m)?[>\]].*$}}
 {
-	#FORMAT curtime {%t} {%T};
-	#LINE log chat.txt {$curtime %1}
+    @add_chat_item{%1};
 }
 {5}
 
-#ACTION {~{\e\[0;33m.*? tell[s]? the group, '.*?$}}
+#ACTION {~{\e\[[\d\;]{4,6}m.*? tell[s]? (?:the group|you), '.*?$}}
 {
-	#FORMAT curtime {%t} {%T};
-	#LINE log chat.txt {$curtime %1}
+    @add_chat_item{%1};
 }
 {5}
+
+#NOP pgup;
+#MACRO {\e[5;3~}
+{
+    #LOCAL chat_height {};
+    #MATH chat_height {($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1])};
+    #IF {&chat_log[] < $chat_height}
+    {
+        #VAR chat_offset 0;
+    }
+    {
+        #MATH chat_offset {@max{$chat_offset - $chat_height;(&chat_log[] * -1) + $chat_height + 1}};
+    }
+    @display_chat_log{};
+}
+
+#NOP pgdn;
+#MACRO {\e[6;3~}
+{
+    #LOCAL chat_height {};
+    #MATH chat_height {($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1])};
+    #MATH chat_offset {$chat_offset + $chat_height};
+    #MATH chat_offset {@min{0;$chat_offset}};
+    @display_chat_log{};
+}
+
+#NOP home;
+#MACRO {\e\e[1~}
+{
+    #LOCAL chat_height {};
+    #MATH chat_height {($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1])};
+    #IF {&chat_log[] < $chat_height}
+    {
+        #VAR chat_offset 0;
+    }
+    {
+        #MATH chat_offset {(&chat_log[] * -1) + $chat_height + 1};
+    }
+    @display_chat_log{};
+}
+
+#NOP end;
+#MACRO {\e\e[4~}
+{
+    #MATH chat_offset 0;
+    @display_chat_log{};
+}
+
+#NOP create chat log outside of classes so that it doesn't get wiped on reload;
+#CLASS module_chat close;
+#IF {&chat_log} {}
+{
+    #LIST chat_log create;
+};
+#CLASS module_chat open;
+
+#VAR chat_offset 0;
+@display_chat_log{};

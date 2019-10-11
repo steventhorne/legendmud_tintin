@@ -24,7 +24,7 @@
     {
         #MAP flag static on;
     };
-	#LINE verbose #MAP write modules/map/legendmud.map;
+	#LINE verbose {#MAP at 1 #MAP write modules/map/legendmud.map};
     #IF {"$editmap" == "true"}
     {
         #MAP flag static off;

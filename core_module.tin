@@ -2,6 +2,80 @@
 #CLASS core open;
 #SHOWME Loading <069>core<099>...;
 
+#FUNCTION {create_layout}
+{
+    #NOP handle screen layout;
+    #IF {&{height_percent}}
+    {
+        #VAR screen[height_percent] $height_percent;
+        #UNVAR height_percent;
+    };
+
+    #IF {&{width_percent}}
+    {
+        #VAR screen[width_percent] $width_percent;
+        #UNVAR width_percent;
+    };
+
+    #SCREEN get rows screen[height];
+    #SCREEN get cols screen[width];
+    #MATH screen[height] {$screen[height] - 1};
+
+    #NOP calc scroll region;
+    #MATH screen[scroll][y1] {(100 - $screen[height_percent]) * 0.01 * $screen[height]};
+    #VAR screen[scroll][x1] {1};
+    #VAR screen[scroll][y2] $screen[height];
+    #MATH screen[scroll][x2] {$screen[width_percent] * 0.01 * $screen[width]};
+
+    #IF {@has_module{prompt}}
+    {
+        #MATH screen[scroll][y2] {$screen[scroll][y2] - 3};
+    };
+
+    #NOP calc top pane;
+    #MATH screen[panes][1][y1] {1};
+    #MATH screen[panes][1][x1] {1};
+    #MATH screen[panes][1][y2] {$screen[scroll][y1] - 2};
+    #MATH screen[panes][1][x2] {$screen[width]};
+
+    #NOP calc top left pane;
+    #NOP #MATH screen[panes][1][y1] {1};
+    #NOP #MATH screen[panes][1][x1] {1};
+    #NOP #MATH screen[panes][1][y2] {$screen[scroll][y1] - 2};
+    #NOP #MATH screen[panes][1][x2] {$screen[scroll][x2]};
+
+    #NOP calc top right pane;
+    #NOP #MATH screen[panes][2][y1] {1};
+    #NOP #MATH screen[panes][2][x1] {$screen[scroll][x2] + 2};
+    #NOP #MATH screen[panes][2][y2] {$screen[scroll][y1] - 2};
+    #NOP #MATH screen[panes][2][x2] {$screen[width]};
+
+    #NOP calc bot right pane;
+    #MATH screen[panes][2][y1] {$screen[scroll][y1]};
+    #MATH screen[panes][2][x1] {$screen[scroll][x2] + 2};
+    #MATH screen[panes][2][y2] {$screen[height]};
+    #MATH screen[panes][2][x2] {$screen[width]};
+
+    #SCREEN scroll $screen[scroll][y1] $screen[scroll][x1] $screen[scroll][y2] $screen[scroll][x2];
+    #SCREEN fill split -;
+    #BUFFER end;
+
+    #MATH line_start {@max{$screen[panes][2][y1] - 1;1}};
+    #MATH line_pos {$screen[panes][2][x1] - 1};
+    #DRAW line $line_start $line_pos $screen[height] $line_pos;
+    #UNVAR line_pos;
+    #UNVAR line_start;
+
+    #IF {$screen[panes][1][y2] > 0}
+    {
+        #DRAW tile $screen[panes][1][y1] $screen[panes][1][x1] $screen[panes][1][y2] $screen[panes][1][x2];
+    };
+    #DRAW tile $screen[panes][2][y1] $screen[panes][2][x1] $screen[panes][2][y2] $screen[panes][2][x2];
+    #NOP #DRAW tile $screen[panes][3][y1] $screen[panes][3][x1] $screen[panes][3][y2] $screen[panes][3][x2];
+
+    #RETURN #NOP;
+};
+
 #FUNCTION {load_user_config}
 {
     #CLASS config kill;
@@ -10,10 +84,12 @@
     #CLASS default_config read defaults.config;
 
     #CLASS config open;
+    #LOCAL write_default 0;
     #FOREACH {*defaults[%*]} {default}
     {
         #IF {&{$default}} {#NOP;}
         {
+            #LOCAL write_default 1;
             #LINE sub {var}
             {
                 #VAR {$default} {$defaults[$default]};
@@ -21,7 +97,10 @@
         }
     }
     #UNVAR default;
-    #CLASS config write user.config;
+    #IF {$write_default}
+    {
+        #CLASS config write user.config;
+    };
     #CLASS config close;
 
     #LIST modules create $modules;
@@ -41,6 +120,17 @@
         #READ modules/$module.tin;
         #CLASS {module_$module} {close};
     };
+    #UNVAR module;
+
+    #RETURN #NOP;
+};
+
+#FUNCTION {kill_all_modules}
+{
+    #FOREACH {$modules[%*]} {module}
+    {
+        #CLASS {module_$module} {kill};
+    }
     #UNVAR module;
 
     #RETURN #NOP;
@@ -147,6 +237,8 @@
 
 #CLASS core close;
 
+@kill_all_modules{};
+
 @load_user_config{};
 
 #CLASS utils kill;
@@ -154,8 +246,9 @@
 #READ utils.tin;
 #CLASS utils close;
 
+@create_layout{};
+
 #VAR is_startup 1;
+#MAP flag vtmap off;
 @load_all_modules{};
 #UNVAR is_startup;
-
-#SPLIT $split_top $split_bottom;

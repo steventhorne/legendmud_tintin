@@ -1,7 +1,7 @@
 #ACTION {{^You follow (.*)\.$}}
 {
     #VAR follow_char {%2};
-    #BUFFER get {follow_check} 1 10;
+    #BUFFER get {follow_check} -10 -1;
     #FOREACH {$follow_check[%*]} {line}
     {
         #REGEX {$line} {{(?i)^(.*) leaves (.).*?\.$}}
@@ -20,19 +20,17 @@
 {
     #if {"$editmap" == "true" || "$findroom" == "true"}
     {
-        #BUFFER get {room_check} 1 15;
-        #VAR count -1;
-        #FOREACH {$room_check[%*]} {line}
+        #BUFFER get {room_check} -15 -1;
+        #LOOP 15 1 count
         {
-            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.)}}
+            #VAR line {$room_check[$count]};
+            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas\.|You fly through the air.|You return to being In Character\.)}}
             {
                 #VAR break true;
             }
             {
                 #REGEX {$line} {{.+}}
-                {
-                    #MATH count {$count + 1};
-                }
+                {}
                 {
                     #VAR break true;
                 }
@@ -44,14 +42,15 @@
                 #BREAK;
             }
         }
+        #MATH count {$count + 2};
 
-        #VAR room_desc {$room_check[1]};
-        #LOOP 2 $count cnt
+        #VAR room_desc {$room_check[15]};
+        #LOOP 14 $count cnt
         {
             #VAR room_desc {$room_check[$cnt] $room_desc};
         };
 
-        #MATH count {$count + 1};
+        #MATH count {$count - 1};
         #VAR room_title {$room_check[$count]};
 
         #LINE substitute variables #LINE strip #VAR {room_title} {$room_title};
@@ -128,6 +127,12 @@
 }
 {5}
 
+#ACTION {{^You leave \w+, but quickly find yourself back where you started.$}}
+{
+    #MAP undo;
+}
+{5}
+
 #ACTION {{^An old village farmer begins to drone on, you think for a minute he might never stop}}
 {
 	#MAP goto 883;
@@ -176,9 +181,10 @@
     #IF {&{oocvnum}}
     {
         #MAP goto $oocvnum;
+        #UNVAR oocvnum;
     }
     {
-        find;
+        #VAR findroom true;
     }
 }
 {5}
@@ -299,5 +305,94 @@
 #ACTION {{^Belet-Seri waves a scroll in your direction. An eerie, pale light surrounds you.$}}
 {
     #MAP goto 6966;
+}
+{5}
+
+#ACTION {{^Despite your disbelief in the tale itself, the elder is a fascinating narrator, and you feel yourself slipping into the world that he describes...$}}
+{
+    #MAP goto 5486;
+    #SEND pause 1s;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^The white-haired elder says to you, 'Welcome, friend. You may feel confused, since you have travelled far, yet no distance at all. When you wish to leave this cave, just ask me, and I will summon a guide for you.'$}}
+{
+    #MAP goto 7419;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^You clasp your hands to your throat! Ack! You feel as if you're swallowing}}
+{
+    #MAP goto 606;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^You feel extremely disoriented... the world seems to crumble to dust around you... colors waver and bleed, and your eyes shut involuntarily.$}}
+{
+    #MAP goto 7422;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^The old man suddenly vanishes in a giant roiling cloud!$}}
+{
+    #MAP goto 6196;
+}
+{5}
+
+
+#ACTION {{^You suddenly wake from a dream of suffocation!$}}
+{
+    #MAP goto 4195;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^'Drink,' he says, and you do.$}}
+{
+    #MAP goto 4282;
+}
+
+#ACTION {{^As the mead hits your stomach you realize it was much more potent than you had thought,}}
+{
+    #MAP goto 2243;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^It's no good, the priest's voice is just too calming, and the air is so}}
+{
+    #MAP goto 7426;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^The laundry attendant smiles and passes his hand in front of your eyes.$}}
+{
+    #MAP goto 7132;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^Buldeo raises his musket, coughs once and fires, right into your temple. Everything goes black.$}}
+{
+    #MAP goto 2367;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^The eccentric old man shoots you at point-blank range, in the chest...!$}}
+{
+    #MAP goto 271;
+    #SEND stand;
+}
+{5}
+
+#ACTION {{^A group of angels gathers around and carry you through the air!$}}
+{
+    #MAP goto 4865;
 }
 {5}

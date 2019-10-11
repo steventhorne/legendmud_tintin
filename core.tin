@@ -1,21 +1,5 @@
 #LINE quiet {#READ sys.config};
 
-#FUNCTION {is_out_of_date}
-{
-    #INFO system save;
-    #LOCAL tt_version {$info[SYSTEM][CLIENT_VERSION]};
-    #UNVAR info;
-    #REPLACE {tt_version} {.} {};
-    #REPLACE {tt_version} {b} {};
-    #IF {$tt_version < 20190}
-    {
-        #RETURN 1;
-    }
-    {
-        #RETURN 0;
-    };
-}
-
 #ALIAS {reload}
 {
     #IF {"%1" == "" || "%1" == "all"}
@@ -39,7 +23,21 @@
     };
 };
 
-
+#FUNCTION {is_out_of_date}
+{
+    #INFO system save;
+    #LOCAL tt_version {$info[SYSTEM][CLIENT_VERSION]};
+    #UNVAR info;
+    #REPLACE {tt_version} {.} {};
+    #REPLACE {tt_version} {b} {};
+    #IF {$tt_version < 20190}
+    {
+        #RETURN 1;
+    }
+    {
+        #RETURN 0;
+    };
+}
 
 #EVENT {PROGRAM START}
 {
@@ -78,18 +76,13 @@
     };
 }
 
-#ALIAS {jtform %1}
+#EVENT {SCREEN RESIZE}
 {
-    #REGEX {%1} {{(?:\d+\.)?(.*)}}
+    @create_layout{};
+    #IF {@has_module{map}}
     {
-        #SEND remove %1;
-        #VAR tform_kw &2;
-        #SEND give $tform_kw old;
-        #ACTION {{^A mysterious shugenja gives .*? to you.$}}
-        {
-            #SEND wear $tform_kw;
-            #UNVAR tform_kw;
-            #UNACTION {{^A mysterious shugenja gives .*? to you.$}};
-        }
-    };
+        #MAP offset $screen[panes][$map_pane][y1] $screen[panes][$map_pane][x1] $screen[panes][$map_pane][y2] $screen[panes][$map_pane][x2];
+    }
 }
+
+#EVENT {SESSION DISCONNECTED} {#INFO stack};
