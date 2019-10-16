@@ -2,6 +2,27 @@
 #CLASS core open;
 #SHOWME Loading <069>core<099>...;
 
+#ALIAS {layouts}
+{
+    #SHOWME {Valid Layouts:\n};
+    #SHOWME {1              2              3              4};
+    #SHOWME { ___________    ___________    ___________    ___________};
+    #SHOWME {|           |  |           |  |     |     |  |           |};
+    #SHOWME {|           |  |     1     |  |     |     |  |     1     |};
+    #SHOWME {|     M     |  |___________|  |  M  |  1  |  |___________|};
+    #SHOWME {|           |  |           |  |     |     |  |     |     |};
+    #SHOWME {|           |  |     M     |  |     |     |  |  M  |  2  |};
+    #SHOWME {|_____ _____|  |___________|  |_____|_____|  |_____|_____|\n};
+    #SHOWME {5              6              7              8};
+    #SHOWME { ___________    ___________    ___________    ___________};
+    #SHOWME {|     |     |  |     |     |  |     |     |  |     |     |};
+    #SHOWME {|  1  |     |  |  1  |  2  |  |     |  1  |  |  1  |  2  |};
+    #SHOWME {|_____|  2  |  |_____|_____|  |  M  |_____|  |_____|_____|};
+    #SHOWME {|     |     |  |           |  |     |     |  |     |     |};
+    #SHOWME {|  M  |     |  |     M     |  |     |  2  |  |  M  |  3  |};
+    #SHOWME {|_____|_____|  |___________|  |_____|_____|  |_____|_____|\n};
+}
+
 #FUNCTION {create_layout}
 {
     #NOP handle screen layout;
@@ -21,57 +42,213 @@
     #SCREEN get cols screen[width];
     #MATH screen[height] {$screen[height] - 1};
 
-    #NOP calc scroll region;
-    #MATH screen[scroll][y1] {(100 - $screen[height_percent]) * 0.01 * $screen[height]};
-    #VAR screen[scroll][x1] {1};
-    #VAR screen[scroll][y2] $screen[height];
-    #MATH screen[scroll][x2] {$screen[width_percent] * 0.01 * $screen[width]};
+    #NOP calc middle split locations;
+    #MATH screen[split][y] {(100 - $screen[height_percent]) * 0.01 * $screen[height]};
+    #FORMAT screen[split][y] {%d} {$screen[split][y]};
+    #MATH screen[split][x] {$screen[width_percent] * 0.01 * $screen[width]};
+    #FORMAT screen[split][x] {%d} {$screen[split][x]};
+    
+    #NOP calc layout;
+    #SWITCH {$layout}
+    {
+        #CASE {2}
+        {
+            #VAR screen[scroll][y1] {$screen[split][y]};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[width]};
+
+            #VAR screen[panes][1][y1] {2};
+            #VAR screen[panes][1][x1] {2};
+            #MATH screen[panes][1][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][1][x2] {$screen[width] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #VAR screen[boxes][1][x1] {1};
+            #MATH screen[boxes][1][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][1][x2] {$screen[width]};
+        }
+        #CASE {3}
+        {
+            #VAR screen[scroll][y1] {1};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[split][x]};
+
+            #VAR screen[panes][1][y1] {2};
+            #MATH screen[panes][1][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][1][y2] {$screen[height] - 2};
+            #MATH screen[panes][1][x2] {$screen[width] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #MATH screen[boxes][1][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][1][y2] {$screen[height] - 1};
+            #VAR screen[boxes][1][x2] {$screen[width]};
+        }
+        #CASE {4}
+        {
+            #VAR screen[scroll][y1] {$screen[split][y]};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[split][x]};
+
+            #VAR screen[panes][1][y1] {2};
+            #VAR screen[panes][1][x1] {2};
+            #MATH screen[panes][1][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][1][x2] {$screen[width] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #VAR screen[boxes][1][x1] {1};
+            #MATH screen[boxes][1][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][1][x2] {$screen[width]};
+
+            #MATH screen[panes][2][y1] {$screen[split][y] + 1};
+            #MATH screen[panes][2][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][2][y2] {$screen[height] - 2};
+            #MATH screen[panes][2][x2] {$screen[width] - 1};
+            #VAR screen[boxes][2][y1] {$screen[split][y]};
+            #MATH screen[boxes][2][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][2][y2] {$screen[height] - 1};
+            #VAR screen[boxes][2][x2] {$screen[width]};
+        }
+        #CASE {5}
+        {
+            #VAR screen[scroll][y1] {$screen[split][y]};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[split][x]};
+
+            #VAR screen[panes][1][y1] {2};
+            #VAR screen[panes][1][x1] {2};
+            #MATH screen[panes][1][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][1][x2] {$screen[split][x] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #VAR screen[boxes][1][x1] {1};
+            #MATH screen[boxes][1][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][1][x2] {$screen[split][x]};
+
+            #VAR screen[panes][2][y1] {2};
+            #MATH screen[panes][2][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][2][y2] {$screen[height] - 2};
+            #MATH screen[panes][2][x2] {$screen[width] - 1};
+            #VAR screen[boxes][2][y1] {1};
+            #MATH screen[boxes][2][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][2][y2] {$screen[height] - 1};
+            #VAR screen[boxes][2][x2] {$screen[width]};
+        }
+        #CASE {6}
+        {
+            #VAR screen[scroll][y1] {};
+            #VAR screen[scroll][x1] {};
+            #VAR screen[scroll][y2] {};
+            #VAR screen[scroll][x2] {};
+
+            #VAR screen[panes][1][y1] {};
+            #VAR screen[panes][1][x1] {};
+            #VAR screen[panes][1][y2] {};
+            #VAR screen[panes][1][x2] {};
+            #VAR screen[boxes][1][y1] {};
+            #VAR screen[boxes][1][x1] {};
+            #VAR screen[boxes][1][y2] {};
+            #VAR screen[boxes][1][x2] {};
+
+            #VAR screen[panes][2][y1] {};
+            #VAR screen[panes][2][x1] {};
+            #VAR screen[panes][2][y2] {};
+            #VAR screen[panes][2][x2] {};
+            #VAR screen[boxes][2][y1] {};
+            #VAR screen[boxes][2][x1] {};
+            #VAR screen[boxes][2][y2] {};
+            #VAR screen[boxes][2][x2] {};
+        }
+        #CASE {7}
+        {
+            #VAR screen[scroll][y1] {};
+            #VAR screen[scroll][x1] {};
+            #VAR screen[scroll][y2] {};
+            #VAR screen[scroll][x2] {};
+
+            #VAR screen[panes][1][y1] {};
+            #VAR screen[panes][1][x1] {};
+            #VAR screen[panes][1][y2] {};
+            #VAR screen[panes][1][x2] {};
+            #VAR screen[boxes][1][y1] {};
+            #VAR screen[boxes][1][x1] {};
+            #VAR screen[boxes][1][y2] {};
+            #VAR screen[boxes][1][x2] {};
+
+            #VAR screen[panes][2][y1] {};
+            #VAR screen[panes][2][x1] {};
+            #VAR screen[panes][2][y2] {};
+            #VAR screen[panes][2][x2] {};
+            #VAR screen[boxes][2][y1] {};
+            #VAR screen[boxes][2][x1] {};
+            #VAR screen[boxes][2][y2] {};
+            #VAR screen[boxes][2][x2] {};
+        }
+        #CASE {8}
+        {
+            #VAR screen[scroll][y1] {};
+            #VAR screen[scroll][x1] {};
+            #VAR screen[scroll][y2] {};
+            #VAR screen[scroll][x2] {};
+
+            #VAR screen[panes][1][y1] {};
+            #VAR screen[panes][1][x1] {};
+            #VAR screen[panes][1][y2] {};
+            #VAR screen[panes][1][x2] {};
+            #VAR screen[boxes][1][y1] {};
+            #VAR screen[boxes][1][x1] {};
+            #VAR screen[boxes][1][y2] {};
+            #VAR screen[boxes][1][x2] {};
+
+            #VAR screen[panes][2][y1] {};
+            #VAR screen[panes][2][x1] {};
+            #VAR screen[panes][2][y2] {};
+            #VAR screen[panes][2][x2] {};
+            #VAR screen[boxes][2][y1] {};
+            #VAR screen[boxes][2][x1] {};
+            #VAR screen[boxes][2][y2] {};
+            #VAR screen[boxes][2][x2] {};
+
+            #VAR screen[panes][3][y1] {};
+            #VAR screen[panes][3][x1] {};
+            #VAR screen[panes][3][y2] {};
+            #VAR screen[panes][3][x2] {};
+            #VAR screen[boxes][3][y1] {};
+            #VAR screen[boxes][3][x1] {};
+            #VAR screen[boxes][3][y2] {};
+            #VAR screen[boxes][3][x2] {};
+        }
+        #DEFAULT
+        {
+            #SHOWME default;
+            #VAR screen[scroll][y1] {1};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[width]};
+        }
+    }
 
     #IF {@has_module{prompt}}
     {
         #MATH screen[scroll][y2] {$screen[scroll][y2] - 3};
     };
 
-    #NOP calc top pane;
-    #MATH screen[panes][1][y1] {1};
-    #MATH screen[panes][1][x1] {1};
-    #MATH screen[panes][1][y2] {$screen[scroll][y1] - 2};
-    #MATH screen[panes][1][x2] {$screen[width]};
 
-    #NOP calc top left pane;
-    #NOP #MATH screen[panes][1][y1] {1};
-    #NOP #MATH screen[panes][1][x1] {1};
-    #NOP #MATH screen[panes][1][y2] {$screen[scroll][y1] - 2};
-    #NOP #MATH screen[panes][1][x2] {$screen[scroll][x2]};
 
-    #NOP calc top right pane;
-    #NOP #MATH screen[panes][2][y1] {1};
-    #NOP #MATH screen[panes][2][x1] {$screen[scroll][x2] + 2};
-    #NOP #MATH screen[panes][2][y2] {$screen[scroll][y1] - 2};
-    #NOP #MATH screen[panes][2][x2] {$screen[width]};
-
-    #NOP calc bot right pane;
-    #MATH screen[panes][2][y1] {$screen[scroll][y1]};
-    #MATH screen[panes][2][x1] {$screen[scroll][x2] + 2};
-    #MATH screen[panes][2][y2] {$screen[height]};
-    #MATH screen[panes][2][x2] {$screen[width]};
 
     #SCREEN scroll $screen[scroll][y1] $screen[scroll][x1] $screen[scroll][y2] $screen[scroll][x2];
-    #SCREEN fill split -;
+    #SCREEN fill split { };
     #BUFFER end;
 
-    #MATH line_start {@max{$screen[panes][2][y1] - 1;1}};
+    #MATH line_start {@max{$screen[panes][2][y1];1}};
     #MATH line_pos {$screen[panes][2][x1] - 1};
-    #DRAW line $line_start $line_pos $screen[height] $line_pos;
     #UNVAR line_pos;
     #UNVAR line_start;
 
-    #IF {$screen[panes][1][y2] > 0}
+    #FOREACH $screen[boxes][%*] {box}
     {
-        #DRAW tile $screen[panes][1][y1] $screen[panes][1][x1] $screen[panes][1][y2] $screen[panes][1][x2];
-    };
-    #DRAW tile $screen[panes][2][y1] $screen[panes][2][x1] $screen[panes][2][y2] $screen[panes][2][x2];
-    #NOP #DRAW tile $screen[panes][3][y1] $screen[panes][3][x1] $screen[panes][3][y2] $screen[panes][3][x2];
+        #DRAW box $box[y1] $box[x1] $box[y2] $box[x2];
+    }
+    #UNVAR box;
 
     #RETURN #NOP;
 };
@@ -218,6 +395,52 @@
     }
 };
 
+#ALIAS {phelp}
+{
+    #IF {&phelp_list[]} {}
+    {
+        #SHOWME <019>There are no defined aliases.<099>;
+    };
+
+    #IF {"%0" == ""}
+    {
+        #SHOWME Aliases:;
+        #FOREACH {*phelp_list[%*]} {phelp_category}
+        {
+            #SHOWME {     $phelp_category};
+            #FOREACH {*phelp_list[$phelp_category][%*]} {phelp_item}
+            {
+                #SHOWME {        <069>${phelp_item}<099>: $phelp_list[$phelp_category][$phelp_item]};
+            }
+        }
+        #SHOWME \nUse <069>phelp <alias_name><099> to see more information.;
+        #UNVAR phelp_category;
+        #UNVAR phelp_item;
+    }
+    {
+        #FOREACH {*phelp_list[%*]} {phelp_category}
+        {
+            #IF {&{phelp_list[$phelp_category][%0]}}
+            {
+                #SHOWME \nHelp file for <069>%0<099>:;
+                #SCAN TXT {help_files/%0.txt};
+                #SHOWME \n;
+                #VAR found 1;
+                #BREAK;
+            };
+        }
+        #UNVAR phelp_category;
+
+        #IF {&{found}}
+        {
+            #UNVAR found;
+        }
+        {
+            #SHOWME <019>Alias <069>%0<019> not found.<099>;
+        };
+    }
+}
+
 #ACTION {^Press RETURN to continue.$}
 {
     #DELAY {0.5} {#SEND;};
@@ -235,6 +458,8 @@
 #VARIABLE         {MAP_LINES}  {0};
 #VARIABLE         {MAP_ROWS}  {0};
 
+#LIST phelp_list create;
+
 #CLASS core close;
 
 @kill_all_modules{};
@@ -246,7 +471,9 @@
 #READ utils.tin;
 #CLASS utils close;
 
+#CLASS core open;
 @create_layout{};
+#CLASS core close;
 
 #VAR is_startup 1;
 #MAP flag vtmap off;

@@ -1,0 +1,6 @@
+Stops a walk or slowwalk.
+
+Usage:
+    stop
+
+This will stop a walk or slowwalk. The map will stop updating immediately and your input will be cleared.

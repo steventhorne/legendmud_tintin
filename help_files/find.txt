@@ -1,0 +1,10 @@
+Finds a room based on your curent room in the MUD and teleports you to it.
+
+Usage:
+    find
+
+This alias will "look" at your current room and use the room name and description to teleport to the room in the map.
+
+If you're using the prompt module, it will also use the area name to narrow down the search.
+
+If a description does not match, it will teleport you to the first room it finds with the same room name. This can happen if the map has an incorrect description, or if the room changes its description based on weather or time of day.

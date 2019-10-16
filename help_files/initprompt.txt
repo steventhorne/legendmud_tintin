@@ -1,0 +1,8 @@
+Sets the prompt format needed for the prompt module.
+
+Usage:
+    initprompt
+
+This will replace your current prompt format with the prompt format necessary for the prompt module to work.
+
+NOTE: You must make a backup of your prompt format if you want it to be saved.

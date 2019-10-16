@@ -1,0 +1,20 @@
+Changes the nickname for a room.
+
+Usage:
+    rname <nickname>
+
+Examples:
+    rname jb
+    rname stag
+
+This updates the nickname of a room in the mapper. Nicknames are used in a number of other aliases to make it easy to reference a room in the map.
+
+NOTE: All changes made to the map will be lost if you replace the map with any new updates.
+
+If you want to add your own personalized nicknames to the map without losing them, you can do the following.
+Go to the room you want to add a nickname to and type `#map info`. Take note of the Room vnum.
+
+Open a custom module that you've added and add the following line to it:
+    #MAP at <room vnum> {rname <nickname>};
+
+You can use this feature to make nicknames for your house locations for easier travels.

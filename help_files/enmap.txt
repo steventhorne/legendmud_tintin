@@ -1,0 +1,8 @@
+Enables map editing.
+
+Usage:
+    enmap
+
+This will enable the map editing so that upon moving or looking at a room, the map will add rooms or update the roomname/description/areaname.
+
+NOTE: All changes made to the map will be lost if you replace the map with any new updates.

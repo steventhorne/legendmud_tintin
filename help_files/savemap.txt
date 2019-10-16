@@ -1,0 +1,8 @@
+Saves the map to file.
+
+Usage:
+    savemap
+
+By default, all changes that are made to the map are not saved. If you make changes to the map and want to save them to file, you must use this alias.
+
+NOTE: All changes made to the map will be lost if you replace the map with any new updates.

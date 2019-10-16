@@ -1,3 +1,8 @@
+#IF {$is_startup}
+{
+    #VAR phelp_list[prompt][initprompt] {Sets the prompt format needed for the prompt module.};
+}
+
 #ALIAS {initprompt}
 {
     #SEND prompt format @n @h/@H @m/@M @v/@V @c @p @x @l@$@t @an @g @wc/@wm @L@$CD> @#0 @#1 @#2;
@@ -71,7 +76,7 @@
         };
     };
 
-    #DRAW tile -2 1 1 $screen[scroll][x2] $prompt1;
+    #DRAW tile -2 2 1 $screen[scroll][x2] {$prompt1};
     #UNVAR prompt1;
 
     #LINE gag;
@@ -137,7 +142,7 @@
 
     #FORMAT prompt2 {%s} {$prompt[name]  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]$prompt[ac]<099>  $prompt[pos]  TNL:$prompt[xp_gauge]};
 
-    #DRAW tile -3 1 1 $screen[scroll][x2] $prompt2;
+    #DRAW tile -3 2 1 $screen[scroll][x2] {$prompt2};
     #UNVAR prompt2;
 
     #NOP @time_end{Prompt 2};
@@ -149,6 +154,6 @@
 #ACTION {~{^CD>\s(.*)}}
 {
     #LINE gag;
-    #DRAW tile -4 1 1 $screen[scroll][x2] %2;
+    #DRAW tile -4 2 1 $screen[scroll][x2] %2;
 }
 {2}

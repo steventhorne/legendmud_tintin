@@ -1,0 +1,13 @@
+Finds a room based on the specified nickname and teleports you to it.
+
+Usage:
+    search <nickname>
+
+Examples:
+    search jb
+    search stag
+    search falcon
+
+This command can be convenient if the map is not accurately showing your location and you know you're at a nicknamed room.
+
+Most of the time, however, the `find` alias will be more convenient.

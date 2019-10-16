@@ -1,0 +1,10 @@
+Automatically interacts with the tform mob in Japan.
+
+Usage:
+    jtform <eq_name>
+    jtform 2.<eq_name>
+
+This command will automatically remove the specified eq, give the eq to the tform mob, and wear the eq once given back.
+
+You may run into issues re-wearing items that can be worn in multiple slots.
+These will have to be manually worn.

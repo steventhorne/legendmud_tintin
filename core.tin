@@ -81,8 +81,12 @@
     @create_layout{};
     #IF {@has_module{map}}
     {
-        #MAP offset $screen[panes][$map_pane][y1] $screen[panes][$map_pane][x1] $screen[panes][$map_pane][y2] $screen[panes][$map_pane][x2];
-    }
+        @on_map_resize{};
+    };
+    #IF {@has_module{chat}}
+    {
+        @on_chat_resize{};
+    };
 }
 
 #EVENT {SESSION DISCONNECTED} {#INFO stack};

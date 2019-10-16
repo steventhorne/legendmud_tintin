@@ -1,0 +1,6 @@
+Lists all of the rooms that have nicknames.
+
+Usage:
+    nicknames
+
+This will list all nicknames in the mapper and the roomname associated to the nickname. There are many built-in nicknames that make navigating the MUD much easier.

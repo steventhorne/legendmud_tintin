@@ -1,3 +1,11 @@
+#IF {$is_startup}
+{
+    #VAR phelp_list[combat][setrush] {Sets the rush trigger response.};
+    #VAR phelp_list[combat][jtform] {Automatically interacts with the tform mob in Japan.};
+    #VAR phelp_list[combat][ctform] {Automatically interacts with the tform mob in Crusades.};
+    #VAR phelp_list[combat][ttform] {Automatically interacts with the tform mob in Tara.};
+};
+
 #ACTION {{^(?i)(?:(?:a|an|small|the|one|of)\s)*([A-Za-z'\-]+)\,?.*?rushes at(?!\syou\s)(?:\s([\w'\.\-]+))*(?:,\s.*?)? and attacks!$}}
 {
     #IF {"%2" == "Somebody"}
@@ -101,7 +109,7 @@
     };
 }
 
-#ALIAS {sufi %1}
+#ALIAS {ctform %1}
 {
     #REGEX {%1} {{(?:\d+\.)?(.*)}}
     {
@@ -110,6 +118,23 @@
         #SEND remove %1;
         #SEND give $tform_kw sufi;
         #ACTION {{^An aging Sufi gives you.*$}}
+        {
+            #SEND wear $tform_kw;
+            #UNVAR tform_kw;
+            #UNACTION {{^An aging Sufi gives you.*$}};
+        }
+    }
+}
+
+#ALIAS {ttform %1}
+{
+    #REGEX {%1} {{(?:\d+\.)?(.*)}}
+    {
+        #VAR tform_kw &2;
+        #SEND enq ask sadhbh TRUEFORM;
+        #SEND remove %1;
+        #SEND give $tform_kw sadhbh;
+        #ACTION {{^Sadhbh gives you.*$}}
         {
             #SEND wear $tform_kw;
             #UNVAR tform_kw;

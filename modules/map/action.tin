@@ -396,3 +396,9 @@
     #MAP goto 4865;
 }
 {5}
+
+#ACTION {{^You move at high speed through the ruins of Irem, quickly reaching its center.$}}
+{
+    #MAP goto 6005;
+}
+{5}

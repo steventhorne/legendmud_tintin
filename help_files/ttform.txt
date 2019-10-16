@@ -1,0 +1,12 @@
+Automatically interacts with the tform mob in Tara.
+
+Usage:
+    ttform <eq_name>
+    ttform 2.<eq_name>
+
+This command will automatically ask the tform mob about trueform, remove the specified eq, give the eq to the tform mob, and wear the eq once given back.
+
+You may run into issues re-wearing items that can be worn in multiple slots.
+These will have to be manually worn.
+
+NOTE: You must give the money to the tform mob first before you can start using this alias.

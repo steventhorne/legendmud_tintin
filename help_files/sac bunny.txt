@@ -1,0 +1,10 @@
+Convenient command to take you through the bunny trans steps after killing the bunny.
+
+Usage:
+    sac bunny
+
+This will do the following steps with proper pauses:
+    - sacrifice bunny
+    - sit circle
+    - ponder self
+    - stand

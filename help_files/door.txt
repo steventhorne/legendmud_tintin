@@ -1,0 +1,16 @@
+Adds a door to the specified exit.
+
+Usage:
+    door <direction>
+
+Examples:
+    door n
+    door e
+    door s
+    door w
+    door u
+    door d
+
+This will add a "open <direction" command to the specified exit in the mapper. The room that will be used is the room you are currently standing at in the mapper.
+
+NOTE: All changes made to the map will be lost if you replace the map with any new updates.

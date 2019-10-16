@@ -1,0 +1,8 @@
+Disables map editing.
+
+Usage:
+    dismap
+
+This disables map editing so that looking and moving around will not update the map in any way.
+
+NOTE: All changes made to the map will be lost if you replace the map with any new updates.

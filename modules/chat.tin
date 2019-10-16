@@ -1,15 +1,30 @@
+#IF {$is_startup}
+{
+    #NOP put alias help here.;
+};
+
 #FUNCTION {display_chat_log}
 {
+    #NOP draw box;
+    #DRAW box $screen[boxes][$pane_chat][y1] $screen[boxes][$pane_chat][x1] $screen[boxes][$pane_chat][y2] $screen[boxes][$pane_chat][x2];
+
+    #LOCAL label_offset {};
+    #LOCAL label_end {};
+    #MATH label_offset {$screen[boxes][$pane_chat][x1] + 2};
+    #MATH label_end {$screen[boxes][$pane_chat][x1] + 7};
+    #DRAW tile $screen[boxes][$pane_chat][y1] $label_offset 1 $label_end { CHAT };
+
+    #NOP draw chat;
     #LOCAL chat_height {};
-    #MATH chat_height {(($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1]) + 1) * -1};
+    #MATH chat_height {(($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1]) + 1) * -1};
 
     #LOCAL chat_draw_line {};
     #LOCAL chat_index {};
     #LOOP $chat_height -1 {count}
     {
-        #MATH chat_draw_line {$screen[panes][$chat_pane][y2] + $count + 1};
+        #MATH chat_draw_line {$screen[panes][$pane_chat][y2] + $count + 1};
         #MATH chat_index {$count + $chat_offset};
-        #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$chat_pane][x1] $chat_draw_line $screen[panes][$chat_pane][x2] $chat_log[$chat_index];
+        #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$pane_chat][x1] $chat_draw_line $screen[panes][$pane_chat][x2] $chat_log[$chat_index];
     };
     #UNVAR count;
 
@@ -53,7 +68,7 @@
 #MACRO {\e[5;3~}
 {
     #LOCAL chat_height {};
-    #MATH chat_height {($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1])};
+    #MATH chat_height {($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1])};
     #IF {&chat_log[] < $chat_height}
     {
         #VAR chat_offset 0;
@@ -68,7 +83,7 @@
 #MACRO {\e[6;3~}
 {
     #LOCAL chat_height {};
-    #MATH chat_height {($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1])};
+    #MATH chat_height {($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1])};
     #MATH chat_offset {$chat_offset + $chat_height};
     #MATH chat_offset {@min{0;$chat_offset}};
     @display_chat_log{};
@@ -78,7 +93,7 @@
 #MACRO {\e\e[1~}
 {
     #LOCAL chat_height {};
-    #MATH chat_height {($screen[panes][$chat_pane][y2] - $screen[panes][$chat_pane][y1])};
+    #MATH chat_height {($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1])};
     #IF {&chat_log[] < $chat_height}
     {
         #VAR chat_offset 0;
@@ -96,6 +111,14 @@
     @display_chat_log{};
 }
 
+#FUNCTION {on_chat_resize}
+{
+    #VAR chat_offset 0;
+    @display_chat_log{};
+
+    #RETURN #NOP;
+}
+
 #NOP create chat log outside of classes so that it doesn't get wiped on reload;
 #CLASS module_chat close;
 #IF {&chat_log} {}
@@ -104,5 +127,4 @@
 };
 #CLASS module_chat open;
 
-#VAR chat_offset 0;
-@display_chat_log{};
+@on_chat_resize{};

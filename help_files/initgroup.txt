@@ -1,0 +1,8 @@
+Sets the group format needed for the group module.
+
+Usage:
+    initgroup
+
+This will replace your current group format with the group format necessary for the group module to work.
+
+NOTE: You must make a backup of your group format if you want it to be saved.

@@ -1,3 +1,8 @@
+#IF {$is_startup}
+{
+    #VAR phelp_list[group][initgroup] {Sets the group format needed for the group module.};
+};
+
 #ACTION {{^Your group:$}}
 {
     #IF {"$show_group" != "true"}
@@ -39,7 +44,7 @@
     #SEND gr;
 }
 
-#ALIAS {groupsetup}
+#ALIAS {initgroup}
 {
     #SEND groupformat ||@r [@l] @n | @p @h|U6/@Hhp @m|U6/@Mma @v|U6/@Vmv@w||;
 }

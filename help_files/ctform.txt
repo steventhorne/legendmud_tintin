@@ -1,0 +1,10 @@
+Automatically interacts with the tform mob in Crusades.
+
+Usage:
+    ctform <eq_name>
+    ctform 2.<eq_name>
+
+This command will automatically give the tform mob the correct amount of money, remove the specified eq, give the eq to the tform mob, and wear the eq once given back.
+
+You may run into issues re-wearing items that can be worn in multiple slots.
+These will have to be manually worn.

@@ -1,0 +1,21 @@
+Sets the rush trigger response.
+
+Usage:
+    setrush <rush response>
+
+Examples:
+    setrush rage %1 - rages at the rushing mob
+    setrush resc %2 - rescues the victim
+    setrush st\;rage %1 - stands, then rages at the rushing mob
+    setrush entrance %1 - entrances the rushing mob
+    setrush #NOP - sets the rush trigger to do nothing
+
+There is a built-in trigger that will detect any mob rushing at a target that is not you. Whether that be by throwing, shooting, or whatever other possible reason.
+
+This command will set the response that you want to automatically invoke when the trigger triggers.
+
+The %1 identifier matches the rushing mob and the %2 identifier matches the victim.
+
+If you want to do multiple actions within the rush response, you must escape the delimiter (;) with the \ character (e.g. \;).
+
+If you want the rush response to do nothing, use "setrush #NOP".

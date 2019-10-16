@@ -1,0 +1,13 @@
+Finds a room based on the specified nickname and walks to it if a path is found.
+
+Usage:
+    walk <nickname>
+
+Examples:
+    walk jb
+    walk stag
+    walk falcon
+
+This alias will find a room based on the specified nickname if the nickname exists. It will then try to find a path to that room from the current room and walk you to it.
+
+NOTE: If you want to send commands to be run after you get to the destination, make sure the map is at the destination. If the map is still updating the location, it will send those commands at the location the map was in when you sent the command.
