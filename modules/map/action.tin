@@ -30,7 +30,9 @@
             }
             {
                 #REGEX {$line} {{.+}}
-                {}
+                {
+                    #NOP;
+                }
                 {
                     #VAR break true;
                 }
