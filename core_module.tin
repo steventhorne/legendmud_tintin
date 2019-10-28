@@ -135,87 +135,87 @@
         }
         #CASE {6}
         {
-            #VAR screen[scroll][y1] {};
-            #VAR screen[scroll][x1] {};
-            #VAR screen[scroll][y2] {};
-            #VAR screen[scroll][x2] {};
+            #VAR screen[scroll][y1] {$screen[split][y]};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[width]};
 
-            #VAR screen[panes][1][y1] {};
-            #VAR screen[panes][1][x1] {};
-            #VAR screen[panes][1][y2] {};
-            #VAR screen[panes][1][x2] {};
-            #VAR screen[boxes][1][y1] {};
-            #VAR screen[boxes][1][x1] {};
-            #VAR screen[boxes][1][y2] {};
-            #VAR screen[boxes][1][x2] {};
+            #VAR screen[panes][1][y1] {2};
+            #VAR screen[panes][1][x1] {2};
+            #MATH screen[panes][1][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][1][x2] {$screen[split][x] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #VAR screen[boxes][1][x1] {1};
+            #MATH screen[boxes][1][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][1][x2] {$screen[split][x]};
 
-            #VAR screen[panes][2][y1] {};
-            #VAR screen[panes][2][x1] {};
-            #VAR screen[panes][2][y2] {};
-            #VAR screen[panes][2][x2] {};
-            #VAR screen[boxes][2][y1] {};
-            #VAR screen[boxes][2][x1] {};
-            #VAR screen[boxes][2][y2] {};
-            #VAR screen[boxes][2][x2] {};
+            #VAR screen[panes][2][y1] {2};
+            #MATH screen[panes][2][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][2][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][2][x2] {$screen[width] - 1};
+            #VAR screen[boxes][2][y1] {1};
+            #MATH screen[boxes][2][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][2][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][2][x2] {$screen[width]};
         }
         #CASE {7}
         {
-            #VAR screen[scroll][y1] {};
-            #VAR screen[scroll][x1] {};
-            #VAR screen[scroll][y2] {};
-            #VAR screen[scroll][x2] {};
+            #VAR screen[scroll][y1] {1};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[split][x]};
 
-            #VAR screen[panes][1][y1] {};
-            #VAR screen[panes][1][x1] {};
-            #VAR screen[panes][1][y2] {};
-            #VAR screen[panes][1][x2] {};
-            #VAR screen[boxes][1][y1] {};
-            #VAR screen[boxes][1][x1] {};
-            #VAR screen[boxes][1][y2] {};
-            #VAR screen[boxes][1][x2] {};
+            #VAR screen[panes][1][y1] {2};
+            #MATH screen[panes][1][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][1][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][1][x2] {$screen[width] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #MATH screen[boxes][1][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][1][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][1][x2] {$screen[width]};
 
-            #VAR screen[panes][2][y1] {};
-            #VAR screen[panes][2][x1] {};
-            #VAR screen[panes][2][y2] {};
-            #VAR screen[panes][2][x2] {};
-            #VAR screen[boxes][2][y1] {};
-            #VAR screen[boxes][2][x1] {};
-            #VAR screen[boxes][2][y2] {};
-            #VAR screen[boxes][2][x2] {};
+            #MATH screen[panes][2][y1] {$screen[split][y] + 1};
+            #MATH screen[panes][2][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][2][y2] {$screen[height] - 2};
+            #MATH screen[panes][2][x2] {$screen[width] - 1};
+            #VAR screen[boxes][2][y1] {$screen[split][y]};
+            #MATH screen[boxes][2][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][2][y2] {$screen[height] - 1};
+            #VAR screen[boxes][2][x2] {$screen[width]};
         }
         #CASE {8}
         {
-            #VAR screen[scroll][y1] {};
-            #VAR screen[scroll][x1] {};
-            #VAR screen[scroll][y2] {};
-            #VAR screen[scroll][x2] {};
+            #VAR screen[scroll][y1] {$screen[split][y]};
+            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][y2] {$screen[height]};
+            #VAR screen[scroll][x2] {$screen[split][x]};
 
-            #VAR screen[panes][1][y1] {};
-            #VAR screen[panes][1][x1] {};
-            #VAR screen[panes][1][y2] {};
-            #VAR screen[panes][1][x2] {};
-            #VAR screen[boxes][1][y1] {};
-            #VAR screen[boxes][1][x1] {};
-            #VAR screen[boxes][1][y2] {};
-            #VAR screen[boxes][1][x2] {};
+            #VAR screen[panes][1][y1] {2};
+            #VAR screen[panes][1][x1] {2};
+            #MATH screen[panes][1][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][1][x2] {$screen[split][x] - 1};
+            #VAR screen[boxes][1][y1] {1};
+            #VAR screen[boxes][1][x1] {1};
+            #MATH screen[boxes][1][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][1][x2] {$screen[split][x]};
 
-            #VAR screen[panes][2][y1] {};
-            #VAR screen[panes][2][x1] {};
-            #VAR screen[panes][2][y2] {};
-            #VAR screen[panes][2][x2] {};
-            #VAR screen[boxes][2][y1] {};
-            #VAR screen[boxes][2][x1] {};
-            #VAR screen[boxes][2][y2] {};
-            #VAR screen[boxes][2][x2] {};
+            #VAR screen[panes][2][y1] {2};
+            #MATH screen[panes][2][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][2][y2] {$screen[split][y] - 2};
+            #MATH screen[panes][2][x2] {$screen[width] - 1};
+            #VAR screen[boxes][2][y1] {1};
+            #MATH screen[boxes][2][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][2][y2] {$screen[split][y] - 1};
+            #VAR screen[boxes][2][x2] {$screen[width]};
 
-            #VAR screen[panes][3][y1] {};
-            #VAR screen[panes][3][x1] {};
-            #VAR screen[panes][3][y2] {};
-            #VAR screen[panes][3][x2] {};
-            #VAR screen[boxes][3][y1] {};
-            #VAR screen[boxes][3][x1] {};
-            #VAR screen[boxes][3][y2] {};
-            #VAR screen[boxes][3][x2] {};
+            #MATH screen[panes][3][y1] {$screen[split][y] + 1};
+            #MATH screen[panes][3][x1] {$screen[split][x] + 2};
+            #MATH screen[panes][3][y2] {$screen[height] - 2};
+            #MATH screen[panes][3][x2] {$screen[width] - 1};
+            #VAR screen[boxes][3][y1] {$screen[split][y]};
+            #MATH screen[boxes][3][x1] {$screen[split][x] + 1};
+            #MATH screen[boxes][3][y2] {$screen[height] - 1};
+            #VAR screen[boxes][3][x2] {$screen[width]};
         }
         #DEFAULT
         {
@@ -229,11 +229,8 @@
 
     #IF {@has_module{prompt}}
     {
-        #MATH screen[scroll][y2] {$screen[scroll][y2] - 3};
+        #MATH screen[scroll][y2] {$screen[scroll][y2] - 4};
     };
-
-
-
 
     #SCREEN scroll $screen[scroll][y1] $screen[scroll][x1] $screen[scroll][y2] $screen[scroll][x2];
     #SCREEN fill split { };
