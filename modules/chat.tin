@@ -5,28 +5,31 @@
 
 #FUNCTION {display_chat_log}
 {
-    #NOP draw box;
-    #DRAW box $screen[boxes][$pane_chat][y1] $screen[boxes][$pane_chat][x1] $screen[boxes][$pane_chat][y2] $screen[boxes][$pane_chat][x2];
-
-    #LOCAL label_offset {};
-    #LOCAL label_end {};
-    #MATH label_offset {$screen[boxes][$pane_chat][x1] + 2};
-    #MATH label_end {$screen[boxes][$pane_chat][x1] + 7};
-    #DRAW tile $screen[boxes][$pane_chat][y1] $label_offset 1 $label_end { CHAT };
-
-    #NOP draw chat;
-    #LOCAL chat_height {};
-    #MATH chat_height {(($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1]) + 1) * -1};
-
-    #LOCAL chat_draw_line {};
-    #LOCAL chat_index {};
-    #LOOP $chat_height -1 {count}
+    #IF {&{screen[panes][$pane_chat]}}
     {
-        #MATH chat_draw_line {$screen[panes][$pane_chat][y2] + $count + 1};
-        #MATH chat_index {$count + $chat_offset};
-        #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$pane_chat][x1] $chat_draw_line $screen[panes][$pane_chat][x2] $chat_log[$chat_index];
+        #NOP draw box;
+        #DRAW box $screen[boxes][$pane_chat][y1] $screen[boxes][$pane_chat][x1] $screen[boxes][$pane_chat][y2] $screen[boxes][$pane_chat][x2];
+
+        #LOCAL label_offset {};
+        #LOCAL label_end {};
+        #MATH label_offset {$screen[boxes][$pane_chat][x1] + 2};
+        #MATH label_end {$screen[boxes][$pane_chat][x1] + 7};
+        #DRAW tile $screen[boxes][$pane_chat][y1] $label_offset 1 $label_end { CHAT };
+
+        #NOP draw chat;
+        #LOCAL chat_height {};
+        #MATH chat_height {(($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1]) + 1) * -1};
+
+        #LOCAL chat_draw_line {};
+        #LOCAL chat_index {};
+        #LOOP $chat_height -1 {count}
+        {
+            #MATH chat_draw_line {$screen[panes][$pane_chat][y2] + $count + 1};
+            #MATH chat_index {$count + $chat_offset};
+            #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$pane_chat][x1] $chat_draw_line $screen[panes][$pane_chat][x2] $chat_log[$chat_index];
+        };
+        #UNVAR count;
     };
-    #UNVAR count;
 
     #RETURN #NOP;
 };
