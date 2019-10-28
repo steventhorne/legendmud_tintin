@@ -49,7 +49,7 @@
             #FORMAT display {%s%c%s} {$display} {<099><G04>} {$display_text_char};
         };
 
-        #MATH i {$i + (1.00/$args[length])};
+        #MATH i {$i + (1.000/$args[length])};
     };
     #FORMAT display {%s%c} {$display} {<099>};
     #UNVAR display_text_char;
@@ -57,7 +57,7 @@
     #RETURN $display;
 }
 
-#ACTION {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:\e\[[\;\d]{4,6}m([\w\-\']+)\e\[[\;\d]{4,6}m}}
+#ACTION {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m([\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m)?\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?Leader(?:\e\[[\;\d]{4,6}m)?:\e\[[\;\d]{4,6}m([\w\-\']+)\e\[[\;\d]{4,6}m}}
 {
     #VAR prompt[time] {%2};
     #VAR prompt[area] {%3};
@@ -65,8 +65,14 @@
     #VAR prompt[weight_carried] {%5};
     #VAR prompt[weight_max] {%6};
     #VAR prompt[leader] {%7};
+
+    #FORMAT area_len {%L} {$prompt[area]};
+    #MATH area_len {((26 - $area_len) / 2) + $area_len};
+    #FORMAT area_display {%+${area_len}s} {$prompt[area]};
     
-    #FORMAT prompt1 {%s} {$prompt[color]$prompt[time]<099>  $prompt[area]  GP:$prompt[color]$prompt[gold]<099>  KG:$prompt[color]$prompt[weight_carried]<099>/$prompt[color]$prompt[weight_max]<099>  $prompt[leader]};
+    #FORMAT prompt1 {%-8s  %-27s  %s%-5s  %s%-13s  %+12s} {$prompt[color]$prompt[time]<099>} {$area_display} {GP:} {$prompt[color]$prompt[gold]<099>} {KG:}{$prompt[color]$prompt[weight_carried]<099>/$prompt[color]$prompt[weight_max]<099>} {$prompt[leader]};
+    #UNVAR area_display;
+    #UNVAR area_len;
 
     #IF {@has_module{map}}
     {
@@ -76,7 +82,7 @@
         };
     };
 
-    #DRAW tile -2 2 1 $screen[scroll][x2] {$prompt1};
+    #DRAW tile -3 2 1 $screen[scroll][x2] {$prompt1};
     #UNVAR prompt1;
 
     #LINE gag;
@@ -89,7 +95,7 @@
 
     #VAR prompt[name] %2;
     #VAR prompt[hp] %3;
-    #VAR prompt[color] %4;
+    #LINE sub esc #VAR prompt[color] {%4};
     #VAR prompt[hp_max] %5;
     #VAR prompt[ma] %6;
     #VAR prompt[ma_max] %7;
@@ -104,19 +110,21 @@
     #LOCAL label {};
 
     #MATH perc {1.000*$prompt[hp]/$prompt[hp_max]};
-    #VAR prompt[hp_gauge] @display_progress{$perc;$prompt[hp]/$prompt[hp_max];10};
+    #VAR prompt[hp_gauge] @display_progress{$perc;$prompt[hp]/$prompt[hp_max];11};
 
     #MATH perc {1.000*$prompt[ma]/$prompt[ma_max]};
-    #VAR prompt[ma_gauge] @display_progress{$perc;$prompt[ma]/$prompt[ma_max];10};
+    #VAR prompt[ma_gauge] @display_progress{$perc;$prompt[ma]/$prompt[ma_max];11};
 
     #MATH perc {1.000*$prompt[mv]/$prompt[mv_max]};
-    #VAR prompt[mv_gauge] @display_progress{$perc;$prompt[mv]/$prompt[mv_max];10};
+    #VAR prompt[mv_gauge] @display_progress{$perc;$prompt[mv]/$prompt[mv_max];11};
 
     #LOCAL prev_xp {};
     #LOCAL next_xp {};
     #LOCAL perc_xp {};
     #LOCAL display_perc_xp {};
     #LOCAL display_tnl_xp {};
+    #LOCAL display_cur_xp {};
+    #LOCAL display_next_xp {};
     #IF {$prompt[lvl] < 50}
     {
         #IF {$prompt[lvl] == 1}
@@ -137,12 +145,17 @@
     #MATH prompt[tnl] {$next_xp - $prompt[xp]};
     #MATH display_perc_xp {$perc_xp * 100};
     #FORMAT display_perc_xp {%d} {$display_perc_xp};
+    #FORMAT display_cur_xp {%g} {$prompt[xp]};
     #FORMAT display_tnl_xp {%g} {$prompt[tnl]};
-    #VAR prompt[xp_gauge] @display_progress{$perc_xp;${display_tnl_xp} (${display_perc_xp}%);20;<AFA><aaa>};
+    #FORMAT display_next_xp {%g} {$next_xp};
+    #VAR prompt[xp_gauge] @display_progress{$perc_xp;${display_cur_xp} / ${display_next_xp} (${display_tnl_xp}) ${display_perc_xp}%;79;<ABF><fff>};
 
-    #FORMAT prompt2 {%s} {$prompt[name]  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]$prompt[ac]<099>  $prompt[pos]  TNL:$prompt[xp_gauge]};
+    #FORMAT prompt2 {%-12s%s%-4s%s%-8s} {$prompt[name]} {  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]}{$prompt[ac]}{<099>  }{$prompt[pos]};
 
-    #DRAW tile -3 2 1 $screen[scroll][x2] {$prompt2};
+    #NOP TNL:$prompt[xp_gauge];
+
+    #DRAW tile -4 2 1 $screen[scroll][x2] {$prompt2};
+    #DRAW tile -2 2 1 $screen[scroll][x2] {$prompt[xp_gauge]};
     #UNVAR prompt2;
 
     #NOP @time_end{Prompt 2};
@@ -154,6 +167,6 @@
 #ACTION {~{^CD>\s(.*)}}
 {
     #LINE gag;
-    #DRAW tile -4 2 1 $screen[scroll][x2] %2;
+    #DRAW tile -5 2 1 $screen[scroll][x2] %2;
 }
 {2}
