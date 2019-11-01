@@ -4167,6 +4167,7 @@ E { 6039} {w} {w} {8} {0} {} {1.000}
 R {  934} {0} {} {Das Sudstadttor} { } {The thick stone of the town walls is broken here by a massive oaken door, which is reinforced with heavy iron. There is a small bronze plaque with some writing on it bolted to the door. The town beyond would be a welcome sight after a long forest trek. Within the stout walls, a traveler could surely wash dust from a weary throat by a long drink of fine German wine. The road leads north into the town, and south into the forest. The dark trees seem to crowd the city from three directions, but you can detect that a cleared area lies to the east of the city, and might be quickly reached by passing through town.} {Medieval Kleinstadt } {klein} {} {} {1.000}
 E {  933} {s} {s} {4} {0} {} {1.000}
 E { 5029} {gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 5029} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
 
 R {  935} {0} {} {A Dark Hallway} { } {The water-flooded hallway of the prison is dark and cold. Here and there, the walls bear the marks of the prisoners' nails who tried to dig with their bare hands through the stone, in a vain attempt to avoid being drowned.} {Ys } {} {} {} {1.000}
 E { 5245} {s} {s} {4} {0} {} {1.000}
@@ -15559,6 +15560,7 @@ R { 3633} {0} {} {On a Wind-swept Beach} { } {Icy winds blow over you as you sta
 E { 2524} {e} {e} {2} {0} {} {1.000}
 E { 3634} {n} {n} {1} {0} {} {1.000}
 E { 3637} {w} {open w;w} {8} {0} {} {1.000}
+E { 7604} {s} {s} {4} {0} {} {1.000}
 
 R { 3634} {0} {} {On a Wind-swept Beach} { } {Icy winds blow over you as you stand on this pebbled beach. Farne Island is quite small, and to either side of you the beach curves toward the mainland a few miles west. Spray from the water that breaks against the shore is blown into your eyes, making it difficult to see. You are reminded of the tales of plum-sized hail which sometimes falls here.} {Viking Scandinavia } {} {} {} {1.000}
 E { 3633} {s} {s} {4} {0} {} {1.000}
@@ -19136,6 +19138,7 @@ E { 4520} {w} {w} {8} {0} {} {1.000}
 R { 4495} {0} {} {The Edge of the Kanto Region} { } {Steep hills connect here tall mountains with the vast and prosperous region of Kanto. The plains of the Kanto occupy most of the eastern side of the Honshu island, providing wealth and power to its rulers with the majority of the rest of the country being mountain areas, not very convenient for agriculture. To the north, the Nakasendo road passes, allowing faster travels through the mountains towards the Imperial seat of Kyoto.} {Medieval Japan } {} {} {} {1.000}
 E { 4494} {w} {w} {8} {0} {} {1.000}
 E { 4496} {s} {s} {4} {0} {} {1.000}
+E { 7605} {e} {e} {2} {0} {} {1.000}
 
 R { 4496} {0} {} {Strolling in the Kai Province} { } {The mountainous Kai province is nested at the feet of high ranges including the majestuous mount Fuji as one of its borders with central Japan. Once ruled by the Takeda clan, Kai is now run by the Tokugawa since the defeat at the battle of Tenmokuzan. The province however still looks wealthy, financed by its new masters who extend through it their grasp on the whole Kanto region. You come across many villages, living from the culture of rye or rice.} {Medieval Japan } {} {} {} {1.000}
 E { 4495} {n} {n} {1} {0} {} {1.000}
@@ -21375,6 +21378,7 @@ E { 4688} {s} {s} {4} {0} {} {1.000}
 R { 5029} {0} {} {Hauptstrasse South} { } {The road here is of firmly packed earth, and your footsteps raise very little dust. There are piles of refuse to either side of the road, and the road itself is crowded with people traveling from the southern part of the town, where the administrative and service centers are, into the commercial and residential districts in the northern part. There are buildings to the east and west, with no apparent entrances, and the road continues to the north to the rest of the town, and south through the gates.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5030} {n} {n} {1} {0} {} {1.000}
 E {  934} {gate} {enq ask gate gate} {0} {0} {} {1.000}
+E {  934} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
 
 R { 5030} {0} {} {Hauptstrasse/Schatzenstrasse} { } {This is the intersection of two rather busy streets, the north/south Hauptstrasse and the east/west Schatzenstrasse. Your nose is assaulted by the rather powerful smell of rottenness, probably due to the increasingly large piles of filth you see to either side of the road here. Rats scurry from pile to pile, and you see an occasional mangy-looking cat racing after them, although when you see other people on the street, they seem to ignore the whole lot.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5029} {s} {s} {4} {0} {} {1.000}
@@ -26330,7 +26334,7 @@ E { 1961} {n} {n} {1} {0} {} {1.000}
 E { 6219} {w} {w} {8} {0} {} {1.000}
 E { 2029} {e} {e} {2} {0} {} {1.000}
 
-R { 6219} {0} {} {In Dense Jungle} { } {It is with great difficulty that you can see the ocean that lies just feet away from you to the east, so dense is the jungle here. Your feet always manage to find sure footing, however. Unless you are totally mistaken, a shadow looms amidst the leaves and vines to the south...?} {South Seas } {wu} {} {} {1.000}
+R { 6219} {0} {} {In Dense Jungle} { } {It is with great difficulty that you can see the ocean that lies just feet away from you to the east, so dense is the jungle here. Your feet always manage to find sure footing, however. Unless you are totally mistaken, a shadow looms amidst the leaves and vines to the south...?} {South Seas } {wuchen} {} {} {1.000}
 E { 6218} {e} {e} {2} {0} {} {1.000}
 E { 6220} {s} {s} {4} {1} {} {1.000}
 
@@ -28937,13 +28941,18 @@ E { 6864} {s} {s} {4} {0} {} {1.000}
 
 R { 6863} {0} {} {Center of the Grotto} { } {No walls visible, the growing darkness of this massive cave has consumed any boundary to which you might make reference. It is colder here than anywhere else, and the area eminates with a strong, powerful, evil magical force that overwhelms you. Under your feet you see that you are standing in massive footprints pressed into the cold, solid floors.} {Land of Shadows} {} {} {} {1.000}
 E { 3583} {n} {n} {1} {0} {} {1.000}
+E { 6865} {e} {e} {2} {0} {} {1.000}
+E { 6867} {s} {s} {4} {0} {} {1.000}
+E { 6864} {w} {w} {8} {0} {} {1.000}
 
 R { 6864} {0} {} {The West Wall of the Grotto} { } {The spirits here are collected into small, fast-moving packs. They flitter in and about, rushing you but dodging at the last second. You cannot help but cling to the wall to avoid getting pummelled by their ethereal forms.} {Land of Shadows} {} {} {} {1.000}
 E { 6862} {n} {n} {1} {0} {} {1.000}
+E { 6863} {e} {e} {2} {0} {} {1.000}
 
 R { 6865} {0} {} {The East Wall of the Grotto} { } {Along the east wall, nearly forty feet wide, is carved an elaborate mural. In detail, a being, humanlike in form with a hideous face, stands defiant against a horde of men and Sidhe bearing flags with the symbols of Danaan. Waves under her feet make the stone almost tremble with realism, the peaks of which toss the onslaught of her attackers to and fro, each face carved with hideous grimaces of pain. At her sides are three men, one distinctly dark and black, another brawn and burly, and the third with a face that would strike fear into the boldest of souls.} {Land of Shadows} {} {} {} {1.000}
 E { 6861} {n} {n} {1} {0} {} {1.000}
 E { 6866} {s} {s} {4} {0} {} {1.000}
+E { 6863} {w} {w} {8} {0} {} {1.000}
 
 R { 6866} {0} {} {The Southeast Corner of the Grotto} { } {The air here is cold and dank; the smell of mold is nearly overwhelming. The corner of the wall here leaks water down from somewhere above. Slowly trickling down to a pool on the ground, green sickly molds and mildew cling desperately to the slick walls.} {Land of Shadows} {} {} {} {1.000}
 E { 6865} {n} {n} {1} {0} {} {1.000}
@@ -28951,6 +28960,7 @@ E { 6867} {w} {w} {8} {0} {} {1.000}
 
 R { 6867} {0} {} {The South Wall of the Grotto} { } {Along the south wall you see a strange circular carving in the sheer stone. It is tall, half again as you are high. To the north, the darkness spreads out. Souls that flitter about pay you little mind.} {Land of Shadows} {} {} {} {1.000}
 E { 6866} {e} {e} {2} {0} {} {1.000}
+E { 6863} {n} {n} {1} {0} {} {1.000}
 
 R { 6868} {0} {} {At the Bottom of a Gorge, Amidst a Boiling Sea} { } {SPLASH! You hit the water with a tremendous spray of water. The boiling sea throws you about as if you were a plaything in a child's hand. You feel something against your leg! Before you know it, you're surrounded by a horde of creatures to which there can be no names.} {Land of Shadows} {} {} {} {1.000}
 E { 2540} {u} {u} {16} {0} {} {1.000}
@@ -31672,12 +31682,16 @@ E { 7509} {n} {n} {1} {0} {} {1.000}
 R { 7509} {0} {} {Gentpoort} { } {Two round towers loom above you as you cross the canal and approach the walls of Bruges. An arched gateway leads through the walls into the city, one of seven such gates strategically placed around the walls. Narrow slits in the tower walls attest to the defensive function of the structure. Guards and guild representatives perform checks on goods being transported, as well as collect taxes on imports and exports.} {Medieval Flanders} {} {} {} {1.000}
 E { 7508} {s} {s} {4} {0} {} {1.000}
 E { 7510} {n} {n;enq ask gate gate} {1} {0} {} {1.000}
+E { 7510} {ask gate gate} {n;enq ask gate gate} {0} {0} {} {1.000}
+E { 7510} {gate} {n;enq ask gate gate} {0} {0} {} {1.000}
 
 R { 7510} {0} {} {Fortress Street} { } {Passing through the gates to the south, the narrow, cobblestone street leads northwards towards the center of the city. The street curves away to the east and west following the circular path of the canal and walls that surround the town. Brightly painted brick houses with stair-step gables overlook the narrow street.} {Medieval Flanders} {} {} {} {1.000}
 E { 7509} {s} {s;enq ask gate gate} {4} {0} {} {1.000}
 E { 7520} {w} {w} {8} {0} {} {1.000}
 E { 7533} {n} {n} {1} {0} {} {1.000}
 E { 7531} {e} {e} {2} {0} {} {1.000}
+E { 7509} {ask gate gate} {s;enq ask gate gate} {0} {0} {} {1.000}
+E { 7509} {gate} {s;enq ask gate gate} {0} {0} {} {1.000}
 
 R { 7511} {0} {} {A Cobblestone Road Along the Ramparts} { } {The cobblestone road continues, curving to follow the course of the canal circling the city. Grassy verges fall away from the road toward the water's edge, where ducks and geese make their home in the warmer months.} {Medieval Flanders} {} {} {} {1.000}
 E { 7520} {e} {e} {2} {0} {} {1.000}
@@ -31708,6 +31722,8 @@ R { 7516} {0} {} {The Donkey Gate} { } {Used mostly by farmers and millers carry
 E { 7575} {s} {s} {4} {0} {} {1.000}
 E { 7577} {n} {n} {1} {0} {} {1.000}
 E { 7582} {w} {w;enq ask gate gate} {8} {0} {} {1.000}
+E { 7582} {ask gate gate} {w;enq ask gate gate} {0} {0} {} {1.000}
+E { 7582} {gate} {w;enq ask gate gate} {0} {0} {} {1.000}
 
 R { 7517} {0} {} {Inside the Powder Tower} { } {The round room is dark and filled with barrels of gunpowder; a narrow staircase leads to upper floors, where more gunpowder is stored. The air is oppressive and the slightest spark could ignite the powder. Perhaps this isn't the safest place to be?} {Medieval Flanders} {} {} {} {1.000}
 E { 7514} {d} {open d;d} {32} {0} {} {1.000}
@@ -31850,13 +31866,13 @@ E { 7549} {w} {w} {8} {0} {} {1.000}
 
 R { 7549} {0} {<069>} {Crane Square} {W} {Rosemary street ends in a small, cobbled square. A fountain splashes merrily in the center of the square, bringing a cheerful tune to the area. Cheerily painted homes, with their stair-stepped gables surround the little square. On warm days, artists can be seen meeting and conversing in the square, but one home on the north side of the square seems to be their destination.} {Medieval Flanders} {} {} {} {1.000}
 E { 7548} {e} {e} {2} {0} {} {1.000}
-E { 7551} {n} {n} {1} {0} {} {1.000}
+E { 7551} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 7550} {0} {} {Stove Street Bath House} { } {Men and women alike lounge together in wooden bath tubs that have been placed around the room. Several of the patrons consume meals while they bathe off a board placed across the tub to form a table. Several alcoves open off the main room, some of which have curtains discreetly pulled across, while others show the beds within.} {Medieval Flanders} {} {} {} {1.000}
 E { 7546} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 7551} {0} {} {Van Eyck's House} { } {This modest home appears to be the gathering place for local artists. The furniture is well-made, and echoes the opulence of those found in the homes of the nobility, but is obviously not crafted with as fine materials. Several artists speak about the use of pigments and making the new oil paints Flanders is quickly becoming famous for.} {Medieval Flanders} {} {} {} {1.000}
-E { 7549} {s} {s} {4} {0} {} {1.000}
+E { 7549} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 7552} {0} {<069>} {Cour des Princes} {W} {The Court of the Prince, Duke Philip's residence when he is in Bruges, always an example of the extravagant court life favoured by Philip, has been prepared for the celebration of the wedding of Duke Philip, the Good to Isabella of Portugal. The palace has been expanded and remodeled, and now contains a chapel, library, swimming pool, tennis court, orchard, and zoo. The brick buildings with stately towers display the Valois-Burgundy standard proudly overhead.} {Medieval Flanders} {} {} {} {1.000}
 E { 7523} {s} {open s;s} {4} {0} {} {1.000}
@@ -31877,7 +31893,7 @@ E { 7556} {e} {open e;e} {2} {0} {} {1.000}
 R { 7555} {0} {} {Maria Street} { } {On one side of the street is stands St. John's Hospital, where the city's poor, and sick, are cared for by nuns and monks. Any sick pilgrims or travellers also find their way here, seeking the assistance of those within.} {Medieval Flanders} {} {} {} {1.000}
 E { 7554} {s} {s} {4} {0} {} {1.000}
 E { 7559} {n} {n} {1} {0} {} {1.000}
-E { 7566} {w} {w} {8} {0} {} {1.000}
+E { 7566} {w} {open w;w} {8} {0} {} {1.000}
 
 R { 7556} {0} {} {The Church of Our Lady} { } {Black and white marble floors pave the way between white marble columns towards the altar. Wooden confessionals with ornately carved figures stand to one side, while farther up the aisle, prayer benches line the walls. Stained glass windows of famous characters from the bible cast pools of colored light over the altar.} {Medieval Flanders} {} {} {} {1.000}
 E { 7554} {w} {open w;w} {8} {0} {} {1.000}
@@ -31895,6 +31911,8 @@ E { 7569} {e} {e} {2} {0} {} {1.000}
 E { 7555} {s} {s} {4} {0} {} {1.000}
 E { 7535} {w} {w} {8} {0} {} {1.000}
 E { 7583} {n} {n;enq ask gate gate} {1} {0} {} {1.000}
+E { 7583} {ask gate gate} {n;enq ask gate gate} {0} {0} {} {1.000}
+E { 7583} {gate} {n;enq ask gate gate} {0} {0} {} {1.000}
 
 R { 7560} {4104} {} {} { } {} {} {} {} {} {1.000}
 E { 7528} {w} {w} {8} {0} {} {1.000}
@@ -31920,7 +31938,7 @@ E { 7562} {s} {s} {4} {0} {} {1.000}
 E { 7527} {n} {n} {1} {0} {} {1.000}
 
 R { 7566} {0} {} {St. John's Hospital} { } {Soft whispers of hushed conversations echo faintly through the large room before you. Rows of stone columns support the ceiling high overhead, and cubicles, each housing a bed, fill the spaces between. You can hear the occasional low moan of pain from one of the patients, but overall a deathly hush falls over the area. Not even the monks and nuns attending the sick seem to speak.} {Medieval Flanders} {} {} {} {1.000}
-E { 7555} {e} {e} {2} {0} {} {1.000}
+E { 7555} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 7567} {0} {} {Market Hall} { } {Passing through an archway in the thick brick walls leads between the market square and the inner courtyard. Shops line the outside walls, selling goods of a finer quality than those available out in the square. A flight of stone steps leads to the second floor.} {Medieval Flanders} {} {} {} {1.000}
 E { 7542} {n} {open n;n} {1} {0} {} {1.000}
@@ -31987,11 +32005,15 @@ R { 7582} {0} {} {A Flander's Field} { } {A sea of blood-red poppies grow, cover
 E { 7516} {e} {e;enq ask gate gate} {2} {0} {} {1.000}
 E { 7585} {n} {n} {1} {0} {} {1.000}
 E { 7587} {s} {s} {4} {0} {} {1.000}
-E { 7589} {w} {w} {8} {0} {} {1.000}
+E { 7589} {w} {open w;w} {8} {0} {} {1.000}
+E { 7516} {ask gate gate} {e;enq ask gate gate} {0} {0} {} {1.000}
+E { 7516} {gate} {e;enq ask gate gate} {0} {0} {} {1.000}
 
 R { 7583} {0} {} {The River Zwinn Outside the Gates of Bruges} { } {The Zwinn sweeps onwards, emptying into the North Sea. At low tide, the channel recedes leaving muddy flats that are impassable to boats. During the late summer and early fall, sea lavender blossoms along the shores of the tidal channel, attracting bees and all manner of flying creature, seeking its sweet nectar.} {Medieval Flanders} {} {} {} {1.000}
 E { 7559} {s} {s;enq ask gate gate} {4} {0} {} {1.000}
 E { 2525} {n} {n} {1} {1} {} {1.000}
+E { 7559} {gate} {s;enq ask gate gate} {0} {0} {} {1.000}
+E { 7559} {ask gate gate} {s;enq ask gate gate} {0} {0} {} {1.000}
 
 R { 7584} {0} {} {Waterhalle} { } {Built over the Reie so the goods being brought in by ship will be protected from the weather while being unloaded, fifteen bays run along the length of this massive building. A small extension opening onto the Market hosts trade houses and shops. The area bustles with activity as the ships are unloaded and shopkeepers hawk their wares. Above, an attic filled with crates and barrels acts as a storehouse for goods brought in from around the region.} {Medieval Flanders} {} {} {} {1.000}
 E { 7513} {w} {open w;w} {8} {0} {} {1.000}
@@ -32014,7 +32036,7 @@ E { 7589} {n} {n} {1} {0} {} {1.000}
 
 R { 7589} {0} {} {A Farmer's Cottage} { } {A humble cottage with a thatched roof stands in a field of grass. A few scattered sheep mill nearby, grazing contentedly and the occasional bleat can be heard.} {Medieval Flanders} {} {} {} {1.000}
 E { 7588} {s} {s} {4} {0} {} {1.000}
-E { 7582} {e} {e} {2} {0} {} {1.000}
+E { 7582} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 7590} {0} {} {The Great Hall} { } {This is the main reception room, where the Duke and Duchess meet with guests and hold court. Tall round pillars support an impressive vaulted ceiling above. Long tables and benches have been set out in prepartion for a great feast and servants bustle busily, preparing the grand hall for the upcoming celebration.} {Medieval Flanders} {} {} {} {1.000}
 E { 7552} {s} {open s;s} {4} {0} {} {1.000}
@@ -32062,10 +32084,16 @@ E { 7601} {u} {open u;u} {16} {0} {} {1.000}
 R { 7601} {0} {} {Top of the Bell Tower} { } {From this vantage point one can view the entirety of Bruges below. The canal winds lazily through the town, and off to the east a church spire rises, almost as high as the tower you stand in. Watchmen diligently pace, keeping watch over the town, alert to any invaders or fires threatening the safety of the citizens.} {Medieval Flanders} {} {} {} {1.000}
 E { 7600} {d} {open d;d} {32} {0} {} {1.000}
 
-R { 7602} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 7602} {4104} {} {} { } {} {} {} {} {} {1.000}
 E { 7514} {e} {e} {2} {0} {} {1.000}
 E { 7515} {w} {w} {8} {0} {} {1.000}
 
-R { 7603} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 7603} {4104} {} {} { } {} {} {} {} {} {1.000}
 E { 7572} {e} {e} {2} {0} {} {1.000}
 E { 7541} {w} {w} {8} {0} {} {1.000}
+
+R { 7604} {0} {} {On a Wind-swept Beach} { } {Icy winds blow over you as you stand on this pebbled beach. Farne Island is quite small, and to either side of you the beach curves toward the mainland a few miles west. Spray from the water that breaks against the shore is blown into your eyes, making it difficult to see. You are reminded of the tales of plum-sized hail which sometimes falls here.} {Viking Scandinavia} {} {} {} {1.000}
+E { 3633} {n} {n} {1} {0} {} {1.000}
+
+R { 7605} {513} {} {} {X} {} {Medieval Japan} {} {} {} {1.000}
+E { 4495} {w} {w} {8} {0} {} {1.000}
