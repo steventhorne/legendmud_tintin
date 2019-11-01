@@ -22,17 +22,17 @@
 
 #FUNCTION {clamp}
 {
-    #IF {%1 < %2}
-    {
-        #RETURN %2;
-    };
-
     #IF {%1 > %3}
     {
         #RETURN %3;
     };
 
-    #RETURN %1;
+    #IF {%1 <= %3 && %1 >= %2}
+    {
+        #RETURN %1;
+    }
+
+    #RETURN %2;
 }
 
 #FUNCTION {has_module}
