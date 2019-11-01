@@ -36,7 +36,7 @@
         #NOP draw room info;
         #MAP get all room_vars;
 
-        #MATH map_info_line {$screen[panes][$pane_map][y2] - 2};
+        #MATH map_info_line {$screen[panes][$pane_map][y2] - 3};
 
         #FORMAT map_info_text {%s} {  <039>$room_vars[area]<099>};
         #DRAW tile $map_info_line $screen[panes][$pane_map][x1] $map_info_line $screen[panes][$pane_map][x2] {$map_info_text};
@@ -49,7 +49,25 @@
         };
         #DRAW tile $map_info_line $screen[panes][$pane_map][x1] $map_info_line $screen[panes][$pane_map][x2] {$map_info_text};
 
+        #MATH map_info_line {$map_info_line + 1};
+        #LOCAL map_info_text {  [Exits:};
+        #LOCAL count {0};
+        #FOREACH *room_vars[exits][%*] {exit}
+        {
+            #IF {{$count} == {0}}
+            {
+                #FORMAT map_info_text {%s <499>%s<099>} {$map_info_text} {$exit};
+            }
+            {
+                #FORMAT map_info_text {%s, <499>%s<099>} {$map_info_text} {$exit};
+            }
+            #MATH count {$count + 1};
+        }
+        #FORMAT map_info_text {%s]} {$map_info_text};
+        #DRAW tile $map_info_line $screen[panes][$pane_map][x1] $map_info_line $screen[panes][$pane_map][x2] {$map_info_text};
+
         #UNVAR map_info_line;
+        #UNVAR map_info_text;
         #UNVAR room_vars;
     };
 }
