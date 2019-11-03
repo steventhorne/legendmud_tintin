@@ -84,6 +84,7 @@ This package comes with built-in layouts that allow you to display additional in
 In order to see the layouts that are available to you, you can type the alias `layouts` in game.
 
 The `layouts` alias will output the following:
+```
 1              2              3              4
  ___________    ___________    ___________    ___________
 |           |  |           |  |     |     |  |           |
@@ -100,6 +101,7 @@ The `layouts` alias will output the following:
 |     |     |  |           |  |     |     |  |     |     |
 |  M  |     |  |     M     |  |     |  2  |  |  M  |  3  |
 |_____|_____|  |___________|  |_____|_____|  |_____|_____|
+```
 
 You can choose a layout by setting the layout configuration in the user.config file to one of the layout numbers above.
 
