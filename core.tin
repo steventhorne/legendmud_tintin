@@ -30,7 +30,7 @@
     #UNVAR info;
     #REPLACE {tt_version} {.} {};
     #REPLACE {tt_version} {b} {};
-    #IF {$tt_version < 20190}
+    #IF {$tt_version < 20192}
     {
         #RETURN 1;
     }
@@ -44,7 +44,7 @@
     #IF {@is_out_of_date{}}
     {
         #SHOWME <001>Your version of Tintin++ is out of date.;
-        #SHOWME <001>Please upgrade to v2.01.90 or later.;
+        #SHOWME <001>Please upgrade to v2.01.92 or later.;
     }
     {
         #SESSION legendmud mud.legendmud.org 9999;
