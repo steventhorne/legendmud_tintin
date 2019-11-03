@@ -7,6 +7,7 @@
     - [Linux](#usage-linux)
     - [Windows](#usage-windows)
 - [Config](#config)
+- [Layouts](#layouts)
 - [Modules](#modules)
     - [Macros Module](#macros-module)
     - [Logging Module](#logging-module)
@@ -28,11 +29,11 @@
 
 This is an all-in-one package for TinTin++ to play LegendMUD.
 A few of the features include:
-- Automatic updates
 - An autologin system
 - A map with mapping triggers
 - General purpose combat triggers and aliases
 - A system for loading aliases and triggers by class name
+- Built in layout selection and customization
 
 This package also comes with triggers based on my specific prompt.
 This is an optional feature of the package and will not work without acquiring my prompt format.
@@ -43,7 +44,7 @@ The following features will not work without acquiring my prompt format:
 
 # Installation
 [Download](https://tintin.sourceforge.io/download.php) and install TinTin++ on your system.
-This package requires you to use at least TinTin++ version 2.01.90.
+This package requires you to use at least TinTin++ version 2.01.92.
 
 [Download](https://github.com/steventhorne/legendmud_tintin/releases/latest) the latest release of this package.
 Do not download the repository as it may not be a stable release.
@@ -77,6 +78,36 @@ The `user.config` config contains settings for this package.
 You will need to restart the client or type `reload` for any changed settings to take effect.
 
 You can add your own custom settings to these files if you need more for your scripts.
+
+# Layouts
+This package comes with built-in layouts that allow you to display additional information outside of the main MUD output.
+In order to see the layouts that are available to you, you can type the alias `layouts` in game.
+
+The `layouts` alias will output the following:
+1              2              3              4
+ ___________    ___________    ___________    ___________
+|           |  |           |  |     |     |  |           |
+|           |  |     1     |  |     |     |  |     1     |
+|     M     |  |___________|  |  M  |  1  |  |___________|
+|           |  |           |  |     |     |  |     |     |
+|           |  |     M     |  |     |     |  |  M  |  2  |
+|_____ _____|  |___________|  |_____|_____|  |_____|_____|
+5              6              7              8
+ ___________    ___________    ___________    ___________
+|     |     |  |     |     |  |     |     |  |     |     |
+|  1  |     |  |  1  |  2  |  |     |  1  |  |  1  |  2  |
+|_____|  2  |  |_____|_____|  |  M  |_____|  |_____|_____|
+|     |     |  |           |  |     |     |  |     |     |
+|  M  |     |  |     M     |  |     |  2  |  |  M  |  3  |
+|_____|_____|  |___________|  |_____|_____|  |_____|_____|
+
+You can choose a layout by setting the layout configuration in the user.config file to one of the layout numbers above.
+
+After choosing a layout, you can specify which pane each module will display in using the {pane_<module name>} configurations in the user.config file.
+
+Layouts other than the the first layout may use the {height_percent} and {width_percent} user.config settings. These percentages decide what percentage of the screen the main(M) pane takes up. These are defaulted to 60%.
+
+**NOTE: Currently only the map and chat modules have display panes, but this may change in the future.**
 
 # Modules
 This package comes with optional modules that can be enabled or disabled at your discretion.
@@ -132,9 +163,8 @@ The map module includes a pre-built map, automatic following, and mapping tools 
 
 Display the map with one of the following methods:
 - Typing `#map map` will display the map on demand
-- Update the following user.config settings
-    - {map_vtmap} {on}
-    - {split_top} {16} (this can be any number in order to change the size)
+- Use a layout other than the first layout and set the {pane_map} setting in the user.config to a valid pane number.
+    - the {map_vtmap} and {split_top} settings are no longer necessary or used.
 - Navigate to map/ in a separate terminal and run `./showmap`
 
 ### Map Aliases
@@ -165,6 +195,11 @@ If you want to acquire my prompt, enter the game and type `prompt acquire Svartu
 > Identifier: chat | Default: disabled
 
 The chat module will capture all channel and tells and log them to a chat.txt file which can be displayed in a separate terminal or used for other purposes.
+
+Additionally, the chat module can be displayed in a separate pane.
+This can be done by selecting a layout other than the first layout and setting the {pane_chat} setting in the user.config to a valid pane number.
+
+The chat log can be scrolled through using the ALT+PGUP, ALT+PGDN, ALT+HOME, and ALT+END key combinations.
 
 **Note**: This module may not work if you have changed your channel formats.
 
