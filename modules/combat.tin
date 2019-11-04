@@ -50,7 +50,7 @@
 }
 {5}
 
-#ACTION {{^You get (\d+) gold coins from the .*? corpse of (.*?).$}}
+#ACTION {{^You get (\d+) gold coins from the .*?corpse of (.*?).$}}
 {
 	#IF {"%3" != "$prompt[name]"}
 	{

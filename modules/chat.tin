@@ -67,8 +67,7 @@
 }
 {5}
 
-#NOP pgup;
-#MACRO {\e[5;3~}
+#FUNCTION {scroll_chat_up}
 {
     #LOCAL chat_height {};
     #MATH chat_height {($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1])};
@@ -80,16 +79,41 @@
         #MATH chat_offset {@max{$chat_offset - $chat_height;(&chat_log[] * -1) + $chat_height + 1}};
     }
     @display_chat_log{};
-}
 
-#NOP pgdn;
-#MACRO {\e[6;3~}
+    #RETURN #NOP;
+};
+
+#FUNCTION {scroll_chat_down}
 {
     #LOCAL chat_height {};
     #MATH chat_height {($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1])};
     #MATH chat_offset {$chat_offset + $chat_height};
     #MATH chat_offset {@min{0;$chat_offset}};
     @display_chat_log{};
+
+    #RETURN #NOP;
+}
+
+#NOP pgup;
+#MACRO {\e[5;3~}
+{
+    @scroll_chat_up{};
+}
+
+#MACRO {\e\e[5~}
+{
+    @scroll_chat_up{};
+}
+
+#NOP pgdn;
+#MACRO {\e[6;3~}
+{
+    @scroll_chat_down{};
+}
+
+#MACRO {\e\e[6~}
+{
+    @scroll_chat_down{};
 }
 
 #NOP home;
