@@ -1,4 +1,4 @@
-#IF {$is_startup}
+#IF {&{is_startup}}
 {
     #VAR phelp_list[map][enmap] {Enables map editing.};
     #VAR phelp_list[map][dismap] {Disabled map editing.};

@@ -1,8 +1,3 @@
-#IF {$is_startup}
-{
-    #NOP put alias help here.;
-};
-
 #FUNCTION {display_chat_log}
 {
     #IF {&{screen[panes][$pane_chat]}}
@@ -166,7 +161,7 @@
 
 #NOP create chat log outside of classes so that it doesn't get wiped on reload;
 #CLASS module_chat close;
-#IF {&chat_log} {}
+#IF {&{chat_log}} {}
 {
     #LIST chat_log create;
 };

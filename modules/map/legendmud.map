@@ -13167,8 +13167,8 @@ E { 3060} {s} {s} {4} {0} {} {1.000}
 E { 6416} {e} {e} {2} {0} {} {1.000}
 
 R { 3060} {0} {} {Between Boiling Lakes in Val de Diavolo} { } {The view is partially obscured by yellow-tinged fumes rising from the fissures in the ground. Grasses and wildflowers grow wherever the soil is not scarred by the fires of the earth below. This is certainly a landscape that could feed intense detail to a poet's vision of the netherworld.} {The Inferno } {} {} {} {1.000} {}
-E { 3059} {n} {n} {1} {0} {} {1.000}
 E { 3061} {w} {w} {8} {0} {} {1.000}
+E { 3058} {n} {n} {1} {0} {} {1.000}
 
 R { 3061} {0} {} {Between Boiling Lakes} { } {The stench of sulfur hits you like a slap in the face as the wind grows in strength. An odd, yellowish fog rises from the ground ahead, foreboding another assault on your nostrils. The outlines of a dark and thorny forest towards the south create an eerie foreboding feeling as you glance that way.} {The Inferno } {} {} {} {1.000} {}
 E { 3060} {e} {e} {2} {0} {} {1.000}
@@ -32101,3 +32101,53 @@ E { 4495} {w} {w} {8} {0} {} {1.000}
 
 R { 7606} {0} {} {} { } {} {Medieval Flanders} {} {} {} {1.000} {}
 E { 7527} {u} {open u;u} {16} {0} {} {1.000}
+
+R { 7607} {0} {} {Atop The Megara Plateau} { } {You stand at the highest point of the natural plateau that dominates Carthage. The air is very hot and humid, from a distance you hear the cries of jungle animals. Far down the plateau westwards, you can see miles away a deadly rock desert, bathed in the ruthless sun.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 4849} {d} {d} {32} {0} {} {1.000}
+E { 7608} {n} {n} {1} {0} {} {1.000}
+E { 7609} {w} {w} {8} {0} {} {1.000}
+
+R { 7608} {0} {} {In an Oak and Cedar Forest} { } {The Megara plateau appears to be fully covered by a huge and dense forest mainly composed of oak and cedar trees. Compared to the nearby desert, the place is humid and shadowy and, from the noises all around you, is the home of an impressive array of fauna. Many game trails run from here in almost all directions.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7607} {s} {s} {4} {0} {} {1.000}
+E { 7612} {w} {w} {8} {0} {} {1.000}
+E { 7613} {e} {e} {2} {0} {} {1.000}
+
+R { 7609} {0} {} {In an Oak and Cedar Forest} { } {The Megara plateau appears to be fully covered by a huge and dense forest mainly composed of oak and cedar trees. Compared to the nearby desert, the place is humid and shadowy and, from the noises all around you, is the home of an impressive fauna. To the west you spot a great lake, covered with hundreds of birds.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7607} {e} {e} {2} {0} {} {1.000}
+E { 7610} {w} {w} {8} {0} {} {1.000}
+E { 7612} {n} {n} {1} {0} {} {1.000}
+
+R { 7610} {0} {} {A Pine Forest near a Great Lake} { } {A large pool of water has formed here in a deep hollow on the surface of the plateau. The water seems stagnant but many little streams run from the lake through the forest and fall far down the Megara, losing themselves in the desert. All around the lake is a pine forest, covering the area with refreshing shadows. Many birds fly above or around the lake, looking for tender tree leaves and small fishes.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7609} {e} {e} {2} {0} {} {1.000}
+E { 7611} {s} {s} {4} {0} {} {1.000}
+
+R { 7611} {0} {} {Atop a Cliff Above the Desert} { } {The forest abruptly ends here as you approach the tall cliff of the Megara plateau. You admire a panoramic view of the city of Carthage to the south where you can spot the main buildings and the impressive Citadel of Byrsa. Far below, you can see a narrow dusty trail that leads into the nearby stony desert.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7610} {n} {n} {1} {0} {} {1.000}
+
+R { 7612} {0} {} {A Clearing in the Forest} { } {Some big wild animal has crushed the nearby trees to the ground and created a large clearing in the middle of the forest. The place itself looks to be alive as there is not a minute that passes without noises and movements in the bushes, clearly indicating that you are not alone.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7609} {s} {s} {4} {0} {} {1.000}
+E { 7608} {e} {e} {2} {0} {} {1.000}
+E { 7617} {w} {w} {8} {0} {} {1.000}
+
+R { 7613} {0} {} {Among Wild Orchids} { } {A clearing in the dense pine forest is populated here by a gorgeous carpet of wild purple orchid plants. Many bees and smaller animals wander here collecting sweet pollen or just attracted by the bright colors of the flowers. You spot a very small wooden hut that makes you think the orchids are cultivated by some townfolk for their decorative and magical properties.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7608} {w} {w} {8} {0} {} {1.000}
+E { 7614} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7614} {0} {} {A Pool Surrounded by Oak Trees} { } {The oak trees look more healthy here as they collect fresh water from a muddy pond. From the many footprints in the mud, you gather that the place seems to be a gathering point of wild plateau animals. Above your head in the trees you hear the annoying chants of a family of parrots that built a small nest with local branches and dried mud.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7613} {s} {open s;s} {4} {0} {} {1.000}
+E { 7616} {w} {w} {8} {0} {} {1.000}
+
+R { 7615} {0} {} {Deep in the Forest} { } {The trees are so dense here that the sunlight struggles to penetrate this small clearing. You are surrounded by old oak trees covered by a dry yellow moss and wild herbs are growing from branch to branch. Even the sounds of the nearby wildlife are calmer here since it is also probably difficult for animals to reach this part of the forest.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7616} {e} {e} {2} {0} {} {1.000}
+E { 7612} {s} {s} {4} {0} {} {1.000}
+
+R { 7616} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7614} {e} {e} {2} {0} {} {1.000}
+E { 7615} {w} {w} {8} {0} {} {1.000}
+
+R { 7617} {0} {} {Near a Thunderous Waterfall} { } {WATCH OUT! You almost went tumbling over the cliff, hidden here by the dense vegetation of pine trees and dead trunks. Fortunately, the thunderous noise from the small stream falling from the plateau alerts you to the precipice in front of you.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7612} {e} {e} {2} {0} {} {1.000}
+E { 7618} {n} {n} {1} {0} {} {1.000}
+
+R { 7618} {0} {} {The Plains of the Megara} { } {You left the forest of the plateau behind you and entered the driest part of the vast plains that dominate Carthage. The wind blows here, hot and salty from the nearby sea, and gently makes the wild herbs dance on the plains. Probably because these plains lie on the top of the plateau, it seems only the sky determines their frontier.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7617} {s} {s} {4} {0} {} {1.000}

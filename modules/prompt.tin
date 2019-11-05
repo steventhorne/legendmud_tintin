@@ -1,7 +1,7 @@
-#IF {$is_startup}
+#IF {&{is_startup}}
 {
     #VAR phelp_list[prompt][initprompt] {Sets the prompt format needed for the prompt module.};
-}
+};
 
 #ALIAS {initprompt}
 {
@@ -82,7 +82,7 @@
         };
     };
 
-    #DRAW tile -3 2 1 $screen[scroll][x2] {$prompt1};
+    #DRAW tile -3 2 -3 $screen[scroll][x2] {$prompt1};
     #UNVAR prompt1;
 
     #LINE gag;
@@ -167,8 +167,8 @@
 
     #NOP TNL:$prompt[xp_gauge];
 
-    #DRAW tile -4 2 1 $screen[scroll][x2] {$prompt2};
-    #DRAW tile -2 2 1 $screen[scroll][x2] {$prompt[xp_gauge]};
+    #DRAW tile -4 2 -4 $screen[scroll][x2] {$prompt2};
+    #DRAW tile -2 2 -2 $screen[scroll][x2] {$prompt[xp_gauge]};
     #UNVAR prompt2;
 
     #NOP @time_end{Prompt 2};
@@ -180,6 +180,6 @@
 #ACTION {~{^CD>\s(.*)}}
 {
     #LINE gag;
-    #DRAW tile -5 2 1 $screen[scroll][x2] %2;
+    #DRAW tile -5 2 -5 $screen[scroll][x2] %2;
 }
 {2}

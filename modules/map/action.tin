@@ -404,3 +404,9 @@
     #MAP goto 6005;
 }
 {5}
+
+#ACTION {{^With a powerful spell, the wood-nymph flies you up and drops you atop the Megara cliff!$}}
+{
+    #MAP goto 7607;
+}
+{5}
