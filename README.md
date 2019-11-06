@@ -21,6 +21,7 @@
 - [Classes](#classes)
     - [Class Aliases](#class-aliases)
     - [Custom Classes](#custom-classes)
+- [Help Files]
 - [FAQ](#faq)
 
 # Overview
@@ -229,6 +230,9 @@ An example of this would be logging into a vina mage and loading the vina class 
 ## Custom Classes
 You can create your own classes by creating a `.tin` file with your scripts.
 Put the new `.tin` file in the `classes/` directory and then load it with the `loadclass` alias without restarting TinTin++.
+
+## Help Files
+There are help files for each module that can be found by entering the `phelp` (short for package help) alias. Further help can be found by entering `phelp <alias name>`.
 
 # FAQ
 The TinTin++ FAQ can be found [here](https://tintin.sourceforge.io/faq.php)
