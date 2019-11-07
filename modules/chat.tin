@@ -3,8 +3,6 @@
     #IF {&{screen[panes][$pane_chat]}}
     {
         #NOP draw box;
-        #NOP replace tile call with better filling at the end of the loop;
-        #DRAW tile $screen[boxes][$pane_chat][y1] $screen[boxes][$pane_chat][x1] $screen[boxes][$pane_chat][y2] $screen[boxes][$pane_chat][x2];
         #DRAW box $screen[boxes][$pane_chat][y1] $screen[boxes][$pane_chat][x1] $screen[boxes][$pane_chat][y2] $screen[boxes][$pane_chat][x2];
 
         #LOCAL label_offset {};
@@ -17,7 +15,7 @@
         #LOCAL chat_height {};
         #LOCAL chat_width {};
         #MATH chat_height {(($screen[panes][$pane_chat][y2] - $screen[panes][$pane_chat][y1]) + 1) * -1};
-        #MATH chat_width {$screen[panes][$pane_chat][x2] - $screen[panes][$pane_chat][x1]};
+        #MATH chat_width {$screen[panes][$pane_chat][x2] - $screen[panes][$pane_chat][x1] + 1};
 
         #LOCAL chat_draw_line {};
         #LOCAL chat_index {};
@@ -29,17 +27,20 @@
             #MATH chat_index {$chat_message_count + $chat_offset};
             #FORMAT chat_word_wrap {%+${chat_width}w} {$chat_log[$chat_index]};
             #MATH chat_split_length {&chat_word_wrap[%*] * -1};
-            #IF {$chat_split_length - $count < $chat_height}
+            
+            #LOOP -1 $chat_split_length {cnt}
             {
-                #BREAK;
-            }
-            {
-                #LOOP -1 $chat_split_length {cnt}
+                #MATH chat_draw_line {$screen[panes][$pane_chat][y2] + ($count * -1)};
+                #IF {$chat_split_length - ($count + $cnt + 1) < $chat_height}
                 {
-                    #MATH chat_draw_line {$screen[panes][$pane_chat][y2] + ($count * -1)};
-                    #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$pane_chat][x1] $chat_draw_line $screen[panes][$pane_chat][x2] {$chat_word_wrap[$cnt]};
-                    #MATH count {$count + 1};
-                }
+                    #IF {-1 * $count <= $chat_height}
+                    {
+                        #BREAK;
+                    };
+                    #FORMAT chat_word_wrap[$cnt] {%+${chat_width}s} { };
+                };
+                #LINE sub {col;var} #DRAW tile $chat_draw_line $screen[panes][$pane_chat][x1] $chat_draw_line $screen[panes][$pane_chat][x2] {$chat_word_wrap[$cnt]};
+                #MATH count {$count + 1};
             }
         };
     };
@@ -159,7 +160,7 @@
     #RETURN #NOP;
 }
 
-#NOP create chat log outside of classes so that it doesn't get wiped on reload;
+#NOP create chat log outside of the class so that it doesn't get wiped on reload;
 #CLASS module_chat close;
 #IF {&{chat_log}} {}
 {
