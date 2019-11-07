@@ -10594,7 +10594,7 @@ E { 2452} {u} {u} {16} {0} {} {1.000}
 R { 2452} {0} {} {The Admiral's Tower Office} { } {You stand up near a large balcony that runs all around the Cothon Tower. The building towers about a dozen yards above the harbor waters, its huge diameter enabling it to host many ships. The first floor consists of moorings for the war fleet vessels while all the upper levels contain offices for the Cothon clerks who control the harbor traffic.} {Ancient Carthage } {} {} {} {1.000} {}
 E { 2451} {d} {d} {32} {0} {} {1.000}
 
-R { 2453} {0} {} {The Italian Coast} { } {The coastline is just off to the north. Fishermen and slave boats litter the mouth of the Tiber river, no doubt heading to and from Mother Rome. The occasional drum beat can be heard from the distant boats.} {Ancient Rome } {} {} {} {1.000} {}
+R { 2453} {0} {} {The Italian Coast} { } {The coastline is just off to the north. Fishermen and slave boats litter the mouth of the Tiber river, no doubt heading to and from Mother Rome. The occasional drum beat can be heard from the distant boats.} {Ancient Rome } {rome} {} {} {1.000} {}
 E { 2454} {s} {s} {4} {0} {} {1.000}
 E { 5111} {e} {e} {2} {0} {} {1.000}
 
@@ -19851,7 +19851,7 @@ R { 4666} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4657} {e} {e} {2} {0} {} {1.000}
 E { 4660} {w} {w} {8} {0} {} {1.000}
 
-R { 4667} {0} {} {Atop a Magnificent Peak} { } {A small cave opens up here on the side of a very tall peak towering over an impressive chains of mountains. In the cave, you see a scintillating staiway of light that descends far below to Shehaqim, the Third Heaven. A small path leads north following the mountain ridge. Above you opens up on a dark sky bedecked with constellations of billions of bright stars and comets.} {The Seven Heavens } {} {} {} {1.000} {}
+R { 4667} {0} {} {Atop a Magnificent Peak} { } {A small cave opens up here on the side of a very tall peak towering over an impressive chains of mountains. In the cave, you see a scintillating staiway of light that descends far below to Shehaqim, the Third Heaven. A small path leads north following the mountain ridge. Above you opens up on a dark sky bedecked with constellations of billions of bright stars and comets.} {The Seven Heavens } {layer4} {} {} {1.000} {}
 E { 4661} {d} {d} {32} {0} {} {1.000}
 E { 4668} {w} {w} {8} {0} {} {1.000}
 E { 4670} {n} {n} {1} {0} {} {1.000}
@@ -25964,10 +25964,10 @@ E { 6134} {n} {n} {1} {0} {} {1.000}
 
 R { 6130} {0} {} {The Front Walk} { } {The walk below your feet was carefully made with various stones placed close together in the ground. Shrubbery outlines the house and yard while creating a colorful bouquet in the warmer months. The large grey house in front of you stands sturdy, its wooden walls faded from the salt air.  A large window marks its place to the right of the faded red door before you. Sounds of sea gulls blend with the crashing waves against the beach below, echoing in the open area.} {Boston, Mass. } {} {} {} {1.000} {}
 E { 6129} {w} {w} {8} {0} {} {1.000}
-E { 6131} {n} {n} {1} {0} {} {1.000}
+E { 6131} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 6131} {0} {} {A Large Reading Room} { } {Windows mark two of the walls in this room allowing the day's light to illuminate the area. Books stacked upon each other on shelves below one of the windows appear to be old and well-read. Candles rest in their holders, side-by-side on the beautifully carved table sitting in the center of the room.} {Boston, Mass. } {} {} {} {1.000} {}
-E { 6130} {s} {s} {4} {0} {} {1.000}
+E { 6130} {s} {open s;s} {4} {0} {} {1.000}
 E { 6132} {n} {n} {1} {0} {} {1.000}
 
 R { 6132} {0} {} {The Dining Room} { } {A spacious room is interrupted by a small table set in the center. The single window rests next to the side door leading outside. A beautifully carved rocking chair rests in its spot in front of one of the walls, a knitted blanket folded neatly on the seat.} {Boston, Mass. } {} {} {} {1.000} {}
@@ -27040,6 +27040,7 @@ E { 6401} {u} {u} {16} {0} {} {1.000}
 
 R { 6401} {0} {} {The Top of the Belltower} { } {The room you find yourself in is completely bare. Even the bells have been removed, and boards now cover the hole in the ceiling. Plain leaded glass fills the windows on each side of the little square room, but the glass is so clouded with age that it is impossible to see out to the surrounding countryside. You could certainly count on not being bothered by another human soul if you chose to sleep here for awhile, but in this cheerless room, your dreams would likely be nightmares.} {Saint Denis Abbey } {} {} {} {1.000} {}
 E { 6400} {d} {d} {32} {0} {} {1.000}
+E { 7619} {sleep} {sleep;st} {0} {0} {} {1.000}
 
 R { 6402} {0} {} {A Dark and Musty Hallway} { } {Darkness and stale air prevail here in this forgotten part of the Alhambra. The hallway leads south, but where it ends, no one seems to remember. A small ladder has been propped here to make reaching the trapdoor a bit easier.} {The Alhambra } {} {} {} {1.000} {}
 E { 5221} {u} {open u;u} {16} {0} {} {1.000}
@@ -32141,7 +32142,7 @@ R { 7615} {0} {} {Deep in the Forest} { } {The trees are so dense here that the 
 E { 7616} {e} {e} {2} {0} {} {1.000}
 E { 7612} {s} {s} {4} {0} {} {1.000}
 
-R { 7616} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7616} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7614} {e} {e} {2} {0} {} {1.000}
 E { 7615} {w} {w} {8} {0} {} {1.000}
 
@@ -32151,3 +32152,53 @@ E { 7618} {n} {n} {1} {0} {} {1.000}
 
 R { 7618} {0} {} {The Plains of the Megara} { } {You left the forest of the plateau behind you and entered the driest part of the vast plains that dominate Carthage. The wind blows here, hot and salty from the nearby sea, and gently makes the wild herbs dance on the plains. Probably because these plains lie on the top of the plateau, it seems only the sky determines their frontier.} {Ancient Carthage} {} {} {} {1.000} {}
 E { 7617} {s} {s} {4} {0} {} {1.000}
+
+R { 7619} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7620} {e} {e} {2} {0} {} {1.000}
+E { 7625} {n} {n} {1} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7620} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7619} {w} {w} {8} {0} {} {1.000}
+E { 7621} {s} {s} {4} {0} {} {1.000}
+E { 7622} {e} {e} {2} {0} {} {1.000}
+E { 7624} {n} {n} {1} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7621} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7620} {n} {n} {1} {0} {} {1.000}
+E { 7628} {s} {s} {4} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7622} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7620} {w} {w} {8} {0} {} {1.000}
+E { 7623} {n} {n} {1} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7623} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7622} {s} {s} {4} {0} {} {1.000}
+E { 7624} {w} {w} {8} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7624} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7623} {e} {e} {2} {0} {} {1.000}
+E { 7625} {w} {w} {8} {0} {} {1.000}
+E { 7620} {s} {s} {4} {0} {} {1.000}
+E { 7626} {n} {n} {1} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7625} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7624} {e} {e} {2} {0} {} {1.000}
+E { 7619} {s} {s} {4} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7626} {0} {} {On the Rooftop} { } {The lead roof underfoot offers little in the way of secure footing, and the minute scale of the countryside visible to you beyond the flying buttresses brings home to you just how very high up in the air you are. As you look around you are amazed by the amount of effort the stonemasons put into the gargoyles and other carvings that adorn the rooftop. Isn't it funny how in dreams real dangers aren't dangerous at all, and objects seem to be alive?} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7624} {s} {s} {4} {0} {} {1.000}
+E { 7627} {n} {n} {1} {0} {} {1.000}
+E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
+
+R { 7627} {1} {} {} {X} {} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7626} {s} {s} {4} {0} {} {1.000}
+
+R { 7628} {1} {} {} {X} {} {Saint Denis Abbey} {} {} {} {1.000} {}
+E { 7621} {n} {n} {1} {0} {} {1.000}
