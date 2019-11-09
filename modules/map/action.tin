@@ -410,3 +410,18 @@
     #MAP goto 7607;
 }
 {5}
+
+#ACTION {{^Phileas Fogg says to .*?, '(?:The club needs you to find more information about the place this book names|You need to explore the world and find a place named) '(.*)'.'$}}
+{
+    #MAP list {roomname} {%2} {variable} {fogg_rooms};
+    #LINE sub var #DELAY 0 #SHOWME Room <069>%2<099> found in the following areas:;
+    #FOREACH {*fogg_rooms[%*]} {fogg_room}
+    {
+        #MAP get {roomarea} {fogg_area} {$fogg_room};
+        #LINE sub var #DELAY 0 #SHOWME $fogg_area: vnum $fogg_room;
+    }
+    #UNVAR fogg_rooms;
+    #UNVAR fogg_room;
+    #UNVAR fogg_area;
+}
+{5}
