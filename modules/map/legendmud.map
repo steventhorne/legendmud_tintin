@@ -7939,12 +7939,12 @@ E { 7037} {e} {e} {2} {1} {} {1.000}
 
 R { 1823} {0} {} {Offshore of Ithaca} { } {The waves' pounding has subsided to a gentle susurrus and the Zephyr springing up in the west seems but a caress on your cheek. Even the cries of the gulls are less harsh than earlier in the journey, for the gently rolling hills of Ithaca lie before you, a sight to soothe the weariest of eyes and calm the most frantically beating heart. The bay of Ithaca, home of Odysseus, opens to the west, and the coastline continues north and south. The mighty Aegean opens to the east; it is said great adventures, and greater dangers, lie that way.} {Ancient Greece} {} {} {} {1.000} {}
 E { 1822} {s} {s} {4} {0} {} {1.000}
-E { 3241} {w} {w} {8} {0} {} {1.000}
+E { 1824} {w} {w} {8} {1} {} {1.000}
 E { 1825} {e} {e} {2} {1} {} {1.000}
 E { 3294} {n} {n} {1} {0} {} {1.000}
 
 R { 1824} {0} {} {The Docks of Ithaca} { } {The Bay of Ithaca spreads out before you. Moonlight graces the gentle swells that ripple across the waters before you. The narrow-beamed, black-hulled ships drawn up in the bay beneath you await a journey worthy of their skills. A sandy path leads south down the beach.} {Ancient Greece} {docks} {} {} {1.000} {}
-E { 3241} {e} {e} {2} {0} {} {1.000}
+E { 1823} {e} {e} {2} {1} {} {1.000}
 E { 2455} {w} {w} {8} {0} {} {1.000}
 E { 3353} {s} {s} {4} {0} {} {1.000}
 
@@ -13893,9 +13893,8 @@ E { 2784} {s} {s} {4} {0} {} {1.000}
 R { 3240} {0} {} {Before an Ice-Encased Watchtower} { } {The ruins of a stone watchtower, covered in a thick coat of ice, stand here in mute testament to the local area's abandonment. The main dungeon of the fortress still stands, with stalagtites hanging from its main gate like the bared teeth of some foul monster. Atop the tower flies the banner of Utgard, king of the Jotuns, fluttering in a frozen breeze.} {Svartalfheim } {} {} {} {1.000} {}
 E { 2810} {e} {e} {2} {0} {} {1.000}
 
-R { 3241} {5130} {} {} { } {} {} {} {} {} {1.000} {}
-E { 1823} {e} {e} {2} {0} {} {1.000}
-E { 1824} {w} {w} {8} {0} {} {1.000}
+R { 3241} {0} {} {The Commanders' Lounge} { } {This handsome room hosts many large and comfortable leather seats where the Club's members can relax and discuss, surrounded by an impressive collection of books. Wood-paneled walls create a lavish feeling of comfort and warmth. The cooking establishment and the Club's brilliant cuisine yield to none in Britain.} {London Port} {} {} {} {1.000} {}
+E { 6716} {e} {e} {2} {0} {} {1.000}
 
 R { 3242} {0} {} {A Dirt Path} { } {A path of hard-packed dirt wanders between the olive groves and arbors of god-like Odysseus. The main gates of Ithaca lie to the north, and a large, swinging gate opens onto the stables to the west.} {Ancient Greece} {} {} {} {1.000} {}
 E { 2457} {s} {s} {4} {0} {} {1.000}
@@ -14064,11 +14063,11 @@ E { 3280} {e} {e} {2} {0} {} {1.000}
 
 R { 3280} {0} {} {A Landing in the Valley} { } {Sparta is not a seafaring nation, but their city is growing and trade needs dictate communication with the ocean. Sparta lies down in a broad valley, and the river cuts close enough that portaging materials from this landing to the city proper is not an onerous task for the Spartan slaves. The main gate is a short walk to the north, and is open at all times of the day and night.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3279} {w} {w} {8} {0} {} {1.000}
-E { 3333} {n} {n} {1} {0} {} {1.000}
+E { 3281} {n} {n} {1} {1} {} {1.000}
 E { 3282} {s} {s} {4} {0} {} {1.000}
 
 R { 3281} {0} {} {The Main Square} { } {The street opens up into a square where groups of citizens gather to listen to speeches, eat a meal, or reflect on the day's work. Several small groups cluster around orators, discussing various topics from politics to the art of war to philosophy and logic. Boards are posted here, with notices about workers needed, upcoming speeches or events, and pending legal matters. A short distance to the north lies the entrance to the palace of Menelaus which rests on a grand hill overlooking the town. The great temples of Hera and Ares can be seen flanking the palace, and other temples are visible above the smaller structures to the east. The cross street continues east and west, and the main gate and the river lie to the south.} {Ancient Greece } {} {} {} {1.000} {}
-E { 3333} {s} {s} {4} {0} {} {1.000}
+E { 3280} {s} {s} {4} {1} {} {1.000}
 E { 3331} {n} {n} {1} {0} {} {1.000}
 E { 3332} {w} {w} {8} {0} {} {1.000}
 E { 3327} {e} {e} {2} {0} {} {1.000}
@@ -14276,9 +14275,8 @@ E { 3328} {e} {open e;e} {2} {0} {} {1.000}
 R { 3332} {0} {} {A Street in Sparta} { } {This busy street is thronged with townspeople and merchants. Stalls selling foodstuffs, baskets, amphorae, hats, and all manners of clothing and jewelry line the north and south sides of the thoroughfare. To the west, pastureland dotted with villas and farmsteads are can be viewed on the slopes outside the the city as the land rises. To the east, more shops and streets can be seen.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3281} {e} {e} {2} {0} {} {1.000}
 
-R { 3333} {5130} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3280} {s} {s} {4} {0} {} {1.000}
-E { 3281} {n} {n} {1} {0} {} {1.000}
+R { 3333} {0} {} {The Initiates' Lounge} { } {This handsome room hosts many large and comfortable leather seats where the Club's members can relax and discuss, surrounded by an impressive collection of books. Wood-paneled walls create a lavish feeling of comfort and warmth. The cooking establishment and the Club's brilliant cuisine yield to none in Britain.} {London Port} {} {} {} {1.000} {}
+E { 6716} {s} {s} {4} {0} {} {1.000}
 
 R { 3334} {0} {} {The Temple of Apollo} { } {The sanctuary of Ismenian Apollo is dominated by a large, wooden image of Apollo towering over the worshippers gathered here to make sacrifice. Each year a boy from a noble family is chosen as the priest of Ismenian Apollo for the year, and his family dedicates a votive tripod to the god in his honor.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3330} {w} {w} {8} {0} {} {1.000}
@@ -20073,12 +20071,12 @@ E { 4712} {e} {e} {2} {0} {} {1.000}
 
 R { 4712} {0} {} {By a Beautiful Fountain} { } {A marble fountain stands there in the middle of small clearing in the forest. Pure water flows peacefully from the fountain. A cherub angel plays music, enjoying the quietness of the place.} {The Seven Heavens } {} {} {} {1.000} {}
 E { 4711} {w} {w} {8} {0} {} {1.000}
-E { 4713} {ask angel transport} {ask angel transport;pause 1 second;stand} {0} {0} {} {1.000}
+E { 4713} {ask angel transport} {enq ask angel transport;pause 1 second;stand} {0} {0} {} {1.000}
 E { 4713} {transport} {enq ask angel transport;pause 1s;stand} {0} {0} {} {1.000}
 
 R { 4713} {0} {} {Makon, The Fifth Heaven} { } {In Three Enoch, the Song-Uttering Choirs are a collective class of angels who frequently sing the Trisagion and reside in Makon, the Fifth Heaven, alongside the Sarim.  They are all under the direction of Tagas, the angel of music.} {The Seven Heavens } {layer5} {} {} {1.000} {}
 E { 4714} {s} {s} {4} {0} {} {1.000}
-E { 4712} {sleep} {sleep} {0} {0} {} {1.000}
+E { 4712} {sleep} {sleep;st} {0} {0} {} {1.000}
 
 R { 4714} {0} {} {Following the Sound of Music} { } {Everything around you feels blurry and soft, as if all senses but hearing were lowered and tuned down. Hundreds of melodies fill the air and invite you to follow them in all directions.} {The Seven Heavens } {} {} {} {1.000} {}
 E { 4713} {n} {n} {1} {0} {} {1.000}
@@ -28311,8 +28309,11 @@ E { 6713} {s} {s} {4} {0} {} {1.000}
 R { 6715} {0} {} {The Hypsistan Gate} { } {The Hypsistan Gate is situated on the highest point of the polis in the northwest corner of Thebes. A small temple to Zeus surnamed Hypsistus stands here. The gate is closed and egress this way does not appear possible right now. Just to the west can be seen the Crenaean Gate, also closed to travel.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3337} {s} {s} {4} {0} {} {1.000}
 
-R { 6716} {0} {} {The Royal Explorers Club} { } {The large club lobby is designed in a classical Victorian architecture, inspired by Gothic styles. From the entrance, you can see many other rooms including libraries, dining rooms, smoking and billiard rooms. It even looks like the club provides bedrooms for members who live outside the city and prefer the club to a commercial hotel. All around you, you can see glass shelves where many objects are displayed, showing the club's interest in the world's exploration and cultural discoveries.} {London Port } {} {} {} {1.000} {}
+R { 6716} {0} {} {The Royal Explorers Club} { } {The large club lobby is designed in a classical Victorian architecture, inspired by Gothic styles. From the entrance, you can see many other rooms including libraries, dining rooms, smoking and billiard rooms. It even looks like the club provides bedrooms for members who live outside the city and prefer the club to a commercial hotel. All around you, you can see glass shelves where many objects are displayed, showing the club's interest in the world's exploration and cultural discoveries.} {London Port} {fogg} {} {} {1.000} {}
 E {   31} {s} {open s;s} {4} {0} {} {1.000}
+E { 3241} {w} {w} {8} {0} {} {1.000}
+E { 3333} {n} {n} {1} {0} {} {1.000}
+E { 7629} {e} {e} {2} {0} {} {1.000}
 
 R { 6717} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {   40} {e} {e} {2} {0} {} {1.000}
@@ -30143,9 +30144,8 @@ R { 7157} {0} {} {The Recovery Room} { } {A number of beds have been arranged fo
 E { 7156} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 7158} {0} {} {Upon the Stairs of the Holy Resurrection Church} { } {A double set of stairs lead up to the doors of the church from the yard of Saint Paul. Turning gently from before the doors of the church, each set leads east and west to the yard below. The blue onion domes tower high above, Orthodox Crosses atop them.} {1802 Alaska} {} {} {} {1.000} {}
-E { 7147} {s} {s} {4} {0} {} {1.000}
-E { 7147} {w} {w} {8} {0} {} {1.000}
-E { 7147} {e} {e} {2} {0} {} {1.000}
+E { 7147} {w} {w} {8} {1} {} {1.000}
+E { 7147} {e} {e} {2} {1} {} {1.000}
 E { 7159} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 7159} {0} {} {The Main Room of the Church} { } {There is very little distinction between the pritvor and nave - the two portions of the church run right into each other. The small windows let little light in, but candles in varying heights keep the church nicely lit. Carefully painted murals adorn the walls, in bright colors. Icons decorate the iconostas at the front of the nave, separating the nave from the sanctuary. A double-headed eagle has been painted on the floor in the center of the room.} {1802 Alaska} {} {} {} {1.000} {}
@@ -30318,10 +30318,10 @@ E { 7201} {u} {u} {16} {0} {} {1.000}
 
 R { 7201} {0} {} {Before a Hut} { } {An eerie quiet surrounds this place - even the ocean can't be heard here. The hut at the edge of the path has been carefully placed back in the trees where it will always be covered in shadow despite the position of the sun or moon in the sky.} {1802 Alaska} {} {} {} {1.000} {}
 E { 7200} {d} {d} {32} {0} {} {1.000}
-E { 7202} {e} {e} {2} {0} {} {1.000}
+E { 7202} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 7202} {0} {} {Klukwan's Hut} { } {Darkness resides in every corner of this hut. The small fire burning by the east wall does little to disperse the shadows. Drums, rattles, and various herbs and other tools of a shaman are scattered about haphazardly.} {1802 Alaska} {} {} {} {1.000} {}
-E { 7201} {w} {w} {8} {0} {} {1.000}
+E { 7201} {w} {open w;w} {8} {0} {} {1.000}
 
 R { 7203} {0} {} {In a Windy Inlet} { } {Mountains rise above the inlet to the north, providing no place to land a boat in an emergency. The mudflats to the west would be a better area to dock and get off the water. Whitecaps form as the wind comes across the water from the south, a slight wind-tunnel effect caused by the mountains.} {1802 Alaska} {} {} {} {1.000} {}
 E { 4922} {s} {s} {4} {0} {} {1.000}
@@ -32197,8 +32197,11 @@ E { 7624} {s} {s} {4} {0} {} {1.000}
 E { 7627} {n} {n} {1} {0} {} {1.000}
 E { 6401} {flee} {flee;st} {0} {0} {} {1.000}
 
-R { 7627} {1} {} {} {X} {} {Saint Denis Abbey} {} {} {} {1.000} {}
+R { 7627} {513} {} {} {X} {} {Saint Denis Abbey} {} {} {} {1.000} {}
 E { 7626} {s} {s} {4} {0} {} {1.000}
 
-R { 7628} {1} {} {} {X} {} {Saint Denis Abbey} {} {} {} {1.000} {}
+R { 7628} {513} {} {} {X} {} {Saint Denis Abbey} {} {} {} {1.000} {}
 E { 7621} {n} {n} {1} {0} {} {1.000}
+
+R { 7629} {0} {} {The Knights' Lounge} { } {This handsome room hosts many large and comfortable leather seats where the Club's members can relax and discuss, surrounded by an impressive collection of books. Wood-paneled walls create a lavish feeling of comfort and warmth. The cooking establishment and the Club's brilliant cuisine yield to none in Britain.} {London Port} {} {} {} {1.000} {}
+E { 6716} {w} {w} {8} {0} {} {1.000}
