@@ -425,3 +425,9 @@
     #UNVAR fogg_area;
 }
 {5}
+
+#ACTION {^You miss a step and fall from the narrow plank and land in the moat with a splash!$}
+{
+    #MAP goto 7778;
+}
+{5}

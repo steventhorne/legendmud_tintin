@@ -889,7 +889,7 @@ R {  160} {0} {} {Main Street, Zanzibar City} { } {The street begins to dwindle 
 E {  157} {w} {w} {8} {0} {} {1.000}
 E {  161} {s} {s} {4} {0} {} {1.000}
 
-R {  161} {0} {} {Wazizi Guest House} { } {The common room of the hostel is lit only barely by gaslight lanterns. Smoke curls in the lazy air and lingers near the ceiling. There are a dozen scattered tables, most of which are inhabited by an assortment of traders, hunters, townspeople, and the occasional riffraff. For the most part, the patrons consist of Muslim slave and ivory traders, though there are people of all backgrounds represented here. A wide staircase leads up to the bedrooms.} {African Savanna} {} {} {} {1.000} {}
+R {  161} {0} {<029>} {Wazizi Guest House} {I} {The common room of the hostel is lit only barely by gaslight lanterns. Smoke curls in the lazy air and lingers near the ceiling. There are a dozen scattered tables, most of which are inhabited by an assortment of traders, hunters, townspeople, and the occasional riffraff. For the most part, the patrons consist of Muslim slave and ivory traders, though there are people of all backgrounds represented here. A wide staircase leads up to the bedrooms.} {African Savanna} {} {} {} {1.000} {}
 E {  160} {n} {n} {1} {0} {} {1.000}
 E {  162} {u} {u} {16} {0} {} {1.000}
 
@@ -1637,14 +1637,14 @@ E {  325} {s} {open s;s} {4} {0} {} {1.000}
 R {  339} {0} {} {The Inner Bailey} { } {The main entrance to the keep looms above you to the north. The banners flying from the turrets snap in the breeze. Smoke curls up from the kitchens from behind the great hall to the east of the keep. The postern sits to the far east, a side entrance to the fortress.} {Medieval Britain } {} {} {} {1.000} {}
 E {  335} {s} {s} {4} {0} {} {1.000}
 E {  340} {w} {w} {8} {0} {} {1.000}
-E {  341} {n} {n} {1} {0} {} {1.000}
+E { 7770} {n} {n} {1} {0} {} {1.000}
 E {  356} {e} {e} {2} {0} {} {1.000}
 
 R {  340} {0} {} {The Inner Bailey} { } {This end of the courtyard seems to double as a stockpile of provisions. People seem to drop unneeded things here and take others that they might find a need of themselves, making this a community salvage bin. The courtyard continues to the east past the entrance to the keep.} {Medieval Britain } {} {} {} {1.000} {}
 E {  339} {e} {e} {2} {0} {} {1.000}
 
 R {  341} {0} {} {The Foyer} { } {Just inside the castle, the grand foyer opens up to receive visitors. Comfortable chairs line the sides of the room, making you think that the reception is not always a prompt one. The dim light provided by a single torch is not exactly welcoming either. To the south is the inner bailey opens up before the keep. The main mall leads north deeper into the keep.} {Medieval Britain } {} {} {} {1.000} {}
-E {  339} {s} {s} {4} {0} {} {1.000}
+E { 7770} {s} {s} {4} {0} {} {1.000}
 E {  359} {n} {n} {1} {0} {} {1.000}
 
 R {  342} {0} {} {The Main Hall} { } {The main hallway of the castle is crossed here by a smaller more functional hallway that creates a tee-junction. Even here in the main hall, the sheriff skimps on creature comforts, providing little light except for a few scattered torches set in about every third or fourth sconce. To the west you hear the faint clinking of coins as they are being counted, the Sheriff's office must be that way. To the east, a draft chills you, and you cannot help but think of the infamous dungeons into which the Sheriff always seems to be throwing some unfortunate law-breaker.} {Medieval Britain } {} {} {} {1.000} {}
@@ -1699,8 +1699,11 @@ R {  354} {0} {} {The Dungeon} { } {The rushlights give off very little usable l
 E {  344} {u} {u} {16} {0} {} {1.000}
 E {  355} {n} {n} {1} {0} {} {1.000}
 
-R {  355} {0} {} {Dungeon Hallway} { } {Cells lead off in every direction except south where the hallway leads to the steps. The heavy iron doors look as if it would take two big burly Saxon men to rip from their hinges, but big burly Saxon men are never allowed down here in pairs. In any event, according to the Norman guards, they never remain big nor burly for very long.} {Medieval Britain } {} {} {} {1.000} {}
+R {  355} {0} {} {Dungeon Hallway} { } {Cells lead off in every direction except south where the hallway leads to the steps. The heavy iron doors look as if it would take two big burly Saxon men to rip from their hinges, but big burly Saxon men are never allowed down here in pairs. In any event, according to the Norman guards, they never remain big nor burly for very long.} {Medieval Britain} {} {} {} {1.000} {}
 E {  354} {s} {s} {4} {0} {} {1.000}
+E { 7772} {e} {open e;e} {2} {0} {} {1.000}
+E { 7773} {w} {open w;w} {8} {0} {} {1.000}
+E { 7781} {n} {open n;n} {1} {0} {} {1.000}
 
 R {  356} {0} {} {The Inner Bailey} { } {The courtyard is open here before the great hall, the feasting hall of the keep. The postern lies to the east, and the entrance to the keep lies to the west north of the great arch that leads to the outer bailey.} {Medieval Britain } {} {} {} {1.000} {}
 E {  339} {w} {w} {8} {0} {} {1.000}
@@ -1713,6 +1716,7 @@ E {  360} {e} {e} {2} {0} {} {1.000}
 
 R {  358} {0} {} {The Great Hall} { } {Long tables line the hall, stained with food and blood. The flagstones are similarly stained where dogs slumber in the warmth provided by the large fireplace surrounded by furs and benches. Huge racks of antlers hang from the rafters, evidence of the great hunting sport enjoyed in the area until recently. The postern lies to the southeast and the main entrance to the keep is to the southwest.} {Medieval Britain } {} {} {} {1.000} {}
 E {  356} {s} {s} {4} {0} {} {1.000}
+E { 7771} {n} {open n;n} {1} {0} {} {1.000}
 
 R {  359} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  342} {n} {n} {1} {0} {} {1.000}
@@ -8162,6 +8166,7 @@ E { 1871} {w} {w} {8} {0} {} {1.000}
 
 R { 1870} {0} {<039>} {The Jeweler's} {B} {The counter is covered with silk. The store is small but offers a fine selection. Several cases can be seen stacked on the floor behind the counter. Surely, the jeweler isn't so careless with his goods?} {Arabian Nights } {} {} {} {1.000} {}
 E { 1869} {s} {s} {4} {0} {} {1.000}
+E { 7710} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 1871} {0} {} {An Intersection} { } {You stand at the intersection of the Palace Walk and the Street of Souls. To the east, you can just see the high onion-shaped domes of the palace. A dark narrow street leads off to the south from here.} {Arabian Nights } {} {} {} {1.000} {}
 E { 1869} {e} {e} {2} {0} {} {1.000}
@@ -8609,7 +8614,7 @@ E { 1974} {s} {s} {4} {0} {} {1.000}
 R { 1974} {0} {} {The Bridge of the Olympia} { } {Here in the command area of the warship, all manners of levers and wheels stand around you. A glass windscreen provides an open view of the deck while shielding the occupants from inclement weather. Telegraph lines have been installed to instantly relay commands to other areas of the ship. The main steering wheel stands prominently centered within the cabin. This is the working brain of the Olympia.} {The Philippines } {} {} {} {1.000} {}
 E { 1973} {n} {n} {1} {0} {} {1.000}
 
-R { 1975} {0} {} {The Hotel Regalo} { } {Stepping into the lobby of the Hotel Regalo, you are pleasantly surprised by the well-appointed decor. Polished and detailed marble floors reflect the glowing candle-lit chandeliers. White Spanish-style arches grace the walkways and dark woods of the finest quality line the ceiling. The hotel is world class in every aspect. Formerly serving the Spanish elite, the hotel now caters to American and foreign businessmen as well as the new Filipino aristocracy.} {The Philippines } {} {} {} {1.000} {}
+R { 1975} {0} {<029>} {The Hotel Regalo} {I} {Stepping into the lobby of the Hotel Regalo, you are pleasantly surprised by the well-appointed decor. Polished and detailed marble floors reflect the glowing candle-lit chandeliers. White Spanish-style arches grace the walkways and dark woods of the finest quality line the ceiling. The hotel is world class in every aspect. Formerly serving the Spanish elite, the hotel now caters to American and foreign businessmen as well as the new Filipino aristocracy.} {The Philippines } {} {} {} {1.000} {}
 E { 1971} {s} {s} {4} {0} {} {1.000}
 E { 1976} {e} {e} {2} {0} {} {1.000}
 
@@ -8619,7 +8624,7 @@ E { 1977} {e} {e} {2} {0} {} {1.000}
 E { 1981} {s} {s} {4} {0} {} {1.000}
 E { 1986} {n} {n} {1} {0} {} {1.000}
 
-R { 1977} {0} {} {The Manila Trading House} { } {Part stock exchange, part farmers market, this is the mayhem of the Manila Trading House. Wealthy businessmen speculating on livestock futures mingle with pig and cattle herders accompanied by the animals themselves. Fortunes are traded here as often as a chicken is bartered for a pallet of vegetables. A dizzying barrage of shouting echoes through the covered pavilion as you try to make sure you do not step into something unsavory.} {The Philippines } {} {} {} {1.000} {}
+R { 1977} {0} {<039>} {The Manila Trading House} {B} {Part stock exchange, part farmers market, this is the mayhem of the Manila Trading House. Wealthy businessmen speculating on livestock futures mingle with pig and cattle herders accompanied by the animals themselves. Fortunes are traded here as often as a chicken is bartered for a pallet of vegetables. A dizzying barrage of shouting echoes through the covered pavilion as you try to make sure you do not step into something unsavory.} {The Philippines } {} {} {} {1.000} {}
 E { 1976} {w} {w} {8} {0} {} {1.000}
 E { 1978} {s} {s} {4} {0} {} {1.000}
 
@@ -8640,13 +8645,13 @@ E { 1981} {n} {n} {1} {0} {} {1.000}
 E { 1982} {w} {w} {8} {0} {} {1.000}
 E { 1983} {s} {s} {4} {0} {} {1.000}
 
-R { 1981} {0} {} {The Center of Manila} { } {Escolta Road and Boulevard Espana intersect here, effectively forming the city center. Pedestrians and carriages make their way in a seemingly endless stream of activity. A large three-tiered fountain from the Spanish era sits at the center of all this action. Several vendors have also set up shop around the fountain, selling all kinds of goods ranging from fresh vegetables to woven straw hats.} {The Philippines } {gma} {} {} {1.000} {}
+R { 1981} {0} {<049>} {The Center of Manila} {V} {Escolta Road and Boulevard Espana intersect here, effectively forming the city center. Pedestrians and carriages make their way in a seemingly endless stream of activity. A large three-tiered fountain from the Spanish era sits at the center of all this action. Several vendors have also set up shop around the fountain, selling all kinds of goods ranging from fresh vegetables to woven straw hats.} {The Philippines } {gma} {} {} {1.000} {}
 E { 1980} {s} {s} {4} {0} {} {1.000}
 E { 1971} {w} {w} {8} {0} {} {1.000}
 E { 1978} {e} {e} {2} {0} {} {1.000}
 E { 1976} {n} {n} {1} {0} {} {1.000}
 
-R { 1982} {0} {} {Barracks of the Manila Garrison} { } {The camp at Cavite, for years a Spanish barracks, has been overtaken by the Americans to serve as the military camp of the Manila garrison. There is not much noteworthy about the dozens of uniform, single story barracks used to house the soldiers. The daily routines of drills and training go on around you as you make your way among the soldiers, buildings and dusty roads.} {The Philippines } {} {} {} {1.000} {}
+R { 1982} {0} {<049>} {Barracks of the Manila Garrison} {V} {The camp at Cavite, for years a Spanish barracks, has been overtaken by the Americans to serve as the military camp of the Manila garrison. There is not much noteworthy about the dozens of uniform, single story barracks used to house the soldiers. The daily routines of drills and training go on around you as you make your way among the soldiers, buildings and dusty roads.} {The Philippines } {} {} {} {1.000} {}
 E { 1980} {e} {e} {2} {0} {} {1.000}
 E { 1971} {n} {n} {1} {0} {} {1.000}
 E { 1985} {s} {open s;s} {4} {0} {} {1.000}
@@ -10797,6 +10802,7 @@ E { 2497} {w} {w} {8} {0} {} {1.000}
 R { 2499} {0} {} {The Asphodel Fields} { } {The field is a huge meadow where asphodel flowers and pomegranate trees grow. The river Lethe flows peacefully here, coming from somewhere north. Other short creeks and bubbling pools emerge all round in the fields, ends and extremes of all above-world rivers. Some say that these fields are populated by grieving ghosts with no memory left to them.} {Tartarus } {} {} {} {1.000} {}
 E { 2506} {e} {e} {2} {0} {} {1.000}
 E { 2507} {n} {n} {1} {0} {} {1.000}
+E { 7768} {s} {s} {4} {0} {} {1.000}
 
 R { 2500} {0} {} {The Asphodel Fields} { } {The field is a huge meadow where asphodel flowers and pomegranate trees grow. Paths lead this way and that through the jumbled rocks scattered across this plain, seemingly looping back upon themselves. The paths are filled with tormented souls begging for surcease of sorrow.} {Tartarus } {} {} {} {1.000} {}
 E { 2510} {s} {s} {4} {0} {} {1.000}
@@ -10812,7 +10818,7 @@ E { 2503} {s} {s} {4} {0} {} {1.000}
 E { 2504} {w} {w} {8} {0} {} {1.000}
 E { 2509} {n} {n} {1} {0} {} {1.000}
 
-R { 2503} {0} {} {The Lair of the Guardian} { } {You stand inside a dark cave partially filled with a pool of cold waters that connects to a network of tunnels leading to the lake of Lerna's swamp. On the dirt-covered floor, a rusted brazier illuminates the cave, revealing a large archway of stone where gold-painted columns designate one of the entrances to the Underworld.} {Tartarus } {} {} {} {1.000} {}
+R { 2503} {0} {} {Towards the Elysian Fields} { } {You stand on a small path, leading to a golden gate that opens on wide and peaceful fields, seemingly filled with fruit trees and orchards. Elysian fields were made by the gods as a place where mortals they particularly loved might live out eternity, never growing old.} {Tartarus} {} {} {} {1.000} {}
 E { 2502} {n} {n} {1} {0} {} {1.000}
 
 R { 2504} {0} {} {The Asphodel Fields} { } {The field is a huge meadow where asphodel flowers and pomegranate trees grow. Paths lead this way and that through the jumbled rocks scattered across this plain, seemingly looping back upon themselves. The paths are filled with tormented souls begging for surcease of sorrow.} {Tartarus } {} {} {} {1.000} {}
@@ -11648,10 +11654,10 @@ E { 2709} {n} {open n;n} {1} {0} {} {1.000}
 R { 2704} {0} {} {Inside the Barracks Block} { } {This is a long, narrow building where the troops of the century bunk. Contubernia, rooms accommodating eight legionaries, open up on either side of the long hall. A slightly larger block at the end of the row is used as the quarters for the centurion or senior decurion.} {Roman Britain } {} {} {} {1.000} {}
 E { 2702} {w} {open w;w} {8} {0} {} {1.000}
 E { 2699} {s} {open s;s} {4} {0} {} {1.000}
-E { 2705} {n} {n} {1} {0} {} {1.000}
+E { 2705} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 2705} {0} {} {Outside the Granary} { } {You are outside the granary for the fortress. Huge buttressed walls and a stout door secured with thick, iron bands guards the Romans' stock of grain. This is the most protected building in the compound with good reason - the troops would starve without grain for a siege.} {Roman Britain } {} {} {} {1.000} {}
-E { 2704} {s} {s} {4} {0} {} {1.000}
+E { 2704} {s} {open s;s} {4} {0} {} {1.000}
 E { 2708} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 2706} {0} {} {The Principia} { } {Although the rest of the fortress appears spartan and empty, the headquarters building remains active and is elegantly furnished. A fine rug of persian make covers the floor, and tapestries accent the expensive woods used to fashion the walls. A large table rests in the center of the room, with maps, papers, and wax writing tablets spread out upon it. A beautifully appointed server sits against one wall with a pitcher and glass goblets resting on it. The chairs in this room are very finely crafted, and two of them even have backs, a sure sign of quality. The tribune seems to display his wealth here, for this room is nicer than any you have seen in Britannia before.} {Roman Britain } {} {} {} {1.000} {}
@@ -13042,10 +13048,11 @@ E { 3033} {s} {s} {4} {0} {} {1.000}
 E { 5698} {e} {e} {2} {0} {} {1.000}
 E { 6615} {w} {w} {8} {0} {} {1.000}
 
-R { 3033} {0} {} {Strolling On the Docks of Valletta} { } {Sails crackle briskly on the gusts of wind coming in from the open sea beyond the Grand Harbor's fortifications, around the wavebreakers, the piers, and the forts. Woodwork gives with angry snaps, low moans and long high-pitched sighs. As they lie there, gently bobbing on the lapping blue waves, the sail-clad ships and galleys do bear some odd resemblance to village women gathering around the well to gossip; but if so, these ladies talk of war oft bloody and brutal, of conquest and loot, and of good men lost to the storms of the Levant and to the Infidel.} {Hospitaller Malta } {} {} {} {1.000} {}
+R { 3033} {0} {} {Strolling On the Docks of Valletta} { } {Sails crackle briskly on the gusts of wind coming in from the open sea beyond the Grand Harbor's fortifications, around the wavebreakers, the piers, and the forts. Woodwork gives with angry snaps, low moans and long high-pitched sighs. As they lie there, gently bobbing on the lapping blue waves, the sail-clad ships and galleys do bear some odd resemblance to village women gathering around the well to gossip; but if so, these ladies talk of war oft bloody and brutal, of conquest and loot, and of good men lost to the storms of the Levant and to the Infidel.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 3032} {n} {n} {1} {0} {} {1.000}
 E { 3034} {s} {s} {4} {0} {} {1.000}
 E { 6614} {w} {w} {8} {0} {} {1.000}
+E { 4558} {e} {e} {2} {0} {} {1.000}
 
 R { 3034} {0} {} {Fuq il-Ggant} { } {A large statue of Neptune stands here overlooking the Fish Market. Popularly called Fuq il-Ggant, the chief market square of Valletta bustles with life. People come and go, some strolling casually, others running at a brisk pace. This is the big city at its most breathing, throbbing, alive, smelly, beautiful, multicolored, and Mediterranean. Vendors tug at your sleeves, children skip in and out of your path, a stray dog makes off with a treat behind a goodwife's back. Languages swirl through the air -- mostly Maltese, but Italian and French are easily identified as well.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 3033} {n} {n} {1} {0} {} {1.000}
@@ -13927,7 +13934,7 @@ E { 3252} {n} {n} {1} {0} {} {1.000}
 R { 3248} {0} {<149>} {The Seer's Hovel} {V} {This narrow room is draped with furs of strange beasts, tapestries depicting fantastic battles, and brightly colored strips of cloth which you recognize as unwound turbans. Under this panoply of color sits a small wooden table covered with bric a brac, apparently gathered from every port on the seven seas. An expensive-looking high-backed chair rests behind the table while a less impressive, less opulent chair with a straw cushion sits on the opposite side.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3247} {e} {open e;e} {2} {0} {} {1.000}
 
-R { 3249} {0} {} {Main Square} { } {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies to the north. An area has been cleared around the central fountain as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. The palace lies directly before you, to the north.} {Ancient Greece } {} {} {} {1.000} {}
+R { 3249} {0} {<069>} {Main Square} {W} {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies to the north. An area has been cleared around the central fountain as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. The palace lies directly before you, to the north.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3244} {s} {s} {4} {0} {} {1.000}
 E { 3250} {e} {e} {2} {0} {} {1.000}
 E { 3252} {w} {w} {8} {0} {} {1.000}
@@ -14044,6 +14051,8 @@ E { 3307} {n} {n} {1} {0} {} {1.000}
 R { 3275} {0} {} {Outside the Postern Gate} { } {The road winds around the city of Mycenae here, wending its way north into the hills of central Greece and south to the villas and shops of Mycenae. Just beside you the postern gate to the great city of Mycenae stands closed to travelers. The road north appears rocky and poorly tended, and you have heard tell of dangerous beasts and equally dangerous men haunting the hills above.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3274} {n} {n} {1} {0} {} {1.000}
 E { 3276} {s} {s} {4} {0} {} {1.000}
+E { 7729} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 7729} {gate} {enq ask gate gate} {0} {0} {} {1.000}
 
 R { 3276} {0} {} {Below Mycenae} { } {A league or so below the large hill on which Mycenae stands are a cluster of houses, shops, and public works that would not fit into the polis itself. Not only the poor live here, but many of the wealthier citizens whose villas and properties are too extensive to be enclosed by walls. Craftsmen of every type practice their trades here, and sell their services to townspeople and farmers alike. A wide road leads west up the hill towards the great tholos tombs outside the Lion Gate, while a smaller cart path runs north and east around the polis.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3275} {n} {n} {1} {0} {} {1.000}
@@ -14052,6 +14061,8 @@ E { 3277} {w} {w} {8} {0} {} {1.000}
 R { 3277} {0} {} {Outside the Lion Gate} { } {You are at the foot of a steep ramp that winds up to the monumental Lion Gate. The gate is topped by a massive stone lintel carved in the likeness of two rearing lions flanking a column. Towering cliffs abut the gate to the west, while solid stone blocks half as high as a tall man form an imposing wall that stretches off to the east. To the southeast, in the shadow of the hillside, lie nine great tholos tombs. The largest must be the great tomb of Atreus, whose fame is far spread, while the newest one just to the side of the path must be the tomb of Electryon, recent King of Mycenae. The road turns here in front of the citadel and winds down into a settlement to the east.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3276} {e} {e} {2} {0} {} {1.000}
 E { 3278} {s} {s} {4} {0} {} {1.000}
+E { 7722} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 7722} {gate} {enq ask gate gate} {0} {0} {} {1.000}
 
 R { 3278} {0} {} {A Road Through the Hills} { } {The road winds up into the hills in the center of Southern Greece. Farmsteads can be glimpsed occasionally through the brush, and hard packed dirt paths lead off to one side or another every few miles. The terrain looks rockier to the north than the south, but abundant trees and scrub block your view of what might await you there. Visibility is poor here, as trees and brush have overgrown this section of the road, overshadowing the large boulders that lie scattered about.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3277} {n} {n} {1} {0} {} {1.000}
@@ -14188,6 +14199,8 @@ E { 3309} {n} {n} {1} {0} {} {1.000}
 
 R { 3309} {0} {} {Mount Apesas} { } {You stand on the eastern slope of Mount Apesas, the snow-capped peak glowering high above you. It appears that you cannot continue in this direction, as a great chasm has opened to the north, blocking further passage around the mountain, and the steep slope to the east looks impassable as well.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3308} {s} {s} {4} {0} {} {1.000}
+E { 7732} {e} {e} {2} {0} {} {1.000}
+E { 7736} {n} {n} {1} {0} {} {1.000}
 
 R { 3310} {0} {} {The Sanctuary of Athena} { } {Stark stone columns, seven in the front and back, ten on each of the sides support the towering stone roof that shelters the Sanctuary of Athena. A central area is depressed below the level of the floor, and contains tall statues of Athena in various poses: contemplation of something in the distance, wise benediction of a supplicant, a warlike mien with arm raised to strike. Although most of the temple is open to the elements, a series of low friezes runs around three sides of the great room effectively limiting access from all directions save the south.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3292} {s} {s} {4} {0} {} {1.000}
@@ -14581,6 +14594,7 @@ R { 3403} {0} {} {Lost in a Sand Storm} { } {You stumble along through the swirl
 E { 3402} {n} {n} {1} {0} {} {1.000}
 E { 2713} {w} {w} {8} {0} {} {1.000}
 E { 3404} {s} {s} {4} {0} {} {1.000}
+E { 3398} {e} {e} {2} {1} {} {1.000}
 
 R { 3404} {5130} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3401} {s} {s} {4} {0} {} {1.000}
@@ -15111,7 +15125,7 @@ E { 3528} {n} {n} {1} {0} {} {1.000}
 R { 3528} {0} {} {By a New Chinamitl} { } {You exercise extreme caution while picking your way across this raft of woven tree limbs and branches that has been moored here at the very edge of the lake. Workers have carried in loads of fresh, rich soil and dumped them on the raft making it difficult to judge in the darkness where it's safe to step. In the years to come, the roots of maize, beans and chilis and anything else growing there will reach down through the shallow water and grab hold of older roots and the lake bottom and eventually hold the chinamitl in place. Chapultepec rises up out of the valley bowl to the north, and the limestone quarry gashes the earth open to the south.} {Aztecs } {} {} {} {1.000} {}
 E { 3527} {s} {s} {4} {0} {} {1.000}
 E { 3963} {e} {e} {2} {0} {} {1.000}
-E { 3968} {n} {n} {1} {0} {} {1.000}
+E { 7717} {n} {n} {1} {0} {} {1.000}
 
 R { 3529} {0} {} {The Great Cedar Forest} { } {The trunks of old trees fork into several large, erect branches. The rough and scaly bark is dark grey to blackish brown, it is run through by deep horizontal fissures that peel in small chips. The first-order branches are ascending in young trees. They grow to a massive size and take a horizontal, wide spreading disposition. The trunks are marked deeply by the tusks of a huge beast.} {Sumer } {} {} {} {1.000} {}
 E { 3436} {s} {s} {4} {0} {} {1.000}
@@ -16389,6 +16403,7 @@ E { 3829} {e} {e} {2} {0} {} {1.000}
 E { 3832} {w} {w} {8} {0} {} {1.000}
 E { 3833} {s} {open s;s} {4} {0} {} {1.000}
 E { 3834} {u} {u} {16} {0} {} {1.000}
+E { 7769} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 3832} {0} {} {An Intersection} { } {Main Street ends here. The well-worn road, uneven from numerous horses and carriages running through, blends into the lawn to the west. A house sits back slightly off of the road there. Salem Inn is to the north awaiting its customers. Echoes of hooves landing on the packed dirt float through the air.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3831} {e} {e} {2} {0} {} {1.000}
@@ -16889,10 +16904,11 @@ E { 3951} {n} {n} {1} {0} {} {1.000}
 E { 3981} {w} {w} {8} {0} {} {1.000}
 E { 3985} {e} {e} {2} {0} {} {1.000}
 
-R { 3951} {0} {} {By the Stone of Tixoc} { } {At the foot of the Ipac Tlamanacali, the Stone of Tixoc and the Tzompantli, a rack stands eerily in the torchlight holding the skulls of the distinguished xochimique who have been sacrificed to one god or another. The Ceremonial Tlachtli Court stands empty to the west. The steps of the Ipac Tlamanacali rise above you to the east, carefully counted out in sets of fifty-two. The avenue continues to the north and south.} {Aztecs } {} {} {} {1.000} {}
+R { 3951} {0} {} {By the Stone of Tixoc} { } {At the foot of the Ipac Tlamanacali, the Stone of Tixoc and the Tzompantli, a rack stands eerily in the torchlight holding the skulls of the distinguished xochimique who have been sacrificed to one god or another. The Ceremonial Tlachtli Court stands empty to the west. The steps of the Ipac Tlamanacali rise above you to the east, carefully counted out in sets of fifty-two. The avenue continues to the north and south.} {Aztecs} {} {} {} {1.000} {}
 E { 3950} {s} {s} {4} {0} {} {1.000}
 E { 3952} {n} {n} {1} {0} {} {1.000}
 E { 3998} {w} {w} {8} {0} {} {1.000}
+E { 7718} {u} {u} {16} {0} {} {1.000}
 
 R { 3952} {0} {} {In the Northern Square} { } {The avenue here trails off to the causeway leading to the city of Tepeyaca on the northern shores of Lake Texcoco. The square spreads out in all other directions. The platform with the Sun Stone perched atop it stands to the west, while the eastern part of the square ducks around behind the Ipac Tlamanacali to emerge farther to the south where the three avenues intersect as they cut across the city of Tenochtitlan.} {Aztecs } {} {} {} {1.000} {}
 E { 3951} {s} {s} {4} {0} {} {1.000}
@@ -16966,7 +16982,7 @@ E { 3970} {s} {s} {4} {0} {} {1.000}
 E { 3971} {e} {e} {2} {0} {} {1.000}
 
 R { 3968} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3528} {s} {s} {4} {0} {} {1.000}
+E { 7717} {s} {s} {4} {0} {} {1.000}
 E { 3969} {n} {n} {1} {0} {} {1.000}
 
 R { 3969} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -19385,10 +19401,10 @@ E { 4555} {w} {w} {8} {0} {} {1.000}
 E { 4576} {e} {e} {2} {0} {} {1.000}
 
 R { 4555} {0} {} {Approaching Gnipahellir} { } {A powerful stench of musk and filthy animal fur rises as you approach a large network of caves. The floor is covered with small gnawed bones and marked with hundreds of prints from large wolf paws.} {Svartalfheim } {} {} {} {1.000} {}
-E { 4558} {w} {w} {8} {0} {} {1.000}
+E { 4556} {w} {w} {8} {0} {} {1.000}
 
 R { 4556} {0} {} {Inside Gnipahellir} { } {A powerful stench of musk and filthy animal fur rises as you approach a large network of caves. The floor is covered with small gnawed bones and marked with hundreds of prints from large wolf paws.} {Svartalfheim } {} {} {} {1.000} {}
-E { 4558} {e} {e} {2} {0} {} {1.000}
+E { 4555} {e} {e} {2} {0} {} {1.000}
 E { 4557} {n} {n} {1} {0} {} {1.000}
 
 R { 4557} {0} {} {Lost in the Warg Caves} { } {A powerful stench of musk and filthy animal fur rises as you approach a large network of caves. The floor is covered with small gnawed bones and marked with hundreds of prints from large wolf paws.} {Svartalfheim } {} {} {} {1.000} {}
@@ -19396,9 +19412,8 @@ E { 4556} {s} {s} {4} {0} {} {1.000}
 E { 4559} {w} {w} {8} {0} {} {1.000}
 E { 4564} {n} {n} {1} {0} {} {1.000}
 
-R { 4558} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4555} {e} {e} {2} {0} {} {1.000}
-E { 4556} {w} {w} {8} {0} {} {1.000}
+R { 4558} {1} {} {Stuck in Customs!} { } {Human misery reeks from the walls in this sparsely furnished, grim office; even the portrait of the Madonna and Child on the wall seems tired, the frame chipped at the edge, and the canvas frayed. You are surrounded by a low dissatisfied murmur produced by people coming and going and being made to pay more than they expected for their cargo -- or simply having them claimed by the Order due to faulty paperwork. You perceive that the less time you spend in the customs office, the healthier your economic situation overall.} {Hospitaller Malta} {} {} {} {1.000} {}
+E { 3033} {w} {w} {8} {0} {} {1.000}
 
 R { 4559} {0} {} {On the Other Side of Bifrost} { } {You stand at one side of Bifrost, the rainbow bridge leading from the realm of mortals to Asgard, the realm of the gods. The bridge itself is made from a rainbow with its red color, the flaming fire, serving as a defense against the Jotuns. On the other side of the bridge, you can just make out the walls of Himinbjorg, the castle of the Aesir Heimdallr, the bridge's guardian.} {Svartalfheim } {} {} {} {1.000} {}
 E { 4557} {e} {e} {2} {0} {} {1.000}
@@ -20287,7 +20302,7 @@ E { 4764} {e} {e} {2} {0} {} {1.000}
 
 R { 4762} {0} {} {Before the Ouroboros} { } {You stand at the egde of a cliff dropping miles and miles below to the very bottom of the Celestial Mountain. In front of you, the round-shaped form of a massive dragon biting its own tail floats in the air, acting like a portal to another place.} {The Seven Heavens } {} {} {} {1.000} {}
 E { 4746} {e} {e} {2} {0} {} {1.000}
-E { 4763} {leap} {leap} {0} {0} {} {1.000}
+E { 4763} {leap} {enq leap} {0} {0} {} {1.000}
 
 R { 4763} {0} {} {Inside the Gates of Wisdom} { } {High above the clouds, you entered an invisible, intangible realm above the layer. It can be reached only by making a leap of faith off the peak of a mountain. Way higher through the gates of Wisdom, the great serpent Jazirian awaits for your visit.} {The Seven Heavens } {} {} {} {1.000} {}
 E { 4762} {d} {d} {32} {0} {} {1.000}
@@ -20669,7 +20684,7 @@ R { 4860} {0} {} {A Strange Bedroom} { } {You stand in a strange decorated room 
 E { 4859} {d} {d} {32} {0} {} {1.000}
 E { 5923} {u} {open u;u} {16} {0} {} {1.000}
 
-R { 4861} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 4861} {0} {} {In the Boatmakers Cave} { } {Many woodcrafters and expert sailors are working in this small and murky cave carved by the Mediterranean sea from the soft rocks along the shore. You spot here and there workers running around with plans and detailed maps. The sound of heavy hammers echoes in the cave as the new war vessels of the Admiralty are being constructed.} {Ancient Carthage} {} {} {} {1.000} {}
 E { 4844} {w} {w} {8} {0} {} {1.000}
 
 R { 4862} {0} {} {LOST IN THE ASTRAL SEA} { } {Looking all around you, in all directions, you can only see stars. Billions of stars, novae, galaxies and the magnificent colored drapes of glorious nebulas. Nowhere around, you can see any signs of any form of life.} {The Seven Heavens } {} {} {} {1.000} {}
@@ -21411,16 +21426,16 @@ E { 5034} {w} {w} {8} {0} {} {1.000}
 E { 5036} {e} {e} {2} {0} {} {1.000}
 E { 5580} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 5036} {0} {} {The East End of Kaminstrasse} { } {The city wall is broken by a broad gateway here, where guards patrol and keep order. The finest and most well-appointed houses are found here on Kaminstrasse, the broadest and most gracious street of Kleinstadt. The houses are broad and rambling, some even pompously ornate with dormer windows, random turrets, and decorative gables. The courtyards are filled with vegetation and flowers.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5036} {0} {} {The East End of Kaminstrasse} { } {The city wall is broken by a broad gateway here, where guards patrol and keep order. The finest and most well-appointed houses are found here on Kaminstrasse, the broadest and most gracious street of Kleinstadt. The houses are broad and rambling, some even pompously ornate with dormer windows, random turrets, and decorative gables. The courtyards are filled with vegetation and flowers.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5035} {w} {w} {8} {0} {} {1.000}
 E { 5037} {s} {s} {4} {0} {} {1.000}
-E { 5701} {e} {e} {2} {0} {} {1.000}
+E { 5701} {e} {open e;e} {2} {1} {} {1.000}
 
 R { 5037} {0} {} {Die Apotheke} { } {Your feet skitter on the cold, smooth stone of the shop, making more noise than you want them to. The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. The air is filled with smoke and dust, and you can barely walk among all the piles of wooden boxes and barrels that form an obstacle course between you and the Apotheker's work table at the back of the shop.} {Medieval Kleinstadt } {} {} {} {1.000} {}
 E { 5036} {n} {n} {1} {0} {} {1.000}
 E { 5038} {e} {e} {2} {0} {} {1.000}
 
-R { 5038} {0} {} {Die Apotheke} { } {The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. At the back of the shop, a heavy wooden workbench sits scattered with a variety of tools for pounding, grinding, extracting, and otherwise preparing herbs for use. In the corner sits a separate table, scattered with more ominous components, for preparing poisons and dangerous concoctions.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5038} {0} {<049>} {Die Apotheke} {H} {The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. At the back of the shop, a heavy wooden workbench sits scattered with a variety of tools for pounding, grinding, extracting, and otherwise preparing herbs for use. In the corner sits a separate table, scattered with more ominous components, for preparing poisons and dangerous concoctions.} {Medieval Kleinstadt } {} {} {} {1.000} {}
 E { 5037} {w} {w} {8} {0} {} {1.000}
 
 R { 5039} {0} {<069>} {Der Brunnen im Stadtplatz} {W} {You have found your way into a spacious, colonnaded square with a well in the center. The people swarm about here, exchanging greetings, insults, and the occasional blow, as they draw water from the Brunnen. What grass there was at one point has now been trampled down, but this area still has great aesthetic appeal. The cobbled street here is quite crowded, as people hurry from the marketplace to the west to the open area to the east and back again. The attractive design of the area has not kept anyone from their usual behavior, and thus the street here is absolutely foul with refuse, and you have to trudge through quite a bit of it to continue along Hauptstrasse either to the north or to the south.} {Medieval Kleinstadt } {} {} {} {1.000} {}
@@ -21451,7 +21466,7 @@ E { 5710} {s} {open s;s} {4} {0} {} {1.000}
 E { 5044} {w} {open w;w} {8} {0} {} {1.000}
 E { 5045} {e} {open e;e} {2} {0} {} {1.000}
 
-R { 5044} {0} {} {Der Goldschmied} { } {This room is rather warm, and filled with bustling noises from the craftsmen hard at work at all hours of the day and night. The floor is covered with flecks of wax, tufts of cotton, and bits of metal wire. The grooves in the floorboards sparkle slightly, reflecting the tiny flakes of gold that have fallen. Very few finished products are here, other than what is being completed at the moment. By the cross motifs among the scattered pieces, their current project is apparently some sort of decoration for a church. A few lockboxes sit at the back of the room.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5044} {0} {<039>} {Der Goldschmied} {B} {This room is rather warm, and filled with bustling noises from the craftsmen hard at work at all hours of the day and night. The floor is covered with flecks of wax, tufts of cotton, and bits of metal wire. The grooves in the floorboards sparkle slightly, reflecting the tiny flakes of gold that have fallen. Very few finished products are here, other than what is being completed at the moment. By the cross motifs among the scattered pieces, their current project is apparently some sort of decoration for a church. A few lockboxes sit at the back of the room.} {Medieval Kleinstadt } {} {} {} {1.000} {}
 E { 5043} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 5045} {0} {} {Der Juwelier} { } {The jeweler's workshop is stunningly clean, with not a speck of dirt or dust to be found. A series of tools and large lamps line the walls, making the bright room even brighter, almost blindingly so. At the opposite end of the room, a pair of heavy, locked boxes have been built right into the foundation of the room, making them impossible to remove.} {Medieval Kleinstadt } {} {} {} {1.000} {}
@@ -21675,7 +21690,7 @@ E { 5077} {s} {s} {4} {0} {} {1.000}
 R { 5099} {0} {} {An Empty Plaza} { } {The little plaza is surrounded by empty buildings of black stone. Black -- everything is pitch black but a small altar of white stone lying in the middle of the plaza.} {Tartarus } {} {} {} {1.000} {}
 E { 5080} {n} {n} {1} {0} {} {1.000}
 
-R { 5100} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5100} {0} {} {Between the Adamantine Pillars} { } {You have stepped between the adamantine pillars before the great iron gate in the outer shield of Tartarus. The gate and the bronze wall soar above you. A colossal iron throne has been placed squarely in front of the gate to block any attempting to leave by this route.} {Tartarus} {} {} {} {1.000} {}
 E { 5085} {s} {s} {4} {0} {} {1.000}
 E { 5101} {n} {n} {1} {2} {} {1.000}
 
@@ -21690,19 +21705,19 @@ E { 5103} {e} {e} {2} {0} {} {1.000}
 R { 5103} {0} {} {Before the Great Marsh} { } {You have come to an end of the path, a small beach before the Great Marsh of the Styx. Disturbances in the sand here indicate that a boat or raft of some sort has been beached here recently. Wisps of fog and foul gasses rise up from the marsh before you. At the entrance of the Marsh you notice a dark cave from where exales a fetid odor of rotting flesh.} {Tartarus } {} {} {} {1.000} {}
 E { 5102} {w} {w} {8} {0} {} {1.000}
 
-R { 5104} {64} {} {A Steep Path} { } {You stand astride a steep path leading up and out of the Underworld to the east, and down and north to the River Styx. Nothing grows here, but high above you can see a grove of black poplars which are said to hide the exit from Hades. The underside of Oceanus can be seen above you, bowing down into view.} {Tartarus } {} {} {} {1.000} {}
+R { 5104} {0} {} {A Steep Path} { } {You stand astride a steep path leading up and out of the Underworld to the east, and down and north to the River Styx. Nothing grows here, but high above you can see a grove of black poplars which are said to hide the exit from Hades. The underside of Oceanus can be seen above you, bowing down into view.} {Tartarus } {} {} {} {1.000} {}
 E { 5101} {n} {n} {1} {0} {} {1.000}
 E { 5105} {e} {e} {2} {0} {} {1.000}
 
-R { 5105} {64} {} {A View of the Great Elm} { } {You stand astride a steep, rocky path. To the east you can see the great Elm, which is said to mark the entrance to Hades for souls. The Elm stretches up from the marsh far below and towers up above you, some of its leaves just within your reach. It is said that beneath each leaf lies a false dream.} {Tartarus } {} {} {} {1.000} {}
+R { 5105} {0} {} {A View of the Great Elm} { } {You stand astride a steep, rocky path. To the east you can see the great Elm, which is said to mark the entrance to Hades for souls. The Elm stretches up from the marsh far below and towers up above you, some of its leaves just within your reach. It is said that beneath each leaf lies a false dream.} {Tartarus } {} {} {} {1.000} {}
 E { 5104} {w} {w} {8} {0} {} {1.000}
 E { 5106} {s} {s} {4} {0} {} {1.000}
 
-R { 5106} {64} {} {A Steep Path} { } {You stand astride a steep path. You are just below a thick grove of black poplars, through which Odysseus was said to have journeyed when he visited Hades. Far below you can see the Great Marsh that marks the confluence of the Rivers of Hades.} {Tartarus } {} {} {} {1.000} {}
+R { 5106} {0} {} {A Steep Path} { } {You stand astride a steep path. You are just below a thick grove of black poplars, through which Odysseus was said to have journeyed when he visited Hades. Far below you can see the Great Marsh that marks the confluence of the Rivers of Hades.} {Tartarus } {} {} {} {1.000} {}
 E { 5105} {n} {n} {1} {0} {} {1.000}
 E { 5107} {u} {u} {16} {0} {} {1.000}
 
-R { 5107} {64} {} {A Grove of Black Poplars} { } {You are among the stately limbs and boughs of a grove of black poplars. Tall, thin trunks rise on all sides of you, obscuring your view of the great Rivers below. A cavern opens below, and the reek of sulphur and brimstone suggest it may be the path out mentioned in legend.} {Tartarus } {} {} {} {1.000} {}
+R { 5107} {0} {} {A Grove of Black Poplars} { } {You are among the stately limbs and boughs of a grove of black poplars. Tall, thin trunks rise on all sides of you, obscuring your view of the great Rivers below. A cavern opens below, and the reek of sulphur and brimstone suggest it may be the path out mentioned in legend.} {Tartarus } {} {} {} {1.000} {}
 E { 5106} {d} {d} {32} {0} {} {1.000}
 E { 3267} {s} {s} {4} {1} {} {1.000}
 E { 3897} {w} {w} {8} {1} {} {1.000}
@@ -21716,8 +21731,9 @@ R { 5109} {0} {} {The Throne Room} { } {Crimson drapes cover the stone walls and
 E { 5108} {s} {s} {4} {0} {} {1.000}
 E { 5110} {w} {w} {8} {0} {} {1.000}
 
-R { 5110} {0} {} {The Sultan's Dais} { } {A large ornate throne sits amidst a sea of cushions and pillows tossed upon the royal dais.} {Arabian Nights } {} {} {} {1.000} {}
+R { 5110} {0} {} {The Sultan's Dais} { } {A large ornate throne sits amidst a sea of cushions and pillows tossed upon the royal dais.} {Arabian Nights} {} {} {} {1.000} {}
 E { 5109} {e} {e} {2} {0} {} {1.000}
+E { 7709} {d} {open d;d} {32} {1} {} {1.000}
 
 R { 5111} {0} {} {The Mouth of the Tiber River} { } {As you travel along the Tiber River, your excitement grows. Whether at getting out of the city of Rome with your morals intact or excitement at seeing the wonders of this great city, only you can tell. As you pass boats laden with the riches of the Roman Empire traveling in each direction, you cannot help but wonder if you will ever find your fortune.} {Ancient Rome } {} {} {} {1.000} {}
 E { 2453} {w} {w} {8} {0} {} {1.000}
@@ -22034,12 +22050,14 @@ E { 5187} {e} {e} {2} {0} {} {1.000}
 R { 5186} {0} {} {The Retired Gladiator} { } {The shop smells of worn leather and oiled steel. Hung on the walls around you is an impressive array of weapons and armor, much of which you've seen in use across the piazza in the Circus.} {Ancient Rome } {} {} {} {1.000} {}
 E { 5185} {s} {open s;s} {4} {0} {} {1.000}
 
-R { 5187} {0} {} {The Arch of Titus} { } {Recently finished, this arch was commissioned by Flavian Emperor Domitian. It commemorates his brother Titus and his father Vespacian's military victories in Judea. You are now so close to the Colosseum that you begin to smell the sweat- tainted air and blood-soaked sand that have become trademarks of this monument to the physical prowess of the victors. The Colosseum dominates your view to the east, while the road continues on west to Capitoline Hill.} {Ancient Rome } {} {} {} {1.000} {}
+R { 5187} {0} {} {The Arch of Titus} { } {Recently finished, this arch was commissioned by Flavian Emperor Domitian. It commemorates his brother Titus and his father Vespacian's military victories in Judea. You are now so close to the Colosseum that you begin to smell the sweat- tainted air and blood-soaked sand that have become trademarks of this monument to the physical prowess of the victors. The Colosseum dominates your view to the east, while the road continues on west to Capitoline Hill.} {Ancient Rome} {} {} {} {1.000} {}
 E { 5185} {w} {w} {8} {0} {} {1.000}
 E { 5188} {e} {e} {2} {0} {} {1.000}
 
-R { 5188} {0} {} {A Large Plaza} { } {You realize that the clashing sounds you have been hearing aren't coming from the Colosseum at all but from the imposing building to your south. From the name carved in relief above the door, 'Ludi Gladiatorii', it seems to be a gladiatorial school of some sort. West is the Arch of Titus. To your east is the imposing bulk of the Colosseum.} {Ancient Rome } {} {} {} {1.000} {}
+R { 5188} {0} {} {A Large Plaza} { } {You realize that the clashing sounds you have been hearing aren't coming from the Colosseum at all but from the imposing building to your south. From the name carved in relief above the door, 'Ludi Gladiatorii', it seems to be a gladiatorial school of some sort. West is the Arch of Titus. To your east is the imposing bulk of the Colosseum.} {Ancient Rome} {} {} {} {1.000} {}
 E { 5187} {w} {w} {8} {0} {} {1.000}
+E { 7741} {e} {open e;e} {2} {0} {} {1.000}
+E { 7763} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 5189} {0} {} {Off the Coast of Nicaragua} { } {Tranquil ocean waves and a light, tropical breeze conspire to lull you to sleep. Off to the east, you can barely make out the lush slopes of Nicaragua, a dark smudge on the horizon.} {Gold Rush San Francisco} {} {} {} {1.000} {}
 E { 1099} {s} {s} {4} {1} {} {1.000}
@@ -23282,6 +23300,7 @@ E { 5481} {e} {e} {2} {0} {} {1.000}
 R { 5481} {0} {} {In the Hills} { } {A small stream wends its way to a pool here, but the water is foul and undrinkable. You can follow the stream to its source to the east. A well-worn path leads to some sort of open area to the north. A valley lies to the west. The grasses grow high around you, and you don't think you could see a careful person coming.} {Pictish Country } {} {} {} {1.000} {}
 E { 5480} {w} {w} {8} {0} {} {1.000}
 E { 5482} {n} {n} {1} {0} {} {1.000}
+E { 7711} {e} {e} {2} {0} {} {1.000}
 
 R { 5482} {0} {} {By the Fire Pit} { } {The Picti do not seem to use their fire much, for the fire pit is cold, despite the whistling wind this far up in the hills. Around this pit also seems to be a dancing area. You get the impression that the Picti could get up and move this camp in half an hour if needed. A large lean-to is north of here, probably the chief's. There is also a path leading south, and a clearing to the west.} {Pictish Country } {} {} {} {1.000} {}
 E { 5481} {s} {s} {4} {0} {} {1.000}
@@ -24172,35 +24191,40 @@ E { 5700} {s} {s} {4} {0} {} {1.000}
 R { 5700} {0} {} {In a Luxurious Salon Aboard the St Anne} { } {The salon does not take up much space but that which it does have is well utilized. The room appears considerably larger and more comfortable than it actually is. Beautiful tapestries, lamps, elaborately carved cabinets and other paraphernalia appropriate to a nobleman's salon have been well placed here as if to create the illusion that you are standing in a small salon of a palace -- yet a solemn naval atmosphere as befit a ship of war has been retained. On the far wall a stern-faced Christ stares at you from his crucifix, also reminding you of the St Anne's purpose.} {Hospitaller Malta } {} {} {} {1.000} {}
 E { 5699} {n} {n} {1} {0} {} {1.000}
 
-R { 5701} {0} {} {Das Oststadttor} { } {You stand beneath the arch of the gate. The squat bastions of the fortifications, planted foursquare in the earth, mark the city limits, bristling with pinnacles, loopholes, and spouts for the discharge of boiling tar. Across a bridge, over a moat, is the Schwabing Gate. On the city side, the causeway is flanked by battlemented towers at a height of some twelve feet; between them is a fifteen-foot wall pierced by the rectangular gateway, not much wider than a cart. Day in, day out, caravans of traders, peddlers' carts, and merchants' coaches lurch along the deeply rutted road, screeching and creaking under their loads of spices, silks, sumptuous cloth, and wines. A notice has been nailed to a post here.} {Medieval Kleinstadt } {} {} {} {1.000} {}
-E { 5036} {w} {w} {8} {0} {} {1.000}
+R { 5701} {0} {} {Das Oststadttor} { } {You stand beneath the arch of the gate. The squat bastions of the fortifications, planted foursquare in the earth, mark the city limits, bristling with pinnacles, loopholes, and spouts for the discharge of boiling tar. Across a bridge, over a moat, is the Schwabing Gate. On the city side, the causeway is flanked by battlemented towers at a height of some twelve feet; between them is a fifteen-foot wall pierced by the rectangular gateway, not much wider than a cart. Day in, day out, caravans of traders, peddlers' carts, and merchants' coaches lurch along the deeply rutted road, screeching and creaking under their loads of spices, silks, sumptuous cloth, and wines. A notice has been nailed to a post here.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 5036} {w} {open w;w} {8} {1} {} {1.000}
 E { 5702} {n} {n} {1} {0} {} {1.000}
+E { 7632} {s} {s} {4} {0} {} {1.000}
 
-R { 5702} {0} {} {On a Dirt Road Near Kleinstadt} { } {Kleinstadt, to the south, is nestled in the middle of a wide, pastoral valley. Within the city walls, houses and shacks are clustered around the rectangular castle. Clearing and charcoal burning have forced the forest to retreat in a wide circle, and a dark blue-green haze of thick spruce lurks almost an hour's walk from the city.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5702} {0} {} {On a Dirt Road Near Kleinstadt} { } {Kleinstadt, to the south, is nestled in the middle of a wide, pastoral valley. Within the city walls, houses and shacks are clustered around the rectangular castle. Clearing and charcoal burning have forced the forest to retreat in a wide circle, and a dark blue-green haze of thick spruce lurks almost an hour's walk from the city.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5701} {s} {s} {4} {0} {} {1.000}
-E { 5703} {n} {n} {1} {0} {} {1.000}
+E { 7663} {n} {n} {1} {0} {} {1.000}
 
-R { 5703} {0} {} {A Dirt Road Outside Kleinstadt} { } {The cart track, a winding and stony rut turned to mud, takes the most direct route possible through the wide and gloomy forest to the east and west. Heavily laden carts lurch along this much used highway. Great peril comes from the robbers and murderers who might lurk behind every bush, in the darkness of the forest and the narrow defiles of the road. You keep a sharp lookout as you make your way along the narrow, grass-grown track through the countryside of Lower Bavaria.} {Medieval Kleinstadt } {} {} {} {1.000} {}
-E { 5702} {s} {s} {4} {0} {} {1.000}
+R { 5703} {0} {} {A Dirt Road Outside Kleinstadt} { } {The cart track, a winding and stony rut, takes the most direct route possible through the wide and gloomy forest to the east and west. Richly-laden carts lurch along this much used highway. Great peril comes from the robbers and murderers who might lurk behind every bush, in the darkness of the forest and the narrow defiles of the road. You keep a sharp lookout as you make your way along the narrow, wildflower-scattered track through the countryside of Lower Bavaria.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7663} {s} {s} {4} {0} {} {1.000}
 E { 5704} {e} {e} {2} {0} {} {1.000}
+E { 7691} {w} {w} {8} {0} {} {1.000}
+E { 7681} {n} {n} {1} {0} {} {1.000}
 
-R { 5704} {0} {} {A Game Trail} { } {A boulder stands at the edge of a narrow, rushing stream at the foot of the mountain. This is a wooded gorge where the river runs fast, and horses need to go singly or two abreast between the cliffs and the water. Closing in to the east, the great shadowy cliff is sinister against the upper air. Hazelnut blossoms are thick in the coppices, mountain ash and brier grow from tumbles of mossy rocks, and the bracken is breast-high. Rabbits run everywhere, frolicking among the bushes, and skittering through the fern. The game trail, used only by sheep and deer, leads eastward ascending into the hills, toward the summit.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5704} {0} {} {A Game Trail} { } {A boulder stands at the edge of a low, tumbling stream at the foot of the mountain. This is a wooded gorge where the river runs fast, and horses need to go singly or two abreast between the cliffs and the water. Closing in to the east, the great shadowy cliff is sinister against the upper air. Green hazelnuts are thick in the coppices, mountain ash and brier grow from tumbles of mossy rocks, and the bracken is breast-high. Rabbits run everywhere, frolicking among the bushes, and skittering through the fern. The game trail, used only by sheep and deer, leads eastward ascending into the hills, toward the summit.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5703} {w} {w} {8} {0} {} {1.000}
 E { 5705} {e} {e} {2} {0} {} {1.000}
+E { 7695} {n} {n} {1} {0} {} {1.000}
 
-R { 5705} {0} {} {A Game Trail} { } {The trail picks its way through fallen boulders tufted with fern, around a stand of pines, thickly clustered, dark, and heavily grown, and fades into the tender green grass of a tiny clearing above the rock. The mountain is famed for its abundance of fine harts, and there is evidence of much game in the light forest to the northeast. The ground grows rougher as it climbs, with bare grey stone outcropping through the thick turf, and a honeycombing of rabbit barrows. The game trail seems to be used only by deer and sheep.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5705} {0} {} {A Game Trail} { } {The trail picks its way through fallen boulders tufted with fern, around a stand of pines, thickly clustered, dark, and heavily grown, and fades into the green grass of a tiny clearing above the rock. The mountain is famed for its abundance of fine harts, and there is evidence of much game in the light forest to the northeast. The ground grows rougher as it climbs, with bare grey stone outcropping through the thick turf, and a honeycombing of rabbit barrows. The game trail seems to be used only by deer and sheep.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5704} {w} {w} {8} {0} {} {1.000}
 E { 5706} {e} {e} {2} {0} {} {1.000}
 
-R { 5706} {0} {} {Outside a Cottage} { } {You see the solid wedge of a new-built cell against the soft and living darkness of the forest, set back against the far side of a large clearing through which runs a fast-flowing stream. Where the stream gushes through the rock to the southwest is a fresh track, scattered with wildflowers. On the far side of the stream to the southeast, the long slopes of turf go bare up to the scree, and above this the glimmer of the snow-clad heights that cup this corrie high in the hills, blue and grey in the light. You must travel over fallen trees to the house, as there is no path. There is a bench by a window in the wall of the small stone building.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5706} {0} {} {Outside a Cottage} { } {You see the solid wedge of a new-built cell against the soft and living darkness of the forest, set back against the far side of a large clearing through which runs a fast-flowing stream. Where the stream gushes through the rock to the southwest is a fresh track. On the far side of the stream to the southeast, the long slopes of turf go bare up to the scree, and above this the glimmer of the snow-clad heights that cup this corrie high in the hills, blue and grey in the light. You must travel over fallen trees to the house, as there is no path. There is a bench by a window in the wall of the small stone building.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5705} {w} {w} {8} {0} {} {1.000}
 E { 5707} {e} {e} {2} {0} {} {1.000}
+E { 7700} {s} {s} {4} {0} {} {1.000}
 
-R { 5707} {0} {} {Sigune's Cottage} { } {A guttering candle in one corner casts an uneasy light upon the dim room. The roof hangs low overhead, and the walls are packed with earth. A cheerily voracious fire roars out from its stone hearth from behind a screen, providing heat but very little light. You can smell something strangely entrancing bubbling in a cauldron over the fire. A heavy wooden table sits in the center of the room. Each leg is carved to resemble a tree trunk, and the openwork top surface looks like interwoven branches.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5707} {0} {} {Sigune's Cottage} { } {A guttering candle in one corner casts an uneasy light upon the dim room. The roof hangs low overhead, and the walls are packed with earth. A cheerily voracious fire roars out from its stone hearth from behind a screen, providing heat but very little light. You can smell something strangely entrancing bubbling in a cauldron over the fire. A heavy wooden table sits in the center of the room. Each leg is carved to resemble a tree trunk, and the openwork top surface looks like interwoven branches.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5706} {w} {w} {8} {0} {} {1.000}
 E { 5708} {u} {u} {16} {0} {} {1.000}
 
-R { 5708} {0} {} {Up in a Loft} { } {Tucked away in the corner of the house, this cozy little space is piled with blankets which form a kind of nest. The air is warm and slightly musty. Although hardly furnished, the loft is not unpleasant.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5708} {0} {} {Up in a Loft} { } {Tucked away in the corner of the house, this cozy little space is piled with blankets which form a kind of nest. The air is warm and slightly musty. Although hardly furnished, the loft is not unpleasant.} {Medieval Kleinstadt} {} {} {} {1.000} {}
 E { 5707} {d} {d} {32} {0} {} {1.000}
 
 R { 5709} {0} {} {Der Glasblaeser} { } {This shop is heated to an almost unbearable temperature by a large furnace which glows along the south wall. Sacks of sand, barrels of water and several hollow tubes stand about, scattered among the various glass-blowing implements and materials that this shop is filled with. At the back of the room, some finished pieces of exquisite beauty, including beads, ornaments, lamps, and goblets, sit on a shelf.} {Medieval Kleinstadt } {} {} {} {1.000} {}
@@ -26006,10 +26030,11 @@ E { 6139} {n} {n} {1} {0} {} {1.000}
 E { 6141} {s} {s} {4} {0} {} {1.000}
 E { 6604} {w} {w} {8} {0} {} {1.000}
 
-R { 6141} {0} {} {Standing Outside the Slave Prison} { } {You stroll down one of Valletta's less crowded streets, admiring the city's odd mix of construction sites, religious institutions, churches, military fortifications, and plain living quarters for ordinary residents. Somewhere a cat meows and other sounds of the big city drift towards you as well -- voices, laughter, scrapings of objects being moved, and the clippety-cloppety of horses passing by in the street. Right ahead, a heavy gate bars access to the slave prison.} {Hospitaller Malta } {} {} {} {1.000} {}
+R { 6141} {0} {} {Standing Outside the Slave Prison} { } {You stroll down one of Valletta's less crowded streets, admiring the city's odd mix of construction sites, religious institutions, churches, military fortifications, and plain living quarters for ordinary residents. Somewhere a cat meows and other sounds of the big city drift towards you as well -- voices, laughter, scrapings of objects being moved, and the clippety-cloppety of horses passing by in the street. Right ahead, a heavy gate bars access to the slave prison.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 6140} {n} {n} {1} {0} {} {1.000}
 E { 6601} {w} {w} {8} {0} {} {1.000}
 E { 6619} {s} {s} {4} {0} {} {1.000}
+E { 7785} {d} {open d;d} {32} {0} {} {1.000}
 
 R { 6142} {0} {} {Entrance to the Crypt} { } {The light seeping in from above blinds you to what lies in the darkness ahead, though by the feel of the space you can tell that the crypt extends to the north and east. You'll have to venture further inside if you want to discern any more.} {Saint Denis Abbey } {} {} {} {1.000} {}
 E { 5255} {u} {u} {16} {0} {} {1.000}
@@ -26867,10 +26892,10 @@ E { 6353} {w} {w} {8} {0} {} {1.000}
 
 R { 6356} {0} {} {In the Witch's Garden} { } {You stand in the middle of a fabulous garden, greens growing everywhere. Along one wall you see magnificent amounts of parsley, peppers and celery, along another you see asparagus, watercress, fiddle ferns and lettuce. The center of the garden is filled with rutabagas and arugula, rampion, and amazing stalks of beans, beans everywhere. You peer around, smelling some sort of fruit, nectarines perhaps, before you notice a large tree towards the back of the garden, ripe fruit hanging from its branches. A small cobbled path leads up to an old cottage door.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 1141} {s} {s} {4} {0} {} {1.000}
-E { 6357} {e} {e} {2} {0} {} {1.000}
+E { 6357} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 6357} {0} {} {Inside a Large Cottage} { } {Whoever takes up residence here must be an impeccable house cleaner, as everything is carefully set away, no dust about the wooden floor nor atop the table or any of the other furniture. Dried herbs hang about in front of a rather warming fireplace, the chimney of which disappears into the roof. A warm and comfortable looking chair takes up a rather strategic place in front of the hearth, a perfect place to sit and be warmed by the burning logs as one knits or sews. Various knickknacks are placed on hard to reach shelves, small carvings of animals and people, glasses and goblets and all sorts of treasures line the room giving it a somewhat cluttered feel. Cut into the back wall is a small oven, a black kettle hanging in the opening.} {Celtic Ireland } {} {} {} {1.000} {}
-E { 6356} {w} {w} {8} {0} {} {1.000}
+E { 6356} {w} {open w;w} {8} {0} {} {1.000}
 
 R { 6358} {0} {} {In a Foul Cave, by a Chimney} { } {A rock chimney leads downwards, coated with soot and grime. The chimney is a tight fit, but not so much that one could not simply slide down it, or even scale up it, with ease. The ceiling is low here, and made lower perhaps by the accumulated encrustings of smoke made solid that cling to the rock. The cave widens and opens up towards the east. Heat bursts forth from the chimney like the mouth of Hell.} {Beowulf } {} {} {} {1.000} {}
 E { 2259} {e} {e} {2} {0} {} {1.000}
@@ -28149,8 +28174,9 @@ E { 6672} {n} {n} {1} {0} {} {1.000}
 R { 6671} {0} {} {A Small Cottage} { } {A small stone house, the cottage is not immediately much to look at. It is evident, however, that its residents care about it. The family's belongings are neatly stacked and the floor has been swept spotlessly clean.} {Hospitaller Malta } {} {} {} {1.000} {}
 E { 6670} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 6672} {0} {} {Wandering In a Lush Vineyard} { } {Neat rows of vines bear their fruits here. Small birds and animals make their homes among the vines, safe from men and predators. You spot the tracks of small animals such as weasels on the ground. The wind is fresh and gentle on your face.} {Hospitaller Malta } {} {} {} {1.000} {}
+R { 6672} {0} {} {Wandering In a Lush Vineyard} { } {Neat rows of vines bear their fruits here. Small birds and animals make their homes among the vines, safe from men and predators. You spot the tracks of small animals such as weasels on the ground. The wind is fresh and gentle on your face.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 6670} {s} {s} {4} {0} {} {1.000}
+E { 7786} {n} {n} {1} {0} {} {1.000}
 
 R { 6673} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 6666} {e} {e} {2} {0} {} {1.000}
@@ -28323,8 +28349,9 @@ R { 6718} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {   17} {w} {w} {8} {0} {} {1.000}
 E {   16} {e} {e} {2} {0} {} {1.000}
 
-R { 6719} {0} {} {In a Pictish Campsite} { } {To the east of you you can see a fire pit surrounded by tents, and all around you you can see the clear signs of a camp. The Picti do little to their camp sites, and their tents are little more than primitive lean-tos, but they have a reputation as fierce fighters. There is a lean-to festooned with feathers and beads directly north of you, set aside from the other tents. Most of the Picts, you notice, seem to prefer to sleep under the sky.} {Pictish Country } {} {} {} {1.000} {}
+R { 6719} {0} {} {In a Pictish Campsite} { } {To the east of you you can see a fire pit surrounded by tents, and all around you you can see the clear signs of a camp. The Picti do little to their camp sites, and their tents are little more than primitive lean-tos, but they have a reputation as fierce fighters. There is a lean-to festooned with feathers and beads directly north of you, set aside from the other tents. Most of the Picts, you notice, seem to prefer to sleep under the sky.} {Pictish Country} {} {} {} {1.000} {}
 E { 5482} {e} {e} {2} {0} {} {1.000}
+E { 7716} {n} {n} {1} {0} {} {1.000}
 
 R { 6720} {0} {} {An Uneven Footpath} { } {Trees lay on their sides, blocking your path in certain directions, their bare and pale branches dying slowly. A variety of stones thrown down to the ground by Mother Nature herself cause unexpected stumbles as you carelessly wander the path. The nearby stream causes soft echoes in the wilderness air as it flows peacefully.} {Boston, Mass.} {} {} {} {1.000} {}
 E { 4297} {s} {s} {4} {0} {} {1.000}
@@ -30291,14 +30318,14 @@ E { 5202} {n} {n} {1} {0} {} {1.000}
 
 R { 7194} {0} {} {On a Sandy Beach} { } {A large hut has been built to the east, set back a short distance under the trees. It looks quite new, the cedar planking ungreyed at all by the weather. This building is significantly larger than any others you see along the beach here. There is a totem pole in front of the hut, brightly painted in a wide array of colors.} {1802 Alaska} {} {} {} {1.000} {}
 E { 7192} {n} {n} {1} {0} {} {1.000}
-E { 7196} {e} {e} {2} {0} {} {1.000}
+E { 7196} {e} {open e;e} {2} {0} {} {1.000}
 
 R { 7195} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5200} {e} {e} {2} {0} {} {1.000}
 E { 5201} {w} {w} {8} {0} {} {1.000}
 
 R { 7196} {0} {} {The Chief's Hut} { } {As opulent as the carved door would imply, this hut is fairly lavishly decorated. The benches along the walls have beautifully carved legs. Rich, well-kept furs cover the benches in heaps, providing comfort. Brightly woven Chilkat blankets adorn the walls and stunning masks have been hung from the rafters. The support poles for the roof have been carved with totems, likely of the chief's clan.} {1802 Alaska} {} {} {} {1.000} {}
-E { 7194} {w} {w} {8} {0} {} {1.000}
+E { 7194} {w} {open w;w} {8} {0} {} {1.000}
 
 R { 7197} {0} {} {On a Sandy Beach} { } {A small hut has been built just to the east of this section of the beach. Built with large cedar planks, it not only looks nice with the faded rosy grey, but also smells nice. Small pine cones litter the roof and stoop of the hut. A few rocks have been arranged along the front edge of the building in a decorative pattern. The beach continues north, winding along the northern edge of the cove, but there are no huts there, just sand and trees. South, however, is the rest of this small settlement.} {1802 Alaska} {} {} {} {1.000} {}
 E { 7192} {s} {s} {4} {0} {} {1.000}
@@ -32205,3 +32232,628 @@ E { 7621} {n} {n} {1} {0} {} {1.000}
 
 R { 7629} {0} {} {The Knights' Lounge} { } {This handsome room hosts many large and comfortable leather seats where the Club's members can relax and discuss, surrounded by an impressive collection of books. Wood-paneled walls create a lavish feeling of comfort and warmth. The cooking establishment and the Club's brilliant cuisine yield to none in Britain.} {London Port} {} {} {} {1.000} {}
 E { 6716} {w} {w} {8} {0} {} {1.000}
+
+R { 7630} {0} {} {A Dirt Track} { } {The hard-packed dirt path, used for hauling timber out of the forest, and by the carts of charcoal burners, is rough and deeply rutted, but still clear. The woodland is thin at first, with trees sticking up here and there, solitary. The track twists and turns as it climbs the steep streamside by the lazy tributary that serves the mill, from the thorns and thin, green oaks that fill the gully onto a smooth level curve along the open slope, into the wooded ridge forming the summit of the hill.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7691} {e} {e} {2} {0} {} {1.000}
+E { 7662} {s} {s} {4} {0} {} {1.000}
+E { 7680} {n} {n} {1} {0} {} {1.000}
+E { 7671} {w} {w} {8} {0} {} {1.000}
+
+R { 7631} {0} {} {The Graveyard} { } {The forest path narrowly passes a ruin. Only four stones at the corners, more like rocks than stones, are left to indicate the boundaries of the graveyard. Neither church nor chapel nor any other building graces the clearing. Withered, old trees are scattered here and there, birches white as bone, brittle and quiet. Bushes in crouching clusters hunch as if they have frozen in the memory of winter winds, still reaching after it with stiff fingers. Amid the matted tangle of grass, weeds and nettles, the worn and cracked grave slabs thrust from the turf like storm-blasted avenues. Some are sunk so deeply into the ground and are so overgrown with thick, green, moss as to be scarcely visible. Others, still intact and upright, rear sharply against the sky. In the middle of the ground, a newly dug grave gapes blackly amidst the white stones.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7651} {w} {w} {8} {0} {} {1.000}
+E { 7682} {n} {n} {1} {0} {} {1.000}
+E { 7671} {e} {e} {2} {0} {} {1.000}
+
+R { 7632} {0} {} {Before an Enclave of the Teutonic Knights} { } {You stand on the road between the city of Kleinstadt and a small fortress belonging to the Order of Teutonic Knights. The thick iron gates are designed to swing outward, from hinges deep in the stone pillars which support them. Each pillar is ringed with sculpted scenes of heroic and holy war, with scenes of paradise at the base and top of each pillar.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 5701} {n} {n} {1} {0} {} {1.000}
+E { 7633} {s} {s} {4} {0} {} {1.000}
+
+R { 7633} {0} {} {An Open Courtyard} { } {Black walnut trees line the four intersecting brick-paved paths which meet in the center of this grassy courtyard. A boulder with an inscription chiseled into each face sits in the intersection. The air is heavy with the smell of flowers and grass.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7632} {n} {n} {1} {0} {} {1.000}
+E { 7640} {e} {open e;e} {2} {0} {} {1.000}
+E { 7635} {s} {open s;s} {4} {0} {} {1.000}
+E { 7648} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7634} {0} {} {A Gated Courtyard} { } {Gates stand at each corner of a tree-lined courtyard with a circular stone well in the center. Red brick pathways lead off in all directions, mortared with grass and wildflowers. An occasional stray chicken wanders along, picking at bugs and seeds on the ground.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7640} {w} {open w;w} {8} {0} {} {1.000}
+E { 7636} {e} {open e;e} {2} {0} {} {1.000}
+E { 7639} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7635} {0} {} {In the Vestibule of the Church of Saint Mary of the Germans} { } {You stand within the walls of a quiet stone chapel. It was built for the use of the recently-formed order of Teutonic knights who reside in this city, and the stone is still fresh and clean. A series of interlinked archways soar over your head. The flagstones reverberate with every step, treating each discrete sound as if it were a musical note in a solemn hymn.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7633} {n} {open n;n} {1} {0} {} {1.000}
+E { 7642} {s} {s} {4} {0} {} {1.000}
+
+R { 7636} {0} {} {A Gated Courtyard} { } {Gates stand at each corner of a tree-lined courtyard with a circular stone well in the center. Red brick pathways lead off in all directions, mortared with grass and wildflowers. An occasional stray chicken wanders along, picking at bugs and seeds on the ground.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7634} {w} {open w;w} {8} {0} {} {1.000}
+E { 7637} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7637} {0} {} {A Well-Kept Haus} { } {This house is simple and clean, with closely-fit stones serving as the flooring. A fire in the hearth crackles along one side of the room, and a bed is against the back wall. Closer to the door, a table sits underneath the window.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7636} {s} {open s;s} {4} {0} {} {1.000}
+E { 7638} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7638} {0} {} {A Kitchen Garden} { } {This garden was designed to provide for the residents of the adjoining cottage. The neatly-dug rows of dark earth are verdant with all manner of vegetables -- you can see the tops of onions, carrots, and rutabagas, as well as rows of lettuces. A series of stepping-stones guides you through the rows, each one chiseled with the sign of the cross.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7637} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7639} {0} {} {A Well-Kept Haus} { } {This house is simple and clean, with closely-fit stones serving as the flooring. A fire in the hearth crackles along one side of the room, and a bed is against the back wall. Closer to the door, a table sits underneath the window.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7634} {n} {open n;n} {1} {0} {} {1.000}
+E { 7641} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7640} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7633} {w} {w} {8} {0} {} {1.000}
+E { 7634} {e} {e} {2} {0} {} {1.000}
+
+R { 7641} {0} {} {A Kitchen Garden} { } {This garden was designed to provide for the residents of the adjoining cottage. The neatly-dug rows of dark earth are verdant with all manner of vegetables -- you can see the tops of onions, carrots, and rutabagas, as well as rows of lettuces. A series of stepping-stones guides you through the rows, each one chiseled with the sign of the cross.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7639} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7642} {0} {} {In The Nave} { } {The nave is long and wide, lined with numerous stone columns flanked by rows of pews. The shape of the space draws the eye upward to the stained glass windows and down to the choir and altar to the south of you. Beyond the rows of columns to the east and west of you lies the open aisle space, which is shadowed and dark.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7635} {n} {n} {1} {0} {} {1.000}
+E { 7643} {s} {s} {4} {0} {} {1.000}
+
+R { 7643} {0} {} {In The Nave} { } {The nave is long and wide, lined with numerous stone columns flanked by rows of pews. The shape of the space draws the eye upward to the stained glass windows and down to the choir and altar to the south of you. Beyond the rows of columns to the east and west of you lies the open aisle space, which is shadowed and dark.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7642} {n} {n} {1} {0} {} {1.000}
+E { 7644} {s} {s} {4} {0} {} {1.000}
+
+R { 7644} {0} {} {In the Crossing of the Church of Saint Mary} { } {You stand in the crosspiece of the church, in the point corresponding to where the Savior's own body lay open and vulnerable to the world. If church were in service, you would hear the sounds of the chanting and chorale, or the heavy tones of the priest. The gray stone ceiling rises into a long arch high overhead, supported by a series of circular columns and piers.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7643} {n} {n} {1} {0} {} {1.000}
+E { 7645} {e} {e} {2} {0} {} {1.000}
+E { 7646} {s} {s} {4} {0} {} {1.000}
+E { 7647} {w} {w} {8} {0} {} {1.000}
+
+R { 7645} {0} {} {In the Eastern Transept} { } {The transept is a narrow room running crosswise to the main part of the chapel. The gray stone ceiling rises into a dome high overhead, supported by a series of massive drum piers which line the walls. The transept is quiet and peaceful.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7644} {w} {w} {8} {0} {} {1.000}
+
+R { 7646} {0} {} {In the Choir of the Church of St. Mary} { } {Arches and columns intersect, surrounding and framing the space as you walk through the choir. The admixture of soaring and sumptuous curves with solid and linear columns seems to suggest a paradox in equilibrium, a freedom gained by restriction. The light from elaborate bronze candelabrum reflects faintly from the ashen stones, creating as many shadows as it diminishes.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7644} {n} {n} {1} {0} {} {1.000}
+
+R { 7647} {0} {} {In the Western Transept} { } {The transept is a narrow room running crosswise to the main part of the chapel. The gray stone ceiling rises into a dome high overhead, supported by a series of massive drum piers which line the walls. The transept is quiet and peaceful.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7644} {e} {e} {2} {0} {} {1.000}
+
+R { 7648} {0} {} {Inside the Hospital of the Teutonic Order} { } {The hospital was built with the same carefully-hewn blocks of pale gray stone which form the adjoining church. The sweeping archways and thick-veined columns lend a ponderous and solemn air to the austere furnishings of the hospital. A few shabby chairs are available for those biding time here.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7633} {e} {open e;e} {2} {0} {} {1.000}
+E { 7649} {w} {w} {8} {0} {} {1.000}
+E { 7650} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7649} {0} {} {In a Hospital Corridor} { } {Sweeping archways and thick-veined columns line the hospital corridor. You can hear footfalls and whispers echoing off the cold stone. The gray corridor continues east and west.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7648} {e} {e} {2} {0} {} {1.000}
+E { 7652} {n} {open n;n} {1} {0} {} {1.000}
+E { 7653} {s} {open s;s} {4} {0} {} {1.000}
+E { 7654} {w} {w} {8} {0} {} {1.000}
+
+R { 7650} {0} {} {In a Hospital Room} { } {The stone floor of the room is filled with rows and rows of pallets, many of them holding a sick or dying person. A fire blazes in one corner, and many patients have drawn their bedding up to the hearth. Despite the many herbs hanging over the doors and windows and strewn on the floor, the smell in the room is foul and oppressive.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7648} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7651} {0} {} {On the Forest Path} { } {The track runs along a steeply wooded bank. For the most part the wood is too thickly grown to penetrate, but here at the edge, it is open to the sun. The stony banks are deep in ferns and drifting thistledown, and brambles and bracken grow in thickets over the rocks. An occasional detour is required to avoid large blocks of stone along the path. Along the outcrops of rock and broken ground to each side, foxgloves and bracken grow in profusion.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7631} {e} {e} {2} {0} {} {1.000}
+E { 7658} {s} {s} {4} {0} {} {1.000}
+
+R { 7652} {0} {} {A Private Room in the Hospital} { } {The walls are thick stone and covered with woolen tapestries, perhaps to block the screams and groans of those outside. The windows are masked with heavy cloth curtains, and the ceiling is hung with a wide variety of dried herbs.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7649} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7653} {0} {} {A Private Room in the Hospital} { } {The walls are thick stone and covered with woolen tapestries, perhaps to block the screams and groans of those outside. The windows are masked with heavy cloth curtains, and the ceiling is hung with a wide variety of dried herbs.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7649} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7654} {0} {} {In a Hospital Corridor} { } {Sweeping archways and thick-veined columns line the hospital corridor. You can hear footfalls and whispers echoing off the cold stone. The gray corridor continues to the east and west.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7649} {e} {e} {2} {0} {} {1.000}
+E { 7655} {n} {open n;n} {1} {0} {} {1.000}
+E { 7656} {w} {open w;w} {8} {0} {} {1.000}
+E { 7657} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7655} {0} {} {In a Hospital Room} { } {The stone floor of the room is filled with rows and rows of pallets, many of them holding a sick or dying person. A fire blazes in one corner, and many patients have drawn their bedding up to the hearth. Despite the many herbs hanging over the doors and windows and strewn on the floor, the smell in the room is foul and oppressive.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7654} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7656} {0} {} {A Back Room, Inside the Hospital} { } {The hospital is plain and functional, and though the stone floors are scrubbed regularly, the smell of death still hangs heavy in the air. This is not a place where the citizens of the town come to be healed, it is a place for the poor to die, out of sight of those passing by. Beds line the walls, and a cross hangs over the door.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7654} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7657} {0} {} {In a Hospital Room} { } {The stone floor of the room is filled with rows and rows of pallets, many of them holding a sick or dying person. A fire blazes in one corner, and many patients have drawn their bedding up to the hearth. Despite the many herbs hanging over the doors and windows and strewn on the floor, the smell in the room is foul and oppressive.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7654} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7658} {0} {} {A Hilltop Ruin} { } {You have reached the summit of a hill, overgrown with blossoming bushes, stunted conifers, and low shrubs. On the western slope, up among the flourishing weeds, the weathered ruins of a long forgotten building have survived the passage of time. Dense forest surrounds the ancient walls with their crumbling, mossy stones, overgrown with ivy. From this height you can see the whole city to the south, tiny as a toy in the distance, crowded under the castle walls.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7651} {n} {n} {1} {0} {} {1.000}
+E { 7659} {s} {s} {4} {0} {} {1.000}
+
+R { 7659} {0} {} {The Forest Path} { } {In the lower reaches the woods are thick. Oaks rustle their leaves, chestnut and sycamore crowd close, fighting for the light. Occasionally a tree can be seen that has been chafed and rubbed bare along one side. The path runs alongside a deep, evil-looking crevice to the west.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7658} {n} {n} {1} {0} {} {1.000}
+E { 7660} {e} {e} {2} {0} {} {1.000}
+
+R { 7660} {0} {} {A Well-Groomed Path} { } {The forest path has been carefully maintained. The way is clear of brush and low-hanging branches, and the thornbushes have been woven back on themselves to train the growth away from the passage. Direct sunlight reaches all the way down to the trail, allowing a little grass and a few flowers to grow.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7659} {w} {w} {8} {0} {} {1.000}
+E { 7678} {e} {e} {2} {0} {} {1.000}
+E { 7664} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7661} {0} {} {The Forest Path} { } {Here the trees are huge, oaks mainly, the big ones massive and widely spaced, while between them saplings grow thickly and unchecked. Ivy twines with strings of fragrant honeysuckle and thickets of thorn. Here and there pines show fiercely black against the sky. The narrow and winding path forks; to the north, it spears straight among the trees, while to the west, it winds up to skirt the base of a rocky spur.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7678} {w} {w} {8} {0} {} {1.000}
+E { 7662} {n} {n} {1} {0} {} {1.000}
+
+R { 7662} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7661} {s} {s} {4} {0} {} {1.000}
+E { 7630} {n} {n} {1} {0} {} {1.000}
+
+R { 7663} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 5702} {s} {s} {4} {0} {} {1.000}
+E { 5703} {n} {n} {1} {0} {} {1.000}
+
+R { 7664} {0} {} {The Cottage} { } {A curtain of rough-tanned deer hide is pushed aside from the open doorway of this poor hut to reveal one dirt-floored, dark room. Inside it is cramped and foul-smelling, stuffy in the summer heat. From a straw tick underneath a tiny window, the occupant can look into the forest. A rickety table of undressed wood stands in the center of the room. A ring of stones that serves for a hearth is cold and dark. Looking about, you see a few chairs, and some tools and utensils. A pile of dirty skins huddles against the opposite wall.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7660} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7665} {0} {} {In Light Forest} { } {Here the wooded gorge of the foothills opens out into a wider valley of the tributary stream that serves the mill. The oak forests give way to a lighter woodland of birch and alder. Clumps of bare alder and thick reeds indicate that the low-lying hollow is marshy in the summer. A small tangle of brush and vine-covered trees has collected into a thicket along one side of the hollow, providing hiding places for small animals. A rather shabby-looking cottage to the west distracts from the pleasant vista.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7682} {s} {s} {4} {0} {} {1.000}
+E { 7666} {w} {open w;w} {8} {0} {} {1.000}
+E { 7672} {e} {e} {2} {0} {} {1.000}
+
+R { 7666} {0} {} {A Crofter's Haus} { } {The crofters of Kleinstadt possess little more than their cottages and plots of land too small to support their families. The single-story, thatch-roofed building provides shelter for the animals as well as living-quarters for the family. Behind the cottage, a little brook winds near the kitchen-garden, planted with vegetables.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7665} {e} {open e;e} {2} {0} {} {1.000}
+E { 7668} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7667} {0} {} {A Quaint Cottage} { } {A small ramshackle cottage nestles into a sheltered hollow, just one room with an old lichened tree hanging outside its single window. The bed, standing right under the window, is nothing but plain planks set across wooden blocks, no carving, not even a head or foot board, with a clean straw mattress and a coverlet of wool. An old wooden chest stands against the wall, and a small table occupies the center of the room. The table is brimming with fresh-cut herbs and baskets of berries. Most of the dim light comes from a fire on a hearthstone, above which hangs an iron pot. A pair of tongs lean against the wall, next to a few round, flat stones that are heated in the fire each evening and then placed in the bed to warm the occupant. There are two chairs, a few tools and utensils lying around, and shelves covered with bottles and jars of varying types.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7675} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7668} {0} {} {A Grubby Kitchen} { } {The light here is a sickly yellow, just bright enough to show the grimy qualities of each surface. The wattle-and-daub walls are greyed from untended fires and the smoke from poor-quality wood. The kitchen has been heavily but distractedly used by people who did not care to wipe the hearth's soot from their fingers before touching everything else, tables, counters, shelves, what have you -- and it certainly shows. No one has cleaned the kitchen in some time.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7666} {n} {open n;n} {1} {0} {} {1.000}
+E { 7670} {e} {open e;e} {2} {1} {} {1.000}
+
+R { 7669} {0} {} {In the Milling Room} { } {The short, arched antechamber opens onto the lightless lower room of the mill, where the worn stone wheels grind against each other. The cool, dank room, approximately forty feet in diameter, smells vaguely of lime. Evenly spaced in the stone walls, four windows, narrow as embrasures, filter light through filthy panes, imparting a wintry gray tint even on the brightest of days. The cumbersome machinery of the mill, massive wooden gears, cogs, grinding stones, pulleys and lengths of rope rest heavily on the wooden floor. A large wooden table rests near the machinery, scattered with implements for measuring grain and flour. To the left, barely visible in the gloom, curved limestone stairs lead up.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7672} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7670} {0} {} {In The Barn} { } {Scraping a living on the side as an innkeeper, the cottager allows travelers to stay in his barn. A steady stream of peddlers, hucksters, beggars, fiddlers, journeymen, gamblers, touts and all kinds of vagabonds make for this "hole-and-corner" tavern all summer long, when the weather is clear, the fields are fragrant, and people feel like wandering. The walls are not much more than man-height and thatched over. A shorter wall divides the barn area from the hallway and the family's living quarters. Bundles of all shapes, sizes, and colors are thrown onto the hay. The barn doesn't house many animals this time of year, and so the air is sweet with the smell of hay. Tools and farming equipment are hung neatly along one wall.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7668} {w} {open w;w} {8} {1} {} {1.000}
+E { 7677} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7671} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7630} {e} {e} {2} {0} {} {1.000}
+E { 7631} {w} {w} {8} {0} {} {1.000}
+
+R { 7672} {0} {} {The Millyard} { } {The two-story mill is a ponderous stone structure. Climbing ivy, its roots nurtured by the river that abuts one flank, twines up the rough stone face, finding easy purchase in deep-mortared joints. Grain sacks are piled near the timbered door. The miller's house, a small, gray, wooden building, is attached to the mill on the west side. A field path runs by, with stony ruts in the grass.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7665} {w} {w} {8} {0} {} {1.000}
+E { 7669} {n} {open n;n} {1} {0} {} {1.000}
+E { 7673} {e} {e} {2} {0} {} {1.000}
+E { 7676} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7673} {0} {} {A Meadow} { } {The summer has drenched the meadow in color. The yellow of dandelion, buttercup, and crow's foot mingles with bright reds and pinks of clover, wild orchid and valerian, as well as the blue of snapdragon and cornflower and the white of wild garlic, plantain and pimpernel. A little stream, glittering black and silver, winds its way through this lush meadow. Hazel, elder, hornbeam, a few poplars and elms grow on its bulging green banks. The grass here is twice as thick as that in the surrounding fields, despite the numerous sheep and cattle, and the air is constantly loud with frogs. The river winds its intricate way steadily down the valley in curves that sweep across the valley floor or thrust it close to the hills on either side.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7680} {s} {s} {4} {0} {} {1.000}
+E { 7690} {e} {e} {2} {0} {} {1.000}
+E { 7679} {n} {n} {1} {0} {} {1.000}
+E { 7672} {w} {w} {8} {0} {} {1.000}
+
+R { 7674} {0} {} {On a Dirt Road Through the Meadow} { } {The road through the widening valley is less rutted and more diffuse here, following a general wide track, which is slightly raised from the level of the grassy meadows through which it passes. On either side, shallow ditches dug by rainwater, encouraged by the raised roadbed, lead slightly downhill to the north. Although many carts pass here, the soil is rockier but better drained, and thus the dirt is less inclined to turn to mud, than other points on the road. A few wild onions peek up out of earth laid freshly bare by a wide-wheeled cart, which passed perhaps only a couple days ago. Wildflowers cluster beside the ditch, spilling fragrance into the air.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7681} {s} {s} {4} {0} {} {1.000}
+E { 7690} {w} {w} {8} {0} {} {1.000}
+E { 7675} {n} {n} {1} {0} {} {1.000}
+E { 7694} {e} {e} {2} {0} {} {1.000}
+
+R { 7675} {0} {} {On a Road at the Edge of a Meadow} { } {The grassy meadow is bordered by a thick forest on three sides. The cleared land is regularly grazed by local flocks and herds, as well as the deer which emerge, blinking, from the dark forest depths. A merry little stream makes its way across the field, rendering the ground somewhat marshy. A snug little cottage is nestled up against the trees to the east, and a rutted road slightly stabilized with sparse gravel continues in two directions -- into the forest and deeper into the meadow.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7674} {s} {s} {4} {0} {} {1.000}
+E { 7667} {e} {open e;e} {2} {0} {} {1.000}
+E { 7688} {n} {n} {1} {0} {} {1.000}
+
+R { 7676} {0} {} {In The Kitchen} { } {The mill has only one living room on the ground floor, namely the kitchen. This is a large, rectangular room with a floor of hard-packed clay, a masonry hearth in the middle, two small windows on the side of the house farthest away from the road, and a low ceiling of rough beams and planks. A crude staircase to the left of the doorway leads steeply up to the bedroom. The space below the staircase is separated from the rest of the kitchen by a partition of wooden planks. The furniture is sparse enough. A wooden table stands beneath the windows, stools are scattered around the room, a chest squats beneath a few hooks on the walls, and a few shelves line the wall near the hearth.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7672} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7677} {0} {} {Strolling Through a Meadow} { } {The dull grass on this broad meadow is not as lush as those in the surrounding pastures, and the sheep and cattle, behind the split-rail fence, seem thinner and sickly. In the still, hot air, clouds of gnats dance over the dry field, still hot from the sun despite the dark of night. The field is bounded by low banks ridged with hunched, crippled bushes. The dismal shrubs struggle for life, some with the pathetic air of striving to become trees. The heat of summer is turning the grass brown. Birds hide in their silent nests and the meadow lays around you like a waste land.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7679} {s} {s} {4} {0} {} {1.000}
+E { 7670} {w} {open w;w} {8} {0} {} {1.000}
+E { 7683} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7678} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7660} {w} {w} {8} {0} {} {1.000}
+E { 7661} {e} {e} {2} {0} {} {1.000}
+
+R { 7679} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7673} {s} {s} {4} {0} {} {1.000}
+E { 7677} {n} {n} {1} {0} {} {1.000}
+
+R { 7680} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7630} {s} {s} {4} {0} {} {1.000}
+E { 7673} {n} {n} {1} {0} {} {1.000}
+
+R { 7681} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 5703} {s} {s} {4} {0} {} {1.000}
+E { 7674} {n} {n} {1} {0} {} {1.000}
+
+R { 7682} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7631} {s} {s} {4} {0} {} {1.000}
+E { 7665} {n} {n} {1} {0} {} {1.000}
+
+R { 7683} {0} {} {The Scholz's Cottage} { } {You are in the common room of a snug cottage on the edge of a roaring forest. The walls are hung with tapestries of historical scenes, botanical drawings, a variety of schematic designs, and scribbled on with favored quotations. A roaring fire has been built into a fireplace situated into the wall which the common room shares with both the kitchen and the bedrooms beyond, keeping all three rooms warm with one fire.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7677} {s} {open s;s} {4} {0} {} {1.000}
+E { 7684} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7684} {0} {} {In a Cheery Kitchen} { } {This is a large, rectangular room with a floor of hard-packed clay, two small windows, and a low ceiling of rough beams and planks. A masonry hearth, centrally located is the focal point of the house. An unusually large pile of firewood is close by. The room is blackened by smoke, but pleasantly illuminated by shafts of light through the window. The furniture is sparse enough, including a wooden table beneath the windows, stools scattered around the room, and a few shelves on the wall near the hearth. Many sacks of grain are piled in one corner near a tub full of gruit. Another short wall separates the kitchen from the sleeping quarters, accessed through a curtained doorway to the east.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7683} {s} {open s;s} {4} {0} {} {1.000}
+E { 7685} {e} {open e;e} {2} {0} {} {1.000}
+E { 7686} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7685} {0} {} {The Solar} { } {The sleeping area is small but cozy, with paneling covering the wattle and daub walls and herbs strewn over the wood floors. The south wall is primarily devoted to the central fireplace that heats all three rooms of the cottage. A large bed with a thick mattress and coverlet dominates the room, with a woven oval rug beneath it. An empty cradle sits at the foot of the bed.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7684} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7686} {0} {} {In a Fragrant Garden} { } {Well-tended flowerbeds form a kaleidoscopic border around the neat rows of vegetables and herbs that flourish here. Narrow gravel paths allow you to walk between the rows, taking in the wonders of each plant in turn. Birds sing sweetly and bees buzz past you. The perfumed breezes of summer float past you, lulling you to rest here and enjoy the warm, quiet day.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7684} {s} {open s;s} {4} {0} {} {1.000}
+E { 7687} {e} {e} {2} {0} {} {1.000}
+
+R { 7687} {0} {} {The Edge of the Forest} { } {The forest is dense and impassable here. You could not penetrate the thick trees and brambles unless you were a rabbit, or perhaps a sparrow. But if there are woodland creatures which venture out of the woods and into the fields, you would not know it. Not a game-trail nor a path nor a track breaks the thick wall of briars and black-trunked trees.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7686} {w} {w} {8} {0} {} {1.000}
+
+R { 7688} {0} {} {On the Forest Road} { } {Trees line the road, blocking out the sky except for a few scattered patches. Scrappy little bushes strain for light down on the forest floor, and wood-stemmed vines twine around the trunks.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7675} {s} {s} {4} {0} {} {1.000}
+E { 7689} {n} {n} {1} {0} {} {1.000}
+
+R { 7689} {0} {} {On the Forest Road} { } {Trees line the road, blocking out the sky except for a few scattered patches. Scrappy little bushes strain for light down on the forest floor, and wood-stemmed vines twine around the trunks.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7688} {s} {s} {4} {0} {} {1.000}
+E { 7692} {n} {n} {1} {0} {} {1.000}
+E { 7693} {e} {e} {2} {0} {} {1.000}
+
+R { 7690} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7673} {w} {w} {8} {0} {} {1.000}
+E { 7674} {e} {e} {2} {0} {} {1.000}
+
+R { 7691} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7630} {w} {w} {8} {0} {} {1.000}
+E { 5703} {e} {e} {2} {0} {} {1.000}
+
+R { 7692} {0} {} {On a Darkening Forest Road} { } {The forest is menacingly close to the road and thickly grown, blocking any light from the sky. The black-barked evergreens throw spidery shadows across the gravel road. Very little underbrush is able to survive here, with scant access to sunlight. Thin and sickly-looking lichen cover a few exposed rocks, and trees stand straight and bare as skeletons for as far as the eye can see.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7689} {s} {s} {4} {0} {} {1.000}
+
+R { 7693} {0} {} {At a Forge in the Forest} { } {The thick forest has been roughly cleared to form a grassy circle. In the center of the clearing, a large forge radiates heat. Occasionally, it lets loose a belch of flame and smoke. A charcoal fire burns lazily beside it, producing little heat in comparison but great quantities of ash. Freshly cut logs and newly split kindling are stacked under a shelter, waiting to be used as fuel for the forge. A deeply rutted path leads back to the forest road.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7689} {w} {w} {8} {0} {} {1.000}
+
+R { 7694} {0} {} {A Meadow} { } {Behind fences and gates on enclosed pastures, sheep and cattle graze, keeping the grass smooth and shorn. There seem to be more oxen than cows, and several horses in each field. Here the slope is scored by the tracks of sheep and goats. Black cattle can be seen far afield. Down near the river where the grass is longer, the green meadows at the waters' head are full of cattle.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7674} {w} {w} {8} {0} {} {1.000}
+E { 7695} {s} {s} {4} {0} {} {1.000}
+E { 7696} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7695} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 5704} {s} {s} {4} {0} {} {1.000}
+E { 7694} {n} {n} {1} {0} {} {1.000}
+
+R { 7696} {0} {} {The Courtyard} { } {A vine-covered archway gives onto a large yard paved with flagstones. The enclosed garden has its own little fishpond, and an occasional swan idles gracefully across the surface. A wooden table stands under a shady pergola and a bright banner flutters from the balcony. There are fruit trees in the yard, and to either side of the steps up to the main door to the north, someone has planted beds of marigolds, which blaze orange and yellow in the light. Through the bergamot and lavender to the east, the trees heavy with ripening fruit stand against the far wall, a few laden branches leaning over the wall tempting outsiders. A variety of herbs are thriving here.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7694} {w} {open w;w} {8} {0} {} {1.000}
+E { 7697} {n} {n} {1} {0} {} {1.000}
+E { 7698} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7697} {0} {} {In the Great Hall of the von Aiche Manor} { } {Despite the summer heat, a fire burns continually on the central hearth while smoke escapes through louvres in the roof. The kitchen and service area occupies the east portion of the large room while the west side is used for dining and gathering. The cheerful room, covered with hangings of worsted, patterned with parrots and blue cokerels, contains a large dining table covered with an embroidered cloth. Chairs, with brightly patterned seat coverings and comfortable pillow cushions, sit back against the walls. Two large chests and a little sewing box are arranged convienently near the chairs. In the kitchen are a small table for mincing vegetables, several hooks, a cupboard, a vivarium, a tall table, a garde-robe, and an opening to the pantry. Hay and rushes are scattered over the floor of the hall. A stone arch to the north leads to the stair turret, alongside a small chapel and undercroft.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7696} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7698} {0} {} {Barns and Outlying Sheds} { } {A wicker fence encloses the large farmhouse to the west, the garden to the southwest, barn to the north, and storage tower on the east side. A sheepfold is apparent between the barn and the storage tower, far to the east and closest to the field. Nearer the barn is another small enclosure, and dogs howl in a small pen next to the house. Carts and barrels are scattered around, convienently placed for the men at work. A few metal tools with wooden handles lean against the wall of the barn, waiting for someone to return for them.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7697} {w} {w} {8} {0} {} {1.000}
+E { 7696} {s} {s} {4} {0} {} {1.000}
+E { 7699} {e} {e} {2} {0} {} {1.000}
+
+R { 7699} {0} {} {In the Fields} { } {Approximately ten acres of cultivated land stretches before you, thriving in the summer sun. Two thirds of this land has been cultivated with plow and harrow, and planted with hemp, hops, flax, peas, beans, and leeks. The furrows run according to the lay of the land, in a parallel layout. Close to the woods to the southwest, the orchard is planted with apples, pears, and cherries, in orderly rows. The other third of the fertile land has been left fallow this season, to allow the land to regenerate.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7698} {w} {w} {8} {0} {} {1.000}
+E { 7702} {n} {n} {1} {0} {} {1.000}
+E { 7708} {s} {s} {4} {0} {} {1.000}
+
+R { 7700} {0} {} {A Rugged Game Trail} { } {This trail becomes increasingly rugged and irregular as it leads further and further into the uncleared wilderness south of the city. The trees are dark and imposing, the trail seems almost imagined. Now and again you see the sunk-in impression of a horse's hoof, but more often the tracks are of deer or wolves...or something worse. The birds are silent here, passing through quickly on their way to more friendly environs, and the wind sighs out a warning from the trees.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 5706} {n} {n} {1} {0} {} {1.000}
+E { 7701} {s} {s} {4} {0} {} {1.000}
+
+R { 7701} {0} {} {In a Glade} { } {You reach a grassy clearing lying silent and peaceful beneath a pool of shade cast by several ash trees. Here, in a hollow, the sun can come with a faint warmth. From the lip of the hollow to the south, you can see the main path running below the rock. The forested slopes close in on the other three sides. It is wild country with high ridged stretches of moorland, where heather grows deep and fragrant among the granite tors, and the land is good to feed nothing except the sheep and the wild deer.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7700} {n} {n} {1} {0} {} {1.000}
+
+R { 7702} {0} {} {In the Fields} { } {Approximately ten acres of green, cultivated land stretches before you. Two thirds of this land is cultivated with plow and harrow, and planted with wheat, rye, oats, and barley, rippling and bowing in the summer breezes. The furrows run according to the lay of the land, in a parallel layout. Close to the woods, the orchard is planted with plums, and nuts, in orderly rows. The other third of the fertile land has been left fallow, regenerating until spring.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7699} {s} {s} {4} {0} {} {1.000}
+E { 7703} {n} {n} {1} {0} {} {1.000}
+
+R { 7703} {0} {} {The Road to the Tournament} { } {The area where the tournament is held is filled with glitter and glory, pomp and pageantry, music and massed crowds. A riot of flowers overwhelms the eye, as thousands of spring blossoms have sacrificed their yellow, pure white, dark blue, red, and violet petals to create mosaic patterned carpets lining the path through the fields. Booths along the edges of the path offer entertainment and food. A wooden structure decked with a carpet and curtains has a prominent position. Farmers and craftsmen, eager to witness the spectacle, stream into Kleinstadt from miles around, bringing their families with them. The inevitable swarm of beggars, jugglers, and players who have high hopes of rich pickings join them. In the company of such fellow travelers, you crane your neck to see through the crowd.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7702} {s} {s} {4} {0} {} {1.000}
+E { 7704} {n} {n} {1} {0} {} {1.000}
+
+R { 7704} {0} {} {The Tiltyard} { } {Triumphal arches mark the entrance to the fields, where the Herald stands calling the names of the contestants as they enter. From the tiltyard, the participants and their helpers can look up at the sea of spectators in the stands and covering the slopes. The pavilion of the Queen of Beauty is just above and centered on the large field, flanked by that of the Lord of the Tournament and the Judges of Peace. The sides of the strand are decorated with the banners of the various knights.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7703} {s} {s} {4} {0} {} {1.000}
+E { 7705} {n} {n} {1} {0} {} {1.000}
+E { 7706} {u} {u} {16} {0} {} {1.000}
+
+R { 7705} {0} {} {The Tiltyard} { } {This end of the field is arranged for group melee. A mock castle forms a tangled and exotic skyline of domed turrets and pierced battlements. A statue of Venus at the center of a crenellated garden enclosure emphasizes the theme of the pageant dedicated to the Queen of Beauty. Here the spectators watch the knights take part in a tilt on the mock-Castle of Perfect Beauty, a bridge battle, and a boat battle.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7704} {s} {s} {4} {0} {} {1.000}
+
+R { 7706} {0} {} {The Stands} { } {The greensward is filled with colorful tents and pavilions. The tiltyard can be watched from the surrounding slopes, but the best view is from the open stands from the middle of which projects the pavilion of the Queen of Beauty. Halberdiers marshal the crowds which fill the park, and the stands where the peers and peeresses, numerous baronets, knights and younger sons, and foreign spectators array themselves. The Lord of the Tournament and the Judges of Peace have prominent places near the Queen of Beauty.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7704} {d} {d} {32} {1} {} {1.000}
+E { 7707} {s} {s} {4} {0} {} {1.000}
+
+R { 7707} {0} {} {Font of Tears} { } {A marble obelisk rises from the personification of four gilt-bronze river mouths which empty into a still pool near a pavilion. Horses, saddled and ready, drink from the still water, or graze in the lush grass around the edges of the fountain. A frail courtly maiden rides sidesaddle on a prancing, white unicorn through the airy pavilion in front of a green and gold cloth of honor. The delicately poised figure is elevated on a pedestal with four regal lions on the base.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7706} {n} {n} {1} {0} {} {1.000}
+E { 7703} {s} {s} {4} {0} {} {1.000}
+
+R { 7708} {0} {} {In Light Forest} { } {Here the wooded gorge of the foothills opens out into a wider valley, with forbidding crags of slate above the tangled thicket to the southwest. Clumps of bare alder and thick reeds indicate that the hollow is marshland in the wet weather, but well protected from the wind in winter. Now, in the summer, it is warm and moist, and scattered with flowers. At the back of the wooded dell sits a rock, warming in the sun. The sheltered hollow is cupped on two sides by thickly wooded slopes of oak and chestnut, and the thicket, near the lip of the dell, is a steep tangle of brush and trees almost covering one side.} {Medieval Kleinstadt} {} {} {} {1.000} {}
+E { 7699} {n} {n} {1} {0} {} {1.000}
+
+R { 7709} {0} {} {The Secret Compartment} { } {You drop down into a small space underneath the seat of the throne in the space of the dais. There is not very much room here. This small compartment looks as if it could be used to hide things in or even people in a pinch.} {Arabian Nights} {} {} {} {1.000} {}
+E { 5110} {u} {open u;u} {16} {1} {} {1.000}
+
+R { 7710} {0} {} {The Safe} { } {Hoping to keep them safe from thieves, the jeweler hides his most precious stones in this room. Perhaps a little searching would turn up some of those gems. You find the room is big enough to stand up straight and touch any of the four walls with your arms outstretched. Perhaps, if the jeweler is expecting trouble, he hides in here too.} {Arabian Nights} {} {} {} {1.000} {}
+E { 1870} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7711} {0} {} {By a Spring} { } {A pool of limpid water seems to pour itself out of the rock here, splishing and splashing merrily along. As it wends its way west, it gets caught up in reeds and seems fouler. A path leads in that direction. The rock makes movement in any other direction quite difficult, although you might be able to scramble up the slope to the north atop what seems to be a great mound of earth and rock.} {Pictish Country} {} {} {} {1.000} {}
+E { 5481} {w} {w} {8} {0} {} {1.000}
+E { 7712} {u} {u} {16} {0} {} {1.000}
+
+R { 7712} {0} {} {You carefully pick out a path and climb your way up.} { } {[0;1;32mAtop a Burial Mound[0;32m Here from atop the hill it is apparent that you are standing on a Pict burial mound. You can see a path leading down through the dense undergrowth north of you, or you can scramble down the steep slope leading towards a small spring to the south.} {Pictish Country} {} {} {} {1.000} {}
+E { 7711} {d} {d} {32} {0} {} {1.000}
+E { 7713} {n} {n} {1} {0} {} {1.000}
+
+R { 7713} {0} {} {Base of the Burial Mound} { } {Here in Pictish land, the dead are numerous. So are their tombs. The burial mound directly south of you is accompanied by another one just to the north. However, the one to the north seems to provide an entrance, for there is a hole carved in the hard dirt.} {Pictish Country} {} {} {} {1.000} {}
+E { 7712} {s} {s} {4} {0} {} {1.000}
+E { 7714} {n} {n} {1} {0} {} {1.000}
+
+R { 7714} {0} {} {In a Tomb} { } {The Pictish burial mound offers a nice and simple grave. A dead warrior is curled up into a fetal position here, his best armor and weapons laid carefully around him. His most cherished possession, which in this case appears to be a little bit of amber, is clutched tightly to his chest. You feel deeply reluctant to rob this humble grave. There are peculiar shadows in the corners of this hollowed out chamber.} {Pictish Country} {} {} {} {1.000} {}
+E { 7713} {s} {s} {4} {0} {} {1.000}
+E { 7715} {e} {e} {2} {0} {} {1.000}
+
+R { 7715} {0} {} {A Secret Chamber} { } {This appears to be a secret chamber where the truly valuable possessions of the dead warrior are kept. It is extremely dark here, and you keep hearing odd whistles from the wind outside.} {Pictish Country} {} {} {} {1.000} {}
+E { 7714} {w} {w} {8} {0} {} {1.000}
+
+R { 7716} {0} {} {Shaman's Tent} { } {This tent, festooned with feathers and a few hides, seems to be the residence of the tribe's wise man. Various disgusting items are piled in the corners, and there is a hole cut in the roof of the lean-to, allowing the weather in, and presumably allowing the shaman to look at the stars at night.} {Pictish Country} {} {} {} {1.000} {}
+E { 6719} {s} {s} {4} {0} {} {1.000}
+
+R { 7717} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3968} {n} {n} {1} {0} {} {1.000}
+E { 3528} {s} {s} {4} {0} {} {1.000}
+
+R { 7718} {0} {} {The Steps of the Ipac Tlamanacali} { } {Halfway up the steps of the Great Pyramid, you stop on a small terrace and take a look around you. The steps are set in a twin staircase, one each for ascending and descending with an ornamental gutter running between for the sacrificial blood to flow down. The terrace edges its way around the pyramid here. At either side of the steps, at every thirteenth step, a stone image of some god, major or minor, its stone fist holding a white feathered banner aloft. The serpentine banisters are painted with reptilian scales of red, blue, and green. Their heads, stretching out at ground level, are completely covered in beaten gold.} {Aztecs} {} {} {} {1.000} {}
+E { 3951} {d} {d} {32} {0} {} {1.000}
+E { 7719} {u} {u} {16} {0} {} {1.000}
+
+R { 7719} {0} {} {Atop the Ipac Tlamanacali} { } {The view of the city is complete from here. The gentle waters of Lake Texcoco can be seen lapping at the outer most edges of the city. The steps lead down, past the ceremonial altar to the skull rack. The temple of Tlaloc is situated on the north edge while the temple of Huitzilopochtli sits on the southern edge. It is from here that the priests conduct the great ritualistic sacrifices for the festival ceremonies. The flat summit here measures seventy paces to a side.} {Aztecs} {} {} {} {1.000} {}
+E { 7718} {d} {d} {32} {0} {} {1.000}
+E { 7720} {n} {n} {1} {0} {} {1.000}
+E { 7721} {s} {s} {4} {0} {} {1.000}
+
+R { 7720} {0} {} {The Temple of Tlaloc} { } {This temple of Tlaloc represents the harvests and peacetime prosperity of the Mexicas. A hollow stone statue of Tlaloc stands in the middle of this bare stone room, mouth gaping, waiting to receive nourishment.} {Aztecs} {} {} {} {1.000} {}
+E { 7719} {s} {s} {4} {0} {} {1.000}
+
+R { 7721} {0} {} {The Temple of Huitzilopochtli} { } {This temple of Huitzilopochtli, the southern hummingbird and ferocious war god, another aspect of Tonatiu, the sun god, is where all the wars are planned and declared by the Mexica. A hollow stone statue of Huitzilopochtli stands in the middle of this bare stone room, mouth gaping, waiting to receive nourishment.} {Aztecs} {} {} {} {1.000} {}
+E { 7719} {n} {n} {1} {0} {} {1.000}
+
+R { 7722} {0} {} {Inside the Lion Gate} { } {Towering stone walls surround you, blocking out view of all but a patch of the sky above. It is said that the Cyclopes built this place at the order of Perseus, and you believe it after seeing the massive stone blocks which make up the walls around you and the Lion Gate to the south. You are standing on a steep stone ramp which leads down to the Lion Gate, and extends up to the center of the fortress to the north. A small guardhouse has been carved out of the imposing cliff-wall to the west.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7723} {w} {w} {8} {0} {} {1.000}
+E { 7724} {n} {n} {1} {0} {} {1.000}
+E { 3277} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 3277} {gate} {enq ask gate gate} {0} {0} {} {1.000}
+
+R { 7723} {0} {} {A Stone Guardhouse} { } {The recesses of this room are dimly lit by flickering oil lamps mounted high on the walls on either side. Although the floor is slightly slanted, the difference between the floor inside and the grade of the ramp outside gives you the illusion that it is level. The ceiling is low, causing you to feel a bit claustrophobic since the room is made entirely of large stone blocks cut from the granite walls of the hills on which Mycenae lies. Spears are stacked horizontally along one wall with helmets hung on pegs above them, and cots are arranged along the other wall providing a sleeping place for the gate guards. The back of the guardhouse is the rough unbroken stone of the cliff-wall.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7722} {e} {e} {2} {0} {} {1.000}
+
+R { 7724} {0} {} {The Acropolis} { } {You stand atop the hill on which the great city of Mycenae has been built. A sweeping view of the town and the surrounding countryside to the south and east is available here from the summit, encompassing much of the fertile land and small farms that surround the polis. The palace of Mycenae rises to the north, and a large temple blocks the view to the northeast. The cyclopean walls surrounding the fortress seem just as impressive when viewed from above as they did looking up at them from below. A granary opens to the west, and a steep ramp leads down to the Lion Gate to the south.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7722} {s} {s} {4} {0} {} {1.000}
+E { 7725} {w} {w} {8} {0} {} {1.000}
+E { 7726} {n} {n} {1} {0} {} {1.000}
+E { 7728} {e} {e} {2} {0} {} {1.000}
+
+R { 7725} {0} {} {The Granary} { } {The granary is a dim and dusty building made of the great stone blocks that seem to be a staple of architecture in this city. The anteroom, in which you stand, has been made crowded by the addition of several cots on which guards can sleep. A strongly reinforced door leads back into the granary proper. A quick look through the bars gives you a glimpse of the rows of amphorae filled with wheat and corn to be used to feed the polis during the winter.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7724} {e} {e} {2} {0} {} {1.000}
+
+R { 7726} {0} {} {The Megaron} { } {This large rectangular hall seems to function as a meeting room. Rows of low benches are set on either side of the hall, with breaks between them for entranceways to other rooms in the palace complex. They are angled slightly towards a dais at the rear of the room. The entrance to the megaron is flanked by two large columns set to hold the massive lintel that dominates the main entrance to the palace. A passageway to the north leads to an even larger room.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7724} {s} {s} {4} {0} {} {1.000}
+E { 7727} {n} {n} {1} {0} {} {1.000}
+E { 7730} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7727} {0} {} {Mycenae's Throne Room} { } {This grand hall is the largest room in the palace complex. Simple stone columns support the roof, lining the walls and flanking a central aisle leading to the base of the magnificent throne of King Sthenelus. Bright tapestries depicting battles and legends cover the walls, interspersed with mounted weapons and armor of a variety of styles, likely spoils of war. Passageways open to the east and west leading to wide courtyards, but the guards blocking egress make you think it unlikely you will pass that way. The only open exit lies south.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7726} {s} {s} {4} {0} {} {1.000}
+
+R { 7728} {0} {} {The Acropolis} { } {From this vantage on the eastern end of the acropolis, most of the city of Mycenae can be seen. The polis is built on a naturally defensible hill and surrounded by a thick stone wall. Access from the north or west is not possible due to the steep and rugged terrain, and the east and south are blocked by the cyclopean wall and the city's two gates. A great temple rises against the sky to the northwest, blocking your view of the palace. Numerous smaller temples and shrines lie just north and south of you on small side streets, and houses can be seen clinging to the slope both inside and outside of the main city walls on all sides of the polis. The acropolis continues to the west, and the ground slopes down to the east, leading to the postern gate.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7724} {w} {w} {8} {0} {} {1.000}
+E { 7729} {e} {e} {2} {0} {} {1.000}
+
+R { 7729} {0} {} {A Sally Port} { } {This enclosed corridor is the sally port for the postern gate, dimly lit by a single torch. The ground slopes steeply up to the west, leading to the center of town and the acropolis, while a low wooden gate, framed in stone, blocks egress to the east through a narrow sally port. Cyclopean stone blocks make up the walls, the framing of the gate, and overhang the port, giving you the uncomfortable feeling that were the port to collapse, you would be buried under so much rock that no one could dig deep enough to find your pulverized corpse.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7728} {w} {w} {8} {0} {} {1.000}
+E { 3275} {gate} {enq ask gate gate} {0} {0} {} {1.000}
+E { 3275} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000}
+
+R { 7730} {0} {} {An Open Courtyard} { } {This wide courtyard is enclosed in stone but open to the sky. Short paths meander through the shrubs and tall, leafy plants, seeming to disappear for a time before reemerging nearby. The effect of the layout is to make the small garden area seem larger than it really is, without seeming crowded or close. Stone statuary stands amid the bushes and flowering plants and you spy several squat stone benches where you might take a moment's respite. A central fountain feeds several rivulets that stream away into hidden places. A grand set of doors leads north and another door leads west into the palace proper.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7726} {w} {open w;w} {8} {0} {} {1.000}
+E { 7731} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7731} {0} {} {A Palace Suite} { } {You have wandered into a private suite of rooms deep within the palace, accessible only by the atrium courtyard outside. The colorful tapestries and fine furnishings speak of wealth and good taste. Doubtless these are the rooms of an important noble, or perhaps even the king! In the corner of the room is a small raised dais with a large marble basin and several amphorae containing oils and water. The only exit is to the south into a courtyard.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7730} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7732} {0} {} {A Shallow Crevasse} { } {You have squeezed into a narrow crevasse leading down to the east. It is difficult to see ahead or behind of you due to the rock closing in from all sides.} {Ancient Greece} {} {} {} {1.000} {}
+E { 3309} {w} {w} {8} {0} {} {1.000}
+E { 7733} {e} {e} {2} {0} {} {1.000}
+E { 7734} {n} {n} {1} {0} {} {1.000}
+
+R { 7733} {0} {} {A Steep Slope} { } {You can barely keep your footing on this rocky slope high atop Mount Apesas. Thin brush on the slope above you provides a few handholds, but no firm purchase for your feet, while the slope south turns steep so quickly you are afraid that you would slide all the way down to Hades if you had a misstep here.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7732} {w} {w} {8} {0} {} {1.000}
+E { 7735} {n} {n} {1} {0} {} {1.000}
+
+R { 7734} {0} {} {The Mouth of a Dark Cave} { } {You stand just outside the mouth of a dark passage, leading down into the mountain itself. A few bones strewn outside the rocky entrance testify that you are not the only living creature on the mountain.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7732} {s} {s} {4} {0} {} {1.000}
+E { 7735} {e} {e} {2} {0} {} {1.000}
+
+R { 7735} {0} {} {A Bone-Strewn Cave} { } {You have entered the cramped confines of a narrow, dark cave strewn with the bones of animals and rank with the stench of decay. A mighty beast must lair here, for some of the bones are large indeed.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7734} {w} {w} {8} {0} {} {1.000}
+E { 7733} {s} {s} {4} {0} {} {1.000}
+
+R { 7736} {513} {} {** FALLING INTO A BOTTOMLESS CHASM **} { } {You teeter for a second on the brink of the chasm....} {Ancient Greece} {} {} {} {1.000} {}
+E { 3309} {s} {s} {4} {0} {} {1.000}
+E { 7737} {w} {w} {8} {0} {} {1.000}
+E { 7739} {n} {n} {1} {0} {} {1.000}
+
+R { 7737} {0} {} {A Rubble Strewn Hillside} { } {The ground is broken and uneven here, making your footing unsure. The hillside slopes down into a chasm to the east, making passage in that direction impossible for any save a bird, while a trail of sorts leads up to the north to a rocky promontory.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7736} {e} {e} {2} {0} {} {1.000}
+E { 7738} {n} {n} {1} {0} {} {1.000}
+
+R { 7738} {0} {} {High Above Lake Stymphalus} { } {You are perched on a rocky promontory high above Lake Stymphalus. The near shore is almost directly beneath you, and you are inundated with the noisy commotion from the thousands of ungainly birds that frolic in the water below you. From your vantage point you can remain hidden while spying on whatever transpires below.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7737} {s} {s} {4} {0} {} {1.000}
+
+R { 7739} {0} {} {A Lightly Wooded Grove} { } {Set high on the slopes of Mount Apesas is this lovely wooded grove. A small temple is set back in the foliage, alabaster columns encircled by twining ivy trailers. The cool blue of Lake Stymphalus can be glimpsed to the north through the screen of trees, but passage to the south is blocked by a deep chasm.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7736} {s} {s} {4} {0} {} {1.000}
+E { 7740} {n} {n} {1} {0} {} {1.000}
+
+R { 7740} {0} {} {Stymphalus Lake} { } {Serene blue waters stretch far out onto the plateau hugging the side of Mount Apesas. The far side of the lake reflects the snowy peaks to the north and the deep green of their wooded slopes. The near shore, however, is littered with the droppings of what must be an inordinately large animal, or many such animals. There is no way around the lake; the only exit is back into the woods to the south.} {Ancient Greece} {} {} {} {1.000} {}
+E { 7739} {s} {s} {4} {0} {} {1.000}
+
+R { 7741} {0} {} {The Entrance of the Colosseum} { } {This is the finished product of over a decade of work. You feel humbled by the large building engulfing all that enter. Tall arches mark the entryways. Four levels rise above you on this masterpiece of Roman work with a total of 80 vomitoria, or entrance arches, four of which are solely for the Emperor and his dignitaries. Two tiers above that, arches again surround the building, creating a honeycomb of vaults throughout. The fourth and final level stands plain. This level holds the awning that shades the audience. Statues mark the first and second levels within the marble arches.} {Ancient Rome} {} {} {} {1.000} {}
+E { 5188} {w} {open w;w} {8} {0} {} {1.000}
+E { 7742} {n} {n} {1} {0} {} {1.000}
+E { 7743} {e} {e} {2} {0} {} {1.000}
+E { 7753} {d} {open d;d} {32} {0} {} {1.000}
+E { 7757} {u} {u} {16} {0} {} {1.000}
+
+R { 7742} {0} {} {The Arched Hallway} { } {This hallway is wide enough for several people to stream through. The tall arches are made of sectioned marble and white stucco with a strange design on the keystone in the center.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7741} {s} {s} {4} {0} {} {1.000}
+E { 7750} {u} {u} {16} {0} {} {1.000}
+
+R { 7743} {0} {} {A Narrow Walkway} { } {This walkway spreads out into the step-like seats that surround the arena below. The flat marble walkway gives way to the polished marble and plain white cement seating. Above, the awning partially blocks out the sky.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7741} {w} {w} {8} {0} {} {1.000}
+E { 7744} {n} {n} {1} {0} {} {1.000}
+E { 7747} {s} {s} {4} {0} {} {1.000}
+
+R { 7744} {0} {} {Among the Seats} { } {The 'seats' are more like raised steps between narrow walkways. They surround the inner walls of this great building in several levels. Several levels rise above you. Each level represents a rank in Roman citizenship. Romans crowd these seats faithfully for all events. This lower rank is for the middle-clsas Romans. However, when food is given, the lower-class are allowed to the wall.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7743} {s} {s} {4} {0} {} {1.000}
+E { 7745} {n} {n} {1} {0} {} {1.000}
+
+R { 7745} {0} {} {Among the Seats} { } {The 'seats' are more like raised steps between narrow walkways. They surround the inner walls of this great building in several levels. Several levels rise above you. Each level represents a rank in Roman citizenship. Romans crowd these seats faithfully for all events. This lower rank is for the middle-clsas Romans. However, when food is given, the lower-class are allowed to the wall.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7744} {s} {s} {4} {0} {} {1.000}
+E { 7746} {n} {n} {1} {0} {} {1.000}
+
+R { 7746} {0} {} {Among the Seats} { } {The 'seats' are more like raised steps between narrow walkways. They surround the inner walls of this great building in several levels. Several levels rise above you. Each level represents a rank in Roman citizenship. Romans crowd these seats faithfully for all events. The emperor is known to hold rare and strange shows and matches, even at night.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7745} {s} {s} {4} {0} {} {1.000}
+
+R { 7747} {0} {} {Among the Seats} { } {The 'seats' are more like raised steps between narrow walkways. They surround the inner walls of this great building in several levels. Several levels rise above you. Each level represents a rank in Roman citizenship. Romans crowd these seats faithfully for all events. The emperor is known to hold rare and strange shows and matches, even at night.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7743} {n} {n} {1} {0} {} {1.000}
+E { 7748} {s} {s} {4} {0} {} {1.000}
+
+R { 7748} {0} {} {Among the Seats} { } {The 'seats' are more like raised steps between narrow walkways. They surround the inner walls of this great building in several levels. Several levels rise above you. Each level represents a rank in Roman citizenship. Romans crowd these seats faithfully for all events. The emperor is known to hold rare and strange shows and matches, even at night.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7747} {n} {n} {1} {0} {} {1.000}
+E { 7749} {s} {s} {4} {0} {} {1.000}
+
+R { 7749} {0} {} {Among the Seats} { } {The 'seats' are more like raised steps between narrow walkways. They surround the inner walls of this great building in several levels. Several levels rise above you. Each level represents a rank in Roman citizenship. Romans crowd these seats faithfully for all events. The emperor is known to hold rare and strange shows and matches, even at night.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7748} {n} {n} {1} {0} {} {1.000}
+
+R { 7750} {0} {} {A Narrow Staircase} { } {This set of stairs leads the spectators to their seating on the upper levels. The thick white walls lead to the seating above. Quite a bit above your head, an awning is partially rolled out from the fourth level.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7742} {d} {d} {32} {0} {} {1.000}
+E { 7751} {n} {n} {1} {0} {} {1.000}
+E { 7752} {s} {s} {4} {0} {} {1.000}
+
+R { 7751} {0} {} {Among the Peasant Seats} { } {This row of seating is on the higher levels. Peasants and other lower-class Romans are to take their seats here. They surround the inner walls of this great building in several levels. Romans crowd these seats faithfully for all events. The emperor is known to hold rare and strange shows and matches, even at night.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7750} {s} {s} {4} {0} {} {1.000}
+
+R { 7752} {0} {} {Among the Peasant Seats} { } {This row of seating is on the higher levels. Peasants and other lower-class Romans are to take their seats here. They surround the inner walls of this great building in several levels. Romans crowd these seats faithfully for all events. The emperor is known to hold rare and strange shows and matches, even at night.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7750} {n} {n} {1} {0} {} {1.000}
+
+R { 7753} {0} {} {The Trainer's Entrance} { } {This is the pathway for the trainers and their exotic animals. A cage is set up to the south to house the beasts until their show. The stench of death and decay has been burned into the dirt floors.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7741} {u} {open u;u} {16} {0} {} {1.000}
+E { 7754} {n} {n} {1} {0} {} {1.000}
+E { 7756} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7754} {0} {} {The Gladiator Armory} { } {This large room is full of various weapons and armor. The gladiators start their fateful days here, choosing their protection for their match. Scarred by the gladiators who see fit to test their weapons before they leave the room, no wall or table has escaped a series of scratches, dents and cuts.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7753} {s} {s} {4} {0} {} {1.000}
+E { 7755} {e} {e} {2} {0} {} {1.000}
+
+R { 7755} {0} {} {The Gladiator Ramp} { } {This dark passageway leads up into the heart of the colosseum. Many men, women and animals have taken this walkway to their deaths. The smell of blood and death lingers here. Always.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7754} {w} {w} {8} {0} {} {1.000}
+E { 7759} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7756} {513} {} {In an Animal Cage} { } {The stench of animal waste fills your nostrils. Looking at the floor, you are uncertain whether this cage has ever been cleaned. Some straw is strewn around on the dirt floor. An occasional bone fragment mixed within the straw, obviously left over from the lunch of whatever animal was caged here.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7753} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7757} {0} {} {Before the Imperial Booth} { } {This section is for the Emperor and his court only. Thick wooden doors block the entrance into the booth itself. Only the finest of the Praetorian guards are permitted to stand guard here. Extra care has been taken to help prevent assassination attempts on the Emperor.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7741} {d} {d} {32} {1} {} {1.000}
+E { 7758} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7758} {0} {} {The Imperial Booth} { } {This large booth has been specially made for the Emperor and his party. Colorful drapes and pillows adorn the wall and floor. The Emperor's seal marks the top of the doorway.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7757} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7759} {0} {} {The Center of the Colosseum} { } {Here is where it all happens. You can look all around and even if empty, your mind's eye can see the crowd of blood-thirsty Romans cheering and yelling as gladiators put on a show with their lives. The sand-covered ground beneath your feet seems to echo each step taken in the hallways and rooms below.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7755} {w} {open w;w} {8} {0} {} {1.000}
+E { 7760} {n} {n} {1} {0} {} {1.000}
+E { 7761} {e} {e} {2} {0} {} {1.000}
+E { 7762} {s} {s} {4} {0} {} {1.000}
+
+R { 7760} {0} {} {The Center of the Colosseum} { } {Here is where it all happens. You can look all around and even if empty, your mind's eye can see the crowd of blood-thirsty Romans cheering and yelling as gladiators put on a show with their lives. The sand-covered ground beneath your feet seems to echo each step taken in the hallways and rooms below.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7759} {s} {s} {4} {0} {} {1.000}
+
+R { 7761} {0} {} {The Center of the Colosseum} { } {Here is where it all happens. You can look all around and even if empty, your mind's eye can see the crowd of blood-thirsty Romans cheering and yelling as gladiators put on a show with their lives. The sand-covered ground beneath your feet seems to echo each step taken in the hallways and rooms below.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7759} {w} {w} {8} {0} {} {1.000}
+
+R { 7762} {0} {} {The Center of the Colosseum} { } {Here is where it all happens. You can look all around and even if empty, your mind's eye can see the crowd of blood-thirsty Romans cheering and yelling as gladiators put on a show with their lives. The sand-covered ground beneath your feet seems to echo each step taken in the hallways and rooms below.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7759} {n} {n} {1} {0} {} {1.000}
+
+R { 7763} {0} {} {Entry Vestibule} { } {Young noblemen with nothing better to do wander in and out of the gladiatorial school with indifferent looks on their faces. The door to the school is an iron bar gate that is closed at night as insurance against escaping gladiators. Escaping gladiators are notorious for the destruction they cause once free. The name 'Spartacus' comes immediately to mind.} {Ancient Rome} {} {} {} {1.000} {}
+E { 5188} {n} {open n;n} {1} {0} {} {1.000}
+E { 7764} {s} {s} {4} {0} {} {1.000}
+
+R { 7764} {0} {} {In a Practice Yard} { } {Here the noblemen gather to watch their favorite gladiators as they practice, and to scout newcomers in an attempt to gain an advantage in the inevitable betting. In the day, the merciless sun beats down on the backs of the warriors as they attack and retreat using wooden weapons. Their trainers watch with keen eyes, looking for weaknesses in their attacks and defenses. It is said that the fortunes of the trainers rise and fall with those of their charges.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7763} {n} {n} {1} {0} {} {1.000}
+E { 7765} {e} {e} {2} {0} {} {1.000}
+E { 7767} {s} {s} {4} {0} {} {1.000}
+
+R { 7765} {0} {} {A Dark Corridor} { } {The faint light filtering in through the high windows is somehow absorbed by the high walls before it reaches your path. You can see enough to make your way along the corridor with little difficulty, though. Judging from the heavy smell of dampness and mildew it is probably to your advantage that you can not see what your hands are touching as you use the wall as your guide.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7764} {w} {w} {8} {0} {} {1.000}
+E { 7766} {s} {s} {4} {0} {} {1.000}
+
+R { 7766} {0} {} {An Observation Room} { } {This room is so steeply stepped that you feel in danger of losing your footing and tumbling into the small arena below. The low guardrail intended to prevent that from happening does not look up to the task.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7765} {n} {n} {1} {0} {} {1.000}
+
+R { 7767} {0} {} {In a Small Arena} { } {You stand in a miniature arena within the gladiatorial school. Although the arena is open at the top, there is very little ventilation here. That, combined with the heat radiating from the sand below your feet, makes conditions here oppressive.} {Ancient Rome} {} {} {} {1.000} {}
+E { 7764} {n} {n} {1} {0} {} {1.000}
+
+R { 7768} {0} {} {The Foot of a Steep Hill} { } {The rocky plain has come up against a steep, rocky slope, covered with large boulders and smaller rocks. The top of the hill is high above you, and periodically smaller stones come cascading down in a miniature rockslide.} {Tartarus} {} {} {} {1.000} {}
+E { 2499} {n} {n} {1} {0} {} {1.000}
+
+R { 7769} {0} {} {The Stocks} { } {Placed close to the center of town, prisoners are jailed here to be made an example of. Two small cells, bars on the small windowed opening on the locked door allow the prisoner to see the outside, but not to touch it. A small flight of stairs on the side of the building leads to the roof which appears to be where the hangings take place. A large wood pole is centered there with a thick rope hanging from it. The stench of sweat fills the room. Warm air surrounds you as there is little ventilation.} {17th Century Salem} {} {} {} {1.000} {}
+E { 3831} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7770} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E {  341} {n} {n} {1} {0} {} {1.000}
+E {  339} {s} {s} {4} {0} {} {1.000}
+
+R { 7771} {0} {} {The Kitchens} { } {Dogs trot around a large spit roasting a pig to perfection. A large kettle simmers over the fire. Long tables line the room, providing work space for the many drudges who must prepare so much food every day. Large hunks of dried meat and vegetables hang from the ceiling along with various sized knives and other implements. The fires and wall sconces are kept burning to provide light.} {Medieval Britain} {} {} {} {1.000} {}
+E {  358} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7772} {0} {} {A Cell} { } {A small dark cubby of a room, the Norman cells hold only enough straw for a measly, makeshift pallet that the prisoners must share with the resident rats, fleas, and lice. Chains and shackles hang rusted and empty on the walls.} {Medieval Britain} {} {} {} {1.000} {}
+E {  355} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7773} {0} {} {A Cell} { } {A small dark cubby of a room, the Norman cells hold only enough straw for a measly, makeshift pallet that the prisoners must share with the resident rats, fleas, and lice. The floor is very damp, being on a lower level than the moat, and a small drain empties wastes down one corner of the room.} {Medieval Britain} {} {} {} {1.000} {}
+E {  355} {e} {open e;e} {2} {0} {} {1.000}
+E { 7774} {d} {open d;d} {32} {1} {} {1.000}
+
+R { 7774} {0} {} {At a Dead End} { } {The tunnel seems to dead end here abruptly. You begin to feel claustrophobic, as if the weight of the whole world is crushing down on you. You turn about madly seeking an escape!} {Medieval Britain} {} {} {} {1.000} {}
+E { 7773} {u} {open u;u} {16} {0} {} {1.000}
+E { 7775} {n} {open n;n} {1} {0} {} {1.000}
+
+R { 7775} {0} {} {Deep in the Muck} { } {Deep under the water of the moat, you peer around in the murky waters but can barely see a few feet in front of your face. Reeds brush against your skin as you swim about. The mud squishes beneath your feet as you touch the bottom. You realize you are definitely out of your element and begin to feel the pressure of your breath as it pushes up from your lungs seeking any escape.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7774} {s} {open s;s} {4} {0} {} {1.000}
+E { 7776} {u} {u} {16} {0} {} {1.000}
+
+R { 7776} {0} {} {In the Moat} { } {The brackish greenish waters lap against the sides of the moat. The sides of the moat are much too steep and too high to climb from here--added protection against invasion. You can either go east around the back of the fortress or south toward the front. Periodically air bubbles rise from the depths of the water to pop silently on the surface.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7775} {d} {d} {32} {1} {} {1.000}
+E { 7782} {e} {e} {2} {0} {} {1.000}
+E { 7783} {s} {s} {4} {0} {} {1.000}
+
+R { 7777} {0} {} {In the Moat} { } {The brackish greenish waters lap against the sides of the moat. The sides of the moat are much too steep and too high to climb from here--added protection against invasion. You can either go west around the back of the fortress or south toward the front.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7782} {w} {w} {8} {0} {} {1.000}
+E { 7778} {s} {s} {4} {0} {} {1.000}
+
+R { 7778} {0} {} {In the Moat} { } {The brackish greenish waters lap against the sides of the moat. The sides of the moat are much too steep and too high to climb from here--added protection against invasion. You can either go north or south around the fortress.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7777} {n} {n} {1} {0} {} {1.000}
+E { 7779} {s} {s} {4} {0} {} {1.000}
+
+R { 7779} {0} {} {In the Moat} { } {The brackish greenish waters lap against the sides of the moat. The sides of the moat are much too steep and too high to climb from here--added protection against invasion. You can either go north around the side of the fortress or west toward the drawbridge.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7778} {n} {n} {1} {0} {} {1.000}
+E { 7780} {w} {w} {8} {0} {} {1.000}
+
+R { 7780} {0} {} {Under the Drawbridge} { } {The brackish greenish waters lap against the sides of the moat. The moat continues around the fortress to the east and west. You can probably climb up and out of the moat from here where the sides aren't so steep.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7779} {e} {e} {2} {0} {} {1.000}
+E {  321} {u} {u} {16} {0} {} {1.000}
+E { 7784} {w} {w} {8} {0} {} {1.000}
+
+R { 7781} {0} {} {A Cell} { } {A small dark cubby of a room, the Norman cells hold only enough straw for a measly, makeshift pallet that the prisoners must share with the resident rats, fleas, and lice.} {Medieval Britain} {} {} {} {1.000} {}
+E {  355} {s} {open s;s} {4} {0} {} {1.000}
+
+R { 7782} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7777} {e} {e} {2} {0} {} {1.000}
+E { 7776} {w} {w} {8} {0} {} {1.000}
+
+R { 7783} {0} {} {In the Moat} { } {The brackish greenish waters lap against the sides of the moat. The sides of the moat are much too steep and too high to climb from here--added protection against invasion. You can either go north around the side of the fortress or south toward the front.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7776} {n} {n} {1} {0} {} {1.000}
+E { 7784} {s} {s} {4} {0} {} {1.000}
+
+R { 7784} {0} {} {In the Moat} { } {The brackish greenish waters lap against the sides of the moat. The sides of the moat are much too steep and too high to climb from here--added protection against invasion. You can either go north around the side of the fortress or east toward the drawbridge.} {Medieval Britain} {} {} {} {1.000} {}
+E { 7783} {n} {n} {1} {0} {} {1.000}
+E { 7780} {e} {e} {2} {0} {} {1.000}
+
+R { 7785} {0} {} {In the Slave Prison of Valletta} { } {The Knights of St John may be hospitallers but they obviously see no reason to worry about the well-being of the slaves that work on Valletta's houses and fortifications. Jews, Turks, and prisoners of other, often less prestigious battles, the slaves are all property of the state. They are not considered to be really human at all, excerpt from Christian mercy. The prison is dark and cramped and dirty, wet straw cringes slightly under your feet. The smells of human waste and decay insult your senses.} {Hospitaller Malta} {} {} {} {1.000} {}
+E { 6141} {u} {open u;u} {16} {0} {} {1.000}
+
+R { 7786} {0} {} {A Turkish Camp} { } {A small ridge near the vineyard has proven excellent cover for a small band of Turkish raiders. Not likely to be spotted by anyone who can actually do anything about them, the Turks seem to feel safe here. Overhead, the scrub of the hills surrounding conceals the camp from view. A meal cooks on the campfire, and until you disturbed them, the Turks seemed quite complacent.} {Hospitaller Malta} {} {} {} {1.000} {}
+E { 6672} {s} {s} {4} {0} {} {1.000}
