@@ -179,11 +179,14 @@ Display the map with one of the following methods:
 |rname|Gives a room a nickname in the map|`rname jb`, `rname stag`|
 |search|Finds a room based on the specified nickname and teleports to it|`search jb`, `search stag`|
 |find|Finds a room based on your current room in the MUD and teleports to it|`find`|
+|run|Finds a room based on the specified nickname and runs you to it if a path is found|`run jb`, `run stag`|
 |walk|Finds a room based on the specified nickname and walks you to it if a path is found|`walk jb`, `walk stag`|
 |slowwalk|Finds a room based on the specified nickname and walks **slowly** to it if a path is found|`slowwalk jb`, `slowwalk stag`|
 |stop|Stops a `slowwalk` command.|`stop`|
 |nicknames|Lists all rooms that have nicknames|`nicknames`|
 |savemap|Saves the map to file|`savemap`|
+
+*Note: the difference between `run` and `walk` is the speed of the map update. `Run` will update the map to the destination instantly, while `walk` will do it more slowly.*
 
 ## Prompt Module
 > Identifier: prompt | Default: disabled
