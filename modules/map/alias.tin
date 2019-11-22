@@ -65,6 +65,12 @@
 }
 {5}
 
+#ALIAS {run %1}
+{
+    #MAP find {} {roomnote} {%1};
+    #PATH run;
+}
+
 #ALIAS {walk %1}
 {
 	#MAP find {} {roomnote} {%1};
@@ -87,6 +93,7 @@
 #ALIAS {stop}
 {
     #UNTICK slowwalk;
+    #PATH destroy;
     #SEND clear;
 }
 {5}
