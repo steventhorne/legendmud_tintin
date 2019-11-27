@@ -648,8 +648,6 @@ E {  103} {s} {s} {4} {0} {} {1.000}
 
 R {  103} {0} {} {An Atoll} { } {This flyspeck of land is uncharted, and unoccupied save by the few lonesome palms that struggle for life. The beach sand is pristine and glaringly white, the water as it laps on the beach is crystal clear. A few feet in from the beach you see a place where something was obviously hastily buried--a half- covered-up hole, marring the paradise.} {Tea Route } {atoll} {} {} {1.000} {}
 E {  102} {n} {n} {1} {0} {} {1.000}
-E {  441} {atoll} {open hole;st} {0} {0} {} {1.000}
-E {  441} {open hole} {open hole;st} {0} {0} {} {1.000}
 
 R {  104} {0} {} {Berth 1: The Americas Wharf} { } {Water laps at your ship here at the wharf. The Port of London at this end looks like a rather unappetizing place--you see people moving furtively along the streets, docks full of ships hidden by mist and clammy fog, and abandoned warehouses lining the narrow streets. North of you is the dock itself, and beyond it the offices of the harbormaster, who is no doubt already announcing the arrival or departure of yet another vessel.} {London Port } {} {} {} {1.000} {}
 E {   44} {n} {n} {1} {0} {} {1.000}
@@ -2065,8 +2063,6 @@ R {  441} {0} {} {A Deserted Isle} { } {You are surrounded by turquoise waves ri
 E {  461} {n} {n} {1} {0} {} {1.000}
 E {  455} {s} {s} {4} {0} {} {1.000}
 E {  465} {w} {w} {8} {0} {} {1.000}
-E {  103} {red} {enqueue say yes;pause 2 pulses;st} {0} {0} {} {1.000}
-E {  103} {say yes} {enqueue say yes;pause 2 pulses;st} {0} {0} {} {1.000}
 
 R {  442} {0} {} {Off the Coast of France Near Calais} { } {The dark and often stormy cliffs would make a perfect spot for smugglers to sneak in or out their goods. The white cliffs of Dover shine brightly in the far distance to the northwest.} {Pirate Caribbean} {} {} {} {1.000} {}
 E { 6457} {n} {n} {1} {0} {} {1.000}
@@ -4412,11 +4408,11 @@ R {  992} {0} {} {The Bottom of the Dungeon Stairs} { } {A stone staircase winds
 E {  990} {e} {e} {2} {0} {} {1.000}
 E {  993} {d} {d} {32} {0} {} {1.000}
 
-R {  993} {0} {} {The Dark Dungeon Hallway} { } {Darkness envelopes you, bringing a nearly palpable oppression with it.  You try to ignore your feelings, but every noise makes you jump. The stone walls are damp and covered in a slimy layer of moss. Even the screams, which almost seem to be common place and normal here, echo through the hallway as a hidden banshee luring you forward. You rest against the walls trying to take deep breaths while you decide what to do now.} {Transylvania } {} {} {} {1.000} {}
+R {  993} {0} {} {The Bottom of the Dungeon Stairs} { } {A stone staircase winds its way up into the gloom to the main castle floor above. The darkness here is oppressing and the moans and nearby screams don't help the feeling. The hallway continues from the stairs to the east into deep concealing shadows. Feeling your way along, you notice the walls to be damp and have a slightly moldy coating. Empty brackets along the walls appear to have once held torches.} {Transylvania} {} {} {} {1.000} {}
 E {  992} {u} {u} {16} {0} {} {1.000}
 E {  994} {e} {e} {2} {0} {} {1.000}
 
-R {  994} {0} {} {The Prison Entrance} { } {A rusting iron door opens south from this dead-end corridor. The walls are covered with a light slimy mold and cracks run along the mortar seams. The only light is a slight flickering of torchlight from under the doorway. Screams echo through the hall sending shivers through you.} {Transylvania } {} {} {} {1.000} {}
+R {  994} {0} {} {The Dark Dungeon Hallway} { } {Darkness envelopes you, bringing a nearly palpable oppression with it.  You try to ignore your feelings, but every noise makes you jump. The stone walls are damp and covered in a slimy layer of moss. Even the screams, which almost seem to be common place and normal here, echo through the hallway as a hidden banshee luring you forward. You rest against the walls trying to take deep breaths while you decide what to do now.} {Transylvania} {} {} {} {1.000} {}
 E {  993} {w} {w} {8} {0} {} {1.000}
 E { 5552} {e} {e} {2} {0} {} {1.000}
 
@@ -6180,11 +6176,11 @@ E { 5350} {w} {w} {8} {0} {} {1.000}
 R { 1397} {0} {<029>} {The Monkey's Tail} {I} {This inn is smoky and lit only by a few sputtering lamps. A few scarred tables and well-worn stools offer a place to sit and drink. A stairway to the back indicates that one might find a place to sleep here, but not without the permission of the innkeeper. A massive wood platform at one end of the inn rests on the outstretched tails of a pair of cavorting monkeys, who grin at you expectantly.} {The Silk Road } {china} {} {} {1.000} {}
 E { 1396} {w} {w} {8} {0} {} {1.000}
 
-R { 1398} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 1398} {0} {} {A Humble Wineseller's Hut} { } {This small and dirty hut has very little to offer as a place of relaxation and conviviality. A series of rough benches crouch beside dirty tables. A jumble of jars and vessels, some cracked and ill-repaired, are stacked along the east wall. Along the north wall is a row of dirty presses, meant for squeezing the liquid from fermented plums.} {The Silk Road} {} {} {} {1.000} {}
 E { 1390} {s} {s} {4} {0} {} {1.000}
 E { 1399} {n} {open n;n} {1} {0} {} {1.000}
 
-R { 1399} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 1399} {0} {} {In a Green Field} { } {Your feet sink into the warm soft earth of the field. The ground has recently been turned over here, and the old crops plowed under. You might expect the smell of the exposed earth to be sweet and full of the promise of life. And yet -- what stretches out before you is like no farmstead you have ever seen. All you smell is the sourness of death and inevitable decay. There is something timeless and ancient about this land, something mysterious and unknown. No peasants are to be seen, yet you feel you are not alone here.} {The Silk Road} {} {} {} {1.000} {}
 E { 1398} {s} {open s;s} {4} {0} {} {1.000}
 E { 1400} {d} {dig dirt} {32} {0} {} {1.000}
 E { 1400} {dig dirt} {dig dirt} {0} {0} {} {1.000}
@@ -9405,6 +9401,7 @@ E { 2159} {n} {n} {1} {0} {} {1.000}
 R { 2161} {0} {} {Around the Cook Pot} { } {The smells coming from the large cauldron-like pot make your mouth water. The fire is kept burning and the houngan occasionally comes out and sprinkles some powders into it to keep away the demons. A small family of black goats has been staked out to the north of the clearing, oblivious to their fate of becoming either tonight's sacrifice or dinner. A shack rests under the jungle canopy to the east and a clearing lies to the west.} {Pirate Caribbean } {} {} {} {1.000} {}
 E { 2159} {w} {w} {8} {0} {} {1.000}
 E { 2162} {e} {e} {2} {0} {} {1.000}
+E { 7789} {s} {s} {4} {0} {} {1.000}
 
 R { 2162} {0} {} {Inside a Shack} { } {The contents of this meager shack look as if they've been strewn about carelessly. Candles and strange-looking figures line the shelves. Small jars that glow and hum slightly stand vigil from the highest shelf, protected from prying eyes and snatching fingers. White chicken feathers ruffle underfoot in the slight breeze. A box of small dolls with blank faces waits in the corner to be embroidered. A small door leads to a back room to the north. To the west, the smell of stew simmering over an open fire beckons you.} {Pirate Caribbean } {} {} {} {1.000} {}
 E { 2161} {w} {w} {8} {0} {} {1.000}
@@ -9456,18 +9453,19 @@ E { 2173} {e} {e} {2} {0} {} {1.000}
 R { 2173} {0} {} {The Lawn} { } {A lush lawn surrounds the house and separates it from the slaves' quarters. Large palms grow along the edges of the lawn providing shade and fruit. To the north, the plantation house looks large and airy, to best catch the tropical breezes. You could investigate the servants' quarters to the east.} {Pirate Caribbean } {} {} {} {1.000} {}
 E { 2172} {w} {w} {8} {0} {} {1.000}
 E { 2174} {n} {n} {1} {0} {} {1.000}
-E { 2175} {e} {e} {2} {0} {} {1.000}
+E { 7787} {e} {e} {2} {0} {} {1.000}
 
 R { 2174} {0} {} {The Porch} { } {The broad expanse of the porch is set perfectly so that you can enjoy the evening breezes. The fragrant tropical blossoms drift redolently on the breeze. The main lawn is to the south. An elaborately wrought wicker door blocks the way north into the privacy of the house and the lane runs out to a small dirt road west of the house.} {Pirate Caribbean } {} {} {} {1.000} {}
 E { 2173} {s} {s} {4} {0} {} {1.000}
 E { 2177} {n} {open n;n} {1} {0} {} {1.000}
 
 R { 2175} {0} {} {The Slave Quarters} { } {Little more than shacks, these quarters provide some shelter from the jungle nights for the slaves owned by the French colonists. Behind the quarters to the north, you can see a small plot of coffee and other more nutritious tuber plants growing. The great expanse of the lawn opens up to the west.} {Pirate Caribbean } {} {} {} {1.000} {}
-E { 2173} {w} {w} {8} {0} {} {1.000}
-E { 2176} {n} {n} {1} {0} {} {1.000}
+E { 7787} {w} {w} {8} {0} {} {1.000}
+E { 7788} {n} {n} {1} {0} {} {1.000}
 
 R { 2176} {0} {} {A Small Garden Plot} { } {The slaves have planted a variety of tubers and a large section of coffee plants. You think you can recognize the plants of the cassava and manioc tubers which make up a large portion of the slaves diet. The broad leaves of the coffee plants block the way to the north, east, and west.} {Pirate Caribbean } {} {} {} {1.000} {}
-E { 2175} {s} {s} {4} {0} {} {1.000}
+E { 7788} {s} {s} {4} {0} {} {1.000}
+E { 7789} {n} {n} {1} {0} {} {1.000}
 
 R { 2177} {0} {} {The Big House} { } {The richness of the decor astounds you. Compared to the menial lives lived by the other inhabitants of the islands, this is paradise. The house is large and airy. The furbishings speak of great wealth and prosperity.} {Pirate Caribbean } {} {} {} {1.000} {}
 E { 2174} {s} {open s;s} {4} {0} {} {1.000}
@@ -9672,7 +9670,7 @@ E { 2227} {e} {open e;e} {2} {0} {} {1.000}
 E { 2228} {n} {n} {1} {0} {} {1.000}
 E { 5401} {w} {open w;w} {8} {0} {} {1.000}
 
-R { 2227} {0} {<029>} {La Posada} {I} {The atmosphere of this quaint little inn is bright and welcoming, even to the most world-weary traveler. The posada provides a stop over for those traveling back and forth between Madrid and the New World -- those carrying gold and other riches back to the royal court, seeking the favor of the throne. Yes, this little inn has prospered greatly from the influx of gold into Spain.} {The Alhambra } {jose} {} {} {1.000} {}
+R { 2227} {0} {<029>} {La Posada} {I} {The atmosphere of this quaint little inn is bright and welcoming, even to the most world-weary traveler. The posada provides a stop over for those traveling back and forth between Madrid and the New World -- those carrying gold and other riches back to the royal court, seeking the favor of the throne. Yes, this little inn has prospered greatly from the influx of gold into Spain.} {The Alhambra } {posada} {} {} {1.000} {}
 E { 2226} {w} {open w;w} {8} {0} {} {1.000}
 
 R { 2228} {0} {<069>} {The Square of the Virrambla} {W} {This crowded contemporary marketplace was once the scene of Moorish jousts and tournaments. Now, although several shops line the Zacatin, many vendors hawk their wares here in the busy street, aggressively seeking customers, and bodegones de puntapie, or tavern stalls, are plentiful.} {The Alhambra } {} {} {} {1.000} {}
@@ -19412,7 +19410,7 @@ E { 4556} {s} {s} {4} {0} {} {1.000}
 E { 4559} {w} {w} {8} {0} {} {1.000}
 E { 4564} {n} {n} {1} {0} {} {1.000}
 
-R { 4558} {1} {} {Stuck in Customs!} { } {Human misery reeks from the walls in this sparsely furnished, grim office; even the portrait of the Madonna and Child on the wall seems tired, the frame chipped at the edge, and the canvas frayed. You are surrounded by a low dissatisfied murmur produced by people coming and going and being made to pay more than they expected for their cargo -- or simply having them claimed by the Order due to faulty paperwork. You perceive that the less time you spend in the customs office, the healthier your economic situation overall.} {Hospitaller Malta} {} {} {} {1.000} {}
+R { 4558} {513} {} {Stuck in Customs!} { } {Human misery reeks from the walls in this sparsely furnished, grim office; even the portrait of the Madonna and Child on the wall seems tired, the frame chipped at the edge, and the canvas frayed. You are surrounded by a low dissatisfied murmur produced by people coming and going and being made to pay more than they expected for their cargo -- or simply having them claimed by the Order due to faulty paperwork. You perceive that the less time you spend in the customs office, the healthier your economic situation overall.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 3033} {w} {w} {8} {0} {} {1.000}
 
 R { 4559} {0} {} {On the Other Side of Bifrost} { } {You stand at one side of Bifrost, the rainbow bridge leading from the realm of mortals to Asgard, the realm of the gods. The bridge itself is made from a rainbow with its red color, the flaming fire, serving as a defense against the Jotuns. On the other side of the bridge, you can just make out the walls of Himinbjorg, the castle of the Aesir Heimdallr, the bridge's guardian.} {Svartalfheim } {} {} {} {1.000} {}
@@ -20908,37 +20906,12 @@ R { 4915} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4914} {s} {s} {4} {0} {} {1.000}
 E { 4913} {n} {n} {1} {0} {} {1.000}
 
-R { 4916} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5204} {w} {w} {8} {0} {} {1.000}
-E { 4917} {e} {e} {2} {0} {} {1.000}
+R { 4916} {0} {} {The Crypt of the Dracos Family Line} { } {Through the stone corridor, the walls are lined with niches with bones wrapped in shrouds. Many of them still have their shields or swords with them, but these appear to have rusted to uselessness. A thick layering of white dust covers the floor and in the niches. Your trepidation grows stronger as you move south.} {Transylvania} {} {} {} {1.000} {}
+E { 5552} {w} {open w;w} {8} {0} {} {1.000}
+E { 4917} {s} {s} {4} {0} {} {1.000}
 
-R { 4917} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4916} {w} {w} {8} {0} {} {1.000}
-E { 4918} {e} {e} {2} {0} {} {1.000}
-
-R { 4918} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4917} {w} {w} {8} {0} {} {1.000}
-E { 4919} {e} {e} {2} {0} {} {1.000}
-
-R { 4919} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4918} {w} {w} {8} {0} {} {1.000}
-E { 4920} {e} {e} {2} {0} {} {1.000}
-
-R { 4920} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4919} {w} {w} {8} {0} {} {1.000}
-E { 4921} {e} {e} {2} {0} {} {1.000}
-
-R { 4921} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4920} {w} {w} {8} {0} {} {1.000}
-E { 5203} {e} {e} {2} {0} {} {1.000}
-
-R { 4922} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7190} {s} {s} {4} {0} {} {1.000}
-E { 7203} {n} {n} {1} {0} {} {1.000}
-
-R { 4923} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5203} {s} {s} {4} {0} {} {1.000}
-E { 7190} {n} {n} {1} {0} {} {1.000}
+R { 4917} {0} {} {The End Crypt} { } {The last corner of this crypt holds a large carved wood coffin. A few of the niches with skeletons still line the walls, but this coffin is obviously much newer. The carvings show mystical symbols and the top of it has been detailed in the bust of a huge dragon looking straight out. The wood appears to be some kind of cherry with a stain which brings out the reddish highlights in the wood grains. The very thickness in the air seems to be from more than just the oppressing lack of light.} {Transylvania} {} {} {} {1.000} {}
+E { 4916} {n} {n} {1} {0} {} {1.000}
 
 R { 4924} {0} {} {The End of a Wide, Well-Kept Path} { } {The path branches here, with the main route continuing its way through the trees east and west, the ground churned up and muddy with constant use. The path heading off to the north is quite different - it is as straight as an arrow, with some trees felled to keep to line. It doesn't look all that well-used, but someone certainly has been keeping it in good condition.} {Aboriginal Dreamtime } {} {} {} {1.000} {}
 E { 4255} {e} {e} {2} {0} {} {1.000}
@@ -22122,11 +22095,11 @@ E { 7191} {e} {e} {2} {0} {} {1.000}
 
 R { 5203} {0} {} {Vast Gulf Waters} { } {The waters of the Gulf of Alaska roll about you, whitecaps forming on the tips of the waves when the wind picks up. Just to the north, the gulf narrows into an inlet between mountains and land. A good ways to the west is a large island. In every other direction, there is only water.} {1802 Alaska} {} {} {} {1.000} {}
 E { 5202} {s} {s} {4} {0} {} {1.000}
-E { 4921} {w} {w} {8} {0} {} {1.000}
-E { 4923} {n} {n} {1} {0} {} {1.000}
+E { 5204} {w} {w} {8} {1} {} {1.000}
+E { 7190} {n} {n} {1} {0} {} {1.000}
 
 R { 5204} {0} {} {On Open Water} { } {Deep, dark blue water moves all about you, extending almost as far as you can see. Far, far to the northeast, you see a thin line of land on the horizon - the mainland, but there is a lot of water between here and there. Just to the southwest lies Kad'iak Island, mostly devoid of tall trees. A few thin trails of smoke rise from a Russian American Company fort visible on the shore.} {1802 Alaska} {} {} {} {1.000} {}
-E { 4916} {e} {e} {2} {1} {} {1.000}
+E { 5203} {e} {e} {2} {1} {} {1.000}
 E { 7142} {n} {n} {1} {0} {} {1.000}
 E { 7143} {w} {w} {8} {0} {} {1.000}
 
@@ -23590,9 +23563,10 @@ R { 5551} {0} {} {On the Alameda} { } {El Puente de los Silencios is directly no
 E { 3543} {n} {n} {1} {0} {} {1.000}
 E { 5601} {s} {s} {4} {0} {} {1.000}
 
-R { 5552} {0} {} {The Prison Entrance} { } {A rusting iron door opens south from this dead-end corridor. The walls are covered with a light slimy mold and cracks run along the mortar seams. The only light is a slight flickering of torchlight from under the doorway. Screams echo through the hall sending shivers through you.} {Transylvania } {} {} {} {1.000} {}
+R { 5552} {0} {} {The Prison Entrance} { } {A rusting iron door opens south from this dead-end corridor. The walls are covered with a light slimy mold and cracks run along the mortar seams. The only light is a slight flickering of torchlight from under the doorway. Screams echo through the hall sending shivers through you.} {Transylvania} {} {} {} {1.000} {}
 E {  994} {w} {w} {8} {0} {} {1.000}
 E { 5553} {s} {open s;s} {4} {0} {} {1.000}
+E { 4916} {e} {e} {2} {0} {} {1.000}
 
 R { 5553} {0} {} {Inside the Torture Chamber} { } {You are inside a gruesome room of death and misery. Implements of pain are all around you. To the south, you see an iron maiden. West is a huge rack and in the far corner is a whipping post. Blood in various stages of drying cover the floor and walls and the screams of the victims is something you'll remember in your nightmares for the rest of your life. Flickering torches give more light than you would like.} {Transylvania } {} {} {} {1.000} {}
 E { 5552} {n} {open n;n} {1} {0} {} {1.000}
@@ -27199,11 +27173,11 @@ R { 6436} {0} {} {In a Valley} { } {You stand at one end of a gorgeously green v
 E { 6435} {w} {w} {8} {0} {} {1.000}
 E { 7095} {e} {e} {2} {0} {} {1.000}
 
-R { 6437} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 6437} {0} {} {At the Yellow River Ford} { } {The Yellow River rushes by, wide and swift, a flowing ribbon of yellow mud. A few guards look at you suspiciously from the other bank as you eye the waters. The river crossing, and whatever pennies it might extract for them, is the only source of income for the people of Lanzhou, across the river. However, the Emperor does not permit them to charge for entrance into their city, only for departure. A few animal-skin rafts are drawn up to the shore, waiting for a caravan to seek passage.} {The Silk Road} {} {} {} {1.000} {}
 E { 6438} {n} {n} {1} {0} {} {1.000}
 E { 5374} {s} {s} {4} {0} {} {1.000}
 
-R { 6438} {0} {} {The Hexi Corridor} { } {This desolate valley winds between barren desert hills and rolling grasslands. Called 'the yellow dragon', winds blow from the northeast, carrying sand and blasts of heat from the Tenggeli, part of the Gobi Desert. The ground is hard-packed dirt, broken by woody shrubs and half-dead grass. The shifting sands of the desert threaten to rob the southeastern grasslands of their moisture.} {The Silk Road } {} {} {} {1.000} {}
+R { 6438} {0} {} {The Hexi Corridor} { } {This desolate valley winds between barren desert hills and rolling grasslands. Called 'the yellow dragon', winds blow from the northeast, carrying sand and blasts of heat from the Tenggeli, part of the Gobi Desert. The ground is hard-packed dirt, broken by woody shrubs and half-dead grass. The shifting sands of the desert threaten to rob the southeastern grasslands of their moisture.} {The Silk Road} {} {} {} {1.000} {}
 E { 6437} {s} {s} {4} {0} {} {1.000}
 E { 6439} {w} {w} {8} {0} {} {1.000}
 
@@ -30300,8 +30274,8 @@ E { 7205} {s} {s} {4} {0} {} {1.000}
 E { 7206} {w} {w} {8} {0} {} {1.000}
 
 R { 7190} {0} {} {In Susitna's Shadow} { } {A tall mountain towers over the inlet, the ridges forming what could be mistaken as a woman sleeping on her side. The mountain is not as tall as some of the others about, and a small meadow stretches to the water's edge the way a blanket over a sleeping person would taper to the ground. The water is a deep blue, opening to the south into the vast ocean, but flowing into a narrow inlet to the north.} {1802 Alaska} {} {} {} {1.000} {}
-E { 4923} {s} {s} {4} {0} {} {1.000}
-E { 4922} {n} {n} {1} {0} {} {1.000}
+E { 5203} {s} {s} {4} {0} {} {1.000}
+E { 7203} {n} {n} {1} {0} {} {1.000}
 
 R { 7191} {0} {} {In a Sheltered Cove} { } {A small cove has been formed here, its waters fairly serene. A beach stretches along the edge of the water to the north, south, and east, trees towering above the beach a short distance from the water's edge. There is a line of huts to the west just underneath the canopy of the trees, partially hidden by the undergrowth. A brightly colored totem pole stands tall on the beach itself.} {1802 Alaska} {} {} {} {1.000} {}
 E { 5202} {w} {w} {8} {0} {} {1.000}
@@ -30351,7 +30325,7 @@ R { 7202} {0} {} {Klukwan's Hut} { } {Darkness resides in every corner of this h
 E { 7201} {w} {open w;w} {8} {0} {} {1.000}
 
 R { 7203} {0} {} {In a Windy Inlet} { } {Mountains rise above the inlet to the north, providing no place to land a boat in an emergency. The mudflats to the west would be a better area to dock and get off the water. Whitecaps form as the wind comes across the water from the south, a slight wind-tunnel effect caused by the mountains.} {1802 Alaska} {} {} {} {1.000} {}
-E { 4922} {s} {s} {4} {0} {} {1.000}
+E { 7190} {s} {s} {4} {0} {} {1.000}
 E { 7204} {w} {w} {8} {0} {} {1.000}
 
 R { 7204} {0} {} {On the Mudflats} { } {Green algae grows on the surface of the small puddles of water on the mudflats here. The ocean itself is a good distance away, the tide only getting ankle- deep here when it comes in. The mud itself is surprisingly firm, but it would soon get very mushy and anything heavy enough would surely sink if in one place for too long.} {1802 Alaska} {} {} {} {1.000} {}
@@ -30557,6 +30531,7 @@ R { 7251} {0} {} {At the Base of a Reef} { } {The reef presents a sheer wall her
 E { 7250} {n} {n} {1} {0} {} {1.000}
 E { 7252} {s} {s} {4} {0} {} {1.000}
 E { 7245} {u} {u} {16} {0} {} {1.000}
+E { 7790} {e} {e} {2} {0} {} {1.000}
 
 R { 7252} {0} {} {At the Base of a Reef} { } {Here, the reef sinks slowly to the sea floor. Large sea fans wave gently as you pass by the myriad of colors growing on the living rock. To the south the water quickly becomes too shallow as the island rises up out of the sea.} {Pirate Caribbean} {} {} {} {1.000} {}
 E { 7251} {n} {n} {1} {0} {} {1.000}
@@ -32857,3 +32832,34 @@ E { 6141} {u} {open u;u} {16} {0} {} {1.000}
 
 R { 7786} {0} {} {A Turkish Camp} { } {A small ridge near the vineyard has proven excellent cover for a small band of Turkish raiders. Not likely to be spotted by anyone who can actually do anything about them, the Turks seem to feel safe here. Overhead, the scrub of the hills surrounding conceals the camp from view. A meal cooks on the campfire, and until you disturbed them, the Turks seemed quite complacent.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 6672} {s} {s} {4} {0} {} {1.000}
+
+R { 7787} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2175} {e} {e} {2} {0} {} {1.000}
+E { 2173} {w} {w} {8} {0} {} {1.000}
+
+R { 7788} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2176} {n} {n} {1} {0} {} {1.000}
+E { 2175} {s} {s} {4} {0} {} {1.000}
+
+R { 7789} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2176} {s} {s} {4} {0} {} {1.000}
+E { 2161} {n} {n} {1} {0} {} {1.000}
+
+R { 7790} {0} {} {Through a Tunnel in the Coral} { } {With barely enough room to squeeze through this small opening, you squirm your way into the narrow space. The closeness of the living rock is suffocating, and you feel the urge to move on quickly.} {Pirate Caribbean} {} {} {} {1.000} {}
+E { 7251} {w} {w} {8} {0} {} {1.000}
+E { 7791} {s} {s} {4} {0} {} {1.000}
+
+R { 7791} {0} {} {Near a Sunken Ship} { } {Caught by a swiftly changing tide, a Spanish galleon has been condemned to this watery grave. The whole ship is no longer visible as it has provided extra spaces for the coral to anchor itself. It looks as if you might be able to get down into the hold from here.} {Pirate Caribbean} {} {} {} {1.000} {}
+E { 7790} {n} {n} {1} {0} {} {1.000}
+E { 7792} {d} {d} {32} {0} {} {1.000}
+
+R { 7792} {0} {} {In the Hold of a Sunken Ship} { } {The timbers of the ship are covered with a mossy seaweed, making them slick to the touch. Several small shrimp feast upon the bountiful greens as you watch. A crab skitters across a crate. The hold continues to the west into the darkness, and the hatch opens upwards. To the east the timber of the ship look gashed and torn as if by giant fingers; the water has an inky thickness to it.} {Pirate Caribbean} {} {} {} {1.000} {}
+E { 7791} {u} {u} {16} {0} {} {1.000}
+E { 7793} {w} {w} {8} {0} {} {1.000}
+E { 7794} {e} {e} {2} {0} {} {1.000}
+
+R { 7793} {0} {} {The Broken Prow} { } {The evidence is clear as day as to why this ship is here. A large gash in the prow reveals the original reef behind it. The helmsman must have been foolish to try and navigate around this reef in the dark and capricious tides.} {Pirate Caribbean} {} {} {} {1.000} {}
+E { 7792} {e} {e} {2} {0} {} {1.000}
+
+R { 7794} {0} {} {Deep Within the Hold} { } {This section of the hold has been littered with all sorts of treasures, both of the sea and man. Large conch shells, sea fans, and bright corals are mixed in with the more mundane spoils of the wreck. The resulting nest of junk--for it appears to have been assembled into something's nest--probably contains enough gold and silver from Peru to finance your next expedition and then provide for a comfortable retirement.} {Pirate Caribbean} {} {} {} {1.000} {}
+E { 7792} {w} {w} {8} {0} {} {1.000}
