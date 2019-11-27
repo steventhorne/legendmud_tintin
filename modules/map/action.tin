@@ -431,3 +431,18 @@
     #MAP goto 7778;
 }
 {5}
+
+#ACTION {^You feel a thud on the back of your skull and fall...$}
+{
+    #MAP get roomvnum roomvnum;
+    #IF {$roomvnum == 441}
+    {
+        #MAP goto 103;
+    };
+    #IF {$roomvnum == 103}
+    {
+        #MAP goto 441;
+    };
+    #SEND stand;
+}
+{5}
