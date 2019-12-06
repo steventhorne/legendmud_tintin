@@ -20294,7 +20294,7 @@ E { 4753} {s} {s} {4} {0} {} {1.000}
 E { 4751} {n} {n} {1} {0} {} {1.000}
 E { 4761} {e} {e} {2} {0} {} {1.000}
 
-R { 4761} {0} {} {The Halls of the Seraphim} { } {Majestic halls built out of gold and silver where marble basins collect pure water are used by the Seraphim angels as headquarters. There, defenders of the Heavens meet and celebrate their eternal life when they are not on the war path against demons or providing celestial justice upon mortals.} {The Seven Heavens } {} {} {} {1.000} {}
+R { 4761} {0} {<029>} {The Halls of the Seraphim} {I} {Majestic halls built out of gold and silver where marble basins collect pure water are used by the Seraphim angels as headquarters. There, defenders of the Heavens meet and celebrate their eternal life when they are not on the war path against demons or providing celestial justice upon mortals.} {The Seven Heavens } {} {} {} {1.000} {}
 E { 4760} {w} {w} {8} {0} {} {1.000}
 E { 4764} {e} {e} {2} {0} {} {1.000}
 
@@ -20912,6 +20912,29 @@ E { 4917} {s} {s} {4} {0} {} {1.000}
 
 R { 4917} {0} {} {The End Crypt} { } {The last corner of this crypt holds a large carved wood coffin. A few of the niches with skeletons still line the walls, but this coffin is obviously much newer. The carvings show mystical symbols and the top of it has been detailed in the bust of a huge dragon looking straight out. The wood appears to be some kind of cherry with a stain which brings out the reddish highlights in the wood grains. The very thickness in the air seems to be from more than just the oppressing lack of light.} {Transylvania} {} {} {} {1.000} {}
 E { 4916} {n} {n} {1} {0} {} {1.000}
+
+R { 4918} {0} {} {A Hidden Training Camp} { } {Carthaginian soldiers have set up a sturdy camp here composed of wooden huts, covered with mud and assorted moss for camouflage purposes. The paths leading to the camp have been carefully hidden with a carpet of branches and forest moss. Even the wooden barracks are difficult to spot from a distance, their walls painted with the color of nearby vegetation. Around the barracks, you notice cages and equipment for taming huge animals.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 7610} {e} {e} {2} {0} {} {1.000}
+
+R { 4919} {0} {} {The Center of Irem} { } {This plaza at the center of the ruined city of Irem is surrounded by tall pillars of stone. A strange aura emanates within the space as you recall the words of the djinn, recall that this is where the veil between the world of mankind and the dreamworld of the Djinni is the thinnest.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 4920} {use portal} {use portal} {0} {0} {} {1.000}
+E { 6001} {n} {n} {1} {0} {} {1.000}
+
+R { 4920} {0} {} {Inside the City of Brass} { } {You stand at the gates to the gigantic famed city that Djinni, Efreet, and fire elementals call home: the City of Brass. Around you rise tall minarets, spires of metal, and golden domes. The streets of the city are large and paved with a dark volcanic rock while giant torches and lava pools glow, casting shadows on the brass walls of the city's buildings.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 4921} {s} {s} {4} {0} {} {1.000}
+
+R { 4921} {0} {} {A Street of Fire} { } {The main avenue in the City of Brass is a long street paved with volcanic rocks that connects the town gates with the palace of the Sultan. A drizzle of lava falls on the brass roofs around you as dark clouds gather over an ocean of fire to the east.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 4920} {n} {n} {1} {0} {} {1.000}
+E { 4922} {s} {s} {4} {0} {} {1.000}
+
+R { 4922} {0} {} {A Street of Fire} { } {The main avenue in the City of Brass is a long street paved with volcanic rocks that connects the town gates with the palace of the Sultan. A drizzle of lava falls on the brass roofs around you as dark clouds gather over an ocean of fire to the east.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 4921} {n} {n} {1} {0} {} {1.000}
+E { 4923} {e} {e} {2} {0} {} {1.000}
+E { 7806} {s} {s} {4} {0} {} {1.000}
+
+R { 4923} {0} {} {A Controlled Furnace} { } {Two huge lava-filled bellows erupt on both sides of the streets where Djinni and Efreet gather to repair or forge their weapons. The furnace shines with magical energies as fire elementals and lava wyrms emerge from the lava pools.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 4922} {w} {w} {8} {0} {} {1.000}
+E { 7795} {e} {e} {2} {0} {} {1.000}
 
 R { 4924} {0} {} {The End of a Wide, Well-Kept Path} { } {The path branches here, with the main route continuing its way through the trees east and west, the ground churned up and muddy with constant use. The path heading off to the north is quite different - it is as straight as an arrow, with some trees felled to keep to line. It doesn't look all that well-used, but someone certainly has been keeping it in good condition.} {Aboriginal Dreamtime } {} {} {} {1.000} {}
 E { 4255} {e} {e} {2} {0} {} {1.000}
@@ -25400,12 +25423,12 @@ R { 5988} {0} {} {Trekking the Sands of Time} { } {You've traveled the dunes for
 E { 1627} {n} {n} {1} {1} {} {1.000}
 E { 5989} {e} {e} {2} {0} {} {1.000}
 
-R { 5989} {0} {} {Sand Dunes of the Deep Desert} { } {Step after miserable step, you finally reach the top of the searing dunes. Your intuition suggested that this desert was timeless and endless; Now you can confirm it.} {Arabian Dreams } {irem} {} {} {1.000} {}
+R { 5989} {0} {} {Sand Dunes of the Deep Desert} { } {Step after miserable step, you finally reach the top of the searing dunes. Your intuition suggested that this desert was timeless and endless; Now you can confirm it.} {Arabian Dreams } {} {} {} {1.000} {}
 E { 5988} {w} {w} {8} {0} {} {1.000}
 E { 5990} {n} {open n;n} {1} {0} {} {1.000}
 E { 5991} {s} {s} {4} {0} {} {1.000}
 
-R { 5990} {0} {} {The Magician's Shanty} { } {A small and crudely-built shack was constructed in the middle of the desert, probably belonging to the magician of Agrabah, who are some of the few men with the skills necessary to venture so far in the desert. It has not been used in a long time and is now occupied by another creature seeking shelter from the ruthless sun.} {Arabian Dreams } {caliph} {} {} {1.000} {}
+R { 5990} {0} {} {The Magician's Shanty} { } {A small and crudely-built shack was constructed in the middle of the desert, probably belonging to the magician of Agrabah, who are some of the few men with the skills necessary to venture so far in the desert. It has not been used in a long time and is now occupied by another creature seeking shelter from the ruthless sun.} {Arabian Dreams } {irem} {} {} {1.000} {}
 E { 5989} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 5991} {0} {} {Sand Dunes of the Deep Desert} { } {You've traveled the dunes for quite some time now. The faint noise of an ocean's tide comes and goes, playing games with your ears and leaving you to question many things. The vastness of the desert is eerie - as if it never ends. The only form of refuge is a nearby shanty to the north.} {Arabian Dreams } {} {} {} {1.000} {}
@@ -25523,7 +25546,7 @@ E { 6017} {w} {w} {8} {0} {} {1.000}
 E { 6019} {n} {n} {1} {0} {} {1.000}
 E { 6020} {s} {s} {4} {0} {} {1.000}
 
-R { 6019} {0} {} {The Inn of the Blazing Phoenix} { } {A large inn opens directly into the street, its stools and chairs set around an ebony bar and sitting directly in the public areas of the city. A large fire burns wildly in a huge pit at the middle of the inn. It is there where most patrons have gathered to converse, making for a loud conversation.} {Arabian Dreams } {} {} {} {1.000} {}
+R { 6019} {0} {} {The Inn of the Blazing Phoenix} {} {A large inn opens directly into the street, its stools and chairs set around an ebony bar and sitting directly in the public areas of the city. A large fire burns wildly in a huge pit at the middle of the inn. It is there where most patrons have gathered to converse, making for a loud conversation.} {Arabian Dreams } {} {} {} {1.000} {}
 E { 6018} {s} {s} {4} {0} {} {1.000}
 
 R { 6020} {0} {} {The Cindersweeps District} { } {You are halfway from the top of the large hill inside the Cindersweeps district, where Djinni merchants and traders exchange their wares. A large street goes downhill to the south, connecting with the docks of a harbor on a sea of lava.} {Arabian Dreams } {} {} {} {1.000} {}
@@ -31654,7 +31677,7 @@ R { 7501} {0} {} {Lava-Filled Sewers} { } {A network of tunnels and chambers exp
 E { 7500} {e} {e} {2} {0} {} {1.000}
 E { 7502} {n} {n} {1} {0} {} {1.000}
 
-R { 7502} {0} {} {A Polynesian navigator silently mouths a few words of power and snaps his fingers.} { } {[0;1;37m[0;1;32mWalking by a River of Lava[0;32m The heat contained within the tightly sealed sewers is almost unbearable for simple mortals. Hot lava bursts all around, potentially projecting deadly streams and blistering showers around you.} {Arabian Dreams} {} {} {} {1.000} {}
+R { 7502} {0} {} {Walking by a River of Lava} { } {The heat contained within the tightly sealed sewers is almost unbearable for simple mortals. Hot lava bursts all around, potentially projecting deadly streams and blistering showers around you.} {Arabian Dreams} {} {} {} {1.000} {}
 E { 7501} {s} {s} {4} {0} {} {1.000}
 E { 7503} {n} {n} {1} {0} {} {1.000}
 
@@ -32123,6 +32146,7 @@ E { 7612} {n} {n} {1} {0} {} {1.000}
 R { 7610} {0} {} {A Pine Forest near a Great Lake} { } {A large pool of water has formed here in a deep hollow on the surface of the plateau. The water seems stagnant but many little streams run from the lake through the forest and fall far down the Megara, losing themselves in the desert. All around the lake is a pine forest, covering the area with refreshing shadows. Many birds fly above or around the lake, looking for tender tree leaves and small fishes.} {Ancient Carthage} {} {} {} {1.000} {}
 E { 7609} {e} {e} {2} {0} {} {1.000}
 E { 7611} {s} {s} {4} {0} {} {1.000}
+E { 4918} {w} {w} {8} {0} {} {1.000}
 
 R { 7611} {0} {} {Atop a Cliff Above the Desert} { } {The forest abruptly ends here as you approach the tall cliff of the Megara plateau. You admire a panoramic view of the city of Carthage to the south where you can spot the main buildings and the impressive Citadel of Byrsa. Far below, you can see a narrow dusty trail that leads into the nearby stony desert.} {Ancient Carthage} {} {} {} {1.000} {}
 E { 7610} {n} {n} {1} {0} {} {1.000}
@@ -32863,3 +32887,70 @@ E { 7792} {e} {e} {2} {0} {} {1.000}
 
 R { 7794} {0} {} {Deep Within the Hold} { } {This section of the hold has been littered with all sorts of treasures, both of the sea and man. Large conch shells, sea fans, and bright corals are mixed in with the more mundane spoils of the wreck. The resulting nest of junk--for it appears to have been assembled into something's nest--probably contains enough gold and silver from Peru to finance your next expedition and then provide for a comfortable retirement.} {Pirate Caribbean} {} {} {} {1.000} {}
 E { 7792} {w} {w} {8} {0} {} {1.000}
+
+R { 7795} {0} {} {The Cindersweeps District} { } {You stand at the top of the large hill at the center of the Cindersweeps district, where Djinni merchants and traders exchange their wares. A large street goes downhill to the south, connecting with the docks of a harbor on a sea of lava.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 4923} {w} {w} {8} {0} {} {1.000}
+E { 7796} {n} {n} {1} {0} {} {1.000}
+E { 7797} {s} {s} {4} {0} {} {1.000}
+
+R { 7796} {0} {<029>} {The Inn of the Blazing Phoenix} {I} {A large inn opens directly into the street, its stools and chairs set around an ebony bar and sitting directly in the public areas of the city. A large fire burns wildly in a huge pit at the middle of the inn. It is there where most patrons have gathered to converse, making for a loud conversation.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7795} {s} {s} {4} {0} {} {1.000}
+
+R { 7797} {0} {} {The Cindersweeps District} { } {You are halfway from the top of the large hill inside the Cindersweeps district, where Djinni merchants and traders exchange their wares. A large street goes downhill to the south, connecting with the docks of a harbor on a sea of lava.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7795} {n} {n} {1} {0} {} {1.000}
+E { 7798} {w} {w} {8} {0} {} {1.000}
+E { 7799} {s} {s} {4} {0} {} {1.000}
+
+R { 7798} {0} {} {The Furniture Bazaar} { } {This small shop sells well-crafted furniture within the City of Brass. Rolled rugs and piles of cushions nearly engulf the stand itself, the narrow space it's alloted within the bazaar more textiles and metal than merchant stall.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7797} {e} {e} {2} {0} {} {1.000}
+
+R { 7799} {0} {} {The Cindersweeps District} { } {You stand at the bottom of a large hill towering over the Cindersweeps district, where Djinni merchants and traders exchange their wares. A large street goes downhill to the south, connecting with the docks of a harbor on a sea of lava.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7797} {n} {n} {1} {0} {} {1.000}
+E { 7800} {e} {e} {2} {0} {} {1.000}
+E { 7801} {w} {w} {8} {0} {} {1.000}
+
+R { 7800} {0} {} {The Harbor on the Lava Sea} { } {The vast harbor of the City of Brass opens right into the heart of the megalopolis. Feluccas with metallic hulls and flying dhows sail the sea of fire, an ocean of blazing lava crashing with rage against the scorched stone docks of the harbor.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7799} {w} {w} {8} {0} {} {1.000}
+E { 3442} {use portal} {use portal} {0} {0} {} {1.000}
+
+R { 7801} {0} {} {Plaza of the Silver Chariot} { } {A very large plaza opens in the high-end district of the City of Brass. The facades of the building are covered in gold with Arabic-styled alcoves and ebony wood inlaid in the frames of doors and windows. In the center of the plaza a chariot of silver sits for all to see.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7799} {e} {e} {2} {0} {} {1.000}
+E { 7802} {s} {open s;s} {4} {0} {} {1.000}
+E { 7803} {w} {w} {8} {0} {} {1.000}
+
+R { 7802} {0} {} {The Sultan's Gardens} { } {You've stumbled upon luxurious gardens filled with exotic plants and rare, wild animals, ranging from tiny creatures made out of lava and magma birds to the reclusive fiery ostriches and smoldering basilisks.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7801} {n} {open n;n} {1} {0} {} {1.000}
+E {   76} {use portal} {use portal} {0} {0} {} {1.000}
+
+R { 7803} {0} {} {A Street of Fire} { } {The main avenue in the City of Brass is a long street paved with volcanic rocks that connects the town gates with the palace of the Sultan. A drizzle of lava falls on the brass roofs around you as dark clouds gather over an ocean of fire to the east.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7801} {e} {e} {2} {0} {} {1.000}
+E { 7804} {s} {s} {4} {0} {} {1.000}
+E { 7806} {n} {n} {1} {0} {} {1.000}
+
+R { 7804} {0} {} {The Doors to the Sultan's Palace} { } {Massive doors rise to the south, blocking access to a large palace with golden domes and tall towers. The palace is surrounded by vast gardens whose wonderful scent carries into the street.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7803} {n} {n} {1} {0} {} {1.000}
+E { 7805} {w} {open w;w} {8} {0} {} {1.000}
+
+R { 7805} {0} {} {The Throne Room} { } {The throne room of the City of Brass Caliph is gigantic, covered in expensive rugs and golden braziers. The throne is made out of pure brass and towers the rest of the room on a marble and gold dais.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7804} {e} {open e;e} {2} {0} {} {1.000}
+
+R { 7806} {0} {} {A Street of Fire} { } {The main avenue in the City of Brass is a long street paved with volcanic rocks that connects the town gates with the palace of the Sultan. A drizzle of lava falls on the brass roofs around you as dark clouds gather over an ocean of fire to the east.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7803} {s} {s} {4} {0} {} {1.000}
+E { 4922} {n} {n} {1} {0} {} {1.000}
+E { 7807} {w} {w} {8} {0} {} {1.000}
+
+R { 7807} {0} {} {The Street of Fiery Sands} { } {The solid and ancient pavement of the main avenue is gone, leaving a street covered is scalding black sands in its stead. The buildings have tall metal walls with spiking minarets and sublime magician towers, making the street feel narrow and dangerous.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7806} {e} {e} {2} {0} {} {1.000}
+E { 7808} {s} {s} {4} {0} {} {1.000}
+E { 7809} {w} {w} {8} {0} {} {1.000}
+
+R { 7808} {0} {} {The Street of Fiery Sands} { } {The solid and ancient pavement of the main avenue is gone, leaving a street covered is scalding black sands in its stead. The buildings have tall metal walls with spiking minarets and sublime magician towers, making the street feel narrow and dangerous.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7807} {n} {n} {1} {0} {} {1.000}
+E { 4483} {use portal} {use portal} {0} {0} {} {1.000}
+
+R { 7809} {0} {} {The Street of Fiery Sands} { } {The solid and ancient pavement of the main avenue is gone, leaving a street covered is scalding black sands in its stead. The buildings have tall metal walls with spiking minarets and sublime magician towers, making the street feel narrow and dangerous.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7807} {e} {e} {2} {0} {} {1.000}
+E { 7810} {n} {n} {1} {0} {} {1.000}
+
+R { 7810} {0} {} {The Red Wyrm Foundry} { } {A wide foundry rises at the end of the Street of Fiery Sands, near the outskirts of the city. It is busy and hot with cauldrons of molten lava, which are used to melt the hardest metals to craft into the armaments and jewels the efreeti and djinni are so fond of.} {Arabian Dreams} {} {} {} {1.000} {}
+E { 7809} {s} {s} {4} {0} {} {1.000}
