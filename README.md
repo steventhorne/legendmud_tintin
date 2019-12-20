@@ -21,7 +21,7 @@
 - [Classes](#classes)
     - [Class Aliases](#class-aliases)
     - [Custom Classes](#custom-classes)
-- [Help Files]
+- [Help Files](#help-files)
 - [FAQ](#faq)
 
 # Overview
@@ -170,6 +170,8 @@ Display the map with one of the following methods:
     - the {map_vtmap} and {split_top} settings are no longer necessary or used.
 - Navigate to map/ in a separate terminal and run `./showmap`
 
+Note: If you're not using the prompt module, you will need to add a @$ to the end of your prompt format. This allows the map module to locate your room during recalls and usage of the 'find' command.
+
 ### Map Aliases
 |Alias|Description|Usage|
 |:----|:----------|:----|
@@ -243,3 +245,12 @@ The TinTin++ FAQ can be found [here](https://tintin.sourceforge.io/faq.php)
 ## Why can't I select text to copy it?
 This is because of the mouse tracking setting that's enabled for certain features that require mouse support.
 You can select text by holding Shift.
+
+## Why isn't the map following correctly?
+This could be for any number of reasons.
+
+If the map doesn't follow you when you input basic movement commands, make sure you're typing 'n, s, e, w, u, d' to move directions. These must be single characters and lowercase.
+
+If the map doesn't locate you when you recall or use the 'find' command, make sure you are either using the prompt module, or have added the @$ prompt code to the end of your prompt format.
+
+If the map doesn't follow you when you are following another character, you will need to disable moods via the 'mood seemoods' command. 
