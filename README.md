@@ -156,7 +156,7 @@ The combat module has some general purpose aliases and actions for use in combat
 ### Combat Aliases
 |Alias|Description|Usage|
 |:----|:----------|:----|
-|setrush|Sets the response for the rush trigger, %1 is the friendly and %2 is the enemy|`setrush resc %1`, `setrush rage %2`. `setrush #nop` will disable the trigger|
+|setrush|Sets the response for the rush trigger, %1 is the the enemy and %2 is the friendly|`setrush resc %1`, `setrush rage %2`. `setrush #nop` will disable the trigger|
 
 ## Map Module
 > Identifier: map | Default: enabled
