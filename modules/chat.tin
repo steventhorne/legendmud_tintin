@@ -9,7 +9,7 @@
         #LOCAL label_end {};
         #MATH label_offset {$screen[boxes][$pane_chat][x1] + 2};
         #MATH label_end {$screen[boxes][$pane_chat][x1] + 7};
-        #DRAW tile $screen[boxes][$pane_chat][y1] $label_offset 1 $label_end { CHAT };
+        #DRAW tile $screen[boxes][$pane_chat][y1] $label_offset $screen[boxes][$pane_chat][y1] $label_end { CHAT };
 
         #IF {&chat_log[%*]}
         {

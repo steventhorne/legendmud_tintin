@@ -24,7 +24,7 @@
         #LOOP 15 1 count
         {
             #VAR line {$room_check[$count]};
-            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas\.|You fly through the air.|You return to being In Character\.)}}
+            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas\.|You fly through the air.|You return to being In Character\.|Enter your choice or the name of a character to switch to:)}}
             {
                 #VAR break true;
             }
@@ -96,7 +96,7 @@
 }
 {5}
 
-#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$|^Reconnecting.$)}}
+#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$|^Reconnecting.$|^Enter your choice or the name of a character to switch to:)}}
 {
     #VAR findroom true;
 }

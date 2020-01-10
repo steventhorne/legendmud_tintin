@@ -9561,7 +9561,7 @@ E { 2199} {w} {w} {8} {0} {} {1.000}
 
 R { 2199} {0} {} {Near a Moss Covered Wall} { } {The cavern, thick with dark black water, laps up against the side of a tall wall, probably thirty feet or more, covered with a strange white-green moss. Water drips down over the moss, making it squirm and seem almost alive.} {The Pirates' Den } {} {} {} {1.000} {}
 E { 2198} {e} {e} {2} {0} {} {1.000}
-E { 2200} {n} {open n;n} {1} {0} {} {1.000}
+E { 2200} {n} {n} {1} {0} {} {1.000}
 
 R { 2200} {0} {} {Behind the Mossy Wall} { } {The tendrils of fear begin to take hold of your throat. A total and nearly paralyzing sense of dread fills your entire soul. This cavern is so bare, so empty, so lifeless, yet you get the sense that the living do not belong. You begin to think the pirates that once hid their treasure here never escaped... and nor shall you.} {The Pirates' Den } {} {} {} {1.000} {}
 E { 2199} {s} {open s;s} {4} {0} {} {1.000}
@@ -16569,6 +16569,7 @@ E { 3859} {e} {e} {2} {0} {} {1.000}
 
 R { 3872} {0} {} {On Lake Champlain} { } {The waters of the vast lake spread out to all sides around you. Tranquil now, you suspect that the gentle waves may indeed rise into huge frothing motion to threaten any small vessel seaborne with very little warning ahead.} {French Indian War } {} {} {} {1.000} {}
 E { 3867} {w} {w} {8} {0} {} {1.000}
+E { 7811} {d} {d} {32} {0} {} {1.000}
 
 R { 3873} {0} {} {Valcour Island} { } {Passing by this sizable isle, you see a few places where you could land and perhaps hunt for some fresh game. Searching the sky in the direction of the island, you see a thin wisp of smoke rising from some campfire. Although you think it may be some trader out checking his traps, you move on to avoid what could be a possible war party of Indians.} {French Indian War } {} {} {} {1.000} {}
 E { 3868} {w} {w} {8} {0} {} {1.000}
@@ -19562,7 +19563,7 @@ E { 4594} {s} {s} {4} {0} {} {1.000}
 E { 4606} {transport} {enq ask angel transport;pause 1s;stand} {0} {0} {} {1.000}
 E { 4606} {ask angel transport} {enq ask angel transport;pause 1s;stand} {0} {0} {} {1.000}
 
-R { 4596} {0} {} {Inside a Dark Cave} { } {The cave is dark and something old, something evil and malicious still dwelling within, waiting for another opportunity to corrupt the Garden of Edin and its innocent inhabitants.} {The Seven Heavens } {} {} {} {1.000} {}
+R { 4596} {513} {} {Inside a Dark Cave} { } {The cave is dark and something old, something evil and malicious still dwelling within, waiting for another opportunity to corrupt the Garden of Edin and its innocent inhabitants.} {The Seven Heavens } {} {} {} {1.000} {}
 E { 4590} {n} {n} {1} {0} {} {1.000}
 E { 4597} {e} {open e;e} {2} {0} {} {1.000}
 
@@ -32954,3 +32955,6 @@ E { 7810} {n} {n} {1} {0} {} {1.000}
 
 R { 7810} {0} {} {The Red Wyrm Foundry} { } {A wide foundry rises at the end of the Street of Fiery Sands, near the outskirts of the city. It is busy and hot with cauldrons of molten lava, which are used to melt the hardest metals to craft into the armaments and jewels the efreeti and djinni are so fond of.} {Arabian Dreams} {} {} {} {1.000} {}
 E { 7809} {s} {s} {4} {0} {} {1.000}
+
+R { 7811} {0} {} {Under Lake Champlain} { } {Murky, dark and most of all icy cold water surrounds you to all sides, and you find it difficult to see just a few hands' breadths ahead. Somewhere far below the lake bottom must be, but how far is nigh impossible to tell.} {French Indian War} {} {} {} {1.000} {}
+E { 3872} {u} {u} {16} {0} {} {1.000}
