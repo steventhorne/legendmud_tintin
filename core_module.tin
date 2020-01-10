@@ -472,7 +472,9 @@
 @create_layout{};
 #CLASS core close;
 
-#VAR is_startup 1;
-#MAP flag vtmap off;
-@load_all_modules{};
-#UNVAR is_startup;
+#delay 0
+{
+    #VAR is_startup 1;
+    @load_all_modules{};
+    #UNVAR is_startup;
+}

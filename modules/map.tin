@@ -31,7 +31,7 @@
         #LOCAL label_end {};
         #MATH label_offset {$screen[boxes][$pane_map][x1] + 2};
         #MATH label_end {$screen[boxes][$pane_map][x1] + 6};
-        #DRAW tile $screen[boxes][$pane_map][y1] $label_offset 1 $label_end { MAP };
+        #DRAW tile $screen[boxes][$pane_map][y1] $label_offset $screen[boxes][$pane_map][y1] $label_end { MAP };
 
         #NOP draw room info;
         #MAP get all room_vars;

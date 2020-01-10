@@ -68,6 +68,7 @@
         #REGEX {$line} {{You receive \d+ experience.}}
         {
             #SEND get coin corpse,money corpse;
+            #SEND stand;
         };
     };
     #UNVAR xp_check;
