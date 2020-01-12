@@ -76,7 +76,7 @@ The `sys.config` config contains settings for the TinTin++ client.
 You will need to restart the client for any changed settings to take effect.
 
 The `user.config` config contains settings for this package.
-You will need to restart the client or type `reload` for any changed settings to take effect.
+You will need to restart the client or type `reloadmodule` for any changed settings to take effect.
 
 You can add your own custom settings to these files if you need more for your scripts.
 
@@ -125,13 +125,13 @@ Add the module identifier to the list of modules in this variable.
 For example, if you wanted to enable the prompt module:
 `#VARIABLE         {modules}  {logging;combat;map;prompt}`
 
-Next time you type `reload` or restart TinTin++, the module will be enabled.
+Next time you type `reloadmodule` or restart TinTin++, the module will be enabled.
 
 ## Module Aliases
 |Alias|Description|Usage|
 |:---|:---|:---|
-|reload|Reloads the entire package including config files.|`reload`|
-|reload <module name>|Reloads a specific module in case changes have been made to the file.|`reload map`, `reload prompt`, `reload all`|
+|reloadmodule|Reloads the entire package including config files.|`reloadmodule`|
+|reloadmodule <module name>|Reloads a specific module in case changes have been made to the file.|`reloadmodule map`, `reloadmodule prompt`, `reloadmodule all`|
 
 ***Please note that some of these modules may require extra work in order to use.***
 
@@ -217,7 +217,7 @@ Put the new `.tin` file in the `modules/` directory and add the name to the user
 
 This is great for creating your own custom content without altering the files in this package.
 
-You can also use the `reload` alias to reload custom modules.
+You can also use the `reloadmodule` alias to reload custom modules.
 
 # Classes
 Classes are TinTin++ scripts that can be loaded on the fly for specific situations and then unloaded when they're no longer needed.
