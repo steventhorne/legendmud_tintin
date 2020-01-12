@@ -1,6 +1,6 @@
 #LINE quiet {#READ sys.config};
 
-#ALIAS {reload}
+#ALIAS {mreload}
 {
     #IF {"%1" == "" || "%1" == "all"}
     {
@@ -90,3 +90,21 @@
 }
 
 #EVENT {SESSION DISCONNECTED} {#INFO stack};
+
+#FUNCTION {subscribe_event}
+{
+    #IF {"%1" != "" && "%2" != ""}
+    {
+        #VAR events[%1] hi;
+    }
+    {
+        #SHOWME <001>Invalid call to subscribe_event. Must provide an event name, and an identifier.;
+    }
+
+    #RETURN #NOP;
+};
+
+#FUNCTION {raise_event}
+{
+    #RETURN #NOP;
+};
