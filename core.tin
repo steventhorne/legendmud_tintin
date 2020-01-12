@@ -1,6 +1,6 @@
 #LINE quiet {#READ sys.config};
 
-#ALIAS {mreload}
+#ALIAS {reloadmodule}
 {
     #IF {"%1" == "" || "%1" == "all"}
     {
