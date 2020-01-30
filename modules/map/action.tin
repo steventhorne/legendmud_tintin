@@ -24,7 +24,7 @@
         #LOOP 15 1 count
         {
             #VAR line {$room_check[$count]};
-            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas\.|You fly through the air.|You return to being In Character\.|Enter your choice or the name of a character to switch to:)}}
+            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas\.|You fly through the air.|You return to being In Character\.|Enter your choice or the name of a character to switch to:|The speed! The speed! This is not going to end well...)}}
             {
                 #VAR break true;
             }
@@ -96,7 +96,7 @@
 }
 {5}
 
-#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$|^Reconnecting.$|^Enter your choice or the name of a character to switch to:)}}
+#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$|^Reconnecting.$|^Enter your choice or the name of a character to switch to:|The speed! The speed! This is not going to end well...)}}
 {
     #VAR findroom true;
 }
@@ -450,5 +450,60 @@
         #MAP goto 441;
     };
     #SEND stand;
+}
+{5}
+
+#ACTION {^A magical wind raises and ushers you and your group inside the mines!$}
+{
+    #map goto 1304;
+}
+{5}
+
+#ACTION {^The basket ascends into the darkness.$}
+{
+    #MAP get roomvnum roomvnum;
+    #IF {$roomvnum == 1318}
+    {
+        #MAP goto 1317;
+    };
+    #IF {$roomvnum == 1317}
+    {
+        #MAP goto 1311;
+    };
+    #IF {$roomvnum == 1311}
+    {
+        #MAP goto 1312;
+    };
+}
+{5}
+
+#ACTION {^The basket descends into the darkness.$}
+{
+
+    #MAP get roomvnum roomvnum;
+    #IF {$roomvnum == 1312}
+    {
+        #MAP goto 1311;
+    };
+    #IF {$roomvnum == 1311}
+    {
+        #MAP goto 1317;
+    };
+    #IF {$roomvnum == 1317}
+    {
+        #MAP goto 1318;
+    };
+}
+{5}
+
+#ACTION {^At great speed, the cart returns to the switch station.$}
+{
+    #MAP goto 1309;
+}
+{5}
+
+#ACTION {^You fly above the fortress of the Hebdomad before you land softly near a balcony.$}
+{
+    #MAP goto 7829;
 }
 {5}
