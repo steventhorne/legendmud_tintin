@@ -66,6 +66,9 @@
         #FORMAT map_info_text {%s]} {$map_info_text};
         #DRAW tile $map_info_line $screen[panes][$pane_map][x1] $map_info_line $screen[panes][$pane_map][x2] {$map_info_text};
 
+        #MATH map_info_line {$map_info_line + 1};
+        #DRAW tile $map_info_line $screen[panes][$pane_map][x1] $map_info_line $screen[panes][$pane_map][x2] {};
+
         #UNVAR map_info_line;
         #UNVAR map_info_text;
         #UNVAR room_vars;
