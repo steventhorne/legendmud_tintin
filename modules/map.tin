@@ -126,6 +126,9 @@
 #MAP FLAG $map_graphics ON;
 #UNVAR map_graphics;
 
+#MAP FLAG TERRAIN $terrain;
+#UNVAR terrain;
+
 #IF {&{screen[panes][$pane_map]}}
 {
     #MAP FLAG vtmap ON;
