@@ -479,7 +479,6 @@
 
 #ACTION {^The basket descends into the darkness.$}
 {
-
     #MAP get roomvnum roomvnum;
     #IF {$roomvnum == 1312}
     {
@@ -505,5 +504,23 @@
 #ACTION {^You fly above the fortress of the Hebdomad before you land softly near a balcony.$}
 {
     #MAP goto 7829;
+}
+{5}
+
+#ACTION {^He avoids a few nasty reefs and soon, you shore on a rocky beach.$}
+{
+    #MAP get roomvnum roomvnum;
+    #IF {$roomvnum == 8074}
+    {
+        #MAP goto 8081;
+    };
+    #IF {$roomvnum == 8081}
+    {
+        #MAP goto 8074;
+    };
+    #IF {$roomvnum == 8028}
+    {
+        #MAP goto 8099;
+    };
 }
 {5}

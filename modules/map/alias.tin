@@ -104,6 +104,27 @@
 }
 {5}
 
+#ALIAS {checkexits}
+{
+    #VAR checkexits {{n}{1}{e}{2}{s}{3}{w}{4}{u}{5}{d}{6}};
+    #MAP get roomexits roomexits;
+    #FOREACH {*roomexits[]} {exit}
+    {
+        #UNVAR checkexits[$exit];
+    };
+
+    #FOREACH {*checkexits[]} {exit}
+    {
+        #SHOWME Checking $exit;
+        #SEND open $exit;
+    };
+
+    #UNVAR exit;
+    #UNVAR roomexits;
+    #UNVAR checkexits;
+}
+{5}
+
 #ALIAS {sac bunny}
 {
     #SEND enq sac bunny;
