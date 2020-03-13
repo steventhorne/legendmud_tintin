@@ -45,7 +45,7 @@ The following features will not work without acquiring my prompt format:
 
 # Installation
 [Download](https://tintin.sourceforge.io/download.php) and install TinTin++ on your system.
-This package requires you to use at least TinTin++ version 2.01.92.
+This package requires you to use at least TinTin++ version 2.02.01.
 
 [Download](https://github.com/steventhorne/legendmud_tintin/releases/latest) the latest release of this package.
 Do not download the repository as it may not be a stable release.
@@ -196,7 +196,7 @@ Note: If you're not using the prompt module, you will need to add a @$ to the en
 The prompt module will capture the prompt and keep a single copy at the bottom of the screen.
 This module will not work out of the box. You will need to acquire my prompt in order to use it.
 
-If you want to acquire my prompt, enter the game and type `prompt acquire Svartur`.
+If you want to use my custom prompt, make sure the prompt module is enabled in the user.config and type `initprompt`.
 **Note**: this will replace your prompt. Save a backup of your prompt code somewhere if you need it.
 
 ## Chat Module
@@ -254,3 +254,20 @@ If the map doesn't follow you when you input basic movement commands, make sure 
 If the map doesn't locate you when you recall or use the 'find' command, make sure you are either using the prompt module, or have added the @$ prompt code to the end of your prompt format.
 
 If the map doesn't follow you when you are following another character, you will need to disable moods via the 'mood seemoods' command. 
+
+## How do I script X in TinTin++?
+TinTin++ has a really complex and comprehensive scripting engine. While this can be daunting, there is a GREAT online manual available.
+
+TinTin++ has support for two different syntaxes for capturing text.
+There's standard PCRE Regex, and a custom Regex-lite that is specific to tt++.
+
+I personally prefer the standard PCRE Regex, because there are a lot of resources online for it, including online regex testers. If you want to use the PCRE Regex you have to create your actions with double {{}}s.
+Example:
+`#action {{^Svartur bonks ([\w\=\'\.]+) on the head!$}} {{#send comf %2;}}`
+I also use [Regex101](https://www.regex101.com) to test my regex patterns.
+
+If you want to use the easy version, you use the single {}s.
+Example:
+`#action {^Svartur bonks %1 on the head!$} {#send comf %1;}}`
+
+As you can see, the second variety **is** much easier to figure out, **BUT** it's also not able to accomplish as much as PCRE Regex. It also has no online testing tools.
