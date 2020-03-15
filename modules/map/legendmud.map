@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1323,6 +1323,7 @@ E {  254} {d} {d} {32} {0} {} {1.000} {}
 R {  256} {0} {} {Beside the Station} { } {A widened walkway turns here as a path leads behind the station. The large red building towers over you to one side as it guides your path. Low whispers from passers-by brush past your ears, but muffled enough that any attempt at making out the words would fail.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  253} {n} {n} {1} {0} {} {1.000} {}
 E {  257} {w} {w} {8} {0} {} {1.000} {}
+E { 5651} {e} {e} {2} {1} {} {1.000} {}
 
 R {  257} {0} {} {Behind the Station} { } {The walk-way continues behind the station and towards the hillside. The red building guides your path as you walk around it. The low hiss of people talking in the distance grows louder as you walk, yet still you are unable to make out what they say.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  256} {e} {e} {2} {0} {} {1.000} {}
@@ -7066,10 +7067,10 @@ E { 5987} {d} {d} {32} {0} {} {1.000} {}
 
 R { 1607} {0} {} {A Bridge over a River} { } {You stand on a sturdy Roman bridge leading over a wide and very muddy river, the Tamesis. To the south you can see a settlement with numerous boats lashed up at makeshift wooden docks. You happen to be downwind at the moment, and the stench of Londinium nearly makes you gag. You can avoid the town by going east or west along the road, through the rolling hills of what is often called 'The Summer Country.'} {Roman Britain } {} {} {} {1.000} {}
 E { 1112} {w} {w} {8} {0} {} {1.000} {}
-E { 1608} {e} {e} {2} {0} {} {1.000} {}
+E { 8153} {e} {e} {2} {0} {} {1.000} {}
 
 R { 1608} {0} {} {A Roman Intersection} { } {You stand at a crossroads. In the Roman manner, there is a stone set on the side of the road, giving the name of the Emperor who ordered the road built, and an indication of how far it is to the destinations in each direction. Londinium seems to be to the west, and Canterbury to the south, but you can't make out what is to the east, nor the Emperor's name--both seem to have been defaced by vandals.} {Roman Britain } {} {} {} {1.000} {}
-E { 1607} {w} {w} {8} {0} {} {1.000} {}
+E { 8153} {w} {w} {8} {0} {} {1.000} {}
 E { 1609} {e} {e} {2} {0} {} {1.000} {}
 E { 1789} {s} {s} {4} {0} {} {1.000} {}
 
@@ -11647,12 +11648,12 @@ E { 2695} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 2697} {0} {} {Crossing the Fossato} { } {You are crossing a wide ditch that leads into the vexillation fortress of the local detachment of XX Valeria Victrix. The ditch is partially filled with water, creating a moat of sorts, and a short earthen wall with pikes deep-set in its base provides a further barrier on the far side. Set a few feet behind the moat and the earth rampart are the soaring stone walls of the fort. A hard-packed dirt path leads through the gate of the medium-sized fortress before you, and splits to run up to twin flanking towers at the front of the fort.} {Roman Britain } {} {} {} {1.000} {}
 E { 1609} {s} {s} {4} {0} {} {1.000} {}
-E { 2698} {w} {w} {8} {0} {} {1.000} {}
+E { 8151} {w} {w} {8} {0} {} {1.000} {}
 E { 2699} {e} {e} {2} {0} {} {1.000} {}
 E { 2702} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2698} {0} {} {At the Foot of a Tower} { } {A hard-packed dirt path between the long barracks building and the stone walls of the vexillation fortress leads you to the foot of this tower. A sturdy timber ladder lashed together with long rawhide strips provides a way up into the tower itself. A narrow but heavy door opens into the barracks block to the north.} {Roman Britain } {} {} {} {1.000} {}
-E { 2697} {e} {e} {2} {0} {} {1.000} {}
+E { 8151} {e} {e} {2} {0} {} {1.000} {}
 E { 2701} {u} {u} {16} {0} {} {1.000} {}
 E { 2703} {n} {open n;n} {1} {0} {} {1.000} {}
 
@@ -11669,12 +11670,12 @@ E { 2698} {d} {d} {32} {0} {} {1.000} {}
 
 R { 2702} {0} {} {Inside the Vexillation Fortress} { } {You are in the center of the fortress used by a small detachment of Legion XX Valeria Victrix. Although the Romans have been ordered out of Britannia, the withdrawal is not yet complete and signs of activity can still be seen in the fort. The headquarters building is north of you, with long, narrow barracks buildings flanking you on each side.} {Roman Britain } {} {} {} {1.000} {}
 E { 2697} {s} {s} {4} {0} {} {1.000} {}
-E { 2703} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 8150} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 2704} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 2706} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 2703} {0} {} {Inside the Barracks Block} { } {This is a long, narrow building where the troops of the century bunk. Contubernia, rooms accommodating eight legionaries, open up on either side of the long hall. A slightly larger block at the end of the row is used as the quarters for the centurion or senior decurion.} {Roman Britain } {} {} {} {1.000} {}
-E { 2702} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8150} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 2698} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 2709} {n} {open n;n} {1} {0} {} {1.000} {}
 
@@ -11694,19 +11695,20 @@ E { 2707} {n} {open n;n} {1} {0} {} {1.000} {}
 R { 2707} {0} {} {The Drill Field} { } {This wide field is encompassed by the north wall of the fort, the northeast and northwest barracks buildings, and the headquarters building to the south. It is mainly used for weapons practice, with thick wooden posts set at intervals for the legionaries to practice thrusts with their wooden practice swords.} {Roman Britain } {} {} {} {1.000} {}
 E { 2706} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 2708} {e} {open e;e} {2} {0} {} {1.000} {}
-E { 2710} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 8149} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 2708} {0} {} {Inside the Barracks Block} { } {This is a long, narrow building where the troops of the century bunk. Contubernia, rooms accommodating eight legionaries, open up on either side of the long hall. A slightly larger block at the end of the row is used as the quarters for the centurion or senior decurion. Unlike the barracks blocks along the southern wall of the fortress, these appear to no longer be in use. A thin layer of dust covers everything inside the contubernia, and a few leaves have blown into the hallway.} {Roman Britain } {} {} {} {1.000} {}
 E { 2707} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 2705} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R { 2709} {0} {} {Outside the Tribune's House} { } {The imposing stone wall of the fortress presses in here along the western walk. A modest house opens to the east, doubtless intended to be the dwelling of the tribune or prefect stationed here.} {Roman Britain } {} {} {} {1.000} {}
+R { 2709} {0} {} {Outside the Tribune's House} { } {The imposing stone wall of the fortress presses in here along the western walk. A modest house opens to the east, doubtless intended to be the dwelling of the tribune or prefect stationed here.} {Roman Britain} {} {} {} {1.000} {}
 E { 2703} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 2710} {n} {n} {1} {0} {} {1.000} {}
+E { 8152} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 2710} {0} {} {Inside the Barracks Block} { } {This is a long, narrow building where the troops of the century bunk. Contubernia, rooms accommodating eight legionaries, open up on either side of the long hall. A slightly larger block at the end of the row is used as the quarters for the centurion or senior decurion. Unlike the barracks blocks along the southern wall of the fortress, these appear to no longer be in use. A thin layer of dust covers everything inside the contubernia, and a few leaves have blown into the hallway.} {Roman Britain } {} {} {} {1.000} {}
 E { 2709} {s} {s} {4} {0} {} {1.000} {}
-E { 2707} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8149} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 2711} {0} {} {On the Ridge of a Sand Dune} { } {As you clamber to the top of what you wished was the last dune, you discover that you are still in the middle of a vast desert. In every direction, you see a sea of sand.} {Arabian Nights } {} {} {} {1.000} {}
 E { 1855} {n} {n} {1} {0} {} {1.000} {}
@@ -12414,6 +12416,7 @@ E { 2879} {e} {e} {2} {0} {} {1.000} {}
 
 R { 2879} {0} {} {In the Dead King's Barrow} { } {Here, secret and hidden, a darkness in the dark caverns, a pocket of air, this barrow serves as final resting place for Fadhmir, great ring-giver of the days long past. Timbers, stout guards, are the only loyal attendants, standing along walls, sentried wood. It is a remarkably empty barrow, a bier charred and burned, the boughs once laid across it traceries of ash and soil. Whatever once was laid to rest here, is now no more than the dust from whence it came, for all earthly remains of this man who was once acclaimed lord over the river and field are gone to the place where souls go.} {Beowulf } {} {} {} {1.000} {}
 E { 2878} {w} {w} {8} {0} {} {1.000} {}
+E { 8154} {s} {s} {4} {0} {} {1.000} {}
 
 R { 2880} {0} {} {A Sloping Tunnel} { } {Smooth sided tunnel, bored hole, this tunnel cuts through solid rock like a termite's path. The sides are glistening smooth and sweat hot foul water. The reek of sulfur is strong, and stronger to the west where it trends down and down deeper towards the domains of the lava-monsters, foul snake-scaled winged beasts, the wyrms. A terrible red glow of molten rocks can be seen in that direction. To take further steps west may mean slipping on the treacherous rock and sliding into molten rock! A small fissure leads north, with barely enough room to permit an entrance. Eastwards the tunnel rises to a vast darkness, a bubble cavern with endless shadows.} {Beowulf } {} {} {} {1.000} {}
 E { 2875} {e} {e} {2} {0} {} {1.000} {}
@@ -16766,8 +16769,11 @@ R { 3910} {0} {} {A Murky Swamp} { } {The ground seems to suck at your feet and 
 E { 3909} {w} {w} {8} {0} {} {1.000} {}
 E { 3906} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3911} {0} {} {Inside the Fort} { } {Ready to withstand any assault which the enemy may attempt, you are in awe of the heavy fortifications that have been made to Ticonderoga. The gates to the fort are made of massive green timbers and banded with iron. Sturdy cabins have been built off from the inside walls of the same green timber to prevent them from quick burning should the fort come under attack. Looking up, you see a number of cannons and shot standing in readiness along the ramparts of the fort. A number of people are seen milling about the small cabin to the west of you. The number of heavy barrels and bundles of skins outside the cabin tells you that it belongs to a local trader. A tidy building just ahead south has several guards standing at attention at the doorway. The sizable building to the east of you has a number of soldiers busying themselves with cleaning their muskets and sharpening their knives outside of it.} {French Indian War } {} {} {} {1.000} {}
+R { 3911} {0} {} {Inside the Fort} { } {Ready to withstand any assault which the enemy may attempt, you are in awe of the heavy fortifications that have been made to Ticonderoga. The gates to the fort are made of massive green timbers and banded with iron. Sturdy cabins have been built off from the inside walls of the same green timber to prevent them from quick burning should the fort come under attack. Looking up, you see a number of cannons and shot standing in readiness along the ramparts of the fort. A number of people are seen milling about the small cabin to the west of you. The number of heavy barrels and bundles of skins outside the cabin tells you that it belongs to a local trader. A tidy building just ahead south has several guards standing at attention at the doorway. The sizable building to the east of you has a number of soldiers busying themselves with cleaning their muskets and sharpening their knives outside of it.} {French Indian War} {} {} {} {1.000} {}
 E { 3912} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8088} {s} {open s;s} {4} {0} {} {1.000} {}
+E { 8146} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 8147} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 3912} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3911} {s} {s} {4} {0} {} {1.000} {}
@@ -23596,10 +23602,10 @@ E { 3545} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5546} {0} {} {The Gates of Lima} { } {To the east loom the majestic Andes mountains, where the Incas are still cowering in their hidden city. The Andes are treacherous and full of rebels, heretics, and wild animals. To the west looms Lima, City of Flowers, reclaimed from the desert and set alongside the Rimac river, where the Inquisition still hides in their secret rooms. The streets are treacherous and full of thieves, beautiful women, and swaggering soldiers.} {Viceroyal Lima} {} {} {} {1.000} {}
 E { 3545} {w} {w} {8} {0} {} {1.000} {}
-E { 5547} {e} {e} {2} {0} {} {1.000} {}
+E { 5547} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 5547} {0} {} {The Far Side of the Rio Rimac} { } {Lima, the City of Flowers, lies across this muddy shallow river to the west. At your feet the river flows along, interrupted by rocks and sandbars. The poorer women come here to wash their clothes and dishes.} {Viceroyal Lima} {} {} {} {1.000} {}
-E { 5546} {w} {w} {8} {0} {} {1.000} {}
+E { 5546} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 5548} {e} {e} {2} {0} {} {1.000} {}
 E { 6434} {n} {n} {1} {0} {} {1.000} {}
 
@@ -30055,7 +30061,7 @@ E { 7120} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7120} {0} {} {In a Dark Cave} { } {My, it's dark in here. Even with your light, the farthest recesses of the cavern are invisible and obscure. Where you stand is really the only space large enough to hold humans, and it is bounded by stone on all sides. Even a stone slab rests in the center of the ceiling--it looks as though it may have been placed there on purpose. To the south you see the faintest glimmer of light--perhaps you can get out that way.} {Viceroyal Lima} {} {} {} {1.000} {}
 E { 7119} {s} {s} {4} {0} {} {1.000} {}
-E { 7124} {u} {u} {16} {1} {} {1.000} {}
+E { 7124} {u} {open u;u} {16} {1} {} {1.000} {}
 
 R { 7121} {0} {} {In a Dense Thicket} { } {Creepers and vines crawl around you, and puddles of water gather at your feet until you are sopping wet to your ankles. Thick shady bushes thrive in the dampness and lush leafy ferns provide a carpet of undergrowth. The air here is humid, but you know this must only be a small pocket of the jungle that lies on the other side of the mountains. West of you a huge rock promontory guards one end of a valley.} {Viceroyal Lima} {} {} {} {1.000} {}
 E { 7117} {w} {w} {8} {0} {} {1.000} {}
@@ -30072,7 +30078,7 @@ E { 7124} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7124} {0} {} {In a Small Hut} { } {Bare and bereft, this tiny place looks as though it was abandoned. In fact, you think you can see bloodstains on the hard stone floor. But most of the floor is dirt--packed down hard, but beginning to serve as a a growing space for plants nudging up out of the ground. A large slab of stone sits in the center of the small room, dirt loose around it. Perhaps they built their fires on it.} {Viceroyal Lima} {} {} {} {1.000} {}
 E { 7123} {s} {s} {4} {0} {} {1.000} {}
-E { 7120} {d} {d} {32} {1} {} {1.000} {}
+E { 7120} {d} {open d;d} {32} {1} {} {1.000} {}
 
 R { 7125} {513} {} {} {X} {} {Gold Rush San Francisco} {} {} {} {1.000} {}
 E { 5193} {w} {w} {8} {0} {} {1.000} {}
@@ -33399,7 +33405,7 @@ E { 8104} {d} {d} {32} {0} {} {1.000} {}
 R { 7912} {0} {} {The Outer Bailey} { } {A vast outer ward defends the outer enclosure of the massive castle. It protects the main keep of Camelot and contains the ancillary buildings used for the management of the castle. Around you, you can see many workshops, livestock stalls, barns and granaries, as well as quarters for servants such as maids and farm workers.} {Camelot} {} {} {} {1.000} {}
 E { 7913} {w} {w} {8} {0} {} {1.000} {}
 E { 7914} {e} {e} {2} {0} {} {1.000} {}
-E { 7910} {n} {n} {1} {0} {} {1.000} {}
+E { 7911} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7913} {0} {} {The Stables of Camelot} { } {The stables of the castle are massive, spanning multiple buildings in one corner of the outer bailey. They are large enough to hosts mounts for hundreds of knights and their squires. Stable boys and lad run around the place at all times, either taking in horses for arriving knights or retrieving the mounts of those leaving Camelot.} {Camelot} {camelot} {} {} {1.000} {}
 E { 7912} {e} {e} {2} {0} {} {1.000} {}
@@ -34113,6 +34119,10 @@ E { 8087} {w} {w} {8} {0} {} {1.000} {}
 R { 8087} {0} {<029>} {The Red Dragon Inn} {I} {This small inn rests in the middle of the fortified town of Caerleon. In the center of the main room, you see the wooden statue of a red dragon, symbol of the warriors of Cymru and the Breton kings of the Pendragon line.} {Camelot} {} {} {} {1.000} {}
 E { 8086} {e} {e} {2} {0} {} {1.000} {}
 
+R { 8088} {0} {} {The General's Office} { } {A large table sits opposite from the doorway. Parchments and map scrolls clutter the top. Over by the open hearth, several chairs are placed around a small table. The room is lit by several oil lamps glowing brightly. A thick, plain-colored carpet is lain down over the hewn plank floor. The walls are plain and unadorned, matching the roughness of the furniture. A drab, green curtain hangs in the doorway across from the hearth.} {French Indian War} {} {} {} {1.000} {}
+E { 3911} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8148} {e} {open e;e} {2} {0} {} {1.000} {}
+
 R { 8089} {0} {} {The Faerie Forest} { } {You stepped inside the Forest Sauvage, the largest faerie territory in the kingdom of Logres. Good folks and honest servants of the king avoid this place at all costs, fearful of running into trickster faeries.} {Camelot} {} {} {} {1.000} {}
 E { 8056} {n} {n} {1} {0} {} {1.000} {}
 E { 8093} {s} {s} {4} {0} {} {1.000} {}
@@ -34337,3 +34347,34 @@ E { 8084} {s} {open s;s} {4} {0} {} {1.000} {}
 R { 8145} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5459} {s} {s} {4} {0} {} {1.000} {}
 E { 7854} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8146} {0} {} {A Backwoods Trader's Cabin} { } {You step into the dark, overfilled cabin. A long, wide plank laid over two large barrels serves as the trader's barter table. The cabin is filled with bundles of thick beaver pelts and other furs brought in by the busy trappers in the area. Miscellaneous sundries are stocked on the many shelves that cover the walls. Large barrels of salt, flour, salt pork, and hard tack stand beneath the heavily laden shelves. The floor is nothing but packed dirt and the dust hangs heavy in the air as people make their way in and out of the cabin.} {French Indian War} {} {} {} {1.000} {}
+E { 3911} {e} {open e;e} {2} {0} {} {1.000} {}
+
+R { 8147} {0} {} {The Garrison} { } {Sturdy little cots are lined up in neat rows along the front and back walls of the long room. A roaring fire blazes brightly in the fireplace, beckoning you to warm your hands before it. Several oil lamps hang from the ceiling and cast long shadows on the walls. The room has several windows with wooden shutters closed against the weather. Rough crosses have been cut into the shutters, and you suddenly realize they make for good shooting holes in case of attackers in the compound.} {French Indian War} {} {} {} {1.000} {}
+E { 3911} {w} {open w;w} {8} {0} {} {1.000} {}
+
+R { 8148} {0} {} {The General's Personal Quarters} { } {The room is generous in size and neatly kept. A small dressing table sits along the side wall, with a mirror frame and wig stand on the top. The bed is a far cry from the rough sleeping cots found in the barracks. A feather-stuffed mattress is covered with a down comforter and overfills the bed frame. A light wooden stand holds the general's extra uniforms and accessories off to the side of the dressing table.} {French Indian War} {} {} {} {1.000} {}
+E { 8088} {w} {open w;w} {8} {0} {} {1.000} {}
+
+R { 8149} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2707} {e} {e} {2} {0} {} {1.000} {}
+E { 2710} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8150} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2702} {e} {e} {2} {0} {} {1.000} {}
+E { 2703} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8151} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2697} {e} {e} {2} {0} {} {1.000} {}
+E { 2698} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8152} {0} {} {} { } {} {Roman Britain} {} {} {} {1.000} {}
+E { 2709} {w} {open w;w} {8} {0} {} {1.000} {}
+
+R { 8153} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 1607} {w} {w} {8} {0} {} {1.000} {}
+E { 1608} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8154} {0} {} {Fadhmir's Final Resting Place} { } {Dark and oppressive, like the last breath from a lung bubbling with blood, the air of this room hangs about you like sour cloth. Yet the room is bright, bright, red and bright with the gold that lies in molten hopeless piles about you, in rivers and lakes, in puddles and mounds of melded coins and fused jewelry. The room dazzles with red gold, the gold of the rivers, the gold granted men to make them yearn for the heavens. For a moment the wod of greed takes hold of you, and you hear the whisper of scales in your soul; but you are deterred by the image of a man half-traced in gold melted onto bones like candlewax. There lies Fadhmir, once thane over the earth, and now a skeleton with chest caved in by the weight of the wealth too great for one man to carry.} {Beowulf} {} {} {} {1.000} {}
+E { 2879} {n} {n} {1} {0} {} {1.000} {}
