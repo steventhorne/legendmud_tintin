@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -21514,7 +21514,7 @@ E { 4698} {u} {u} {16} {0} {} {1.000} {}
 R { 5047} {0} {} {The Shinkyo Bridge} { } {You stand on the sacred Shinkyo bridge, a red lacquered span that arches gracefully across the Daiya River. The Shinkyo is considered one of the most beautiful structures in Japan, its simple elegance contrasting with the wildness of the river gorge, the green hills, and the tumbling waters.} {Medieval Japan Expansion} {} {} {} {1.000} {}
 E { 4814} {s} {s} {4} {0} {} {1.000} {}
 E { 5048} {n} {n} {1} {0} {} {1.000} {}
-E {  417} {jump bridge} {enq jump bridge} {0} {0} {} {1.000} {}
+E {  417} {jump bridge} {enq jump bridge} {0} {2} {} {1.000} {}
 
 R { 5048} {0} {} {On a Large Alley} { } {A long alley connects the Shinkyo bridge with the entrance of Toshogu, the shrine dedicated to Ieyasu, the first Shogun of the Tokugawa clan. A path of white crushed rocks is bordered by a medium-sized stone wall, guiding processions to the shrine.} {Medieval Japan Expansion} {} {} {} {1.000} {}
 E { 5047} {s} {s} {4} {0} {} {1.000} {}
