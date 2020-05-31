@@ -6,6 +6,7 @@ CAVOID <018>
 CBACKGROUND <099>
 CBLOCK <218>
 CEXITS <278>
+CFOG <148>
 CHIDE 
 CINVISIBLE <208>
 CPATHS <138>
@@ -3062,7 +3063,7 @@ E {  660} {n} {n} {1} {0} {} {1.000} {}
 R {  660} {0} {} {On Sharia Muhamad} { } {This large and busy street, which connects the Ezbekiya gardens with the Sultan's citadel, climbs slowly from the banks of the Nile to the heights of the Moqattam Hills. Main road of the city it also connects together many small quarters of the city and ancient medinas.} {Industrial Pyramid } {} {} {} {1.000} {}
 E {  659} {s} {s} {4} {0} {} {1.000} {}
 E {  661} {n} {n} {1} {0} {} {1.000} {}
-E {  664} {e} {e} {2} {0} {} {1.000} {}
+E {  664} {e} {open e;e} {2} {0} {} {1.000} {}
 E {  665} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R {  661} {0} {} {The Ezbekiya Gardens} { } {You stand in a vast plaza where vast gardens have been built, featuring a small lake crossed by bridges, as well as exotic trees and plants, tea rooms, restaurants and shops. Built with the floorplan of a French pleasure garden, the Ezbekiya gardens are supposed to give the city the allure of an European capital and create a sophisticated, modern urban space.} {Industrial Pyramid } {} {} {} {1.000} {}
@@ -7365,7 +7366,7 @@ E { 1231} {s} {s} {4} {0} {} {1.000} {}
 R { 1676} {0} {} {The Alamo Saloon} { } {The long, narrow room is painted bright white and is pleasantly decorated with many paintings and gas lamps hanging from the ceiling. A few tables and chairs are placed towards the back of the saloon but the majority of the space is for standing. A shiny bar runs along one side of the room stocked with a reasonable selection of liquors and wines. A large mirror and a huge pair of cattle horns have been mounted on the wall behind the bar. A sign reads 'Free Lunch with a Drink'.} {Abilene, Kansas } {} {} {} {1.000} {}
 E { 1233} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R { 1677} {0} {<029>} {Drover's Cottage} {I} {Wall-mounted brass kerosene lamps cast shadows over the half-lit room. A center shelved column is encircled by a high bar, lined with stools. Countless bottles of all shapes and sizes contain a fascinating array of colored liquids are on display. Smaller round tables are dotted around the edges of room and two staircases lead from opposite sides of the room up to the living quarters.} {Abilene, Kansas } {drovers} {} {} {1.000} {}
+R { 1677} {0} {<029>} {Drover's Cottage} {I} {Wall-mounted brass kerosene lamps cast shadows over the half-lit room. Two large fires burn at either side of the building to keep the patrons warm in the cold winter. A center shelved column is encircled by a high bar, lined with stools. Countless bottles of all shapes and sizes, contain a baffling array of colored liquids, are on display. Smaller round tables are dotted around the edges of room and two staircases lead from opposite sides of the room up to the living quarters above.} {Abilene, Kansas} {drovers} {} {} {1.000} {}
 E { 1234} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 1678} {513} {} {One End of the Chisholm Trail} { } {The mud seems particularly deep here, you can't see a way to pass without muddying your clothes. Thousands of heads of cattle have churned up the ground as they near the end of this lengthy leg of their to the north and east of the country.} {Abilene, Kansas } {} {} {} {1.000} {}
@@ -10703,10 +10704,9 @@ E { 2469} {e} {e} {2} {0} {} {1.000} {}
 E { 3271} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2469} {0} {} {The Lerna Marsh} { } {The Lerna Marsh seems trackless at first glance, but as you walk around a bit you realize that there are paths of a sort through the high grasses and pools of water. Despite its forbidding reputation, the marsh is beautiful in a way; it is serene and overflowing with life. However, the occasional odd odor wafting up from subterranean sources and the slight tickle on the nape of your neck keep you from growing entirely comfortable here. As you explore a bit, you lose track of the time, and realize you are entirely lost! The thick mist and constantly shifting mud make it impossible to follow your own tracks or even someone just a few feet in front of you.} {Ancient Greece} {} {} {} {1.000} {}
-E { 2468} {w} {#line quiet #var findroom true;w} {8} {0} {} {1.000} {}
-E { 7496} {e} {#line quiet #var findroom true;e} {2} {0} {} {1.000} {}
-E { 7497} {s} {#line quiet #var findroom true;s} {4} {0} {} {1.000} {}
-E { 7498} {n} {#line quiet #var findroom true;n} {1} {4} {} {1.000} {}
+E { 2468} {w} {w} {8} {0} {} {1.000} {}
+E { 7496} {e} {e} {2} {0} {} {1.000} {}
+E { 7497} {s} {s} {4} {0} {} {1.000} {}
 
 R { 2470} {0} {} {Under the Alcyonian Lake} { } {Deep, deep, deep into the murky depths you plunge.... Just when you think the lake must be bottomless you spy an area below you that is darker than the dark water around you.} {Ancient Greece } {} {} {} {1.000} {}
 E { 2471} {d} {d} {32} {0} {} {1.000} {}
@@ -10714,32 +10714,36 @@ E { 7497} {u} {u} {16} {0} {} {1.000} {}
 
 R { 2471} {0} {} {At the Bottom of the Lake} { } {Just when you think the lake must be bottomless, you spy an area below you that is darker than the dark water around you. Columns ornament the entrance of a deep cave, the fabled gate to the Underworld, where Hades holds sway.} {Tartarus } {} {} {} {1.000} {}
 E { 2470} {u} {u} {16} {0} {} {1.000} {}
-E { 2472} {e} {e} {2} {0} {} {1.000} {}
+E { 2477} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2472} {0} {} {Inside a Sunken Tunnel} { } {The waters inside this natural tunnel are considerably darkened by the absence of light coming from the lake's surface. Your way through this sunken corridor is constantly obstructed by thick weeds and your vision troubled by the lake's mud.} {Tartarus } {} {} {} {1.000} {}
-E { 2471} {w} {w} {8} {0} {} {1.000} {}
+R { 2472} {0} {} {A Long Hallway} { } {The long stone hallway before you is cold and slightly damp. The smooth bricks have been cut from the surrounding countryside, and fit together so carefully that not a draft can pass between the stones. But the lack of a fire keeps the hallway slightly damp and slightly mildewed year round.} {Player Housing} {} {} {} {1.000} {}
+E { 8084} {w} {w} {8} {0} {} {1.000} {}
 E { 2473} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2473} {0} {} {Inside a Sunken Tunnel} { } {Bubbles from your lungs quickly hit the ceiling of the sunken tunnels where they burst with a low noise that strangely echoes for a long time. You attempt to move in the many directions offered by the vast network of tunnels but alas -- most of them lead to dead ends, obstructed by rocks and lichens.} {Tartarus } {} {} {} {1.000} {}
+R { 2473} {0} {} {A Long Hallway} { } {The long stone hallway before you is cold and slightly damp. The smooth bricks have been cut from the surrounding countryside, and fit together so carefully that not a draft can pass between the stones. But the lack of a fire keeps the hallway slightly damp and slightly mildewed year round.} {Player Housing} {} {} {} {1.000} {}
 E { 2472} {w} {w} {8} {0} {} {1.000} {}
-E { 2474} {d} {d} {32} {0} {} {1.000} {}
+E { 2474} {s} {s} {4} {0} {} {1.000} {}
+E { 8191} {u} {u} {16} {0} {} {1.000} {}
 
-R { 2474} {0} {} {In an Underwater Cave} { } {The tunnels open here in a larger cave completely filled by water. The waters are clearer here and you can espy the bottom of the cave, literally covered by the bones of big fishes or small mammals. The temperature is cool and refreshing but you still feel a bit oppressed by the absence of air.} {Tartarus } {} {} {} {1.000} {}
-E { 2473} {u} {u} {16} {0} {} {1.000} {}
-E { 2475} {e} {e} {2} {0} {} {1.000} {}
+R { 2474} {0} {} {A Long Hallway} { } {The long stone hallway before you is cold and slightly damp. The smooth bricks have been cut from the surrounding countryside, and fit together so carefully that not a draft can pass between the stones. But the lack of a fire keeps the hallway slightly damp and slightly mildewed year round.} {Player Housing} {} {} {} {1.000} {}
+E { 2473} {n} {n} {1} {0} {} {1.000} {}
+E { 2475} {s} {s} {4} {0} {} {1.000} {}
 
-R { 2475} {0} {} {Inside a Sunken Tunnel} { } {The waters inside this natural tunnel are considerably darkened by the absence of light coming from the lake's surface. Your way through this sunken corridor is constantly obstructed by thick weeds and your vision troubled by the lake's mud.} {Tartarus } {} {} {} {1.000} {}
-E { 2474} {w} {w} {8} {0} {} {1.000} {}
-E { 2476} {d} {d} {32} {0} {} {1.000} {}
-
-R { 2476} {0} {} {Inside a Sunken Tunnel} { } {Bubbles from your lungs quickly hit the ceiling of the sunken tunnels where they burst with a low noise that strangely echoes for a long time. You attempt to move in the many directions offered by the vast network of tunnels but alas -- most of them lead to dead ends, obstructed by rocks and lichens.} {Tartarus } {} {} {} {1.000} {}
-E { 2475} {u} {u} {16} {0} {} {1.000} {}
-E { 2477} {e} {e} {2} {0} {} {1.000} {}
-E { 6729} {n} {n} {1} {0} {} {1.000} {}
-
-R { 2477} {0} {} {Near the End of the Syphon} { } {The cold temperature of the waters in the tunnel leaves you stiff and almost incapacitated. Above your head, the tunnel seems to lead up and end inside an air-filled cave. To the west, the tunnel continues in darkness, leading back to the lake at the middle of Lerna's swamp.} {Tartarus } {} {} {} {1.000} {}
+R { 2475} {0} {} {A Long Hallway} { } {The long stone hallway before you is cold and slightly damp. The smooth bricks have been cut from the surrounding countryside, and fit together so carefully that not a draft can pass between the stones. But the lack of a fire keeps the hallway slightly damp and slightly mildewed year round.} {Player Housing} {} {} {} {1.000} {}
+E { 2474} {n} {n} {1} {0} {} {1.000} {}
 E { 2476} {w} {w} {8} {0} {} {1.000} {}
+E { 8171} {s} {s} {4} {0} {} {1.000} {}
+E { 8172} {e} {e} {2} {0} {} {1.000} {}
+
+R { 2476} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 2475} {e} {e} {2} {0} {} {1.000} {}
+E { 6729} {n} {n} {1} {0} {} {1.000} {}
+E { 8156} {w} {w} {8} {0} {} {1.000} {}
+E { 7498} {s} {s} {4} {0} {} {1.000} {}
+
+R { 2477} {0} {} {Inside a Sunken Tunnel} { } {The waters inside this natural tunnel are considerably darkened by the absence of light coming from the lake's surface. Your way through this sunken corridor is constantly obstructed by thick weeds and your vision troubled by the lake's mud.} {Tartarus} {} {} {} {1.000} {}
 E { 2478} {u} {u} {16} {0} {} {1.000} {}
+E { 2471} {w} {w} {8} {0} {} {1.000} {}
 
 R { 2478} {0} {} {The Lair of the Guardian} { } {You stand inside a dark cave partially filled with a pool of cold waters that connects to a network of tunnels leading to the lake of Lerna's swamp. On the dirt-covered floor, a rusted brazier illuminates the cave, revealing a large archway of stone where gold-painted columns designate one of the entrances to the Underworld.} {Tartarus } {guardian} {} {} {1.000} {}
 E { 2477} {d} {d} {32} {0} {} {1.000} {}
@@ -15288,8 +15292,9 @@ E { 3553} {s} {open s;s} {4} {0} {} {1.000} {}
 R { 3557} {0} {} {A Large Shack} { } {This building is built simply as a temporary shelter for a wealthy farmer's large herds. Animals of all sorts roam around their pens and several of the finest of each type are designated by the ribbons and tags they wear to indicate their uniqueness.} {Viceroyal Lima } {} {} {} {1.000} {}
 E { 3552} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3558} {0} {} {The Camp of Aswad Al-Kufri's Men} { } {You stand in the middle of a encampment, surrounded by dunes of sand that almost hide its location from the Oasis. Busy men load mules and famished horses with sacks filled with what might be looted treasures from the Gizeh necropolis. It is very likely that you have stepped into Aswad's camp, the well-known chief of the band of aggressive grave robbers that terrorize the region.} {Industrial Pyramid } {} {} {} {1.000} {}
+R { 3558} {0} {} {The Camp of Aswad Al-Kufri's Men} { } {You stand in the middle of a encampment, surrounded by dunes of sand that almost hide its location from the Oasis. Busy men load mules and famished horses with sacks filled with what might be looted treasures from the Gizeh necropolis. It is very likely that you have stepped into Aswad's camp, the well-known chief of the band of aggressive grave robbers that terrorize the region.} {Industrial Pyramid} {} {} {} {1.000} {}
 E {  643} {e} {e} {2} {0} {} {1.000} {}
+E { 8195} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3559} {0} {} {The Shores of Lake Biwa} { } {To the north stretches a large body of fresh water: the lake Biwa. It is so called because its shape brings to mind the ceremonial stringed music instrument of the same name. The shores are steep and lush with green forests that obscure the pebbled beaches from which fishermen fan out across the surface of the lake. The immense Biwa extends far beyond view, almost the size of an inland sea.} {Medieval Japan } {} {} {} {1.000} {}
 E { 1287} {e} {e} {2} {0} {} {1.000} {}
@@ -17528,11 +17533,11 @@ E { 4090} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4090} {0} {} {At the Well} { } {This muddy hole dug into the ground can hardly be considered a well, but it does provide water for the city. As near as you can tell, this water is only used for drinking, the people of the city haul water in pots from the river in order to water their crops. Peering deep into the well, you can tell that it is almost dry. To the east, there is more farmland, and to the west, you can enter the huge building these people live in. The door into the building is covered by a heavy piece of animal fur.} {Anasazi America } {} {} {} {1.000} {}
 E { 4089} {s} {s} {4} {0} {} {1.000} {}
-E { 4092} {w} {w} {8} {0} {} {1.000} {}
+E { 4092} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 4095} {e} {e} {2} {0} {} {1.000} {}
 
 R { 4091} {0} {} {A Sleeping Room} { } {This room is used for the sole purpose of sleeping at night. The thick rock and mud walls provide a warm sleeping area in the chilling desert night, and sleeping as a group provides a general safety for all the members. It seems as if only the adults sleep here, though, perhaps the children sleep upstairs somewhere. To the west is a storage room, where all sorts of things are kept, and to the south, there seem to be more sleeping areas. There is a thick animal hide over the door to the east, which presumably leads to the outside.} {Anasazi America } {} {} {} {1.000} {}
-E { 4092} {e} {e} {2} {0} {} {1.000} {}
+E { 4092} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 4093} {s} {s} {4} {0} {} {1.000} {}
 E { 4099} {w} {w} {8} {0} {} {1.000} {}
 
@@ -17542,11 +17547,11 @@ E { 4091} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4093} {0} {} {A Sleeping Room} { } {This room is much like the one to the north, with thick rock walls and an open floor on which many members of the tribe sleep. There are blankets and sleeping mats scattered around with a few pieces of various equipment left to sit in the dirt. To the west is a storage room, and to the south is a door which leads out of the building and towards the fields. The southern door often has an animal hide covering the door to keep the beating sun or the cold air of the desert night out.} {Anasazi America } {} {} {} {1.000} {}
 E { 4091} {n} {n} {1} {0} {} {1.000} {}
-E { 4094} {s} {s} {4} {0} {} {1.000} {}
+E { 4094} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 4100} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4094} {0} {} {The Edge of Chaco} { } {You are standing just at the southern edge of town, with a huge, multi-story, rock, mud, and wood building to the north. The architecture of this building is incredible, you are staggered at what they could do with simple tools and materials. There is a door into the building to the north, covered with an animal hide, probably to keep out the sun during the day and the chilling desert wind at night. To the south is a bean field, where the farming Anasazi grow food for this entire city.} {Anasazi America } {} {} {} {1.000} {}
-E { 4093} {n} {n} {1} {0} {} {1.000} {}
+E { 4093} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 4085} {s} {s} {4} {0} {} {1.000} {}
 
 R { 4095} {0} {} {Another Corn Field} { } {This is another huge field of corn, rather like the ones on the way into town. This corn is healthy and multi-colored, from bright yellows to blues and reds. You suspect that the people living here might get tired of corn, but realize that no one can complain about a steady food supply. A long trail to the north leads towards a mesa, and the trail to the west leads back to the town's tiny well.} {Anasazi America } {} {} {} {1.000} {}
@@ -17577,16 +17582,16 @@ E { 4093} {e} {e} {2} {0} {} {1.000} {}
 R { 4101} {0} {} {A Grinding Room} { } {This airy and spacious room is often used by several of the tribe's women at once, where they pound at the nearly endless task of grinding dried corn with large stones. The floor is covered with a layer of fine grit, whether from the grinding of the corn or the grinding of rock on rock, you cannot tell. The dusty smell of corn flour is almost overwhelming. Through the open doorway to the north, there is another large room, and to the south there seems to be a large storage room. The door to the west leads outside the building, and is often covered by an animal hide.} {Anasazi America } {} {} {} {1.000} {}
 E { 4099} {s} {s} {4} {0} {} {1.000} {}
 E { 4102} {n} {n} {1} {0} {} {1.000} {}
-E { 4140} {w} {w} {8} {0} {} {1.000} {}
+E { 4140} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 4102} {0} {} {Chaco's Workroom} { } {Wow, what a cluttered room. After pushing your way in, you are finally able to tell that this is where most of the women's work happens. Pieces of clay are scattered around here, as well as partially finished and mostly finished pots, plates, and cups. Tiny figurines are being worked on as well, with intricate painting and semi-precious stones being imbedded in them. Piles of yucca leaves are being woven into sandals, and an occasion piece of cloth looks as if it is being worked into something as well. There is a ladder that leads up from here, as well as a doorway to the south. There is a door to the north that seems to lead outside, and a foul odor seems to be creeping in around the hide that usually hangs in the doorway.} {Anasazi America } {} {} {} {1.000} {}
 E { 4101} {s} {s} {4} {0} {} {1.000} {}
-E { 4103} {d} {d} {32} {0} {} {1.000} {}
+E { 4103} {d} {open d;d} {32} {0} {} {1.000} {}
 E { 4104} {u} {u} {16} {0} {} {1.000} {}
-E { 4147} {n} {n} {1} {0} {} {1.000} {}
+E { 4147} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 4103} {0} {} {A Treasure Room} { } {You can't help but gasp as you enter this room, their wealth here is amazing. Piles of turquoise are scattered here, as well as several pieces of jewelry and many beads of various substances, ranging from silver to bone. Strands of the finest silver are laid in rows.} {Anasazi America } {} {} {} {1.000} {}
-E { 4102} {u} {u} {16} {0} {} {1.000} {}
+E { 4102} {u} {open u;u} {16} {0} {} {1.000} {}
 
 R { 4104} {0} {} {Crafts Room} { } {This is the room where all the interesting stuff happens, at least if you are money-grubbing, greedy, or simply have an eye for beautiful items. The women of the tribe, and a few of the men if they show a special aptitude for it, use this room to create beautiful jewelry, figurines, decorative pots, and even ceremonial clothes. The room is, for the most part, empty, but is well lit by torches, so that workers can work well on into the night.} {Anasazi America } {} {} {} {1.000} {}
 E { 4102} {d} {d} {32} {0} {} {1.000} {}
@@ -17629,42 +17634,42 @@ E { 4112} {e} {e} {2} {0} {} {1.000} {}
 
 R { 4114} {0} {} {Just South of Kayenta} { } {You suddenly become aware of a town to the north of you, and are struck with a sudden confusion. Why would a people choose to build a town in such a desolate and dry place? Regardless of their reason, the town is a welcome sight. The desert to the south looks as if it would swallow you whole. The trail you stand on terminates in the doorway of a small, rock, multi-story building. The doorway is often covered by a small animal hide to keep out the driving sandstorms and deadly sun.} {Anasazi America } {} {} {} {1.000} {}
 E { 4115} {s} {s} {4} {0} {} {1.000} {}
-E { 4116} {n} {n} {1} {0} {} {1.000} {}
+E { 4116} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 4115} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4112} {s} {s} {4} {0} {} {1.000} {}
 E { 4114} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4116} {0} {} {Kayenta's Sleeping Room} { } {This smallish room seems to be where the majority of the tribe spends the evenings. Blankets and sleeping mats line the walls, and the floor seems remarkably empty of rocks and such. There is a doorway that leads to an even smaller room to the west, a hide-covered door to the east that must lead somewhere, and a smallish doorway to the north, which seems to be emanating the smell of dried corn. The doorway to the south seems must lead to the outside, the sun leaks under the hide that covers the door even when it is closed.} {Anasazi America } {} {} {} {1.000} {}
-E { 4114} {s} {s} {4} {0} {} {1.000} {}
-E { 4117} {e} {e} {2} {0} {} {1.000} {}
+E { 4114} {s} {open s;s} {4} {0} {} {1.000} {}
+E { 4117} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 4120} {w} {w} {8} {0} {} {1.000} {}
 E { 4121} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4117} {0} {} {Kayenta's Common Area} { } {This empty patch of ground is obviously heavily used for a number of purposes. This area is rather sheltered by the many buildings on each side, and probably hold significance as a meeting place, a place for work, and many other things, though you don't see why anything should happen outside in this God-forsaken wasteland. To the west is the main building of Kayenta, through a door covered with an animal hide would seem the best way in. To the east, there is a door to a small house that is completely unattached from the rest of the buildings, and you wonder whether being detached from the other buildings is an honor or not. To the north, there seems to be a hole in the ground, and you wonder whether the water you think you see in it is a mirage or not.} {Anasazi America } {} {} {} {1.000} {}
-E { 4116} {w} {w} {8} {0} {} {1.000} {}
-E { 4118} {e} {e} {2} {0} {} {1.000} {}
+E { 4116} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 4118} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 4125} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4118} {0} {} {The Sun-Chief's Hut} { } {This hut is tiny, but seems to manage to contain everything that would be crucial to a person trying to use it as a household. There are pots and other dishes scattered around, as well as many decorative items. There is an area where it looks as if someone sleeps, and very little else. You realize that this must be where the sun-chief, or Tawamongwi lives. The door to the west returns you to the common area, and there is a back door that leaves to the east. The biggest door leads to the north.} {Anasazi America } {} {} {} {1.000} {}
-E { 4117} {w} {w} {8} {0} {} {1.000} {}
-E { 4119} {e} {e} {2} {0} {} {1.000} {}
-E { 4127} {n} {n} {1} {0} {} {1.000} {}
+E { 4117} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 4119} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 4127} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 4119} {0} {} {At the Sun-Stone} { } {The doorway has let you out to an area that has cliffs on three sides. The walls of the cliffs are covered in drawings, many representing Anasazi, some representing the antelope or other animals, and many that must represent the several gods of the Anasazi, including the flute-player, the twin war gods, and the spider grandmother. The only direction you can even imagine going is back through the door into the sun-chief's hut.} {Anasazi America } {} {} {} {1.000} {}
-E { 4118} {w} {w} {8} {0} {} {1.000} {}
+E { 4118} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 4120} {0} {} {Kayenta's Children's Room} { } {The children of this dreadfully hot little town spend the majority of their time in this room, they seem to eat, sleep, and play here. There is usually at least one adult here, watching the children, as they range from about two years old to about eight years old. The only way out of this room is the way you came in, from the east.} {Anasazi America } {} {} {} {1.000} {}
 E { 4116} {e} {e} {2} {0} {} {1.000} {}
 
 R { 4121} {0} {} {Kayenta's Grinding Room} { } {It is all you can do to keep from sneezing from the clouds of fine yellow maize-flour that seem to be perpetually suspended in the air of this room. The fact that there is also the stone-dust that is made when two stones are rubbed together doesn't help that at all. You do see that all the necessary implements to make corn-flour out of dried corn are here, and that this room looks pretty heavily used. There is a ladder in the corner of the room that leads up through the ceiling, and a door to the north that is covered by yet another animal hide, much like the door to the west is. The doorway to the south is open and leads to a rather dank little room.} {Anasazi America } {} {} {} {1.000} {}
 E { 4116} {s} {s} {4} {0} {} {1.000} {}
-E { 4122} {w} {w} {8} {0} {} {1.000} {}
+E { 4122} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 4124} {u} {u} {16} {0} {} {1.000} {}
-E { 4130} {n} {n} {1} {0} {} {1.000} {}
+E { 4130} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 4122} {0} {} {Farmland} { } {This is a large field where the Anasazi of Kayenta seem to be growing melons. The melons extend for several yards in every direction, after which the desert seems to take over and the melons must no longer be able to grow. The only actual trail, however, leads into the desert to the west. The 'back' door to Kayenta lies to your east, probably covered by an animal hide.} {Anasazi America } {} {} {} {1.000} {}
-E { 4121} {e} {e} {2} {0} {} {1.000} {}
+E { 4121} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 4123} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4123} {0} {} {Desolate Desert} { } {The desert here is huge, dry, and very, very empty. For as far as you can see to the north, west, and south, there is nothing but mind-bending and frightening emptiness. No clouds of dust from the wind, no sparse vegetation, no animal tracks. . . Simply sand under a huge blue sky and a burning sun. The town you have left has fields just to the east of you, common sense says that you should return to the town.} {Anasazi America } {} {} {} {1.000} {}
@@ -17681,18 +17686,18 @@ R { 4126} {0} {} {A Dancing Ring} { } {This dancing ring is worn into the ground
 E { 4125} {s} {s} {4} {0} {} {1.000} {}
 
 R { 4127} {0} {} {At a Rock Pile} { } {This is a strange little area of the town, as there is a rock-pile in the middle of it. You can't help but wonder whether these rocks were here or brought in by hundreds of hours of labor. Just to the north of you is a kiva, and to the south of you, you can see a small hut.} {Anasazi America } {} {} {} {1.000} {}
-E { 4118} {s} {s} {4} {0} {} {1.000} {}
+E { 4118} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 4128} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4128} {0} {} {Atop A Kiva} { } {You are standing atop a circular kiva, which is built mostly into the ground. There is a steady stream of smoke that rises through the roof, near where you are standing. A ladder, to the east of the smoke hole, leads down into the kiva, but the hole it uses is almost always covered by an animal hide. The trail you were using ended here, so if you are leaving you should head to the south.} {Anasazi America } {} {} {} {1.000} {}
 E { 4127} {s} {s} {4} {0} {} {1.000} {}
-E { 4129} {d} {d} {32} {0} {} {1.000} {}
+E { 4129} {d} {open d;d} {32} {0} {} {1.000} {}
 
 R { 4129} {0} {} {Inside a Kiva} { } {Standing inside this kiva at Kayenta, you can't help but feel as if you have entered a very solemn place. The walls are lined with rock, as is the ledge that goes around the entire circumference of the kiva. There are occasional blankets scattered around the ledge, as well as a few personal items. There is a hole in the floor, about three inches deep and lined with turquoise, slightly to the south of a small but cheerful fire. The ladder you came down stretches all the way to floor, probably because there is no other way out.} {Anasazi America } {} {} {} {1.000} {}
-E { 4128} {u} {u} {16} {0} {} {1.000} {}
+E { 4128} {u} {open u;u} {16} {0} {} {1.000} {}
 
 R { 4130} {0} {} {Kayenta's Chicken Pen} { } {This chicken pen is hardly impressive, and you get the feeling that these people don't eat very well. The ground here is very hard, and water seems very scarce. The chickens aren't even threatening, they seem to lack the energy to move. The door to the main building is to the south, and is covered with an animal hide, whether to keep the chickens, the stench of the chickens, the sun, or the wind out, you cannot tell. A trail starts at the edge of the chicken pen and leads to the north.} {Anasazi America } {} {} {} {1.000} {}
-E { 4121} {s} {s} {4} {0} {} {1.000} {}
+E { 4121} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 4131} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4131} {0} {} {A Trail at the Edge of Town} { } {This trail splits here, with a branch leading south, a branch leading east, and a branch leading north. The trail to the south seem the most heavily used, but both the others seem heavily-trod as well. To the north you can barely make out a mountain range through the swirling dust, and to the east you can see nothing but desert.} {Anasazi America } {} {} {} {1.000} {}
@@ -17732,7 +17737,7 @@ R { 4139} {0} {} {End of a Canyon} { } {You have reached the end of the canyon -
 E { 4138} {s} {s} {4} {0} {} {1.000} {}
 
 R { 4140} {0} {} {The Far Western Fields of Chaco} { } {This field is between Chaco and Kayenta and is growing corn, the staple food of the Anasazi. The huge building these people inhabit is directly to the east of you, you can sense people behind the animal hide dangling on the doorway. There is a cliff to the west, leading almost straight up, but there are secure-looking handholds and footholds carved into the wall.} {Anasazi America } {} {} {} {1.000} {}
-E { 4101} {e} {e} {2} {0} {} {1.000} {}
+E { 4101} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 4141} {u} {u} {16} {0} {} {1.000} {}
 
 R { 4141} {5130} {} {} { } {} {} {} {} {} {1.000} {}
@@ -18144,9 +18149,10 @@ R { 4242} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4239} {w} {w} {8} {0} {} {1.000} {}
 E { 4240} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4243} {0} {} {Off the Shore of Troy} { } {To the east lie the ruins of the great city-state of Troy. Much have you heard about its proud warriors, its fine horses, and its beautiful women. The pull to put ashore and visit there is almost irresistible, to see for yourself the work of mighty Odysseus, city-wrecker.} {Ancient Greece } {} {} {} {1.000} {}
+R { 4243} {0} {} {Off the Shore of Troy} { } {To the east lie the ruins of the great city-state of Troy. Much have you heard about its proud warriors, its fine horses, and its beautiful women. The pull to put ashore and visit there is almost irresistible, to see for yourself the work of mighty Odysseus, city-wrecker.} {Ancient Greece} {} {} {} {1.000} {}
 E { 4240} {n} {n} {1} {0} {} {1.000} {}
 E { 4244} {e} {e} {2} {0} {} {1.000} {}
+E { 8206} {s} {s} {4} {0} {} {1.000} {}
 
 R { 4244} {0} {} {A Beach Outside the Ruins of Troy} { } {You have landed on a smooth, white beach. Seeing the clean, undisturbed sand seems somehow wrong, as if you expected it still to be bathed in blood from the ten years of fighting here over fair-haired Helen. The ruins of the once-mighty Troy, razed by Odysseus, City-Wrecker, lie to the north.} {Ancient Greece } {} {} {} {1.000} {}
 E { 4243} {w} {w} {8} {0} {} {1.000} {}
@@ -18614,6 +18620,7 @@ R { 4355} {0} {} {The Entrance Hall} { } {You stand under a huge vault of white 
 E { 4354} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 4356} {w} {w} {8} {0} {} {1.000} {}
 E { 4357} {s} {s} {4} {0} {} {1.000} {}
+E { 8199} {e} {e} {2} {0} {} {1.000} {}
 
 R { 4356} {0} {} {Before a Marble Stairway} { } {The long hallway walls are covered with tapestries ornamented by vibrant depictions of battle and warfare emphasizing the fame and courage of Carthaginian heroes. As your gaze follows the storyline on the wall, you notice a marble staircase leading up into the Citadel.} {Ancient Carthage } {} {} {} {1.000} {}
 E { 4355} {e} {e} {2} {0} {} {1.000} {}
@@ -23158,10 +23165,11 @@ E { 6099} {w} {w} {8} {0} {} {1.000} {}
 E { 5437} {e} {e} {2} {0} {} {1.000} {}
 E { 6096} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5437} {0} {} {A Bend in the Neva River} { } {The river approaches from the south here, and bends to the west as it enters Petrograd. This river is one of the city's defining aspects, and some even call it the main road of the city. Petrograd, formerly known as Saint Petersburg, is the Russian Imperial capital, and even from here, you can feel the city's majesty.} {Russian Revolution of 1917 } {} {} {} {1.000} {}
+R { 5437} {0} {} {A Bend in the Neva River} { } {The river approaches from the south here, and bends to the west as it enters Petrograd. This river is one of the city's defining aspects, and some even call it the main road of the city. Petrograd, formerly known as Saint Petersburg, is the Russian Imperial capital, and even from here, you can feel the city's majesty.} {Russian Revolution of 1917} {} {} {} {1.000} {}
 E { 5436} {w} {w} {8} {0} {} {1.000} {}
 E { 5438} {n} {n} {1} {0} {} {1.000} {}
 E { 6097} {s} {s} {4} {0} {} {1.000} {}
+E { 5651} {e} {e} {2} {1} {} {1.000} {}
 
 R { 5438} {0} {} {The Darkness on the Edge of Town} { } {North of the city, there is not much to see. A road leads into Petrograd and onward to the north, doubtless toward some colder, more distant, less forgiving locale.} {Russian Revolution of 1917 } {} {} {} {1.000} {}
 E { 5437} {s} {s} {4} {0} {} {1.000} {}
@@ -24549,7 +24557,7 @@ R { 5770} {0} {} {Standing Before the Screen} { } {Your vision is somewhat blurr
 E { 5769} {s} {s} {4} {0} {} {1.000} {}
 E { 5771} {n} {n} {1} {0} {} {1.000} {}
 
-R { 5771} {0} {} {A Brightly Coloured Caravan} { } {This caravan is so bright that there is nowhere for the eyes to rest comfortably. A large red couch stands center room and before it is a coffee table covered in a multi-coloured cloth. A huge vase of flowers stand center table and reflect the bright reds and pinks of the wallpaper. A bed rests in the corner of the room, blanketed in thick blue and yellow quilts and at its feet stands an elaborate Turkish rug which looks more like an explosion than a carpet. Curiously, each item of furniture is echoed by its twin in miniature. Next to the bed stands a smaller bed, the couch is flanked by a miniature couch and next to the armchair is its tiny replica. Perhaps a spoiled child lives here.} {Gypsy Carnival } {} {} {} {1.000} {}
+R { 5771} {0} {} {On the Moon} { } {Your spaceship has crashed into the eye of the great man on the moon though he seems unaffected by the event. His other huge eye winks a welcome hello and a broad grin spreads across his cratered face. You notice that you too have become monochromatic; looking down at your hands and arms you see none of their normal hue. Yet this hardly bothers you as sprinklings of glitter and tinsel fall from the starry sky. A strange, bright light shines in your eyes and sets the room ablaze, removing all shadow and definition.} {Gypsy Carnival} {} {} {} {1.000} {}
 E { 5770} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5772} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -25132,8 +25140,9 @@ E { 5906} {n} {open n;n} {1} {0} {} {1.000} {}
 R { 5906} {0} {} {In an Ensuite} { } {A wooden shelf rests waist-high with a removable porcelain pot embedded in the centre. Books and pamphlets lie in piles everywhere and, unfortunately, this room is windowless. The water in the small basin has been neglected and become cold, and the water in the jug is almost empty. This is Victorian civilisation.} {Gypsy Carnival } {} {} {} {1.000} {}
 E { 5905} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R { 5907} {0} {} {The Trainer's Room} { } {Whips, half-chewed chairs and jumping circles lie scattered over the floor and hang from hooks on the walls. In the corner is a fold-out cot bed on which lie a pile of rumpled blankets. Behind the bed is a battered wooden shelf which displays a few personal belongings, all nondescript and either broken or well-worn. A glass and wood cabinet exhibits an impressive collection of rifles and knives under lock and key and, from the sounds of the roars and howls from the cages nearby, one can take certain comfort in their presence. A small window over the bed is curtained in functional brown cloth which matches the dour brown of the bedding. It is apparent that the trainer is hardly concerned with beauty or cleanliness in his dwellings.} {Gypsy Carnival } {} {} {} {1.000} {}
+R { 5907} {0} {} {The Trainer's Room} { } {Whips, half-chewed chairs and jumping circles lie scattered over the floor and hang from hooks on the walls. In the corner is a fold-out cot bed on which lie a pile of rumpled blankets. Behind the bed is a battered wooden shelf which displays a few personal belongings, all nondescript and either broken or well-worn. A glass and wood cabinet exhibits an impressive collection of rifles and knives under lock and key and, from the sounds of the roars and howls from the cages nearby, one can take certain comfort in their presence. A small window over the bed is curtained in functional brown cloth which matches the dour brown of the bedding. It is apparent that the trainer is hardly concerned with beauty or cleanliness in his dwellings.} {Gypsy Carnival} {} {} {} {1.000} {}
 E { 5785} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8198} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5908} {0} {} {In the Big Cats' Side Ring} { } {This ring is smaller than the centre ring yet boasts a gilt cage which houses the big cats who perform dangerous stunts at the threat of the whip. Rings of fire hang 6 feet in the air and the cats jump time and again through them - singeing their fur and burning their paws on occasion. Large balls roll across the ground under the cats' great paws as they balance precariously upon their rounded surfaces. Clumps of matted fur speckle the ground which is dotted with blood and soaked in animal waste. The hay underfoot has become pulpy and retained a terrible stench and desperately needs to be cleaned. A few brightly painted podiums dot the ring for the cats to stand upon, and the traditional chairs and whips lie in a haphazard pile along the side of the ring. From a distance the cats seem well-groomed and trained, but it is here that one can see their true degradation.} {Gypsy Carnival } {} {} {} {1.000} {}
 E { 5786} {w} {w} {8} {0} {} {1.000} {}
@@ -26870,27 +26879,27 @@ E { 5766} {u} {u} {16} {0} {} {1.000} {}
 
 R { 6340} {0} {} {A Melon Field by the River} { } {The melons in this field are amazing, huge, brightly colored, and very abundant. You are now certain you know why this place was chosen for a town. The main building in this canyon is built into the cliff to the west of you, and to the south of you is the middle of 'town'.} {Anasazi America } {} {} {} {1.000} {}
 E { 5766} {s} {s} {4} {0} {} {1.000} {}
-E { 6341} {w} {w} {8} {0} {} {1.000} {}
+E { 6341} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 6341} {0} {} {A Women's Workroom} { } {The women of this town come to this room to work at all their tasks, whatever they may be. The floor is littered with lumps of clay, pieces of cloth, and tiny pieces of silver and turquoise; Any number of interesting things must happen in this room. There is a doorway to the east and one to the north, both of which are often closed with animal hides, as well as an open doorway to the south.} {Anasazi America } {} {} {} {1.000} {}
-E { 6340} {e} {e} {2} {0} {} {1.000} {}
+E { 6340} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 5767} {s} {s} {4} {0} {} {1.000} {}
-E { 6342} {n} {n} {1} {0} {} {1.000} {}
+E { 6342} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 6342} {0} {} {A Painted Cliff-face} { } {The hollow of the cliff in which the entire town is built ends at a wall here, and the wall seems to have been taken over by the town artist as a mural in which to paint a celebration of life. The circles of nature are evident here, as well as the reverence which is given to the many aspects of nature.} {Anasazi America } {} {} {} {1.000} {}
-E { 6341} {s} {s} {4} {0} {} {1.000} {}
+E { 6341} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 6343} {0} {} {A Bean Field by the River} { } {The beans growing in this field are amazingly healthy and abundant, you can't help but feel that the gods have blessed the people of this valley. The river lies to the east, but you can't really get there from here. The two options you do have are north to the 'center of town' and west into the building.} {Anasazi America } {} {} {} {1.000} {}
 E { 5766} {n} {n} {1} {0} {} {1.000} {}
-E { 6344} {w} {w} {8} {0} {} {1.000} {}
+E { 6344} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 6344} {0} {} {A Grinding Room} { } {There is a thin layer of yellow dust on everything, as this is the room in which dried corn is ground into corn flour by the women of the tribe. Not much else seems to happen here, and the room itself isn't very interesting. There is an open doorway to the north, and an often-covered doorway to the east as well as to the south.} {Anasazi America } {} {} {} {1.000} {}
-E { 6343} {e} {e} {2} {0} {} {1.000} {}
+E { 6343} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 5767} {n} {n} {1} {0} {} {1.000} {}
-E { 6345} {s} {s} {4} {0} {} {1.000} {}
+E { 6345} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 6345} {0} {} {Ceremonial Grounds} { } {This is evidently where ceremonies take place, as there is little here, but the area is quite worn, as if by the feet of many dancers. The central item here is a huge nest that has been built, presumably by man as the workmanship is crude, in the very middle of the area. What ceremony could possibly take place that would involve a nest? Perhaps the answer to that lies in one of the three directions you can travel, to the north into the building, to the west into a tiny and run-down hut, or to the south along a thin trail.} {Anasazi America } {} {} {} {1.000} {}
-E { 6344} {n} {n} {1} {0} {} {1.000} {}
+E { 6344} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 6346} {w} {w} {8} {0} {} {1.000} {}
 E { 6347} {s} {s} {4} {0} {} {1.000} {}
 
@@ -27603,6 +27612,7 @@ E { 6516} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 6516} {0} {} {Inside a Small Shack} { } {Tin pans have been dropped carelessly on the floor here. A small cot sits over to one corner and several wooden crates labeled with red letters sit in the other corner of the room. The wooden floorboards creak as you walk across them, protesting your weight. Spiderwebs hang delicately from the corners, catching more dust than insects. The oiled paper windows let a little light in from outside during the day, but barely enough to see by without striking a match.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6515} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8205} {d} {open d;d} {32} {1} {} {1.000} {}
 
 R { 6517} {0} {} {The Mining Trail} { } {The trail is well worn this way. Boot tracks scar the dirt. The trees still stand here, protected by the enormous rocks that jut up out of the earth. The way east is blocked by a near cliff face where the rock climbs for the sky and if you went west, you'd fall off the side of the hill, never to be heard from again. To the south, the trail continues between two large slabs of rock.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6511} {n} {n} {1} {0} {} {1.000} {}
@@ -27650,6 +27660,7 @@ E { 6528} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6528} {0} {} {On the Brink} { } {You stand on the brink of a large chasm. The meager light barely stretches beyond you, seemingly eaten by the cavernous darkness, let alone all the way to the other side. The empty space echoes loudly back at you suggesting an enormous cavern. An underground river rushes madly somewhere below you, but far out of sight.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6527} {w} {w} {8} {0} {} {1.000} {}
+E { 8200} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6529} {0} {} {Wu Chen's Private Chambers} { } {Here you stand in the inner sanctum of the deadliest, most powerful man on the South Seas. He could have you killed with a flick of the finger. All around you are the riches of countless vessels that European harbormasters have chalked up to lost at sea in storms. A screen slides across the room to separate it from the main cabin--Wu Chen does like his privacy while he kills people.} {South Seas } {} {} {} {1.000} {}
 E { 6225} {w} {open w;w} {8} {0} {} {1.000} {}
@@ -28426,9 +28437,9 @@ E { 2616} {s} {s} {4} {0} {} {1.000} {}
 R { 6728} {0} {} {A Small Cottage} { } {You have entered a small cottage inside the keep. There is a small hearth to your right, and a loom stands to your left. Sunlight filters down through small windows set high in the walls and through some of the roof where it needs patching. The back section of the cottage is hidden behind some tarps that conceal the sleeping areas of the family.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 1133} {s} {s} {4} {0} {} {1.000} {}
 
-R { 6729} {0} {} {A Dead End} { } {The water-filled passage ends here before what seems to be a tall cliff leading far up to a place that emits no source of light of any kind. A strong current comes from above, indicating that this place is probably not a dead end but a connection room to another place within the caves.} {Tartarus } {} {} {} {1.000} {}
+R { 6729} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
 E { 2476} {s} {s} {4} {0} {} {1.000} {}
-E { 6730} {u} {u} {16} {0} {} {1.000} {}
+E { 8155} {w} {w} {8} {0} {} {1.000} {}
 
 R { 6730} {0} {} {A Tunnel Under the Cliffs} { } {You have entered a dark tunnel beneath the cliffs of the mysterious island. The water is so murky you can't even see your hand in front of your face down here; what might be lurking in the depths? The walls feel smooth to your touch, almost as if this tunnel was sculpted from the very rock in some bygone era. You glance behind you and realize that the perspective seems to have shifted somewhat... You're no longer sure of your way back. In fact, the water outside the tunnel appears to have darkened appreciably, and you can almost imagine the malevolent visage of Poseidon in the murky depths outside. You hesitate to return to the sea outside this ring of cliffs, but know you must travel that way eventually if you are ever to leave this place.} {Ancient Greece } {} {} {} {1.000} {}
 E { 6731} {w} {w} {8} {0} {} {1.000} {}
@@ -28503,6 +28514,7 @@ R { 6745} {0} {} {Before the Gates of an Icy Castle} { } {The cold hills of Ezoc
 E { 6743} {w} {w} {8} {0} {} {1.000} {}
 E { 6746} {n} {n} {1} {0} {} {1.000} {}
 E { 6747} {s} {s} {4} {0} {} {1.000} {}
+E { 8196} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6746} {0} {} {Before a Guardian's Statue} { } {You stand before the frightening statue of a grinning creature that guards the sides of the castle's gate. The statue resembles a man with many arms, each of them wielding a deadly weapon. The guardian's statue brandishes two of its arms in your direction, opened palm of its hands facing you.} {Medieval Japan } {} {} {} {1.000} {}
 E { 6745} {s} {s} {4} {0} {} {1.000} {}
@@ -31704,8 +31716,9 @@ R { 7497} {0} {} {Alcyonian Lake} { } {The trackless marsh opens up here, reveal
 E { 2469} {n} {n} {1} {0} {} {1.000} {}
 E { 2470} {d} {d} {32} {0} {} {1.000} {}
 
-R { 7498} {256} {} {} { } {} {Ancient Greece} {} {} {} {1.000} {}
-E { 2469} {s} {s} {4} {4} {} {1.000} {}
+R { 7498} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 2476} {n} {n} {1} {0} {} {1.000} {}
+E { 8157} {w} {w} {8} {0} {} {1.000} {}
 
 R { 7499} {0} {} {Inside the Sewers} { } {A network of tunnels and chambers expand under the City of Brass, connecting homes and buildings underground. The walls are paved with shiny, dark stones that look like they can resist extreme heat. Where sewers elsewhere have a river of reeking filth flowing through them, a stream of molten lava runs through the sewers of the City of Brass!} {Arabian Dreams} {} {} {} {1.000} {}
 E { 6015} {u} {u} {16} {1} {} {1.000} {}
@@ -33069,7 +33082,7 @@ E { 7830} {e} {e} {2} {0} {} {1.000} {}
 R { 7830} {0} {} {The Council Chamber} { } {The chamber has large windows from where archangels and leaders of the seven heavens can fly in and gather in the large room. A huge stone portal sits in the middle of the room and archangels gather around it in awe.} {The Seven Heavens} {} {} {} {1.000} {}
 E { 7829} {w} {w} {8} {0} {} {1.000} {}
 
-R { 7831} {0} {} {The Herbalist Bazaar} { } {This small shop sells a diverse assortment of herbs and balms within the City of Brass. Large shelves and piles of phials and powdered herbs overwhelm the crowded and narrow space within the bazaar.} {Arabian Dreams} {} {} {} {1.000} {}
+R { 7831} {0} {<029>} {The Herbalist Bazaar} {H} {This small shop sells a diverse assortment of herbs and balms within the City of Brass. Large shelves and piles of phials and powdered herbs overwhelm the crowded and narrow space within the bazaar.} {Arabian Dreams} {} {} {} {1.000} {}
 E { 4922} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 7832} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -34108,6 +34121,9 @@ E { 8082} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8084} {0} {} {The Barbican} { } {The narrow passageway has been designed for defense of the castle. Invaders are forced to stream through this small funnel where they can be repelled. Small slits on the walls allow for defence with arrows. Holes above threaten to pour boiling oil down on those arrogant enough to dare attack such a stronghold.} {Player Housing} {} {} {} {1.000} {}
 E { 8144} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8155} {s} {s} {4} {0} {} {1.000} {}
+E { 2472} {e} {e} {2} {0} {} {1.000} {}
+E { 8164} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8085} {0} {} {The End of a Choked Passageway} { } {The passageway comes to a rather abrupt end in a solid wall of a stone that you cannot possibly begin to identify. The sickly white moss clings thick to the walls here and tons of small creatures swim past, mostly small worms or the occasional blind fish, disappearing from your field of vision as quickly as they arrived. A sudden flurry of motion kicks up a burst of dirt into the water and you are momentarily blinded. Whatever it was, it is gone now, but you fear that there might be more such creatures about... or worse.} {Celtic Ireland} {} {} {} {1.000} {}
 E { 5006} {w} {w} {8} {0} {} {1.000} {}
@@ -34343,6 +34359,8 @@ E { 8142} {w} {w} {8} {0} {} {1.000} {}
 R { 8144} {0} {} {Svartur's Castle in Logres} { } {The gateway through the castle walls arches over you, the gray stonework ponderous and thick. The walls provide safety for those who live within. A banner hangs above the strong metal gate, announcing to all who dwells within.} {Player Housing} {} {} {} {1.000} {}
 E { 7876} {n} {open n;n} {1} {1} {} {1.000} {}
 E { 8084} {s} {open s;s} {4} {0} {} {1.000} {}
+E { 8187} {w} {w} {8} {0} {} {1.000} {}
+E { 8189} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8145} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5459} {s} {s} {4} {0} {} {1.000} {}
@@ -34378,3 +34396,221 @@ E { 1608} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8154} {0} {} {Fadhmir's Final Resting Place} { } {Dark and oppressive, like the last breath from a lung bubbling with blood, the air of this room hangs about you like sour cloth. Yet the room is bright, bright, red and bright with the gold that lies in molten hopeless piles about you, in rivers and lakes, in puddles and mounds of melded coins and fused jewelry. The room dazzles with red gold, the gold of the rivers, the gold granted men to make them yearn for the heavens. For a moment the wod of greed takes hold of you, and you hear the whisper of scales in your soul; but you are deterred by the image of a man half-traced in gold melted onto bones like candlewax. There lies Fadhmir, once thane over the earth, and now a skeleton with chest caved in by the weight of the wealth too great for one man to carry.} {Beowulf} {} {} {} {1.000} {}
 E { 2879} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8155} {0} {} {The Inner Courtyard} { } {The interior courtyard is lined with trees and benches. The surrounding walls are hung with a series of tapestries, each combining costly threads and tiny stitches to form complex scenes of lords and ladies, of harts and hounds, of trees and flowers. Doors in every direction lead back into the castle.} {Player Housing} {} {} {} {1.000} {}
+E { 8084} {n} {n} {1} {0} {} {1.000} {}
+E { 8156} {s} {s} {4} {0} {} {1.000} {}
+E { 6729} {e} {e} {2} {0} {} {1.000} {}
+E { 8160} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8156} {0} {} {A Peaceful Garden} { } {The lush and beautiful garden has been well-tended. Carefully-groomed bushes line grassy pathways between raised beds of flowers, herbs, and fruit trees. A sparkling pool in the center reflects the scene, a rippling mosaic of colors and textures.} {Player Housing} {} {} {} {1.000} {}
+E { 8155} {n} {n} {1} {0} {} {1.000} {}
+E { 2476} {e} {e} {2} {0} {} {1.000} {}
+E { 8157} {s} {s} {4} {0} {} {1.000} {}
+E { 8158} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8157} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 7498} {e} {e} {2} {0} {} {1.000} {}
+E { 8156} {n} {n} {1} {0} {} {1.000} {}
+E { 8159} {w} {w} {8} {0} {} {1.000} {}
+E { 8168} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8158} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8156} {e} {e} {2} {0} {} {1.000} {}
+E { 8159} {s} {s} {4} {0} {} {1.000} {}
+E { 8160} {n} {n} {1} {0} {} {1.000} {}
+E { 8161} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8159} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8158} {n} {n} {1} {0} {} {1.000} {}
+E { 8157} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8160} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8155} {e} {e} {2} {0} {} {1.000} {}
+E { 8158} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8161} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8158} {e} {e} {2} {0} {} {1.000} {}
+E { 8162} {n} {n} {1} {0} {} {1.000} {}
+E { 8165} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8162} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8161} {s} {s} {4} {0} {} {1.000} {}
+E { 8163} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8163} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8162} {s} {s} {4} {0} {} {1.000} {}
+E { 8164} {e} {e} {2} {0} {} {1.000} {}
+E { 8190} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8164} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8163} {w} {w} {8} {0} {} {1.000} {}
+E { 8084} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8165} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8161} {n} {n} {1} {0} {} {1.000} {}
+E { 8166} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8166} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8165} {n} {n} {1} {0} {} {1.000} {}
+E { 8167} {e} {e} {2} {0} {} {1.000} {}
+E { 8181} {d} {d} {32} {0} {} {1.000} {}
+E { 8182} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8167} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8166} {w} {w} {8} {0} {} {1.000} {}
+E { 8168} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8168} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8167} {w} {w} {8} {0} {} {1.000} {}
+E { 8157} {n} {n} {1} {0} {} {1.000} {}
+E { 8169} {e} {e} {2} {0} {} {1.000} {}
+E { 8173} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8169} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8168} {w} {w} {8} {0} {} {1.000} {}
+E { 8170} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8170} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8169} {w} {w} {8} {0} {} {1.000} {}
+E { 8171} {n} {n} {1} {0} {} {1.000} {}
+E { 8180} {d} {d} {32} {0} {} {1.000} {}
+E { 8183} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8171} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8170} {s} {s} {4} {0} {} {1.000} {}
+E { 2475} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8172} {0} {} {Svartur's Great Hall} { } {The great hall is hung with dramatic banners and tapestries. The long tables in the center of the room look as if they might seat fifty people for a feast. A series of candlestands line the room, and lend the room a warm, rich glow. One end of the room is dominated by a raised platform, where a pair of thrones sit behind a particularly lavish table.} {Player Housing} {} {} {} {1.000} {}
+E { 2475} {w} {w} {8} {0} {} {1.000} {}
+E { 8178} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8173} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8168} {n} {n} {1} {0} {} {1.000} {}
+E { 8174} {e} {e} {2} {0} {} {1.000} {}
+E { 8175} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8174} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8173} {w} {w} {8} {0} {} {1.000} {}
+E { 8176} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8175} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8173} {e} {e} {2} {0} {} {1.000} {}
+E { 8177} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8176} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8174} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8177} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8175} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8178} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8172} {s} {s} {4} {0} {} {1.000} {}
+E { 8179} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8179} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8178} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8180} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8170} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8181} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8166} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8182} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8166} {d} {d} {32} {0} {} {1.000} {}
+E { 8186} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8183} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8170} {d} {d} {32} {0} {} {1.000} {}
+E { 8184} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8184} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8183} {e} {e} {2} {0} {} {1.000} {}
+E { 8185} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8185} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8184} {e} {e} {2} {0} {} {1.000} {}
+E { 8186} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8186} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8185} {e} {e} {2} {0} {} {1.000} {}
+E { 8182} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8187} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8144} {e} {e} {2} {0} {} {1.000} {}
+E { 8188} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8188} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8187} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8189} {0} {} {The Castle Armory} { } {The armory is used primarily for the storage of weapons and armor when not in use, but also features a small forge off to one side, used for repairing armor and weapons. The heavy, metallic smell of rust is supplemented with a thick, greasy stench. Although the fire is kept up constantly, dampness seems to creep in from the walls, chilling you.} {Player Housing} {} {} {} {1.000} {}
+E { 8144} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8190} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8163} {d} {d} {32} {0} {} {1.000} {}
+E { 8194} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8191} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 2473} {d} {d} {32} {0} {} {1.000} {}
+E { 8192} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8192} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8191} {e} {e} {2} {0} {} {1.000} {}
+E { 8193} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8193} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8192} {e} {e} {2} {0} {} {1.000} {}
+E { 8194} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8194} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+E { 8193} {e} {e} {2} {0} {} {1.000} {}
+E { 8190} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8195} {0} {} {Inside Aswad Al-Kufri's Tent} { } {You stand inside a richly decorated tent where expensive Arabian carpets, copper plates and lanterns mix with ancient artifacts from the old empires of Egypt. Next to the entrance, a very well preserved statue of Horus stands magnificent, a stolen treasure of the Egyptian people.} {Industrial Pyramid} {} {} {} {1.000} {}
+E { 3558} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8196} {0} {} {A Frozen Hallway} { } {This stone hallway penetrates the lower levels of the icy fortress. The paved floor is carpeted by a chilly mist, obscuring your feet. Frozen plain walls are covered with a thick coat of ice, imprisoning doors and wall ornaments. To the east, the end of the hallway glows with a blue light, radiating from a translucent wall blocking the way.} {Medieval Japan} {} {} {} {1.000} {}
+E { 6745} {w} {w} {8} {0} {} {1.000} {}
+E { 8197} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8197} {0} {} {Bishamonten's Throne Room} { } {You stand in a large throne room inside the castle that looks to lie within a large and gloomy cave carved into raw ice. An iron throne stands in the middle of the room that has no other ornaments than two huge candles on the sides of the throne, casting strange shadows on the translucent walls.} {Medieval Japan} {} {} {} {1.000} {}
+E { 8196} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8198} {0} {} {Inside the Lion's Cage} { } {Small splashes stain the walls with the unmistakable dark red of dried blood and underfoot the soiled and sodden hay is coated in parts with more dark pools, these a little fresher. Animal waste and tufts of fur have not been cleaned from this tiny space and rodents and flies wallow in the filth in which they have made their dwellings. The fear and degradation which emanates from the inhabitants of these cages as they pace their tiny homes or lie, unmoving and lethargic, upon the straw covered floor is almost palpable.} {Gypsy Carnival} {} {} {} {1.000} {}
+E { 5907} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8199} {0} {} {A Bedroom Above the Ocean} { } {You stand at the top of a small stairway that opens directly into a large, richly decorated bedroom. The floor is covered by a furry rug made from the pelt of a ferocious Libyan lion. A bed made from exotic woods is standing alone in the middle of the room, waiting to host Queen Dido's most important guests. A wide balcony opens right above the tall cliff that dominates the bay of Carthage. Far down, the sea is covered by the tiny white sails of many fishing boats.} {Ancient Carthage} {} {} {} {1.000} {}
+E { 4355} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8200} {0} {} {An Extremely Narrow Crawl Space} { } {The rock around you glistens slickly with the glitter of gold. Tiny flecks blink in your light. A few larger chunks of rock look like they might be able to be broken up so that you can stuff small fragments into your pockets to take with you.} {Gold Rush San Francisco} {} {} {} {1.000} {}
+E { 6528} {s} {s} {4} {0} {} {1.000} {}
+E { 8201} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8201} {0} {} {A Dead End Tunnel} { } {The tunnel dead ends here. Several sets of gear have been abandoned here. But they've been here so long in the damp, they're useless to you. Footprints abound in the damp dusty dirt of the tunnel, but they just seem to circle around and around, as it they were searching for something but never found it. The only apparent way out of here is to the tunnel to the north.} {Gold Rush San Francisco} {} {} {} {1.000} {}
+E { 8200} {w} {w} {8} {0} {} {1.000} {}
+E { 8202} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8202} {0} {} {Beneath a Rock Ledge} { } {The rock's lip juts out over the cavern floor. The veins clearly show the former position of the levels was not so widely separated by the settling earth's rending. The height is not so great that it is unscalable, but enough to make you wonder how recently it happened and if it could happen while you are standing here. A small tunnel leads off to the south from here.} {Gold Rush San Francisco} {} {} {} {1.000} {}
+E { 8201} {s} {s} {4} {0} {} {1.000} {}
+E { 8203} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8203} {0} {} {A Small Rock Ledge} { } {A sudden settling of the earth must have caused this juxtaposition. Where the ground level splits so severely, you can trace the veins in the rock and see where they once were joined. The tunnel continues to the north and you think you could jump down to the floor below the ledge.} {Gold Rush San Francisco} {} {} {} {1.000} {}
+E { 8202} {d} {d} {32} {0} {} {1.000} {}
+E { 8204} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8204} {0} {} {A Wide Spot in the Tunnel} { } {The tunnel widens here, where someone has taken pick and shovel to the walls and haphazardly pulled down chunks of rock and carted them off. A pair of sturdy timbers supports the roof and although the tunnel seems well enough supported for now, after the next earthquake, it may not be so.} {Gold Rush San Francisco} {} {} {} {1.000} {}
+E { 8203} {s} {s} {4} {0} {} {1.000} {}
+E { 8205} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8205} {0} {} {A Tight Crawl Space Descending Down into the Earth} { } {A narrow tunnel has been cut into the rock either with some crude tools or blasted from the earth with dynamite. The tunnel slopes sharply up toward the ceiling at the west end and levels out at a lower level to the east. Dust coats the floor along with small pebbles, and a fine black powder covers much of the floor looking like the tunnel was blasted out of the rock fairly recently. Perhaps you should be careful with open flames nearby.} {Gold Rush San Francisco} {} {} {} {1.000} {}
+E { 8204} {e} {e} {2} {0} {} {1.000} {}
+E { 6516} {u} {open u;u} {16} {1} {} {1.000} {}
+
+R { 8206} {0} {} {Along a Forbidding Coastline} { } {The coastline is rocky here, and waves beat a merciless rhythm upon the shore wherever they can reach it. Circling gulls and glimpses of greenery assure you that there is indeed life on this coast. Shallow waters continue to the north and south, and the Aegean Sea opens to the west.} {Ancient Greece} {} {} {} {1.000} {}
+E { 4243} {n} {n} {1} {0} {} {1.000} {}
+E { 8207} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8207} {0} {} {The Southern Reaches of the Aegean} { } {The shore has become more ragged here; the rocks and cliffs are now broken up and jumbled as if Zeus and Poseidon had wrestled upon this shore with the primeval Titans who abounded when the world was young. Little greenery is evident from your vantage, and there seems to be no place to land. The sea upon which you travel continues to the south, and opens its wide expanse to the west. The coastline continues to the north towards fabled Troy.} {Ancient Greece} {} {} {} {1.000} {}
+E { 8206} {n} {n} {1} {0} {} {1.000} {}
+E { 1619} {s} {s} {4} {1} {} {1.000} {}
