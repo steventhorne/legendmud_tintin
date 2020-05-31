@@ -524,3 +524,15 @@
     };
 }
 {5}
+
+#ACTION {^You gulp nervously as Father Aglipay leads you to his personal chambers.$}
+{
+    #MAP goto 6726;
+}
+{5}
+
+#ACTION {^Father Gregorio Aglipay leads you back into the main area of the cathedral.$}
+{
+    #MAP goto 2022;
+}
+{5}
