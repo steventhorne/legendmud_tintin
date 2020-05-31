@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -10937,7 +10937,7 @@ E { 2524} {n} {n} {1} {0} {} {1.000} {}
 R { 2524} {0} {} {East of Northumberland} { } {You're off the coast of Northumberland, the northernmost English county. As the water rolls beneath you in shallow waves, you think of Lindisfarne, one of the most spiritually significant abbeys in all of England. Perhaps if you went west you would find it. What is there of import to the north anyway, save Scotland?} {Viking Scandinavia } {viking} {} {} {1.000} {}
 E { 2523} {s} {s} {4} {0} {} {1.000} {}
 E { 2525} {e} {e} {2} {0} {} {1.000} {}
-E { 3633} {w} {w} {8} {0} {} {1.000} {}
+E { 8226} {w} {w} {8} {0} {} {1.000} {}
 
 R { 2525} {0} {} {In The North Sea} { } {The water tosses roughly beneath you, and as you look toward the four corners of the world, you see nothing but mighty swells and troughs: insanity! If the sun happens to be just rising or setting, you might be able to find your way, or if you had one of the fabled sunstones to help with navigation. But now? You find yourself hoping you haven't lost your bearings.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 2524} {w} {w} {8} {0} {} {1.000} {}
@@ -10972,7 +10972,7 @@ E { 2532} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 2532} {0} {} {On the Road Outside the Stofa} { } {You're just inside the gates, standing on Olaf's flagstone-paved private road. There's a feeling of serenity and peace here which lends you comfort as you look about you. The fields of the farmstead are exclusively pasture-land, but cattle must pay well enough: the cluster of buildings to the north is well-crafted, with details only skilled artisans could add. The size of the Stofa speaks well of Olaf's fortunes: it is easy to imagine such a hall hosting a hundred warriors or more for a great feast. The Stofa's gabled roof is covered with sod and wooden scales, and the crest of the gable has a carved figurehead.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 2531} {s} {open s;s} {4} {0} {} {1.000} {}
-E { 3589} {w} {w} {8} {0} {} {1.000} {}
+E { 8225} {w} {w} {8} {0} {} {1.000} {}
 E { 3587} {e} {e} {2} {0} {} {1.000} {}
 E { 3588} {n} {open n;n} {1} {0} {} {1.000} {}
 
@@ -10989,7 +10989,7 @@ E { 3591} {e} {open e;e} {2} {0} {} {1.000} {}
 R { 2535} {0} {} {By a Small Bridge} { } {You're by a small bridge which sits only a few feet over the stream trickling through the farmstead. The bridge is made of heavy timbers, hewn smooth on one side, and has short rails on either edge, tall enough to keep a wagon from working its way into the creek. If you wanted to, you could take off your shoes, sit on the edge of the bridge, and rest your feet in the ice-cold waters beneath you.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3601} {s} {s} {4} {0} {} {1.000} {}
 E { 2536} {n} {n} {1} {0} {} {1.000} {}
-E { 3603} {e} {e} {2} {0} {} {1.000} {}
+E { 8222} {e} {e} {2} {0} {} {1.000} {}
 E { 3604} {w} {w} {8} {0} {} {1.000} {}
 
 R { 2536} {0} {} {The Horse Hlada} { } {Rough-hewn logs make up the walls of this hlada, and the windows, unlike those of the structures intended for people, are not covered. The room is divided up into a number of stalls, with each holding a horse. Tack lines one wall, and the floor is covered with straw. The room is a bit ripe: it looks as though the stable-hands haven't been keeping up with the cleaning.} {Viking Scandinavia } {} {} {} {1.000} {}
@@ -15426,7 +15426,7 @@ E { 3615} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 3618} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3589} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 2532} {e} {e} {2} {0} {} {1.000} {}
+E { 8225} {e} {e} {2} {0} {} {1.000} {}
 E { 3590} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3590} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -15439,7 +15439,7 @@ E { 3592} {e} {e} {2} {0} {} {1.000} {}
 
 R { 3592} {0} {} {The Small Skali} { } {This Skali consists of two portions: a single partition at the extreme north, and the rest of the building. Two rows of pillars run north-south along the length of the room, with sleeping platforms set between them and the wall closest to them. The platforms have a variety of mattresses and sleep covers resting on them. This unpartitioned sleeping area is used by the thralls and other lower-class members of the farm.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3591} {w} {w} {8} {0} {} {1.000} {}
-E { 3595} {e} {e} {2} {0} {} {1.000} {}
+E { 8220} {e} {e} {2} {0} {} {1.000} {}
 E { 6362} {s} {s} {4} {0} {} {1.000} {}
 E { 6363} {n} {open n;n} {1} {0} {} {1.000} {}
 
@@ -15447,14 +15447,17 @@ R { 3593} {0} {} {The South End of the Main Skali} { } {The Main Skali is a larg
 E { 3615} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 3594} {n} {n} {1} {0} {} {1.000} {}
 E { 3614} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 8227} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3594} {0} {} {The South Half of the Main Skali} { } {You're standing in a narrow passageway which runs the length of the skali, created by the walls of the partitions making up the sleeping apartments. The apartments themselves seem to be nothing more than areas enclosed by tall oak panelling, with doors to allow access within.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3594} {0} {} {The South Half of the Main Skali} { } {You're standing in a narrow passageway which runs the length of the skali, created by the walls of the partitions making up the sleeping apartments. The apartments themselves seem to be nothing more than areas enclosed by tall oak panelling, with doors to allow access within.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3593} {s} {s} {4} {0} {} {1.000} {}
 E { 3595} {n} {n} {1} {0} {} {1.000} {}
+E { 3612} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8221} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3595} {0} {} {An Intersection in the Main Skali} { } {This intersection feels out of place on the farmstead. Whereas the other rooms are actually dedicated buildings, this crossing is artifically formed by the partitions making up the sleeping apartments here. Instead of timber and clay on the walls, you see finely finished oak panels. Not an entirely unpleasant effect, and you wonder if they shouldn't start dividing all houses into several rooms as this one has been.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3594} {s} {s} {4} {0} {} {1.000} {}
-E { 3592} {w} {w} {8} {0} {} {1.000} {}
+E { 8220} {w} {w} {8} {0} {} {1.000} {}
 E { 3599} {n} {n} {1} {0} {} {1.000} {}
 E { 3621} {e} {e} {2} {0} {} {1.000} {}
 
@@ -15470,9 +15473,11 @@ R { 3598} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3597} {s} {s} {4} {0} {} {1.000} {}
 E { 2534} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3599} {0} {} {The North End of the Main Skali} { } {The rough, heavy door to the north stands in stark contrast to the finely finished doors you've seen on the sleeping apartments in here. A mat woven of dried grasses has been placed in front of the door, and seems to have trapped much of the soil from incoming feet. Why they would want to keep soil off of a clay floor is entirely beyond you, however.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3599} {0} {} {The North End of the Main Skali} { } {The rough, heavy door to the north stands in stark contrast to the finely finished doors you've seen on the sleeping apartments in here. A mat woven of dried grasses has been placed in front of the door, and seems to have trapped much of the soil from incoming feet. Why they would want to keep soil off of a clay floor is entirely beyond you, however.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3595} {s} {s} {4} {0} {} {1.000} {}
 E { 3600} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8219} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8224} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3600} {0} {} {Beside the Stream} { } {The stream is quite clean here, and runs from east to west, following the contours of the two hills it runs between. To the south, the hill which is home to the farmstead proper. To the north is a gentler hill upon which the various stables are built, including the sheep hlada, closest to you.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3599} {s} {open s;s} {4} {0} {} {1.000} {}
@@ -15490,7 +15495,7 @@ E { 3603} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3603} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3602} {e} {e} {2} {0} {} {1.000} {}
-E { 2535} {w} {w} {8} {0} {} {1.000} {}
+E { 8222} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3604} {0} {} {The Western Pasture} { } {The pasture looks to be prime grazing material for the livestock, and has been well used. The terrain is hilly, but pleasantly so: instead of being flat and boring, there's some texture to it. To the north you can make out a smithy. A stream lies between you and the smithy, but you think you can cross it without difficulty.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 2537} {n} {n} {1} {0} {} {1.000} {}
@@ -15505,28 +15510,27 @@ E { 3604} {e} {e} {2} {0} {} {1.000} {}
 E { 3610} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 3607} {0} {} {The Maust} { } {Big Boat. That's what you think as you peer about in the longhouse: A long Dragon ship is here. The boat is nearly sixty feet long, and surprisingly narrow -- no more than 15 feet wide. The bow and stern are both raised, while amidships is quite low. The mast is lying beside the boat, as are a number of fixtures such as oars. The boat itself rests on wooden rollers. There are exits to the north and south. The wall to the west -- where the bow of the boat is pointing - looks like it could be removed. But not by you.} {Viking Scandinavia } {} {} {} {1.000} {}
-E { 3612} {n} {open n;n} {1} {0} {} {1.000} {}
-E { 3609} {s} {open s;s} {4} {0} {} {1.000} {}
+E { 3610} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8223} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 3608} {0} {} {In the Hallr} { } {This building, if you can call it that, has a tall gabled roof supported by pillars sunken into the clay ground, and no walls. Wooden racks are arranged haphazardly in the covered space, and strips of salmon and trout are curing on the racks. The smell of drying fish is powerful, but in a pleasant way, and certainly welcome relief from the odor of the rest of the farm.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3617} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 3613} {e} {e} {2} {0} {} {1.000} {}
 
 R { 3609} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3607} {n} {n} {1} {0} {} {1.000} {}
+E { 8223} {n} {n} {1} {0} {} {1.000} {}
 E { 3611} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3610} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3606} {n} {n} {1} {0} {} {1.000} {}
-E { 3612} {s} {s} {4} {0} {} {1.000} {}
+E { 3607} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3611} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3609} {n} {n} {1} {0} {} {1.000} {}
 E { 3617} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3612} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3610} {n} {n} {1} {0} {} {1.000} {}
-E { 3607} {s} {s} {4} {0} {} {1.000} {}
+R { 3612} {0} {} {Thore's room} { } {An enormous bed dominates this room, seemingly large enough for two people to sleep in comfortably. The size of the clothes folded neatly at the bed's foot, however, leads you to believe it is the perfect size for the owner of this room, Thore Splithaft. A large rack sits on one wall, meant to hold his imported greatsword when he's not wearing it.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 3594} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3613} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 2533} {e} {e} {2} {0} {} {1.000} {}
@@ -15606,7 +15610,7 @@ R { 3632} {0} {} {Off the Southern Tip of Norway} { } {Norway lies to the north 
 E { 2525} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3633} {0} {} {On a Wind-swept Beach} { } {Icy winds blow over you as you stand on this pebbled beach. Farne Island is quite small, and to either side of you the beach curves toward the mainland a few miles west. Spray from the water that breaks against the shore is blown into your eyes, making it difficult to see. You are reminded of the tales describing the plum-sized hail that is said to sometimes fall here.} {Viking Scandinavia } {} {} {} {1.000} {}
-E { 2524} {e} {e} {2} {0} {} {1.000} {}
+E { 8226} {e} {e} {2} {0} {} {1.000} {}
 E { 3634} {n} {n} {1} {0} {} {1.000} {}
 E { 3637} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 7604} {s} {s} {4} {0} {} {1.000} {}
@@ -15614,28 +15618,29 @@ E { 7604} {s} {s} {4} {0} {} {1.000} {}
 R { 3634} {0} {} {On a Wind-swept Beach} { } {Icy winds blow over you as you stand on this pebbled beach. Farne Island is quite small, and to either side of you the beach curves toward the mainland a few miles west. Spray from the water that breaks against the shore is blown into your eyes, making it difficult to see. You are reminded of the tales of plum-sized hail which sometimes falls here.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3633} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3635} {0} {} {Inside the Priory Gates} { } {Slabs of slate have been set into the ground here, smoothing the way for those who come from afar, or even the priory residents who journey between the scriptorium and classrooms to the north and their cells to the west.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3635} {0} {} {Inside the Priory Gates} { } {Slabs of slate have been set into the ground here, smoothing the way for those who come from afar, or even the priory residents who journey between the scriptorium and classrooms to the north and their cells to the west.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3637} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 3647} {n} {n} {1} {0} {} {1.000} {}
 E { 3649} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3636} {0} {} {Between the Church and Guesthouse} { } {The church looms to your left, darkening the path on which you stand. One can only assume they put the main guesthouse here to remind visitors of the power of the church. The flagstones are well fitted here and to the south, but to the north they taper off to a smaller path, meant for the brethren rather than any visiting dignitaries.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3636} {0} {} {Between the Church and Guesthouse} { } {The church looms to your left, darkening the path on which you stand. One can only assume they put the main guesthouse here to remind visitors of the power of the church. The flagstones are well fitted here and to the south, but to the north they taper off to a smaller path, meant for the brethren rather than any visiting dignitaries.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3647} {s} {s} {4} {0} {} {1.000} {}
 E { 3638} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 3639} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3637} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 3637} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3633} {e} {e} {2} {0} {} {1.000} {}
 E { 3635} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3638} {0} {} {The Guest House} { } {This humble structure is plain but large. A number of low wooden platforms sit inches off the floor, apparently meant for visitors to bed down on. A few oilcloth windows punctuate the walls, letting a bit of light enter. A stone fireplace off to one side radiates heat, helping to drive away the chill of the outdoors.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3636} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3639} {0} {} {Beside the Abbot's House} { } {There is ample room for five men to stand abreast here, though the westmost could touch the planking on the church, while the eastmost could knock on the Abbot's door and pay his respects.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3639} {0} {} {Beside the Abbot's House} { } {There is ample room for five men to stand abreast here, though the westmost could touch the planking on the church, while the eastmost could knock on the Abbot's door and pay his respects.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3636} {s} {s} {4} {0} {} {1.000} {}
 E { 3640} {n} {n} {1} {0} {} {1.000} {}
+E { 3654} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3640} {0} {} {Beside the School} { } {The path opens up a bit here. Tufts of grass show through in the ground, though other parts of the ground are covered with slate foot-stones and mud. The view of the North Sea to the north belies the relative shelter of this spot: the scriptorium to the west and the school to the east act as windblocks, funneling the turbulent airs of the coast away from you.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3640} {0} {} {Beside the School} { } {The path opens up a bit here. Tufts of grass show through in the ground, though other parts of the ground are covered with slate foot-stones and mud. The view of the North Sea to the north belies the relative shelter of this spot: the scriptorium to the west and the school to the east act as windblocks, funneling the turbulent airs of the coast away from you.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3639} {s} {s} {4} {0} {} {1.000} {}
 E { 3641} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 3642} {w} {open w;w} {8} {0} {} {1.000} {}
@@ -15643,24 +15648,25 @@ E { 3642} {w} {open w;w} {8} {0} {} {1.000} {}
 R { 3641} {0} {} {The School} { } {One of the walls in the plain, crudely fashioned room has been covered with a number of different inscriptions, a map of the world, and a rack holding a number of styluses. That, coupled with the stack of wax tablets in the corner leads you to believe this room is intended as a schooling place for young monks. The windows have oilcloth covers which have been taken off and set aside to let the natural sunlight in during the day.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3640} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3642} {0} {} {In the Scriptorium} { } {An array of desks have been constructed in this room, and at each is a pile of vellum and a number of inkhorns. Torch holders have been mounted off the timber pillars which support the thatched roof, and many of the desks have candleholders to provide more light. The smell of carbonblack and a number of other inks - probably poisonous - pervades the air, but does little to dull the sense of wonder you feel at the size of this operation.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3642} {0} {} {In the Scriptorium} { } {An array of desks have been constructed in this room, and at each is a pile of vellum and a number of inkhorns. Torch holders have been mounted off the timber pillars which support the thatched roof, and many of the desks have candleholders to provide more light. The smell of carbonblack and a number of other inks - probably poisonous - pervades the air, but does little to dull the sense of wonder you feel at the size of this operation.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3640} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 3643} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3643} {0} {} {In the Scriptorium} { } {This part of the scriptorium is well-lit, even in daytime, and appears to be home to the more senior of the scribes. Pages of beautiful illumination are visible on the different desks. A part of the floor has been raised to the west, and covered with interlocking boards. A single desk sits upon the raised platform, blocking passage to the great iron door behind it.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3643} {0} {} {In the Scriptorium} { } {This part of the scriptorium is well-lit, even in daytime, and appears to be home to the more senior of the scribes. Pages of beautiful illumination are visible on the different desks. A part of the floor has been raised to the west, and covered with interlocking boards. A single desk sits upon the raised platform, blocking passage to the great iron door behind it.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3642} {e} {e} {2} {0} {} {1.000} {}
+E { 8218} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3644} {0} {} {Outside the Main Church Entrance} { } {You stand in the shadow of the church's entrance. The great main doors tower above you, heavy wooden things with carved insets and great iron hasps where they meet. The stones beneath your feet seem to hum with the prestige of the Lindisfarne priory and the power of the kings who have come to visit this Irish bastion in the last century.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3644} {0} {} {Outside the Main Church Entrance} { } {You stand in the shadow of the church's entrance. The great main doors tower above you, heavy wooden things with carved insets and great iron hasps where they meet. The stones beneath your feet seem to hum with the prestige of the Lindisfarne priory and the power of the kings who have come to visit this Irish bastion in the last century.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3649} {e} {e} {2} {0} {} {1.000} {}
 E { 3645} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 3656} {s} {s} {4} {0} {} {1.000} {}
-E { 3659} {w} {w} {8} {0} {} {1.000} {}
+E { 8214} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3645} {0} {} {In the Church Entry} { } {The construction of this church is truly marvelous. The wooden walls have been covered with finished paneling, and extend to dizzying heights above, where the thatched roof is supported by thick beams, elegantly buttressed. The main church hall has a partition on either side extending forward. At the far end of the main body of the church is a raised podium gleaming with the wealth of the church.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3645} {0} {} {In the Church Entry} { } {The construction of this church is truly marvelous. The wooden walls have been covered with finished paneling, and extend to dizzying heights above, where the thatched roof is supported by thick beams, elegantly buttressed. The main church hall has a partition on either side extending forward. At the far end of the main body of the church is a raised podium gleaming with the wealth of the church.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3644} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 3646} {n} {n} {1} {0} {} {1.000} {}
 E { 3650} {e} {e} {2} {0} {} {1.000} {}
-E { 3652} {w} {w} {8} {0} {} {1.000} {}
+E { 8215} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3646} {0} {} {In the Center of the Church} { } {Portraits of kings, holy men, and God and His children surround you, some no larger than a man's chest, others towering into the heights, eerily lit by the flickering light. The paneling shows great care in construction, and few seams are visible in it. The floor, rather than being dirt, has been paved with smooth wood.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3645} {s} {s} {4} {0} {} {1.000} {}
@@ -15686,49 +15692,52 @@ E { 3651} {n} {n} {1} {0} {} {1.000} {}
 R { 3651} {0} {} {In the Eastern Alcove} { } {A large carving of Jesus's crucifixion has been fastened to the wall here, and a heavy carpet has been set on the floor for those who would prostrate themselves before the holy trinity. The lights from behind provide most of the illumination, causing your shadow to dance upon the cross.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3650} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3652} {0} {} {In the West Church} { } {This part of the western partition looks relatively unused: the walls are ornamented with a modicum of tapestry and a few pictures, and torches are mounted regularly in sconces projecting out from the supporting beams. A small stairway down is guarded by an iron gate, and a small alcove to the north provides a place for more private worship and contemplation.} {Viking Scandinavia } {} {} {} {1.000} {}
-E { 3645} {e} {e} {2} {0} {} {1.000} {}
-E { 3653} {n} {n} {1} {0} {} {1.000} {}
+R { 3652} {0} {} {In the West Church} { } {This part of the western partition looks relatively unused: the walls are ornamented with a modicum of tapestry and a few pictures, and torches are mounted regularly in sconces projecting out from the supporting beams. A small stairway down is guarded by an iron gate, and a small alcove to the north provides a place for more private worship and contemplation.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8215} {e} {e} {2} {0} {} {1.000} {}
+E { 8216} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3653} {0} {} {In the West Alcove} { } {This alcove has a certain serenity to it, as though you're in private audience with God himself. A statue of the Mother stares resolutely over you, at some hidden feature to the south of the alcove.} {Viking Scandinavia } {} {} {} {1.000} {}
-E { 3652} {s} {s} {4} {0} {} {1.000} {}
+R { 3653} {0} {} {In the West Alcove} { } {This alcove has a certain serenity to it, as though you're in private audience with God himself. A statue of the Mother stares resolutely over you, at some hidden feature to the south of the alcove.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8216} {s} {s} {4} {0} {} {1.000} {}
+E { 3665} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3654} {0} {} {In the Bishop's Preparation Area} { } {This room looks like it's used by Bishop Higbald before he delivers his sermons. A few spartan chairs are against one wall, and a comfortable chair against another. The paneling common to the rest of the church is especially ornate in this room.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3654} {0} {} {In the Bishop's Preparation Area} { } {This room looks like it's used by Bishop Higbald before he delivers his sermons. A few spartan chairs are against one wall, and a comfortable chair against another. The paneling common to the rest of the church is especially ornate in this room.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3648} {w} {w} {8} {0} {} {1.000} {}
+E { 3639} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3655} {0} {} {In Saint Cuthbert's Mausoleum} { } {This room is bare, paneled in undecorated oak and lit sparingly by a few candelabra placed in the corners. A single large coffin has been placed on a cloth-covered stand here, so that the top of the coffin is at chest height. The spare furnishings in this room, rather than providing a spartan air, serve to instill in you a sense of awe at the presence of Saint Cuthbert's remains.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3655} {0} {} {In the West Alcove} { } {This alcove has a certain serenity to it, as though you're in private audience with God himself. A statue of the Mother stares resolutely over you, at some hidden feature to the south of the alcove.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3648} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3656} {0} {} {In the Church Yard} { } {The grass is green here, fed no doubt by the remains of lords and nobles whose markers dominate this yard. The wooden fence surrounding the priory remains a respectful distance from the markers which surround you.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3656} {0} {} {In the Church Yard} { } {The grass is green here, fed no doubt by the remains of lords and nobles whose markers dominate this yard. The wooden fence surrounding the priory remains a respectful distance from the markers which surround you.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3644} {n} {n} {1} {0} {} {1.000} {}
-E { 3661} {w} {w} {8} {0} {} {1.000} {}
+E { 8217} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3657} {0} {} {In the Church Yard} { } {The yard is quiet, with even nature showing deference for the noble dead buried here. Markers of all sizes and shapes stand throughout the church cemetery, with countless names, dates, and details carefully etched on them.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3661} {e} {e} {2} {0} {} {1.000} {}
 E { 3658} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3658} {0} {} {Between the Cells and the Kitchen} { } {The flagstones here are spattered with small scraps of food, and show the wear of countless hungry feet. The kitchen to the west is responsible for preparing all the food consumed by the priory's inhabitants, while the cells to the north house the bulk of the brethren. The slope here makes you wonder if perhaps some of the kitchens' waste doesn't drain into the church yard.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3658} {0} {} {Between the Cells and the Kitchen} { } {The flagstones here are spattered with small scraps of food, and show the wear of countless hungry feet. The kitchen to the west is responsible for preparing all the food consumed by the priory's inhabitants, while the cells to the north house the bulk of the brethren. The slope here makes you wonder if perhaps some of the kitchens' waste doesn't drain into the church yard.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3657} {s} {s} {4} {0} {} {1.000} {}
 E { 3659} {e} {e} {2} {0} {} {1.000} {}
 E { 3660} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8209} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3659} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3644} {e} {e} {2} {0} {} {1.000} {}
+E { 8214} {e} {e} {2} {0} {} {1.000} {}
 E { 3658} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3660} {0} {} {A Passageway by the Cells} { } {This passageway is lined with paneling, and appears to abut against the western partition of the church. The lack of windows or doors on the eastern side of the passage supports this hypothesis. A single window to far to the north lets light from the outdoors in, as does the oilcloth window on the passageway door directly to the south.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3660} {0} {} {A Passageway by the Cells} { } {This passageway is lined with paneling, and appears to abut against the western partition of the church. The lack of windows or doors on the eastern side of the passage supports this hypothesis. A single window to far to the north lets light from the outdoors in, as does the oilcloth window on the passageway door directly to the south.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3658} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 3662} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 3663} {n} {n} {1} {0} {} {1.000} {}
 
 R { 3661} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3657} {w} {w} {8} {0} {} {1.000} {}
-E { 3656} {e} {e} {2} {0} {} {1.000} {}
+E { 8217} {e} {e} {2} {0} {} {1.000} {}
 
 R { 3662} {0} {} {In a Brother's Cell} { } {This cell feels tiny: a straw mattress set on a sleeping shelf consumes easily a quarter of the total space in the room, the rest being devoted to a small open box for clothes, a single chair, and a small cross carved in relief on one of the wooden walls.} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3660} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3663} {0} {} {In the Middle of a Passageway} { } {You appear to be about halfway down a long planked passageway. The ground is earth, but well-tended, compressed earth. Comfort did not appear to be the priority when this building was erected. In any case, such considerations would conflict with the worship and holy pursuits of any but the most pious of men.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3663} {0} {} {In the Middle of a Passageway} { } {You appear to be about halfway down a long planked passageway. The ground is earth, but well-tended, compressed earth. Comfort did not appear to be the priority when this building was erected. In any case, such considerations would conflict with the worship and holy pursuits of any but the most pious of men.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3660} {s} {s} {4} {0} {} {1.000} {}
 E { 3664} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 3665} {n} {n} {1} {0} {} {1.000} {}
@@ -15736,11 +15745,12 @@ E { 3665} {n} {n} {1} {0} {} {1.000} {}
 R { 3664} {0} {} {In a Brother's Cell} { } {This cell is austerely appointed. A small open box at the side of the sleeping shelf contains a few momentos from the occupants former life, before the call of God brought him here. Steam is rising from the chamberpot in the corner, implying that it was recently used. If it's cold enough for the offal to steam, how can the brother possibly survive the nights?} {Viking Scandinavia } {} {} {} {1.000} {}
 E { 3663} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3665} {0} {} {At the End of a Passageway} { } {You're at one end of a passageway. The walls are lined with wooden planks, though you suspect that their might be stone or mud underneath. A window to the north looks out on the waters of the North Sea, a sight that could only be comforting to the penitent.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3665} {0} {} {At the End of a Passageway} { } {You're at one end of a passageway. The walls are lined with wooden planks, though you suspect that their might be stone or mud underneath. A window to the north looks out on the waters of the North Sea, a sight that could only be comforting to the penitent.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3663} {s} {s} {4} {0} {} {1.000} {}
 E { 3666} {w} {open w;w} {8} {0} {} {1.000} {}
+E { 3653} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3666} {0} {} {In a Brother's Cell} { } {This cell appears to have the rudiments required for a pious man to survive: a small shelf with a straw mattress to rest upon, a shelf to store his scant personal belongings, and a chamberpot for the necessities of life. A small window to the west affords a view of the town of Lindisfarne over the tidal flats.} {Viking Scandinavia } {} {} {} {1.000} {}
+R { 3666} {0} {} {In a Brother's Cell} { } {This cell appears to have the rudiments required for a pious man to survive: a small shelf with a straw mattress to rest upon, a shelf to store his scant personal belongings, and a chamberpot for the necessities of life. A small window to the west affords a view of the town of Lindisfarne over the tidal flats.} {Viking Scandinavia} {} {} {} {1.000} {}
 E { 3665} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 3667} {513} {} {A Wooded Dell} { } {The forest floor dips down into this cozy dell. Bracken and undergrowth cling closely to the trees. The shadows here are a bit deeper than the rest of the forest. There are some tracks on the ground.} {Celtic Ireland } {} {} {} {1.000} {}
@@ -34614,3 +34624,77 @@ E { 8207} {s} {s} {4} {0} {} {1.000} {}
 R { 8207} {0} {} {The Southern Reaches of the Aegean} { } {The shore has become more ragged here; the rocks and cliffs are now broken up and jumbled as if Zeus and Poseidon had wrestled upon this shore with the primeval Titans who abounded when the world was young. Little greenery is evident from your vantage, and there seems to be no place to land. The sea upon which you travel continues to the south, and opens its wide expanse to the west. The coastline continues to the north towards fabled Troy.} {Ancient Greece} {} {} {} {1.000} {}
 E { 8206} {n} {n} {1} {0} {} {1.000} {}
 E { 1619} {s} {s} {4} {1} {} {1.000} {}
+
+R { 8208} {0} {} {In the Kitchen} { } {It's much friendlier in here than the outside view would lead one to believe. A fire trench is set in the center of the room, and some sort of stone hearth is adjacent to it. Pots of all shapes and sizes, as well as a few monster kettles, are bubbling away happily, preparing food to keep the brethren healthy and happy.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8209} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8210} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8211} {w} {open w;w} {8} {0} {} {1.000} {}
+
+R { 8209} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3658} {e} {e} {2} {0} {} {1.000} {}
+E { 8208} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8210} {0} {} {In the Larder} { } {A number of shelves line the wall, covered with pottery and cloth containers, cheeses, grains, herbs, and almost anything else a cook could need. The proportions of the various substances imply that the brethren survive mainly on basic grains, while special visitors and the most pious of the Priory's denizens receive the well-spiced exotic foods.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8208} {s} {open s;s} {4} {0} {} {1.000} {}
+
+R { 8211} {0} {} {In the Pens} { } {You're standing in what has to be an animal pen of sorts. It's proximity to the kitchen, coupled with the blood staining one corner of the plot implies that the animals kept here serve as food for the brethren.  A wooden fence -- little more than a railing -- has been set up around the area to keep the livestock from wandering.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8208} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8212} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8212} {0} {} {In the Middle of the Pens} { } {As you stand in the middle of the priory's pens, you can't help but notice the amount of mud and droppings underfoot: the grass is spotty at best. The animals must be fed with hay and grains to keep them alive: there's not enough food to survive on here.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8211} {s} {s} {4} {0} {} {1.000} {}
+E { 8213} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8213} {0} {} {At the Downhill End of the Pens} { } {You're at the lowest end of the animal pens. The muck and feces which are prevalent to the south pool down here when melted by the rain or the urine of the countless animals who have stayed in these pens. A truly disgusting sight.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 8212} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8214} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3659} {w} {w} {8} {0} {} {1.000} {}
+E { 3644} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8215} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3652} {w} {w} {8} {0} {} {1.000} {}
+E { 3645} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8216} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3653} {n} {n} {1} {0} {} {1.000} {}
+E { 3652} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8217} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3661} {w} {w} {8} {0} {} {1.000} {}
+E { 3656} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8218} {0} {} {In the Stacks} { } {This room has absolutely no windows, and a strong smell of age and dried animal flesh pervades the room. Countless volumes are stored in satchels, cases, or locked onto shelves with a complex arrangement of metal rods and rings. The stacks continue back further than your light can illuminate. A desk near the entrance to the stacks seems to be a place of honor in here.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 3643} {e} {open e;e} {2} {0} {} {1.000} {}
+
+R { 8219} {0} {} {Tonnel's Room} { } {Tonnel is known for his quick temper, and this room has borne the wrath of more than one tantrum which found no other victim. The posts on his bed are scored, one cut almost halfway through by a swordstroke. The walls have dents and marks from the bludgeoning of his mighty fists. Otherwise, the room is neat. If he's a brat, at least Tonnel's a tidy one.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 3599} {w} {open w;w} {8} {0} {} {1.000} {}
+
+R { 8220} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3592} {w} {w} {8} {0} {} {1.000} {}
+E { 3595} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8221} {0} {} {Vemund and Vethor's Room} { } {This room belongs to two of Olaf's sons, and their age shows in the wear of the compartment . A pile of practice spears sit propped up in one corner, and implements of war and practice thereof are prominent. Vemund and Vethor's beds are large enough for an adult to sleep in, and probably used to belong to Vebeorn and Tonnel judging by the scrapes and scratches on them. One end of the straw mattress nearest to you seems to bulge oddly.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 3594} {e} {open e;e} {2} {0} {} {1.000} {}
+
+R { 8222} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3603} {e} {e} {2} {0} {} {1.000} {}
+E { 2535} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8223} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3609} {s} {s} {4} {0} {} {1.000} {}
+E { 3607} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8224} {0} {} {Ragnhild's Room} { } {Unlike the rooms belonging to the other women on the farm, Ragnhild's chambers are spartan, devoid of any sort of frill or decoration. Instead, a variety of swords are hung on the walls. The chest at the foot of her bed is sitting open, and seems to hold a variety of clothing ranging from light armor to formal wear for the feasts Olaf is wont to host on occasion. Another locked chest sits in the corner.} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 3599} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8225} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 3589} {w} {w} {8} {0} {} {1.000} {}
+E { 2532} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8226} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 2524} {e} {e} {2} {0} {} {1.000} {}
+E { 3633} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8227} {0} {} {} { } {} {Viking Scandinavia} {} {} {} {1.000} {}
+E { 3593} {w} {w} {8} {0} {} {1.000} {}
