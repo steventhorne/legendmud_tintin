@@ -1,0 +1,73 @@
+#ALIAS {farm}
+{
+	#VAR farm_cur 1;
+
+	#SHOWME <169>Beginning automatic farming...<099>;
+	#SHOWME <169>Beginning watering...<099>;
+
+	#ACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.)}}
+	{
+		#SEND water ${farm_cur}.garden;
+		#SEND enq inspect ${farm_cur}.garden;
+	}
+	{5};
+	#ACTION {{The soil is moist and saturated and shouldn't need to be watered for a while.}}
+	{
+		#MATH farm_cur {$farm_cur + 1};
+		#SEND enq inspect ${farm_cur}.garden;
+	}
+	{5};
+	#ACTION {{You must declare which water source you will use.}}
+	{
+		#UNACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.)}};
+		#UNACTION {{The soil is moist and saturated and shouldn't need to be watered for a while.}};
+		#UNACTION {{^You can't seem to find that.$}};
+
+		#DELAY {0} {#SHOWME <119>Automatic farming failed.<099>};
+	}
+	{5};
+	#ACTION {{^You can't seem to find that.$}}
+	{
+		#UNACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.)}};
+		#UNACTION {{The soil is moist and saturated and shouldn't need to be watered for a while.}};
+		#UNACTION {{^You can't seem to find that.$}};
+
+		#SHOWME <129>Watering complete.<099>;
+		#SHOWME <169>Beginning weeding...<099>;
+
+		#LINE gag;
+
+		#VAR farm_cur 1;
+		#ACTION {{(?:So many weeds. So very, very many weeds. You could be here all day plucking them. Better grab some gardening gloves.|There are so many weeds you can't quite tell if there is anything else growing.|There are visible weeds in many places. Crops would be compromised with ratio of weeds.|You see a few weeds here and there, though probably not enough to adversely affect any crops.)}}
+		{
+			#SEND weed ${farm_cur}.garden;
+			#SEND enq inspect ${farm_cur}.garden;
+		}
+		{5};
+		#ACTION {{After careful inspection, there's not a weed to be found.}}
+		{
+			#MATH farm_cur {$farm_cur + 1};
+			#SEND enq inspect ${farm_cur}.garden;
+		}
+		{5};
+		#ACTION {{^You can't seem to find that.$}}
+		{
+			#UNACTION {{(?:So many weeds. So very, very many weeds. You could be here all day plucking them. Better grab some gardening gloves.|There are so many weeds you can't quite tell if there is anything else growing.|There are visible weeds in many places. Crops would be compromised with ratio of weeds.|You see a few weeds here and there, though probably not enough to adversely affect any crops.)}};
+			#UNACTION {{After careful inspection, there's not a weed to be found.}};
+			#UNACTION {{^You can't seem to find that.$}};
+
+			#UNVAR farm_cur;
+
+			#SHOWME <129>Weeding complete.<099>;
+			#SHOWME <129>Automatic farming complete.<099>;
+			
+			#LINE gag;
+		}
+		{5};
+
+		#SEND enq inspect ${farm_cur}.garden;
+	}
+	{5};
+
+	#SEND enq inspect ${farm_cur}.garden;
+}
