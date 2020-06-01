@@ -1,4 +1,5 @@
-Finds a room based on the specified nickname and walks *slowly* to it if a path is found.
+Finds a room based on the specified nickname and walks to it if a path is found.
+Map moves to final room slowly.
 
 Usage:
     walk <nickname>
