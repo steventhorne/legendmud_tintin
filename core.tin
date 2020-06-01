@@ -11,15 +11,15 @@
         #UNVAR login_name;
         #UNVAR login_password;
 
-        #SHOWME Reload complete.\n;
+        #DELAY {0} {#SHOWME Reload complete.\n};
     }
     {
         #CLASS {module_%1} {kill};
         #CLASS {module_%1} {open};
-        #SHOWME \nReloading <069>%1<099>...;
+        #SHOWME \nReloading <169>%1<099>...;
         #READ modules/%1.tin;
         #CLASS {module_%1} {close};
-        #SHOWME Reload complete.\n;
+        #DELAY {0} {#SHOWME Reload complete.\n};
     };
 };
 
