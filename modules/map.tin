@@ -4,11 +4,12 @@
     #VAR phelp_list[map][dismap] {Disabled map editing.};
     #VAR phelp_list[map][rname] {Changes the nickname for a room.};
     #VAR phelp_list[map][savemap] {Saves the map to file.};
-    #VAR phelp_list[map][search] {Finds a room based on the specified nickname and teleports you to it.};
+    #VAR phelp_list[map][search] {Searches for rooms in the map with the specified text in the room name.};
     #VAR phelp_list[map][find] {Finds a room based on your current room in the MUD and teleports you to it.};
     #VAR phelp_list[map][nicknames] {Lists all of the rooms that have nicknames};
-    #VAR phelp_list[map][walk] {Finds a room based on the specified nickname and walks to it if a path is found.};
-    #VAR phelp_list[map][slowwalk] {Finds a room based on the specified nickname and walks *slowly* to it if a path is found.};
+    #VAR phelp_list[map][run] {Finds a room based on the specified nickname and walks to it if a path is found. Map moves to final room immediately.};
+    #VAR phelp_list[map][walk] {Finds a room based on the specified nickname and walks to it if a path is found. Map moves to final room fairly quickly.};
+    #VAR phelp_list[map][slowwalk] {Finds a room based on the specified nickname and walks to it if a path is found. Map moves to final room slowly.};
     #VAR phelp_list[map][stop] {Stops a walk or slowwalk.};
     #VAR phelp_list[map][door] {Adds a door to the specified exit.};
     #VAR phelp_list[map][sac bunny] {Convenient command to take you through the bunny trans steps after killing the bunny.};
@@ -123,11 +124,17 @@
 #READ modules/map/action.tin;
 #READ modules/map/alias.tin;
 
-#MAP FLAG $map_graphics ON;
-#UNVAR map_graphics;
+#IF {&{map_graphics}}
+{
+    #MAP FLAG $map_graphics ON;
+    #UNVAR map_graphics;
+}
 
-#MAP FLAG TERRAIN $terrain;
-#UNVAR terrain;
+#IF {&{terrain}}
+{
+    #MAP FLAG TERRAIN $terrain;
+    #UNVAR terrain;
+}
 
 #IF {&{screen[panes][$pane_map]}}
 {
