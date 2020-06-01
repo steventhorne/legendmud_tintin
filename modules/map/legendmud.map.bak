@@ -397,7 +397,7 @@ E {  128} {s} {s} {4} {0} {} {1.000}
 R {   43} {0} {<039>} {The East India Company Office} {B} {This small anteroom is the place where tea is weighed, cargo manifests examined, and bank balances adjusted. The East India Company maintains its chokehold over the Orient sea trade from this room, where goods from China and Bengal are brought to be sold. There are countless tables with weights and measures, clerks running back and forth, and huge ledgers keeping track of all transactions.} {London Port } {clerk} {} {} {1.000}
 E {   42} {s} {s} {4} {0} {} {1.000}
 
-R {   44} {0} {<069>} {On the Docks} {W} {South of you spreads the English Channel, the passageway to limitless opportunities and impractical dreams. More prosaically, to the north of you is the Harbormaster's office. Berth 1 lies immediately to the south, reserved for ships travelling to America. The docks end here, as a creaking old warehouse juts out almost into the water. Rot has crept up its wooden sides, and you can hardly see the trademark that was once painted on the wall, a reminder of the fortunes made and lost in the Orient: The South Seas Bubble (?) Company.} {London Port } {} {} {} {1.000}
+R {   44} {0} {<169>} {On the Docks} {W} {South of you spreads the English Channel, the passageway to limitless opportunities and impractical dreams. More prosaically, to the north of you is the Harbormaster's office. Berth 1 lies immediately to the south, reserved for ships travelling to America. The docks end here, as a creaking old warehouse juts out almost into the water. Rot has crept up its wooden sides, and you can hardly see the trademark that was once painted on the wall, a reminder of the fortunes made and lost in the Orient: The South Seas Bubble (?) Company.} {London Port } {} {} {} {1.000}
 E {   38} {e} {e} {2} {0} {} {1.000}
 E {   45} {n} {n} {1} {0} {} {1.000}
 E {  104} {s} {s} {4} {0} {} {1.000}
@@ -536,7 +536,7 @@ E {   72} {n} {open n;n} {1} {0} {} {1.000}
 R {   75} {0} {} {The Casablanca Airport} { } {After a short walk you arrive at the airport. This is where some of the lucky begin their trip to freedom. The plane for Lisbon leaves once a day and there is always a small crowd of the unlucky to see it off, with hope and longing flowing from their eyes. There is one hangar building and a tower along with a few smaller maintenance buildings. The road heads north, back to town.} {Casablanca } {} {} {} {1.000}
 E {   71} {n} {n} {1} {0} {} {1.000}
 
-R {   76} {0} {<069>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
+R {   76} {0} {<169>} {The Main Street of Casablanca} {W} {This street has seen a lot of people in the past year. Refugees from all over Europe must find their way here if they wish to find their way out of this war torn part of the world. Today, like everyday, the people go about their nervous quest for passage to neutral Lisbon and from there to the New World. Those who don't seek escape probably try and sell it, for high profit. To the north is Rick's Cafe Americain. To the south is the Blue Parrot. The street moves east and west.} {Casablanca } {} {} {} {1.000}
 E {   71} {w} {w} {8} {0} {} {1.000}
 E {   77} {s} {open s;s} {4} {0} {} {1.000}
 E {   78} {n} {open n;n} {1} {0} {} {1.000}
@@ -1315,7 +1315,7 @@ E {  261} {w} {w} {8} {0} {} {1.000}
 R {  263} {0} {<029>} {The Dewe Droppe Inn} {I} {Lit only by lanterns and the central fireplace, this inn is dim and smoky. Regardless of the time of day, several of Mistress Quickley's patrons can be found slumped over their ale glasses in various states of inebriation. The fact that most of their food is untouched suggests that Mistress Quickley is better known for her ale than her food. Peering through the haze, you can barely make out a shadowy flight of stairs which lead upward to her outrageously expensive guest rooms. You wonder whether you have enough crowns to secure a straw pallet in the stables....} {Tudor England } {dewe} {} {} {1.000}
 E {  264} {s} {open s;s} {4} {0} {} {1.000}
 
-R {  264} {0} {<069>} {The Inn Yard} {W} {The walls of the surrounding buildings rise high around you. The air is fragrant with the odor of horse manure wafting from the stables. To your right a crowd is gathered around a singer; in the far left corner, a juggler mesmerizes all with his spinning clubs. Around the edges of the yard are rough wooden tiers in which an audience may sit for the occasional play performed by a traveling troupe of actors. The inn itself lies to the north, its doors open to the traveler and his coins.} {Tudor England } {} {} {} {1.000}
+R {  264} {0} {<169>} {The Inn Yard} {W} {The walls of the surrounding buildings rise high around you. The air is fragrant with the odor of horse manure wafting from the stables. To your right a crowd is gathered around a singer; in the far left corner, a juggler mesmerizes all with his spinning clubs. Around the edges of the yard are rough wooden tiers in which an audience may sit for the occasional play performed by a traveling troupe of actors. The inn itself lies to the north, its doors open to the traveler and his coins.} {Tudor England } {} {} {} {1.000}
 E {  263} {n} {open n;n} {1} {0} {} {1.000}
 E {  265} {s} {s} {4} {0} {} {1.000}
 
@@ -1497,7 +1497,7 @@ E {  313} {n} {n} {1} {0} {} {1.000}
 R {  305} {0} {<149>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters, such as those that frequent the tavern on Gilbert Way, are among the regulars here. Outsiders are charged three times the going rate for a room as insurance that the innkeeper gets his money. Outsiders have a way of dying before they can pay their full week's rent and are not welcome here.} {Medieval Britain } {salut} {} {} {1.000}
 E {  304} {n} {n} {1} {0} {} {1.000}
 
-R {  306} {0} {<069>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been erected here. Executions are held and well-attended for common thieves and bold poachers. Special festivities are held when a suspected member of the outlaw band is captured. Watling Road continues east to the Castle and west to the gates. Gilbert Lane runs in a north-south direction here crossing the square.} {Medieval Britain } {} {} {} {1.000}
+R {  306} {0} {<169>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been erected here. Executions are held and well-attended for common thieves and bold poachers. Special festivities are held when a suspected member of the outlaw band is captured. Watling Road continues east to the Castle and west to the gates. Gilbert Lane runs in a north-south direction here crossing the square.} {Medieval Britain } {} {} {} {1.000}
 E {  304} {w} {w} {8} {0} {} {1.000}
 E {  314} {n} {n} {1} {0} {} {1.000}
 E {  316} {s} {s} {4} {0} {} {1.000}
@@ -2526,7 +2526,7 @@ E {  549} {n} {open n;n} {1} {0} {} {1.000}
 R {  551} {0} {} {A Ceramics Workshop} { } {The thick smell of earth fills your nose and lungs as you peer through the dust. The front of the room is lined with baskets and tables full of goods for sale. A table stands at the back, holding works in various stages of progress. You see dark, soft jugs which have been newly formed beside lighter-colored ones, ready for painting. Out the back, you can see several ovens of varying shapes and sizes.} {The Crusades } {} {} {} {1.000}
 E {  549} {s} {open s;s} {4} {0} {} {1.000}
 
-R {  552} {0} {<069>} {A Fountain on the Corner of Sharih' al-Thalj and Sharih' al-Narr} {W} {This ornate fountain is large and looks pleasantly cool and fresh to your travel-worn feet. Children are splashing in the water while their parents bathe in the bath house off to the west. The streets continue in all directions around the fountain.} {The Crusades } {} {} {} {1.000}
+R {  552} {0} {<169>} {A Fountain on the Corner of Sharih' al-Thalj and Sharih' al-Narr} {W} {This ornate fountain is large and looks pleasantly cool and fresh to your travel-worn feet. Children are splashing in the water while their parents bathe in the bath house off to the west. The streets continue in all directions around the fountain.} {The Crusades } {} {} {} {1.000}
 E {  566} {e} {e} {2} {0} {} {1.000}
 E {  553} {s} {s} {4} {0} {} {1.000}
 E {  554} {n} {n} {1} {0} {} {1.000}
@@ -2822,7 +2822,7 @@ E {  614} {s} {s} {4} {0} {} {1.000}
 E {  599} {w} {w} {8} {0} {} {1.000}
 E {  616} {e} {e} {2} {0} {} {1.000}
 
-R {  616} {0} {<069>} {Sirte} {W} {This is a small coastal town on the Gulf of Sidra. A well sits in the center of the street. The people have mostly abandoned the town and the boom of artillery can be heard in the distance.} {WWII North Africa } {} {} {} {1.000}
+R {  616} {0} {<169>} {Sirte} {W} {This is a small coastal town on the Gulf of Sidra. A well sits in the center of the street. The people have mostly abandoned the town and the boom of artillery can be heard in the distance.} {WWII North Africa } {} {} {} {1.000}
 E {  615} {w} {w} {8} {0} {} {1.000}
 E {  617} {s} {s} {4} {0} {} {1.000}
 E {  622} {e} {e} {2} {0} {} {1.000}
@@ -3109,7 +3109,7 @@ E {  682} {e} {e} {2} {0} {} {1.000}
 E {  684} {s} {s} {4} {0} {} {1.000}
 E {  689} {w} {w} {8} {0} {} {1.000}
 
-R {  682} {0} {<069>} {Place de L'Opera} {W} {The Avenue ends and you find yourself to the north of the entrance to the grand theatre. The structure towers upwards to the heavens, its domed heights littered with ornate statues and carvings. Two intricately sculpted angels stand at either side of the roof, as if standing guard over the art and richness of the structure. The square itself was obviously constructed with the purpose of housing the theatre and extends about the entire area. Seven avenues radiate outwards from the square before being swallowed up by the city, and you notice what appears to be the main street heading to the west.} {Paris Theatre } {} {} {} {1.000}
+R {  682} {0} {<169>} {Place de L'Opera} {W} {The Avenue ends and you find yourself to the north of the entrance to the grand theatre. The structure towers upwards to the heavens, its domed heights littered with ornate statues and carvings. Two intricately sculpted angels stand at either side of the roof, as if standing guard over the art and richness of the structure. The square itself was obviously constructed with the purpose of housing the theatre and extends about the entire area. Seven avenues radiate outwards from the square before being swallowed up by the city, and you notice what appears to be the main street heading to the west.} {Paris Theatre } {} {} {} {1.000}
 E {  681} {w} {w} {8} {0} {} {1.000}
 E {  683} {s} {s} {4} {0} {} {1.000}
 
@@ -7377,7 +7377,7 @@ E { 1239} {n} {n} {1} {0} {} {1.000}
 E { 1684} {w} {w} {8} {0} {} {1.000}
 E { 1243} {e} {e} {2} {0} {} {1.000}
 
-R { 1687} {0} {<069>} {A Fenced Off Area} {W} {A rickety wooden fence has been erected in an attempt to keep wildlife from straying into the area. Two large wooden buildings are served by an unremarkable well in the center of the clearing. Children's toys scatter the floor.} {Abilene, Kansas } {} {} {} {1.000}
+R { 1687} {0} {<169>} {A Fenced Off Area} {W} {A rickety wooden fence has been erected in an attempt to keep wildlife from straying into the area. Two large wooden buildings are served by an unremarkable well in the center of the clearing. Children's toys scatter the floor.} {Abilene, Kansas } {} {} {} {1.000}
 E { 1243} {n} {n} {1} {0} {} {1.000}
 E { 1688} {e} {e} {2} {0} {} {1.000}
 E { 1689} {w} {w} {8} {0} {} {1.000}
@@ -7672,7 +7672,7 @@ R { 1758} {0} {} {In the Streets of Uruk} { } {This pathway has been worn by the
 E { 1756} {s} {s} {4} {0} {} {1.000}
 E { 1759} {n} {n} {1} {0} {} {1.000}
 
-R { 1759} {0} {<069>} {By a Deep, Stone Well} {W} {Pulleys and buckets are ordained around the well and used by Uruk's citizens for all tasks requiring fresh water. Animals used in trade such as horses and camels also gather around the well, looking for some shade and fluid.} {Sumer } {} {} {} {1.000}
+R { 1759} {0} {<169>} {By a Deep, Stone Well} {W} {Pulleys and buckets are ordained around the well and used by Uruk's citizens for all tasks requiring fresh water. Animals used in trade such as horses and camels also gather around the well, looking for some shade and fluid.} {Sumer } {} {} {} {1.000}
 E { 1758} {s} {s} {4} {0} {} {1.000}
 E { 1760} {e} {open e;e} {2} {0} {} {1.000}
 E { 1761} {n} {n} {1} {0} {} {1.000}
@@ -8144,7 +8144,7 @@ E { 1868} {s} {s} {4} {0} {} {1.000}
 R { 1866} {0} {<029>} {The Agrabah Camela Inn} {I} {Large arched doorways and windows swagged with light airy fabric, providing the sense of a breeze. Rows and rows of room keys line the wall behind the counter standing before you. Behind the counter, a small sign is posted on the wall. A small door leads to the back where the tenants stay. A door leads out and onto the porch. Occupying the center of the room is a plain wooden table used for meals and a work surface. In the corner, a large collection of multicolored silk cushions has been piled to provide a space for conversation and relaxation.} {Arabian Nights } {asabi} {} {} {1.000}
 E { 1865} {s} {s} {4} {0} {} {1.000}
 
-R { 1867} {0} {<069>} {The Fountain Square} {W} {Here, at the heart of the city, is an obvious gathering place as many citizens come to fill their large pitchers and skins with the precious water gushing forth from the fountain. This square always seems to be busy with people coming and going about their business where roads lead off in all directions.} {Arabian Nights } {} {} {} {1.000}
+R { 1867} {0} {<169>} {The Fountain Square} {W} {Here, at the heart of the city, is an obvious gathering place as many citizens come to fill their large pitchers and skins with the precious water gushing forth from the fountain. This square always seems to be busy with people coming and going about their business where roads lead off in all directions.} {Arabian Nights } {} {} {} {1.000}
 E { 1864} {n} {n} {1} {0} {} {1.000}
 E { 1868} {w} {w} {8} {0} {} {1.000}
 E { 1882} {s} {s} {4} {0} {} {1.000}
@@ -8920,7 +8920,7 @@ R { 2047} {0} {} {Inside the City Gates of Mosul} { } {You have stepped inside a
 E { 2046} {n} {n} {1} {0} {} {1.000}
 E { 2048} {s} {s} {4} {0} {} {1.000}
 
-R { 2048} {0} {<069>} {In the Street Market of Mosul} {W} {The sprawling market continues in all directions. The sellers here are obviously among the more wealthy merchants around. Their goods are exotic and high-quality, and they are dressed in a luxuriant variety of styles and colors.} {The Crusades } {mosul} {} {} {1.000}
+R { 2048} {0} {<169>} {In the Street Market of Mosul} {W} {The sprawling market continues in all directions. The sellers here are obviously among the more wealthy merchants around. Their goods are exotic and high-quality, and they are dressed in a luxuriant variety of styles and colors.} {The Crusades } {mosul} {} {} {1.000}
 E { 2047} {n} {n} {1} {0} {} {1.000}
 E { 2049} {e} {open e;e} {2} {0} {} {1.000}
 E { 2050} {w} {w} {8} {0} {} {1.000}
@@ -9670,7 +9670,7 @@ E { 5401} {w} {open w;w} {8} {0} {} {1.000}
 R { 2227} {0} {<029>} {La Posada} {I} {The atmosphere of this quaint little inn is bright and welcoming, even to the most world-weary traveler. The posada provides a stop over for those traveling back and forth between Madrid and the New World -- those carrying gold and other riches back to the royal court, seeking the favor of the throne. Yes, this little inn has prospered greatly from the influx of gold into Spain.} {The Alhambra } {jose} {} {} {1.000}
 E { 2226} {w} {open w;w} {8} {0} {} {1.000}
 
-R { 2228} {0} {<069>} {The Square of the Virrambla} {W} {This crowded contemporary marketplace was once the scene of Moorish jousts and tournaments. Now, although several shops line the Zacatin, many vendors hawk their wares here in the busy street, aggressively seeking customers, and bodegones de puntapie, or tavern stalls, are plentiful.} {The Alhambra } {} {} {} {1.000}
+R { 2228} {0} {<169>} {The Square of the Virrambla} {W} {This crowded contemporary marketplace was once the scene of Moorish jousts and tournaments. Now, although several shops line the Zacatin, many vendors hawk their wares here in the busy street, aggressively seeking customers, and bodegones de puntapie, or tavern stalls, are plentiful.} {The Alhambra } {} {} {} {1.000}
 E { 2226} {s} {s} {4} {0} {} {1.000}
 E { 2229} {n} {n} {1} {0} {} {1.000}
 
@@ -9881,7 +9881,7 @@ E { 2276} {n} {n} {1} {0} {} {1.000}
 E { 2278} {s} {s} {4} {0} {} {1.000}
 E { 2279} {w} {w} {8} {0} {} {1.000}
 
-R { 2278} {0} {<069>} {The Entrance to Niflheim} { } {The gorge ends here before a wall of cold mists agitated by a freezing wind coming from the south. According to the Legend, this is the entrance to the realm of the dead and the goddess Hel, Niflheim. For sure, you don't want to go anywhere south of here, as only the souls of the fallen warriors enter this dreaded place.} {Svartalfheim } {} {} {} {1.000}
+R { 2278} {0} {<169>} {The Entrance to Niflheim} { } {The gorge ends here before a wall of cold mists agitated by a freezing wind coming from the south. According to the Legend, this is the entrance to the realm of the dead and the goddess Hel, Niflheim. For sure, you don't want to go anywhere south of here, as only the souls of the fallen warriors enter this dreaded place.} {Svartalfheim } {} {} {} {1.000}
 E { 2277} {n} {n} {1} {0} {} {1.000}
 E { 4534} {push wall} {push wall} {0} {0} {} {1.000}
 
@@ -9890,7 +9890,7 @@ E { 2277} {e} {e} {2} {0} {} {1.000}
 E { 2280} {n} {n} {1} {0} {} {1.000}
 E { 2281} {s} {s} {4} {0} {} {1.000}
 
-R { 2280} {0} {<069>} {An Eroded Gully} { } {The ground terrain, made of clay-rich soil, has been extensively eroded by the cold wind coming from Niflheim. At night, the heat of Muspelheim crackles the nearby ravines and causes the Ginnungagap to be extremely unwelcoming to any form of life. It is clear the gods did not plan for anyone to live here anyway.} {Svartalfheim } {} {} {} {1.000}
+R { 2280} {0} {<169>} {An Eroded Gully} { } {The ground terrain, made of clay-rich soil, has been extensively eroded by the cold wind coming from Niflheim. At night, the heat of Muspelheim crackles the nearby ravines and causes the Ginnungagap to be extremely unwelcoming to any form of life. It is clear the gods did not plan for anyone to live here anyway.} {Svartalfheim } {} {} {} {1.000}
 E { 2279} {s} {s} {4} {0} {} {1.000}
 
 R { 2281} {0} {} {Lost in a Barren Land} { } {A biting, cold wind blows from the south, where according to the Legends lies the entrance to Niflheim, the realm of the dead. The landscape around you is a barren land where absolutely no sound can be heard, not even the sound of your footsteps on the gravel ground. This place is unworldly, a dead and empty space of matter between worlds.} {Svartalfheim } {} {} {} {1.000}
@@ -9924,7 +9924,7 @@ R { 2287} {4104} {} {} { } {} {} {} {} {} {1.000}
 E { 2289} {e} {e} {2} {0} {} {1.000}
 E { 2290} {w} {w} {8} {0} {} {1.000}
 
-R { 2288} {0} {<069>} {A Dead End} { } {The narrow gorge that branches out from the main canyon ends here before a tall cliff of stone. On the ground you notice several small natural pools that are empty and look like hollowed beds in the soft surface of the rocky canyon.} {Svartalfheim } {} {} {} {1.000}
+R { 2288} {0} {<169>} {A Dead End} { } {The narrow gorge that branches out from the main canyon ends here before a tall cliff of stone. On the ground you notice several small natural pools that are empty and look like hollowed beds in the soft surface of the rocky canyon.} {Svartalfheim } {} {} {} {1.000}
 E { 2285} {e} {e} {2} {0} {} {1.000}
 
 R { 2289} {0} {} {Somewhere in a Barren Gorge} { } {You find it hard to find words to describe this place. A deep sorrow grips you and you realize the place is just an empty shell, a forgotten vale between worlds that no human, beast or even gods ever visit. The gorge of Ginnungagap is here, stuck out of time and men's memories.} {Svartalfheim } {} {} {} {1.000}
@@ -9932,7 +9932,7 @@ E { 2282} {n} {n} {1} {0} {} {1.000}
 E { 2287} {w} {w} {8} {0} {} {1.000}
 E { 2293} {s} {s} {4} {0} {} {1.000}
 
-R { 2290} {0} {<069>} {Lost in a Barren Land} { } {A biting, cold wind blows from the south, where, according to the Legends, lies the entrance to Niflheim, the realm of the dead. The landscape around you is a barren land where absolutely no sound can be heard, not even the sound of your footsteps on the gravel ground. This place is unworldly, a dead and empty space of matter between worlds.} {Svartalfheim } {} {} {} {1.000}
+R { 2290} {0} {<169>} {Lost in a Barren Land} { } {A biting, cold wind blows from the south, where, according to the Legends, lies the entrance to Niflheim, the realm of the dead. The landscape around you is a barren land where absolutely no sound can be heard, not even the sound of your footsteps on the gravel ground. This place is unworldly, a dead and empty space of matter between worlds.} {Svartalfheim } {} {} {} {1.000}
 E { 2287} {e} {e} {2} {0} {} {1.000}
 E { 2291} {s} {s} {4} {0} {} {1.000}
 
@@ -11380,7 +11380,7 @@ E { 2643} {n} {n} {1} {0} {} {1.000}
 E { 2647} {s} {s} {4} {0} {} {1.000}
 E { 2649} {w} {open w;w} {8} {0} {} {1.000}
 
-R { 2640} {0} {<069>} {The Forum} {W} {This wide, open-air courtyard is used as a gathering place for the town. A fountain dedicated to Minerva dominates the center of the forum, and posts with notices and flyers tacked to them are scattered here and there about the place. Several low benches provide a place for a moment's respite. The great thermae of Aquae Sulis open to the south, and a theatre lies just north of you.} {Roman Britain } {} {} {} {1.000}
+R { 2640} {0} {<169>} {The Forum} {W} {This wide, open-air courtyard is used as a gathering place for the town. A fountain dedicated to Minerva dominates the center of the forum, and posts with notices and flyers tacked to them are scattered here and there about the place. Several low benches provide a place for a moment's respite. The great thermae of Aquae Sulis open to the south, and a theatre lies just north of you.} {Roman Britain } {} {} {} {1.000}
 E { 2643} {s} {s} {4} {0} {} {1.000}
 E { 2641} {e} {e} {2} {0} {} {1.000}
 E { 2646} {n} {open n;n} {1} {0} {} {1.000}
@@ -14989,7 +14989,7 @@ E { 3498} {s} {s} {4} {0} {} {1.000}
 E { 3506} {n} {n} {1} {0} {} {1.000}
 E { 3502} {e} {e} {2} {0} {} {1.000}
 
-R { 3502} {0} {<069>} {FACE TO FACE WITH A SEA-SERPENT!} { } {Yikes! Looks like the stories of horrors lurking in the unknown waters were true after all. Better get out of here if you still can!} {Anc. Atlantic/Med. } {} {} {} {1.000}
+R { 3502} {0} {<169>} {FACE TO FACE WITH A SEA-SERPENT!} { } {Yikes! Looks like the stories of horrors lurking in the unknown waters were true after all. Better get out of here if you still can!} {Anc. Atlantic/Med. } {} {} {} {1.000}
 E { 3499} {n} {n} {1} {0} {} {1.000}
 E { 3503} {e} {e} {2} {0} {} {1.000}
 E { 3506} {s} {s} {4} {0} {} {1.000}
@@ -16229,7 +16229,7 @@ E { 3792} {n} {n} {1} {0} {} {1.000}
 E { 3793} {w} {w} {8} {0} {} {1.000}
 E { 7397} {s} {s} {4} {1} {} {1.000}
 
-R { 3792} {0} {<069>} {A Stone Well} {W} {A mound of large rocks surrounds a large hole in the ground here. An iron handle comes off of a pulley enabling anyone to bring up the bucket that sits in the water below. Smaller buckets set along the side of the stones on the ground.} {17th Century Salem } {} {} {} {1.000}
+R { 3792} {0} {<169>} {A Stone Well} {W} {A mound of large rocks surrounds a large hole in the ground here. An iron handle comes off of a pulley enabling anyone to bring up the bucket that sits in the water below. Smaller buckets set along the side of the stones on the ground.} {17th Century Salem } {} {} {} {1.000}
 E { 3791} {s} {s} {4} {0} {} {1.000}
 
 R { 3793} {0} {} {West Ipswich Street} { } {This road seems a lot quieter than the others in town. There is a soft breeze coming from the ocean. A few buildings line this end of the street. An old-looking building to the south seems to be some sort of store. You hear the echo of the chimes above the door as villagers enter and leave at quick paces.} {17th Century Salem } {} {} {} {1.000}
@@ -18541,7 +18541,7 @@ E { 4350} {s} {s} {4} {0} {} {1.000}
 E { 4352} {e} {e} {2} {0} {} {1.000}
 E { 4841} {w} {w} {8} {0} {} {1.000}
 
-R { 4350} {0} {<069>} {Before a Grey Marble Fountain} {W} {A sharp cliff abruptly marks the end of the city of Carthage. At its bottom, a beautiful marble fountain is being sculpted, fresh water from the nearby cistern already runs from it. At the top of the cliff, you can spot the banners of the Byrsa Citadel, home of Queen Dido. Behind you, a street runs down to the harbor through a maze of little shops and gardens.} {Ancient Carthage } {} {} {} {1.000}
+R { 4350} {0} {<169>} {Before a Grey Marble Fountain} {W} {A sharp cliff abruptly marks the end of the city of Carthage. At its bottom, a beautiful marble fountain is being sculpted, fresh water from the nearby cistern already runs from it. At the top of the cliff, you can spot the banners of the Byrsa Citadel, home of Queen Dido. Behind you, a street runs down to the harbor through a maze of little shops and gardens.} {Ancient Carthage } {} {} {} {1.000}
 E { 4349} {n} {n} {1} {0} {} {1.000}
 E { 4351} {w} {open w;w} {8} {0} {} {1.000}
 
@@ -19897,7 +19897,7 @@ R { 4676} {0} {} {The Gardens of the Citadel} { } {Very elaborate gardens surrou
 E { 4675} {n} {n} {1} {0} {} {1.000}
 E { 4677} {s} {s} {4} {0} {} {1.000}
 
-R { 4677} {0} {<069>} {A Pool of Radiance} {W} {Angels and Archons gather around a large pool of water in the gardens of the Citadel. As they approach the clear waters, you notice that they bear no reflection and that the pool's surface is undisturbed by the heavy traffic around it.} {The Seven Heavens } {} {} {} {1.000}
+R { 4677} {0} {<169>} {A Pool of Radiance} {W} {Angels and Archons gather around a large pool of water in the gardens of the Citadel. As they approach the clear waters, you notice that they bear no reflection and that the pool's surface is undisturbed by the heavy traffic around it.} {The Seven Heavens } {} {} {} {1.000}
 E { 4676} {n} {n} {1} {0} {} {1.000}
 
 R { 4678} {0} {} {The Village of Nikko} { } {The small village of Nikko resides at the foot of taller mountains to the west. The village was born to host workers and visitors to the nearby sacred shrines hiding in the forested hills to the north.} {Medieval Japan Expansion } {} {} {} {1.000}
@@ -21425,7 +21425,7 @@ E { 5038} {e} {e} {2} {0} {} {1.000}
 R { 5038} {0} {} {Die Apotheke} { } {The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. At the back of the shop, a heavy wooden workbench sits scattered with a variety of tools for pounding, grinding, extracting, and otherwise preparing herbs for use. In the corner sits a separate table, scattered with more ominous components, for preparing poisons and dangerous concoctions.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 5037} {w} {w} {8} {0} {} {1.000}
 
-R { 5039} {0} {<069>} {Der Brunnen im Stadtplatz} {W} {You have found your way into a spacious, colonnaded square with a well in the center. The people swarm about here, exchanging greetings, insults, and the occasional blow, as they draw water from the Brunnen. What grass there was at one point has now been trampled down, but this area still has great aesthetic appeal. The cobbled street here is quite crowded, as people hurry from the marketplace to the west to the open area to the east and back again. The attractive design of the area has not kept anyone from their usual behavior, and thus the street here is absolutely foul with refuse, and you have to trudge through quite a bit of it to continue along Hauptstrasse either to the north or to the south.} {Medieval Kleinstadt } {} {} {} {1.000}
+R { 5039} {0} {<169>} {Der Brunnen im Stadtplatz} {W} {You have found your way into a spacious, colonnaded square with a well in the center. The people swarm about here, exchanging greetings, insults, and the occasional blow, as they draw water from the Brunnen. What grass there was at one point has now been trampled down, but this area still has great aesthetic appeal. The cobbled street here is quite crowded, as people hurry from the marketplace to the west to the open area to the east and back again. The attractive design of the area has not kept anyone from their usual behavior, and thus the street here is absolutely foul with refuse, and you have to trudge through quite a bit of it to continue along Hauptstrasse either to the north or to the south.} {Medieval Kleinstadt } {} {} {} {1.000}
 E { 6390} {s} {s} {4} {0} {} {1.000}
 E { 5587} {n} {n} {1} {0} {} {1.000}
 E { 6385} {w} {w} {8} {0} {} {1.000}
@@ -24327,7 +24327,7 @@ E { 5900} {w} {w} {8} {0} {} {1.000}
 E { 5735} {n} {open n;n} {1} {0} {} {1.000}
 E { 5901} {e} {e} {2} {0} {} {1.000}
 
-R { 5735} {0} {<069>} {Plato's Cave Bar and Grill} {I} {The walls of this bar are painted in dark colours and leather booths provide discreet eating nooks for diners. Potted palm trees decorate the room and at the bar are stools for those who have come just to drink. Maroon leather barstools flank an expansive bar and upstairs are numerous rooms for rent for out of town patrons of the carnival. A huge fireplace burns brightly in a corner of the room and before it is a gauzy white screen which casts interesting shadows over the walls. Curiously, the patrons here do not face the beautiful fire.} {Gypsy Carnival } {} {} {} {1.000}
+R { 5735} {0} {<169>} {Plato's Cave Bar and Grill} {I} {The walls of this bar are painted in dark colours and leather booths provide discreet eating nooks for diners. Potted palm trees decorate the room and at the bar are stools for those who have come just to drink. Maroon leather barstools flank an expansive bar and upstairs are numerous rooms for rent for out of town patrons of the carnival. A huge fireplace burns brightly in a corner of the room and before it is a gauzy white screen which casts interesting shadows over the walls. Curiously, the patrons here do not face the beautiful fire.} {Gypsy Carnival } {} {} {} {1.000}
 E { 5734} {s} {open s;s} {4} {0} {} {1.000}
 
 R { 5736} {0} {} {Rounding a Path to the Midway} { } {Northward lies the Midway with all its wonders. All around is the buzz of activity as people wander from the Midway to the Circus and the Hall of Wonders. Children strain to break free of tight parental handgrips as they attempt to race into the crowds, and performers mill about indulging the desire for free entertainment. From here one can hear the horses and the sound of gunshots which must come from the Wild West display to the south.} {Gypsy Carnival } {} {} {} {1.000}
@@ -30764,7 +30764,7 @@ R { 7308} {0} {} {On the Northern Ramparts of Mdina} { } {Below the solid stonew
 E { 7307} {e} {e} {2} {0} {} {1.000}
 E { 7311} {s} {s} {4} {0} {} {1.000}
 
-R { 7309} {0} {<069>} {On Pjazza San Pawl, Before the Cathedral Church} {W} {Throbbing and bustling, the activity on Pjazza San Pawl seems to cease a bit when you make it safely to the stairs to the great Cathedral Church beyond. Leaning against one of the two cannons mounted there to defend the church against an intruding force, you wonder how so many people can be crammed into such a relatively small city.} {Hospitaller Malta} {} {} {} {1.000}
+R { 7309} {0} {<169>} {On Pjazza San Pawl, Before the Cathedral Church} {W} {Throbbing and bustling, the activity on Pjazza San Pawl seems to cease a bit when you make it safely to the stairs to the great Cathedral Church beyond. Leaning against one of the two cannons mounted there to defend the church against an intruding force, you wonder how so many people can be crammed into such a relatively small city.} {Hospitaller Malta} {} {} {} {1.000}
 E { 7310} {n} {n} {1} {0} {} {1.000}
 E { 7338} {e} {e} {2} {0} {} {1.000}
 E { 7326} {w} {w} {8} {0} {} {1.000}
@@ -31864,7 +31864,7 @@ R { 7548} {0} {} {Rosemary Street} { } {The plants for which the street has been
 E { 7547} {e} {e} {2} {0} {} {1.000}
 E { 7549} {w} {w} {8} {0} {} {1.000}
 
-R { 7549} {0} {<069>} {Crane Square} {W} {Rosemary street ends in a small, cobbled square. A fountain splashes merrily in the center of the square, bringing a cheerful tune to the area. Cheerily painted homes, with their stair-stepped gables surround the little square. On warm days, artists can be seen meeting and conversing in the square, but one home on the north side of the square seems to be their destination.} {Medieval Flanders} {} {} {} {1.000}
+R { 7549} {0} {<169>} {Crane Square} {W} {Rosemary street ends in a small, cobbled square. A fountain splashes merrily in the center of the square, bringing a cheerful tune to the area. Cheerily painted homes, with their stair-stepped gables surround the little square. On warm days, artists can be seen meeting and conversing in the square, but one home on the north side of the square seems to be their destination.} {Medieval Flanders} {} {} {} {1.000}
 E { 7548} {e} {e} {2} {0} {} {1.000}
 E { 7551} {n} {open n;n} {1} {0} {} {1.000}
 
@@ -31874,7 +31874,7 @@ E { 7546} {s} {open s;s} {4} {0} {} {1.000}
 R { 7551} {0} {} {Van Eyck's House} { } {This modest home appears to be the gathering place for local artists. The furniture is well-made, and echoes the opulence of those found in the homes of the nobility, but is obviously not crafted with as fine materials. Several artists speak about the use of pigments and making the new oil paints Flanders is quickly becoming famous for.} {Medieval Flanders} {} {} {} {1.000}
 E { 7549} {s} {open s;s} {4} {0} {} {1.000}
 
-R { 7552} {0} {<069>} {Cour des Princes} {W} {The Court of the Prince, Duke Philip's residence when he is in Bruges, always an example of the extravagant court life favoured by Philip, has been prepared for the celebration of the wedding of Duke Philip, the Good to Isabella of Portugal. The palace has been expanded and remodeled, and now contains a chapel, library, swimming pool, tennis court, orchard, and zoo. The brick buildings with stately towers display the Valois-Burgundy standard proudly overhead.} {Medieval Flanders} {} {} {} {1.000}
+R { 7552} {0} {<169>} {Cour des Princes} {W} {The Court of the Prince, Duke Philip's residence when he is in Bruges, always an example of the extravagant court life favoured by Philip, has been prepared for the celebration of the wedding of Duke Philip, the Good to Isabella of Portugal. The palace has been expanded and remodeled, and now contains a chapel, library, swimming pool, tennis court, orchard, and zoo. The brick buildings with stately towers display the Valois-Burgundy standard proudly overhead.} {Medieval Flanders} {} {} {} {1.000}
 E { 7523} {s} {open s;s} {4} {0} {} {1.000}
 E { 7590} {n} {open n;n} {1} {0} {} {1.000}
 E { 7591} {e} {open e;e} {2} {0} {} {1.000}
