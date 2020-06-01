@@ -420,7 +420,7 @@
 #ACTION {{^Phileas Fogg says to .*?, '(?:The club needs you to find more information about the place this book names|You need to explore the world and find a place named) '(.*)'.'$}}
 {
     #MAP list {roomname} {%2} {variable} {fogg_rooms};
-    #LINE sub var #DELAY 0 #SHOWME Room <069>%2<099> found in the following areas:;
+    #LINE sub var #DELAY 0 #SHOWME Room <169>%2<099> found in the following areas:;
     #FOREACH {*fogg_rooms[%*]} {fogg_room}
     {
         #MAP get {roomarea} {fogg_area} {$fogg_room};
