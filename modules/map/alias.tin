@@ -34,21 +34,25 @@
 
 #ALIAS {search %*}
 {
-    #MAP list {roomname} {{.*%1.*}} {variable} {search_list};
+    #MAP list {roomname} {%i{.*%1.*}} {variable} {search_list};
     #FORMAT search_msg {Found <169>%d<099> rooms matching <169>%s<099>:} {&search_list[]} {%1};
     #SHOWME $search_msg;
     #SHOWME;
     #FORMAT search_msg {<199>%+6s   Room Name / Area Name<099>} {Vnum};
     #SHOWME $search_msg;
-    #LOOP 1 &search_list[] cnt
+    #IF {&search_list[]}
     {
-        #MAP at {*search_list[+$cnt]} {#MAP get {roomname} {roomname}};
-        #MAP at {*search_list[+$cnt]} {#MAP get {roomvnum} {roomvnum}};
-        #MAP at {*search_list[+$cnt]} {#MAP get {roomarea} {roomarea}};
-        #FORMAT roomvnum {%+6s} {$roomvnum};
-        #FORMAT roomarea {%p} {$roomarea};
-        #SHOWME $roomvnum - $roomname (<169>$roomarea<099>);
-    }
+        #LOOP 1 &search_list[] cnt
+        {
+            #MAP at {*search_list[+$cnt]} {#MAP get {roomname} {roomname}};
+            #MAP at {*search_list[+$cnt]} {#MAP get {roomvnum} {roomvnum}};
+            #MAP at {*search_list[+$cnt]} {#MAP get {roomarea} {roomarea}};
+            #FORMAT roomvnum {%+6s} {$roomvnum};
+            #FORMAT roomarea {%p} {$roomarea};
+            #SHOWME $roomvnum - $roomname (<169>$roomarea<099>);
+        }
+    };
+    #SHOWME;
     #UNVAR search_list;
     #UNVAR search_msg;
     #UNVAR roomname;

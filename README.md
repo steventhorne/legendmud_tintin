@@ -179,7 +179,7 @@ Note: If you're not using the prompt module, you will need to add a @$ to the en
 |dismap|Disable edit mode for the mapper|`dismap`|
 |door|Adds a door to the specified exit|`door e`, `door n`, `door w`, etc.|
 |rname|Gives a room a nickname in the map|`rname jb`, `rname stag`|
-|search|Finds a room based on the specified nickname and teleports to it|`search jb`, `search stag`|
+|search|Searches for rooms in the map with the specified text in the room name.|`search Harbor`, `search Royal Stag`|
 |find|Finds a room based on your current room in the MUD and teleports to it|`find`|
 |run|Finds a room based on the specified nickname and runs you to it if a path is found|`run jb`, `run stag`|
 |walk|Finds a room based on the specified nickname and walks you to it if a path is found|`walk jb`, `walk stag`|

@@ -174,7 +174,7 @@
 #ACTION {{^You go Out of Character.$}}
 {
 	#MAP get roomvnum oocvnum;
-    search ooc;
+    #MAP goto 394;
 }
 {5}
 
