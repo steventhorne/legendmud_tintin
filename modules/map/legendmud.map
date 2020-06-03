@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -30524,13 +30524,13 @@ E { 7229} {w} {w} {8} {0} {} {1.000} {}
 R { 7229} {0} {} {Fording the Yukon River} { } {The river has slowed to a medium rush here where a ford has been maintained by native traders. Despite the fact that the river bottom is much higher here than in other spots along the river, the water is still several feet deep, easily up to the knees of a caribou. The large chunks of ice snag on the bottom of the river momentarily, then are carried off by the fast-moving water.} {1802 Alaska} {} {} {} {1.000} {}
 E { 7230} {s} {s} {4} {0} {} {1.000} {}
 E { 7228} {n} {n} {1} {0} {} {1.000} {}
-E { 7231} {w} {w} {8} {0} {} {1.000} {}
+E { 7231} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 7230} {0} {} {In a Sparse Forest} { } {The trees slightly muffle the sound of the rushing Yukon River. The forest here is a mixture of pines and hardwoods, all in various stages of growth. There appears to be more undergrowth here, giving you the impression that not too long ago, this forest did not exist. Perhaps there had been a fire caused by lightning and the forest is still in the recovery stages. Either way, your view is fairly unobstructed and you can see the slope down to the river to the west, the forest stretching both north and south of you for a ways, and a clearing a short way to the east.} {1802 Alaska} {} {} {} {1.000} {}
 E { 7229} {w} {w} {8} {0} {} {1.000} {}
 
 R { 7231} {0} {} {A Path Through Bushes} { } {Thick bushes line the bank of the river here, but a small path has been made through them. The path is not very wide, and the bushes close in over it tightly. Tendrils of smoke hang low beneath the thin canopy of trees above. You can't be sure, but you think you can hear the sound of waves crashing over the steady rush of the river.} {1802 Alaska} {} {} {} {1.000} {}
-E { 7229} {e} {e} {2} {0} {} {1.000} {}
+E { 7229} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 7232} {w} {w} {8} {0} {} {1.000} {}
 
 R { 7232} {0} {} {On a Gravel Beach} { } {Instead of fine sand, this beach is covered with grey gravel. The small rocks are sharp and rough. As you get closer to the water, the gravel pieces get smaller, worn down by the water. The waves rush up onto the shore and toss the rocks about. A trail leads between two huts, heading into the woods.} {1802 Alaska} {} {} {} {1.000} {}
