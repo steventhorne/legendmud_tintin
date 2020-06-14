@@ -16,7 +16,7 @@
 }
 {5}
 
-#ACTION {{^.Exits\:[^\]]*\]$}}
+#ACTION {{^\[Exits\:.*$}}
 {
     #if {"$editmap" == "true" || "$findroom" == "true"}
     {
