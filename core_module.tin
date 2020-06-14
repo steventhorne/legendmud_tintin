@@ -54,7 +54,7 @@
         #CASE {2}
         {
             #VAR screen[scroll][y1] {$screen[split][y]};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[width]};
 
@@ -70,7 +70,7 @@
         #CASE {3}
         {
             #VAR screen[scroll][y1] {1};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[split][x]};
 
@@ -86,7 +86,7 @@
         #CASE {4}
         {
             #VAR screen[scroll][y1] {$screen[split][y]};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[split][x]};
 
@@ -111,7 +111,7 @@
         #CASE {5}
         {
             #VAR screen[scroll][y1] {$screen[split][y]};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[split][x]};
 
@@ -136,7 +136,7 @@
         #CASE {6}
         {
             #VAR screen[scroll][y1] {$screen[split][y]};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[width]};
 
@@ -161,7 +161,7 @@
         #CASE {7}
         {
             #VAR screen[scroll][y1] {1};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[split][x]};
 
@@ -186,7 +186,7 @@
         #CASE {8}
         {
             #VAR screen[scroll][y1] {$screen[split][y]};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[split][x]};
 
@@ -221,7 +221,7 @@
         {
             #SHOWME default;
             #VAR screen[scroll][y1] {1};
-            #VAR screen[scroll][x1] {2};
+            #VAR screen[scroll][x1] {1};
             #VAR screen[scroll][y2] {$screen[height]};
             #VAR screen[scroll][x2] {$screen[width]};
         }
@@ -336,7 +336,7 @@
                 #CLASS {$loaded_classes_class} kill;
                 #CLASS {$loaded_classes_class} {read} {classes/$loaded_classes_class.tin};
                 
-                #SHOWME Class <069>%1<099> has been reloaded.;
+                #SHOWME Class <069>$loaded_classes_class<099> has been reloaded.;
             }
             #UNVAR loaded_classes_class;
         }
@@ -447,6 +447,31 @@
 #ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
 {
     #SEND %2;
+}
+{5};
+
+#ACTION {{^(?:.*\s)?([\w\-\'\.]+), what would you like to do now?}}
+{
+    #IF {&{loaded_character} && "$loaded_character" === "%2"} {#NOP}
+    {
+        #IF {&{loaded_character}}
+        {
+            killclass $loaded_character;
+        };
+
+        #LIST loaded_classes find %2 loaded_classes_search;
+        #IF {$loaded_classes_search > 0}
+        {
+            #SHOWME <019>Class <069>%2<019> is already loaded.<099>;
+        }
+        {
+            #SHOWME Loading class <069>%2<099>.;
+            #LIST loaded_classes add %2;
+            #CLASS {%2} {read} {classes/%2.tin};
+        }
+        #UNVAR loaded_classes_search;
+        #VAR loaded_character %2;
+    };
 }
 {5};
 
