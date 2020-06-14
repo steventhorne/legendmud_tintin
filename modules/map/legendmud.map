@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -10734,7 +10734,7 @@ R { 2475} {0} {} {A Long Hallway} { } {The long stone hallway before you is cold
 E { 2474} {n} {n} {1} {0} {} {1.000} {}
 E { 2476} {w} {w} {8} {0} {} {1.000} {}
 E { 8171} {s} {s} {4} {0} {} {1.000} {}
-E { 8172} {e} {e} {2} {0} {} {1.000} {}
+E { 8172} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 2476} {0} {} {The Inner Courtyard} { } {The interior courtyard is lined with trees and benches. The surrounding walls are hung with a series of tapestries, each combining costly threads and tiny stitches to form complex scenes of lords and ladies, of harts and hounds, of trees and flowers. Doors in every direction lead back into the castle.} {Player Housing} {} {} {} {1.000} {}
 E { 2475} {e} {e} {2} {0} {} {1.000} {}
@@ -26615,18 +26615,18 @@ E { 6269} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6268} {0} {} {The Pacific Rim} { } {A seam has been drawn along the edge of the world here, marking east from west. The mainland surely lies beyond the string of islands to the west and the whole of the Pacific awaits your exploration to the southeast.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6267} {w} {w} {8} {0} {} {1.000} {}
-E { 6270} {s} {s} {4} {0} {} {1.000} {}
+E { 6270} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6269} {0} {} {On a Tiny Island} { } {This island must have once been home to generations of natives. Flimsy huts lie abandoned on the beach, thatch blowing away in the tropical winds. Some seem to have been burned--tribute to the power of a tsunami. The open ocean lies to the north.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6267} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6270} {0} {} {In the Pacific} { } {The Pacific Rim lines the edge of the world to the west while open waves recede to the horizon to the east. You yearn for setting your feet down on solid ground once again. All this swaying with the rhythm of the ocean is enough to make a hardened sailor seasick.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6268} {n} {n} {1} {0} {} {1.000} {}
-E { 6271} {e} {e} {2} {0} {} {1.000} {}
+E { 6268} {w} {w} {8} {0} {} {1.000} {}
+E { 6271} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6271} {0} {} {Somewhere in the Middle of the Pacific} { } {The open ocean rolls gently as far as the eye can see in all directions. Without the stars at night and the sun travelling its path during the day, you would become hopelessly lost in this neverending field of water. You are sure from studying the maps and journals that there must be land far to the east and far to the west of you. Getting there may take some time however.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6270} {w} {w} {8} {0} {} {1.000} {}
 E { 6272} {e} {e} {2} {0} {} {1.000} {}
+E { 6270} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6272} {0} {} {Somewhere in the Middle of the Pacific} { } {Light blue bowl turned upside down on top of an undulating dark blue field -- the world is nothing but sky, sea, and you. You feel small and insignificant floating here, a speck bobbing up and down in the vastness of the sea. The currents of air and water can be harnessed to carry you either east or west from here.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6271} {w} {w} {8} {0} {} {1.000} {}
@@ -26634,51 +26634,23 @@ E { 6273} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6273} {0} {} {Somewhere in the Middle of the Pacific} { } {Days and days from landfall, you feel alone in the world. The occasional ship passes in the night. You hope you have enough fresh water and food to last the rest of the journey. The monotonous sound of the water sluishing against the hull of your vessel pounds relentlessly on your ears. Ahh, for a warm steady bed on dry land.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6272} {w} {w} {8} {0} {} {1.000} {}
-E { 6274} {s} {s} {4} {0} {} {1.000} {}
+E { 6274} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6274} {0} {} {In the Pacific} { } {The winds and tides take on a northwesterly/southeasterly path here. The open ocean surrounds you in every direction, but you can feel your vessel surrendering to the pull of the tide. The breezes carry the heavy salt of the air with them and you wish longingly for a bath in clean cool water.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6273} {n} {n} {1} {0} {} {1.000} {}
 E { 6275} {e} {e} {2} {0} {} {1.000} {}
+E { 6273} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6275} {0} {} {In the Pacific} { } {The deep waters of the Pacific soothe and mollify you as the waves gently lap at the sides of your vessel. The warm days and warm nights leave your skin soaked and your breath comes heavy in the humid air, as if you were trapped in a room filled with steam. The wind seems to suggest that your best course is east or west.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6274} {w} {w} {8} {0} {} {1.000} {}
-E { 6276} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6276} {0} {} {Off the Coast of Central America} { } {Emerald green slivers of land are just visible to the far east as you sail across the deep waters of the Pacific. The water is calm and peaceful here near the equator. The easiest courses to plot to make landfall are east and west.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6275} {w} {w} {8} {0} {} {1.000} {}
-E { 6277} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6277} {0} {} {Off the Coast of Nicaragua} { } {Tranquil ocean waves, warm sunlight, and the cry of seagulls conspire to lull you to sleep. Off to the east you can barely make out the lush slopes of Nicaragua, a green smudge on the horizon.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6276} {w} {w} {8} {0} {} {1.000} {}
-E { 6278} {s} {s} {4} {0} {} {1.000} {}
-E { 6279} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6278} {0} {} {The Pacific Side of the Isthmus of Panama} { } {Tall green bluffs look over across the Pacific Ocean. From here it was that Balboa saw it first, and named it the Peaceful Ocean, without knowing how stormy and ill-tempered a sea it was.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6277} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6279} {0} {} {Surrounded by Fog Off the Coast of El Salvador} { } {The weather seems to have picked up a bit, as waves pound around you, tossing your vessel willy nilly as a child's toy flipped about on an angry bedspread of seawater. You can barely make out the fog-shrouded coastline of El Salvador to the east and you think it safer to seek landfall elsewhere.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6277} {s} {s} {4} {0} {} {1.000} {}
-E { 6280} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6280} {0} {} {Off the Mexican Coast} { } {The lush green jungles of southern Mexico lie to the far east, but the sparkling blue waters of the Pacific lure you onwards beyond the legends of cities made entirely of gold and tales of ancient curses hurled upon the heads of those seeking to control others for their own gain.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6279} {e} {e} {2} {0} {} {1.000} {}
-E { 6281} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6281} {0} {} {Off the Coast of Mexico} { } {You can really begin to appreciate the travails of the early explorers after so long at sea. Waves rise and waves fall in a never ending series. Monotony has become your worst enemy. You wonder if a place suitable for landfall exists on the coast of this forsaken continent.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6280} {e} {e} {2} {0} {} {1.000} {}
-E { 6282} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6282} {0} {} {Offshore of the Baja Peninsula} { } {Land is invitingly close, and your feet ache to feel dry land under them again. Off to the east you can see natives spearfishing and playing in the waves. They don't look very friendly; perhaps you'd better journey onwards?} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6281} {s} {s} {4} {0} {} {1.000} {}
-E { 6283} {n} {n} {1} {0} {} {1.000} {}
+E { 6283} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6283} {0} {} {The Southern California Coast} { } {The walls of the Presidio gleam in the distance and the faint roar of the surf serves as a counterpoint to the cries of the wheeling gulls. A natural bay offers safe refuge to the east in the unlikely event of a storm, but the beautiful ocean waters lure you onward, ever onward.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6282} {s} {s} {4} {0} {} {1.000} {}
-E { 6284} {w} {w} {8} {0} {} {1.000} {}
+E { 6284} {n} {n} {1} {0} {} {1.000} {}
+E { 6275} {w} {w} {8} {0} {} {1.000} {}
 
 R { 6284} {0} {} {Off the Coast of California} { } {Cliffs lie to the far east beyond the breakers, occasionally broken by strips of pristine beach. Stands of timber reach nearly to the seashore. The raw, undisturbed wilderness, beautiful in its primitive state, untamed by the will of man, emanates danger. A smudge of greyish green land juts out to the north.} {Gold Rush San Francisco } {} {} {} {1.000} {}
-E { 6283} {e} {e} {2} {0} {} {1.000} {}
 E { 6285} {n} {n} {1} {0} {} {1.000} {}
+E { 6283} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6285} {0} {} {Entrance to San Francisco Bay} { } {On the far shore the land rises gradually, lifting up into mountains in the distance, and stretching off to where the peaks of the Sierra Nevadas are just visible, their snowy caps dotting the horizon. To your east lies a glorious deep water bay that supports the traffic of hundreds of vessels, many of which sit at anchor here in the Bay. Fingers of land jut out from the north and a small inlet lies to the east, while the bay proper opens out to sea to the south.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6284} {s} {s} {4} {0} {} {1.000} {}
@@ -34493,7 +34465,7 @@ E { 8170} {s} {s} {4} {0} {} {1.000} {}
 E { 2475} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8172} {0} {<029>} {Svartur's Great Hall} { } {The great hall is hung with dramatic banners and tapestries. The long tables in the center of the room look as if they might seat fifty people for a feast. A series of candlestands line the room, and lend the room a warm, rich glow. One end of the room is dominated by a raised platform, where a pair of thrones sit behind a particularly lavish table.} {Player Housing} {} {} {} {1.000} {}
-E { 2475} {w} {w} {8} {0} {} {1.000} {}
+E { 2475} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 8178} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8173} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
