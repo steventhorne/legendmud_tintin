@@ -29,13 +29,10 @@
                 #VAR break true;
             }
             {
-                #REGEX {$line} {{.+}}
-                {
-                    #NOP;
-                }
+                #REGEX {$line} {{^$}}
                 {
                     #VAR break true;
-                }
+                };
             }
 
             #IF {"$break" == "true"}
