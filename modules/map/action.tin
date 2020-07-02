@@ -16,6 +16,12 @@
 }
 {5}
 
+#ACTION {{^You fled (.).*?!$}}
+{
+    #MAP move %2;
+}
+{5}
+
 #ACTION {{^\[Exits\:.*$}}
 {
     #if {"$editmap" == "true" || "$findroom" == "true"}
