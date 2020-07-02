@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -16309,7 +16309,7 @@ E { 3791} {s} {s} {4} {0} {} {1.000} {}
 R { 3793} {0} {} {West Ipswich Street} { } {This road seems a lot quieter than the others in town. There is a soft breeze coming from the ocean. A few buildings line this end of the street. An old-looking building to the south seems to be some sort of store. You hear the echo of the chimes above the door as villagers enter and leave at quick paces.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3791} {e} {e} {2} {0} {} {1.000} {}
 E { 3798} {w} {w} {8} {0} {} {1.000} {}
-E { 8323} {s} {s} {4} {0} {} {1.000} {}
+E { 8323} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 3794} {0} {} {Intersection of Cambridge and Ipswich} { } {Cambridge Street seems to end here, turning into a path that leads to a large farm south. Ipswich Street continues east heading back towards the heart of the village. There are few trees along this part of the village. Probably cleared by new land owners eager to build their homes.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3798} {e} {e} {2} {0} {} {1.000} {}
@@ -33945,11 +33945,11 @@ E { 8033} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8033} {0} {} {The Lone Fortress of Tintagel} { } {The castle of Tintagel is the birthplace of King Arthur Pendragon and the residence of his mother, Lady Igraine. The castle is a lone fortress perched on a peak in the remote and secluded Cornwall. This is where Duke Gorlois had hidden his wife as he went through the country battling with the king of Logres, Uther Pendragon.} {Camelot} {} {} {} {1.000} {}
 E { 8032} {s} {s} {4} {0} {} {1.000} {}
-E { 8034} {n} {n} {1} {0} {} {1.000} {}
+E { 8034} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 8108} {d} {d} {32} {0} {} {1.000} {}
 
 R { 8034} {0} {} {The Hall of Tintagel} { } {This simple hall built into the white slate rocks of Cornwall feels cold and sinister. Large and thick animal furs are lying on the floor, trying to give the place an allure of warmth. Tall candles on metal pedestals cast a thick smoke in the room.} {Camelot} {} {} {} {1.000} {}
-E { 8033} {s} {s} {4} {0} {} {1.000} {}
+E { 8033} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 8035} {0} {} {Top of the Glastonbury Tor} { } {Glastonbury Tor rises from the lower lias clays and limestones through the middle and upper lias to a deposit of hard midford sand of the cap known locally as Tor Burr. This is more resistant to erosion than the lower levels, making the slopes steep and unstable.} {Camelot} {} {} {} {1.000} {}
 E { 7930} {d} {d} {32} {0} {} {1.000} {}
@@ -34448,7 +34448,7 @@ E { 2476} {e} {e} {2} {0} {} {1.000} {}
 E { 8157} {s} {s} {4} {0} {} {1.000} {}
 E { 8158} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8157} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+R { 8157} {0} {} {The Inner Courtyard} { } {The interior courtyard is lined with trees and benches. The surrounding walls are hung with a series of tapestries, each combining costly threads and tiny stitches to form complex scenes of lords and ladies, of harts and hounds, of trees and flowers. Doors in every direction lead back into the castle.} {Player Housing} {} {} {} {1.000} {}
 E { 7498} {e} {e} {2} {0} {} {1.000} {}
 E { 8156} {n} {n} {1} {0} {} {1.000} {}
 E { 8159} {w} {w} {8} {0} {} {1.000} {}
@@ -34500,11 +34500,11 @@ R { 8167} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
 E { 8166} {w} {w} {8} {0} {} {1.000} {}
 E { 8168} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8168} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
+R { 8168} {0} {} {A Long Hallway} { } {The long stone hallway before you is cold and slightly damp. The smooth bricks have been cut from the surrounding countryside, and fit together so carefully that not a draft can pass between the stones. But the lack of a fire keeps the hallway slightly damp and slightly mildewed year round.} {Player Housing} {} {} {} {1.000} {}
 E { 8167} {w} {w} {8} {0} {} {1.000} {}
 E { 8157} {n} {n} {1} {0} {} {1.000} {}
 E { 8169} {e} {e} {2} {0} {} {1.000} {}
-E { 8173} {s} {s} {4} {0} {} {1.000} {}
+E { 8173} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 8169} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
 E { 8168} {w} {w} {8} {0} {} {1.000} {}
@@ -34524,13 +34524,13 @@ R { 8172} {0} {<029>} {Svartur's Great Hall} { } {The great hall is hung with dr
 E { 2475} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 8178} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8173} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
-E { 8168} {n} {n} {1} {0} {} {1.000} {}
-E { 8174} {e} {e} {2} {0} {} {1.000} {}
+R { 8173} {0} {} {The Throne Room} { } {An imposing throne room stretches out before you. At the end of a long, carpeted pathway, raised high on a dais, a stately throne turns its stern gaze on all who enter. A giant banner, bearing the royal crest, hangs behind the throne.} {Player Housing} {} {} {} {1.000} {}
+E { 8168} {n} {open n;n} {1} {0} {} {1.000} {}
+E { 8174} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 8175} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8174} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
-E { 8173} {w} {w} {8} {0} {} {1.000} {}
+R { 8174} {0} {} {Svartur's Chambers} { } {These chambers are luxurious and filled with a variety of comforts and delights. The cold stone has been covered over with luxurious cedar paneling, and hung with elaborate embroidered hangings.} {Player Housing} {} {} {} {1.000} {}
+E { 8173} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 8176} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8175} {0} {<059>} {} { } {} {Player Housing} {} {} {} {1.000} {}
@@ -35153,7 +35153,7 @@ R { 8322} {0} {} {A Tranquil Plane} { } {Here the mist subsides. Overhead, the s
 E { 1161} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8323} {0} {} {Salem Mercantile} { } {This mercantile doesn't seem to be as busy as the English mercantile at the other end of the village, yet it does its share of business. The old wood, bent and worn, shows you that this building has been here for some time. Probably one of the first in the village.} {17th Century Salem} {} {} {} {1.000} {}
-E { 3793} {n} {n} {1} {0} {} {1.000} {}
+E { 3793} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 8324} {0} {} {A Clearing by the River} { } {A grassy clearing opens up between the trees of the forest. The river Rhine rushes past to the east, its waters flowing too quickly to allow safe crossing at this point. The trees crowd close around the clearing, making it difficult to see farther into the forest. Still, it is a pleasant spot to stop and rest on a long journey.} {The Black Forest} {} {} {} {1.000} {}
 E {  924} {n} {n} {1} {0} {} {1.000} {}
