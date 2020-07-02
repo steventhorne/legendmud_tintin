@@ -5,7 +5,7 @@ V 2020
 CAVOID <018>
 CBACKGROUND <099>
 CBLOCK <218>
-CEXITS <278>
+CEXITS <279>
 CFOG <148>
 CHIDE 
 CINVISIBLE <208>
@@ -699,9 +699,13 @@ R {  106} {0} {} {Deep Ocean} { } {The grayness of the sky is reflected in the w
 E {  105} {e} {e} {2} {0} {} {1.000} {}
 E {  108} {n} {n} {1} {0} {} {1.000} {}
 
-R {  107} {0} {} {} { } {} {Land of Shadows} {} {} {} {1.000} {}
+R {  107} {0} {} {On the Second Seal} { } {A great chamber opens up around you. In the center of the room, pounded smooth into the floor, lies a great stone disk. Around its edge carvings of a runed script tell a story in a language you do not understand. In the center of the seal, a carving of a ship crashing upon the rocks of Eire is depicted in exquisite detail.} {Land of Shadows} {} {} {} {1.000} {}
 E { 5987} {u} {u} {16} {0} {} {1.000} {}
 E {  123} {d} {d} {32} {0} {} {1.000} {}
+E { 8274} {e} {e} {2} {0} {} {1.000} {}
+E { 8275} {w} {w} {8} {0} {} {1.000} {}
+E { 8276} {n} {n} {1} {0} {} {1.000} {}
+E { 8277} {s} {s} {4} {0} {} {1.000} {}
 
 R {  108} {0} {} {Deep Ocean} { } {Your ship continues on its solitary journey, no other signs of life to be seen in any direction. You check your rations, knowing they must last for quite some time. The dreariness of the horizon is echoed in the ship itself, you begin to ponder whether it might be best to just turn back.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  106} {s} {s} {4} {0} {} {1.000} {}
@@ -722,6 +726,7 @@ E {  112} {w} {w} {8} {0} {} {1.000} {}
 R {  112} {0} {} {On the Outskirts of Harrisburg} { } {The long road stretches on for miles, and in the distance you see Harrisburg, the state capital. Silence echoes on this road, only to be broken by the occasional car driving past on its way opposite of you. A few birds whistle their tune as they fly overhead.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  111} {e} {e} {2} {0} {} {1.000} {}
 E {  113} {w} {w} {8} {0} {} {1.000} {}
+E { 6276} {s} {s} {4} {0} {} {1.000} {}
 
 R {  113} {0} {} {Leaving Harrisburg} { } {The city of Harrisburg grows distant as you move on. Hills and valleys engulf the road before you. An occasional car passes by, its engine humming loudly to break the silence.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  112} {e} {e} {2} {0} {} {1.000} {}
@@ -765,9 +770,13 @@ E { 4224} {s} {open s;s} {4} {0} {} {1.000} {}
 R {  122} {0} {<039>} {First National Bank} {B} {The hard wood floor disappears behind the counter a few feet from the far wall. Bars made of iron reach from the countertop to the ceiling, leaving a small window of sorts for the teller behind it. A sign stands in the doorway, giving the latest currency exchange rate for new travellers to the city.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  121} {s} {s} {4} {0} {} {1.000} {}
 
-R {  123} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  123} {0} {} {The Third Seal} { } {A gigantic hemispherical chamber opens around you. In the center lies a massive seal, thrice the size of the prior two combined. Unlike the others, this one bears no markings, no engravings, or any relief of any kind. It is merely a giant circular stone.} {Land of Shadows} {} {} {} {1.000} {}
 E {  107} {u} {u} {16} {0} {} {1.000} {}
 E {  126} {d} {d} {32} {0} {} {1.000} {}
+E { 8278} {e} {e} {2} {0} {} {1.000} {}
+E { 8279} {w} {w} {8} {0} {} {1.000} {}
+E { 8280} {n} {n} {1} {0} {} {1.000} {}
+E { 8281} {s} {s} {4} {0} {} {1.000} {}
 
 R {  124} {0} {} {Berth 4: Open Wharf} { } {No ships customarily tie up here, so you feel safe in assuming that anyone may leave their vessel here. Of course, it may not be here when you get back. London Port looks from here like a town of cutthroats and low-born Cockneys, all ready to take a farthing and spit on your grave. North of you is the tail end of the docks.} {London Port } {} {shallow} {} {1.000} {}
 E {   63} {e} {e} {2} {1} {} {1.000} {}
@@ -4162,29 +4171,31 @@ R {  923} {0} {} {A Dusty Road In The Forest} { } {The road here extends from ea
 E {  922} {w} {w} {8} {0} {} {1.000} {}
 E {  924} {e} {e} {2} {0} {} {1.000} {}
 
-R {  924} {0} {} {A Dusty Road In The Forest} { } {You can clearly hear the sound of rushing water to the east of here, and can just make out the edge of a bridge there. The forest thickens overhead here and begins to thin slightly both east and west.} {The Black Forest } {} {} {} {1.000} {}
+R {  924} {0} {} {A Dusty Road In The Forest} { } {You can clearly hear the sound of rushing water to the east of here, and can just make out the edge of a bridge there. The forest thickens overhead here and begins to thin slightly both east and west.} {The Black Forest} {} {} {} {1.000} {}
 E {  923} {w} {w} {8} {0} {} {1.000} {}
 E {  925} {e} {e} {2} {0} {} {1.000} {}
+E { 8324} {s} {s} {4} {0} {} {1.000} {}
 
 R {  925} {0} {} {A Wooden Bridge On The Rhine} { } {The wooden bridge here extends east to west across the Rhine. North of here and off on the east bank of the river you can see a stone castle, which seems a bit unkempt but stately nonetheless in its poise overlooking the river.} {The Black Forest } {} {} {} {1.000} {}
 E {  924} {w} {w} {8} {0} {} {1.000} {}
 E {  926} {e} {e} {2} {0} {} {1.000} {}
 
-R {  926} {0} {} {A Dusty Road In The Forest} { } {You can hear the distinct rushing of water to the west of here, and just barely make out the shape of a bridge there, crossing a river. The trees are relatively dense here, and allow some, though not much, light to get through.} {The Black Forest } {} {} {} {1.000} {}
+R {  926} {0} {} {A Dusty Road In The Forest} { } {You can hear the distinct rushing of water to the west of here, and just barely make out the shape of a bridge there, crossing a river. The trees are relatively dense here, and allow some, though not much, light to get through.} {The Black Forest} {} {} {} {1.000} {}
 E {  925} {w} {w} {8} {0} {} {1.000} {}
 E {  927} {e} {e} {2} {0} {} {1.000} {}
+E { 8327} {n} {n} {1} {0} {} {1.000} {}
 
-R {  927} {0} {} {A Dusty Road In The Forest} { } {A faint sound of rushing water can be heard west of here, and the forest thins somewhat in that direction. East of here the trees become thicker and darker, and the road turns toward the north after a ways. You sense that you are not alone here, and that you should stay on the road and get to your destination as quickly as possible.} {The Black Forest } {} {} {} {1.000} {}
+R {  927} {0} {} {A Dusty Road In The Forest} { } {A faint sound of rushing water can be heard west of here, and the forest thins somewhat in that direction. East of here the trees become thicker and darker, and the road turns toward the north after a ways. You sense that you are not alone here, and that you should stay on the road and get to your destination as quickly as possible.} {The Black Forest} {} {} {} {1.000} {}
 E {  926} {w} {w} {8} {0} {} {1.000} {}
 E {  928} {e} {e} {2} {0} {} {1.000} {}
 
-R {  928} {0} {} {A Turn In The Road} { } {The forest looms malevolently overhead, sending shivers down your spine, as you continue down the road, which turns here to head north and west. You think it best to be quickly on your way from here, as a sense of dark foreboding seems to cling to the air here.} {The Black Forest } {} {} {} {1.000} {}
+R {  928} {0} {} {A Turn In The Road} { } {The forest looms malevolently overhead, sending shivers down your spine, as you continue down the road, which turns here to head north and west. You think it best to be quickly on your way from here, as a sense of dark foreboding seems to cling to the air here.} {The Black Forest} {} {} {} {1.000} {}
 E {  927} {w} {w} {8} {0} {} {1.000} {}
 E {  929} {e} {e} {2} {0} {} {1.000} {}
 E {  930} {n} {n} {1} {0} {} {1.000} {}
 E {  931} {s} {s} {4} {0} {} {1.000} {}
 
-R {  929} {0} {} {In The Dense Forest} { } {The forest is very dense here and only the faintest hint of a path can be seen leading east of here. You have an eerie sense of foreboding and a strong desire to return to the road where perhaps the denizens would be less of a threat.} {The Black Forest } {} {} {} {1.000} {}
+R {  929} {0} {} {In The Dense Forest} { } {The forest is very dense here and only the faintest hint of a path can be seen leading east of here. You have an eerie sense of foreboding and a strong desire to return to the road where perhaps the denizens would be less of a threat.} {The Black Forest} {} {} {} {1.000} {}
 E {  928} {w} {w} {8} {0} {} {1.000} {}
 E {  936} {e} {e} {2} {0} {} {1.000} {}
 
@@ -4193,7 +4204,7 @@ E {  928} {s} {s} {4} {0} {} {1.000} {}
 E {  932} {e} {e} {2} {0} {} {1.000} {}
 E { 6038} {w} {w} {8} {0} {} {1.000} {}
 
-R {  931} {0} {} {In the Dense Forest} { } {The forest is very dense here and you have an eerie sense of foreboding and a strong desire to return to the road where perhaps the denizens would be less of a threat.} {The Black Forest } {} {} {} {1.000} {}
+R {  931} {0} {} {In the Dense Forest} { } {The forest is very dense here and you have an eerie sense of foreboding and a strong desire to return to the road where perhaps the denizens would be less of a threat.} {The Black Forest} {} {} {} {1.000} {}
 E {  928} {n} {n} {1} {0} {} {1.000} {}
 
 R {  932} {0} {} {A Winding Road} { } {The road winds here from north to west, and you can just make out the sounds of nearby activity to the north. The forest seems to be thinned to the north and the road continues to wind to the west.} {The Black Forest } {} {} {} {1.000} {}
@@ -4213,7 +4224,7 @@ E { 5029} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000} {}
 R {  935} {0} {} {A Dark Hallway} { } {The water-flooded hallway of the prison is dark and cold. Here and there, the walls bear the marks of the prisoners' nails who tried to dig with their bare hands through the stone, in a vain attempt to avoid being drowned.} {Ys } {} {} {} {1.000} {}
 E { 5245} {s} {s} {4} {0} {} {1.000} {}
 
-R {  936} {0} {} {In the Dense Forest} { } {The trail thins between ominous overhanging branches -- a canopy of green that could darken even the brightest of days. You wonder what might lurk around every tree, every bush in this ever-darkening wood.} {The Black Forest } {} {} {} {1.000} {}
+R {  936} {0} {} {In the Dense Forest} { } {The trail thins between ominous overhanging branches -- a canopy of green that could darken even the brightest of days. You wonder what might lurk around every tree, every bush in this ever-darkening wood.} {The Black Forest} {} {} {} {1.000} {}
 E {  929} {w} {w} {8} {0} {} {1.000} {}
 E {  938} {s} {s} {4} {0} {} {1.000} {}
 
@@ -4457,9 +4468,10 @@ R {  994} {0} {} {The Dark Dungeon Hallway} { } {Darkness envelopes you, bringin
 E {  993} {w} {w} {8} {0} {} {1.000} {}
 E { 5552} {e} {e} {2} {0} {} {1.000} {}
 
-R {  995} {0} {} {The Narrow Window Ledge} { } {You balance yourself on this precarious ledge high up on the castle walls. Below you is the cobblestone road leading to town or back to the main gate. A stiff wind catches at your clothing adding an additional element of fear. You just pray the weather doesn't get any worse. The only safe way you can see is back in the window. Of course you could try to climb down the side of the slick castle walls.} {Transylvania } {} {} {} {1.000} {}
+R {  995} {0} {} {A Hallway Intersection} { } {The aged stone walls lead past a plain pine-framed door. Faint sounds of snoring can be heard in this otherwise quiet stretch of passage. The torch holder directly across from the entrance is suspiciously missing its torch lending a dimming to the light here.} {Transylvania} {} {} {} {1.000} {}
 E {  990} {w} {w} {8} {0} {} {1.000} {}
 E {  996} {e} {e} {2} {0} {} {1.000} {}
+E { 8264} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R {  996} {0} {} {A Shadowed Stone Corridor} { } {This hallway runs east-west with sounds of combat to the east through a brightly lit intersection. Some of the torches are blown out, enveloping you in darkness and shadows. You feel that the castle walls keep closing in on you. Getting edgy, you find yourself looking furtively over your shoulder trying to glimpse imaginary foes.} {Transylvania } {} {} {} {1.000} {}
 E {  995} {w} {w} {8} {0} {} {1.000} {}
@@ -5086,7 +5098,7 @@ E { 1134} {w} {w} {8} {0} {} {1.000} {}
 E { 1138} {e} {e} {2} {0} {} {1.000} {}
 E { 2610} {n} {n} {1} {0} {} {1.000} {}
 
-R { 1138} {0} {} {At the Well} { } {A large well stands here. The hard-packed earth around it and the many buckets neatly stacked in its shadow testify to its busy use. A small handle turns a winch that winds up a bronze cauldron on a thick iron chain.} {Celtic Ireland } {} {} {} {1.000} {}
+R { 1138} {0} {<169>} {At the Well} {W} {A large well stands here. The hard-packed earth around it and the many buckets neatly stacked in its shadow testify to its busy use. A small handle turns a winch that winds up a bronze cauldron on a thick iron chain.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 1137} {w} {w} {8} {0} {} {1.000} {}
 E { 2611} {s} {s} {4} {0} {} {1.000} {}
 E { 2613} {n} {n} {1} {0} {} {1.000} {}
@@ -11041,8 +11053,9 @@ E { 2571} {s} {s} {4} {0} {} {1.000} {}
 E { 2547} {n} {n} {1} {0} {} {1.000} {}
 E { 2548} {w} {w} {8} {0} {} {1.000} {}
 
-R { 2547} {0} {} {The Witches' Cave} { } {You stand in a large circular room, almost perfectly cut into the bowels of the mountain. Standing in the middle of the room, the walls seem to escape any source of light, making the room seem both confining and immense at the same time. A narrow crook to the east might be worth a closer look, but what grabs your attention are the small bedrolls, three to be exact, and the various pots and jars containing unknown substances that surround the extinguished fire in the middle of the room.} {Land of Shadows } {} {} {} {1.000} {}
+R { 2547} {0} {} {The Witches' Cave} { } {You stand in a large circular room, almost perfectly cut into the bowels of the mountain. Standing in the middle of the room, the walls seem to escape any source of light, making the room seem both confining and immense at the same time. A narrow crook to the east might be worth a closer look, but what grabs your attention are the small bedrolls, three to be exact, and the various pots and jars containing unknown substances that surround the extinguished fire in the middle of the room.} {Land of Shadows} {} {} {} {1.000} {}
 E { 2546} {s} {s} {4} {0} {} {1.000} {}
+E { 8265} {e} {e} {2} {0} {} {1.000} {}
 
 R { 2548} {0} {} {The Crossroad in the Mist} { } {A heavy mist descends upon you blocking your view in all directions. You stand in the middle of two roads' crossing, every direction disappearing into the cloudy air surrounding you.} {Land of Shadows } {} {} {} {1.000} {}
 E { 2546} {e} {e} {2} {0} {} {1.000} {}
@@ -12180,8 +12193,8 @@ E { 2823} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2823} {0} {} {Outside Thebes} { } {You stand outside the great polis of Thebes, founded by Cadmus, home of the patricide Oedipus, and famous the world over for its seven soaring gates. The Electran Gate, frescoes adorning its upper reaches, stands closed before you. In the dim light cast by torches on either side of the gate, you can make out 3 short pillars upon which no birds will sit, nor beasts graze near, where it is said Amphiaraus was swallowed up by the vengeful earth.} {Ancient Greece } {} {} {} {1.000} {}
 E { 2822} {s} {s} {4} {0} {} {1.000} {}
-E { 2824} {gate} {enq ask gate gate} {0} {0} {} {1.000} {}
-E { 2824} {ask gate gate} {enq ask gate gate} {0} {0} {} {1.000} {}
+E { 2824} {gate} {enq ask gate gate\;pause 1s} {0} {0} {} {1.000} {}
+E { 2824} {ask gate gate} {enq ask gate gate\;pause 1s} {0} {0} {} {1.000} {}
 
 R { 2824} {0} {} {Inside the Electran Gate} { } {You stand inside the soaring Electran Gate, the southernmost point inside the walls of Thebes. The house of Amphitryon looms to the west, while the Temple of Apollo sits a short climb up the Ismenian Hill to the east. The center of Thebes is just north of you. Torches along the walls gutter but cast a decent amount of light.} {Ancient Greece } {} {} {} {1.000} {}
 E { 2825} {w} {open w;w} {8} {0} {} {1.000} {}
@@ -15769,8 +15782,9 @@ R { 3669} {0} {} {The River Boyne} { } {The water hurls itself against black bou
 E { 3668} {s} {s} {4} {0} {} {1.000} {}
 E { 3670} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3670} {0} {} {The Well of Saegais} { } {You make your way up a small, rocky hill to find a small pool of crystal water surrounded by nine tall trees. The colors here are crisp and seem slightly surreal. The sound of the five streams of water pouring over the lip of the pool lulls gently at your mind. A few darting shadows reveal some small fishes living happily here.} {Celtic Ireland } {} {} {} {1.000} {}
+R { 3670} {0} {} {The Well of Saegais} { } {You make your way up a small, rocky hill to find a small pool of crystal water surrounded by nine tall trees. The colors here are crisp and seem slightly surreal. The sound of the five streams of water pouring over the lip of the pool lulls gently at your mind. A few darting shadows reveal some small fishes living happily here.} {Celtic Ireland} {} {} {} {1.000} {}
 E { 3669} {s} {s} {4} {0} {} {1.000} {}
+E { 8269} {d} {d} {32} {0} {} {1.000} {}
 
 R { 3671} {0} {} {The River Boyne} { } {Water refracts black sunlight off its rippling surface. The reaching limbs of the trees grasp toward one another across the river. A bright ribbon of silver snakes down the center of the current negotiating its way through shadowed depths. The current is much stronger here. It pulls you south with an increasingly stronger urgency. A deep roaring noise can be heard down river.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 3668} {n} {n} {1} {0} {} {1.000} {}
@@ -16295,6 +16309,7 @@ E { 3791} {s} {s} {4} {0} {} {1.000} {}
 R { 3793} {0} {} {West Ipswich Street} { } {This road seems a lot quieter than the others in town. There is a soft breeze coming from the ocean. A few buildings line this end of the street. An old-looking building to the south seems to be some sort of store. You hear the echo of the chimes above the door as villagers enter and leave at quick paces.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3791} {e} {e} {2} {0} {} {1.000} {}
 E { 3798} {w} {w} {8} {0} {} {1.000} {}
+E { 8323} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3794} {0} {} {Intersection of Cambridge and Ipswich} { } {Cambridge Street seems to end here, turning into a path that leads to a large farm south. Ipswich Street continues east heading back towards the heart of the village. There are few trees along this part of the village. Probably cleared by new land owners eager to build their homes.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3798} {e} {e} {2} {0} {} {1.000} {}
@@ -25479,6 +25494,10 @@ E { 3786} {d} {d} {32} {0} {} {1.000} {}
 R { 5987} {0} {} {Standing On a Giant Seal} { } {You stand in an unnatural cavern, carved from the stone long ago. Circular and symmetrical in every directon, the room is centered around a massive stone seal buried flush with the floor. A cold wind wisps around the room throwing bits of dirt and dead leaves in front of you. Every footstep, every breath and every whisper echoes continually throughout the chamber. Could this be the entrance to Annwn?} {Land of Shadows} {} {} {} {1.000} {}
 E { 1606} {u} {u} {16} {0} {} {1.000} {}
 E {  107} {d} {d} {32} {0} {} {1.000} {}
+E { 8270} {e} {e} {2} {0} {} {1.000} {}
+E { 8271} {w} {w} {8} {0} {} {1.000} {}
+E { 8272} {n} {n} {1} {0} {} {1.000} {}
+E { 8273} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5988} {0} {} {Trekking the Sands of Time} { } {You've traveled the dunes for quite some time now. The faint noise of an ocean's tide comes and goes, playing games with your ears and leaving you to question many things. The vastness of the desert is eerie -- as if it never ends.} {Arabian Dreams } {} {} {} {1.000} {}
 E { 1627} {n} {n} {1} {1} {} {1.000} {}
@@ -25547,7 +25566,7 @@ E {  282} {w} {w} {8} {0} {} {1.000} {}
 R { 6004} {0} {} {Irem, City of Pillars} { } {You reach a dead-end in the maze of cyclopean ruins that emerge from the hot sands of the desert. The center of the city is visible from here, a tall hill a few miles to the south.} {Arabian Dreams } {} {} {} {1.000} {}
 E { 5993} {n} {n} {1} {0} {} {1.000} {}
 
-R { 6005} {0} {} {The Center of Irem} { } {This plaza at the center of the ruined city of Irem is surrounded by tall pillars of stone. A strange aura emanates within the space as you recall the words of the djinn, recall that this is where the veil between the world of mankind and the dreamworld of the Djinni is the thinnest.} {Arabian Dreams} {irem} {} {} {1.000} {}
+R { 6005} {0} {} {The Center of Irem} { } {This plaza at the center of the ruined city of Irem is surrounded by tall pillars of stone. A strange aura emanates within the space as you recall the words of the djinn, recall that this is where the veil between the world of mankind and the dreamworld of the Djinni is the thinnest.} {Arabian Dreams} {} {} {} {1.000} {}
 E { 6006} {use portal} {use portal} {0} {0} {} {1.000} {}
 E { 5989} {n} {n} {1} {0} {} {1.000} {}
 
@@ -26643,6 +26662,37 @@ E { 6273} {s} {s} {4} {0} {} {1.000} {}
 R { 6275} {0} {} {In the Pacific} { } {The deep waters of the Pacific soothe and mollify you as the waves gently lap at the sides of your vessel. The warm days and warm nights leave your skin soaked and your breath comes heavy in the humid air, as if you were trapped in a room filled with steam. The wind seems to suggest that your best course is east or west.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6274} {w} {w} {8} {0} {} {1.000} {}
 E { 6283} {e} {e} {2} {0} {} {1.000} {}
+
+R { 6276} {0} {} {In the Countryside} { } {You pass through miles and miles of well-maintained fields and farms, only this dirt road gives you a sense of direction.} {The Mysterious Island} {} {} {} {1.000} {}
+E {  112} {n} {n} {1} {0} {} {1.000} {}
+E { 6277} {s} {s} {4} {0} {} {1.000} {}
+
+R { 6277} {0} {} {The Outskirts of Richmond, Virginia} { } {Engineers and journalists have infested the fields outside of the city of Richmond. There, around much activity, a huge balloon is chartered for an imminent departure. All around, folks and bystanders talk about the race, an incredible challenge to tour the whole world in fewer than eighty days.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6276} {n} {n} {1} {0} {} {1.000} {}
+
+R { 6278} {0} {} {On a Beach, by a Crashed Balloon} { } {You stand on a stony beach at the bottom of a tall rocky cliffs. This barren spot is the desolate refuge of sea-birds, strewn with stones and destitute of vegetation. Behind you the wreckage of a hot air balloon remains in the water, beyond any form of repair. To the north a path climbs up to a small camp.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6279} {n} {n} {1} {0} {} {1.000} {}
+
+R { 6279} {0} {} {A Camp by Tall Rocky Cliffs} { } {From the top of the cliff you see a large island covered by a deep forest and towered by the the shadow of a tall volcano. Behind you, the beach consists first of sand, covered with black stones, which are appearing little by little above the retreating tide. The second level is separated by a perpendicular granite cliff, terminated at the top by a jagged edge.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6278} {s} {s} {4} {0} {} {1.000} {}
+E { 6280} {e} {e} {2} {0} {} {1.000} {}
+E { 6282} {n} {n} {1} {0} {} {1.000} {}
+E { 8233} {w} {w} {8} {0} {} {1.000} {}
+
+R { 6280} {0} {} {By Tall Rocky Cliffs} { } {From here you can look at the cliff edge to the east. It continues for three miles, ending suddenly on the right with a precipice which looks as if cut by the hands of man. On the left, above the promontory, the irregular and jagged cliff descends by a slope of conglomerated rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6279} {w} {w} {8} {0} {} {1.000} {}
+E { 6281} {n} {n} {1} {0} {} {1.000} {}
+
+R { 6281} {0} {} {East Entrance to the Camp} { } {A narrow opening in the camp's palisade leads to the eastern parts of the mysterious island. Looking eastwards you can see a large marshy area that follows a long cape long the ocean.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6280} {s} {s} {4} {0} {} {1.000} {}
+E { 6282} {w} {w} {8} {0} {} {1.000} {}
+E { 8252} {e} {e} {2} {0} {} {1.000} {}
+
+R { 6282} {0} {} {North Entrance to the Camp} { } {A narrow opening in the camp's palisade leads to the northern parts of the mysterious island. Looking northwards you can see a large forest of exotic trees covering the bottom slopes of a tall volcano.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6279} {s} {s} {4} {0} {} {1.000} {}
+E { 6281} {e} {e} {2} {0} {} {1.000} {}
+E { 8234} {w} {w} {8} {0} {} {1.000} {}
+E { 8239} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6283} {0} {} {The Southern California Coast} { } {The walls of the Presidio gleam in the distance and the faint roar of the surf serves as a counterpoint to the cries of the wheeling gulls. A natural bay offers safe refuge to the east in the unlikely event of a storm, but the beautiful ocean waters lure you onward, ever onward.} {Gold Rush San Francisco } {} {} {} {1.000} {}
 E { 6284} {n} {n} {1} {0} {} {1.000} {}
@@ -28597,7 +28647,7 @@ E { 1207} {s} {s} {4} {1} {} {1.000} {}
 E { 6769} {w} {w} {8} {0} {} {1.000} {}
 E { 6771} {n} {n} {1} {0} {} {1.000} {}
 
-R { 6769} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland } {} {} {} {1.000} {}
+R { 6769} {0} {} {A Moonlit Glade} { } {Pale green moonlight pours down over this glade like wine. It tints the grass an unearthly shade. A sliver of a moon fades behind mists reflecting starlight into the grass. The constellations in the sky are just unfamiliar enough to be unnerving. Inhuman voices support an intricate descant that merges with the chiming sound of wind blowing through the grasses.} {Celtic Ireland} {} {} {} {1.000} {}
 E { 6768} {e} {e} {2} {0} {} {1.000} {}
 E { 1207} {n} {n} {1} {1} {} {1.000} {}
 E { 6768} {w} {w} {8} {0} {} {1.000} {}
@@ -29010,6 +29060,7 @@ E { 6864} {w} {w} {8} {0} {} {1.000} {}
 R { 6864} {0} {} {The West Wall of the Grotto} { } {The spirits here are collected into small, fast-moving packs. They flitter in and about, rushing you but dodging at the last second. You cannot help but cling to the wall to avoid getting pummelled by their ethereal forms.} {Land of Shadows} {} {} {} {1.000} {}
 E { 6862} {n} {n} {1} {0} {} {1.000} {}
 E { 6863} {e} {e} {2} {0} {} {1.000} {}
+E { 8282} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6865} {0} {} {The East Wall of the Grotto} { } {Along the east wall, nearly forty feet wide, is carved an elaborate mural. In detail, a being, humanlike in form with a hideous face, stands defiant against a horde of men and Sidhe bearing flags with the symbols of Danaan. Waves under her feet make the stone almost tremble with realism, the peaks of which toss the onslaught of her attackers to and fro, each face carved with hideous grimaces of pain. At her sides are three men, one distinctly dark and black, another brawn and burly, and the third with a face that would strike fear into the boldest of souls.} {Land of Shadows} {} {} {} {1.000} {}
 E { 6861} {n} {n} {1} {0} {} {1.000} {}
@@ -29023,6 +29074,8 @@ E { 6867} {w} {w} {8} {0} {} {1.000} {}
 R { 6867} {0} {} {The South Wall of the Grotto} { } {Along the south wall you see a strange circular carving in the sheer stone. It is tall, half again as you are high. To the north, the darkness spreads out. Souls that flitter about pay you little mind.} {Land of Shadows} {} {} {} {1.000} {}
 E { 6866} {e} {e} {2} {0} {} {1.000} {}
 E { 6863} {n} {n} {1} {0} {} {1.000} {}
+E { 8282} {w} {w} {8} {0} {} {1.000} {}
+E { 8283} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6868} {0} {} {At the Bottom of a Gorge, Amidst a Boiling Sea} { } {SPLASH! You hit the water with a tremendous spray of water. The boiling sea throws you about as if you were a plaything in a child's hand. You feel something against your leg! Before you know it, you're surrounded by a horde of creatures to which there can be no names.} {Land of Shadows} {} {} {} {1.000} {}
 E { 2540} {u} {u} {16} {0} {} {1.000} {}
@@ -33248,6 +33301,9 @@ E { 7874} {w} {w} {8} {0} {} {1.000} {}
 E { 1130} {n} {n;stand} {1} {3} {} {1.000} {}
 E { 1397} {e} {e;stand} {2} {3} {} {1.000} {}
 E {   68} {s} {s;stand} {4} {3} {} {1.000} {}
+E { 1130} {anc} {n;stand} {0} {2} {} {1.000} {}
+E { 1397} {med} {e;stand} {0} {2} {} {1.000} {}
+E {   68} {ind} {s;stand} {0} {2} {} {1.000} {}
 
 R { 7876} {0} {} {Salisbury Plains} { } {You are standing on a large paved road in the middle of the Salisbury plains. Your position offers no shelter as you are probably visible from miles around as you move through the kingdom of the Pendragon king.} {Camelot} {} {} {} {1.000} {}
 E { 7873} {w} {w} {8} {0} {} {1.000} {}
@@ -34078,17 +34134,17 @@ E { 8082} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8077} {0} {} {The Vale of Glamorgan} { } {The vale is a rich and wealthy region nested between the Severn sea and the Brecon hills. Agriculture is plenty here with many farmers growing wheat and fruits in sunny orchards.} {Camelot} {} {} {} {1.000} {}
 E { 8076} {e} {e} {2} {0} {} {1.000} {}
-E { 8078} {w} {w} {8} {0} {} {1.000} {}
+E { 8078} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 8078} {0} {} {Dynas Powis Hillfort} { } {A mote and bailey hillfort, surrounded with a thick wooden fence is controling traffic on the Cambria coast, looking for potential invaders coming across the sea, from the south, into the rich lands of Cymru.} {Camelot} {} {} {} {1.000} {}
-E { 8077} {e} {e} {2} {0} {} {1.000} {}
-E { 8080} {s} {s} {4} {0} {} {1.000} {}
+E { 8077} {e} {open e;e} {2} {0} {} {1.000} {}
+E { 8080} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 8079} {0} {} {The Stern of Pharaoh's Barge} { } {Like the bow, the stern of the Barge rises up sharply and curves back on itself, covered in painted patterns which are designed to draw the eye toward them. A large awning has been erected on the deck at the stern of the vessel. The framework of the awning is made of ornately carved wood, covered in gold leaf and inlaid with lapis and onyx. An ornate divan sits on the deck of the barge, in the shade of the awning. The boat is slightly wider here, to allow for several servants to stand near the Royal personage, ready to attend to their every need.} {Ancient Egypt} {} {} {} {1.000} {}
 E { 8044} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8080} {0} {} {Along the Coast} { } {A rough path connects the vales of Cymru with a jagged coast of cliffs and rocky beaches. Seagulls fly above your head and a soft breeze blows from the south, bringing the fresh smell of the ocean.} {Camelot} {} {} {} {1.000} {}
-E { 8078} {n} {n} {1} {0} {} {1.000} {}
+E { 8078} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 8081} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8081} {0} {} {The Shores of the Severn Sea} { } {You stand on the shores of the narrow, but difficult to navigate, Severn Sea. To the south, on the other side of the sea, is the region of Cornwall and the citadel of Tintagel, birthplace of King Arthur Pendragon.} {Camelot} {} {} {} {1.000} {}
@@ -34690,3 +34746,437 @@ E { 8232} {u} {u} {16} {0} {} {1.000} {}
 
 R { 8232} {0} {} {Atop Kilimanjaro} { } {The view from atop this snow-covered mountain is breathtaking. To the west, you catch a glimpse of Lake Victoria's sparkling blue waters, and to the east, the Indian Ocean stretches out to the far horizon. Other mountains, their rounded peaks jutting into the sky, can be seen to the north and south, but none approach the altitude of Kilimanjaro.} {African Savanna} {} {} {} {1.000} {}
 E { 8231} {d} {d} {32} {0} {} {1.000} {}
+
+R { 8233} {0} {} {Granite House} { } {Apartments have been carved into the granite cliffs to provide shelter for the castaways. The entrance to Granite House is accessed from a rope ladder but Cyrus Smith appears to be working on a hydraulic lift to do away with the fatigue and time lost.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6279} {e} {e} {2} {0} {} {1.000} {}
+E { 8234} {n} {n} {1} {0} {} {1.000} {}
+E { 8235} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8234} {0} {} {West Entrance to the Camp} { } {A narrow opening in the camp's palisade leads into the western parts of the mysterious island. From here, looking westwards, you can see a large forest of exotic trees covering a rocky cape shaped like a serpent.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8233} {s} {s} {4} {0} {} {1.000} {}
+E { 6282} {e} {e} {2} {0} {} {1.000} {}
+E { 8236} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8235} {0} {} {Inside Granite House} { } {Comfortable rooms have been carved into the granite rock through the clever and skilled use of nitroglycerin sticks. Carpets and furniture, assembled from the nearby forest and jungles, alluringly decorate the inside of the castaways' home.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8233} {d} {d} {32} {0} {} {1.000} {}
+
+R { 8236} {0} {} {In the Forest, Near Camp} { } {A thick and dense subtropical forest opens a few yards away from the camp palisade, almost hugging it in a snug and menacing embrace. A trail made by animals of various sizes leaves the camp entrance to the west.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8234} {e} {e} {2} {0} {} {1.000} {}
+E { 8237} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8237} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8236} {e} {e} {2} {0} {} {1.000} {}
+E { 8238} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8238} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8237} {e} {e} {2} {0} {} {1.000} {}
+E { 8256} {d} {d} {32} {0} {} {1.000} {}
+
+R { 8239} {0} {} {In the Forest, Near Camp} { } {A thick and dense subtropical forest opens a few yards away from the camp palisade, almost hugging it in a snug and menacing embrace. A trail made by animals of various sizes leaves from the camp entrance to the north.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6282} {s} {s} {4} {0} {} {1.000} {}
+E { 8247} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8240} {0} {} {The Jacamar Woods} { } {The forest leeches the foot of the massive volcano that Cyrus named Mount Franklin. Tiny green and orange jacamar perch on the branches of white pines and other exotic trees all around you. On the muddy ground, you see tracks of much, much larger animals.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8247} {s} {s} {4} {0} {} {1.000} {}
+E { 8241} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8241} {0} {} {In the Forest} { } {It is hard to move through the wild forest as the trail varies in size, some places only a few inches wide as it snakes through ferns and thorny bushes. You also note the presence of poison ivy and irritating tree saps.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8240} {e} {e} {2} {0} {} {1.000} {}
+E { 8242} {s} {s} {4} {0} {} {1.000} {}
+E { 8243} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8242} {0} {} {A Crossroads in the Woods} { } {The trail forks, leading deeper into the woods to the south and branching towards the volcano to the west.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8241} {n} {n} {1} {0} {} {1.000} {}
+E { 8248} {s} {s} {4} {0} {} {1.000} {}
+E { 8251} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8243} {0} {} {In the Forest} { } {It is hard to move through the wild forest as the trail varies in size, some places only a few inches wide as it snakes through ferns and thorny bushes. You also note the presence of poison ivy and irritating tree saps.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8241} {s} {s} {4} {0} {} {1.000} {}
+E { 8244} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8244} {0} {} {In the Forest} { } {The forest leeches the foot of the massive volcano that Cyrus named Mount Franklin. Tiny green and orange jacamar perch on the branches of white pines and other exotic trees all around you. On the muddy ground, you see tracks of much, much larger animals.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8243} {w} {w} {8} {0} {} {1.000} {}
+E { 8245} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8245} {0} {} {Near Coral Road} { } {A path climbs down between the Jacamar woods and a large inland lake to the east. Some of the rocks paving the trail seem to be chunks of coral, bringing pale pink and orange colors to the red-tinted lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8244} {s} {s} {4} {0} {} {1.000} {}
+E { 8246} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8246} {0} {} {Coral Road} { } {A path climbs down between the Jacamar woods and a large inland lake to the east. Some of the rocks paving the trail seem to be chunks of coral, bringing pale pink and orange colors to the red-tinted lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8245} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8247} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8239} {s} {s} {4} {0} {} {1.000} {}
+E { 8240} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8248} {0} {} {The Far-West Woods} { } {Nab jokingly named these woods as they expand further west into the hostile forests of the mysterious islands. Wildlife is common here but seems rather startled and disturbed by your presence. Unless it is something bigger that scares them.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8242} {n} {n} {1} {0} {} {1.000} {}
+E { 8249} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8249} {0} {} {In the Forest} { } {It is hard to move through the wild forest as the trail varies in size, some places only a few inches wide as it snakes through ferns and thorny bushes. You also note the presence of poison ivy and irritating tree saps.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8248} {e} {e} {2} {0} {} {1.000} {}
+E { 8250} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8250} {0} {} {The Banks of Mercy River} { } {A muddy river flows here, cascading from the slopes of Mount Franklin to the east side of the island. Its waters are charged with branches, leaves, and poison sumac from the forest, and is probably not proper for consumption.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8249} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8251} {0} {} {Deep in the Jacamar Woods} { } {The forest leeches the foot of the massive volcano that Cyrus named Mount Franklin. Tiny green and orange jacamar perch on the branches of white pines and other exotic trees all around you. On the muddy ground, you see tracks of much, much larger animals.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8242} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8252} {0} {} {A Marshy Area, Near Camp} { } {A sinister marshy area opens a few yards away from the camp palisade, almost hugging it in a snug and menacing embrace. A trail made by animals of various sizes leaves from the camp entrance to the east.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6281} {w} {w} {8} {0} {} {1.000} {}
+E { 8253} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8253} {0} {} {The Tadorn Marsh} { } {A large marsh covers the rounded shore which marks the southeast end of the island. The soil is a siliceous clay and mixed with vegetative debris. Conferva, juncaceae, carex, bulrush, and some layers of grass here and there, covering it with a thick carpet.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8252} {w} {w} {8} {0} {} {1.000} {}
+E { 8254} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8254} {0} {} {On Top of Rocky Cliffs} { } {You stand on top of the rocky cliffs that border the southern coast of the mysterious island, overlooking the wild Washington Bay. A natural staircase has been carved by the winds into the rocks, leading to the sea below.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8253} {w} {w} {8} {0} {} {1.000} {}
+E { 8255} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8255} {0} {} {Cape Claw} { } {From the vista offered at the cape, it seems you have reached the easternmost point on Lincoln Island. East only offers a view of the endless sea with, in real proximity, rather capricious passes through jagged reefs.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8254} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8256} {0} {} {A View of the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor here by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8238} {u} {u} {16} {0} {} {1.000} {}
+E { 8257} {w} {w} {8} {0} {} {1.000} {}
+E { 8258} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8257} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8256} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8258} {0} {} {A View of the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8256} {s} {s} {4} {0} {} {1.000} {}
+E { 8259} {n} {n} {1} {0} {} {1.000} {}
+E { 8260} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8259} {0} {<169>} {By a Stream of Fresh Waters} {W} {A trail that shows the footsteps of many human visitors snakes through the dense foliage of the mangrove near the tip of the Serpentine cape. Here and there, flocks of birds suddenly take off from the nearby trees, indicating that you might not be alone in this part of the island!} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8258} {s} {s} {4} {0} {} {1.000} {}
+E { 8261} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8260} {0} {} {Along the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8258} {w} {w} {8} {0} {} {1.000} {}
+E { 8261} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8261} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8260} {s} {s} {4} {0} {} {1.000} {}
+E { 8259} {w} {w} {8} {0} {} {1.000} {}
+E { 8262} {n} {n} {1} {0} {} {1.000} {}
+E { 8263} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8262} {0} {} {By a Giant Kauri Tree} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8261} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8263} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8261} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8264} {0} {} {The Elite Barracks} { } {You quietly look around, being sure to disturb no one and nothing. The best fighters in the castle get the honor of using this room to sleep. The faint sounds of the nearby practice hall can be heard through the walls allowing these soldiers to sleep with sounds of battle in their mind. Otherwise, it is a peaceful place where those off duty can sleep. The room itself contains nothing outside of the bunks and a chest before each for the soldier's belongings. It has been well taken care of. Just the cold stone walls and dim lighting amplifying the noise of your passage keep you from being content here.} {Transylvania} {} {} {} {1.000} {}
+E {  995} {s} {open s;s} {4} {0} {} {1.000} {}
+
+R { 8265} {0} {} {OVERCOME BY A MILLION SERPENTS} { } {Every crevice oozes with a slithering movement. The floor comes alive as a million snakes slither in and out, over one another. Resounding off the slime-covered walls, the hissing makes you cringe at its volume.} {Land of Shadows} {} {} {} {1.000} {}
+E { 2547} {w} {w} {8} {0} {} {1.000} {}
+E { 8266} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8266} {0} {} {OVERCOME BY A MILLION SERPENTS} { } {The neverending mass of slithering bodies surrounds you. A snake drops from its resting place onto a mass of squirming bodies resulting in a hissing and spitting in an angry frustration. Everywhere you look the walls move, the floors move, the ceiling quivers.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8265} {w} {w} {8} {0} {} {1.000} {}
+E { 8267} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8267} {0} {} {OVERCOME BY A MILLION SERPENTS} { } {A glint of light brings some end to this mass of bodies that slide in and out around your feet. Occasionally ducking to avoid the hanging body that hisses before you, you make your way along in the darkness.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8266} {w} {w} {8} {0} {} {1.000} {}
+E { 8268} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8268} {0} {} {The Lair of the Serpent} { } {A hissing to the west dims as the chamber opens up. The floor no longer moves, giving way to solid rock. The formations from the ceiling and from the floor indicate limestone, but you find very little interest in that as you are instantly aware of large nest of some sort, and a scattering of bones, human and otherwise, strewn about the floor.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8267} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8269} {0} {} {In a Salmon Pool} { } {The light ripples through the water around you. The cold water slaps you awake as you push your way down into the pool. The silt-covered bottom has a few plants growing out of it. You spot the spring welling out of a crack in the earth over to your right. The water doesn't seem that cold now, it must be your burning lungs. Air would be nice wouldn't it?} {Celtic Ireland} {} {} {} {1.000} {}
+E { 3670} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8270} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E { 5987} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8271} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E { 5987} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8272} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E { 5987} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8273} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E { 5987} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8274} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  107} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8275} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  107} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8276} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  107} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8277} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  107} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8278} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  123} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8279} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  123} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8280} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  123} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8281} {0} {} {A Small Alcove} { } {You stand in the center of a small, unadorned circular room. The ceiling is low here, and would force any tall man to crouch uncomfortably. In the center, the dust on the floor has been swept away.} {Land of Shadows} {} {} {} {1.000} {}
+E {  123} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8282} {0} {} {The Southwest Corner of the Grotto} { } {Cradled in a pile of crumbling rock, old worn tools rendered useless by age and decay sit in a haphazard and careless arrangement. You know immediately that the work on the great mural stopped here. Unfinished, unpolished, the art is rough and nowhere near the quality of the surrounding walls. Whatever caused this creation to cease was sudden and swift.} {Land of Shadows} {} {} {} {1.000} {}
+E { 6867} {e} {e} {2} {0} {} {1.000} {}
+E { 6864} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8283} {0} {} {Near a Staircase} { } {Standing in a small well cut neatly into this underground cavern is a small staircase just a shade wider than the breadth of a man. Tiny, perfect, even stairs lead up in a spiral fashion, disappearing into the rock.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8284} {u} {u} {16} {1} {} {1.000} {}
+
+R { 8284} {0} {<107>} {Atop a Stone Staircase} { } {You stand in a small alcove cut into the unearthly stone about you. Here the weight of the air is heavy on your every breath. Below you, descending for what seems like forever, small, intriciately identical stairs descend into the darkness. A small passage leads off to the north, and you notice a hint of light at the end of the tunnel.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8283} {d} {d} {32} {0} {} {1.000} {}
+E { 8285} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8285} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8284} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8286} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8287} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8289} {n} {n} {1} {0} {} {1.000} {<109>}
+
+R { 8286} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8285} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8290} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8287} {e} {e} {2} {0} {} {1.000} {<107>}
+
+R { 8287} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8285} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8288} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8286} {w} {w} {8} {0} {} {1.000} {<107>}
+
+R { 8288} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8287} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8289} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8292} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8290} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8289} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8288} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8285} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8290} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8291} {n} {n} {1} {0} {} {1.000} {<109>}
+
+R { 8290} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8286} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8289} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8293} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8288} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8291} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8289} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8292} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8293} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8295} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8292} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8291} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8288} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8296} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8293} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8293} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8291} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8290} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8294} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8292} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8294} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8293} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8295} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8299} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8296} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8295} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8294} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8291} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8296} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8298} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8296} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8295} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8292} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8297} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8294} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8297} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8296} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8298} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8305} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8299} {w} {w} {8} {0} {} {1.000} {<107>}
+
+R { 8298} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8297} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8295} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8299} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8300} {n} {n} {1} {0} {} {1.000} {<109>}
+
+R { 8299} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8294} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8298} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8301} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8297} {e} {e} {2} {0} {} {1.000} {<107>}
+
+R { 8300} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8298} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8301} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8305} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8303} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8301} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8300} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8302} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8299} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8305} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8302} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8301} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8303} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8307} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8304} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8303} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8302} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8304} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8300} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8306} {n} {n} {1} {0} {} {1.000} {<109>}
+
+R { 8304} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8303} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8305} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8308} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8302} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8305} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8304} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8297} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8300} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8301} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8306} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8303} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8307} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8308} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8309} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8307} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8306} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8302} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8311} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8308} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8308} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8306} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8304} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8310} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8307} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8309} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8306} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8310} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8311} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8312} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8310} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8309} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8308} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8314} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8311} {w} {w} {8} {0} {} {1.000} {<107>}
+
+R { 8311} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8309} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8307} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8313} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8310} {e} {e} {2} {0} {} {1.000} {<107>}
+
+R { 8312} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8309} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8313} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8314} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8315} {n} {n} {1} {0} {} {1.000} {<109>}
+
+R { 8313} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8312} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8311} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8316} {n} {n} {1} {0} {} {1.000} {<107>}
+E { 8314} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8314} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8310} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8312} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8317} {n} {n} {1} {0} {} {1.000} {<109>}
+E { 8313} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8315} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8312} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8316} {e} {e} {2} {0} {} {1.000} {<107>}
+E { 8317} {w} {w} {8} {0} {} {1.000} {<109>}
+E { 8318} {n} {n} {1} {0} {} {1.000} {<107>}
+
+R { 8316} {0} {<107>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8315} {w} {w} {8} {0} {} {1.000} {<107>}
+E { 8313} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8317} {e} {e} {2} {0} {} {1.000} {<109>}
+
+R { 8317} {0} {<109>} {On Mag Mel} { } {Tranquil serenity surrounds you, mystifies you, draws you in to its comforting fold. Mag Mel, the pleasant plains, stretch out to the farthest reaches of your vision. Rolling hills, grass waving tenderly in a southward breeze, this land sets you at peace. Standing in the heart of the afterworld, you look around. Here, you are the foreigner, bane to all those who lost their lives and now live out their timeless existence amidst the irenic scenery. Only the occasional outcropping of stones stands in contrast to the smooth soil.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8314} {s} {s} {4} {0} {} {1.000} {<109>}
+E { 8315} {e} {e} {2} {0} {} {1.000} {<109>}
+E { 8319} {n} {n} {1} {0} {} {1.000} {}
+E { 8316} {w} {w} {8} {0} {} {1.000} {<109>}
+
+R { 8318} {0} {<107>} {Near the Brass Gate} { } {A small valey, like the fields to the south, tranquil and serene at first glance. The walls of the canyon stretch to the bright sky, far, far up into the heavens. The heavy walls of a gigantic brass gate raise up to the south, each side of the gate inlaid with gold and precious stones in a knotwork of exquisite craftsmanship.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8315} {s} {s} {4} {0} {} {1.000} {<107>}
+E { 8321} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8319} {0} {} {The Crystal Tower} { } {You stand in wonder at the construction of this immense tower. Light seems to pass into its walls only to fan out in all the colors of the spectrum. As the display of colors forces you to squint, you are truly sure the patterns of refraction could make this place entirely unlivable. You can barely make out the staircase cut into the side of the jagged walls.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8317} {s} {s} {4} {0} {} {1.000} {}
+E { 8320} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8320} {0} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8319} {d} {d} {32} {0} {} {1.000} {}
+
+R { 8321} {0} {} {Beyond the Third Gate} { } {The vast darkness which surrounds and engulfs this place stands in stark contrast to the serene land which preceded it. Every sound echoes off unseen walls, deep, deep within the folds of black. Facing south, a great throne sits facing the brass gate.} {Land of Shadows} {} {} {} {1.000} {}
+E { 8318} {s} {s} {4} {0} {} {1.000} {}
+E { 8322} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8322} {0} {} {A Tranquil Plane} { } {Here the mist subsides. Overhead, the sea-birds fly in the open breeze, wings beating on the free air. A warmth sourrounds you, chasing away the chill foreboding cold that dominated while the demons held the land. Spirits float about back and forth in the distance, carelessly rolling across the gentle waves of grass in the mighty field that extends into eternity. Here you are at peace and know now that the worlds of Annwn, Mag Mor and Mag Mel are meant to be one.} {Land of Shadows} {} {} {} {1.000} {}
+E { 1161} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8323} {0} {} {Salem Mercantile} { } {This mercantile doesn't seem to be as busy as the English mercantile at the other end of the village, yet it does its share of business. The old wood, bent and worn, shows you that this building has been here for some time. Probably one of the first in the village.} {17th Century Salem} {} {} {} {1.000} {}
+E { 3793} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8324} {0} {} {A Clearing by the River} { } {A grassy clearing opens up between the trees of the forest. The river Rhine rushes past to the east, its waters flowing too quickly to allow safe crossing at this point. The trees crowd close around the clearing, making it difficult to see farther into the forest. Still, it is a pleasant spot to stop and rest on a long journey.} {The Black Forest} {} {} {} {1.000} {}
+E {  924} {n} {n} {1} {0} {} {1.000} {}
+E { 8325} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8325} {0} {} {Lost Amongst the Trees} { } {The trees loom darkly overhead, letting in little light from the sky above. The little light that makes it through the canopy is weak and green-tinged. Animals of the forest wander unseen nearby, their presence only given away by the occasional rustle of leaves or twig snapping. It gives the unnerving feeling that you are at once, completely alone and being watched.} {The Black Forest} {} {} {} {1.000} {}
+E { 8324} {e} {e} {2} {0} {} {1.000} {}
+E { 8326} {climb tree} {climb tree} {0} {0} {} {1.000} {}
+
+R { 8326} {0} {} {In the Tree Top} { } {The tree rises above the canopy of the forest, giving a panoramic view that goes on for miles. The blue ribbon of the Rhine winds its way through the forest far below, with the occasional glint of light reflecting off its surface. Off in the distance the walls of Kleinstadt create another break in the break in the forest canopy.} {The Black Forest} {} {} {} {1.000} {}
+E { 8325} {d} {d} {32} {0} {} {1.000} {}
+
+R { 8327} {0} {} {A Break Through the Trees} { } {There is a break between the trees that allows one to pass between the road and farther into the forest. The rest of the forest around is still dense, letting little light through.} {The Black Forest} {} {} {} {1.000} {}
+E {  926} {s} {s} {4} {0} {} {1.000} {}
+E { 8328} {w} {w} {8} {0} {} {1.000} {}
+E { 8329} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8328} {0} {} {A Forested Glen} { } {Gentle, forested slopes surround the glen. There is a small clearing at the center of the glen. Brush and bracken fill what little space there is between the trees, making movement toward the clearing difficult.} {The Black Forest} {} {} {} {1.000} {}
+E { 8327} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8329} {0} {} {Farther into the Forest} { } {The trees are even more dense here. Gazing upwards the canopy overhead is a tangle of branches and foilage, completely blocking out the sky. Forest animals wander among the trees and in the undergrowth causing the occasion twig to snap and leaves to rustle.} {The Black Forest} {} {} {} {1.000} {}
+E { 8327} {s} {s} {4} {0} {} {1.000} {}
+E { 8330} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8330} {0} {} {Beside Mummelsee Lake} { } {Surrounded by forested slopes, the waters of the lake are covered with white and yellow water lilies.} {The Black Forest} {} {} {} {1.000} {}
+E { 8329} {w} {w} {8} {0} {} {1.000} {}
