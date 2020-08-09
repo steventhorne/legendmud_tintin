@@ -270,7 +270,7 @@ E {    4} {e} {open e;e} {2} {0} {} {1.000} {}
 E {    5} {w} {w} {8} {0} {} {1.000} {}
 E { 5634} {n} {n} {1} {0} {} {1.000} {}
 
-R {    4} {0} {<049>} {The Outfitters'} {V} {A large well-lit room greets your eyes, with racks and racks of explorer's equipment. A large sign proclaims, 'By Appointment Providers to the Royal Geographic Society.' Shelves of books line one wall, filled with all the information one might need to plan a safari or wilderness expedition. The gaslight remains on all the time in this building, as its cavernous reaches invite shadows.} {London Port } {} {indtown} {} {1.000} {}
+R {    4} {0} {<149>} {The Outfitters'} {V} {A large well-lit room greets your eyes, with racks and racks of explorer's equipment. A large sign proclaims, 'By Appointment Providers to the Royal Geographic Society.' Shelves of books line one wall, filled with all the information one might need to plan a safari or wilderness expedition. The gaslight remains on all the time in this building, as its cavernous reaches invite shadows.} {London Port } {} {indtown} {} {1.000} {}
 E {    3} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R {    5} {0} {} {St. Stephen's Street and Parker Lane} { } {Here venerable old St. Stephen's Street meets the newer Parker Lane, which leads north into London Town. St. Stephen's Church sits on the corner to the north-east. The few lampposts around must provide hardly any illumination at night, and they seem to exist only right around here, the nice part of the district. The street continues east and west. The smell of the sea is strong.} {London Port } {} {indstreet} {} {1.000} {}
@@ -297,7 +297,7 @@ E {    8} {n} {n} {1} {0} {} {1.000} {}
 E {   10} {e} {open e;e} {2} {0} {} {1.000} {}
 E {   12} {s} {s} {4} {0} {} {1.000} {}
 
-R {   10} {0} {<049>} {Inside Sad John's} {V} {This looks like a rough-and-tumble sort of place, and you don't think the patrons adhere to the Marquis of Queensbury's rules. Trestle tables carved up with women's names and dates and initials, feeble gaslights barely managing to brighten the room, the looks you get when you walk in--all seem to indicate that maybe this is the sort of place where death is a more common thing at the table than warm ale. And they sell a LOT of warm ale.} {London Port } {sad} {indtown} {} {1.000} {}
+R {   10} {0} {<149>} {Inside Sad John's} {V} {This looks like a rough-and-tumble sort of place, and you don't think the patrons adhere to the Marquis of Queensbury's rules. Trestle tables carved up with women's names and dates and initials, feeble gaslights barely managing to brighten the room, the looks you get when you walk in--all seem to indicate that maybe this is the sort of place where death is a more common thing at the table than warm ale. And they sell a LOT of warm ale.} {London Port } {sad} {indtown} {} {1.000} {}
 E {    9} {w} {open w;w} {8} {0} {} {1.000} {}
 E {   11} {s} {open s;s} {4} {0} {} {1.000} {}
 
@@ -399,7 +399,7 @@ E {   40} {n} {n} {1} {0} {} {1.000} {}
 R {   35} {0} {} {Inside a Comfortable Townhouse} { } {You entered a cozy house filled with expensive victorian-styled furniture. The owner of the house seems to be a wealthy and educated person as you can tell from reading cover of the many books of the library, covering various themes such as history, sociology and psychology.} {London Port } {} {} {} {1.000} {}
 E {   40} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R {   36} {0} {<049>} {The Postal Office} {P} {One whole wall of this branch of the Royal Post is taken up with handbills. Bluestocking meetings, rewards for criminals, announcements of speeches on odd scientific discoveries... it's all there. Countless people have added their own messages to the handbills as well. The building remains open at all hours, though it is only manned at certain times; a thick metal grating, ornamented with florid cherubs, provides a place for the official to sit during his on- duty hours. A mail slot allows you to get and send mail whether or not he is here to help.} {London Port } {} {indtown} {} {1.000} {}
+R {   36} {0} {<149>} {The Postal Office} {P} {One whole wall of this branch of the Royal Post is taken up with handbills. Bluestocking meetings, rewards for criminals, announcements of speeches on odd scientific discoveries... it's all there. Countless people have added their own messages to the handbills as well. The building remains open at all hours, though it is only manned at certain times; a thick metal grating, ornamented with florid cherubs, provides a place for the official to sit during his on- duty hours. A mail slot allows you to get and send mail whether or not he is here to help.} {London Port } {} {indtown} {} {1.000} {}
 E {    2} {w} {w} {8} {0} {} {1.000} {}
 
 R {   37} {0} {} {Harbor Row} { } {South of you spreads out the magnificent sight of the Port of London's ample bay--framed by the tall sides of the warehouses and buildings that line the docks. Harbor Row threads its way between the brick edifices, leading north and south. There are no storefronts here; the wall to your east is instead covered with a huge painting of the East India Company's trademark. The wall on the other side is unadorned, unless you count what seem to be occasional splotches of dried blood and bricks chipped from stray rifle balls.} {London Port } {} {} {} {1.000} {}
@@ -440,7 +440,7 @@ E {   38} {e} {e} {2} {0} {} {1.000} {}
 E {   45} {n} {n} {1} {0} {} {1.000} {}
 E {  104} {s} {s} {4} {0} {} {1.000} {}
 
-R {   45} {0} {<049>} {The Harbormaster's Office} {V} {Spare and businesslike, this office has a counter made of heavy dark wood, a rough bench lining one wall, and a huge chart on the back wall, listing arrivals and departures. A harried official sits behind the counter, waiting for spotters to relay messages to him so he can announce them to the many waiting sailors, merchants, and uneasy and hopeful wives that all eagerly await news of clippers, frigates, and perhaps even that new contraption, the steam powered ship.} {London Port } {} {} {} {1.000} {}
+R {   45} {0} {<149>} {The Harbormaster's Office} {V} {Spare and businesslike, this office has a counter made of heavy dark wood, a rough bench lining one wall, and a huge chart on the back wall, listing arrivals and departures. A harried official sits behind the counter, waiting for spotters to relay messages to him so he can announce them to the many waiting sailors, merchants, and uneasy and hopeful wives that all eagerly await news of clippers, frigates, and perhaps even that new contraption, the steam powered ship.} {London Port } {} {} {} {1.000} {}
 E {   44} {s} {s} {4} {0} {} {1.000} {}
 
 R {   46} {0} {} {Berth 2: The Africa Wharf} { } {Your vessel is gently jostled by the waves underneath you as you sit here in the wharf for ships making the voyage between here and the Dark Continent. It seems to you that you can already hear the beat of tribal drums.} {London Port } {} {shallow} {} {1.000} {}
@@ -1541,7 +1541,7 @@ E {  305} {s} {s} {4} {0} {} {1.000} {}
 E {  306} {e} {e} {2} {0} {} {1.000} {}
 E {  313} {n} {n} {1} {0} {} {1.000} {}
 
-R {  305} {0} {<049>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters, such as those that frequent the tavern on Gilbert Way, are among the regulars here. Outsiders are charged three times the going rate for a room as insurance that the innkeeper gets his money. Outsiders have a way of dying before they can pay their full week's rent and are not welcome here.} {Medieval Britain } {salut} {} {} {1.000} {}
+R {  305} {0} {<149>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters, such as those that frequent the tavern on Gilbert Way, are among the regulars here. Outsiders are charged three times the going rate for a room as insurance that the innkeeper gets his money. Outsiders have a way of dying before they can pay their full week's rent and are not welcome here.} {Medieval Britain } {salut} {} {} {1.000} {}
 E {  304} {n} {n} {1} {0} {} {1.000} {}
 
 R {  306} {0} {<169>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been erected here. Executions are held and well-attended for common thieves and bold poachers. Special festivities are held when a suspected member of the outlaw band is captured. Watling Road continues east to the Castle and west to the gates. Gilbert Lane runs in a north-south direction here crossing the square.} {Medieval Britain } {} {} {} {1.000} {}
@@ -1589,7 +1589,7 @@ R {  316} {0} {} {Gilbert Lane} { } {A small side street, Gilbert Lane winds its
 E {  306} {n} {n} {1} {0} {} {1.000} {}
 E {  317} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R {  317} {0} {<049>} {Nell's Bakery} {V} {This little bake shop supplies many of the local peasants with coarse stone ground wheat bread. The best wheat is shipped to London for the court, so the bread isn't the greatest, but it is sustenance.} {Medieval Britain } {nell} {} {} {1.000} {}
+R {  317} {0} {<149>} {Nell's Bakery} {V} {This little bake shop supplies many of the local peasants with coarse stone ground wheat bread. The best wheat is shipped to London for the court, so the bread isn't the greatest, but it is sustenance.} {Medieval Britain } {nell} {} {} {1.000} {}
 E {  316} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R {  318} {0} {} {Watling Road} { } {The road continues east and west here. Private residences line the sides of the street and all the doors are firmly locked against would be trespassers. To the west, a large square can be seen. The Castle looms above the houses to the northeast.} {Medieval Britain } {} {} {} {1.000} {}
@@ -8229,7 +8229,7 @@ E { 1873} {n} {n} {1} {0} {} {1.000} {}
 E { 1875} {e} {e} {2} {0} {} {1.000} {}
 E { 1877} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1875} {0} {<049>} {Food Bazaar} {V} {Ahhh... the aroma is enough to set your mouth watering. The many merchants here sell a wide variety of food. The native dishes are quite tasty.} {Arabian Nights } {} {} {} {1.000} {}
+R { 1875} {0} {<149>} {Food Bazaar} {V} {Ahhh... the aroma is enough to set your mouth watering. The many merchants here sell a wide variety of food. The native dishes are quite tasty.} {Arabian Nights } {} {} {} {1.000} {}
 E { 1874} {w} {w} {8} {0} {} {1.000} {}
 E { 1876} {s} {s} {4} {0} {} {1.000} {}
 
@@ -8271,7 +8271,7 @@ E { 1884} {s} {s} {4} {0} {} {1.000} {}
 E { 1890} {n} {n} {1} {0} {} {1.000} {}
 E { 1893} {e} {e} {2} {0} {} {1.000} {}
 
-R { 1884} {0} {<049>} {The Supply Store} {V} {Almost any kind of equipment you could name hangs on the wall, lies in a bin, stands stacked against the wall, or is crated or barreled here. Arched doorways allow access to the street to the west and north.} {Arabian Nights } {} {} {} {1.000} {}
+R { 1884} {0} {<149>} {The Supply Store} {V} {Almost any kind of equipment you could name hangs on the wall, lies in a bin, stands stacked against the wall, or is crated or barreled here. Arched doorways allow access to the street to the west and north.} {Arabian Nights } {} {} {} {1.000} {}
 E { 1883} {n} {n} {1} {0} {} {1.000} {}
 E { 1882} {w} {w} {8} {0} {} {1.000} {}
 
@@ -8290,7 +8290,7 @@ R { 1888} {0} {} {The Street of Dreams} { } {The street dead-ends here though to
 E { 1887} {w} {w} {8} {0} {} {1.000} {}
 E { 1889} {n} {n} {1} {0} {} {1.000} {}
 
-R { 1889} {0} {<049>} {The Apothecary} {H} {The smokiness of the room leaves you feeling light. You almost forget what you came in here for. Several unidentifiable items are strung up above the counter. Jars of varying color and contents line the shelves behind the counter. The large barrels in the corner contain oils and powders.} {Arabian Nights } {douban} {} {} {1.000} {}
+R { 1889} {0} {<149>} {The Apothecary} {H} {The smokiness of the room leaves you feeling light. You almost forget what you came in here for. Several unidentifiable items are strung up above the counter. Jars of varying color and contents line the shelves behind the counter. The large barrels in the corner contain oils and powders.} {Arabian Nights } {douban} {} {} {1.000} {}
 E { 1888} {s} {s} {4} {0} {} {1.000} {}
 
 R { 1890} {0} {} {The Hammam Rest Hall} { } {Subtle shadows ripple across the low domed ceiling in this dimly lit room. Couches are arranged around the room in clusters where bathers can lounge and gossip while servants bring drinks or wave cooling fans. A narrow passageway leads off to the north towards the harara where the air is even hotter and more humid. Open archways lead south and west to the street.} {Arabian Nights } {} {} {} {1.000} {}
@@ -8689,13 +8689,13 @@ E { 1981} {n} {n} {1} {0} {} {1.000} {}
 E { 1982} {w} {w} {8} {0} {} {1.000} {}
 E { 1983} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1981} {0} {<049>} {The Center of Manila} {V} {Escolta Road and Boulevard Espana intersect here, effectively forming the city center. Pedestrians and carriages make their way in a seemingly endless stream of activity. A large three-tiered fountain from the Spanish era sits at the center of all this action. Several vendors have also set up shop around the fountain, selling all kinds of goods ranging from fresh vegetables to woven straw hats.} {The Philippines } {gma} {} {} {1.000} {}
+R { 1981} {0} {<149>} {The Center of Manila} {V} {Escolta Road and Boulevard Espana intersect here, effectively forming the city center. Pedestrians and carriages make their way in a seemingly endless stream of activity. A large three-tiered fountain from the Spanish era sits at the center of all this action. Several vendors have also set up shop around the fountain, selling all kinds of goods ranging from fresh vegetables to woven straw hats.} {The Philippines } {gma} {} {} {1.000} {}
 E { 1980} {s} {s} {4} {0} {} {1.000} {}
 E { 1971} {w} {w} {8} {0} {} {1.000} {}
 E { 1978} {e} {e} {2} {0} {} {1.000} {}
 E { 1976} {n} {n} {1} {0} {} {1.000} {}
 
-R { 1982} {0} {<049>} {Barracks of the Manila Garrison} {V} {The camp at Cavite, for years a Spanish barracks, has been overtaken by the Americans to serve as the military camp of the Manila garrison. There is not much noteworthy about the dozens of uniform, single story barracks used to house the soldiers. The daily routines of drills and training go on around you as you make your way among the soldiers, buildings and dusty roads.} {The Philippines } {} {} {} {1.000} {}
+R { 1982} {0} {<149>} {Barracks of the Manila Garrison} {V} {The camp at Cavite, for years a Spanish barracks, has been overtaken by the Americans to serve as the military camp of the Manila garrison. There is not much noteworthy about the dozens of uniform, single story barracks used to house the soldiers. The daily routines of drills and training go on around you as you make your way among the soldiers, buildings and dusty roads.} {The Philippines } {} {} {} {1.000} {}
 E { 1980} {e} {e} {2} {0} {} {1.000} {}
 E { 1971} {n} {n} {1} {0} {} {1.000} {}
 E { 1985} {s} {open s;s} {4} {0} {} {1.000} {}
@@ -8856,7 +8856,7 @@ E { 2019} {w} {w} {8} {0} {} {1.000} {}
 E { 2021} {s} {s} {4} {0} {} {1.000} {}
 E { 2022} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R { 2021} {0} {<049>} {Inside an Oddly Furnished Home} {V} {Standing inside this wood and bamboo home, you are immediately drawn to the curious artifacts found upon the walls. A snake skin, some feline's paw, and an eerie mask are just a few of the unique objects lending their exotic presence to this room. Even during the day, very little light makes its way into the home as the woven frond shades cover the windows. The table standing against one of the walls is covered in all kinds of leaves, herbs, and other unidentifiable objects. You can make your exit north to the marketplace or west to the road into town.} {The Philippines } {} {} {} {1.000} {}
+R { 2021} {0} {<149>} {Inside an Oddly Furnished Home} {V} {Standing inside this wood and bamboo home, you are immediately drawn to the curious artifacts found upon the walls. A snake skin, some feline's paw, and an eerie mask are just a few of the unique objects lending their exotic presence to this room. Even during the day, very little light makes its way into the home as the woven frond shades cover the windows. The table standing against one of the walls is covered in all kinds of leaves, herbs, and other unidentifiable objects. You can make your exit north to the marketplace or west to the road into town.} {The Philippines } {} {} {} {1.000} {}
 E { 2020} {n} {n} {1} {0} {} {1.000} {}
 E { 2018} {w} {w} {8} {0} {} {1.000} {}
 
@@ -9740,7 +9740,7 @@ E { 2232} {e} {e} {2} {0} {} {1.000} {}
 E { 4336} {n} {n} {1} {0} {} {1.000} {}
 E { 5210} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 2232} {0} {<049>} {Alfredo's Accessory Shop} {V} {Odds and ends line the shelves and bins of this shop. Almost anything you could want could be found here if Alfredo thought to buy it from someone else once. He's a wizard at the redistribution of personal properties, always making sure to redistribute a bit of wealth his own way, as well.} {The Alhambra } {} {} {} {1.000} {}
+R { 2232} {0} {<149>} {Alfredo's Accessory Shop} {V} {Odds and ends line the shelves and bins of this shop. Almost anything you could want could be found here if Alfredo thought to buy it from someone else once. He's a wizard at the redistribution of personal properties, always making sure to redistribute a bit of wealth his own way, as well.} {The Alhambra } {} {} {} {1.000} {}
 E { 2231} {w} {w} {8} {0} {} {1.000} {}
 
 R { 2233} {0} {} {Off the Coast of Ecuador} { } {The jungle fades into the desert on the coast you can barely make out to the east. A warm current seems to flow south here, coming from deep in the vast Pacific Ocean. North of here, a shipping lane leads past the deep jungle.} {Pirate Caribbean } {} {} {} {1.000} {}
@@ -13212,7 +13212,7 @@ E { 3057} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 4778} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 4780} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3057} {0} {<049>} {A Gardener's Cottage} {H} {This small cottage is pleasant, bright, and tidy. You do notice that shelves and chairs are lower than usual, indicating that the owner may be slight of stature. Through the doorway out to the back yard you see many trees, plants, and saplings growing happily.} {The Inferno } {cosimo} {} {} {1.000} {}
+R { 3057} {0} {<149>} {A Gardener's Cottage} {H} {This small cottage is pleasant, bright, and tidy. You do notice that shelves and chairs are lower than usual, indicating that the owner may be slight of stature. Through the doorway out to the back yard you see many trees, plants, and saplings growing happily.} {The Inferno } {cosimo} {} {} {1.000} {}
 E { 3056} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 6415} {e} {open e;e} {2} {0} {} {1.000} {}
 
@@ -13978,12 +13978,12 @@ E { 3250} {n} {n} {1} {0} {} {1.000} {}
 R { 3246} {0} {<139>} {The Boatmaker's Shop} {B} {This grand dwelling dwarfs the buildings beside it, and has a meticulously painted sign showing a square-rigged ship with a mermaid on the bowsprit and two large eyes painted on the hull. It is evident that a rich man lives here, and, if you can judge by the sleek vessels that lie in the harbor below, he is deservedly well-off, as his craftsmanship is superb. A hidden bell tinkles as you enter, startling you out of your musings on ships and the men who build them.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3245} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3247} {0} {<049>} {Western Square} {V} {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies through the square and to the north. An area to the northeast has been cleared around the central fountain as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. An odd-looking shop lies to your west.} {Ancient Greece } {} {} {} {1.000} {}
+R { 3247} {0} {<149>} {Western Square} {V} {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies through the square and to the north. An area to the northeast has been cleared around the central fountain as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. An odd-looking shop lies to your west.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3244} {e} {e} {2} {0} {} {1.000} {}
 E { 3248} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 3252} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3248} {0} {<049>} {The Seer's Hovel} {V} {This narrow room is draped with furs of strange beasts, tapestries depicting fantastic battles, and brightly colored strips of cloth which you recognize as unwound turbans. Under this panoply of color sits a small wooden table covered with bric a brac, apparently gathered from every port on the seven seas. An expensive-looking high-backed chair rests behind the table while a less impressive, less opulent chair with a straw cushion sits on the opposite side.} {Ancient Greece } {} {} {} {1.000} {}
+R { 3248} {0} {<149>} {The Seer's Hovel} {V} {This narrow room is draped with furs of strange beasts, tapestries depicting fantastic battles, and brightly colored strips of cloth which you recognize as unwound turbans. Under this panoply of color sits a small wooden table covered with bric a brac, apparently gathered from every port on the seven seas. An expensive-looking high-backed chair rests behind the table while a less impressive, less opulent chair with a straw cushion sits on the opposite side.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3247} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 3249} {0} {<169>} {Main Square} {W} {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies to the north. An area has been cleared around the central fountain as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. The palace lies directly before you, to the north.} {Ancient Greece } {} {} {} {1.000} {}
@@ -13992,12 +13992,12 @@ E { 3250} {e} {e} {2} {0} {} {1.000} {}
 E { 3252} {w} {w} {8} {0} {} {1.000} {}
 E { 3254} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R { 3250} {0} {<049>} {Eastern Square} {V} {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies through the square and to the north. An area has been cleared around the central fountain to the west as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. A ramshackle hut opens to your east.} {Ancient Greece } {} {} {} {1.000} {}
+R { 3250} {0} {<149>} {Eastern Square} {V} {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies through the square and to the north. An area has been cleared around the central fountain to the west as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. A ramshackle hut opens to your east.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3249} {w} {w} {8} {0} {} {1.000} {}
 E { 3245} {s} {s} {4} {0} {} {1.000} {}
 E { 3251} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3251} {0} {<049>} {The Weaver's Shop} {V} {This awkward building appears to be plastered on to the side of the much larger dwelling just beside it. Inside, taking up much of the available space, is a large loom with a piece of cloth stretched tautly across it. The royal purple of ink from Tyre immediately catches your eye. A variety of outfits are neatly folded on a bench towards the rear of the shop, perhaps these are for sale? The musty smell from the back indicates the weaver also sells consignment leather goods, perhaps at a better price than you might find elsewhere. A rocking chair is situated just inside of a large front window where the midday sun should shine.} {Ancient Greece } {} {} {} {1.000} {}
+R { 3251} {0} {<149>} {The Weaver's Shop} {V} {This awkward building appears to be plastered on to the side of the much larger dwelling just beside it. Inside, taking up much of the available space, is a large loom with a piece of cloth stretched tautly across it. The royal purple of ink from Tyre immediately catches your eye. A variety of outfits are neatly folded on a bench towards the rear of the shop, perhaps these are for sale? The musty smell from the back indicates the weaver also sells consignment leather goods, perhaps at a better price than you might find elsewhere. A rocking chair is situated just inside of a large front window where the midday sun should shine.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3250} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3252} {0} {} {Western Square} { } {This is the main square within the town of Ithaca. Shops surround the square, and the palace of god-like Odysseus lies through the square and to the north. An area has been cleared to the east around the central fountain as a meeting place for discussions and rulings. Townspeople bustle by, carrying out their appointed duties. A smithy lies to the west of you.} {Ancient Greece } {} {} {} {1.000} {}
@@ -14005,7 +14005,7 @@ E { 3249} {e} {e} {2} {0} {} {1.000} {}
 E { 3247} {s} {s} {4} {0} {} {1.000} {}
 E { 3253} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 3253} {0} {<049>} {The Smithy} {V} {A blast of hot air strikes you nearly senseless as you enter the gloomy room where Ithaca's smith operates. Bronze implements are scattered about the forge, and stocks of copper and tin formed into wire and rods line the walls. The forge itself seems primitive and crude, but the bronze spearheads, greaves, and breastplates which you see in various states of completion are works of art. You gasp at the wealth displayed here as you realize that the anvil itself and several of the smith's tools are actually made of iron! He must ply a profitable trade indeed.} {Ancient Greece } {} {} {} {1.000} {}
+R { 3253} {0} {<149>} {The Smithy} {V} {A blast of hot air strikes you nearly senseless as you enter the gloomy room where Ithaca's smith operates. Bronze implements are scattered about the forge, and stocks of copper and tin formed into wire and rods line the walls. The forge itself seems primitive and crude, but the bronze spearheads, greaves, and breastplates which you see in various states of completion are works of art. You gasp at the wealth displayed here as you realize that the anvil itself and several of the smith's tools are actually made of iron! He must ply a profitable trade indeed.} {Ancient Greece } {} {} {} {1.000} {}
 E { 3252} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 3254} {0} {} {The Throne Room of Odysseus} { } {This is the grand room where Odysseus rules... Tables and benches are spread out through the hall, piled high with provender from the fields and pastures of Ithaca. Servants scurry about, bringing flagons of wine to the overbearing suitors who have claimed this room as their own. Anywhere you look, suitors or their retainers are feasting or engaging in contests of skill - wrestling, archery, and spear-throwing. It is a dangerous place for more than one reason. This large room continues in all directions save south, where the main square of Ithaca lies.} {Ancient Greece } {} {} {} {1.000} {}
@@ -14503,7 +14503,7 @@ E { 3373} {s} {s} {4} {0} {} {1.000} {}
 E { 3377} {e} {e} {2} {0} {} {1.000} {}
 E { 3378} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3373} {0} {<049>} {Souq Ghouriyeh} {V} {A huge horizontal loom takes up most of the space here. Sheaves of flax are lying about, already stripped and ready to be used. You spot several bolts of cloth, but no finished clothing - Meryt's customers must sew their own clothes. Though less attractive looking than the displays in other stalls, you are a smart enough shopper to recognize that the cloth produced here is one of the very most essential products for Egyptians.} {Ancient Egypt } {} {} {} {1.000} {}
+R { 3373} {0} {<149>} {Souq Ghouriyeh} {V} {A huge horizontal loom takes up most of the space here. Sheaves of flax are lying about, already stripped and ready to be used. You spot several bolts of cloth, but no finished clothing - Meryt's customers must sew their own clothes. Though less attractive looking than the displays in other stalls, you are a smart enough shopper to recognize that the cloth produced here is one of the very most essential products for Egyptians.} {Ancient Egypt } {} {} {} {1.000} {}
 E { 3372} {n} {n} {1} {0} {} {1.000} {}
 E { 3374} {s} {s} {4} {0} {} {1.000} {}
 E { 3375} {e} {e} {2} {0} {} {1.000} {}
@@ -14511,17 +14511,17 @@ E { 3375} {e} {e} {2} {0} {} {1.000} {}
 R { 3374} {0} {} {Souq Khayamia} { } {You have absolutely no idea what, if anything, is being sold here. There are no wares openly displayed, and no work is taking place. As you look closer, you notice some wooden poles propped against the awning. Since wood is so expensive, and since this shop is right next to the weaver, you hazard a guess that the proprietor is a tentmaker.} {Ancient Egypt } {} {} {} {1.000} {}
 E { 3373} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3375} {0} {<049>} {Souq al Nahassin} {V} {Bright copper and bronze and brass gleam at you from under this awning. In front of you are the cooking vessels and weapons too big to be hidden under a robe and pilfered, and behind those, out of your reach, are some small cups and knives. By the selection, it seems that the craftsman sticks to copper wares on all but the least complicated products, which he offers in bronze or brass. From the metal snips, hammers, and various-shaped stones, you deduce that most crafting is done with the cold metal sheets rather than heat-forged.} {Ancient Egypt } {} {} {} {1.000} {}
+R { 3375} {0} {<149>} {Souq al Nahassin} {V} {Bright copper and bronze and brass gleam at you from under this awning. In front of you are the cooking vessels and weapons too big to be hidden under a robe and pilfered, and behind those, out of your reach, are some small cups and knives. By the selection, it seems that the craftsman sticks to copper wares on all but the least complicated products, which he offers in bronze or brass. From the metal snips, hammers, and various-shaped stones, you deduce that most crafting is done with the cold metal sheets rather than heat-forged.} {Ancient Egypt } {} {} {} {1.000} {}
 E { 3373} {w} {w} {8} {0} {} {1.000} {}
 E { 3376} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3376} {0} {<049>} {Souq al Siyagh} {V} {A colorful display of semi-precious stones, glazed clay, and goldwork greet your eye. The skill with which gold figuring and gold leaf are used in the amulets and jewelry make you think that this artisan began as a goldsmith, then turned her steady hand to carving miniatures in different mediums. The result is anything from a prosaic dowry bracelet to a mystical protective scarab.} {Ancient Egypt } {} {} {} {1.000} {}
+R { 3376} {0} {<149>} {Souq al Siyagh} {V} {A colorful display of semi-precious stones, glazed clay, and goldwork greet your eye. The skill with which gold figuring and gold leaf are used in the amulets and jewelry make you think that this artisan began as a goldsmith, then turned her steady hand to carving miniatures in different mediums. The result is anything from a prosaic dowry bracelet to a mystical protective scarab.} {Ancient Egypt } {} {} {} {1.000} {}
 E { 3375} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3377} {0} {<049>} {Souq Kariyeh} {V} {An array of copper pots fills the mastaba here, each one bubbling over its own brazier which are, you suspect, fueled by dried camel dung. The finished foods which lie heaped in woven baskets look and smell marvellous, the golden roast pigeon, sticky-sweet candied dates, and indescribable kawurmeh all tempting you to spend a few coins.} {Ancient Egypt } {} {} {} {1.000} {}
+R { 3377} {0} {<149>} {Souq Kariyeh} {V} {An array of copper pots fills the mastaba here, each one bubbling over its own brazier which are, you suspect, fueled by dried camel dung. The finished foods which lie heaped in woven baskets look and smell marvellous, the golden roast pigeon, sticky-sweet candied dates, and indescribable kawurmeh all tempting you to spend a few coins.} {Ancient Egypt } {} {} {} {1.000} {}
 E { 3372} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3378} {0} {<049>} {Souq al Attarin} {H} {The mastaba here has been swathed in a red silk cloth, and arranged on the cloth are several little alabaster vials with stoppers. The mingling of sweet scents that come from the vials wages war with the far less pleasant smells of the tannery to the east.} {Ancient Egypt } {} {} {} {1.000} {}
+R { 3378} {0} {<149>} {Souq al Attarin} {H} {The mastaba here has been swathed in a red silk cloth, and arranged on the cloth are several little alabaster vials with stoppers. The mingling of sweet scents that come from the vials wages war with the far less pleasant smells of the tannery to the east.} {Ancient Egypt } {} {} {} {1.000} {}
 E { 3372} {s} {s} {4} {0} {} {1.000} {}
 E { 3379} {e} {e} {2} {0} {} {1.000} {}
 
@@ -21500,7 +21500,7 @@ R { 5037} {0} {} {Die Apotheke} { } {Your feet skitter on the cold, smooth stone
 E { 5036} {n} {n} {1} {0} {} {1.000} {}
 E { 5038} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5038} {0} {<049>} {Die Apotheke} {H} {The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. At the back of the shop, a heavy wooden workbench sits scattered with a variety of tools for pounding, grinding, extracting, and otherwise preparing herbs for use. In the corner sits a separate table, scattered with more ominous components, for preparing poisons and dangerous concoctions.} {Medieval Kleinstadt } {} {} {} {1.000} {}
+R { 5038} {0} {<149>} {Die Apotheke} {H} {The rafters are all hung with strings of herbs and animal products that you are reluctant to identify, forming curtain-like tiers. At the back of the shop, a heavy wooden workbench sits scattered with a variety of tools for pounding, grinding, extracting, and otherwise preparing herbs for use. In the corner sits a separate table, scattered with more ominous components, for preparing poisons and dangerous concoctions.} {Medieval Kleinstadt } {} {} {} {1.000} {}
 E { 5037} {w} {w} {8} {0} {} {1.000} {}
 
 R { 5039} {0} {<169>} {Der Brunnen im Stadtplatz} {W} {You have found your way into a spacious, colonnaded square with a well in the center. The people swarm about here, exchanging greetings, insults, and the occasional blow, as they draw water from the Brunnen. What grass there was at one point has now been trampled down, but this area still has great aesthetic appeal. The cobbled street here is quite crowded, as people hurry from the marketplace to the west to the open area to the east and back again. The attractive design of the area has not kept anyone from their usual behavior, and thus the street here is absolutely foul with refuse, and you have to trudge through quite a bit of it to continue along Hauptstrasse either to the north or to the south.} {Medieval Kleinstadt } {} {} {} {1.000} {}
@@ -22098,7 +22098,7 @@ E { 5179} {w} {w} {8} {0} {} {1.000} {}
 E { 5182} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 5183} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5182} {0} {<049>} {A Small Apothecary} {H} {This store apparently deals in the arcane. As you look around, you see drying herbs hanging on the walls. At the back of the store is a cluttered counter, behind which you see an assortment of items that could be useful.} {Ancient Rome } {} {} {} {1.000} {}
+R { 5182} {0} {<149>} {A Small Apothecary} {H} {This store apparently deals in the arcane. As you look around, you see drying herbs hanging on the walls. At the back of the store is a cluttered counter, behind which you see an assortment of items that could be useful.} {Ancient Rome } {} {} {} {1.000} {}
 E { 5181} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 5183} {0} {} {The Via Sacra} { } {The crowd thins and you hear the faint ring of steel upon steel coming from the direction of the Colosseum. North is a temple dedicated to Romulus, the founder of Rome who was suckled by a she-wolf as an infant. To the west, Via Sacra continues to Capitoline Hill.} {Ancient Rome } {} {} {} {1.000} {}
@@ -22788,7 +22788,7 @@ R { 5342} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5267} {w} {w} {8} {0} {} {1.000} {}
 E { 5268} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5343} {0} {<049>} {A Herbalist's Shop} {H} {The circular room is lined with shelves crammed with jars and vases, boxes and barrels, crates and vials. What cannot fit on the shelves spills off into piles on the floor. The rafters hang with all manner of roots and dried plant and animal parts. There is scarcely room to walk around, and no countertop or transaction table is visible.} {The Silk Road } {} {} {} {1.000} {}
+R { 5343} {0} {<149>} {A Herbalist's Shop} {H} {The circular room is lined with shelves crammed with jars and vases, boxes and barrels, crates and vials. What cannot fit on the shelves spills off into piles on the floor. The rafters hang with all manner of roots and dried plant and animal parts. There is scarcely room to walk around, and no countertop or transaction table is visible.} {The Silk Road } {} {} {} {1.000} {}
 E { 1394} {w} {w} {8} {0} {} {1.000} {}
 
 R { 5344} {0} {} {The Eastern Peak Temple} { } {An air of peace pervades this temple, which seems to be made entirely from dark-stained wood, each plank fitted closely to the next. The simple, elegant lines of its construction make the structure seem timeless. The air is filled with the odor of incense, and flickering lamps hang from the eaves. A few mats have been laid out in front of a pedestal bearing a statue of the Buddha, awaiting your meditation.} {The Silk Road } {} {} {} {1.000} {}
@@ -23996,7 +23996,7 @@ E { 5241} {n} {n} {1} {0} {} {1.000} {}
 R { 5637} {0} {} {The Priest's Hut} { } {Ornate red-and-green painted latticework guards one side of the hut. The art is crudely done, but it is still good to see the old Hindu faith kept here, despite the encroachment of the pale English beliefs. Behind the lattice is a small worship area, with small paintings and iconic representations of various gods. The rest of the hut is bare and not very comfortable--the priest must live off of the donations of the village members.} {Seoni Jungle India} {} {} {} {1.000} {}
 E {  881} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5638} {0} {<049>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of Experience,' and an odd looking metal contraption carefully labeled 'orrery' dominates the room. This curio shop is clearly a haven for the eccentric. A whole shelf is marked 'treasure maps,' and the hardwood floor has bizarre, perhaps pagan symbols scratched into it. The glass window provides a view of the alley opening across the street, and in the poor lighting in here, it seems to waver like a gaping maw.} {London Port } {} {indtown} {} {1.000} {}
+R { 5638} {0} {<149>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of Experience,' and an odd looking metal contraption carefully labeled 'orrery' dominates the room. This curio shop is clearly a haven for the eccentric. A whole shelf is marked 'treasure maps,' and the hardwood floor has bizarre, perhaps pagan symbols scratched into it. The glass window provides a view of the alley opening across the street, and in the poor lighting in here, it seems to waver like a gaping maw.} {London Port } {} {indtown} {} {1.000} {}
 E {    6} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 5639} {0} {} {Entrance to the Long House} { } {You enter into the darkened room, a musty smell pervades the air. The walls are covered with sheets of rough elm bark stripped from massive trees. The floor is nothing but hard packed dirt. You think you can see the outline of a door leading further into the house in the south wall of the room. A doorway leads back out to the north.} {French Indian War } {} {} {} {1.000} {}
@@ -35444,14 +35444,14 @@ E { 8391} {s} {s} {4} {0} {} {1.000} {}
 E { 8400} {e} {e} {2} {0} {} {1.000} {}
 E { 8401} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8393} {0} {<049>} {The Cooking Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display pans, pots and cauldrons, and dozens of jars containing cooking ingredients.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8393} {0} {<149>} {The Cooking Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display pans, pots and cauldrons, and dozens of jars containing cooking ingredients.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8391} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8394} {0} {} {In the Crafters Quarters} { } {A back alley to the central market connects busy streets with the prominent shops of the most skilled crafters and traders in town. Queues form in front of the entrance to these wealthy and well-chartered stores. The crafter shops seem to be specialized by their trade skill and offer supplies for those who also aspire to grow their skill following the teachings of a master.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8391} {n} {n} {1} {0} {} {1.000} {}
 E { 8395} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8395} {0} {<049>} {The Pottery Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with all kinds of sculping instruments and clay.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8395} {0} {<149>} {The Pottery Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with all kinds of sculping instruments and clay.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8394} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8396} {0} {} {A Narrow Street} { } {A narrow street distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35472,10 +35472,10 @@ R { 8399} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8391} {w} {w} {8} {0} {} {1.000} {}
 E { 8370} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8400} {0} {<049>} {The Jewelcrafting Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with semi-precious stones and safes containing more expensive ones.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8400} {0} {<149>} {The Jewelcrafting Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with semi-precious stones and safes containing more expensive ones.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8392} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8401} {0} {<049>} {The Woodworking Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display all types of wood saws, boxes with a variety of nails, and sharp chisels.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8401} {0} {<149>} {The Woodworking Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display all types of wood saws, boxes with a variety of nails, and sharp chisels.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8392} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8402} {0} {} {The Central Market, Traders Row} { } {A back alley to the central market connects busy streets with the prominent shops of the most skilled crafters and traders in town. Queues form in front of the entrance to these wealthy and well-chartered stores. The crafter shops seem to be specialized by their trade skill and offer supplies for those who also aspire to grow their skill following the teachings of a master.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35493,7 +35493,7 @@ E { 8402} {n} {n} {1} {0} {} {1.000} {}
 E { 8410} {e} {e} {2} {0} {} {1.000} {}
 E { 8411} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8405} {0} {<049>} {The Fletching Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display exotic bows and arrow shafts from many different material types.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8405} {0} {<149>} {The Fletching Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display exotic bows and arrow shafts from many different material types.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8402} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8406} {8} {} {} { } {} {} {} {} {} {1.000} {}
@@ -35508,13 +35508,13 @@ R { 8408} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8402} {e} {e} {2} {0} {} {1.000} {}
 E { 8370} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8409} {0} {<049>} {The Smithing Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with bars, tools, and other supplies used in the art of smithing.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8409} {0} {<149>} {The Smithing Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with bars, tools, and other supplies used in the art of smithing.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8403} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8410} {0} {<049>} {The Tailoring Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display rolls of rich and colorful fabrics from all over the world.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8410} {0} {<149>} {The Tailoring Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display rolls of rich and colorful fabrics from all over the world.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8404} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8411} {0} {<049>} {The Farming Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow shopkeepers to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes, jars, and other containers where the shop maintains its inventory.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8411} {0} {<149>} {The Farming Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow shopkeepers to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes, jars, and other containers where the shop maintains its inventory.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8404} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8412} {0} {} {Strolling on Apple Lane} { } {This wide street near the center of town is bordered with rows of magnificent apple trees. Young kids pick up ripe fruits from the branches and keep them as a snack or a projectile to play with their friends. Houses and shops in this part of town are luxurious. A scent of sweet apples fills the air.} {Freiburg, City of Trade} {} {} {} {1.000} {}
