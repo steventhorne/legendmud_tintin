@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -33407,10 +33407,10 @@ E { 7900} {w} {w} {8} {0} {} {1.000} {}
 
 R { 7900} {0} {<169>} {The Village of Glastonbury} {W} {A small village has grown here in the shadow of the vast abbey, supporting the economy around this place of pilgrimage and faith. Villagers here are mostly farmers growing produce for the monks and building barns and corrals.} {Camelot} {} {} {} {1.000} {}
 E { 7899} {e} {e} {2} {0} {} {1.000} {}
-E { 7901} {n} {n} {1} {0} {} {1.000} {}
+E { 7901} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 7901} {0} {} {Inside the Abbey of Glastonbury} { } {You stand inside the main room of a powerful monastery, the richest and most powerful settlement of the Roman church in King Arthur's kingdom. The bishop of Glastonbury is one of the king's closest friends and his abbey a place of political importance in the kingdom.} {Camelot} {} {} {} {1.000} {}
-E { 7900} {s} {s} {4} {0} {} {1.000} {}
+E { 7900} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 7902} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7902} {0} {} {The Nave of the Abbey} { } {The beautiful nave of the abbey opens up all around you. Large glass windows describe scenes of chivalry involving the most famous knights of Arthur as well as symbolic representation of the Holy Grail, the mystical artefact that knights of the realm embarked on a quest to recover.} {Camelot} {} {} {} {1.000} {}
@@ -35409,7 +35409,7 @@ E { 8397} {e} {e} {2} {0} {} {1.000} {}
 E { 8386} {n} {n} {1} {0} {} {1.000} {}
 E { 8398} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8385} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8385} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8367} {n} {n} {1} {0} {} {1.000} {}
 E { 8368} {s} {s} {4} {0} {} {1.000} {}
 
@@ -35460,15 +35460,15 @@ E { 8423} {s} {s} {4} {0} {} {1.000} {}
 E { 8424} {n} {n} {1} {0} {} {1.000} {}
 E { 8425} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8397} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8397} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8368} {e} {e} {2} {0} {} {1.000} {}
 E { 8384} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8398} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8398} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8384} {e} {e} {2} {0} {} {1.000} {}
 E { 8387} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8399} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8399} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8391} {w} {w} {8} {0} {} {1.000} {}
 E { 8370} {e} {e} {2} {0} {} {1.000} {}
 
@@ -35496,15 +35496,15 @@ E { 8411} {w} {w} {8} {0} {} {1.000} {}
 R { 8405} {0} {<149>} {The Fletching Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display exotic bows and arrow shafts from many different material types.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8402} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8406} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8406} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8368} {w} {w} {8} {0} {} {1.000} {}
 E { 8383} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8407} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8407} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8389} {e} {e} {2} {0} {} {1.000} {}
 E { 8383} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8408} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8408} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8402} {e} {e} {2} {0} {} {1.000} {}
 E { 8370} {w} {w} {8} {0} {} {1.000} {}
 
@@ -35545,11 +35545,11 @@ R { 8418} {0} {} {Near the Fortified Walls} { } {The outer ring of Freiburg, bet
 E { 8417} {s} {s} {4} {0} {} {1.000} {}
 E { 8412} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8419} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8419} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8414} {w} {w} {8} {0} {} {1.000} {}
 E { 8420} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8420} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8420} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8419} {w} {w} {8} {0} {} {1.000} {}
 E { 8415} {e} {e} {2} {0} {} {1.000} {}
 
@@ -35579,15 +35579,15 @@ E { 8426} {n} {n} {1} {0} {} {1.000} {}
 E { 8422} {s} {s} {4} {0} {} {1.000} {}
 E { 8438} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8428} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8428} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8374} {e} {e} {2} {0} {} {1.000} {}
 E { 8422} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8429} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8429} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8372} {e} {e} {2} {0} {} {1.000} {}
 E { 8374} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8430} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8430} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8372} {w} {w} {8} {0} {} {1.000} {}
 E { 8412} {e} {e} {2} {0} {} {1.000} {}
 
@@ -35595,7 +35595,7 @@ R { 8431} {0} {} {A North Corner on Apple Lane} { } {This wide street near the c
 E { 8432} {w} {w} {8} {0} {} {1.000} {}
 E { 8433} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8432} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8432} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8412} {w} {w} {8} {0} {} {1.000} {}
 E { 8431} {e} {e} {2} {0} {} {1.000} {}
 
@@ -35610,7 +35610,7 @@ E { 8390} {n} {n} {1} {0} {} {1.000} {}
 R { 8435} {0} {} {A Small Square Plaza} { } {A small stone plaza distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8436} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8436} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8436} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8435} {s} {s} {4} {0} {} {1.000} {}
 E { 8380} {n} {n} {1} {0} {} {1.000} {}
 
@@ -35633,14 +35633,14 @@ R { 8441} {0} {} {The Jewish Quarter, Near the Walls} { } {Members of the Jewish
 E { 8440} {n} {n} {1} {0} {} {1.000} {}
 E { 8444} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8442} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8442} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8375} {e} {e} {2} {0} {} {1.000} {}
 E { 8443} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8443} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8443} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8442} {e} {e} {2} {0} {} {1.000} {}
 E { 8444} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8444} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8444} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8443} {e} {e} {2} {0} {} {1.000} {}
 E { 8441} {w} {w} {8} {0} {} {1.000} {}

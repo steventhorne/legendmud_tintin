@@ -446,7 +446,7 @@
 
 #ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
 {
-    #SEND %2;
+    #DELAY {1} {#SEND %2};
 }
 {5};
 
