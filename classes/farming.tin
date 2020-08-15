@@ -38,7 +38,7 @@
 		#LINE gag;
 
 		#VAR farm_cur 1;
-		#ACTION {{(?:So many weeds. So very, very many weeds. You could be here all day plucking them. Better grab some gardening gloves.|There are so many weeds you can't quite tell if there is anything else growing.|There are visible weeds in many places. Crops would be compromised with ratio of weeds.|You see a few weeds here and there, though probably not enough to adversely affect any crops.)}}
+		#ACTION {{(?:So many weeds. So very, very many weeds. You could be here all day plucking them. Better grab some gardening gloves.|There are so many weeds you can't quite tell if there is anything else growing.|There are visible weeds in many places. Crops would be compromised with the ratio of weeds you see here.|You see a few weeds here and there, though probably not enough to adversely affect any crops.)}}
 		{
 			#SEND weed ${farm_cur}.garden;
 			#SEND enq inspect ${farm_cur}.garden;
@@ -52,7 +52,7 @@
 		{5};
 		#ACTION {{^You can't seem to find that.$}}
 		{
-			#UNACTION {{(?:So many weeds. So very, very many weeds. You could be here all day plucking them. Better grab some gardening gloves.|There are so many weeds you can't quite tell if there is anything else growing.|There are visible weeds in many places. Crops would be compromised with ratio of weeds.|You see a few weeds here and there, though probably not enough to adversely affect any crops.)}};
+			#UNACTION {{(?:So many weeds. So very, very many weeds. You could be here all day plucking them. Better grab some gardening gloves.|There are so many weeds you can't quite tell if there is anything else growing.|There are visible weeds in many places. Crops would be compromised with the ratio of weeds you see here.|You see a few weeds here and there, though probably not enough to adversely affect any crops.)}};
 			#UNACTION {{After careful inspection, there's not a weed to be found.}};
 			#UNACTION {{^You can't seem to find that.$}};
 
