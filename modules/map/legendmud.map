@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1031,7 +1031,7 @@ E { 5814} {w} {w} {8} {0} {} {1.000} {}
 E {  184} {n} {n} {1} {0} {} {1.000} {}
 E { 5817} {e} {e} {2} {0} {} {1.000} {}
 
-R {  183} {0} {} {On Port Phillip Bay} { } {You are in the middle of Port Phillip Bay, which is a massive body of water, so you are far distant from any shore. To your east, you can make out the Sandridge docks, where several vessels seem to be berthed, and north of you is the mouth of a river, which looks as though it could be navigated. South of you, the water rushes between narrow heads out to the ocean.} {Gold Rush Melbourne } {melbourne} {} {} {1.000} {}
+R {  183} {0} {} {On Port Phillip Bay} { } {You are in the middle of Port Phillip Bay, which is a massive body of water, so you are far distant from any shore. To your east, you can make out the Sandridge docks, where several vessels seem to be berthed, and north of you is the mouth of a river, which looks as though it could be navigated. South of you, the water rushes between narrow heads out to the ocean.} {Gold Rush Melbourne } {} {} {} {1.000} {}
 E {  184} {s} {s} {4} {0} {} {1.000} {}
 E { 2898} {n} {n} {1} {0} {} {1.000} {}
 E { 2897} {e} {e} {2} {0} {} {1.000} {}
@@ -5338,8 +5338,9 @@ E { 1193} {w} {w} {8} {0} {} {1.000} {}
 R { 1191} {0} {} {A Narrow Hallway} { } {Lit only by a single torch, this frighteningly small hall winds and twists into the darkness. Shadows play along the walls as every slight movement causes the flame to flicker.} {} {} {} {} {1.000} {}
 E { 1190} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1192} {0} {} {A Narrow Hallway} { } {Lit only by a single torch, this frighteningly small hall winds and twists into the darkness. Shadows play along the walls as every slight movement causes the flame to flicker.} {} {} {} {} {1.000} {}
+R { 1192} {0} {} {A Narrow Hallway} { } {Lit only by a single torch, this frighteningly small hall winds and twists into the darkness. Shadows play along the walls as every slight movement causes the flame to flicker.} {Land of Shadows} {} {} {} {1.000} {}
 E { 1190} {n} {n} {1} {0} {} {1.000} {}
+E { 8446} {w} {w} {8} {0} {} {1.000} {}
 
 R { 1193} {0} {} {A Long Hallway} { } {The hallway stretches out to the west, though you cannot see very far. A few old tattered and torn tapestries hang on the walls, looking as if they have been shredded by a huge set of claws. Torches shimmer and shake making shadows play on the walls to either side of you.} {} {} {} {} {1.000} {}
 E { 1190} {e} {e} {2} {0} {} {1.000} {}
@@ -8192,7 +8193,7 @@ E { 1868} {s} {s} {4} {0} {} {1.000} {}
 R { 1866} {0} {<129>} {The Agrabah Camela Inn} {I} {Large arched doorways and windows swagged with light airy fabric, providing the sense of a breeze. Rows and rows of room keys line the wall behind the counter standing before you. Behind the counter, a small sign is posted on the wall. A small door leads to the back where the tenants stay. A door leads out and onto the porch. Occupying the center of the room is a plain wooden table used for meals and a work surface. In the corner, a large collection of multicolored silk cushions has been piled to provide a space for conversation and relaxation.} {Arabian Nights } {asabi} {} {} {1.000} {}
 E { 1865} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1867} {0} {<169>} {The Fountain Square} {W} {Here, at the heart of the city, is an obvious gathering place as many citizens come to fill their large pitchers and skins with the precious water gushing forth from the fountain. This square always seems to be busy with people coming and going about their business where roads lead off in all directions.} {Arabian Nights } {} {} {} {1.000} {}
+R { 1867} {0} {<169>} {The Fountain Square} {W} {Here, at the heart of the city, is an obvious gathering place as many citizens come to fill their large pitchers and skins with the precious water gushing forth from the fountain. This square always seems to be busy with people coming and going about their business where roads lead off in all directions.} {Arabian Nights } {agrabah} {} {} {1.000} {}
 E { 1864} {n} {n} {1} {0} {} {1.000} {}
 E { 1868} {w} {w} {8} {0} {} {1.000} {}
 E { 1882} {s} {s} {4} {0} {} {1.000} {}
@@ -8658,7 +8659,7 @@ E { 1974} {s} {s} {4} {0} {} {1.000} {}
 R { 1974} {0} {} {The Bridge of the Olympia} { } {Here in the command area of the warship, all manners of levers and wheels stand around you. A glass windscreen provides an open view of the deck while shielding the occupants from inclement weather. Telegraph lines have been installed to instantly relay commands to other areas of the ship. The main steering wheel stands prominently centered within the cabin. This is the working brain of the Olympia.} {The Philippines } {} {} {} {1.000} {}
 E { 1973} {n} {n} {1} {0} {} {1.000} {}
 
-R { 1975} {0} {<129>} {The Hotel Regalo} {I} {Stepping into the lobby of the Hotel Regalo, you are pleasantly surprised by the well-appointed decor. Polished and detailed marble floors reflect the glowing candle-lit chandeliers. White Spanish-style arches grace the walkways and dark woods of the finest quality line the ceiling. The hotel is world class in every aspect. Formerly serving the Spanish elite, the hotel now caters to American and foreign businessmen as well as the new Filipino aristocracy.} {The Philippines } {} {} {} {1.000} {}
+R { 1975} {0} {<129>} {The Hotel Regalo} {I} {Stepping into the lobby of the Hotel Regalo, you are pleasantly surprised by the well-appointed decor. Polished and detailed marble floors reflect the glowing candle-lit chandeliers. White Spanish-style arches grace the walkways and dark woods of the finest quality line the ceiling. The hotel is world class in every aspect. Formerly serving the Spanish elite, the hotel now caters to American and foreign businessmen as well as the new Filipino aristocracy.} {The Philippines } {pines} {} {} {1.000} {}
 E { 1971} {s} {s} {4} {0} {} {1.000} {}
 E { 1976} {e} {e} {2} {0} {} {1.000} {}
 
@@ -12481,7 +12482,7 @@ E { 2887} {w} {w} {8} {0} {} {1.000} {}
 E { 2890} {s} {s} {4} {0} {} {1.000} {}
 E { 2911} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2890} {0} {<129>} {In the Middle of a Sea of Tents} {I} {Just north of you, the Yarra river flows sluggishly toward the sea, but in every other direction you can see row upon row of white canvas tents, temporary homes for the thousands of immigrants who have been flocking to this city since 1853. A large tent has been erected here to form a gathering place for the recent arrivals to obtain news and information.} {Gold Rush Melbourne } {tents} {} {} {1.000} {}
+R { 2890} {0} {<129>} {In the Middle of a Sea of Tents} {I} {Just north of you, the Yarra river flows sluggishly toward the sea, but in every other direction you can see row upon row of white canvas tents, temporary homes for the thousands of immigrants who have been flocking to this city since 1853. A large tent has been erected here to form a gathering place for the recent arrivals to obtain news and information.} {Gold Rush Melbourne } {melbourne} {} {} {1.000} {}
 E { 2889} {n} {n} {1} {0} {} {1.000} {}
 E { 2891} {s} {s} {4} {0} {} {1.000} {}
 E { 2907} {e} {e} {2} {0} {} {1.000} {}
@@ -18421,7 +18422,7 @@ E { 4300} {e} {e} {2} {0} {} {1.000} {}
 E { 4301} {w} {w} {8} {0} {} {1.000} {}
 E { 4307} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4300} {0} {} {The Ordinary} { } {Those new to the town are able to stay here until they find a more permanent home. A rather plain building from the outside. As you enter the doorway, you notice rooms spawning off in all directions. Stairs lead up to the rooms on the second floor.} {Boston, Mass. } {} {} {} {1.000} {}
+R { 4300} {0} {<129>} {The Ordinary} {I} {Those new to the town are able to stay here until they find a more permanent home. A rather plain building from the outside. As you enter the doorway, you notice rooms spawning off in all directions. Stairs lead up to the rooms on the second floor.} {Boston, Mass. } {} {} {} {1.000} {}
 E { 4299} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4301} {0} {} {The Yard of the Governor's House} { } {Large pine trees rest on either side of the house ahead. A few more peek above the house from the back. Shutters prevent you from looking into the windows that flank both sides of the arched door in front of you. Bits of glass blended into the stucco-like outer walls reflect the sunlight in the day's hours, glittering and sparkling as if diamonds. The walk below your feet is made of small stones buried halfway into the mud.} {Boston, Mass. } {} {} {} {1.000} {}
@@ -21391,7 +21392,7 @@ R { 5014} {0} {} {In a Narrow Gully} { } {The hills have grown quite tall and st
 E { 5013} {n} {n} {1} {0} {} {1.000} {}
 E { 5015} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5015} {0} {} {Between Two Gentle Slopes} { } {You stand between two gently sloping hills, a path heading northwards up the gully between them. The slopes are covered in tall silver-limbed gum trees and knee-high bracken. The main path leads eastwards down to the banks of a wide river, and west into higher mountain ranges.} {Aboriginal Dreamtime } {} {} {} {1.000} {}
+R { 5015} {0} {} {Between Two Gentle Slopes} { } {You stand between two gently sloping hills, a path heading northwards up the gully between them. The slopes are covered in tall silver-limbed gum trees and knee-high bracken. The main path leads eastwards down to the banks of a wide river, and west into higher mountain ranges.} {Aboriginal Dreamtime } {dreamtime} {} {} {1.000} {}
 E { 5014} {n} {n} {1} {0} {} {1.000} {}
 E { 5016} {w} {w} {8} {0} {} {1.000} {}
 E { 5494} {e} {e} {2} {0} {} {1.000} {}
@@ -23006,7 +23007,7 @@ E { 5429} {d} {d} {32} {1} {} {1.000} {}
 
 R { 5394} {0} {} {The Gates of the Palace} { } {Before you is the entryway of the Winter Palace of the Russian Empire. It is within these walls that the heart of Mother Russia beats. This is the residence of Tsar Nicholas II and his family. It is also said that dark secrets can be found within, and that the Tsar and his family have come under the influence of a mad, hypnotic monk.} {Russian Revolution of 1917 } {} {} {} {1.000} {}
 E { 5393} {w} {w} {8} {0} {} {1.000} {}
-E { 5395} {e} {e} {2} {0} {} {1.000} {}
+E { 5395} {e} {e;pause 1s} {2} {0} {} {1.000} {}
 
 R { 5395} {0} {} {The Foyer of the Winter Palace} { } {This lavishly decorated palace immediately takes your breath away. The palace smells, feels, and tastes wealthy, in stark contrast to the living spaces of the people outside of these walls. It is little wonder that there is talk of the Tsar being out of touch with his people.} {Russian Revolution of 1917 } {} {} {} {1.000} {}
 E { 5394} {w} {open w;w} {8} {0} {} {1.000} {}
@@ -26666,7 +26667,7 @@ R { 6276} {0} {} {In the Countryside} { } {You pass through miles and miles of w
 E {  112} {n} {n} {1} {0} {} {1.000} {}
 E { 6277} {s} {s} {4} {0} {} {1.000} {}
 
-R { 6277} {0} {} {The Outskirts of Richmond, Virginia} { } {Engineers and journalists have infested the fields outside of the city of Richmond. There, around much activity, a huge balloon is chartered for an imminent departure. All around, folks and bystanders talk about the race, an incredible challenge to tour the whole world in fewer than eighty days.} {The Mysterious Island} {} {} {} {1.000} {}
+R { 6277} {0} {} {The Outskirts of Richmond, Virginia} { } {Engineers and journalists have infested the fields outside of the city of Richmond. There, around much activity, a huge balloon is chartered for an imminent departure. All around, folks and bystanders talk about the race, an incredible challenge to tour the whole world in fewer than eighty days.} {The Mysterious Island} {mi} {} {} {1.000} {}
 E { 6276} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6278} {0} {} {On a Beach, by a Crashed Balloon} { } {You stand on a stony beach at the bottom of a tall rocky cliffs. This barren spot is the desolate refuge of sea-birds, strewn with stones and destitute of vegetation. Behind you the wreckage of a hot air balloon remains in the water, beyond any form of repair. To the north a path climbs up to a small camp.} {The Mysterious Island} {} {} {} {1.000} {}
@@ -33571,10 +33572,10 @@ E { 7924} {s} {s} {4} {0} {} {1.000} {}
 
 R { 7940} {0} {} {A Stone Hallway} { } {A narrow hallway between thick stone walls connects here different parts of the vast castle of Camelot. Expensive tapestries cover some of the walls, and torches flicker, providing light in the hallway.} {Camelot} {} {} {} {1.000} {}
 E { 7938} {w} {w} {8} {0} {} {1.000} {}
-E { 7941} {n} {n} {1} {0} {} {1.000} {}
+E { 7941} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 7941} {0} {} {Merlin's Laboratory} { } {A dark room in a corner of the Camelot castle is used by the wizard Merlin, advisor to the king, as his personal laboratory. The walls are covered with wooden shelves displaying potions, scrolls and other exotic items such as a dragon's skull and strange bat-like wings hanging from the ceiling. A strong smell of sulphur and brimstone lingers in the room from some experiment ran not too long ago.} {Camelot} {} {} {} {1.000} {}
-E { 7940} {s} {s} {4} {0} {} {1.000} {}
+E { 7940} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 7942} {0} {} {A Stone Hallway} { } {A narrow hallway between thick stone walls connects here different parts of the vast castle of Camelot. Expensive tapestries cover some of the walls, and torches flicker, providing light in the hallway.} {Camelot} {} {} {} {1.000} {}
 E { 7924} {e} {e} {2} {0} {} {1.000} {}
@@ -34820,9 +34821,11 @@ E { 8250} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8250} {0} {} {The Banks of Mercy River} { } {A muddy river flows here, cascading from the slopes of Mount Franklin to the east side of the island. Its waters are charged with branches, leaves, and poison sumac from the forest, and is probably not proper for consumption.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8249} {e} {e} {2} {0} {} {1.000} {}
+E { 8474} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8251} {0} {} {Deep in the Jacamar Woods} { } {The forest leeches the foot of the massive volcano that Cyrus named Mount Franklin. Tiny green and orange jacamar perch on the branches of white pines and other exotic trees all around you. On the muddy ground, you see tracks of much, much larger animals.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8242} {e} {e} {2} {0} {} {1.000} {}
+E { 8468} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8252} {0} {} {A Marshy Area, Near Camp} { } {A sinister marshy area opens a few yards away from the camp palisade, almost hugging it in a snug and menacing embrace. A trail made by animals of various sizes leaves from the camp entrance to the east.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 6281} {w} {w} {8} {0} {} {1.000} {}
@@ -34831,18 +34834,22 @@ E { 8253} {e} {e} {2} {0} {} {1.000} {}
 R { 8253} {0} {} {The Tadorn Marsh} { } {A large marsh covers the rounded shore which marks the southeast end of the island. The soil is a siliceous clay and mixed with vegetative debris. Conferva, juncaceae, carex, bulrush, and some layers of grass here and there, covering it with a thick carpet.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8252} {w} {w} {8} {0} {} {1.000} {}
 E { 8254} {e} {e} {2} {0} {} {1.000} {}
+E { 8476} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8254} {0} {} {On Top of Rocky Cliffs} { } {You stand on top of the rocky cliffs that border the southern coast of the mysterious island, overlooking the wild Washington Bay. A natural staircase has been carved by the winds into the rocks, leading to the sea below.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8253} {w} {w} {8} {0} {} {1.000} {}
 E { 8255} {e} {e} {2} {0} {} {1.000} {}
+E { 8492} {d} {d} {32} {0} {} {1.000} {}
 
 R { 8255} {0} {} {Cape Claw} { } {From the vista offered at the cape, it seems you have reached the easternmost point on Lincoln Island. East only offers a view of the endless sea with, in real proximity, rather capricious passes through jagged reefs.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8254} {w} {w} {8} {0} {} {1.000} {}
+E { 8481} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8256} {0} {} {A View of the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor here by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8238} {u} {u} {16} {0} {} {1.000} {}
 E { 8257} {w} {w} {8} {0} {} {1.000} {}
 E { 8258} {n} {n} {1} {0} {} {1.000} {}
+E { 8451} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8257} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8256} {e} {e} {2} {0} {} {1.000} {}
@@ -35342,7 +35349,7 @@ R { 8369} {0} {} {The Central Market, Northside} { } {A vast open plaza lies in 
 E { 8368} {n} {n} {1} {0} {} {1.000} {}
 E { 8370} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8370} {0} {} {The Central Market} { } {A vast open plaza lies in the middle of town, dedicated to hosting multiple small booths and stalls where the more modest merchants, who cannot afford a shop in town, come to display their wares. The central market also welcomes its share of beggars, street performers, and the occasional pickpocket. A marble fountain, pride of Freiburg's crafters, adorns the center of the marketplace and offers a meeting place for merchants and citizens.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+R { 8370} {0} {<169>} {The Central Market} {W} {A vast open plaza lies in the middle of town, dedicated to hosting multiple small booths and stalls where the more modest merchants, who cannot afford a shop in town, come to display their wares. The central market also welcomes its share of beggars, street performers, and the occasional pickpocket. A marble fountain, pride of Freiburg's crafters, adorns the center of the marketplace and offers a meeting place for merchants and citizens.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8369} {n} {n} {1} {0} {} {1.000} {}
 E { 8371} {s} {s} {4} {0} {} {1.000} {}
 E { 8399} {w} {w} {8} {0} {} {1.000} {}
@@ -35616,6 +35623,9 @@ E { 8380} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8437} {0} {} {Perth's Manor House} { } {Fine stonework forms the walls around the manor house, creating a solid structure that is sure to withstand the tests of time for centuries. The house itself is made of the same stone work, with chimneys rising above. Crenellations surround the roof-top walkways, attesting to the importance the owner places on protection for those who dwell within.} {Player Housing} {perth} {} {} {1.000} {}
 E { 8382} {w} {w} {8} {1} {} {1.000} {}
+E { 8445} {n} {n} {1} {0} {} {1.000} {}
+E { 8447} {e} {e} {2} {0} {} {1.000} {}
+E { 8450} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8438} {0} {} {The Jewish Quarter} { } {Members of the Jewish community have gathered in this part of town and established it as the smallest cadastral area of Freiburg. They run the commerce of diamonds and other precious stonework and supply many other businesses in town to the point of become indispensable to the city's economy. A good smell of fresh baked goods runs through the streets.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8427} {e} {e} {2} {0} {} {1.000} {}
@@ -35644,3 +35654,196 @@ E { 8444} {w} {w} {8} {0} {} {1.000} {}
 R { 8444} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8443} {e} {e} {2} {0} {} {1.000} {}
 E { 8441} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8445} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the scent of blossoms mix creating a pleasant perfume. During warmer months, the tree offer cool shade from the heat of the sun and during the fall fallen fruits scent the air. In winter, the orchard becomes a barren skeleton compared to the life that fills it the rest of the year.} {Player Housing} {} {} {} {1.000} {}
+E { 8437} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8446} {0} {} {A Sidhe Treasure Room} { } {Empty, nothing but empty, or is it... This large room with its pale bare walls surrounds but a single tiny chest in the center of the room.} {Land of Shadows} {} {} {} {1.000} {}
+E { 1192} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8447} {0} {} {A Hallway} { } {Simple, lime-plastered walls have been white-washed in an attempt to bring light to the windowless hallway without much success. Doors open off the hallway, leading into various rooms of the manor.} {Player Housing} {} {} {} {1.000} {}
+E { 8437} {w} {w} {8} {0} {} {1.000} {}
+E { 8448} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8448} {0} {} {A Hallway} { } {Simple, lime-plastered walls have been white-washed in an attempt to bring light to the windowless hallway without much success. Doors open off the hallway, leading into various rooms of the manor.} {Player Housing} {} {} {} {1.000} {}
+E { 8447} {s} {s} {4} {0} {} {1.000} {}
+E { 8449} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8449} {0} {} {Perth's Smithy} { } {The forge stands at the back of the room throwing heat everywhere. Just standing in this room produces sweat. Bellow and tongs along with a variety of hammers have been neatly laid out, ready to hand while the smith is working. A large anvil stands in the center of the room, with a nearby barrel of water for shaping and cooling the red-hot metal.} {Player Housing} {} {} {} {1.000} {}
+E { 8448} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8450} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the scent of blossoms mix creating a pleasant perfume. During warmer months, the tree offer cool shade from the heat of the sun and during the fall fallen fruits scent the air. In winter, the orchard becomes a barren skeleton compared to the life that fills it the rest of the year.} {Player Housing} {} {} {} {1.000} {}
+E { 8437} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8451} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8256} {n} {n} {1} {0} {} {1.000} {}
+E { 8452} {e} {e} {2} {0} {} {1.000} {}
+E { 8453} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8452} {0} {} {Along the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8451} {w} {w} {8} {0} {} {1.000} {}
+E { 8454} {s} {s} {4} {0} {} {1.000} {}
+E { 8456} {e} {e} {2} {0} {} {1.000} {}
+E { 8458} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8453} {0} {} {A Trail in the Mangrove} { } {A trail that shows the footsteps of many human visitors snakes through the dense foliage of the mangrove near the tip of the Serpentine cape. Here and there, flocks of birds suddenly take off from the nearby trees, indicating that you might not be alone in this part of the island!} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8451} {n} {n} {1} {0} {} {1.000} {}
+E { 8454} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8454} {0} {<169>} {By a Stream of Fresh Waters} {W} {A trail that shows the footsteps of many human visitors snakes through the dense foliage of the mangrove near the tip of the Serpentine cape. Here and there, flocks of birds suddenly take off from the nearby trees, indicating that you might not be alone in this part of the island!} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8453} {w} {w} {8} {0} {} {1.000} {}
+E { 8452} {n} {n} {1} {0} {} {1.000} {}
+E { 8455} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8455} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8454} {w} {w} {8} {0} {} {1.000} {}
+E { 8456} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8456} {0} {} {A Trail in the Mangrove} { } {A trail that shows the footsteps of many human visitors snakes through the dense foliage of the mangrove near the tip of the Serpentine cape. Here and there, flocks of birds suddenly take off from the nearby trees, indicating that you might not be alone in this part of the island!} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8455} {s} {s} {4} {0} {} {1.000} {}
+E { 8452} {w} {w} {8} {0} {} {1.000} {}
+E { 8457} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8457} {0} {} {By a Giant Mahogany Tree} { } {A trail that shows the footsteps of many human visitors snakes through the dense foliage of the mangrove near the tip of the Serpentine cape. Here and there, flocks of birds suddenly take off from the nearby trees, indicating that you might not be alone in this part of the island!} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8456} {s} {s} {4} {0} {} {1.000} {}
+E { 8459} {e} {e} {2} {0} {} {1.000} {}
+E { 8460} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8458} {0} {} {A View of the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor here by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8452} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8459} {0} {} {A View of the Serpentine Coast} { } {The forest opens here, baring a vista of the jagged and hostile coast of the Serpentine peninsula. You see sharp reefs laying yards from the shore and granite rocks preventing any kind of embarkation to moor by the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8457} {w} {w} {8} {0} {} {1.000} {}
+E { 8461} {n} {n} {1} {0} {} {1.000} {}
+E { 8463} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8460} {0} {} {Deep in the Mangrove} { } {A trail that shows the footsteps of many human visitors snakes through the dense foliage of the mangrove near the tip of the Serpentine cape. Here and there, flocks of birds suddenly take off from the nearby trees, indicating that you might not be alone in this part of the island!} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8457} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8461} {0} {} {By a Giant Kauri Tree} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8459} {s} {s} {4} {0} {} {1.000} {}
+E { 8462} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8462} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8461} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8463} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8459} {n} {n} {1} {0} {} {1.000} {}
+E { 8464} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8464} {0} {} {Deep in the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8463} {n} {n} {1} {0} {} {1.000} {}
+E { 8465} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8465} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8464} {d} {d} {32} {0} {} {1.000} {}
+E { 8466} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8466} {0} {} {Reptile Point} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8465} {e} {e} {2} {0} {} {1.000} {}
+E { 8467} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8467} {0} {} {You panic, and attempt to flee.} { } {[0;1;32mReptile Point[0;32m The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8466} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8468} {0} {} {Deep in the Jacamar Woods} { } {The forest leeches the foot of the massive volcano that Cyrus named Mount Franklin. Tiny green and orange jacamar perch on the branches of white pines and other exotic trees all around you. On the muddy ground, you see tracks of much, much larger animals.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8251} {s} {s} {4} {0} {} {1.000} {}
+E { 8470} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8469} {0} {} {In the Forest} { } {It is hard to move through the wild forest as the trail varies in size, some places only a few inches wide as it snakes through ferns and thorny bushes. You also note the presence of poison ivy and irritating tree saps.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8470} {s} {s} {4} {0} {} {1.000} {}
+E { 8471} {e} {e} {2} {0} {} {1.000} {}
+E { 8493} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8470} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8468} {s} {s} {4} {0} {} {1.000} {}
+E { 8469} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8471} {0} {} {Near Mount Franklin} { } {The trees of the Jacamar woods grow more sparsely here, likely due to the less-rich soils within such a close proximity to the lava rock slopes of the volcano.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8469} {w} {w} {8} {0} {} {1.000} {}
+E { 8472} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8472} {0} {} {The End of the Forest} { } {Sparse trees cover a landscape of ochre lava rocks with sharp ends. From where you stand, to the south you can see the forest covering the rest of the island to the cliffs surrounding Washington Bay. To the north, a narrow trail starts to climb up the slopes of Mount Franklin.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8471} {s} {s} {4} {0} {} {1.000} {}
+E { 8473} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8473} {0} {} {The Slopes of Mount Franklin} { } {A steep slope climbs up to the north towards the caldera of Mount Franklin. Sulfur fumes emerge from the hot ground, leaving no doubt that the volcano is still active.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8471} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8474} {0} {} {The Banks of Mercy River} { } {A muddy river flows here, cascading from the slopes of Mount Franklin to the east side of the island. Its waters are charged with branches, leaves, and poison sumac from the forest, and is probably not proper for consumption.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8250} {s} {s} {4} {0} {} {1.000} {}
+E { 8475} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8475} {0} {} {The Far-West Woods} { } {Nab jokingly named these woods as they expand further west into the hostile forests of the mysterious islands. Wildlife is common here but seems rather startled and disturbed by your presence. Unless it is something bigger that scares them.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8474} {s} {s} {4} {0} {} {1.000} {}
+E { 8468} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8476} {0} {} {On a Trail} { } {The trail continues inside the marsh. It disappears from time to time under pools of stagnant water or bushes of thick reeds.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8253} {n} {n} {1} {0} {} {1.000} {}
+E { 8477} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8477} {0} {} {The Tadorn Marsh} { } {A large marsh covers the rounded shore which marks the southeast end of the island. The soil is a siliceous clay and mixed with vegetative debris. Conferva, juncaceae, carex, bulrush, and some layers of grass here and there, covering it with a thick carpet.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8476} {e} {e} {2} {0} {} {1.000} {}
+E { 8478} {n} {n} {1} {1} {} {1.000} {}
+
+R { 8478} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8479} {n} {n} {1} {0} {} {1.000} {}
+E { 8477} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8479} {0} {} {On a Trail} { } {The trail continues inside the marsh. It disappears from time to time under pools of stagnant water or bushes of thick reeds.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8478} {s} {s} {4} {1} {} {1.000} {}
+E { 8482} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8480} {0} {} {Deep in the Marsh} { } {Having ventured deep within the vast marsh, the thundering rumble of waves crashing against the sea cliffs have been replaced with the chirping of thousands of tadorn birds, their chant an eerie cacophony all its own.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8482} {w} {w} {8} {0} {} {1.000} {}
+E { 8481} {e} {e} {2} {0} {} {1.000} {}
+E { 8483} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8481} {0} {} {The Tadorn Marsh} { } {A large marsh covers the rounded shore which marks the southeast end of the island. The soil is a siliceous clay and mixed with vegetative debris. Conferva, juncaceae, carex, bulrush, and some layers of grass here and there, covering it with a thick carpet.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8255} {s} {s} {4} {0} {} {1.000} {}
+E { 8480} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8482} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8480} {e} {e} {2} {0} {} {1.000} {}
+E { 8479} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8483} {0} {} {The Heart of the Marsh} { } {All little animal trails seem to lead here, the center of the marsh. The thickness of the flora offers a natural shelter to many animals. The trunks of nearby mangrove roots are marked and dented as if a large predator tried, with frustration, to penetrate that protective barrier.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8480} {s} {s} {4} {0} {} {1.000} {}
+E { 8485} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8484} {0} {} {By a Gigantic Nest} { } {Some improbable creature has built its nest here out of roots, ferns, and tree branches brought from other parts of the island. The nest is large enough for a full-grown man to stand in it and looks pretty sturdy.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8485} {w} {w} {8} {0} {} {1.000} {}
+E { 8486} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8485} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8483} {w} {w} {8} {0} {} {1.000} {}
+E { 8484} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8486} {0} {} {The Tadorn Marsh} { } {A large marsh covers the rounded shore which marks the southeast end of the island. The soil is a siliceous clay and mixed with vegetative debris. Conferva, juncaceae, carex, bulrush, and some layers of grass grow here and there, covering it with a thick carpet.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8484} {n} {n} {1} {0} {} {1.000} {}
+E { 8487} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8487} {0} {} {On a Trail} { } {The trail continues inside the marsh. It disappears from time to time under pools of stagnant water or bushes of thick reeds.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8486} {w} {w} {8} {0} {} {1.000} {}
+E { 8488} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8488} {0} {} {A Grove of Giant Eucalypti} { } {The strong and pleasant smell of giant eucalyptus trees fills the air as you come across this part of the marsh. You stand on a rocky hill, safe from the rising waters which allow more permanent vegetation to grow.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8487} {s} {s} {4} {0} {} {1.000} {}
+E { 8489} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8489} {0} {} {Flotsam Point} { } {You stand on top of a rocky escarpment towering over the marsh and the Tadorn peninsula. From there you can see the Union Bay to the north and the mysterious Safety Inlet in the middle of the bay.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8488} {w} {w} {8} {0} {} {1.000} {}
+E { 8490} {n} {n} {1} {0} {} {1.000} {}
+E { 8491} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8490} {0} {} {Towards an Inland Lake} { } {The trail climbs here towards the large inland lake baptized as Lake Grant, the steep incline leading up Flotsam Point, and the vast marsh sprawling beyond. Waves crashing against the rocky shore thunder all around.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8489} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8491} {0} {} {Near a Large Plateau} { } {A stone granite plateau emerges from the Tadorn peninsula, opposite the coast of cliffs. Seagulls and other birds have elected this place as home.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8489} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8492} {0} {} {You panic, and attempt to flee.} { } {[0;1;32mOn Top of Rocky Cliffs[0;32m You stand on top of the rocky cliffs that border the southern coast of the mysterious island, overlooking the wild Washington Bay. A natural staircase has been carved by the winds into the rocks, leading to the sea below.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8254} {u} {u} {16} {0} {} {1.000} {}
+
+R { 8493} {0} {} {Inside a Cave} { } {A large cave opens here, directly connected to the forest. The polished texture and somewhat-round shape of the walls indicates the cave is the extremity of an obstructed lava tube that used to connect deeper inside the volcano.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8469} {s} {s} {4} {0} {} {1.000} {}

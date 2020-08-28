@@ -539,3 +539,9 @@
     #MAP goto 2022;
 }
 {5}
+
+#ACTION {^CRASH! The balloon hits the surface of the ocean with full force!$}
+{
+    #MAP goto 6278;
+}
+{5}
