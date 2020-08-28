@@ -5,13 +5,13 @@
 	#SHOWME <169>Beginning automatic farming...<099>;
 	#SHOWME <169>Beginning watering...<099>;
 
-	#ACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.)}}
+	#ACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.|The soil is moist and saturated and shouldn't need to be watered for a while.)}}
 	{
 		#SEND water ${farm_cur}.garden;
 		#SEND enq inspect ${farm_cur}.garden;
 	}
 	{5};
-	#ACTION {{The soil is moist and saturated and shouldn't need to be watered for a while.}}
+	#ACTION {{The soil is about at its limit for water and any further watering may damage the crop.}}
 	{
 		#MATH farm_cur {$farm_cur + 1};
 		#SEND enq inspect ${farm_cur}.garden;
@@ -19,8 +19,8 @@
 	{5};
 	#ACTION {{You must declare which water source you will use.}}
 	{
-		#UNACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.)}};
-		#UNACTION {{The soil is moist and saturated and shouldn't need to be watered for a while.}};
+		#UNACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.|The soil is moist and saturated and shouldn't need to be watered for a while.)}};
+		#UNACTION {{The soil is about at its limit for water and any further watering may damage the crop.}};
 		#UNACTION {{^You can't seem to find that.$}};
 
 		#DELAY {0} {#SHOWME <119>Automatic farming failed.<099>};
@@ -28,8 +28,8 @@
 	{5};
 	#ACTION {{^You can't seem to find that.$}}
 	{
-		#UNACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.)}};
-		#UNACTION {{The soil is moist and saturated and shouldn't need to be watered for a while.}};
+		#UNACTION {{(?:The soil is extremely dry. This can't be great for the crop.|The soil is healthy but a little on the dry side; the crop isn't in immediate danger just yet.|The soil is moist and saturated and shouldn't need to be watered for a while.)}};
+		#UNACTION {{The soil is about at its limit for water and any further watering may damage the crop.}};
 		#UNACTION {{^You can't seem to find that.$}};
 
 		#SHOWME <129>Watering complete.<099>;
