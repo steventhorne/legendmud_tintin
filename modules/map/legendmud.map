@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -35341,12 +35341,12 @@ E { 8382} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8368} {0} {} {A Bustling Street, Near the Market} { } {The streets are filled with merchants, crafters, beggars, and children running around, giving the place a feeling of organized chaos. All around you the yelling of traders advertising their wares can be heard while busy shopkeepers can be seen setting up their wooden stalls on the sides of the street. To the south you see a large central marketplace.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8385} {n} {n} {1} {0} {} {1.000} {}
-E { 8369} {s} {s} {4} {0} {} {1.000} {}
+E { 8494} {s} {s} {4} {0} {} {1.000} {}
 E { 8406} {e} {e} {2} {0} {} {1.000} {}
 E { 8397} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8369} {0} {} {The Central Market, Northside} { } {A vast open plaza lies in the middle of town, dedicated to hosting multiple small booths and stalls where the more modest merchants, who cannot afford a shop in town, come to display their wares. The central market also welcomes its share of beggars, street performers, and the occasional pickpocket.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8368} {n} {n} {1} {0} {} {1.000} {}
+E { 8494} {n} {n} {1} {0} {} {1.000} {}
 E { 8370} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8370} {0} {<169>} {The Central Market} {W} {A vast open plaza lies in the middle of town, dedicated to hosting multiple small booths and stalls where the more modest merchants, who cannot afford a shop in town, come to display their wares. The central market also welcomes its share of beggars, street performers, and the occasional pickpocket. A marble fountain, pride of Freiburg's crafters, adorns the center of the marketplace and offers a meeting place for merchants and citizens.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35357,10 +35357,10 @@ E { 8408} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8371} {0} {} {The Central Market, Southside} { } {A vast open plaza lies in the middle of town, dedicated to hosting multiple small booths and stalls where the more modest merchants, who cannot afford a shop in town, come to display their wares. The central market also welcomes its share of beggars, street performers, and the occasional pickpocket.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8370} {n} {n} {1} {0} {} {1.000} {}
-E { 8372} {s} {s} {4} {0} {} {1.000} {}
+E { 8498} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8372} {0} {} {Near a Large Inn} { } {The streets are filled with merchants, crafters, beggars, and children running around, giving the place a feeling of organized chaos. All around you the yelling of traders advertising their wares can be heard while busy shopkeepers can be seen setting up their wooden stalls on the sides of the street. To the north you see a large central marketplace.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8371} {n} {n} {1} {0} {} {1.000} {}
+E { 8498} {n} {n} {1} {0} {} {1.000} {}
 E { 8373} {s} {s} {4} {0} {} {1.000} {}
 E { 8429} {w} {w} {8} {0} {} {1.000} {}
 E { 8430} {e} {e} {2} {0} {} {1.000} {}
@@ -35370,11 +35370,11 @@ E { 8372} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8374} {0} {} {Apple Lane Street} { } {This wide street near the center of town is bordered with rows of magnificent apple trees. Young kids pick up ripe fruits from the branches and keep them as a snack or a projectile to play with their friends. Houses and shops in this part of town are luxurious. This is where everyone wants to be.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8429} {e} {e} {2} {0} {} {1.000} {}
-E { 8375} {s} {s} {4} {0} {} {1.000} {}
+E { 8419} {s} {s} {4} {0} {} {1.000} {}
 E { 8428} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8375} {0} {} {Behind the Walls} { } {The outer ring of Freiburg, between the central market and the fortified walls is where more humble shops and residentials quarters are located. The houses are built in stone with tiled roofs which is way above the standard of the wooden shacks with a thatched roof found everywhere else in Europe.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8374} {n} {n} {1} {0} {} {1.000} {}
+E { 8419} {n} {n} {1} {0} {} {1.000} {}
 E { 8376} {s} {s} {4} {0} {} {1.000} {}
 E { 8442} {w} {w} {8} {0} {} {1.000} {}
 
@@ -35398,7 +35398,7 @@ R { 8380} {0} {} {A Central Plaza Behind the Walls} { } {The shadow of the large
 E { 8379} {w} {w} {8} {0} {} {1.000} {}
 E { 8413} {n} {n} {1} {0} {} {1.000} {}
 E { 8414} {e} {e} {2} {1} {} {1.000} {}
-E { 8436} {s} {s} {4} {0} {} {1.000} {}
+E { 8435} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8381} {0} {} {A Small Street by the Gates} { } {A narrow street distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8367} {e} {e} {2} {0} {} {1.000} {}
@@ -35425,19 +35425,19 @@ E { 8384} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8387} {0} {} {A Corner in the Tanners' Street} { } {The strong smell of tanned leathers blasts through this street but the busy citizens of Freiburg do not seem to care as they move though town with haste, focused on their pressing matters. The trade of leather is very profitable to the European economy and this street shows some of the nicest homes in town.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8398} {e} {e} {2} {0} {} {1.000} {}
-E { 8388} {s} {s} {4} {0} {} {1.000} {}
+E { 8496} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8388} {0} {} {The Usurers' Row} { } {The wealthy bankers of Freiburg have established their offices on this quiet street. While the banks manage a large sum of coins and letters of exchange, few of these offices have a counter to deal directly with customers. Instead, withdrawals and deposits are handled at the main inn of the city.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8387} {n} {n} {1} {0} {} {1.000} {}
+E { 8496} {n} {n} {1} {0} {} {1.000} {}
 E { 8396} {w} {w} {8} {0} {} {1.000} {}
 E { 8426} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8389} {0} {} {A Corner in Tanners Street} { } {The strong smell of tanned leathers blasts through this street but the busy citizens of Freiburg do not seem to care as they move though town with haste, focused on their pressing matters. The trade of leather is very profitable to the European economy and this street shows some of the nicest homes in town. The crowds are busier here with a lot of the more humble folks avoiding the quiet street to the south.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8407} {w} {w} {8} {0} {} {1.000} {}
-E { 8390} {s} {s} {4} {0} {} {1.000} {}
+E { 8495} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8390} {0} {} {North of Barristers Row} { } {This quiet street is where the city lawyers have set their offices. From there, they administer the important documents that track trade agreeements between merchants and other parties. In their offices, they collect, archive and protect the important commitments and treaties running the town.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8389} {n} {n} {1} {0} {} {1.000} {}
+E { 8495} {n} {n} {1} {0} {} {1.000} {}
 E { 8434} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8391} {0} {} {On Traders' Row} { } {A back alley to the central market connects busy streets with the prominent shops of the most skilled crafters and traders in town. Queues form in front of the entrance to these wealthy and well-chartered stores. The crafter shops seem to be specialized by their trade skill and offer supplies for those who also aspire to grow their skill following the teachings of a master. A sign hangs, showing a pot and cooking tools, advertising a shop to the west.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35517,6 +35517,7 @@ E { 8370} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8409} {0} {<149>} {The Smithing Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display wooden boxes filled with bars, tools, and other supplies used in the art of smithing.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8403} {w} {w} {8} {0} {} {1.000} {}
+E { 8497} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8410} {0} {<149>} {The Tailoring Supplies Shop} {V} {This large shop is organized to welcome a number of customers at the same time. Large wooden tables allow the shopkeeper to show supplies and products of their craft to the customers. On the walls, shelves display rolls of rich and colorful fabrics from all over the world.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8404} {w} {w} {8} {0} {} {1.000} {}
@@ -35533,11 +35534,11 @@ R { 8413} {0} {} {Behind the Fortifed Walls} { } {The outer ring of Freiburg, be
 E { 8380} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8414} {0} {} {Behind Fortified Walls} { } {The shadow of the large fortified wall surrounding the city covers here the most humble homes in town. Behind each home, you can see a small private garden where townfolks grow some standard vegetables and raise a few chickens.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8379} {n} {n} {1} {0} {} {1.000} {}
-E { 8419} {e} {e} {2} {0} {} {1.000} {}
+E { 8415} {e} {e} {2} {0} {} {1.000} {}
+E { 8380} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8415} {0} {} {Protected by the City Walls} { } {The outer ring of Freiburg, between the central market and the fortified walls is where more humble shops and residentials quarters are located. The houses are built in stone with tiled roofs which is way above the standard of the wooden shacks with a thatched roof found everywhere else in Europe. While this area gatheres more humble folks of Freiburg, the standard of living behind the city's walls is pretty high.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8420} {w} {w} {8} {0} {} {1.000} {}
+E { 8414} {w} {w} {8} {0} {} {1.000} {}
 E { 8416} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8416} {0} {} {Alongside the City Walls} { } {The outer ring of Freiburg, between the central market and the fortified walls is where more humble shops and residentials quarters are located. The houses are built in stone with tiled roofs which is way above the standard of the wooden shacks with a thatched roof found everywhere else in Europe.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35552,13 +35553,13 @@ R { 8418} {0} {} {Near the Fortified Walls} { } {The outer ring of Freiburg, bet
 E { 8417} {s} {s} {4} {0} {} {1.000} {}
 E { 8412} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8419} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 8414} {w} {w} {8} {0} {} {1.000} {}
-E { 8420} {e} {e} {2} {0} {} {1.000} {}
+R { 8419} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8374} {n} {n} {1} {0} {} {1.000} {}
+E { 8375} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8420} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 8419} {w} {w} {8} {0} {} {1.000} {}
-E { 8415} {e} {e} {2} {0} {} {1.000} {}
+R { 8420} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8440} {n} {n} {1} {0} {} {1.000} {}
+E { 8441} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8421} {0} {} {Behind the Fortifed Walls} { } {The outer ring of Freiburg, between the central market and the fortified walls is where more humble shops and residentials quarters are located. The houses are built in stone with tiled roofs which is way above the standard of the wooden shacks with a thatched roof found everywhere else in Europe. From here, you can hear the steps of soldiers patrolling the top of the walls.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8416} {s} {s} {4} {0} {} {1.000} {}
@@ -35566,7 +35567,7 @@ E { 8417} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8422} {0} {} {A Corner on Apple Lane} { } {This wide street near the center of town is bordered with rows of magnificent apple trees. Young kids pick up ripe fruits from the branches and keep them as a snack or a projectile to play with their friends. Houses and shops in this part of town are luxurious.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8428} {e} {e} {2} {0} {} {1.000} {}
-E { 8427} {n} {n} {1} {0} {} {1.000} {}
+E { 8500} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8423} {0} {} {A Round Cul-de-Sac} { } {A small stone plaza distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8396} {n} {n} {1} {0} {} {1.000} {}
@@ -35583,7 +35584,7 @@ E { 8427} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8427} {0} {} {South of Usurers' Row} { } {The wealthy bankers of Freiburg have established their offices in this quiet street. While the banks manage a large sum of coins and letters of exchange, few of these offices have a counter to deal directly with customers.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8426} {n} {n} {1} {0} {} {1.000} {}
-E { 8422} {s} {s} {4} {0} {} {1.000} {}
+E { 8500} {s} {s} {4} {0} {} {1.000} {}
 E { 8438} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8428} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -35600,14 +35601,14 @@ E { 8412} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8431} {0} {} {A North Corner on Apple Lane} { } {This wide street near the center of town is bordered with rows of magnificent apple trees. Young kids pick up ripe fruits from the branches and keep them as a snack or a projectile to play with their friends. Houses and shops in this part of town are luxurious.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8432} {w} {w} {8} {0} {} {1.000} {}
-E { 8433} {n} {n} {1} {0} {} {1.000} {}
+E { 8499} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8432} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8412} {w} {w} {8} {0} {} {1.000} {}
 E { 8431} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8433} {0} {} {The Barristers Row} { } {This quiet street is where the city lawyers have set their offices. From there, they administer the important documents that track trade agreeements between merchants and other parties. In their offices, they collect, archive and protect the important commitments and treaties running the town.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8431} {s} {s} {4} {0} {} {1.000} {}
+E { 8499} {s} {s} {4} {0} {} {1.000} {}
 E { 8434} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8434} {0} {} {On Barristers Row} { } {This quiet street is where the city lawyers have set their offices. From there, they administer the important documents that track trade agreeements between merchants and other parties.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35615,10 +35616,6 @@ E { 8433} {s} {s} {4} {0} {} {1.000} {}
 E { 8390} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8435} {0} {} {A Small Square Plaza} { } {A small stone plaza distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8436} {n} {n} {1} {0} {} {1.000} {}
-
-R { 8436} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 8435} {s} {s} {4} {0} {} {1.000} {}
 E { 8380} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8437} {0} {} {Perth's Manor House} { } {Fine stonework forms the walls around the manor house, creating a solid structure that is sure to withstand the tests of time for centuries. The house itself is made of the same stone work, with chimneys rising above. Crenellations surround the roof-top walkways, attesting to the importance the owner places on protection for those who dwell within.} {Player Housing} {perth} {} {} {1.000} {}
@@ -35633,14 +35630,14 @@ E { 8439} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8439} {0} {} {In The Jewish Quarter} { } {Members of the Jewish community have gathered in this part of town and established it as the smallest cadastral area of Freiburg. They run the commerce of diamonds and other precious stonework and supply many other businesses in town to the point of becoming indispensable to the city's economy.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8438} {e} {e} {2} {0} {} {1.000} {}
-E { 8440} {s} {s} {4} {0} {} {1.000} {}
+E { 8501} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8440} {0} {} {In the Jewish Quarter, By a Temple} { } {Members of the Jewish community have gathered in this part of town and established it as the smallest cadastral area of Freiburg. They run the commerce of diamonds and other precious stonework and supply many other businesses in town to the point of becoming indispensable to the city's economy. A good smell of fresh baked goods runs through the streets.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8439} {n} {n} {1} {0} {} {1.000} {}
-E { 8441} {s} {s} {4} {0} {} {1.000} {}
+E { 8501} {n} {n} {1} {0} {} {1.000} {}
+E { 8420} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8441} {0} {} {The Jewish Quarter, Near the Walls} { } {Members of the Jewish community have gathered in this part of town and established it as the smallest cadastral area of Freiburg. They run the commerce of diamonds and other precious stonework and supply many other businesses in town to the point of becoming indispensable to the city's economy.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8440} {n} {n} {1} {0} {} {1.000} {}
+E { 8420} {n} {n} {1} {0} {} {1.000} {}
 E { 8444} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8442} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -35847,3 +35844,34 @@ E { 8254} {u} {u} {16} {0} {} {1.000} {}
 
 R { 8493} {0} {} {Inside a Cave} { } {A large cave opens here, directly connected to the forest. The polished texture and somewhat-round shape of the walls indicates the cave is the extremity of an obstructed lava tube that used to connect deeper inside the volcano.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8469} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8494} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8369} {s} {s} {4} {0} {} {1.000} {}
+E { 8368} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8495} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8390} {s} {s} {4} {0} {} {1.000} {}
+E { 8389} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8496} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8388} {s} {s} {4} {0} {} {1.000} {}
+E { 8387} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8497} {0} {<149>} {The Smithy's Workshop} {V} {The forge is the center focus of this room, its fires creating a sweltering wall of heat. Apprentices labor away at the belows keeping the fire hot enough to be able to work the metal. It would be wise to conclude one's business quickly and escape back into the comfort of the front room of the shop.} {Freiburg, City of Trade} {} {} {} {1.000} {}
+E { 8409} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8498} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8372} {s} {s} {4} {0} {} {1.000} {}
+E { 8371} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8499} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8433} {n} {n} {1} {0} {} {1.000} {}
+E { 8431} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8500} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8427} {n} {n} {1} {0} {} {1.000} {}
+E { 8422} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8501} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8440} {s} {s} {4} {0} {} {1.000} {}
+E { 8439} {n} {n} {1} {0} {} {1.000} {}
