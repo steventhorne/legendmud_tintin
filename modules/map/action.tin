@@ -35,7 +35,7 @@
                 #VAR break true;
             }
             {
-                #REGEX {$line} {{^$}}
+                #REGEX {$line} {{^(?:\e\[[\;\d]{4,6}m)*$}}
                 {
                     #VAR break true;
                 };

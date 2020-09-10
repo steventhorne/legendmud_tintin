@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -15235,7 +15235,7 @@ E { 3541} {e} {e} {2} {0} {} {1.000} {}
 E { 5628} {n} {n} {1} {0} {} {1.000} {}
 E { 5629} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3541} {0} {} {In a Plaza} { } {This end of this enormous plaza is somewhat intimidating to stand in, with the imposing cathedral to the north, its flying buttresses and imposing statues towering above you; and the huge marble steps of the Viceroyal palace running the length of the plaza's edge to your south. The Avenida continues to the east, narrowing as it enters an older part of town, and the plaza stretches west of you.} {Viceroyal Lima } {} {} {} {1.000} {}
+R { 3541} {0} {<169>} {In a Plaza} {W} {This end of this enormous plaza is somewhat intimidating to stand in, with the imposing cathedral to the north, its flying buttresses and imposing statues towering above you; and the huge marble steps of the Viceroyal palace running the length of the plaza's edge to your south. The Avenida continues to the east, narrowing as it enters an older part of town, and the plaza stretches west of you.} {Viceroyal Lima } {} {} {} {1.000} {}
 E { 3540} {w} {w} {8} {0} {} {1.000} {}
 E { 3542} {n} {n} {1} {0} {} {1.000} {}
 E { 3543} {e} {e} {2} {0} {} {1.000} {}
@@ -35553,11 +35553,11 @@ R { 8418} {0} {} {Near the Fortified Walls} { } {The outer ring of Freiburg, bet
 E { 8417} {s} {s} {4} {0} {} {1.000} {}
 E { 8412} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8419} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8419} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8374} {n} {n} {1} {0} {} {1.000} {}
 E { 8375} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8420} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8420} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8440} {n} {n} {1} {0} {} {1.000} {}
 E { 8441} {s} {s} {4} {0} {} {1.000} {}
 
@@ -35845,33 +35845,33 @@ E { 8254} {u} {u} {16} {0} {} {1.000} {}
 R { 8493} {0} {} {Inside a Cave} { } {A large cave opens here, directly connected to the forest. The polished texture and somewhat-round shape of the walls indicates the cave is the extremity of an obstructed lava tube that used to connect deeper inside the volcano.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8469} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8494} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8494} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8369} {s} {s} {4} {0} {} {1.000} {}
 E { 8368} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8495} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8495} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8390} {s} {s} {4} {0} {} {1.000} {}
 E { 8389} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8496} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8496} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8388} {s} {s} {4} {0} {} {1.000} {}
 E { 8387} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8497} {0} {<149>} {The Smithy's Workshop} {V} {The forge is the center focus of this room, its fires creating a sweltering wall of heat. Apprentices labor away at the belows keeping the fire hot enough to be able to work the metal. It would be wise to conclude one's business quickly and escape back into the comfort of the front room of the shop.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8409} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8498} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8498} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8372} {s} {s} {4} {0} {} {1.000} {}
 E { 8371} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8499} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8499} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8433} {n} {n} {1} {0} {} {1.000} {}
 E { 8431} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8500} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8500} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8427} {n} {n} {1} {0} {} {1.000} {}
 E { 8422} {s} {s} {4} {0} {} {1.000} {}
 
-R { 8501} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R { 8501} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8440} {s} {s} {4} {0} {} {1.000} {}
 E { 8439} {n} {n} {1} {0} {} {1.000} {}
