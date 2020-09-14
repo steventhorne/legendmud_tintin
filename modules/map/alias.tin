@@ -100,14 +100,26 @@
 
 #ALIAS {walk %1}
 {
-	#MAP find {} {roomnote} {%1};
-	#PATH run 0.05;
+    #REGEX {%1} {^%d$}
+    {
+        #MAP find %1;
+    }
+    {
+        #MAP find {} {roomnote} {%1};
+    };
+    #PATH run 0.05;
 }
 {5}
 
 #ALIAS {slowwalk %1}
 {
-    #MAP find {} {roomnote} {%1};
+    #REGEX {%1} {^%d$}
+    {
+        #MAP find %1;
+    }
+    {
+        #MAP find {} {roomnote} {%1};
+    };
     #TICK {slowwalk} {#PATH walk f} {0.25};
 }
 {5}
@@ -160,3 +172,52 @@
     #SEND enq ponder self;
     #SEND st;
 }
+
+#ALIAS {mapnorm}
+{
+    #MAP SET roomcolor {};
+    #MAP SET roomsymbol { };
+}
+{5}
+
+#ALIAS {mapbank}
+{
+    #MAP SET roomcolor {<139>};
+    #MAP SET roomsymbol {B};
+}
+{5}
+
+#ALIAS {mapvendor}
+{
+    #MAP SET roomcolor {<149>};
+    #MAP SET roomsymbol {V};
+}
+{5}
+
+#ALIAS {mapinn}
+{
+    #MAP SET roomcolor {<129>};
+    #MAP SET roomsymbol {I};
+}
+{5}
+
+#ALIAS {mapwater}
+{
+    #MAP SET roomcolor {<169>};
+    #MAP SET roomsymbol {W};
+}
+{5}
+
+#ALIAS {maptrans}
+{
+    #MAP SET roomcolor {<159>};
+    #MAP SET roomsymbol {T};
+}
+{5}
+
+#ALIAS {mapph}
+{
+    #MAP SET roomcolor {<fca>};
+    #MAP SET roomsymbol { };
+}
+{5}

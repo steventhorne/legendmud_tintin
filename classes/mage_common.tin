@@ -1,0 +1,75 @@
+#VAR spells[mind] {vid kala dyn};
+#VAR spellhelp[Buffs ][mind       ] {[25] "Brainpower"          - +10 MIND};
+#VAR spells[spi] {vid lak dyn};
+#VAR spellhelp[Buffs ][spi        ] {[25] "Epiphany"            - +10 SPI};
+#VAR spells[per] {vina lak dyn};
+#VAR spellhelp[Buffs ][per        ] {[25] "Quickeye"            - +10 PER};
+#VAR spells[rpoison] {vid vya pur};
+#VAR spellhelp[Buffs ][rpoison    ] {[50] "Resist poison"       - increase save vs poison};
+#VAR spells[fade] {guh gam dyn};
+#VAR spellhelp[Buffs ][fade       ] {[35] "Fade person"         -};
+
+
+#VAR spells[dh] {vid gam};
+#VAR spellhelp[Vision][dh         ] {[20] "Detect hidden"       -};
+#VAR spells[di] {vid lak gam};
+#VAR spellhelp[Vision][di         ] {[  ] "Detect illusion"     -};
+#VAR spells[infra] {vid lak};
+#VAR spellhelp[Vision][infra      ] {[15] "Infravision"         - see forms in the dark};
+#VAR spells[aura] {vid pur};
+#VAR spellhelp[Vision][aura       ] {[10] "Aura sight"          -};
+
+
+#VAR spells[idper] {vid dyn};
+#VAR spellhelp[Info  ][idper      ] {[25] "Identify person"     - shows lots of details};
+#VAR spells[judge] {vid drva};
+#VAR spellhelp[Info  ][judge      ] {[10] "Judge"               - report HP of target};
+#VAR spells[id] {vid};
+#VAR spellhelp[Info  ][id         ] {[10] "Identify"            - identify objects};
+#VAR spells[detectp] {vid vya};
+#VAR spellhelp[Info  ][detectp    ] {[10] "Detect poison"       -};
+#VAR spells[detectm] {vid vant};
+#VAR spellhelp[Info  ][detectm    ] {[20] "Detect magic"        -};
+#VAR spells[reports] {vid drva dyn};
+#VAR spellhelp[Info  ][reports    ] {[  ] "Report"              -};
+#VAR spells[assess] {vid drva pur};
+#VAR spellhelp[Info  ][assess     ] {[15] "Assess protection"   - compares your AC to target's};
+
+
+#VAR spells[limn] {vid gam vant};
+#VAR spellhelp[Debuff][limn       ] {[20] "Limn"                - makes target easier to hit};
+
+
+#VAR spells[sink] {vid pur vant};
+#VAR spellhelp[Battle][sink       ] {[35] "Magic Sink"          - absorb mana cast at you};
+#VAR spells[stun] {guh lak vya};
+#VAR spellhelp[Battle][stun       ] {[  ] "Stun"                - may backfire};
+
+
+#VAR spells[forage] {vid drva lak};
+#VAR spellhelp[Misc  ][forage     ] {[25] "Forage"              -};
+#VAR spells[hides] {guh};
+#VAR spellhelp[Misc  ][hides      ] {[  ] "Hide"                -};
+#VAR spells[sneaks] {guh gam};
+#VAR spellhelp[Misc  ][sneaks     ] {[  ] "Sneak"               -};
+#VAR spells[youth] {vid kala pur};
+#VAR spellhelp[Misc  ][youth      ] {[  ] "Youth"               -};
+
+
+#nop #VAR spells[areasight] {vid bhu};
+#nop #VAR spellhelp[3c][areasight] {.};
+#nop #VAR spells[census] {vid gam jiv};
+#nop #VAR spellhelp[3c][census] {.};
+#nop #VAR spells[idobj] {vid mahi};
+#nop #VAR spellhelp[3c][idobj] {.};
+#nop #VAR spells[locate] {vid gam bhu};
+#nop #VAR spellhelp[3c][locate] {.};
+#nop #VAR spells[phase] {vid vayu mahi};
+#nop #VAR spellhelp[3c][phase] {.};
+#nop #VAR spells[protfire] {vid pur agni};
+#nop #VAR spellhelp[3c][protfire] {.};
+#nop #VAR spells[sustained] {vid pur udan};
+#nop #VAR spellhelp[3c][sustained] {.};
+#nop #VAR spells[timesight] {vid kala mahi};
+#nop #VAR spellhelp[3c][timesight] {.};
+

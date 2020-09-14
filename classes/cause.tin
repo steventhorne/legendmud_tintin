@@ -1,0 +1,154 @@
+#read {classes/mage_common.tin}
+
+#VAR spells[per] {vina lak dyn};
+#VAR spellhelp[Buffs ][per        ] {[25] "Quickeye"            - +10 PER};
+#VAR spells[str] {vina vant dyn};
+#VAR spellhelp[Buffs ][str        ] {[25] "Strength"            - +10 STR};
+#VAR spells[refresh] {vina gam drva};
+#VAR spellhelp[Buffs ][refresh    ] {[10] "Refresh"             - +MOV};
+#VAR spells[armor] {vina pur};
+#VAR spellhelp[Buffs ][armor      ] {[20] "Armor"               - -20 AC};
+#VAR spells[barkskin] {vina pur gam};
+#VAR spellhelp[Buffs ][barkskin   ] {[25] "Barkskin"            - -20 AC, resist blast, subsept chop};
+#VAR spells[bless] {vina vant drva};
+#VAR spellhelp[Buffs ][bless      ] {[15] "Bless"               - bonus to hitroll (5?) };
+#VAR spells[protpoison] {vina pur vya};
+#VAR spellhelp[Buffs ][protpoison ] {[20] "Protection v poison" - +immunity};
+#VAR spells[refreshment] {vina kala gam};
+#VAR spellhelp[Buffs ][refreshment] {[40] "Refreshment"         - increases MOV regen for a time};
+#VAR spells[regen] {vina kala drva};
+#VAR spellhelp[Buffs ][regen      ] {[50] "Regeneration"        - increases HP regen for a time};
+#VAR spells[lucid] {vina kala vant};
+#VAR spellhelp[Buffs ][lucid      ] {[50] "Lucidity"            - increases mana regen (MIND based)};
+
+
+#VAR spells[cblind] {vina vant lak};
+#VAR spellhelp[Vision][cblind     ] {[15] "Cure blindness"      -};
+#VAR spells[flash] {vina lak};
+#VAR spellhelp[Vision][flash      ] {[15] "Flash of vision"     - allows every one to see the room};
+
+
+#VAR spells[idiocy] {meue kala dyn};
+#VAR spellhelp[Debuff][idiocy     ] {[25] "Idiocy"              - -10% MIND};
+#VAR spells[weaken] {meue vant dyn};
+#VAR spellhelp[Debuff][weaken     ] {[25] "Weaken"              - -10% STR};
+#VAR spells[wprot] {meue pur};
+#VAR spellhelp[Debuff][wprot      ] {[35] "Weaken protection"   - +AC for a time};
+
+#VAR spells[beam] {vina vya lak};
+#VAR spellhelp[Battle][beam       ] {[16] "Beam of pain"        - 28 base damage (AGG)};
+#VAR spells[harm] {meue drva dyn};
+#VAR spellhelp[Battle][harm       ] {[15] "Harm"                - 24 base damage (AGG)};
+#VAR spells[wither] {meue drva};
+#VAR spellhelp[Battle][wither     ] {[ 3] "Wither"              - 9 base damage (AGG)};
+#VAR spells[clight] {vina drva};
+#VAR spellhelp[Battle][clight     ] {[4+] "Cure light"          - amount and cost based on MIND};
+#VAR spells[blind] {meue vant lak};
+#VAR spellhelp[Battle][blind      ] {[30] "Blindness"           - blinds target for 5 rounds (AGG)};
+#VAR spells[fear] {vina gam dyn};
+#VAR spellhelp[Battle][fear       ] {[25] "Fear"                - (may AGG)};
+#VAR spells[sleeps] {meue gam drva};
+#VAR spellhelp[Battle][sleeps     ] {[30] "Sleep"               - (may AGG)};
+#VAR spells[sloth] {meue gam};
+#VAR spellhelp[Battle][sloth      ] {[10] "Sloth"               - cause target to rest};
+#VAR spells[clumsy] {meue gam dyn};
+#VAR spellhelp[Battle][emp        ] {[70] "Empathy"             - take on pain and suffering of target};
+#VAR spells[evil] {vina vya vant};
+#VAR spellhelp[Battle][evil       ] {[22] "Evil thoughts"       - 33 base damage (AGG)};
+#VAR spells[binds] {meue gam gam};
+#VAR spellhelp[Battle][binds      ] {[30] "Binding"             - Keeps a mob from leaving the room. May backfire.}
+
+#VAR spells[recall] {meue dyn};
+#VAR spellhelp[Misc  ][recall     ] {[50] "Recall"              - send target home};
+
+#nop #VAR spells[animate] {vina jiv mrti};
+#nop #VAR spellhelp[vina_3c][animate] {.};
+#nop #VAR spells[cough] {vina vya vayu};
+#nop #VAR spellhelp[vina_3c][cough] {.};
+#nop #VAR spells[ccrit] {vina drva rudh};
+#nop #VAR spellhelp[vina_3c][ccrit] {.};
+#nop #VAR spells[curse] {vina vya jiv};
+#nop #VAR spellhelp[vina_3c][curse] {.};
+#nop #VAR spells[plague] {vina vya rudh};
+#nop #VAR spellhelp[vina_3c][plague] {.};
+#nop #VAR spells[drown] {vina gam udan};
+#nop #VAR spellhelp[vina_3c][drown] {.};
+#nop #VAR spells[firestorm] {vina agni rudh};
+#nop #VAR spellhelp[vina_3c][firestorm] {.};
+#nop #VAR spells[storm] {vina agni rudh};
+#nop #VAR spellhelp[vina_3c][storm] {.};
+#nop #VAR spells[gust] {vina gam vayu};
+#nop #VAR spellhelp[vina_3c][gust] {.};
+#nop #VAR spells[immolate] {vina agni mrti};
+#nop #VAR spellhelp[vina_3c][immolate] {.};
+#nop #VAR spells[death] {vina dyn mrti};
+#nop #VAR spellhelp[vina_3c][death] {.};
+#nop #VAR spells[lava] {vina agni bhu};
+#nop #VAR spellhelp[vina_3c][lava] {.};
+#nop #VAR spells[meteor] {vina mahi rudh};
+#nop #VAR spellhelp[vina_3c][meteor] {.};
+#nop #VAR spells[noise] {vina gam anna};
+#nop #VAR spellhelp[vina_3c][noise] {.};
+#nop #VAR spells[persp] {vina vant rudh};
+#nop #VAR spellhelp[vina_3c][persp] {.};
+#nop #VAR spells[rejuv] {vina gam rudh};
+#nop #VAR spellhelp[vina_3c][rejuv] {.};
+#nop #VAR spells[reviv] {vina kala jiv};
+#nop #VAR spellhelp[vina_3c][reviv] {.};
+#nop #VAR spells[rof] {vina agni vayu};
+#nop #VAR spellhelp[vina_3c][rof] {.};
+#nop #VAR spells[stoneskin] {vina pur bhu};
+#nop #VAR spellhelp[vina_3c][stoneskin] {.};
+#nop #VAR spells[turn] {vina pur mrti};
+#nop #VAR spellhelp[vina_3c][turn] {.};
+#nop #VAR spells[watery] {vina udan mrti};
+#nop #VAR spellhelp[vina_3c][watery] {.};
+#nop #VAR spells[fly] {meue dyn bhu};
+#nop #VAR spellhelp[vina_3c][fly] {.};
+#nop #VAR spells[remcurse] {meue vya jiv};
+#nop #VAR spellhelp[vina_3c][remcurse] {.};
+
+#FOREACH {*spells[%*]} {spell}
+{
+    #LINE sub {var}
+    {
+        #ALIAS {$spell} {chant $spells[$spell] ex};
+    }
+};
+
+#FOREACH {*spellhelp[%*]} {shelp_category}
+{
+    #FOREACH {*spellhelp[$shelp_category][%*]} {spell}
+    {
+        #LINE sub {var}
+        {
+            #VAR shelp_list[$shelp_category][$spell] {$spellhelp[$shelp_category][$spell]};
+        }
+    };
+};
+
+#SHOWME Use shelp to see more information on spells.
+
+#ALIAS {shelp}
+{
+    #IF {&shelp_list[]} {}
+    {
+        #SHOWME <019>There are no defined aliases.<099>;
+    };
+
+    #IF {"%0" == ""}
+    {
+        #FOREACH {*shelp_list[%*]} {shelp_category}
+        {
+            #SHOWME {     $shelp_category};
+            #FOREACH {*shelp_list[$shelp_category][%*]} {shelp_item}
+            {
+                #SHOWME {        <069>${shelp_item}<099>: $shelp_list[$shelp_category][$shelp_item]};
+            }
+        }
+        #UNVAR shelp_category;
+        #UNVAR shelp_item;
+    }
+}
+
+

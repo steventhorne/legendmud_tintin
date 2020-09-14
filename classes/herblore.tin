@@ -1,0 +1,220 @@
+#IF {$is_startup}
+{
+    #VAR phelp_list[herblore][autoforage] {Enabled/disables autoforage (true/false).};
+};
+
+#ALIAS {autoforage %*}
+{
+    #SHOWME autoforage set to %1.;
+    #VAR autoforage %1;
+}
+
+#nop ----------------------------------------------------------------------
+#nop Potion identification
+#nop ----------------------------------------------------------------------
+
+#VAR potions[fly]                 {a glass vial containing blue-violet liquid}
+#VAR potions[invisibility]        {a glass vial containing pink-tinted liquid}
+#VAR potions[cure blind]          {a glass vial containing clear liquid}
+#VAR potions[sustained breath]    {a glass vial containing cloudy brown liquid}
+#VAR potions[detect invisibility] {a glass vial containing orange liquid}
+#VAR potions[prescience]          {a glass vial containing sparkly yellow liquid}
+#VAR potions[+str/cure poison]    {a glass vial containing milky liquid}
+#VAR potions[hightened senses]    {a glass vial containing dark black liquid}
+#VAR potions[spirit]              {a glass vial containing light purple liquid}
+#VAR potions[mental focus]        {a glass vial containing light tan liquid}
+
+#FOREACH {*potions[%*]} {potion}
+{
+    #LINE sub {var}
+    {
+        #ACTION {$potions[$potion]} {#SHOWME <030>[$potion]<070> ;};
+    }
+};
+
+#nop ----------------------------------------------------------------------
+#nop Herb identification
+#nop ----------------------------------------------------------------------
+
+#VAR herb_desc[marigold]    {orange marigold}
+#VAR herb_shrt[marigold]    {a marigold flower}
+#VAR herb_uses[marigold]    {B:detect inv,P:cure poison,FL:refresh}
+#VAR herb_auto[marigold]    {no}
+
+#VAR herb_desc[nightshade]  {An eerie-looking, completely dark purple plant lurks in the underbrush here.}
+#VAR herb_shrt[nightshade]  {a deadly nightshade}
+#VAR herb_uses[nightshade]  {B:fly,FO:major poison}
+#VAR herb_auto[nightshade]  {yes}
+
+#VAR herb_desc[jimsonweed]  {You catch the odor of something unpleasant growing here.}
+#NOP #VAR herb_shrt[]            {}
+#VAR herb_uses[jimsonweed]  {B|FO:weaken,inhib thought/movement}
+#VAR herb_auto[jimsonweed]  {no}
+
+#VAR herb_desc[dock]        {Foot-long, lance-shaped leaves are growing wild here.}
+#VAR herb_shrt[dock]        {a dock plant}
+#VAR herb_uses[dock]        {P:cure light/burns}
+#VAR herb_auto[dock]        {yes}
+
+#VAR herb_desc[sage]        {What appears to be a sparsely-flowered lavender plant is growing here.}
+#VAR herb_shrt[sage]        {a sage plant}
+#VAR herb_uses[sage]        {B:cure light,A:+mind}
+#VAR herb_auto[sage]        {yes}
+
+#VAR herb_desc[juniper]     {A dwarf evergreen with reddish-brown bark has been planted here.}
+#VAR herb_shrt[juniper]     {a sprig of juniper}
+#VAR herb_uses[juniper]     {P:cure light,A:+str}
+#VAR herb_auto[juniper]     {yes}
+
+#VAR herb_desc[tormentil]   {You nearly miss spotting a 3" dark green, hairy plant growing here.}
+#VAR herb_shrt[tormentil]   {a tormentil plant}
+#VAR herb_uses[tormentil]   {B:fly,A:resist stun,FO:minor poison}
+#VAR herb_auto[tormentil]   {yes}
+
+#VAR herb_desc[vervain]     {A spiky-looking plant with rings of purplish-white flowers is growing here.}
+#VAR herb_shrt[vervain]     {a vervain plant}
+#VAR herb_uses[vervain]     {P:cure light,FO:minor poison}
+#VAR herb_auto[vervain]     {yes}
+
+#VAR herb_desc[yarrow]      {Miniature daisies are growing out of fernlike foliage here.}
+#VAR herb_shrt[yarrow]      {a yarrow plant}
+#VAR herb_uses[yarrow]      {P:cure light,A:resist stun}
+#VAR herb_auto[yarrow]      {yes}
+
+#VAR herb_desc[angelica]    {An angelica plant is here, looking like hugely overgrown celery.}
+#VAR herb_shrt[angelica]    {an angelica plant}
+#VAR herb_uses[angelica]    {P:cure light,B:saving poison -2,A:resist smite,FL:+str}
+#VAR herb_auto[angelica]    {yes}
+
+#VAR herb_desc[crocus]      {An autumn crocus pokes its way out of the ground here.}
+#VAR herb_shrt[crocus]      {an autumn crocus}
+#VAR herb_uses[crocus]      {unknown}
+#VAR herb_auto[crocus]      {no}
+
+#VAR herb_desc[mugwort]     {A purple-stemmed plant with big ball-shaped flowers towers all others around it.}
+#VAR herb_shrt[mugwort]     {some mugwort}
+#VAR herb_uses[mugwort]     {P:bless,B:cure blind,A:+per}
+#VAR herb_auto[mugwort]     {yes}
+
+#VAR herb_desc[willow]      {A piece of bark, perhaps from a willow tree, lies here.}
+#VAR herb_shrt[willow]      {some willowbark}
+#VAR herb_uses[willow]      {P:cure light,FL:cure light,O:cure light}
+#VAR herb_auto[willow]      {yes}
+
+#VAR herb_desc[barberries]  {Orange-red berries grow on a many-branched shrub here.}
+#VAR herb_shrt[barberries]  {a handful of barberries}
+#VAR herb_uses[barberries]  {P:cure light,O:cure light}
+#VAR herb_auto[barberries]  {yes}
+
+#VAR herb_desc[valerian]    {An unassuming roadside weed here has the odor of dirty socks.}
+#VAR herb_shrt[valerian]    {a valerian plant}
+#VAR herb_uses[valerian]    {B:weaken}
+#VAR herb_auto[valerian]    {no}
+
+#VAR herb_desc[flax]        {A clump of flax is here, waving gently in the breeze.}
+#VAR herb_shrt[flax]        {a clump of flax}
+#VAR herb_uses[flax]        {B:poison,A:+dex}
+#VAR herb_auto[flax]        {no}
+
+#VAR herb_desc[monkshood]   {A blue-violet flower shaped like a monk's hood grows in a moist patch here.}
+#VAR herb_shrt[monkshood]   {a monkshood plant}
+#VAR herb_uses[monkshood]   {B:fly,FO:minor poison}
+#VAR herb_auto[monkshood]   {yes}
+
+#VAR herb_desc[hellebore]   {A rose seems to grow directly from the ground here, independent of a rosebush.}
+#VAR herb_shrt[hellebore]   {hellebore}
+#VAR herb_uses[hellebore]   {B:invisibility}
+#VAR herb_auto[hellebore]   {yes}
+
+#VAR herb_desc[sea-weed]    {Yucky, icky, slimy sea-weed lies here.}
+#VAR herb_shrt[sea-weed]    {sea-weed}
+#VAR herb_uses[sea-weed]    {B:sustained breath}
+#VAR herb_auto[sea-weed]    {yes}
+
+#VAR herb_desc[elderberries] {A shrubbery is growing here. It appears to be producing elderberries.}
+#VAR herb_shrt[elderberries] {a bunch of elderberries}
+#VAR herb_uses[elderberries] {B:prot evil,P:cure light,O:cure light}
+#VAR herb_auto[elderberries] {yes}
+
+#VAR herb_desc[woodruff]    {A delicate, spindly herb is growing here.}
+#VAR herb_shrt[woodruff]    {some woodruff}
+#VAR herb_uses[woodruff]    {P:cure light}
+#VAR herb_auto[woodruff]    {yes}
+
+#VAR herb_desc[lavender]    {Tiny flowers nestle in the dusky-grey leaves of the spiky plant growing here.}
+#VAR herb_shrt[lavender]    {a purple-flowered lavender plant}
+#VAR herb_uses[lavender]    {B:+spi}
+#VAR herb_auto[lavender]    {yes}
+
+#VAR herb_desc[chamomile]   {An apple-scented flower with feathery leaves is blooming here.}
+#VAR herb_shrt[chamomile]   {a chamomile flower}
+#VAR herb_uses[chamomile]   {B:sleep,FL:bless}
+#VAR herb_auto[chamomile]   {yes}
+
+#VAR herb_desc[oregano]     {A short, green plant with oval leaves is growing here.}
+#VAR herb_shrt[oregano]     {a bunch of oregano}
+#VAR herb_uses[oregano]     {P:cure light}
+#VAR herb_auto[oregano]     {yes}
+
+#VAR herb_desc[woad]        {Some large blueish-green leaves have been carefully tended here.}
+#VAR herb_shrt[woad]        {some woad leaves}
+#VAR herb_uses[woad]        {P:cure light}
+#VAR herb_auto[woad]        {yes}
+
+#VAR herb_desc[borage]      {A blue flower with prominent black stamen grows from a leafy plant here.}
+#VAR herb_shrt[borage]      {some borage leaves}
+#VAR herb_uses[borage]      {FL:+str}
+#VAR herb_auto[borage]      {no}
+
+#VAR herb_desc[rosemary]    {A bunch of silvery-green, needle-shaped leaves and pale blue flowers is here.}
+#VAR herb_shrt[rosemary]    {a bunch of rosemary}
+#VAR herb_uses[rosemary]    {B:heightend senses}
+#VAR herb_auto[rosemary]    {yes}
+
+#VAR herb_desc[parsley]     {The feathery green leaves of a parsley plant are sprouting here.}
+#VAR herb_shrt[parsley]     {a few sprigs of parsley}
+#VAR herb_uses[parsley]     {P:cure light,B:refresh,O:cure light,A:+con}
+#VAR herb_auto[parsley]     {yes}
+
+
+#NOP #VAR herb_desc[]            {}
+#NOP #VAR herb_shrt[]            {}
+#NOP #VAR herb_uses[]            {}
+#NOP #VAR herb_auto[]            {yes}
+
+
+
+#nop -=-=-=-=-=-=-=-= Long description =-=-=-=-=-=-=-=-  ;
+#FOREACH {*herb_desc[%*]} {name}
+{
+    #LINE sub {var}
+    {
+        #ACTION {$herb_desc[$name]} 
+        {
+            #LINE ignore #SHOWME <030>[$name] ($herb_uses[$name])<070>;
+
+            #IF {"$prompt[area]" != "Player Housing"} 
+            {
+                #IF {"$autoforage" == "true"}
+                {
+                    #IF {"$herb_auto[$name]" == "yes"}
+                    {
+                        #SEND get $name;put $name bag;
+                    };
+                };
+            };
+        };
+    }
+};
+
+#nop -=-=-=-=-=-=-=-= Short description =-=-=-=-=-=-=-=-=-  ;
+#FOREACH {*herb_shrt[%*]} {name}
+{
+    #LINE sub {var}
+    {
+        #ACTION {$herb_shrt[$name]} 
+        {
+            #LINE ignore #SHOWME <030>($herb_uses[$name])<070>;
+        };        
+    }
+};
