@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -35426,7 +35426,7 @@ E { 8384} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8387} {0} {} {A Corner in the Tanners' Street} { } {The strong smell of tanned leathers blasts through this street but the busy citizens of Freiburg do not seem to care as they move though town with haste, focused on their pressing matters. The trade of leather is very profitable to the European economy and this street shows some of the nicest homes in town.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8398} {e} {e} {2} {0} {} {1.000} {}
-E { 8496} {s} {s} {4} {0} {} {1.000} {}
+E {28504} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8388} {0} {} {The Usurers' Row} { } {The wealthy bankers of Freiburg have established their offices on this quiet street. While the banks manage a large sum of coins and letters of exchange, few of these offices have a counter to deal directly with customers. Instead, withdrawals and deposits are handled at the main inn of the city.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8496} {n} {n} {1} {0} {} {1.000} {}
@@ -35438,7 +35438,7 @@ E { 8407} {w} {w} {8} {0} {} {1.000} {}
 E { 8495} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8390} {0} {} {North of Barristers Row} { } {This quiet street is where the city lawyers have set their offices. From there, they administer the important documents that track trade agreeements between merchants and other parties. In their offices, they collect, archive and protect the important commitments and treaties running the town.} {Freiburg, City of Trade} {} {} {} {1.000} {}
-E { 8495} {n} {n} {1} {0} {} {1.000} {}
+E {28437} {n} {n} {1} {0} {} {1.000} {}
 E { 8434} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8391} {0} {} {On Traders' Row} { } {A back alley to the central market connects busy streets with the prominent shops of the most skilled crafters and traders in town. Queues form in front of the entrance to these wealthy and well-chartered stores. The crafter shops seem to be specialized by their trade skill and offer supplies for those who also aspire to grow their skill following the teachings of a master. A sign hangs, showing a pot and cooking tools, advertising a shop to the west.} {Freiburg, City of Trade} {} {} {} {1.000} {}
@@ -35851,12 +35851,12 @@ E { 8369} {s} {s} {4} {0} {} {1.000} {}
 E { 8368} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8495} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 8390} {s} {s} {4} {0} {} {1.000} {}
+E {28437} {s} {s} {4} {0} {} {1.000} {}
 E { 8389} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8496} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8388} {s} {s} {4} {0} {} {1.000} {}
-E { 8387} {n} {n} {1} {0} {} {1.000} {}
+E {28504} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8497} {0} {<149>} {The Smithy's Workshop} {V} {The forge is the center focus of this room, its fires creating a sweltering wall of heat. Apprentices labor away at the belows keeping the fire hot enough to be able to work the metal. It would be wise to conclude one's business quickly and escape back into the comfort of the front room of the shop.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8409} {s} {s} {4} {0} {} {1.000} {}
@@ -35881,9 +35881,18 @@ R {28436} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8370} {n} {n} {1} {0} {} {1.000} {}
 E { 8371} {s} {s} {4} {0} {} {1.000} {}
 
+R {28437} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8495} {n} {n} {1} {0} {} {1.000} {}
+E { 8390} {s} {s} {4} {0} {} {1.000} {}
+
 R {28502} {0} {<fca>} {Seleha's Market Stall} {$} {It is the simplest of market stalls, comprised of a rough wooden frame that has been draped with an equally rustic fabric to form an awning to protect both trader and wares from the weather. There is plenty of space to display the goods for sale on a rickety table that divides the stall from the street.} {Player Housing} {seleha} {} {} {1.000} {}
 E { 8371} {e} {e} {2} {0} {} {1.000} {}
 E {28503} {n} {n} {1} {0} {} {1.000} {}
 
 R {28503} {0} {<fca>} {A Tiny Garden} { } {It is almost too small to be called a garden. It is just a patch of dirt behind the stall where someone has haphazardly tried to grow a few plants. The soil is obviously not overly fertile, but with the aid of skilled hands something might actually grow.} {Player Housing} {} {} {} {1.000} {}
 E {28502} {s} {s} {4} {0} {} {1.000} {}
+
+R {28504} {8} {} {} { } {} {} {} {} {} {1.000} {}
+E { 8496} {s} {s} {4} {0} {} {1.000} {}
+E { 8387} {n} {n} {1} {0} {} {1.000} {}
+
