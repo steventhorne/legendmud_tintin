@@ -7301,7 +7301,7 @@ R { 1653} {0} {} {On the Bank} { } {The mighty Ganges comes to a rocky bank here
 E { 1639} {e} {e} {2} {0} {} {1.000} {}
 E { 1654} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1654} {0} {} {The Village Well} { } {The dusty road into town opens up here in a large circle around a small stone well. Nadia is a tiny community, poor in resources but rich in spirituality. Their meager income is derived from the sparse fields to the west, but far more important to them is the occasional presence of the wandering priests from Patiliputra, who come to them telling the tales of the ancients.} {Ancient India } {} {} {} {1.000} {}
+R { 1654} {0} {<169>} {The Village Well} {W} {The dusty road into town opens up here in a large circle around a small stone well. Nadia is a tiny community, poor in resources but rich in spirituality. Their meager income is derived from the sparse fields to the west, but far more important to them is the occasional presence of the wandering priests from Patiliputra, who come to them telling the tales of the ancients.} {Ancient India } {} {} {} {1.000} {}
 E { 1653} {e} {e} {2} {0} {} {1.000} {}
 E { 1655} {w} {w} {8} {0} {} {1.000} {}
 E { 1662} {n} {open n;n} {1} {0} {} {1.000} {}
@@ -7651,7 +7651,7 @@ E { 1739} {w} {w} {8} {0} {} {1.000} {}
 E { 1741} {n} {n} {1} {0} {} {1.000} {}
 E { 1742} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1741} {0} {} {The Weaponeer Shop} { } {This place smells like sweat and leather. A vast array of weapons are lined up on a wooden table, ready to be purchased by citizens or farmers looking to defend their place outside the city walls from bandits and animals. It looks like the owner of the place is ready to also provide some instructions on how to handle and manipulate his craft.} {Sumer } {} {} {} {1.000} {}
+R { 1741} {0} {<149>} {The Weaponeer Shop} {V} {This place smells like sweat and leather. A vast array of weapons are lined up on a wooden table, ready to be purchased by citizens or farmers looking to defend their place outside the city walls from bandits and animals. It looks like the owner of the place is ready to also provide some instructions on how to handle and manipulate his craft.} {Sumer } {} {} {} {1.000} {}
 E { 1740} {s} {s} {4} {0} {} {1.000} {}
 
 R { 1742} {0} {} {In the Canals} { } {You stand in the middle of vast irrigated fields that feed the city of the Ur and probably the nearby estates outside of town. The people of Ur seem to master control of the water element and have built a well-architected network of canals that provide water throughout the whole fields.} {Sumer } {} {} {} {1.000} {}
@@ -12680,7 +12680,7 @@ E { 2935} {s} {open s;s} {4} {0} {} {1.000} {}
 R { 2934} {0} {<149>} {A Jeweller's Shop} {V} {Locked glass display cabinets contain all types of decorations from gem-studded tiaras to fob-watches. Behind the counter, the jeweller proudly has all his tools on display, from the fine lenses used to check for fakes, through the instruments used for cutting jewels and fashioning chains from metals.} {Gold Rush Melbourne } {} {} {} {1.000} {}
 E { 2933} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R { 2935} {0} {} {The Bank of Victoria} { } {As you step through solid oak doors into the office, your eyes take a moment to adjust to the gloomy light inside - very little is passing through the windows thanks to the solid iron bars protecting them, and the tiny lamp at the counter doesn't help much. The counter is covered by a sturdy grille, and has two windows, labelled "Gold" and "Currency" respectively.} {Gold Rush Melbourne } {} {} {} {1.000} {}
+R { 2935} {0} {<139>} {The Bank of Victoria} {B} {As you step through solid oak doors into the office, your eyes take a moment to adjust to the gloomy light inside - very little is passing through the windows thanks to the solid iron bars protecting them, and the tiny lamp at the counter doesn't help much. The counter is covered by a sturdy grille, and has two windows, labelled "Gold" and "Currency" respectively.} {Gold Rush Melbourne } {} {} {} {1.000} {}
 E { 2933} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 2936} {0} {} {The Top End of Swanston Street} { } {Swanston Street leads southward down a gentle slope toward the river from here. It is a good even thoroughfare, lined with gas lamps to ensure easy travel both night and day. The street is lined with offices and the occasional house or shop, but it seems as if most of the places of interest are actually in the cross roads, judging from the traffic. To your north, a great deal of construction seems to be in progress, in what seems to be a residential area.} {Gold Rush Melbourne } {} {} {} {1.000} {}
@@ -17854,7 +17854,7 @@ E { 4162} {e} {e} {2} {0} {} {1.000} {}
 E { 4214} {w} {w} {8} {0} {} {1.000} {}
 E { 4221} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4162} {0} {} {A Dusty Square} { } {Little more than an open area of sand and pebbles surrounded by huts, this square serves as the center of the village. There's nothing much here, unless you count the occasional insects that scurry across the sand.} {Ancient Nazca } {} {} {} {1.000} {}
+R { 4162} {0} {<169>} {A Dusty Square} {W} {Little more than an open area of sand and pebbles surrounded by huts, this square serves as the center of the village. There's nothing much here, unless you count the occasional insects that scurry across the sand.} {Ancient Nazca } {} {} {} {1.000} {}
 E { 4161} {w} {w} {8} {0} {} {1.000} {}
 E { 4163} {n} {n} {1} {0} {} {1.000} {}
 E { 4164} {e} {e} {2} {0} {} {1.000} {}
@@ -17890,7 +17890,7 @@ E { 4168} {w} {w} {8} {0} {} {1.000} {}
 E { 4361} {n} {n} {1} {0} {} {1.000} {}
 E { 4373} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4170} {0} {} {A Hut} { } {A dark, depressing thatch hut encloses you. But since the village is depressing in and of itself, the hut is nice in that it at least cuts off your view of the immense and intimidating desert that surrounds this sleepy coastal town.} {Ancient Nazca } {} {} {} {1.000} {}
+R { 4170} {0} {<149>} {A Hut} {V} {A dark, depressing thatch hut encloses you. But since the village is depressing in and of itself, the hut is nice in that it at least cuts off your view of the immense and intimidating desert that surrounds this sleepy coastal town.} {Ancient Nazca } {} {} {} {1.000} {}
 E { 4166} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4171} {0} {} {A Trail to the Desert} { } {This path seems very well-trod, and there are countless white pebbles dropped all around it, forming an almost perfectly straight path. The pebbles are also pretty darned uncomfortable to walk on. The trail leads north to a village and south into the desert.} {Ancient Nazca } {} {} {} {1.000} {}
@@ -18600,7 +18600,7 @@ E { 6324} {n} {n} {1} {0} {} {1.000} {}
 R { 4343} {0} {} {} { } {} {Transylvania } {} {} {} {1.000} {}
 E { 5557} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R { 4344} {0} {} {Mustapha's Tailoring} { } {A dress form stands decapitated and amputated in the corner. Bolts of cloth are piled high on the several tables in the shop. One wall is covered with many pegs holding spools of miles of many-colored thread.} {Arabian Nights } {} {} {} {1.000} {}
+R { 4344} {0} {<149>} {Mustapha's Tailoring} {V} {A dress form stands decapitated and amputated in the corner. Bolts of cloth are piled high on the several tables in the shop. One wall is covered with many pegs holding spools of miles of many-colored thread.} {Arabian Nights } {} {} {} {1.000} {}
 E { 4342} {n} {n} {1} {0} {} {1.000} {}
 E { 6325} {u} {u} {16} {0} {} {1.000} {}
 
@@ -21397,7 +21397,7 @@ E { 5014} {n} {n} {1} {0} {} {1.000} {}
 E { 5016} {w} {w} {8} {0} {} {1.000} {}
 E { 5494} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5016} {0} {} {Edging Along a Narrow Track} { } {The narrow track winds its way along the mountain side, with an almost vertical drop on one side and a sheer rock wall rising on the other. Every few steps you send a shower of pebbles tumbling down the mountain. A few small shrubs are deeply rooted in the cracks of the rock, and despite the fact that they are covered in needle-like foliage you gladly clutch at them as you make your way along.} {Aboriginal Dreamtime } {} {} {} {1.000} {}
+R { 5016} {0} {<129>} {Edging Along a Narrow Track} {I} {The narrow track winds its way along the mountain side, with an almost vertical drop on one side and a sheer rock wall rising on the other. Every few steps you send a shower of pebbles tumbling down the mountain. A few small shrubs are deeply rooted in the cracks of the rock, and despite the fact that they are covered in needle-like foliage you gladly clutch at them as you make your way along.} {Aboriginal Dreamtime } {} {} {} {1.000} {}
 E { 5015} {e} {e} {2} {0} {} {1.000} {}
 E { 5017} {w} {w} {8} {0} {} {1.000} {}
 
@@ -23845,7 +23845,7 @@ R { 5598} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 1739} {n} {n} {1} {0} {} {1.000} {}
 E { 1737} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5599} {0} {} {The Fortune Teller's Den} { } {The incense burning in the corner burns your eyes. The dark lighting in the room combined with the lazy smoke makes it nearly impossible to see. Through the mists, you can see a small table with a lamp hanging over it.} {Arabian Nights } {} {} {} {1.000} {}
+R { 5599} {0} {<149>} {The Fortune Teller's Den} {V} {The incense burning in the corner burns your eyes. The dark lighting in the room combined with the lazy smoke makes it nearly impossible to see. Through the mists, you can see a small table with a lamp hanging over it.} {Arabian Nights } {} {} {} {1.000} {}
 E { 4342} {w} {w} {8} {0} {} {1.000} {}
 
 R { 5600} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -26559,7 +26559,7 @@ R { 6248} {0} {} {On the Waterfront} { } {You dare not look too closely at the p
 E { 6247} {n} {n} {1} {0} {} {1.000} {}
 E { 6249} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 6249} {0} {} {At the Moneylender's} { } {A sign proudly proclaims in English, Portuguese, Russian, and Chinese, 'Compradore to the finest trading houses in the Orient. We also lend money.' This place, tucked away on the bad end of the docks, is the closest the Orient comes to a bank.} {South Seas } {} {} {} {1.000} {}
+R { 6249} {0} {<139>} {At the Moneylender's} {B} {A sign proudly proclaims in English, Portuguese, Russian, and Chinese, 'Compradore to the finest trading houses in the Orient. We also lend money.' This place, tucked away on the bad end of the docks, is the closest the Orient comes to a bank.} {South Seas } {} {} {} {1.000} {}
 E { 6248} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 6250} {0} {} {In the Whorehouse} { } {This opulent entrance masquerades as a fine upper-class sitting room. There are often several sailors gathered here, looking around expectantly. You've also heard stories about how the 'ladies' parade past the glass door on one side of the room, but a length of red silk has been draped across the door. You wonder if the establishment is even open for business.} {South Seas } {} {} {} {1.000} {}
@@ -30785,7 +30785,7 @@ E { 7281} {w} {w} {8} {0} {} {1.000} {}
 R { 7284} {0} {} {A Blacksmith's Shop} { } {A large anvil stands near a built-up bed of hot coals. A wooden barrel bound with wide strips of iron is filled with water and stands next to the anvil. A large heavy box filled with iron blanks for horseshoes is near the doorway of the stable. A small barrel holds black iron nails, and a pile of small empty sacks are close by to measure the nails into. Off to the south you hear the rush of water from a nearby stream.} {French Indian War} {} {} {} {1.000} {}
 E { 7282} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 7285} {0} {} {A Butcher's Shop} { } {Dressed rabbits and fowl hang from the low rafters. Sweet meats, beef tongue and small roasts of lamb and mutton sit out on a high counter. Several small suckling pigs have been trussed and set with a spike for roasting. Another table holds a number of cheese rounds, covered with thick red wax. A large barrel holds slabs of salt pork. Pork bellies hang from large metal hooks.} {French Indian War} {} {} {} {1.000} {}
+R { 7285} {0} {<149>} {A Butcher's Shop} {V} {Dressed rabbits and fowl hang from the low rafters. Sweet meats, beef tongue and small roasts of lamb and mutton sit out on a high counter. Several small suckling pigs have been trussed and set with a spike for roasting. Another table holds a number of cheese rounds, covered with thick red wax. A large barrel holds slabs of salt pork. Pork bellies hang from large metal hooks.} {French Indian War} {} {} {} {1.000} {}
 E { 7279} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 7286} {0} {} {Where Two Gravel-Filled Streets Meet} { } {Looking north and south you see a number of shop signs hanging out over the narrow street. Awnings shade the doorways, splashing forth their bright colors in contrast to the dark red brick of the buildings and street. Looking eastward, the street disappears down its constricted space. In the opposite direction, the surrounding walls of a manorhouse can be seen.} {French Indian War} {} {} {} {1.000} {}
@@ -35881,7 +35881,7 @@ R {28436} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8370} {n} {n} {1} {0} {} {1.000} {}
 E { 8371} {s} {s} {4} {0} {} {1.000} {}
 
-R {28437} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R {28437} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8495} {n} {n} {1} {0} {} {1.000} {}
 E { 8390} {s} {s} {4} {0} {} {1.000} {}
 
@@ -35892,7 +35892,6 @@ E {28503} {n} {n} {1} {0} {} {1.000} {}
 R {28503} {0} {<fca>} {A Tiny Garden} { } {It is almost too small to be called a garden. It is just a patch of dirt behind the stall where someone has haphazardly tried to grow a few plants. The soil is obviously not overly fertile, but with the aid of skilled hands something might actually grow.} {Player Housing} {} {} {} {1.000} {}
 E {28502} {s} {s} {4} {0} {} {1.000} {}
 
-R {28504} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R {28504} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8496} {s} {s} {4} {0} {} {1.000} {}
 E { 8387} {n} {n} {1} {0} {} {1.000} {}
-

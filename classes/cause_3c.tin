@@ -1,0 +1,50 @@
+#nop #VAR spells[animate] {vina jiv mrti};
+#nop #VAR spellhelp[vina_3c][animate] {.};
+#nop #VAR spells[cough] {vina vya vayu};
+#nop #VAR spellhelp[vina_3c][cough] {.};
+#nop #VAR spells[ccrit] {vina drva rudh};
+#nop #VAR spellhelp[vina_3c][ccrit] {.};
+#nop #VAR spells[curse] {vina vya jiv};
+#nop #VAR spellhelp[vina_3c][curse] {.};
+#nop #VAR spells[plague] {vina vya rudh};
+#nop #VAR spellhelp[vina_3c][plague] {.};
+#nop #VAR spells[drown] {vina gam udan};
+#nop #VAR spellhelp[vina_3c][drown] {.};
+#nop #VAR spells[firestorm] {vina agni rudh};
+#nop #VAR spellhelp[vina_3c][firestorm] {.};
+#nop #VAR spells[storm] {vina agni rudh};
+#nop #VAR spellhelp[vina_3c][storm] {.};
+#nop #VAR spells[gust] {vina gam vayu};
+#nop #VAR spellhelp[vina_3c][gust] {.};
+#nop #VAR spells[immolate] {vina agni mrti};
+#nop #VAR spellhelp[vina_3c][immolate] {.};
+#nop #VAR spells[death] {vina dyn mrti};
+#nop #VAR spellhelp[vina_3c][death] {.};
+#nop #VAR spells[lava] {vina agni bhu};
+#nop #VAR spellhelp[vina_3c][lava] {.};
+#nop #VAR spells[meteor] {vina mahi rudh};
+#nop #VAR spellhelp[vina_3c][meteor] {.};
+#nop #VAR spells[noise] {vina gam anna};
+#nop #VAR spellhelp[vina_3c][noise] {.};
+#nop #VAR spells[persp] {vina vant rudh};
+#nop #VAR spellhelp[vina_3c][persp] {.};
+#nop #VAR spells[rejuv] {vina gam rudh};
+#nop #VAR spellhelp[vina_3c][rejuv] {.};
+#nop #VAR spells[reviv] {vina kala jiv};
+#nop #VAR spellhelp[vina_3c][reviv] {.};
+#nop #VAR spells[rof] {vina agni vayu};
+#nop #VAR spellhelp[vina_3c][rof] {.};
+#nop #VAR spells[stoneskin] {vina pur bhu};
+#nop #VAR spellhelp[vina_3c][stoneskin] {.};
+#nop #VAR spells[turn] {vina pur mrti};
+#nop #VAR spellhelp[vina_3c][turn] {.};
+#nop #VAR spells[watery] {vina udan mrti};
+#nop #VAR spellhelp[vina_3c][watery] {.};
+#nop #VAR spells[fly] {meue dyn bhu};
+#nop #VAR spellhelp[vina_3c][fly] {.};
+#nop #VAR spells[remcurse] {meue vya jiv};
+#nop #VAR spellhelp[vina_3c][remcurse] {.};
+
+
+#read {classes/mage_common_3c.tin}
+#read {classes/cause.tin}

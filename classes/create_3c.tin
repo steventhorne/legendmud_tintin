@@ -1,0 +1,153 @@
+#VAR spells[boil] {ksi drva agni};
+#VAR spellhelp[Battle][boil       ] {[ 37] "boil blood"             - };
+
+#VAR spells[bridge] {kere vant rudh};
+#VAR spellhelp[Misc  ][bridge     ] {[   ] "bridge of will"         - transfer mana to target};
+
+#VAR spells[thorns] {kere pur jiv};
+#VAR spellhelp[Battle][thorns     ] {[ 70] "cloak of thorns"        - };
+
+#VAR spells[ball] {kere lak rudh};
+#VAR spellhelp[Vision][ball       ] {[ 50] "continual light"        - creates continual ball of light};
+
+#VAR spells[cdeath] {kere vya mrti};
+#VAR spellhelp[Battle][cdeath     ] {[12+] "corrosive death"        - sprays acid at target};
+
+#VAR spells[death] {kere mrti};
+#VAR spellhelp[Battle][death      ] {[ 80] "create death"           - creates liquid death vial};
+
+#VAR spells[fdeath] {kere agni mrti};
+#VAR spellhelp[Battle][fdeath     ] {[ 70] "create fiery death"     - creates liquid death vial};
+
+#VAR spells[food] {kere mahi};
+#VAR spellhelp[Buffs ][food       ] {[ 30] "create food"            - };
+
+#VAR spells[homunc] {kere jiv};
+#VAR spellhelp[Helper][homunc     ] {[ 20] "create homunculus"      - most useful as a porter};
+
+#VAR spells[co] {kere mahi rudh};
+#VAR spellhelp[Misc  ][co         ] {[25+] "create object"          - see help};
+
+#VAR spells[water] {kere udan};
+#VAR spellhelp[Misc  ][water      ] {[ 25] "create water"           - };
+
+#VAR spells[wdeath] {kere udan mrti};
+#VAR spellhelp[Battle][wdeath     ] {[ 70] "create watery death"    - creates liquid death vial};
+
+#VAR spells[ice] {kere udan mahi};
+#VAR spellhelp[Buffs ][ice        ] {[ 45] "dagger of ice"          - };
+
+#VAR spells[dispelm] {ksi anna};
+#VAR spellhelp[Misc  ][dispelm    ] {[ 45] "dispel magic"           - };
+
+#VAR spells[quake] {kere gam bhu};
+#VAR spellhelp[Battle][quake      ] {[100] "earthquake"             - 75 base damage, affects room};
+
+#VAR spells[archer] {kere kala anna};
+#VAR spellhelp[Helper][archer     ] {[100] "etheric archer"         - helper, doesn't take orders};
+
+#VAR spells[void] {ksi dyn anna};
+#VAR spellhelp[Battle][void       ] {[ 28] "etheric void"           - 20 base damage};
+
+#VAR spells[familiar] {kere dyn jiv};
+#VAR spellhelp[Helper][familiar   ] {[200] "familiar"               - see help};
+
+#VAR spells[fever] {ksi dyn agni};
+#VAR spellhelp[Battle][fever      ] {[ 50] "fever"                  - };
+
+#VAR spells[fwater] {kere agni udan};
+#VAR spellhelp[Misc  ][fwater     ] {[ 10] "fire water"             - };
+
+#VAR spells[fish] {kere mahi mahi};
+#VAR spellhelp[Buffs ][fish       ] {[  5] "fish"                   - };
+
+#VAR spells[shroud] {kere agni rudh};
+#VAR spellhelp[Buffs ][shroud     ] {[75+] "flame shroud"           - };
+
+#VAR spells[strike] {kere vya agni};
+#VAR spellhelp[Battle][strike     ] {[ 48] "flamestrike"            - };
+
+#VAR spells[sword] {kere agni mahi};
+#VAR spellhelp[Buffs ][sword      ] {[ 45] "flaming sword"          - };
+
+#VAR spells[fly] {kere dyn vayu};
+#VAR spellhelp[Buffs ][fly        ] {[ 35] "flight"                 - };
+
+#VAR spells[foul] {kere vya udan};
+#VAR spellhelp[Misc  ][foul       ] {[ 30] "foul water"             - };
+
+#VAR spells[fbolt] {kere anna udan};
+#VAR spellhelp[Battle][fbolt      ] {[ 65] "frost bolt"             - 65 base damage};
+
+#VAR spells[summon] {kere jiv rudh};
+#VAR spellhelp[Helper][summon     ] {[200] "greater summoning"      - };
+
+#VAR spells[angel] {kere pur rudh};
+#VAR spellhelp[Helper][angel      ] {[ 45] "guardian angel"         - };
+
+#VAR spells[bolt] {kere gam anna};
+#VAR spellhelp[Battle][bolt       ] {[ 65] "lighting bolt"          - 65 base damage};
+
+#nop #VAR spells[] {kere kala mahi};
+#nop #VAR spellhelp[      ][           ] {[   ] "magical hourglass"      - };
+
+#VAR spells[pcloud] {kere vya vayu};
+#VAR spellhelp[Battle][pcloud     ] {[ 60] "poison cloud"           - };
+
+#VAR spells[purify] {ksi vya udan};
+#VAR spellhelp[Misc  ][purify     ] {[ 30] "purify water"           - };
+
+#VAR spells[raze] {ksi kala mrti};
+#VAR spellhelp[Battle][raze       ] {[ 50] "raze dead"              - };
+
+#VAR spells[scout] {kere vayu mahi};
+#VAR spellhelp[Helper][scout      ] {[ 25] "spectral scout"         - };
+
+#VAR spells[recup] {kere drva rudh};
+#VAR spellhelp[Buffs ][recup      ] {[135] "stone of recuperation"  - };
+
+#VAR spells[renewal] {kere drva kala};
+#VAR spellhelp[Buffs ][renewal    ] {[135] "stone of renewal"       - };
+
+#VAR spells[sumair] {kere jiv vayu};
+#VAR spellhelp[Helper][sumair     ] {[ 45] "summon air elemental"   - };
+
+#VAR spells[butterfly] {kere lak jiv};
+#VAR spellhelp[Misc  ][butterfly  ] {[ 50] "summon butterflies"     - };
+
+#VAR spells[sumearth] {kere jiv bhu};
+#VAR spellhelp[Helper][sumearth   ] {[ 45] "summon earth elemental" - };
+
+#VAR spells[sumfire] {kere jiv agni};
+#VAR spellhelp[Helper][sumfire    ] {[ 45] "summon fire elemental"  - };
+
+#VAR spells[sumwater] {kere jiv udan};
+#VAR spellhelp[Helper][sumwater   ] {[ 45] "summon water elemental" - };
+
+#VAR spells[attune] {kere jiv anna};
+#VAR spellhelp[Helper][attune     ] {[110] "summoner's attunement"  - };
+
+#VAR spells[sheal] {kere drva anna};
+#VAR spellhelp[Helper][sheal      ] {[ 38] "summoner's healing"     - };
+
+#VAR spells[vigor] {kere gam rudh};
+#VAR spellhelp[Buffs ][vigor      ] {[ 15] "vigor"                  - increase target mv};
+
+#VAR spells[wfire] {kere pur agni};
+#VAR spellhelp[Battle][wfire      ] {[ 60] "wall of fire"           - };
+
+#VAR spells[wfog] {kere pur udan};
+#VAR spellhelp[Battle][wfog       ] {[ 60] "wall of fog"            - };
+
+#VAR spells[wstone] {kere pur bhu};
+#VAR spellhelp[Battle][wstone     ] {[ 60] "wall of stone"          - };
+
+#VAR spells[wwind] {kere pur vayu};
+#VAR spellhelp[Battle][wwind      ] {[ 60] "wall of winds"          - };
+
+#VAR spells[wp] {kere gam udan};
+#VAR spellhelp[Battle][wp         ] {[100] "whirlpool"              - 100 base damage};
+
+
+#read {classes/mage_common_3c.tin}
+#read {classes/create.tin}

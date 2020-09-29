@@ -1,75 +1,100 @@
 #VAR spells[mind] {vid kala dyn};
-#VAR spellhelp[Buffs ][mind       ] {[25] "Brainpower"          - +10 MIND};
+#VAR spellhelp[Buffs ][mind       ] {[ 25] "brainpower"             - +10 MIND};
 #VAR spells[spi] {vid lak dyn};
-#VAR spellhelp[Buffs ][spi        ] {[25] "Epiphany"            - +10 SPI};
+#VAR spellhelp[Buffs ][spi        ] {[ 25] "epiphany"               - +10 SPI};
 #VAR spells[per] {vina lak dyn};
-#VAR spellhelp[Buffs ][per        ] {[25] "Quickeye"            - +10 PER};
+#VAR spellhelp[Buffs ][per        ] {[ 25] "quickeye"               - +10 PER};
 #VAR spells[rpoison] {vid vya pur};
-#VAR spellhelp[Buffs ][rpoison    ] {[50] "Resist poison"       - increase save vs poison};
+#VAR spellhelp[Buffs ][rpoison    ] {[ 50] "resist poison"          - increase save vs poison};
 #VAR spells[fade] {guh gam dyn};
-#VAR spellhelp[Buffs ][fade       ] {[35] "Fade person"         -};
+#VAR spellhelp[Buffs ][fade       ] {[ 35] "fade person"            -};
 
 
 #VAR spells[dh] {vid gam};
-#VAR spellhelp[Vision][dh         ] {[20] "Detect hidden"       -};
+#VAR spellhelp[Vision][dh         ] {[ 20] "detect hidden"          -};
 #VAR spells[di] {vid lak gam};
-#VAR spellhelp[Vision][di         ] {[  ] "Detect illusion"     -};
+#VAR spellhelp[Vision][di         ] {[   ] "detect illusion"        -};
 #VAR spells[infra] {vid lak};
-#VAR spellhelp[Vision][infra      ] {[15] "Infravision"         - see forms in the dark};
+#VAR spellhelp[Vision][infra      ] {[ 15] "infravision"            - see forms in the dark};
 #VAR spells[aura] {vid pur};
-#VAR spellhelp[Vision][aura       ] {[10] "Aura sight"          -};
+#VAR spellhelp[Vision][aura       ] {[ 10] "aura sight"             -};
 
 
 #VAR spells[idper] {vid dyn};
-#VAR spellhelp[Info  ][idper      ] {[25] "Identify person"     - shows lots of details};
+#VAR spellhelp[Info  ][idper      ] {[ 25] "identify person"        - shows lots of details};
 #VAR spells[judge] {vid drva};
-#VAR spellhelp[Info  ][judge      ] {[10] "Judge"               - report HP of target};
+#VAR spellhelp[Info  ][judge      ] {[ 10] "judge"                  - report HP of target};
 #VAR spells[id] {vid};
-#VAR spellhelp[Info  ][id         ] {[10] "Identify"            - identify objects};
+#VAR spellhelp[Info  ][id         ] {[ 10] "identify"               - identify objects};
 #VAR spells[detectp] {vid vya};
-#VAR spellhelp[Info  ][detectp    ] {[10] "Detect poison"       -};
+#VAR spellhelp[Info  ][detectp    ] {[ 10] "detect poison"          -};
 #VAR spells[detectm] {vid vant};
-#VAR spellhelp[Info  ][detectm    ] {[20] "Detect magic"        -};
+#VAR spellhelp[Info  ][detectm    ] {[ 20] "detect magic"           -};
 #VAR spells[reports] {vid drva dyn};
-#VAR spellhelp[Info  ][reports    ] {[  ] "Report"              -};
+#VAR spellhelp[Info  ][reports    ] {[   ] "report"                 -};
 #VAR spells[assess] {vid drva pur};
-#VAR spellhelp[Info  ][assess     ] {[15] "Assess protection"   - compares your AC to target's};
+#VAR spellhelp[Info  ][assess     ] {[ 15] "assess protection"      - compares your AC to target's};
 
 
 #VAR spells[limn] {vid gam vant};
-#VAR spellhelp[Debuff][limn       ] {[20] "Limn"                - makes target easier to hit};
+#VAR spellhelp[Debuff][limn       ] {[ 20] "limn"                   - makes target easier to hit};
 
 
 #VAR spells[sink] {vid pur vant};
-#VAR spellhelp[Battle][sink       ] {[35] "Magic Sink"          - absorb mana cast at you};
+#VAR spellhelp[Battle][sink       ] {[ 35] "magic sink"             - absorb mana cast at you};
 #VAR spells[stun] {guh lak vya};
-#VAR spellhelp[Battle][stun       ] {[  ] "Stun"                - may backfire};
+#VAR spellhelp[Battle][stun       ] {[   ] "stun"                   - may backfire};
 
 
 #VAR spells[forage] {vid drva lak};
-#VAR spellhelp[Misc  ][forage     ] {[25] "Forage"              -};
+#VAR spellhelp[Misc  ][forage     ] {[ 25] "forage"                 -};
 #VAR spells[hides] {guh};
-#VAR spellhelp[Misc  ][hides      ] {[  ] "Hide"                -};
+#VAR spellhelp[Misc  ][hides      ] {[   ] "hide"                   -};
 #VAR spells[sneaks] {guh gam};
-#VAR spellhelp[Misc  ][sneaks     ] {[  ] "Sneak"               -};
+#VAR spellhelp[Misc  ][sneaks     ] {[   ] "sneak"                  -};
 #VAR spells[youth] {vid kala pur};
-#VAR spellhelp[Misc  ][youth      ] {[  ] "Youth"               -};
+#VAR spellhelp[Misc  ][youth      ] {[   ] "youth"                  -};
 
 
-#nop #VAR spells[areasight] {vid bhu};
-#nop #VAR spellhelp[3c][areasight] {.};
-#nop #VAR spells[census] {vid gam jiv};
-#nop #VAR spellhelp[3c][census] {.};
-#nop #VAR spells[idobj] {vid mahi};
-#nop #VAR spellhelp[3c][idobj] {.};
-#nop #VAR spells[locate] {vid gam bhu};
-#nop #VAR spellhelp[3c][locate] {.};
-#nop #VAR spells[phase] {vid vayu mahi};
-#nop #VAR spellhelp[3c][phase] {.};
-#nop #VAR spells[protfire] {vid pur agni};
-#nop #VAR spellhelp[3c][protfire] {.};
-#nop #VAR spells[sustained] {vid pur udan};
-#nop #VAR spellhelp[3c][sustained] {.};
-#nop #VAR spells[timesight] {vid kala mahi};
-#nop #VAR spellhelp[3c][timesight] {.};
+#FOREACH {*spells[%*]} {spell}
+{
+    #LINE sub {var}
+    {
+        #ALIAS {$spell} {chant $spells[$spell] ex};
+    }
+};
 
+#FOREACH {*spellhelp[%*]} {shelp_category}
+{
+    #FOREACH {*spellhelp[$shelp_category][%*]} {spell}
+    {
+        #LINE sub {var}
+        {
+            #VAR shelp_list[$shelp_category][$spell] {$spellhelp[$shelp_category][$spell]};
+        }
+    };
+};
+
+#SHOWME Use shelp to see more information on spells.
+
+#ALIAS {shelp}
+{
+    #IF {&shelp_list[]} {}
+    {
+        #SHOWME <019>There are no defined aliases.<099>;
+    };
+
+    #IF {"%0" == ""}
+    {
+        #FOREACH {*shelp_list[%*]} {shelp_category}
+        {
+            #SHOWME {     $shelp_category};
+            #FOREACH {*shelp_list[$shelp_category][%*]} {shelp_item}
+            {
+                #SHOWME {        <069>${shelp_item}<099>: $shelp_list[$shelp_category][$shelp_item]};
+            }
+        }
+        #UNVAR shelp_category;
+        #UNVAR shelp_item;
+    }
+}

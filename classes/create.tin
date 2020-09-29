@@ -1,0 +1,63 @@
+#VAR spells[dis] {ksi};
+#VAR spellhelp[Misc  ][dis        ] {[   ] "disintegrate"           - };
+#VAR spells[decay] {ksi kala};
+#VAR spellhelp[Misc  ][decay      ] {[   ] "decay"                  - };
+#VAR spells[illusion] {ksi lak gam};
+#VAR spellhelp[Misc  ][dispeli    ] {[   ] "dispel illusion"        - };
+#VAR spells[dream] {kere lak kala};
+#VAR spellhelp[Misc  ][dream      ] {[   ] "dream sending"          - };
+#VAR spells[illusion] {kere lak gam};
+#VAR spellhelp[Misc  ][illusion   ] {[   ] "illusion"               - };
+#VAR spells[preserve] {kere kala};
+#VAR spellhelp[Misc  ][preserve   ] {[   ] "preserve"               - };
+#VAR spells[portal] {kere gam kala};
+#VAR spellhelp[Misc  ][portal     ] {[   ] "shimmering portal"      - };
+
+
+#VAR spells[flash] {kere vya lak};
+#VAR spellhelp[Battle][flash      ] {[   ] "blinding flash"         - };
+#VAR spells[poison] {kere vya dyn};
+#VAR spellhelp[Battle][poison     ] {[   ] "deadly poison"          - };
+#VAR spells[malaise] {ksi drva};
+#VAR spellhelp[Battle][malaise    ] {[   ] "malaise"                - };
+#VAR spells[scatter] {kere gam gam};
+#VAR spellhelp[Battle][scatter    ] {[   ] "scatter"                - };
+#VAR spells[vengeance] {kere vant dyn};
+#VAR spellhelp[Battle][vengeance  ] {[   ] "vengeance"              - };
+#VAR spells[puke] {kere vya vant};
+#VAR spellhelp[Battle][puke       ] {[   ] "wave of nausea"         - };
+
+
+#VAR spells[goo] {kere vya};
+#VAR spellhelp[Debuff][goo        ] {[   ] "vile green goo"         - };
+#VAR spells[warm] {ksi pur};
+#VAR spellhelp[Debuff][warm       ] {[   ] "weaken armor"           - };
+
+
+#VAR spells[orb] {kere lak};
+#VAR spellhelp[Vision][orb        ] {[   ] "create light"           - };
+
+
+#VAR spells[armor] {kere lak pur};
+#VAR spellhelp[Buffs ][armor      ] {[   ] "armor of light"         - };
+#VAR spells[aurah] {kere drva dyn};
+#VAR spellhelp[Buffs ][aurah      ] {[   ] "aura of health"         - };
+#VAR spells[dex] {kere gam dyn};
+#VAR spellhelp[Buffs ][dex        ] {[   ] "aura of nimbleness"     - };
+#VAR spells[balm] {kere drva vant};
+#VAR spellhelp[Buffs ][balm       ] {[   ] "create healing"         - };
+#VAR spells[cpoison] {ksi vya dyn};
+#VAR spellhelp[Buffs ][cpoison    ] {[   ] "cure poison"            - };
+#VAR spells[shield] {kere pur};
+#VAR spellhelp[Buffs ][shield     ] {[   ] "shield"                 - };
+#VAR spells[staff] {kere lak vant};
+#VAR spellhelp[Buffs ][staff      ] {[   ] "staff of light"         - };
+
+
+#VAR spells[doppel] {kere lak dyn};
+#VAR spellhelp[Helper][doppel     ] {[   ] "doppelganger"           - };
+#VAR spells[spectral] {kere pur dyn};
+#VAR spellhelp[Helper][spectral   ] {[   ] "spectral guardian"      - };
+
+
+#read {classes/mage_common.tin}

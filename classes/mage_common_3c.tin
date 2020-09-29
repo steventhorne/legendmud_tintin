@@ -1,0 +1,19 @@
+#VAR spells[areasight] {vid bhu};
+#VAR spellhelp[Vision][areasight  ] {[ 15] "areasight"              - };
+
+#VAR spells[pfire] {vid pur agni};
+#VAR spellhelp[Buffs ][pfire      ] {[ 40] "protection from fire"   - };
+#VAR spells[sustained] {vid pur udan};
+#VAR spellhelp[Buffs ][sustained  ] {[   ] "sustained breath"       - };
+
+
+#VAR spells[census] {vid gam jiv};
+#VAR spellhelp[Misc  ][census     ] {[   ] "census"                 - };
+#VAR spells[idobj] {vid mahi};
+#VAR spellhelp[Misc  ][idobj      ] {[ 25] "identify object"        - };
+#VAR spells[locate] {vid gam bhu};
+#VAR spellhelp[Misc  ][locate     ] {[ 40] "locate"                 - };
+#VAR spells[phase] {vid vayu mahi};
+#VAR spellhelp[Misc  ][phase      ] {[ 40] "phase door"             - };
+#VAR spells[timesight] {vid kala mahi};
+#VAR spellhelp[Misc  ][timesight  ] {[ 15] "timesight"              - };
