@@ -444,12 +444,6 @@
 }
 {5};
 
-#ACTION {{^NOTE: ([\w\-\'\.]+) is a member of your account and is in-game but disconnected.}}
-{
-    #DELAY {1} {#SEND %2};
-}
-{5};
-
 #ACTION {{^(?:.*\s)?([\w\-\'\.]+), what would you like to do now?}}
 {
     #IF {&{loaded_character} && "$loaded_character" === "%2"} {#NOP}
