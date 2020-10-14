@@ -1,10 +1,12 @@
 # ignore unzipped logfiles
 user.config
 
-logs/*
+logs/log*
+classes/*
 
 /chat.*
 group.txt
 
 /modules/map/map.txt
 /modules/map/map_size.tin
+/modules/map/legendmud.map.bak
