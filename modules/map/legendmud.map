@@ -1091,7 +1091,7 @@ E {  194} {e} {e} {2} {0} {} {1.000} {}
 E {  200} {s} {s} {4} {0} {} {1.000} {}
 E {  203} {n} {n} {1} {0} {} {1.000} {}
 
-R {  197} {0} {} {Fifth Avenue} { } {You watch as various cars cruise back and forth on the road, like tennis balls being hit in a match. Noises from the engines and an occasional horn beeping break up silent thoughts as they rush by. Chalk marks on a small section of the walk below your feet show where young girls must have played hopscotch earlier, as the white blocks fade slowly from being walked upon.} {1930's Pittsburgh } {} {} {} {1.000} {}
+R {  197} {0} {<169>} {Fifth Avenue} {W} {You watch as various cars cruise back and forth on the road, like tennis balls being hit in a match. Noises from the engines and an occasional horn beeping break up silent thoughts as they rush by. Chalk marks on a small section of the walk below your feet show where young girls must have played hopscotch earlier, as the white blocks fade slowly from being walked upon.} {1930's Pittsburgh } {} {} {} {1.000} {}
 E {  200} {n} {n} {1} {0} {} {1.000} {}
 E {  198} {s} {s} {4} {0} {} {1.000} {}
 E {  201} {e} {e} {2} {0} {} {1.000} {}
@@ -2032,7 +2032,7 @@ E {  423} {w} {w} {8} {0} {} {1.000} {}
 E {  424} {s} {s} {4} {0} {} {1.000} {}
 E {  425} {e} {e} {2} {0} {} {1.000} {}
 
-R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They really do look that white from close up too. The chalky limestone is slowly eroding and continuously renewing the glaring white surface. The English Channel separates you from the French coastline to the east.} {Medieval Britain } {} {} {} {1.000} {}
+R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They really do look that white from close up too. The chalky limestone is slowly eroding and continuously renewing the glaring white surface. The English Channel separates you from the French coastline to the east.} {Medieval Britain } {cliffs} {} {} {1.000} {}
 E {  422} {e} {e} {2} {0} {} {1.000} {}
 E { 1051} {u} {u} {16} {1} {} {1.000} {}
 
@@ -4206,7 +4206,6 @@ E {  936} {e} {e} {2} {0} {} {1.000} {}
 R {  930} {0} {} {A Winding Road} { } {The forest seems to thicken here as the road winds along, heading from east to south here. The trees overhead cast ominous shadows on the road and send shivers up your spine, as though the forest itself were a malevolent force.} {The Black Forest } {} {} {} {1.000} {}
 E {  928} {s} {s} {4} {0} {} {1.000} {}
 E {  932} {e} {e} {2} {0} {} {1.000} {}
-E { 6038} {w} {w} {8} {0} {} {1.000} {}
 
 R {  931} {0} {} {In the Dense Forest} { } {The forest is very dense here and you have an eerie sense of foreboding and a strong desire to return to the road where perhaps the denizens would be less of a threat.} {The Black Forest} {} {} {} {1.000} {}
 E {  928} {n} {n} {1} {0} {} {1.000} {}
@@ -4218,7 +4217,6 @@ E {  933} {n} {n} {1} {0} {} {1.000} {}
 R {  933} {0} {} {A Dirt Road Outside Kleinstadt} { } {The forest thins substantially here, and the road extends north to the gates of Kleinstadt, and south back into the deeper forest where the road begins to wind. Light filters through the trees to make odd patterns in the dust of the road.} {The Black Forest } {} {} {} {1.000} {}
 E {  932} {s} {s} {4} {0} {} {1.000} {}
 E {  934} {n} {n} {1} {0} {} {1.000} {}
-E { 6039} {w} {w} {8} {0} {} {1.000} {}
 
 R {  934} {0} {} {Das Sudstadttor} { } {The thick stone of the town walls is broken here by a massive oaken door, which is reinforced with heavy iron. There is a small bronze plaque with some writing on it bolted to the door. The town beyond would be a welcome sight after a long forest trek. Within the stout walls, a traveler could surely wash dust from a weary throat by a long drink of fine German wine. The road leads north into the town, and south into the forest. The dark trees seem to crowd the city from three directions, but you can detect that a cleared area lies to the east of the city, and might be quickly reached by passing through town.} {Medieval Kleinstadt } {klein} {} {} {1.000} {}
 E {  933} {s} {s} {4} {0} {} {1.000} {}
@@ -4606,7 +4604,7 @@ E { 1027} {e} {open e;e} {2} {0} {} {1.000} {}
 R { 1027} {0} {} {A Small Guest Room} { } {The room opens up into an unused bedroom. A comfortable looking bed occupies most of the room. A desk with chair sit against the wall near the door. A candle sconce is set in the stone wall above it. There is also a small pine chest against the foot of the bed to be used as a closet. A fine layer of dust covers the room as it has obviously been several days since anyone has been here.} {Transylvania } {} {} {} {1.000} {}
 E { 1026} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 1028} {0} {<139>} {The Yard of St. Paul's Cathedral} {B} {This stone yard is full of merchants and tradesmen who have come to converse and discuss business arrangements in the shadow of St. Paul's. In the far corner, you can see the pulpit from which public sermons are given on a regular basis. Many of these sermons are political, and given at the order of the Crown.} {Tudor England } {} {} {} {1.000} {}
+R { 1028} {0} {<139>} {The Yard of St. Paul's Cathedral} {B} {This stone yard is full of merchants and tradesmen who have come to converse and discuss business arrangements in the shadow of St. Paul's. In the far corner, you can see the pulpit from which public sermons are given on a regular basis. Many of these sermons are political, and given at the order of the Crown.} {Tudor England } {venetian} {} {} {1.000} {}
 E {  266} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1029} {0} {} {Gracious Street} { } {Although the name of this street is gracious, the odors which drift up from its cobblestones are less so. Since the household wastes and litter which are customarily thrown from the windows above overflow the gutters, it would behoove you to watch your step carefully. To the south and downwards, London Bridge rises upwards.} {Tudor England } {} {} {} {1.000} {}
@@ -10863,9 +10861,7 @@ E { 2500} {e} {e} {2} {0} {} {1.000} {}
 E { 2502} {w} {w} {8} {0} {} {1.000} {}
 
 R { 2502} {0} {} {At the Chair of Oblivion} { } {You are standing in a vast field in the murky realm of Tartarus. Paths lead this way and that through the jumbled rocks which are scattered across this plain, seemingly looping back upon themselves. The paths are filled with tormented souls begging for surcease of sorrow. A great throne rests before you, deposited here in the middle of the plain for a reason only the gods might know.} {Tartarus } {} {} {} {1.000} {}
-E { 2501} {e} {e} {2} {0} {} {1.000} {}
 E { 2503} {s} {s} {4} {0} {} {1.000} {}
-E { 2504} {w} {w} {8} {0} {} {1.000} {}
 E { 2509} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2503} {0} {} {Towards the Elysian Fields} { } {You stand on a small path, leading to a golden gate that opens on wide and peaceful fields, seemingly filled with fruit trees and orchards. Elysian fields were made by the gods as a place where mortals they particularly loved might live out eternity, never growing old.} {Tartarus} {} {} {} {1.000} {}
@@ -11524,7 +11520,7 @@ R { 2660} {0} {} {Inside a Stable} { } {The smell of musty hay and molding dung 
 E { 2658} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 2665} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R { 2661} {0} {} {A Muddy Street} { } {You stand in what probably passes for a town square in this poor fishing village. It is mostly mud, and the mud stretches in all directions, no doubt what the villagers call a road. The buildings are mostly wattle and daub, although a few near the center of town are of sturdier stone construction. Several of the huts have nets draped along their sides to dry. The smell of salt in the air is strong.} {Roman Britain } {} {} {} {1.000} {}
+R { 2661} {0} {} {A Muddy Street} { } {You stand in what probably passes for a town square in this poor fishing village. It is mostly mud, and the mud stretches in all directions, no doubt what the villagers call a road. The buildings are mostly wattle and daub, although a few near the center of town are of sturdier stone construction. Several of the huts have nets draped along their sides to dry. The smell of salt in the air is strong.} {Roman Britain } {orkney} {} {} {1.000} {}
 E { 2658} {w} {w} {8} {0} {} {1.000} {}
 E { 2662} {s} {s} {4} {0} {} {1.000} {}
 E { 2664} {n} {n} {1} {0} {} {1.000} {}
@@ -11805,6 +11801,7 @@ E { 2726} {d} {d} {32} {0} {} {1.000} {}
 
 R { 2726} {0} {} {Inside the Great Pyramid} { } {You step in some kind of secret chamber at the pyramid's entrance. A narrow passageway leads west into the darkness, and an exit tunnel reaches out to the east, to the necropolis.} {Industrial Pyramid } {} {} {} {1.000} {}
 E { 2727} {d} {d} {32} {0} {} {1.000} {}
+E {  638} {e} {e} {2} {1} {} {1.000} {}
 
 R { 2727} {0} {} {A Descending Passageway} { } {You stand in a narrow passageway inside the Pyramid. The walls are made from ochre granite rocks and painted in white or dark red. They are also covered with many hieroglyph scripts where scribes have described the life and beliefs of the powerful Pharaoh Khufu. The stone floor is rough and uneven, covered with a thin layer of sand.} {Industrial Pyramid } {} {} {} {1.000} {}
 E { 2726} {u} {u} {16} {0} {} {1.000} {}
@@ -13193,7 +13190,7 @@ E { 3053} {s} {s} {4} {0} {} {1.000} {}
 E { 4782} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 4783} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3053} {0} {} {In Town, Near the Etruscan Ruins} { } {Old ruins partially covered by grass and weeds lie off to the east, memories of a time long past. The cobblestone road leads north and south, in and out among the white cottages and the occasional coniferous tree. To the north, the town well forms a social center, and towards the east, the hills roll on gently.} {The Inferno } {} {} {} {1.000} {}
+R { 3053} {0} {<169>} {In Town, Near the Etruscan Ruins} {W} {Old ruins partially covered by grass and weeds lie off to the east, memories of a time long past. The cobblestone road leads north and south, in and out among the white cottages and the occasional coniferous tree. To the north, the town well forms a social center, and towards the east, the hills roll on gently.} {The Inferno } {} {} {} {1.000} {}
 E { 3052} {n} {n} {1} {0} {} {1.000} {}
 E { 3054} {e} {e} {2} {0} {} {1.000} {}
 E { 6418} {s} {s} {4} {0} {} {1.000} {}
@@ -13534,7 +13531,7 @@ E { 3137} {s} {s} {4} {0} {} {1.000} {}
 R { 3136} {0} {} {Under the Wall of Dis} { } {Eerie figures of smoke from burning human flesh waft past you silently and you try not to choke. The constant whimpering and writhing and scraping and pleading from the open graves grates on your nerves. The path under your feet crackles as you step, ashes and cinders flying about forming little clouds in your wake.} {The Inferno } {} {} {} {1.000} {}
 E { 3135} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3137} {0} {} {A Road Paved With Good Intentions} { } {The road beneath your feet is neatly paved by careful hands that obviously took their time to make certain everything was just right. Great effort has been put into placing each stone just so but as you look about, you fail to make out the pattern of the mosaic-work that the stones seem to have been intended to form. The result seems to be an exceedingly neat and proper pile of -- nothing.} {The Inferno } {} {} {} {1.000} {}
+R { 3137} {0} {<169>} {A Road Paved With Good Intentions} {W} {The road beneath your feet is neatly paved by careful hands that obviously took their time to make certain everything was just right. Great effort has been put into placing each stone just so but as you look about, you fail to make out the pattern of the mosaic-work that the stones seem to have been intended to form. The result seems to be an exceedingly neat and proper pile of -- nothing.} {The Inferno } {} {} {} {1.000} {}
 E { 3135} {n} {n} {1} {0} {} {1.000} {}
 E { 3138} {s} {s} {4} {0} {} {1.000} {}
 
@@ -21222,8 +21219,9 @@ R { 4972} {0} {} {Inside a Small Den} { } {Moss-covered log walls held together 
 E { 4971} {n} {n} {1} {0} {} {1.000} {}
 E { 4973} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4973} {0} {} {A Small Back Room} { } {Cluttered piles of garbage and junk surround a chair placed centrally in this musty old room. Strange odors pound at you, a blend of potpourri meant only for those who have had their noses long since removed. The only decoration besides the chair and the piles of garbage is a single piece of knotwork hanging on the moss covered walls.} {Celtic Ireland } {} {} {} {1.000} {}
+R { 4973} {0} {} {A Small Back Room} { } {Cluttered piles of garbage and junk surround a chair placed centrally in this musty old room. Strange odors pound at you, a blend of potpourri meant only for those who have had their noses long since removed. The only decoration besides the chair and the piles of garbage is a single piece of knotwork hanging on the moss covered walls.} {Celtic Ireland} {} {} {} {1.000} {}
 E { 4972} {w} {w} {8} {0} {} {1.000} {}
+E { 8525} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 4974} {0} {} {A Dirt Road} { } {A wide dirt road passes beneath you, worn into the ground by the weary trudging of many tired feet. To the south the road fades from view in a forest. A dusty crossroads lies to the north.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 4970} {n} {n} {1} {0} {} {1.000} {}
@@ -21659,6 +21657,7 @@ E { 5075} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5075} {0} {} {Inside Erebus, City of the Underworld} { } {You stand just outside the middle wall of gloomy Tartarus, beside the great iron gate which leads back to the abodes of Day and Night. The great void hangs above you, its depressing weight settling into you like a winter night's chill.} {Tartarus } {} {} {} {1.000} {}
 E { 5076} {n} {n} {1} {0} {} {1.000} {}
+E { 5074} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5076} {0} {} {A Silent Street in Erebus} { } {You wander in a street of a grand but not very populous city. All the buildings are made from dark basalt stone. Strange lanterns reflect a dim green flare on the lava black streets.} {Tartarus } {} {} {} {1.000} {}
 E { 5075} {s} {s} {4} {0} {} {1.000} {}
@@ -24532,7 +24531,7 @@ E { 5759} {s} {s} {4} {0} {} {1.000} {}
 E { 5761} {n} {n} {1} {0} {} {1.000} {}
 E { 6330} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5761} {0} {} {The Middle of a River} { } {You are in the middle of a rushing, swirling river that seems unbelievably strong. The current is tearing at everything in it.} {Anasazi America } {} {} {} {1.000} {}
+R { 5761} {513} {} {The Middle of a River} { } {You are in the middle of a rushing, swirling river that seems unbelievably strong. The current is tearing at everything in it.} {Anasazi America } {} {} {} {1.000} {}
 E { 5760} {s} {s} {4} {0} {} {1.000} {}
 E { 5762} {n} {n} {1} {0} {} {1.000} {}
 
@@ -25700,11 +25699,13 @@ E { 6037} {e} {e} {2} {0} {} {1.000} {}
 R { 6037} {0} {} {The Sewers Under the Palace} { } {The sewers under the City of Brass end in a large room under the palace of the Caliph. To the west, large stairs rise up and into the palace. A massive fall of lava empties into the room, originating from the sewers above.} {Arabian Dreams} {} {} {} {1.000} {}
 E { 6036} {w} {w} {8} {0} {} {1.000} {}
 
-R { 6038} {0} {} {A Thatched Hut} { } {The farming hut is rough and simple but clean. The furnishings are centered around the cooking fire, indicating that the weather here must be wet and cold for at least some part of the year. A pallet of blankets and furs lies on the floor to the far side of the fire, while a rough-hewn table sits nearer the door.} {Player Housing } {} {} {} {1.000} {}
-E {  930} {e} {e} {2} {0} {} {1.000} {}
+R { 6038} {0} {} {On a Coral Road} { } {A path climbs down between the Jacamar woods and a large inland lake to the east. Some of the rocks paving the trail seem to be coral, bringing pale pink and orange colors to the red-tinted lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8246} {w} {w} {8} {0} {} {1.000} {}
+E { 6039} {e} {e} {2} {0} {} {1.000} {}
 
-R { 6039} {0} {} {A Thatched Hut} { } {The farming hut is rough and simple but clean. The furnishings are centered around the cooking fire, indicating that the weather here must be wet and cold for at least some part of the year. A pallet of blankets and furs lies on the floor to the far side of the fire, while a rough-hewn table sits nearer the door.} {Player Housing } {} {} {} {1.000} {}
-E {  933} {e} {e} {2} {0} {} {1.000} {}
+R { 6039} {0} {} {Near Lake Grant} { } {The small path here is elevated between the shores of the lake to the east and the slopes of the mountain to the west.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6038} {w} {w} {8} {0} {} {1.000} {}
+E { 8502} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6040} {0} {} {On Hua Mountain} { } {Paths and bridges lead away from you in all directions, to peaks and cliffs and grottos, to breathtaking views and places for contemplation. Mist drifts along the granite surface, mingling with the cloudy skirts and wind-sculpted treelines which wrap the peaks. You might spend days or weeks here, exploring the hundreds of paths and the dozens of pinnacles and temples and monasteries which dot this magnificent mountain.} {The Silk Road } {} {} {} {1.000} {}
 E { 4434} {s} {s} {4} {0} {} {1.000} {}
@@ -29013,7 +29014,7 @@ R { 6851} {0} {} {The Player Relations Wing} { } {Plain and tranquil, this hallw
 E { 6848} {e} {e} {2} {0} {} {1.000} {}
 E { 6852} {s} {s} {4} {0} {} {1.000} {}
 
-R { 6852} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 6852} {0} {} {Amducious' Infernal Office} { } {Exuding importance and smelling of rich mahogany and leather bound books, this large, corner office seems a perfect place for Amducious to sit and contemplate whatever plans or schemes he may be working on. Dark paneling covers two walls, adorned with infernal artwork from Hell's best artists. The other two are floor to ceiling windows that seem to give an unrivaled view of the lands of Legend.  Somehow the skies seem to shift and fold through the ages allowing you to see and hear everything that is going on everywhere.} {The Out of Character Lounge} {} {} {} {1.000} {}
 E { 6851} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6853} {0} {} {The Department Head's Hallway} { } {Dark mahogany floors and woodwork contrast wonderfully with the large, hand-blown glass windows spaced evenly along this plush hallway. Images of lush rain forests and peaceful beach fronts have been framed in matching mahogany frames, words of encouragement noted at the bottom. Though, the poster of a cat hanging from a tree branch seems a bit out of place. On the poster a note of 'Just Hang in There' has been hastily written on it with.... oh, with Sharpie. Yup, '<3 Lamia' can be found at the very bottom of the picture. Good luck getting the tape off the wall.} {The Out of Character Lounge } {} {} {} {1.000} {}
@@ -29172,7 +29173,7 @@ R { 6891} {0} {} {Among Tall Bushes of Fern} { } {An old road connects here the 
 E { 6909} {s} {s} {4} {0} {} {1.000} {}
 E { 6910} {n} {n} {1} {0} {} {1.000} {}
 
-R { 6892} {0} {} {The Grimpen Arms Tavern} { } {A small but cozy and comfortable tavern has been built in the middle of the village. All the furniture is made from dark brown wood that probably comes from the soaked trees of the moor. Each table has been installed into a lowly-lighted cubicle that guarantees the privacy of customers' conversations. Near the owner's desk stands a large ardoise board where has been written today's menu.} {Dartmoor} {} {} {} {1.000} {}
+R { 6892} {0} {<129>} {The Grimpen Arms Tavern} {I} {A small but cozy and comfortable tavern has been built in the middle of the village. All the furniture is made from dark brown wood that probably comes from the soaked trees of the moor. Each table has been installed into a lowly-lighted cubicle that guarantees the privacy of customers' conversations. Near the owner's desk stands a large ardoise board where has been written today's menu.} {Dartmoor} {} {} {} {1.000} {}
 E { 6880} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 6893} {0} {} {On a Dying Trail, in the Mire} { } {You follow the narrow rocky trail between the mature woodland to the north and the vast barren moor to the south. Under your feet, the peat of the mire is thick and soaked with mud. The sloggy trail almost disappears under your feet and it's getting more and more difficult to discern it from the bushes and ponds of the surrounding marsh.} {Dartmoor} {} {} {} {1.000} {}
@@ -31797,7 +31798,7 @@ R { 7508} {0} {} {Passing by Ghent} { } {The city of Ghent lies off to the east,
 E { 7507} {s} {s} {4} {0} {} {1.000} {}
 E { 7509} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7509} {0} {} {Gentpoort} { } {Two round towers loom above you as you cross the canal and approach the walls of Bruges. An arched gateway leads through the walls into the city, one of seven such gates strategically placed around the walls. Narrow slits in the tower walls attest to the defensive function of the structure. Guards and guild representatives perform checks on goods being transported, as well as collect taxes on imports and exports.} {Medieval Flanders} {} {} {} {1.000} {}
+R { 7509} {0} {} {Gentpoort} { } {Two round towers loom above you as you cross the canal and approach the walls of Bruges. An arched gateway leads through the walls into the city, one of seven such gates strategically placed around the walls. Narrow slits in the tower walls attest to the defensive function of the structure. Guards and guild representatives perform checks on goods being transported, as well as collect taxes on imports and exports.} {Medieval Flanders} {flanders} {} {} {1.000} {}
 E { 7508} {s} {s} {4} {0} {} {1.000} {}
 E { 7510} {n} {n;enq ask gate gate} {1} {0} {} {1.000} {}
 E { 7510} {ask gate gate} {n;enq ask gate gate} {0} {0} {} {1.000} {}
@@ -31897,7 +31898,7 @@ R { 7528} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7560} {e} {e} {2} {0} {} {1.000} {}
 E { 7525} {w} {w} {8} {0} {} {1.000} {}
 
-R { 7529} {0} {<129>} {The Inn of the Gilded Swan} {I} {A warm fire on the hearth lights the room, creating a cozy atmosphere in the colder months. Boards placed over trestles form tables around the room, waiting for customers. A stairway leads to rooms upstairs for those looking for a safe place to sleep for the night.} {Medieval Flanders} {flanders} {} {} {1.000} {}
+R { 7529} {0} {<129>} {The Inn of the Gilded Swan} {I} {A warm fire on the hearth lights the room, creating a cozy atmosphere in the colder months. Boards placed over trestles form tables around the room, waiting for customers. A stairway leads to rooms upstairs for those looking for a safe place to sleep for the night.} {Medieval Flanders} {} {} {} {1.000} {}
 E { 7524} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 7530} {0} {} {Turning onto Maria Street} { } {The spire of the Church of Our Lady dominates the skyline to the north. Homes of the well-to-do stately grace the street with their ornate decorations and fine glass windows, lending an air of opulence to the area.} {Medieval Flanders} {} {} {} {1.000} {}
@@ -32128,7 +32129,7 @@ E { 7589} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 7516} {ask gate gate} {e;enq ask gate gate} {0} {0} {} {1.000} {}
 E { 7516} {gate} {e;enq ask gate gate} {0} {0} {} {1.000} {}
 
-R { 7583} {0} {} {The River Zwinn Outside the Gates of Bruges} { } {The Zwinn sweeps onwards, emptying into the North Sea. At low tide, the channel recedes leaving muddy flats that are impassable to boats. During the late summer and early fall, sea lavender blossoms along the shores of the tidal channel, attracting bees and all manner of flying creature, seeking its sweet nectar.} {Medieval Flanders} {} {} {} {1.000} {}
+R { 7583} {0} {} {The River Zwinn Outside the Gates of Bruges} { } {The Zwinn sweeps onwards, emptying into the North Sea. At low tide, the channel recedes leaving muddy flats that are impassable to boats. During the late summer and early fall, sea lavender blossoms along the shores of the tidal channel, attracting bees and all manner of flying creature, seeking its sweet nectar.} {Medieval Flanders} {flanders} {} {} {1.000} {}
 E { 7559} {s} {s;enq ask gate gate} {4} {0} {} {1.000} {}
 E { 2525} {n} {n} {1} {1} {} {1.000} {}
 E { 7559} {gate} {s;enq ask gate gate} {0} {0} {} {1.000} {}
@@ -34806,6 +34807,7 @@ E { 8246} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8246} {0} {} {Coral Road} { } {A path climbs down between the Jacamar woods and a large inland lake to the east. Some of the rocks paving the trail seem to be chunks of coral, bringing pale pink and orange colors to the red-tinted lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8245} {w} {w} {8} {0} {} {1.000} {}
+E { 6038} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8247} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8239} {s} {s} {4} {0} {} {1.000} {}
@@ -35618,6 +35620,9 @@ E { 8390} {n} {n} {1} {0} {} {1.000} {}
 R { 8435} {0} {} {A Small Square Plaza} { } {A small stone plaza distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8380} {n} {n} {1} {0} {} {1.000} {}
 
+R { 8436} {0} {} {A Grassy Meadow} { } {Grasses wave gently in the breeze travelling down the hill towards a burbling river. In springtime, the meadow is transformed with an eruption of wildflowers setting the meadow ablaze with color. The other months of the year it is a peaceful place for quiet contemplation, or ideal place for animals to graze undisturbed.} {Player Housing} {} {} {} {1.000} {}
+E { 8450} {n} {n} {1} {0} {} {1.000} {}
+
 R { 8437} {0} {} {Perth's Manor House} { } {Fine stonework forms the walls around the manor house, creating a solid structure that is sure to withstand the tests of time for centuries. The house itself is made of the same stone work, with chimneys rising above. Crenellations surround the roof-top walkways, attesting to the importance the owner places on protection for those who dwell within.} {Player Housing} {perth} {} {} {1.000} {}
 E { 8382} {w} {w} {8} {1} {} {1.000} {}
 E { 8445} {n} {n} {1} {0} {} {1.000} {}
@@ -35671,6 +35676,7 @@ E { 8448} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8450} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the scent of blossoms mix creating a pleasant perfume. During warmer months, the tree offer cool shade from the heat of the sun and during the fall fallen fruits scent the air. In winter, the orchard becomes a barren skeleton compared to the life that fills it the rest of the year.} {Player Housing} {} {} {} {1.000} {}
 E { 8437} {n} {n} {1} {0} {} {1.000} {}
+E { 8436} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8451} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8256} {n} {n} {1} {0} {} {1.000} {}
@@ -35766,6 +35772,7 @@ E { 8473} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8473} {0} {} {The Slopes of Mount Franklin} { } {A steep slope climbs up to the north towards the caldera of Mount Franklin. Sulfur fumes emerge from the hot ground, leaving no doubt that the volcano is still active.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8471} {s} {s} {4} {0} {} {1.000} {}
+E { 8521} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8474} {0} {} {The Banks of Mercy River} { } {A muddy river flows here, cascading from the slopes of Mount Franklin to the east side of the island. Its waters are charged with branches, leaves, and poison sumac from the forest, and is probably not proper for consumption.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8250} {s} {s} {4} {0} {} {1.000} {}
@@ -35875,3 +35882,98 @@ E { 8422} {s} {s} {4} {0} {} {1.000} {}
 R { 8501} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8440} {s} {s} {4} {0} {} {1.000} {}
 E { 8439} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8502} {0} {} {The Shores of Lake Grant} { } {This expanse of water with a circumference of about seven miles and an area of two hundred fifty acres is set within a border of various trees. Toward the east, across a screen of foliage picturesquely enhanced in some places, appears the sparkling horizon of the sea. In the north, the lake traces a slightly concave curve which contrasts with the sharp outline of its lower point. Numerous aquatic birds frequent the banks of the lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6039} {n} {n} {1} {0} {} {1.000} {}
+E { 8503} {e} {e} {2} {0} {} {1.000} {}
+E { 8513} {w} {w} {8} {0} {} {1.000} {}
+E { 8519} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8503} {0} {} {The Northern Parts of the Island} { } {To the north you see a part of the island covered with lava rocks and sand dunes, colonies of thousand of birds perched on the lava cliffs and other maritime animals. To the south are see the forests around Lake Grant and volcano named Mount Franklin by the castwaways.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8502} {w} {w} {8} {0} {} {1.000} {}
+E { 8504} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8504} {0} {} {The Shark Gulf} { } {The gulf has been formed by two rivers of lava, thrown out by the volcano and accumulated by successive eruptions. The result is that the gulf is completely sheltered on all sides, and that even in the stormiest weather, the sea here must be as calm as a lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8503} {s} {s} {4} {0} {} {1.000} {}
+E { 8505} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8505} {0} {} {The East Coast of the Island} { } {You stand at a crossroads where many animal trails around the lake meet. You can see crab claws, egret legs, and feline paws printed in the sand.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8504} {s} {s} {4} {0} {} {1.000} {}
+E { 8506} {e} {e} {2} {0} {} {1.000} {}
+E { 8509} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8506} {0} {} {Among Sand Dunes} { } {A landscape of dunes of pure white sand expands from here to north side of the Mysterious Island. The dunes are formed by the strong winds blowing on the northern peninsula as it is not protected by the mountain, unlike other areas of the island.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8505} {w} {w} {8} {0} {} {1.000} {}
+E { 8507} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8507} {0} {} {Among Sand Dunes} { } {A landscape of dunes of pure white sand expands from here to north side of the Mysterious Island. The dunes are formed by the strong winds blowing on the northern peninsula as it is not protected by the mountain, unlike other areas of the island.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8506} {s} {s} {4} {0} {} {1.000} {}
+E { 8508} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8508} {0} {} {A Solidified Lava River} { } {A past eruption of Mount Franklin created a lava flow that once cascaded along the northern slopes of the mountain and ended here, in the ocean by the Shark Gulf. The lava has long turned into black, solid rock and looks like a scar over the idyllic landscape of dunes by the bright ocean.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8507} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8509} {0} {} {The Shark Gulf} { } {The gulf has been formed by two rivers of lava, thrown out by the volcano and accumulated by successive eruptions. The result is that the gulf is completely sheltered on all sides, and that even in the stormiest weather, the sea here must be as calm as a lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8505} {e} {e} {2} {0} {} {1.000} {}
+E { 8510} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8510} {0} {} {Approaching the Mandible Capes} { } {Two capes form a narrow passage, akin to their namesake, allowing a very limited entrance through which winds may enter. As it is, the north cape protects the of the south in a way which would make the entrance of gusts very difficult anyway.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8509} {s} {s} {4} {0} {} {1.000} {}
+E { 8511} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8511} {0} {} {The Mandible Peninsula} { } {You stand in the mouth of the shark and the bottom of the gulf. The enormous lava rocks succeed soon those capricious sand dunes, which sea-birds frequent in a cacophony of thousands.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8510} {s} {s} {4} {0} {} {1.000} {}
+E { 8512} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8512} {0} {} {Between the Capes} { } {You stand in the mouth of the shark and the bottom of the gulf. The enormous lava rocks succeed soon those capricious sand dunes, which sea-birds frequent in a cacophony of thousands.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8511} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8513} {0} {} {The Northern Shore of Lake Grant} { } {You stand on the northern shores of a large inland lake, between the slopes of Mount Franklin and the east coast of Union Bay, which was named by Pencroft. A rocky bar of granite protects the shores of the lake from the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8502} {e} {e} {2} {0} {} {1.000} {}
+E { 8514} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8514} {0} {} {The Shores of Lake Grant} { } {You stand on a narrow path around the lake, stuck between the tall walls of rock and the calm waters of Lake Grant. You have to move between large blocks of stone and carve your way through the flora.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8513} {e} {e} {2} {0} {} {1.000} {}
+E { 8515} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8515} {0} {} {By a Waterfall} { } {A large waterfall from the Mercy River cascades down the western side of the lake in a thunderous roar. The rocks near the drop of the falls are covered in moss and very slippery.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8514} {n} {n} {1} {0} {} {1.000} {}
+E { 8516} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8516} {0} {} {The Shores of Lake Grant} { } {You stand on a narrow path around the lake, stuck between the tall walls of rock and the calm waters of Lake Grant. You have to move between large blocks of stone and carve your way through the flora.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8515} {n} {n} {1} {0} {} {1.000} {}
+E { 8517} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8517} {0} {} {The East Coast of the Island} { } {You stand at a crossroads where many animal trails around the lake meet. You can see crab claws, egret legs, and feline paws printed in the sand.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8516} {w} {w} {8} {0} {} {1.000} {}
+E { 8518} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8518} {0} {} {The Shores of Lake Grant} { } {You stand on the northern shores of a large inland lake, between the slopes of Mount Franklin and the east coast of Union Bay, which was named by Pencroft. A rocky bar of granite protects the shores of the lake from the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8517} {s} {s} {4} {0} {} {1.000} {}
+E { 8519} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8519} {0} {} {The Shores of Lake Grant} { } {This expanse of water with a circumference of about seven miles and an area of two hundred fifty acres is set within a border of various trees. Toward the east, across a screen of foliage picturesquely enhanced in some places, appears the sparkling horizon of the sea. In the north, the lake traces a slightly concave curve which contrasts with the sharp outline of its lower point. Numerous aquatic birds frequent the banks of the lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8518} {w} {w} {8} {0} {} {1.000} {}
+E { 8502} {n} {n} {1} {0} {} {1.000} {}
+E { 8520} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8520} {0} {} {Near Lake Grant} { } {The fauna and flora around the lake is quite amazing for such a small island lost in the middle of the Pacific. Large trees coming from stems and seeds that are not local to the island and animals species ranging from insects to large mammals cohabit on this tiny rock.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8519} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8521} {0} {} {Climbing up the Volcano} { } {You are climbing the steep face of Mount Franklin, the volcano that towers over the Mysterious Island. Very little vegetation grows and the ground is littered with small bits of lava rock. Here and there, sulfur fumes rise from the ground, smelling like rotten eggs.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8473} {s} {s} {4} {0} {} {1.000} {}
+E { 8522} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8522} {0} {} {Looking up the Caldera} { } {You stand on a narrow, dangerous ledge overlooking a magnificent vista of the rest of the island. When you climb up even higher, you will likely find an unparalleled view of the whole isle. West of here you see the caldera of the volcano, exhaling a low but ever-present roar.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8521} {s} {s} {4} {0} {} {1.000} {}
+E { 8523} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8523} {0} {} {You panic, and attempt to flee.} { } {[0;1;32mA Moon-like Landscape[0;32m You stand on a small plateau near the top of the volcano. Around you is a flat, barren, and desolate landscape made of layers of black obsidian and red lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8522} {e} {e} {2} {0} {} {1.000} {}
+E { 8524} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8524} {0} {} {You panic, and attempt to flee.} { } {[0;1;32mThe South Rim of the Volcano[0;32m It is here that a wide path connects the slopes of the south rim of the volcano. You can see below the luxuriant forest covering the pirate-infested Serpentine peninsula. Squinting your eyes, you can guess the outline of the balloon camp.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8523} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8525} {0} {} {A Secret Den} { } {You gasp around at the magnificent piles of treasure surrounding you. Gold! Silver! Jewels! All for the taking! As you reach out for them you jump with a bit of a start as your hand passes right through the wonderful piles. In a second they are gone, leaving only a silent, empty room, save for the moss covered walls and the dusty floor.} {Celtic Ireland} {} {} {} {1.000} {}
+E { 4973} {s} {open s;s} {4} {0} {} {1.000} {}
