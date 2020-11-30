@@ -47,9 +47,15 @@
         #SHOWME <001>Please upgrade to v2.02.01 or later.;
     }
     {
-        #SESSION legendmud mud.legendmud.org 9999;
+        #LINE quiet {#READ core_module.tin};
+        newsess one;
     };
-}
+};
+
+#ALIAS {newsess %1}
+{
+    #SESSION %1 ${mud_addr} ${mud_port};
+};
 
 #EVENT {SESSION CONNECTED}
 {
@@ -65,10 +71,19 @@
             #UNVAR login_name;
             #UNVAR login_password;
 
-            #UNACTION {{^Enter your choice or the name of your character:}}
+            #UNACTION {{^Enter your choice or the name of your character:}};
         }
         {5};
-    }
+    };
+    #ELSEIF {"$autologin" == "password"}
+    {
+        #ACTION {{^Password:}}
+        {
+            #SEND $login_password;
+            #UNACTION {{^Password:}};
+        }
+    };
+    #ELSE
     {
         #UNVAR autologin;
         #UNVAR login_name;
@@ -87,24 +102,35 @@
     {
         @on_chat_resize{};
     };
-}
+};
 
-#EVENT {SESSION DISCONNECTED} {#INFO stack};
-
-#FUNCTION {subscribe_event}
+#FUNCTION {listen}
 {
-    #IF {"%1" != "" && "%2" != ""}
+    #ECHO %1 %2;
+    #IF {"%1" == "" || "%2" == ""}
     {
-        #VAR events[%1] hi;
+        #ECHO {<119>Error subscribing to event. Event name and target function name must be provided.};
     }
     {
-        #SHOWME <001>Invalid call to subscribe_event. Must provide an event name, and an identifier.;
+        #IF {&{events[%1]}}
+        {
+            #LIST events[%1] add %2;
+        }
+        {
+            #LIST events[%1] create %2;
+        }
     }
-
     #RETURN #NOP;
 };
 
-#FUNCTION {raise_event}
+#FUNCTION {event}
 {
+    #IF {&{events[%1]}}
+    {
+        #FOREACH {$events[%1][%*]} {func}
+        {
+            #LINE sub var #LOCAL tmp {@${func}{}};
+        };
+    };
     #RETURN #NOP;
 };

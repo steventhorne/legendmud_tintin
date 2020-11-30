@@ -6,7 +6,6 @@
 #VAR spells[sustained] {vid pur udan};
 #VAR spellhelp[Buffs ][sustained  ] {[   ] "sustained breath"       - };
 
-
 #VAR spells[census] {vid gam jiv};
 #VAR spellhelp[Misc  ][census     ] {[   ] "census"                 - };
 #VAR spells[idobj] {vid mahi};
@@ -17,3 +16,5 @@
 #VAR spellhelp[Misc  ][phase      ] {[ 40] "phase door"             - };
 #VAR spells[timesight] {vid kala mahi};
 #VAR spellhelp[Misc  ][timesight  ] {[ 15] "timesight"              - };
+#VAR spells[tform] {guh vya mahi};
+#VAR spellhelp[Misc  ][tform      ] {[ 15] "true form"              - };

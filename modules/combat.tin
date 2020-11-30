@@ -69,9 +69,9 @@
         {
             #IF {"$prompt[leader]" == "Nobody"}
             {
-                    #SEND get coins corpse;get money corpse;carve corpse;stand;
+                    #SEND get coins corpse;get money corpse;carve corpse;
             };
-            exa corpse
+            stand;exa corpse;
         };
     };
     #UNVAR xp_check;
@@ -79,11 +79,24 @@
 }
 {5}
 
+
+#ACTION {You thud heavily to the ground}
+{
+    #SEND stand;
+}
+{4}
+
+#ACTION {sends you sprawling with a powerful bash}
+{
+    #SEND stand;
+}
+{4}
+
 #ACTION {{and all of a sudden, you find yourself sitting on the floor.$}}
 {
 	#SEND stand;
 }
-{5}
+{4}
 
 #ACTION {{puts an augmented cloth poultice on your wounds.$}}
 {

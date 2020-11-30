@@ -5,7 +5,7 @@
 #VAR spellhelp[Misc  ][bridge     ] {[   ] "bridge of will"         - transfer mana to target};
 
 #VAR spells[thorns] {kere pur jiv};
-#VAR spellhelp[Battle][thorns     ] {[ 70] "cloak of thorns"        - };
+#VAR spellhelp[Buffs ][thorns     ] {[ 70] "cloak of thorns"        - };
 
 #VAR spells[ball] {kere lak rudh};
 #VAR spellhelp[Vision][ball       ] {[ 50] "continual light"        - creates continual ball of light};
@@ -129,6 +129,9 @@
 
 #VAR spells[sheal] {kere drva anna};
 #VAR spellhelp[Helper][sheal      ] {[ 38] "summoner's healing"     - };
+
+#VAR spells[vanish] {guh gam rudh};
+#VAR spellhelp[Buffs ][vanish     ] {[   ] "vanish"                 - };
 
 #VAR spells[vigor] {kere gam rudh};
 #VAR spellhelp[Buffs ][vigor      ] {[ 15] "vigor"                  - increase target mv};

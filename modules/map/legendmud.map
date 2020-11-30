@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1415,7 +1415,7 @@ R {  274} {0} {} {At the Gates} { } {You stand at the entrance to the Locksley E
 E {  273} {e} {e} {2} {0} {} {1.000} {}
 E {  275} {n} {n} {1} {0} {} {1.000} {}
 
-R {  275} {0} {} {The Locksley Estates} { } {This once fine manor house provided protection for many of the peasants living in the vicinity. Since the fire, no one lives here, and the serfs have begun moving in and farming more of the lands on the sly in order to eke out an existence that they can survive upon after the Sheriff's men come around demanding more and more exorbitant taxes.} {Medieval Britain } {} {} {} {1.000} {}
+R {  275} {0} {<169>} {The Locksley Estates} {W} {This once fine manor house provided protection for many of the peasants living in the vicinity. Since the fire, no one lives here, and the serfs have begun moving in and farming more of the lands on the sly in order to eke out an existence that they can survive upon after the Sheriff's men come around demanding more and more exorbitant taxes.} {Medieval Britain } {} {} {} {1.000} {}
 E {  274} {s} {s} {4} {0} {} {1.000} {}
 
 R {  276} {0} {} {On the King's Road} { } {Just north of London, the countryside, the cottages and the people look as if they have been caught in time. The rustic look of the area makes you think nothing has changed here for hundreds of years and perhaps won't change in as many to come either. The King's Road runs north-south here with a small path leading off to the west into the forest.} {Medieval Britain } {} {} {} {1.000} {}
@@ -1481,7 +1481,7 @@ R {  290} {0} {} {Beside a Stream} { } {A fast little brook winds its way merril
 E {  289} {s} {s} {4} {0} {} {1.000} {}
 E {  291} {e} {e} {2} {0} {} {1.000} {}
 
-R {  291} {0} {} {Outside a Small Hut} { } {The hut to the north is a small plain cottage. The simplicity of it is unadorned except for a small wooden crucifix hung above the doorway. A small stream runs nearby, burbling under a small bridge. From the kennel behind the hut, you hear the loud barking of several dogs as you approach.} {Medieval Britain } {} {} {} {1.000} {}
+R {  291} {0} {<169>} {Outside a Small Hut} {W} {The hut to the north is a small plain cottage. The simplicity of it is unadorned except for a small wooden crucifix hung above the doorway. A small stream runs nearby, burbling under a small bridge. From the kennel behind the hut, you hear the loud barking of several dogs as you approach.} {Medieval Britain } {} {} {} {1.000} {}
 E {  290} {w} {w} {8} {0} {} {1.000} {}
 E {  292} {e} {e} {2} {0} {} {1.000} {}
 
@@ -2032,7 +2032,7 @@ E {  423} {w} {w} {8} {0} {} {1.000} {}
 E {  424} {s} {s} {4} {0} {} {1.000} {}
 E {  425} {e} {e} {2} {0} {} {1.000} {}
 
-R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They really do look that white from close up too. The chalky limestone is slowly eroding and continuously renewing the glaring white surface. The English Channel separates you from the French coastline to the east.} {Medieval Britain } {} {} {} {1.000} {}
+R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They really do look that white from close up too. The chalky limestone is slowly eroding and continuously renewing the glaring white surface. The English Channel separates you from the French coastline to the east.} {Medieval Britain } {cliffs} {} {} {1.000} {}
 E {  422} {e} {e} {2} {0} {} {1.000} {}
 E { 1051} {u} {u} {16} {1} {} {1.000} {}
 
@@ -3415,7 +3415,7 @@ R {  741} {0} {} {Dressing Room 1} { } {An enormous open faced wardrobe closet i
 E {  736} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 6465} {u} {open u;u} {16} {0} {} {1.000} {}
 
-R {  742} {0} {} {Section de L'armement} { } {Metal gleams throughout this room. Weapons and armor of all kinds are strewn throughout this armaments storehouse, awaiting their call for performances needing items of all periods.} {Paris Theatre } {} {} {} {1.000} {}
+R {  742} {0} {<149>} {Section de L'armement} {V} {Metal gleams throughout this room. Weapons and armor of all kinds are strewn throughout this armaments storehouse, awaiting their call for performances needing items of all periods.} {Paris Theatre } {} {} {} {1.000} {}
 E {  735} {s} {open s;s} {4} {0} {} {1.000} {}
 E {  730} {e} {open e;e} {2} {0} {} {1.000} {}
 
@@ -3585,7 +3585,7 @@ R {  782} {5130} {} {} { } {} {} {} {} {} {1.000} {}
 E {  778} {s} {s} {4} {0} {} {1.000} {}
 E {  781} {n} {n} {1} {0} {} {1.000} {}
 
-R {  783} {0} {<149>} {Rue Breda} {V} {The shadows conceal the room's contents.} {19th Century Paris } {} {} {} {1.000} {}
+R {  783} {0} {} {Rue Breda} { } {The shadows conceal the room's contents.} {19th Century Paris } {} {} {} {1.000} {}
 E {  758} {s} {s} {4} {0} {} {1.000} {}
 E {  784} {e} {e} {2} {0} {} {1.000} {}
 E {  788} {w} {w} {8} {0} {} {1.000} {}
@@ -3680,7 +3680,7 @@ E {  809} {w} {w} {8} {0} {} {1.000} {}
 R {  805} {0} {<149>} {A Masai Hut} {V} {The dark interior of this hut is only barely illuminated by the light coming in the entrance. A few animal pelts are piled up along the far wall, for sleeping. There are a few earthenware jars, probably containing salted meats and foodstuffs.} {African Savanna} {} {} {} {1.000} {}
 E {  804} {w} {w} {8} {0} {} {1.000} {}
 
-R {  806} {0} {<149>} {The Masai Kraal} {V} {Mud huts surround you, and to your northwest, there seems to be a large bonfire.} {African Savanna} {} {} {} {1.000} {}
+R {  806} {0} {} {The Masai Kraal} { } {Mud huts surround you, and to your northwest, there seems to be a large bonfire.} {African Savanna} {} {} {} {1.000} {}
 E {  804} {n} {n} {1} {0} {} {1.000} {}
 E {  807} {w} {w} {8} {0} {} {1.000} {}
 
@@ -3690,7 +3690,7 @@ E {  808} {s} {s} {4} {0} {} {1.000} {}
 E {  809} {n} {n} {1} {0} {} {1.000} {}
 E {  811} {w} {w} {8} {0} {} {1.000} {}
 
-R {  808} {0} {<149>} {A Masai Hut} {V} {The dark interior of this hut is only barely illuminated by the light coming in the entrance. A few animal pelts are piled up along the far wall, for sleeping. There are a few earthenware jars, probably containing salted meats and foodstuffs.} {African Savanna} {} {} {} {1.000} {}
+R {  808} {0} {} {A Masai Hut} { } {The dark interior of this hut is only barely illuminated by the light coming in the entrance. A few animal pelts are piled up along the far wall, for sleeping. There are a few earthenware jars, probably containing salted meats and foodstuffs.} {African Savanna} {} {} {} {1.000} {}
 E {  807} {n} {n} {1} {0} {} {1.000} {}
 
 R {  809} {0} {} {The Center of the Kraal} { } {A large bonfire blazes angrily, scattering shadows about the area in sporadic bursts. The hunters' daily catches are cooked on large spits here, before they are split among the villagers. This is also where the Laibon speaks to the Masai, in council or for storytelling. Several large logs are arranged about the fire, which is almost never out.} {African Savanna} {} {} {} {1.000} {}
@@ -4206,7 +4206,6 @@ E {  936} {e} {e} {2} {0} {} {1.000} {}
 R {  930} {0} {} {A Winding Road} { } {The forest seems to thicken here as the road winds along, heading from east to south here. The trees overhead cast ominous shadows on the road and send shivers up your spine, as though the forest itself were a malevolent force.} {The Black Forest } {} {} {} {1.000} {}
 E {  928} {s} {s} {4} {0} {} {1.000} {}
 E {  932} {e} {e} {2} {0} {} {1.000} {}
-E { 6038} {w} {w} {8} {0} {} {1.000} {}
 
 R {  931} {0} {} {In the Dense Forest} { } {The forest is very dense here and you have an eerie sense of foreboding and a strong desire to return to the road where perhaps the denizens would be less of a threat.} {The Black Forest} {} {} {} {1.000} {}
 E {  928} {n} {n} {1} {0} {} {1.000} {}
@@ -4218,7 +4217,6 @@ E {  933} {n} {n} {1} {0} {} {1.000} {}
 R {  933} {0} {} {A Dirt Road Outside Kleinstadt} { } {The forest thins substantially here, and the road extends north to the gates of Kleinstadt, and south back into the deeper forest where the road begins to wind. Light filters through the trees to make odd patterns in the dust of the road.} {The Black Forest } {} {} {} {1.000} {}
 E {  932} {s} {s} {4} {0} {} {1.000} {}
 E {  934} {n} {n} {1} {0} {} {1.000} {}
-E { 6039} {w} {w} {8} {0} {} {1.000} {}
 
 R {  934} {0} {} {Das Sudstadttor} {t} {The thick stone of the town walls is broken here by a massive oaken door, which is reinforced with heavy iron. There is a small bronze plaque with some writing on it bolted to the door. The town beyond would be a welcome sight after a long forest trek. Within the stout walls, a traveler could surely wash dust from a weary throat by a long drink of fine German wine. The road leads north into the town, and south into the forest. The dark trees seem to crowd the city from three directions, but you can detect that a cleared area lies to the east of the city, and might be quickly reached by passing through town.} {Medieval Kleinstadt } {klein} {} {} {1.000} {}
 E {  933} {s} {s} {4} {0} {} {1.000} {}
@@ -4334,7 +4332,7 @@ E {  960} {w} {w} {8} {0} {} {1.000} {}
 R {  960} {0} {} {A Break in the Bavarian Mountains} { } {Snow-covered peaks rise on both sides of the rock-strewn road. Fir and pine trees throw evening shadows threateningly around you, though Jack Frost has touched their branches and sprinkled snow rests gently on their bows. Your breath exhales in white puffs and your skin has a bluish tinge to it. The air is crisp and clean, but you realize you are not properly equipped for an extended stay in these mountains. You pull your cloak tighter around your shivering body as you trudge onwards only to find the road end in an avalanche.} {Transylvania } {} {} {} {1.000} {}
 E {  959} {e} {e} {2} {0} {} {1.000} {}
 
-R {  961} {0} {} {The Smithy} { } {The room is shadowed and a shiver runs down your back despite the heat. Along the walls are neatly stacked tools. The side of the interior is filled with a forge and bellows. To the side is a water barrel and a large anvil. A pile of coal rests near the forge. Rods of iron are piled under the tools and several partially finished pieces, horseshoes and carriage bracings, rest in a bin at the far end. You find the extreme heat almost unbearable, but far more pleasant that the bleary weather outside.} {Transylvania } {} {} {} {1.000} {}
+R {  961} {0} {<149>} {The Smithy} {V} {The room is shadowed and a shiver runs down your back despite the heat. Along the walls are neatly stacked tools. The side of the interior is filled with a forge and bellows. To the side is a water barrel and a large anvil. A pile of coal rests near the forge. Rods of iron are piled under the tools and several partially finished pieces, horseshoes and carriage bracings, rest in a bin at the far end. You find the extreme heat almost unbearable, but far more pleasant that the bleary weather outside.} {Transylvania } {} {} {} {1.000} {}
 E {  953} {e} {e} {2} {0} {} {1.000} {}
 
 R {  962} {0} {} {The Center of Widow's Road} { } {The finely set worn cobblestone road leads through a residential part of town. A few shops still can be seen, but most of the buildings have small fenced yard set back from the road slightly. Nearby your light shines upon a small impoverished home shown as such by its mud walls and poorly thatched roof. You shiver at thinking about having to live like that. Forcing yourself to look away, you notice one of the shops, a small wood structure with smoky glass windows, has a sword and shield carved into a sign above the door. Although late of hour, several people still enter and leave; you realize that besides the guards, most of the people you have watched walking by carry some kind of weapon, a dagger or sword, something for protection, yet you have seen no thieves or large brutish-type men other than the guards. The buildings continue to thin as you glance down the road south.} {Transylvania } {} {} {} {1.000} {}
@@ -4343,10 +4341,10 @@ E {  963} {w} {w} {8} {0} {} {1.000} {}
 E {  964} {e} {e} {2} {0} {} {1.000} {}
 E {  967} {s} {s} {4} {0} {} {1.000} {}
 
-R {  963} {0} {} {The Storehouse of War} { } {You have walked into a warmly lit shop. The outside breeze falls silent as the shop entrance closes behind you. Looking around, you find yourself surrounded by numerous stacks of weapons of every size and shape imaginable. Your eyes widen and a slight fascinated wonder flows though you. One side is devoted to armors from chain to leather items to protect you. You see shields and pikes not far from each other and everything looks in very good condition and quality. You smile contentedly as you ponder all the goodies around you.} {Transylvania } {} {} {} {1.000} {}
+R {  963} {0} {<149>} {The Storehouse of War} {V} {You have walked into a warmly lit shop. The outside breeze falls silent as the shop entrance closes behind you. Looking around, you find yourself surrounded by numerous stacks of weapons of every size and shape imaginable. Your eyes widen and a slight fascinated wonder flows though you. One side is devoted to armors from chain to leather items to protect you. You see shields and pikes not far from each other and everything looks in very good condition and quality. You smile contentedly as you ponder all the goodies around you.} {Transylvania } {} {} {} {1.000} {}
 E {  962} {e} {e} {2} {0} {} {1.000} {}
 
-R {  964} {0} {} {A Midwife's Hovel} { } {Within this residential home, you find a pleasant orderly room. A plain table, a small sturdy chair, even a small bookcase decorate the place giving it a very different atmosphere. On one shelf rests a vase with small wild flowers in a myriad of bright colors. The other shelves contain small wood, glass, and clay baubles with the exception of two worn books. Both books appear to be of a medical nature. The solid wood door leads back to the cold cobblestone road. You look around expecting your grandmother to appear at any moment. The thought is very disconcerting and you shake your head trying to clear it of that image.} {Transylvania } {} {} {} {1.000} {}
+R {  964} {0} {<149>} {A Midwife's Hovel} {V} {Within this residential home, you find a pleasant orderly room. A plain table, a small sturdy chair, even a small bookcase decorate the place giving it a very different atmosphere. On one shelf rests a vase with small wild flowers in a myriad of bright colors. The other shelves contain small wood, glass, and clay baubles with the exception of two worn books. Both books appear to be of a medical nature. The solid wood door leads back to the cold cobblestone road. You look around expecting your grandmother to appear at any moment. The thought is very disconcerting and you shake your head trying to clear it of that image.} {Transylvania } {} {} {} {1.000} {}
 E {  962} {w} {w} {8} {0} {} {1.000} {}
 
 R {  965} {0} {} {The Southern Edge of Town} { } {The buildings become fewer as you approach the southern gate and the cobblestone road ends shortly after this entrance. The gate stands imposingly overhead with a twenty feet high basalt stone wall running off behind the church on one side of the road and disappearing into the shadows past a well crafted wood building. The wood structure is made from a deeply stained and finished oak and built to stand up to most forms of weather. Across the street, the church is a stone fortress that reaches almost forty feet into the air. It has been white-washed and stands out as the most impressive building you have seen here outside of the castle itself. A large cross is plainly visible at the top of its foremost spire.} {Transylvania } {} {} {} {1.000} {}
@@ -4366,7 +4364,7 @@ E {  965} {s} {s} {4} {0} {} {1.000} {}
 R {  968} {0} {} {An Unused Graveyard} { } {Several fenced-in acres surround you. The church lies to the south, but you find yourself amongst rows of grave sites and tombstones. Most of the headstones are chiseled granite which neglect has covered in moss. Glancing from one grave to another you have the paranoid feeling of being watched.} {Transylvania } {} {} {} {1.000} {}
 E {  966} {s} {s} {4} {0} {} {1.000} {}
 
-R {  969} {0} {} {A Craftmaster's Shop} { } {This is obviously the shop of a woodworking craftsmaster. Neatly displayed on the walls are various saws, clamps, chisels and other implements of woodwork. To the back are bins filled with boards and wood rounds of different shades and sizes. The wood fills the room with an aroma of a deep forest, almost transporting you there if you were to close your eyes. Half-finished pieces rest on one bench waiting to be completed for their customers. The clean-swept polished wood floors and spotless array of organized equipment impresses you with the feeling that this is no ordinary craftsman's shop. Still you feel almost at ease here.} {Transylvania } {} {} {} {1.000} {}
+R {  969} {0} {<149>} {A Craftmaster's Shop} {V} {This is obviously the shop of a woodworking craftsmaster. Neatly displayed on the walls are various saws, clamps, chisels and other implements of woodwork. To the back are bins filled with boards and wood rounds of different shades and sizes. The wood fills the room with an aroma of a deep forest, almost transporting you there if you were to close your eyes. Half-finished pieces rest on one bench waiting to be completed for their customers. The clean-swept polished wood floors and spotless array of organized equipment impresses you with the feeling that this is no ordinary craftsman's shop. Still you feel almost at ease here.} {Transylvania } {} {} {} {1.000} {}
 E {  965} {e} {e} {2} {0} {} {1.000} {}
 
 R {  970} {0} {} {A Desolate Point in the Dragon Spine Hills} { } {The dirt road flows over numerous shadowed hills. The path is rocky and little vegetation can be seen. Looking around, the road continues across the rocky hills and disappears into the night's darkness in both directions.} {Transylvania } {} {} {} {1.000} {}
@@ -4392,7 +4390,7 @@ R {  975} {0} {} {The Path of Carnage} { } {As you walk this path, the castle in
 E {  974} {s} {s} {4} {0} {} {1.000} {}
 E {  976} {n} {n} {1} {0} {} {1.000} {}
 
-R {  976} {0} {<149>} {The Back Corner of the Castle} {V} {Several displayed corpses line the path this night; you staggering from the stench. Vultures circle above looking for another meal and you feel as if you are whom they are anticipating it to be. As you wind your way around the castle, you wonder how any army could possibly attack. Straight up through a rocky cliff are the walls of the castle. Only this path surrounding the castle gives any place to move and it is close enough for any reasonable archer to shoot you. With the unrest of the times and region, you feel very nervous about being here.} {Transylvania } {} {} {} {1.000} {}
+R {  976} {0} {} {The Back Corner of the Castle} { } {Several displayed corpses line the path this night; you staggering from the stench. Vultures circle above looking for another meal and you feel as if you are whom they are anticipating it to be. As you wind your way around the castle, you wonder how any army could possibly attack. Straight up through a rocky cliff are the walls of the castle. Only this path surrounding the castle gives any place to move and it is close enough for any reasonable archer to shoot you. With the unrest of the times and region, you feel very nervous about being here.} {Transylvania } {} {} {} {1.000} {}
 E {  979} {w} {w} {8} {0} {} {1.000} {}
 E {  975} {s} {s} {4} {0} {} {1.000} {}
 
@@ -4606,7 +4604,7 @@ E { 1027} {e} {open e;e} {2} {0} {} {1.000} {}
 R { 1027} {0} {} {A Small Guest Room} { } {The room opens up into an unused bedroom. A comfortable looking bed occupies most of the room. A desk with chair sit against the wall near the door. A candle sconce is set in the stone wall above it. There is also a small pine chest against the foot of the bed to be used as a closet. A fine layer of dust covers the room as it has obviously been several days since anyone has been here.} {Transylvania } {} {} {} {1.000} {}
 E { 1026} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 1028} {0} {<139>} {The Yard of St. Paul's Cathedral} {B} {This stone yard is full of merchants and tradesmen who have come to converse and discuss business arrangements in the shadow of St. Paul's. In the far corner, you can see the pulpit from which public sermons are given on a regular basis. Many of these sermons are political, and given at the order of the Crown.} {Tudor England } {} {} {} {1.000} {}
+R { 1028} {0} {<139>} {The Yard of St. Paul's Cathedral} {B} {This stone yard is full of merchants and tradesmen who have come to converse and discuss business arrangements in the shadow of St. Paul's. In the far corner, you can see the pulpit from which public sermons are given on a regular basis. Many of these sermons are political, and given at the order of the Crown.} {Tudor England } {venetian} {} {} {1.000} {}
 E {  266} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1029} {0} {} {Gracious Street} { } {Although the name of this street is gracious, the odors which drift up from its cobblestones are less so. Since the household wastes and litter which are customarily thrown from the windows above overflow the gutters, it would behoove you to watch your step carefully. To the south and downwards, London Bridge rises upwards.} {Tudor England } {} {} {} {1.000} {}
@@ -4646,7 +4644,7 @@ E { 1035} {e} {e} {2} {0} {} {1.000} {}
 E { 2103} {u} {u} {16} {1} {} {1.000} {}
 E { 5630} {d} {d} {32} {0} {} {1.000} {}
 
-R { 1037} {0} {} {A Barber Surgeon's Office} { } {The light which shines dimly through the thick glass window reflects off the carefully polished surgical instruments which hang on the walls of this room. Gazing on their carefully sharpened edges, you are grateful that you have no major complaints to carry to the surgeon on this visit. In the corner, a jar of leeches stands ready for one of the many bleeding treatments which the barber surgeon is called on to perform.} {Tudor England } {} {} {} {1.000} {}
+R { 1037} {0} {<149>} {A Barber Surgeon's Office} {V} {The light which shines dimly through the thick glass window reflects off the carefully polished surgical instruments which hang on the walls of this room. Gazing on their carefully sharpened edges, you are grateful that you have no major complaints to carry to the surgeon on this visit. In the corner, a jar of leeches stands ready for one of the many bleeding treatments which the barber surgeon is called on to perform.} {Tudor England } {} {} {} {1.000} {}
 E { 1031} {d} {open d;d} {32} {0} {} {1.000} {}
 
 R { 1038} {0} {} {The South Bank} { } {In the distance, you can see the roofs of the theaters and bear pits which flourish outside of the City walls. Although there are some theatres north of the river, the lower rents and looser laws of Southwarke have persuaded many theatre owners to shift their business southward. Officially part of London, Southwarke is not altogether under its jurisdiction, a fact which gives it the popular name 'the Liberties'. Here, one may see many a spectacle, both common and illicit. London Bridge with its gate rises to the north, while the lane continues southward.} {Tudor England } {} {} {} {1.000} {}
@@ -5571,7 +5569,7 @@ E { 1241} {e} {e} {2} {0} {} {1.000} {}
 E { 1242} {n} {n} {1} {0} {} {1.000} {}
 E { 1243} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1241} {0} {} {A Round Lodge} { } {The inside is quieter and warmer than outside, pulling your focus to the fire crackling in the basin at the center of the lodge. Heavy vertical timbers support the flat wooden roof. Several beds lie between the walls and rows of secondary supporting posts.} {} {} {} {} {1.000} {}
+R { 1241} {0} {<149>} {A Round Lodge} {V} {The inside is quieter and warmer than outside, pulling your focus to the fire crackling in the basin at the center of the lodge. Heavy vertical timbers support the flat wooden roof. Several beds lie between the walls and rows of secondary supporting posts.} {} {} {} {} {1.000} {}
 E { 1240} {w} {w} {8} {0} {} {1.000} {}
 
 R { 1242} {0} {} {An Earthen Lodge} { } {The inside of the mound reveals a semi-subterranean square-shaped wooden structure insulated and protected by large quantities of earth. Some form of altar lies opposite the entrance way and beds lay behind rows of posts near the walls. On one side you spot a giant painted buffalo robe, displaying a fascinating piece of artwork.} {} {} {} {} {1.000} {}
@@ -6229,7 +6227,7 @@ R { 1398} {0} {} {A Humble Wineseller's Hut} { } {This small and dirty hut has v
 E { 1390} {s} {s} {4} {0} {} {1.000} {}
 E { 1399} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R { 1399} {0} {} {In a Green Field} { } {Your feet sink into the warm soft earth of the field. The ground has recently been turned over here, and the old crops plowed under. You might expect the smell of the exposed earth to be sweet and full of the promise of life. And yet -- what stretches out before you is like no farmstead you have ever seen. All you smell is the sourness of death and inevitable decay. There is something timeless and ancient about this land, something mysterious and unknown. No peasants are to be seen, yet you feel you are not alone here.} {The Silk Road} {} {} {} {1.000} {}
+R { 1399} {0} {} {In a Green Field} {t} {Your feet sink into the warm soft earth of the field. The ground has recently been turned over here, and the old crops plowed under. You might expect the smell of the exposed earth to be sweet and full of the promise of life. And yet -- what stretches out before you is like no farmstead you have ever seen. All you smell is the sourness of death and inevitable decay. There is something timeless and ancient about this land, something mysterious and unknown. No peasants are to be seen, yet you feel you are not alone here.} {The Silk Road} {sr} {} {} {1.000} {}
 E { 1398} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 1400} {d} {dig dirt} {32} {0} {} {1.000} {}
 E { 1400} {dig dirt} {dig dirt} {0} {0} {} {1.000} {}
@@ -7337,7 +7335,7 @@ E { 2381} {u} {u} {16} {0} {} {1.000} {}
 R { 1662} {0} {} {A Hut} { } {The inside of this small room scarcely looks like it could hold an entire family, but the number of straw mats strewn about the floor quickly confirms the fact that it is cramped. No windows grace the walls and there are no signs of any items of comfort; this place is for sleeping and little more. A small stone oven sits in the middle of the room, the smoke from which must billow out the tiny closeable hole in the ceiling.} {Ancient India } {} {} {} {1.000} {}
 E { 1654} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R { 1663} {0} {} {Drover's Boot Store} { } {A thick brush mat invites you to wipe your feet upon entry. A delicate metallic bell 'dings' satisfyingly when the door is opened. Numerous cowboy boots stand atop handsome felt-topped plinths. Each boot sports different decorations and finishes while the underlying design appears unchanged.} {Abilene, Kansas } {} {} {} {1.000} {}
+R { 1663} {0} {<149>} {Drover's Boot Store} {V} {A thick brush mat invites you to wipe your feet upon entry. A delicate metallic bell 'dings' satisfyingly when the door is opened. Numerous cowboy boots stand atop handsome felt-topped plinths. Each boot sports different decorations and finishes while the underlying design appears unchanged.} {Abilene, Kansas } {} {} {} {1.000} {}
 E { 1231} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 1664} {0} {} {Second Street} { } {Horses, carts and pedestrians have smushed the road surface into a pulp to such a degree that you're not quite sure where the mud starts and the horse muck ends. To one side of the road lays the only brick and stone construction you have seen in town. The bricks line the back and sides and large stone features make for a grand building.} {Abilene, Kansas } {} {} {} {1.000} {}
@@ -7374,14 +7372,14 @@ E { 1228} {s} {open s;s} {4} {0} {} {1.000} {}
 R { 1673} {0} {} {A Baptist Church} { } {The church is a modest wooden frame building consisting of a single square room. Pews lie either side a central walkway. A bible lays open on a lectern opposite the entrance of the church. Wooden steps lead into a submerged pool of water. A small print of an artwork depicting a man holding a long wooden crucifix has been framed on the wall.} {Abilene, Kansas } {} {} {} {1.000} {}
 E { 1227} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R { 1674} {0} {} {The Frontier Store} { } {Although the store may try to appear more pretentious, it is little more than a log house and is a bit old fashioned when compared to the frame buildings that house every other business on Texas Street.} {Abilene, Kansas } {} {} {} {1.000} {}
+R { 1674} {0} {<149>} {The Frontier Store} {V} {Although the store may try to appear more pretentious, it is little more than a log house and is a bit old fashioned when compared to the frame buildings that house every other business on Texas Street.} {Abilene, Kansas } {} {} {} {1.000} {}
 E { 1233} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 1675} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 1665} {n} {n} {1} {0} {} {1.000} {}
 E { 1231} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1676} {0} {} {The Alamo Saloon} { } {The long, narrow room is painted bright white and is pleasantly decorated with many paintings and gas lamps hanging from the ceiling. A few tables and chairs are placed towards the back of the saloon but the majority of the space is for standing. A shiny bar runs along one side of the room stocked with a reasonable selection of liquors and wines. A large mirror and a huge pair of cattle horns have been mounted on the wall behind the bar. A sign reads 'Free Lunch with a Drink'.} {Abilene, Kansas } {} {} {} {1.000} {}
+R { 1676} {0} {<149>} {The Alamo Saloon} {V} {The long, narrow room is painted bright white and is pleasantly decorated with many paintings and gas lamps hanging from the ceiling. A few tables and chairs are placed towards the back of the saloon but the majority of the space is for standing. A shiny bar runs along one side of the room stocked with a reasonable selection of liquors and wines. A large mirror and a huge pair of cattle horns have been mounted on the wall behind the bar. A sign reads 'Free Lunch with a Drink'.} {Abilene, Kansas } {} {} {} {1.000} {}
 E { 1233} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 1677} {0} {<129>} {Drover's Cottage} {I} {Wall-mounted brass kerosene lamps cast shadows over the half-lit room. Two large fires burn at either side of the building to keep the patrons warm in the cold winter. A center shelved column is encircled by a high bar, lined with stools. Countless bottles of all shapes and sizes, contain a baffling array of colored liquids, are on display. Smaller round tables are dotted around the edges of room and two staircases lead from opposite sides of the room up to the living quarters above.} {Abilene, Kansas} {drovers} {} {} {1.000} {}
@@ -10863,9 +10861,7 @@ E { 2500} {e} {e} {2} {0} {} {1.000} {}
 E { 2502} {w} {w} {8} {0} {} {1.000} {}
 
 R { 2502} {0} {} {At the Chair of Oblivion} { } {You are standing in a vast field in the murky realm of Tartarus. Paths lead this way and that through the jumbled rocks which are scattered across this plain, seemingly looping back upon themselves. The paths are filled with tormented souls begging for surcease of sorrow. A great throne rests before you, deposited here in the middle of the plain for a reason only the gods might know.} {Tartarus } {} {} {} {1.000} {}
-E { 2501} {e} {e} {2} {0} {} {1.000} {}
 E { 2503} {s} {s} {4} {0} {} {1.000} {}
-E { 2504} {w} {w} {8} {0} {} {1.000} {}
 E { 2509} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2503} {0} {} {Towards the Elysian Fields} { } {You stand on a small path, leading to a golden gate that opens on wide and peaceful fields, seemingly filled with fruit trees and orchards. Elysian fields were made by the gods as a place where mortals they particularly loved might live out eternity, never growing old.} {Tartarus} {} {} {} {1.000} {}
@@ -11524,7 +11520,7 @@ R { 2660} {0} {} {Inside a Stable} { } {The smell of musty hay and molding dung 
 E { 2658} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 2665} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R { 2661} {0} {} {A Muddy Street} { } {You stand in what probably passes for a town square in this poor fishing village. It is mostly mud, and the mud stretches in all directions, no doubt what the villagers call a road. The buildings are mostly wattle and daub, although a few near the center of town are of sturdier stone construction. Several of the huts have nets draped along their sides to dry. The smell of salt in the air is strong.} {Roman Britain } {} {} {} {1.000} {}
+R { 2661} {0} {} {A Muddy Street} { } {You stand in what probably passes for a town square in this poor fishing village. It is mostly mud, and the mud stretches in all directions, no doubt what the villagers call a road. The buildings are mostly wattle and daub, although a few near the center of town are of sturdier stone construction. Several of the huts have nets draped along their sides to dry. The smell of salt in the air is strong.} {Roman Britain } {orkney} {} {} {1.000} {}
 E { 2658} {w} {w} {8} {0} {} {1.000} {}
 E { 2662} {s} {s} {4} {0} {} {1.000} {}
 E { 2664} {n} {n} {1} {0} {} {1.000} {}
@@ -11805,6 +11801,7 @@ E { 2726} {d} {d} {32} {0} {} {1.000} {}
 
 R { 2726} {0} {} {Inside the Great Pyramid} { } {You step in some kind of secret chamber at the pyramid's entrance. A narrow passageway leads west into the darkness, and an exit tunnel reaches out to the east, to the necropolis.} {Industrial Pyramid } {} {} {} {1.000} {}
 E { 2727} {d} {d} {32} {0} {} {1.000} {}
+E {  638} {e} {e} {2} {1} {} {1.000} {}
 
 R { 2727} {0} {} {A Descending Passageway} { } {You stand in a narrow passageway inside the Pyramid. The walls are made from ochre granite rocks and painted in white or dark red. They are also covered with many hieroglyph scripts where scribes have described the life and beliefs of the powerful Pharaoh Khufu. The stone floor is rough and uneven, covered with a thin layer of sand.} {Industrial Pyramid } {} {} {} {1.000} {}
 E { 2726} {u} {u} {16} {0} {} {1.000} {}
@@ -13129,7 +13126,7 @@ E { 3036} {n} {n} {1} {0} {} {1.000} {}
 E { 3038} {s} {s} {4} {0} {} {1.000} {}
 E { 5928} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3038} {0} {} {The Square Just Inside the Gates} { } {The tall two- and three-story houses of Valletta proper surround the square. The vast battlements towering above convey a sense of security and peace. People come and go between market stalls on the square inside the gates to the city. Vendors hawk their wares and children play between the booths.} {Hospitaller Malta} {} {} {} {1.000} {}
+R { 3038} {0} {<169>} {The Square Just Inside the Gates} {W} {The tall two- and three-story houses of Valletta proper surround the square. The vast battlements towering above convey a sense of security and peace. People come and go between market stalls on the square inside the gates to the city. Vendors hawk their wares and children play between the booths.} {Hospitaller Malta} {} {} {} {1.000} {}
 E { 3037} {n} {n} {1} {0} {} {1.000} {}
 E { 3039} {e} {e} {2} {0} {} {1.000} {}
 E { 3415} {w} {w} {8} {0} {} {1.000} {}
@@ -13180,7 +13177,7 @@ R { 3049} {0} {} {The Gentle End of Val de Diavolo} { } {The hills form a protec
 E { 3048} {w} {w} {8} {0} {} {1.000} {}
 E { 3050} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3050} {0} {} {A Darkened Cottage} { } {Cobwebs and dust cover shelves, walls, and even most of the floor. The light of many candles fails to penetrate the depths of the corners. The dust is thick and deep and there are a few things lying about in the corners that you suspect of being well about to develop legs and walk out on their own.} {The Inferno } {} {} {} {1.000} {}
+R { 3050} {0} {<149>} {A Darkened Cottage} {V} {Cobwebs and dust cover shelves, walls, and even most of the floor. The light of many candles fails to penetrate the depths of the corners. The dust is thick and deep and there are a few things lying about in the corners that you suspect of being well about to develop legs and walk out on their own.} {The Inferno } {} {} {} {1.000} {}
 E { 3049} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3051} {0} {} {Among White-Washed Houses} { } {Life goes on quietly as every day resembles the one before it in this sleepy little countryside village. You stroll past one neat white-washed house after another, all looking rather alike and all looking comfortable and pleasant. The atmosphere is idyllic and pleasant and were it not for Val De Diavolo's distinct stench, this might well be one of the most peaceful and lovely places on the face of the planet.} {The Inferno } {} {} {} {1.000} {}
@@ -13193,7 +13190,7 @@ E { 3053} {s} {s} {4} {0} {} {1.000} {}
 E { 4782} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 4783} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3053} {0} {} {In Town, Near the Etruscan Ruins} { } {Old ruins partially covered by grass and weeds lie off to the east, memories of a time long past. The cobblestone road leads north and south, in and out among the white cottages and the occasional coniferous tree. To the north, the town well forms a social center, and towards the east, the hills roll on gently.} {The Inferno } {} {} {} {1.000} {}
+R { 3053} {0} {<169>} {In Town, Near the Etruscan Ruins} {W} {Old ruins partially covered by grass and weeds lie off to the east, memories of a time long past. The cobblestone road leads north and south, in and out among the white cottages and the occasional coniferous tree. To the north, the town well forms a social center, and towards the east, the hills roll on gently.} {The Inferno } {} {} {} {1.000} {}
 E { 3052} {n} {n} {1} {0} {} {1.000} {}
 E { 3054} {e} {e} {2} {0} {} {1.000} {}
 E { 6418} {s} {s} {4} {0} {} {1.000} {}
@@ -13303,7 +13300,7 @@ R { 3078} {0} {} {Atop the Mountain} { } {The horizon shimmers strangely up the 
 E { 3077} {d} {d} {32} {0} {} {1.000} {}
 E { 3079} {u} {u} {16} {0} {} {1.000} {}
 
-R { 3079} {0} {} {The Gates of Hell} { } {What is up and what is down? Suddenly you get the feeling that the world took a 180 degree shift and the earth is now the sky! The grass below the gates looks scorched as if something burned there recently. A human skull, bereft of flesh and features, sits atop one spike of the gates.} {The Inferno } {} {} {} {1.000} {}
+R { 3079} {0} {} {The Gates of Hell} { } {What is up and what is down? Suddenly you get the feeling that the world took a 180 degree shift and the earth is now the sky! The grass below the gates looks scorched as if something burned there recently. A human skull, bereft of flesh and features, sits atop one spike of the gates.} {The Inferno } {hell} {} {} {1.000} {}
 E { 3078} {d} {d} {32} {0} {} {1.000} {}
 E { 3080} {s} {s} {4} {0} {} {1.000} {}
 
@@ -13534,7 +13531,7 @@ E { 3137} {s} {s} {4} {0} {} {1.000} {}
 R { 3136} {0} {} {Under the Wall of Dis} { } {Eerie figures of smoke from burning human flesh waft past you silently and you try not to choke. The constant whimpering and writhing and scraping and pleading from the open graves grates on your nerves. The path under your feet crackles as you step, ashes and cinders flying about forming little clouds in your wake.} {The Inferno } {} {} {} {1.000} {}
 E { 3135} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3137} {0} {} {A Road Paved With Good Intentions} { } {The road beneath your feet is neatly paved by careful hands that obviously took their time to make certain everything was just right. Great effort has been put into placing each stone just so but as you look about, you fail to make out the pattern of the mosaic-work that the stones seem to have been intended to form. The result seems to be an exceedingly neat and proper pile of -- nothing.} {The Inferno } {} {} {} {1.000} {}
+R { 3137} {0} {<169>} {A Road Paved With Good Intentions} {W} {The road beneath your feet is neatly paved by careful hands that obviously took their time to make certain everything was just right. Great effort has been put into placing each stone just so but as you look about, you fail to make out the pattern of the mosaic-work that the stones seem to have been intended to form. The result seems to be an exceedingly neat and proper pile of -- nothing.} {The Inferno } {} {} {} {1.000} {}
 E { 3135} {n} {n} {1} {0} {} {1.000} {}
 E { 3138} {s} {s} {4} {0} {} {1.000} {}
 
@@ -16291,7 +16288,7 @@ E { 3781} {e} {e} {2} {0} {} {1.000} {}
 E { 3788} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 3791} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3788} {0} {} {Bess's Tavern} { } {Some of the villagers disapprove of there being a tavern here, yet Bess keeps it open anyway. By the looks of the crowd she gets at times, more approve than disapprove. The best food around, some say even as far as Salem Town you can't find a better place to eat. Small round tables take up most of the space in the center of the room. Candles surround the chandelier that hangs from the center of the ceiling.} {17th Century Salem } {} {} {} {1.000} {}
+R { 3788} {0} {<149>} {Bess's Tavern} {V} {Some of the villagers disapprove of there being a tavern here, yet Bess keeps it open anyway. By the looks of the crowd she gets at times, more approve than disapprove. The best food around, some say even as far as Salem Town you can't find a better place to eat. Small round tables take up most of the space in the center of the room. Candles surround the chandelier that hangs from the center of the ceiling.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3787} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 3789} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -16463,7 +16460,7 @@ E { 3828} {s} {s} {4} {0} {} {1.000} {}
 E { 3830} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 3831} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3830} {0} {} {The Courthouse} { } {Chairs lined up throughout most of the room, save a space that holds a judge's bench against the back wall. Lanterns sit at either end of the room, to allow bits of light during the night hours. A single door on the west side of the building leads to the outside. Bare windows cut out of the north and south walls enable the days sunlight to shine into the room.} {17th Century Salem } {} {} {} {1.000} {}
+R { 3830} {0} {<149>} {The Courthouse} {V} {Chairs lined up throughout most of the room, save a space that holds a judge's bench against the back wall. Lanterns sit at either end of the room, to allow bits of light during the night hours. A single door on the west side of the building leads to the outside. Bare windows cut out of the north and south walls enable the days sunlight to shine into the room.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3829} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 3831} {0} {} {Main Street} { } {The road continues here, its uneven dirt causes you to stumble at times. As you walk through the center of the town, buildings sit lined in rows on either side of the road. North is a small path that leads to the stocks, or jail cells. A ladder leads to the platform used to carry out the punishments given by the Magistrate. South, a mercantile where anyone can buy the latest fashions in clothing or simple supplies.} {17th Century Salem } {} {} {} {1.000} {}
@@ -16487,7 +16484,7 @@ E { 3831} {d} {d} {32} {0} {} {1.000} {}
 R { 3835} {0} {} {A Large Stone House} { } {The first thing that catches your eye is the size of the house. The lands surrounding, decorated with bushes and colorful bouquets of flowers. Large pine trees sit along either side of the short path leading to the front of the home. As you step inside, the first thing you notice is the large fireplace built into the back wall. Sheer white linens hang in front of the windows, yet still allow some light into the room. By the looks of it, this home belongs to one of the more prestigious members of the town.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3832} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 3836} {0} {} {Salem Inn} { } {A large door stands open awaiting visitors to enter. Quiet whispers of the wind blowing by the windows sets a peaceful tone. A narrow staircase at the back of the room leads to the rooms upstairs. Echoes of wood creaking as people walk across the floor or up the staircase ring in your ears. A few tables sit in the center of the room for those who wish to enjoy a meal here as well.} {17th Century Salem } {} {} {} {1.000} {}
+R { 3836} {0} {<149>} {Salem Inn} {V} {A large door stands open awaiting visitors to enter. Quiet whispers of the wind blowing by the windows sets a peaceful tone. A narrow staircase at the back of the room leads to the rooms upstairs. Echoes of wood creaking as people walk across the floor or up the staircase ring in your ears. A few tables sit in the center of the room for those who wish to enjoy a meal here as well.} {17th Century Salem } {} {} {} {1.000} {}
 E { 3832} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 3837} {u} {u} {16} {0} {} {1.000} {}
 
@@ -16637,7 +16634,7 @@ E { 3859} {n} {n} {1} {0} {} {1.000} {}
 R { 3871} {0} {} {Ile Aux Noix} { } {The river begins to widen here, the banks lined with massive boulders and fallen trees. Small bushes find a foothold in cracks within the grey granite boulders, dotting the banks with their greenery. Further back, the tall pine forest covers the rolling hills and valleys as you float along lazily.} {French Indian War } {} {} {} {1.000} {}
 E { 3859} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3872} {0} {} {On Lake Champlain} { } {The waters of the vast lake spread out to all sides around you. Tranquil now, you suspect that the gentle waves may indeed rise into huge frothing motion to threaten any small vessel seaborne with very little warning ahead.} {French Indian War } {} {} {} {1.000} {}
+R { 3872} {0} {} {On Lake Champlain} { } {The waters of the vast lake spread out to all sides around you. Tranquil now, you suspect that the gentle waves may indeed rise into huge frothing motion to threaten any small vessel seaborne with very little warning ahead.} {French Indian War } {monster} {} {} {1.000} {}
 E { 3867} {w} {w} {8} {0} {} {1.000} {}
 E { 7811} {d} {d} {32} {0} {} {1.000} {}
 
@@ -18458,7 +18455,7 @@ R { 4308} {0} {} {The Merchant's Walkway} { } {A few more carts are lined up beh
 E { 4307} {w} {w} {8} {0} {} {1.000} {}
 E { 4310} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4309} {0} {} {The Blacksmith's Shop} { } {Large bits of metal lay strewn all around the floor and hung on the walls. The temperature inside this building seems to be about twenty degrees higher than it is outside, at least. A large fireplace is against the back wall.} {Boston, Mass. } {} {} {} {1.000} {}
+R { 4309} {0} {<149>} {The Blacksmith's Shop} {V} {Large bits of metal lay strewn all around the floor and hung on the walls. The temperature inside this building seems to be about twenty degrees higher than it is outside, at least. A large fireplace is against the back wall.} {Boston, Mass. } {} {} {} {1.000} {}
 E { 4307} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 4310} {0} {} {On the Walk} { } {A wooden walk way lines the front of the carts set here. A few townspeople gather at each cart to buy their goods for the day or week. Moving in a chaotic motion from cart to cart, then across the street to continue their shopping. Buildings, partially up on wooden stilts, rest behind the walk, giving protection to the merchants and their carts underneath.} {Boston, Mass. } {} {} {} {1.000} {}
@@ -18584,7 +18581,7 @@ R { 4339} {0} {} {Following the Stream} { } {The stream continues flowing in the
 E { 7401} {e} {e} {2} {0} {} {1.000} {}
 E { 7398} {u} {u} {16} {1} {} {1.000} {}
 
-R { 4340} {0} {} {A Strangely Decorated Yard} { } {The decaying fence surrounds a sparsely grassed area, nearly barren amongst the shadowy woods. The trees that line the outside of the fence seem to tighten in against the clearing, choking what little life is left here out of the area. The few trees that have grown inside this pasture are decorated with odd arrangements of feathers and a colorful net. As the breeze blows across the land, an eerie melody sounds out from the windchimes dangling from a low branch.} {Boston, Mass. } {} {} {} {1.000} {}
+R { 4340} {0} {<149>} {A Strangely Decorated Yard} {V} {The decaying fence surrounds a sparsely grassed area, nearly barren amongst the shadowy woods. The trees that line the outside of the fence seem to tighten in against the clearing, choking what little life is left here out of the area. The few trees that have grown inside this pasture are decorated with odd arrangements of feathers and a colorful net. As the breeze blows across the land, an eerie melody sounds out from the windchimes dangling from a low branch.} {Boston, Mass. } {} {} {} {1.000} {}
 E { 4338} {n} {n} {1} {0} {} {1.000} {}
 
 R { 4341} {0} {} {The Street of Sands} { } {The sand tracked in from the traders and weary travelers drifts here and sifts into everything you own. The ground feels gritty under your feet as you stroll along. To the east, three buildings form a cul-de-sac at the end of this quiet street. The road also continues to main gates on the west side of the city.} {Arabian Nights } {} {} {} {1.000} {}
@@ -20434,21 +20431,21 @@ E { 4777} {u} {u} {16} {0} {} {1.000} {}
 R { 4777} {0} {} {A Hayloft} { } {This dark and cramped hayloft seems to serve a single purpose only: Storing hay and straw. A few mice scurry about and a spider spins her web -- apart from that, nothing stirs or moves here.} {The Inferno } {} {} {} {1.000} {}
 E { 4776} {d} {d} {32} {0} {} {1.000} {}
 
-R { 4778} {0} {} {A Weaver's Cottage} { } {Mostly dark and only barely illuminated by flickering candle lights, this cottage remains closed off and claustrophobic. Most of the floor space is occupied by a large weaver's loom.} {The Inferno } {} {} {} {1.000} {}
+R { 4778} {0} {<149>} {A Weaver's Cottage} {V} {Mostly dark and only barely illuminated by flickering candle lights, this cottage remains closed off and claustrophobic. Most of the floor space is occupied by a large weaver's loom.} {The Inferno } {} {} {} {1.000} {}
 E { 3056} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 4779} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3058} {e} {e} {2} {0} {} {1.000} {}
 E { 3055} {w} {w} {8} {0} {} {1.000} {}
 
-R { 4780} {0} {} {A Marble Cutter's Yard} { } {Half finished figures and sculptures stand about, some all but finished, some barely recognizable in shape. Most of the marble here is white carrara, the finest white Italian, although some is of the cheaper black and spotted varieties. The white dust from the marble works is everywhere.} {The Inferno } {} {} {} {1.000} {}
+R { 4780} {0} {<149>} {A Marble Cutter's Yard} {V} {Half finished figures and sculptures stand about, some all but finished, some barely recognizable in shape. Most of the marble here is white carrara, the finest white Italian, although some is of the cheaper black and spotted varieties. The white dust from the marble works is everywhere.} {The Inferno } {} {} {} {1.000} {}
 E { 3056} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4781} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3047} {w} {w} {8} {0} {} {1.000} {}
 E { 3048} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4782} {0} {} {A Craftsman's Shop} { } {The smithy is partially lit by the furnace fire, but otherwise dark and foreboding. The stench of leather and hot metal brings tears to your eyes. Various farming tools and utensils sit around in various grades of disrepair, and even a few weapons are lined up against the far wall. It would appear that the smith does other kinds of repairworks than those associated with his trade as well.} {The Inferno } {} {} {} {1.000} {}
+R { 4782} {0} {<149>} {A Craftsman's Shop} {V} {The smithy is partially lit by the furnace fire, but otherwise dark and foreboding. The stench of leather and hot metal brings tears to your eyes. Various farming tools and utensils sit around in various grades of disrepair, and even a few weapons are lined up against the far wall. It would appear that the smith does other kinds of repairworks than those associated with his trade as well.} {The Inferno } {} {} {} {1.000} {}
 E { 3052} {e} {open e;e} {2} {0} {} {1.000} {}
 
 R { 4783} {0} {} {A Road In the Town Past the Church} { } {You might rest a bit in the shade of the spruce tree, and listen to the comings and goings of the villagers as they scurry about their daily tasks. After a while, then, you might pay a visit to the small church to the north or stroll back towards the village center towards the west.} {The Inferno } {} {} {} {1.000} {}
@@ -20466,7 +20463,7 @@ E { 4783} {w} {w} {8} {0} {} {1.000} {}
 E { 4786} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 4787} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 4786} {0} {} {A Woodworker's House} { } {This comfortable little cabin smells mostly of fresh wood carvings -- not surprisingly, since its occupants seem to be employed in the wood carving trade. While far from wealthy, it would appear that the family is making a fair living, and that the house's matron is a lady of immaculate tidiness.} {The Inferno } {} {} {} {1.000} {}
+R { 4786} {0} {<149>} {A Woodworker's House} {V} {This comfortable little cabin smells mostly of fresh wood carvings -- not surprisingly, since its occupants seem to be employed in the wood carving trade. While far from wealthy, it would appear that the family is making a fair living, and that the house's matron is a lady of immaculate tidiness.} {The Inferno } {} {} {} {1.000} {}
 E { 4785} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 4787} {0} {<129>} {A Large Farm House} {I} {This farmhouse seems friendly and hospitable in spite of its residents not being particularly wealthy. Everything is neat and tidy and the smell of freshly baked bread almost manages to drown out that of rotten eggs that is everywhere. This would probably be a good place to inquire about a bed for the night.} {The Inferno } {} {} {} {1.000} {}
@@ -20656,7 +20653,7 @@ E { 4561} {e} {open e;e} {2} {0} {} {1.000} {}
 R { 4834} {0} {} {Near Bifrost} { } {You stand at one side of Bifrost, the rainbow bridge leading from the realm of mortals to Asgard, the realm of the gods. The bridge itself is made from a rainbow with its red color, the flaming fire, serving as a defense against the Jotun. On the other side of the bridge you can just make out the walls of Himinbjorg, the castle of the Aesir Heimdallr, the bridge's guardian.} {Svartalfheim } {} {} {} {1.000} {}
 E { 2349} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4835} {0} {} {In a Phoenician Bazaar} { } {Passageways roofed with vaults and domes extend in all directions from where you stand in the center of the market. Rug merchants, goldsmiths, jewelers, furniture dealers and craftsmen of all trades try desperately to grab your attention as you take in the area. Brass and copper products of every description, ancient swords and weapons, antique jewelry and the finest glass in all the world are just a few of the boasts you pick out of the air as their pleas to visit their stalls continue to mount.} {Ancient Carthage } {} {} {} {1.000} {}
+R { 4835} {0} {<149>} {In a Phoenician Bazaar} {V} {Passageways roofed with vaults and domes extend in all directions from where you stand in the center of the market. Rug merchants, goldsmiths, jewelers, furniture dealers and craftsmen of all trades try desperately to grab your attention as you take in the area. Brass and copper products of every description, ancient swords and weapons, antique jewelry and the finest glass in all the world are just a few of the boasts you pick out of the air as their pleas to visit their stalls continue to mount.} {Ancient Carthage } {} {} {} {1.000} {}
 E { 2409} {w} {w} {8} {0} {} {1.000} {}
 E { 4840} {n} {open n;n} {1} {0} {} {1.000} {}
 
@@ -20674,7 +20671,7 @@ R { 4839} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 2409} {s} {s} {4} {0} {} {1.000} {}
 E { 2408} {n} {n} {1} {0} {} {1.000} {}
 
-R { 4840} {0} {} {Hemien's Exotic Shop} { } {A dim light at the end of the boutique projects curious shadows as you walk by the different shelves full of exotic merchandise. Among piles of rugs, bronze lamps and glass crafts of curious design, you spot a quantity of interesting items that make the shop a place of quality shopping. From the scented candles and animal skulls hanging from the ceiling, you can also guess that Hemien, the shop owner, also deals in religious articles.} {Ancient Carthage } {} {} {} {1.000} {}
+R { 4840} {0} {<149>} {Hemien's Exotic Shop} {V} {A dim light at the end of the boutique projects curious shadows as you walk by the different shelves full of exotic merchandise. Among piles of rugs, bronze lamps and glass crafts of curious design, you spot a quantity of interesting items that make the shop a place of quality shopping. From the scented candles and animal skulls hanging from the ceiling, you can also guess that Hemien, the shop owner, also deals in religious articles.} {Ancient Carthage } {} {} {} {1.000} {}
 E { 4835} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 4841} {0} {} {Carthage's Thermal Baths} { } {The buildings of Carthage's baths are covered by an immense dome supported by granite columns. Porticoes of white marble encircle two large buildings in which Carthage's citizens come to relax. The main bath house welcomes visitors to rest in large hot pools in which you can admire wonderful mosaics describing the founding of the city by Dido.} {Ancient Carthage } {} {} {} {1.000} {}
@@ -21224,6 +21221,7 @@ E { 4973} {e} {e} {2} {0} {} {1.000} {}
 
 R { 4973} {0} {} {A Small Back Room} { } {Cluttered piles of garbage and junk surround a chair placed centrally in this musty old room. Strange odors pound at you, a blend of potpourri meant only for those who have had their noses long since removed. The only decoration besides the chair and the piles of garbage is a single piece of knotwork hanging on the moss covered walls.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 4972} {w} {w} {8} {0} {} {1.000} {}
+E { 8525} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 4974} {0} {} {A Dirt Road} { } {A wide dirt road passes beneath you, worn into the ground by the weary trudging of many tired feet. To the south the road fades from view in a forest. A dusty crossroads lies to the north.} {Celtic Ireland } {} {} {} {1.000} {}
 E { 4970} {n} {n} {1} {0} {} {1.000} {}
@@ -21659,6 +21657,7 @@ E { 5075} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5075} {0} {} {Inside Erebus, City of the Underworld} { } {You stand just outside the middle wall of gloomy Tartarus, beside the great iron gate which leads back to the abodes of Day and Night. The great void hangs above you, its depressing weight settling into you like a winter night's chill.} {Tartarus } {} {} {} {1.000} {}
 E { 5076} {n} {n} {1} {0} {} {1.000} {}
+E { 5074} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5076} {0} {} {A Silent Street in Erebus} { } {You wander in a street of a grand but not very populous city. All the buildings are made from dark basalt stone. Strange lanterns reflect a dim green flare on the lava black streets.} {Tartarus } {} {} {} {1.000} {}
 E { 5075} {s} {s} {4} {0} {} {1.000} {}
@@ -22795,7 +22794,7 @@ E { 1394} {w} {w} {8} {0} {} {1.000} {}
 R { 5344} {0} {} {The Eastern Peak Temple} { } {An air of peace pervades this temple, which seems to be made entirely from dark-stained wood, each plank fitted closely to the next. The simple, elegant lines of its construction make the structure seem timeless. The air is filled with the odor of incense, and flickering lamps hang from the eaves. A few mats have been laid out in front of a pedestal bearing a statue of the Buddha, awaiting your meditation.} {The Silk Road } {} {} {} {1.000} {}
 E { 1392} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5345} {0} {} {At Jiefang Market} { } {The market has a few stalls and vendors, but its main emphasis is on the wholesale trade. Goods from all over the countryside are brought here for purchase by merchants who will take them to the west, and merchants from the west have brought a wide variety of goods to the east. You can find food and ceramics by the crate, fur, cloth, ivory and bronze weapons by the bundle, gunpowder and spices by the jug.} {The Silk Road } {} {} {} {1.000} {}
+R { 5345} {0} {<149>} {At Jiefang Market} {V} {The market has a few stalls and vendors, but its main emphasis is on the wholesale trade. Goods from all over the countryside are brought here for purchase by merchants who will take them to the west, and merchants from the west have brought a wide variety of goods to the east. You can find food and ceramics by the crate, fur, cloth, ivory and bronze weapons by the bundle, gunpowder and spices by the jug.} {The Silk Road } {} {} {} {1.000} {}
 E { 1393} {e} {e} {2} {0} {} {1.000} {}
 E { 5346} {w} {w} {8} {0} {} {1.000} {}
 
@@ -23997,7 +23996,7 @@ E { 5241} {n} {n} {1} {0} {} {1.000} {}
 R { 5637} {0} {} {The Priest's Hut} { } {Ornate red-and-green painted latticework guards one side of the hut. The art is crudely done, but it is still good to see the old Hindu faith kept here, despite the encroachment of the pale English beliefs. Behind the lattice is a small worship area, with small paintings and iconic representations of various gods. The rest of the hut is bare and not very comfortable--the priest must live off of the donations of the village members.} {Seoni Jungle India} {} {} {} {1.000} {}
 E {  881} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5638} {0} {<149>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of Experience,' and an odd looking metal contraption carefully labeled 'orrery' dominates the room. This curio shop is clearly a haven for the eccentric. A whole shelf is marked 'treasure maps,' and the hardwood floor has bizarre, perhaps pagan symbols scratched into it. The glass window provides a view of the alley opening across the street, and in the poor lighting in here, it seems to waver like a gaping maw.} {London Port } {} {indtown} {} {1.000} {}
+R { 5638} {0} {<149>} {The Curio Shop} {V} {Proudly displayed in the window is an edition of Blake's 'Songs of Experience,' and an odd looking metal contraption carefully labeled 'orrery' dominates the room. This curio shop is clearly a haven for the eccentric. A whole shelf is marked 'treasure maps,' and the hardwood floor has bizarre, perhaps pagan symbols scratched into it. The glass window provides a view of the alley opening across the street, and in the poor lighting in here, it seems to waver like a gaping maw.} {London Port } {curio} {indtown} {} {1.000} {}
 E {    6} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 5639} {0} {} {Entrance to the Long House} { } {You enter into the darkened room, a musty smell pervades the air. The walls are covered with sheets of rough elm bark stripped from massive trees. The floor is nothing but hard packed dirt. You think you can see the outline of a door leading further into the house in the south wall of the room. A doorway leads back out to the north.} {French Indian War } {} {} {} {1.000} {}
@@ -24532,7 +24531,7 @@ E { 5759} {s} {s} {4} {0} {} {1.000} {}
 E { 5761} {n} {n} {1} {0} {} {1.000} {}
 E { 6330} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5761} {0} {} {The Middle of a River} { } {You are in the middle of a rushing, swirling river that seems unbelievably strong. The current is tearing at everything in it.} {Anasazi America } {} {} {} {1.000} {}
+R { 5761} {513} {} {The Middle of a River} { } {You are in the middle of a rushing, swirling river that seems unbelievably strong. The current is tearing at everything in it.} {Anasazi America } {} {} {} {1.000} {}
 E { 5760} {s} {s} {4} {0} {} {1.000} {}
 E { 5762} {n} {n} {1} {0} {} {1.000} {}
 
@@ -25700,11 +25699,13 @@ E { 6037} {e} {e} {2} {0} {} {1.000} {}
 R { 6037} {0} {} {The Sewers Under the Palace} { } {The sewers under the City of Brass end in a large room under the palace of the Caliph. To the west, large stairs rise up and into the palace. A massive fall of lava empties into the room, originating from the sewers above.} {Arabian Dreams} {} {} {} {1.000} {}
 E { 6036} {w} {w} {8} {0} {} {1.000} {}
 
-R { 6038} {0} {<fca>} {A Thatched Hut} { } {The farming hut is rough and simple but clean. The furnishings are centered around the cooking fire, indicating that the weather here must be wet and cold for at least some part of the year. A pallet of blankets and furs lies on the floor to the far side of the fire, while a rough-hewn table sits nearer the door.} {Player Housing } {} {} {} {1.000} {}
-E {  930} {e} {e} {2} {0} {} {1.000} {}
+R { 6038} {0} {} {On a Coral Road} { } {A path climbs down between the Jacamar woods and a large inland lake to the east. Some of the rocks paving the trail seem to be coral, bringing pale pink and orange colors to the red-tinted lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8246} {w} {w} {8} {0} {} {1.000} {}
+E { 6039} {e} {e} {2} {0} {} {1.000} {}
 
-R { 6039} {0} {<fca>} {A Thatched Hut} { } {The farming hut is rough and simple but clean. The furnishings are centered around the cooking fire, indicating that the weather here must be wet and cold for at least some part of the year. A pallet of blankets and furs lies on the floor to the far side of the fire, while a rough-hewn table sits nearer the door.} {Player Housing } {} {} {} {1.000} {}
-E {  933} {e} {e} {2} {0} {} {1.000} {}
+R { 6039} {0} {} {Near Lake Grant} { } {The small path here is elevated between the shores of the lake to the east and the slopes of the mountain to the west.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6038} {w} {w} {8} {0} {} {1.000} {}
+E { 8502} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6040} {0} {} {On Hua Mountain} { } {Paths and bridges lead away from you in all directions, to peaks and cliffs and grottos, to breathtaking views and places for contemplation. Mist drifts along the granite surface, mingling with the cloudy skirts and wind-sculpted treelines which wrap the peaks. You might spend days or weeks here, exploring the hundreds of paths and the dozens of pinnacles and temples and monasteries which dot this magnificent mountain.} {The Silk Road } {} {} {} {1.000} {}
 E { 4434} {s} {s} {4} {0} {} {1.000} {}
@@ -28037,7 +28038,7 @@ E { 3036} {e} {e} {2} {0} {} {1.000} {}
 R { 6617} {0} {} {The Crypt Beneath the Cathedral} { } {The crypt is relatively small, compared to what you would expect from a building as large as St John's cathedral. Most likely it was never meant to host more than a few bodies, and you count only a few sarcophagi standing around. The walls are white-washed and covered with painted frescoes, conveying a somewhat naively medieval atmosphere for a cathedral of so distinctly baroque style.} {Hospitaller Malta } {} {} {} {1.000} {}
 E { 5931} {u} {u} {16} {0} {} {1.000} {}
 
-R { 6618} {0} {} {In a Small Shop below Street Level} { } {This small goldsmith shop defies the Church's ban on usury. Various pieces of jewelry are stashed away on the shelves, in boxes, and some out in the open to see -- but not touch. Though the place seems to be run in a lawful and honest fashion, you get the feeling that the shop reeks of guilty conscience. Perhaps the Jewish goldsmith is simply afraid, because the Knights -- like all other good Christians -- detest his people.} {Hospitaller Malta } {} {} {} {1.000} {}
+R { 6618} {0} {<149>} {In a Small Shop below Street Level} {V} {This small goldsmith shop defies the Church's ban on usury. Various pieces of jewelry are stashed away on the shelves, in boxes, and some out in the open to see -- but not touch. Though the place seems to be run in a lawful and honest fashion, you get the feeling that the shop reeks of guilty conscience. Perhaps the Jewish goldsmith is simply afraid, because the Knights -- like all other good Christians -- detest his people.} {Hospitaller Malta } {} {} {} {1.000} {}
 E { 3036} {u} {u} {16} {0} {} {1.000} {}
 
 R { 6619} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -29013,7 +29014,7 @@ R { 6851} {0} {} {The Player Relations Wing} { } {Plain and tranquil, this hallw
 E { 6848} {e} {e} {2} {0} {} {1.000} {}
 E { 6852} {s} {s} {4} {0} {} {1.000} {}
 
-R { 6852} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R { 6852} {0} {} {Amducious' Infernal Office} { } {Exuding importance and smelling of rich mahogany and leather bound books, this large, corner office seems a perfect place for Amducious to sit and contemplate whatever plans or schemes he may be working on. Dark paneling covers two walls, adorned with infernal artwork from Hell's best artists. The other two are floor to ceiling windows that seem to give an unrivaled view of the lands of Legend.  Somehow the skies seem to shift and fold through the ages allowing you to see and hear everything that is going on everywhere.} {The Out of Character Lounge} {} {} {} {1.000} {}
 E { 6851} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6853} {0} {} {The Department Head's Hallway} { } {Dark mahogany floors and woodwork contrast wonderfully with the large, hand-blown glass windows spaced evenly along this plush hallway. Images of lush rain forests and peaceful beach fronts have been framed in matching mahogany frames, words of encouragement noted at the bottom. Though, the poster of a cat hanging from a tree branch seems a bit out of place. On the poster a note of 'Just Hang in There' has been hastily written on it with.... oh, with Sharpie. Yup, '<3 Lamia' can be found at the very bottom of the picture. Good luck getting the tape off the wall.} {The Out of Character Lounge } {} {} {} {1.000} {}
@@ -29172,7 +29173,7 @@ R { 6891} {0} {} {Among Tall Bushes of Fern} { } {An old road connects here the 
 E { 6909} {s} {s} {4} {0} {} {1.000} {}
 E { 6910} {n} {n} {1} {0} {} {1.000} {}
 
-R { 6892} {0} {<149>} {The Grimpen Arms Tavern} {V} {A small but cozy and comfortable tavern has been built in the middle of the village. All the furniture is made from dark brown wood that probably comes from the soaked trees of the moor. Each table has been installed into a lowly-lighted cubicle that guarantees the privacy of customers' conversations. Near the owner's desk stands a large ardoise board where has been written today's menu.} {Dartmoor} {} {} {} {1.000} {}
+R { 6892} {0} {<129>} {The Grimpen Arms Tavern} {I} {A small but cozy and comfortable tavern has been built in the middle of the village. All the furniture is made from dark brown wood that probably comes from the soaked trees of the moor. Each table has been installed into a lowly-lighted cubicle that guarantees the privacy of customers' conversations. Near the owner's desk stands a large ardoise board where has been written today's menu.} {Dartmoor} {} {} {} {1.000} {}
 E { 6880} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R { 6893} {0} {} {On a Dying Trail, in the Mire} { } {You follow the narrow rocky trail between the mature woodland to the north and the vast barren moor to the south. Under your feet, the peat of the mire is thick and soaked with mud. The sloggy trail almost disappears under your feet and it's getting more and more difficult to discern it from the bushes and ponds of the surrounding marsh.} {Dartmoor} {} {} {} {1.000} {}
@@ -30661,7 +30662,7 @@ R { 7254} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3854} {s} {s} {4} {0} {} {1.000} {}
 E { 3853} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7255} {0} {} {Hudson Bay Trading Company} { } {You make your way past the bundles of fox and beaver pelts to the back office. A large counter is here, actually a large plank of wood laid over the top of two massive barrels. The ceiling is hung with all sorts of beads and baubles. Stacks of cloth goods, blankets and other sundries are laid out for your perusal.} {French Indian War} {} {} {} {1.000} {}
+R { 7255} {0} {<139>} {Hudson Bay Trading Company} {B} {You make your way past the bundles of fox and beaver pelts to the back office. A large counter is here, actually a large plank of wood laid over the top of two massive barrels. The ceiling is hung with all sorts of beads and baubles. Stacks of cloth goods, blankets and other sundries are laid out for your perusal.} {French Indian War} {} {} {} {1.000} {}
 E { 7253} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R { 7256} {0} {} {A Small Naval Chantry} { } {The small shipyard is busy with workers at work on a small ship being readied for its maiden voyage. You are reminded of a beehive with all the activity here. A plank walkway leads off towards a large brick house overlooking the riverfront. The yardmaster's office is in a small building at the south end of the shipyard. From time to time you see journeymen and merchants enter to confer with the master of the shipyard.} {French Indian War} {} {} {} {1.000} {}
@@ -30677,7 +30678,7 @@ E { 7256} {s} {s} {4} {0} {} {1.000} {}
 E { 7259} {e} {e} {2} {0} {} {1.000} {}
 E { 7261} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7259} {0} {} {A Fishmonger's Shop} { } {Large tables are filled with mackerel and cod brought in this morning by some local fishermen. Servants and wives pick through filets, selecting enough for the dinner meal. A number of huge oak barrels stand here, bound with great iron bands and filled with salted fish filets. Smaller barrels stand on some of the table tops filled with sandy clams and oysters. A few lobster cages lie under the tables draped in damp seaweed, occasionally you see a claw poking through the holes. Several men work hurriedly at filleting out another catch recently brought in.} {French Indian War} {} {} {} {1.000} {}
+R { 7259} {0} {<149>} {A Fishmonger's Shop} {V} {Large tables are filled with mackerel and cod brought in this morning by some local fishermen. Servants and wives pick through filets, selecting enough for the dinner meal. A number of huge oak barrels stand here, bound with great iron bands and filled with salted fish filets. Smaller barrels stand on some of the table tops filled with sandy clams and oysters. A few lobster cages lie under the tables draped in damp seaweed, occasionally you see a claw poking through the holes. Several men work hurriedly at filleting out another catch recently brought in.} {French Indian War} {} {} {} {1.000} {}
 E { 7258} {w} {w} {8} {0} {} {1.000} {}
 E { 7253} {s} {s} {4} {0} {} {1.000} {}
 E { 7260} {n} {n} {1} {0} {} {1.000} {}
@@ -31797,7 +31798,7 @@ R { 7508} {0} {} {Passing by Ghent} { } {The city of Ghent lies off to the east,
 E { 7507} {s} {s} {4} {0} {} {1.000} {}
 E { 7509} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7509} {0} {} {Gentpoort} { } {Two round towers loom above you as you cross the canal and approach the walls of Bruges. An arched gateway leads through the walls into the city, one of seven such gates strategically placed around the walls. Narrow slits in the tower walls attest to the defensive function of the structure. Guards and guild representatives perform checks on goods being transported, as well as collect taxes on imports and exports.} {Medieval Flanders} {} {} {} {1.000} {}
+R { 7509} {0} {} {Gentpoort} { } {Two round towers loom above you as you cross the canal and approach the walls of Bruges. An arched gateway leads through the walls into the city, one of seven such gates strategically placed around the walls. Narrow slits in the tower walls attest to the defensive function of the structure. Guards and guild representatives perform checks on goods being transported, as well as collect taxes on imports and exports.} {Medieval Flanders} {flanders} {} {} {1.000} {}
 E { 7508} {s} {s} {4} {0} {} {1.000} {}
 E { 7510} {n} {n;enq ask gate gate} {1} {0} {} {1.000} {}
 E { 7510} {ask gate gate} {n;enq ask gate gate} {0} {0} {} {1.000} {}
@@ -31897,7 +31898,7 @@ R { 7528} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7560} {e} {e} {2} {0} {} {1.000} {}
 E { 7525} {w} {w} {8} {0} {} {1.000} {}
 
-R { 7529} {0} {<129>} {The Inn of the Gilded Swan} {I} {A warm fire on the hearth lights the room, creating a cozy atmosphere in the colder months. Boards placed over trestles form tables around the room, waiting for customers. A stairway leads to rooms upstairs for those looking for a safe place to sleep for the night.} {Medieval Flanders} {flanders} {} {} {1.000} {}
+R { 7529} {0} {<129>} {The Inn of the Gilded Swan} {I} {A warm fire on the hearth lights the room, creating a cozy atmosphere in the colder months. Boards placed over trestles form tables around the room, waiting for customers. A stairway leads to rooms upstairs for those looking for a safe place to sleep for the night.} {Medieval Flanders} {} {} {} {1.000} {}
 E { 7524} {w} {open w;w} {8} {0} {} {1.000} {}
 
 R { 7530} {0} {} {Turning onto Maria Street} { } {The spire of the Church of Our Lady dominates the skyline to the north. Homes of the well-to-do stately grace the street with their ornate decorations and fine glass windows, lending an air of opulence to the area.} {Medieval Flanders} {} {} {} {1.000} {}
@@ -32128,7 +32129,7 @@ E { 7589} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 7516} {ask gate gate} {e;enq ask gate gate} {0} {0} {} {1.000} {}
 E { 7516} {gate} {e;enq ask gate gate} {0} {0} {} {1.000} {}
 
-R { 7583} {0} {} {The River Zwinn Outside the Gates of Bruges} { } {The Zwinn sweeps onwards, emptying into the North Sea. At low tide, the channel recedes leaving muddy flats that are impassable to boats. During the late summer and early fall, sea lavender blossoms along the shores of the tidal channel, attracting bees and all manner of flying creature, seeking its sweet nectar.} {Medieval Flanders} {} {} {} {1.000} {}
+R { 7583} {0} {} {The River Zwinn Outside the Gates of Bruges} { } {The Zwinn sweeps onwards, emptying into the North Sea. At low tide, the channel recedes leaving muddy flats that are impassable to boats. During the late summer and early fall, sea lavender blossoms along the shores of the tidal channel, attracting bees and all manner of flying creature, seeking its sweet nectar.} {Medieval Flanders} {flanders} {} {} {1.000} {}
 E { 7559} {s} {s;enq ask gate gate} {4} {0} {} {1.000} {}
 E { 2525} {n} {n} {1} {1} {} {1.000} {}
 E { 7559} {gate} {s;enq ask gate gate} {0} {0} {} {1.000} {}
@@ -33218,7 +33219,7 @@ E { 7853} {e} {e} {2} {0} {} {1.000} {}
 E { 7856} {s} {s} {4} {0} {} {1.000} {}
 E { 7858} {w} {w} {8} {0} {} {1.000} {}
 
-R { 7856} {0} {} {The Village of St Albans} { } {A small village is built here upon the ruins of the old Roman city of Verulamium. It is known to be the birthplace of the first British saint, Alban the martyr. The village looks peaceful with thatched roofs and a clearwater well.} {Camelot} {} {} {} {1.000} {}
+R { 7856} {0} {<169>} {The Village of St Albans} {W} {A small village is built here upon the ruins of the old Roman city of Verulamium. It is known to be the birthplace of the first British saint, Alban the martyr. The village looks peaceful with thatched roofs and a clearwater well.} {Camelot} {} {} {} {1.000} {}
 E { 7855} {n} {n} {1} {0} {} {1.000} {}
 E { 7857} {w} {w} {8} {0} {} {1.000} {}
 
@@ -34806,6 +34807,7 @@ E { 8246} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8246} {0} {} {Coral Road} { } {A path climbs down between the Jacamar woods and a large inland lake to the east. Some of the rocks paving the trail seem to be chunks of coral, bringing pale pink and orange colors to the red-tinted lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8245} {w} {w} {8} {0} {} {1.000} {}
+E { 6038} {e} {e} {2} {0} {} {1.000} {}
 
 R { 8247} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8239} {s} {s} {4} {0} {} {1.000} {}
@@ -35619,6 +35621,9 @@ E { 8390} {n} {n} {1} {0} {} {1.000} {}
 R { 8435} {0} {} {A Small Square Plaza} { } {A small stone plaza distributes here to a series of small shops, each of them directly connected to the street.} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8380} {n} {n} {1} {0} {} {1.000} {}
 
+R { 8436} {0} {<fca>} {A Grassy Meadow} { } {Grasses wave gently in the breeze travelling down the hill towards a burbling river. In springtime, the meadow is transformed with an eruption of wildflowers setting the meadow ablaze with color. The other months of the year it is a peaceful place for quiet contemplation, or ideal place for animals to graze undisturbed.} {Player Housing} {} {} {} {1.000} {}
+E { 8450} {n} {n} {1} {0} {} {1.000} {}
+
 R { 8437} {0} {<fca>} {Perth's Manor House} { } {Fine stonework forms the walls around the manor house, creating a solid structure that is sure to withstand the tests of time for centuries. The house itself is made of the same stone work, with chimneys rising above. Crenellations surround the roof-top walkways, attesting to the importance the owner places on protection for those who dwell within.} {Player Housing} {perth} {} {} {1.000} {}
 E { 8382} {w} {w} {8} {1} {} {1.000} {}
 E { 8445} {n} {n} {1} {0} {} {1.000} {}
@@ -35672,6 +35677,7 @@ E { 8448} {w} {w} {8} {0} {} {1.000} {}
 
 R { 8450} {0} {<fca>} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the scent of blossoms mix creating a pleasant perfume. During warmer months, the tree offer cool shade from the heat of the sun and during the fall fallen fruits scent the air. In winter, the orchard becomes a barren skeleton compared to the life that fills it the rest of the year.} {Player Housing} {} {} {} {1.000} {}
 E { 8437} {n} {n} {1} {0} {} {1.000} {}
+E { 8436} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8451} {0} {} {In the Forest} { } {The small peninsula at the southwest extremity of the mysterious island is covered with a dense forest of subtropical trees, including the ancient Kauri and white pines. A layer of thick bushes hinders movement through the forest, however some tracks indicate the presence of visitors beyond the local wildlife. You decide to stay on your guard.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8256} {n} {n} {1} {0} {} {1.000} {}
@@ -35767,6 +35773,7 @@ E { 8473} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8473} {0} {} {The Slopes of Mount Franklin} { } {A steep slope climbs up to the north towards the caldera of Mount Franklin. Sulfur fumes emerge from the hot ground, leaving no doubt that the volcano is still active.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8471} {s} {s} {4} {0} {} {1.000} {}
+E { 8521} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8474} {0} {} {The Banks of Mercy River} { } {A muddy river flows here, cascading from the slopes of Mount Franklin to the east side of the island. Its waters are charged with branches, leaves, and poison sumac from the forest, and is probably not proper for consumption.} {The Mysterious Island} {} {} {} {1.000} {}
 E { 8250} {s} {s} {4} {0} {} {1.000} {}
@@ -35876,6 +35883,101 @@ E { 8422} {s} {s} {4} {0} {} {1.000} {}
 R { 8501} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8440} {s} {s} {4} {0} {} {1.000} {}
 E { 8439} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8502} {0} {} {The Shores of Lake Grant} { } {This expanse of water with a circumference of about seven miles and an area of two hundred fifty acres is set within a border of various trees. Toward the east, across a screen of foliage picturesquely enhanced in some places, appears the sparkling horizon of the sea. In the north, the lake traces a slightly concave curve which contrasts with the sharp outline of its lower point. Numerous aquatic birds frequent the banks of the lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 6039} {n} {n} {1} {0} {} {1.000} {}
+E { 8503} {e} {e} {2} {0} {} {1.000} {}
+E { 8513} {w} {w} {8} {0} {} {1.000} {}
+E { 8519} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8503} {0} {} {The Northern Parts of the Island} { } {To the north you see a part of the island covered with lava rocks and sand dunes, colonies of thousand of birds perched on the lava cliffs and other maritime animals. To the south are see the forests around Lake Grant and volcano named Mount Franklin by the castwaways.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8502} {w} {w} {8} {0} {} {1.000} {}
+E { 8504} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8504} {0} {} {The Shark Gulf} { } {The gulf has been formed by two rivers of lava, thrown out by the volcano and accumulated by successive eruptions. The result is that the gulf is completely sheltered on all sides, and that even in the stormiest weather, the sea here must be as calm as a lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8503} {s} {s} {4} {0} {} {1.000} {}
+E { 8505} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8505} {0} {} {The East Coast of the Island} { } {You stand at a crossroads where many animal trails around the lake meet. You can see crab claws, egret legs, and feline paws printed in the sand.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8504} {s} {s} {4} {0} {} {1.000} {}
+E { 8506} {e} {e} {2} {0} {} {1.000} {}
+E { 8509} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8506} {0} {} {Among Sand Dunes} { } {A landscape of dunes of pure white sand expands from here to north side of the Mysterious Island. The dunes are formed by the strong winds blowing on the northern peninsula as it is not protected by the mountain, unlike other areas of the island.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8505} {w} {w} {8} {0} {} {1.000} {}
+E { 8507} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8507} {0} {} {Among Sand Dunes} { } {A landscape of dunes of pure white sand expands from here to north side of the Mysterious Island. The dunes are formed by the strong winds blowing on the northern peninsula as it is not protected by the mountain, unlike other areas of the island.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8506} {s} {s} {4} {0} {} {1.000} {}
+E { 8508} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8508} {0} {} {A Solidified Lava River} { } {A past eruption of Mount Franklin created a lava flow that once cascaded along the northern slopes of the mountain and ended here, in the ocean by the Shark Gulf. The lava has long turned into black, solid rock and looks like a scar over the idyllic landscape of dunes by the bright ocean.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8507} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8509} {0} {} {The Shark Gulf} { } {The gulf has been formed by two rivers of lava, thrown out by the volcano and accumulated by successive eruptions. The result is that the gulf is completely sheltered on all sides, and that even in the stormiest weather, the sea here must be as calm as a lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8505} {e} {e} {2} {0} {} {1.000} {}
+E { 8510} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8510} {0} {} {Approaching the Mandible Capes} { } {Two capes form a narrow passage, akin to their namesake, allowing a very limited entrance through which winds may enter. As it is, the north cape protects the of the south in a way which would make the entrance of gusts very difficult anyway.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8509} {s} {s} {4} {0} {} {1.000} {}
+E { 8511} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8511} {0} {} {The Mandible Peninsula} { } {You stand in the mouth of the shark and the bottom of the gulf. The enormous lava rocks succeed soon those capricious sand dunes, which sea-birds frequent in a cacophony of thousands.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8510} {s} {s} {4} {0} {} {1.000} {}
+E { 8512} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8512} {0} {} {Between the Capes} { } {You stand in the mouth of the shark and the bottom of the gulf. The enormous lava rocks succeed soon those capricious sand dunes, which sea-birds frequent in a cacophony of thousands.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8511} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8513} {0} {} {The Northern Shore of Lake Grant} { } {You stand on the northern shores of a large inland lake, between the slopes of Mount Franklin and the east coast of Union Bay, which was named by Pencroft. A rocky bar of granite protects the shores of the lake from the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8502} {e} {e} {2} {0} {} {1.000} {}
+E { 8514} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8514} {0} {} {The Shores of Lake Grant} { } {You stand on a narrow path around the lake, stuck between the tall walls of rock and the calm waters of Lake Grant. You have to move between large blocks of stone and carve your way through the flora.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8513} {e} {e} {2} {0} {} {1.000} {}
+E { 8515} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8515} {0} {} {By a Waterfall} { } {A large waterfall from the Mercy River cascades down the western side of the lake in a thunderous roar. The rocks near the drop of the falls are covered in moss and very slippery.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8514} {n} {n} {1} {0} {} {1.000} {}
+E { 8516} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8516} {0} {} {The Shores of Lake Grant} { } {You stand on a narrow path around the lake, stuck between the tall walls of rock and the calm waters of Lake Grant. You have to move between large blocks of stone and carve your way through the flora.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8515} {n} {n} {1} {0} {} {1.000} {}
+E { 8517} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8517} {0} {} {The East Coast of the Island} { } {You stand at a crossroads where many animal trails around the lake meet. You can see crab claws, egret legs, and feline paws printed in the sand.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8516} {w} {w} {8} {0} {} {1.000} {}
+E { 8518} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8518} {0} {} {The Shores of Lake Grant} { } {You stand on the northern shores of a large inland lake, between the slopes of Mount Franklin and the east coast of Union Bay, which was named by Pencroft. A rocky bar of granite protects the shores of the lake from the coast.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8517} {s} {s} {4} {0} {} {1.000} {}
+E { 8519} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8519} {0} {} {The Shores of Lake Grant} { } {This expanse of water with a circumference of about seven miles and an area of two hundred fifty acres is set within a border of various trees. Toward the east, across a screen of foliage picturesquely enhanced in some places, appears the sparkling horizon of the sea. In the north, the lake traces a slightly concave curve which contrasts with the sharp outline of its lower point. Numerous aquatic birds frequent the banks of the lake.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8518} {w} {w} {8} {0} {} {1.000} {}
+E { 8502} {n} {n} {1} {0} {} {1.000} {}
+E { 8520} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8520} {0} {} {Near Lake Grant} { } {The fauna and flora around the lake is quite amazing for such a small island lost in the middle of the Pacific. Large trees coming from stems and seeds that are not local to the island and animals species ranging from insects to large mammals cohabit on this tiny rock.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8519} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8521} {0} {} {Climbing up the Volcano} { } {You are climbing the steep face of Mount Franklin, the volcano that towers over the Mysterious Island. Very little vegetation grows and the ground is littered with small bits of lava rock. Here and there, sulfur fumes rise from the ground, smelling like rotten eggs.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8473} {s} {s} {4} {0} {} {1.000} {}
+E { 8522} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8522} {0} {} {Looking up the Caldera} { } {You stand on a narrow, dangerous ledge overlooking a magnificent vista of the rest of the island. When you climb up even higher, you will likely find an unparalleled view of the whole isle. West of here you see the caldera of the volcano, exhaling a low but ever-present roar.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8521} {s} {s} {4} {0} {} {1.000} {}
+E { 8523} {w} {w} {8} {0} {} {1.000} {}
+
+R { 8523} {0} {} {You panic, and attempt to flee.} { } {[0;1;32mA Moon-like Landscape[0;32m You stand on a small plateau near the top of the volcano. Around you is a flat, barren, and desolate landscape made of layers of black obsidian and red lava rocks.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8522} {e} {e} {2} {0} {} {1.000} {}
+E { 8524} {s} {s} {4} {0} {} {1.000} {}
+
+R { 8524} {0} {} {You panic, and attempt to flee.} { } {[0;1;32mThe South Rim of the Volcano[0;32m It is here that a wide path connects the slopes of the south rim of the volcano. You can see below the luxuriant forest covering the pirate-infested Serpentine peninsula. Squinting your eyes, you can guess the outline of the balloon camp.} {The Mysterious Island} {} {} {} {1.000} {}
+E { 8523} {n} {n} {1} {0} {} {1.000} {}
+
+R { 8525} {0} {} {A Secret Den} { } {You gasp around at the magnificent piles of treasure surrounding you. Gold! Silver! Jewels! All for the taking! As you reach out for them you jump with a bit of a start as your hand passes right through the wonderful piles. In a second they are gone, leaving only a silent, empty room, save for the moss covered walls and the dusty floor.} {Celtic Ireland} {} {} {} {1.000} {}
+E { 4973} {s} {open s;s} {4} {0} {} {1.000} {}
 
 R {28436} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8370} {n} {n} {1} {0} {} {1.000} {}

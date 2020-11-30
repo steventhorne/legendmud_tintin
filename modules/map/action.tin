@@ -134,7 +134,10 @@
 
 #ACTION {{^You leave \w+, but quickly find yourself back where you started.$}}
 {
-    #MAP undo;
+    #IF {"$editmap" == "true"}
+    {
+        #MAP undo;
+    };
 }
 {5}
 
