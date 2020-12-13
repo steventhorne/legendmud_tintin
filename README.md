@@ -2,9 +2,10 @@
 - [Overview](#overview)
 - [Installation](#installation)
     - [Linux](#install-linux)
+    - [macOS](#install-mac)
     - [Windows](#install-windows)
 - [Usage](#usage)
-    - [Linux](#usage-linux)
+    - [Linux and macOS](#usage-linux)
     - [Windows](#usage-windows)
 - [Config](#config)
 - [Layouts](#layouts)
@@ -53,6 +54,12 @@ Do not download the repository as it may not be a stable release.
 ## Linux {#install-linux}
 Download the latest release to a directory on your system.
 
+## macOS {#install-mac}
+If you have [Homebrew](https://brew.sh) installed, from Terminal run
+```
+brew install tintin
+```
+
 ## Windows {#install-windows}
 Navigate to %APPDATA%\WinTin++\bin and download the latest release to the bin directory.
 The core.tin file should be in the root of the bin directory.
@@ -61,7 +68,7 @@ Navigate up to the WinTin++ directory, right click on the WinTin++ shortcut and 
 Change the `main.tin` at the end of the Target field to `core.tin`.
 
 # Usage
-## Linux {#usage-linux}
+## Linux and macOS {#usage-linux}
 To run TinTin++ with this package, simply run `tt++ core.tin` in the root of this directory.
 
 ## Windows {#usage-windows}
