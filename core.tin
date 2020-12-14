@@ -54,7 +54,13 @@
 
 #ALIAS {newsess %1}
 {
-    #SESSION %1 ${mud_addr} ${mud_port};
+    #REGEXP {$mud_ssl} {^true$}
+    {
+        #SSL %1 ${mud_addr} ${mud_port_ssl};
+    }
+    {
+        #SESSION %1 ${mud_addr} ${mud_port};
+    }
 };
 
 #EVENT {SESSION CONNECTED}
