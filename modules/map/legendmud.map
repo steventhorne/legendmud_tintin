@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -3953,6 +3953,7 @@ E {  867} {w} {w} {8} {1} {} {1.000} {}
 R {  870} {0} {} {On the Docks} { } {A cruel and unusual sight greets your eyes. Some enterprising but evil person has lined up cages worth of animals from the northern jungle and brought them here for display. There are chattering monkeys, a proud but dying kite pining for the skies, and even a Bengal tiger. The entrance to the tiger's cage is directly north of you. The docks lead east and west from here. The glorious blue ocean is south of you, a bay full of clipper ships collecting opium for the China trade.} {Bengal} {} {} {} {1.000} {}
 E {  177} {e} {e} {2} {0} {} {1.000} {}
 E {  871} {w} {w} {8} {0} {} {1.000} {}
+E { 8527} {n} {open n;n} {1} {0} {} {1.000} {}
 
 R {  871} {0} {} {In Front of an Opium Dealer's} { } {Directly north of you, you can see a huge warehouse that does nothing but refine the poppies from the interior of this sultry country into the heavy liquid that is opium. The wide door to the establishment is wide open, as if the owners know full well how much of a market there is for the drug. The docks continue to the east.} {Bengal} {} {} {} {1.000} {}
 E {  870} {e} {e} {2} {0} {} {1.000} {}
@@ -19561,6 +19562,7 @@ E { 4578} {n} {n} {1} {0} {} {1.000} {}
 R { 4578} {0} {} {Nastrond, the Dead Body Shore} { } {A greenish sea littered with the bodies of deceased warriors washes the rocky shores of a desolate land. The place is known to be the lair of Nidhogg, a horrific monster chewing the corpses of the inhabitants of Nastrond: Those guilty of murder, adultery, and oath-breaking, which Norse society considered among the worst possible crimes.} {Svartalfheim } {} {} {} {1.000} {}
 E { 4577} {s} {s} {4} {0} {} {1.000} {}
 E { 4579} {n} {n} {1} {0} {} {1.000} {}
+E { 8526} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4579} {0} {} {The Strand of the Dead} { } {On Nastrond is a great hall, evil and woven of serpent-backs like a wattle-house. All the snake-heads turn into the house, blowing venom through the halls so they run with acerbic mist; and they who have broken oaths, and murderers, wade those rivers.} {Svartalfheim } {} {} {} {1.000} {}
 E { 4578} {s} {s} {4} {0} {} {1.000} {}
@@ -21788,6 +21790,9 @@ E { 5106} {d} {d} {32} {0} {} {1.000} {}
 E { 3267} {s} {s} {4} {1} {} {1.000} {}
 E { 3897} {w} {w} {8} {1} {} {1.000} {}
 E { 3690} {e} {e} {2} {1} {} {1.000} {}
+E { 3267} {anc} {s} {0} {0} {} {1.000} {}
+E { 3897} {med} {w} {0} {0} {} {1.000} {}
+E { 3690} {ind} {e} {0} {0} {} {1.000} {}
 
 R { 5108} {0} {} {The Throne Room} { } {The glamour of the grand hall pales even further at the extravagance that was lavished on the decorations of this room. The crimson drapes that cover the stone walls make the room more welcoming. The large spears and scimitars that hang high on the walls look quite impressive and dangerous.} {Arabian Nights } {} {} {} {1.000} {}
 E { 1923} {s} {open s;s} {4} {0} {} {1.000} {}
@@ -35977,3 +35982,9 @@ E { 8523} {n} {n} {1} {0} {} {1.000} {}
 
 R { 8525} {0} {} {A Secret Den} { } {You gasp around at the magnificent piles of treasure surrounding you. Gold! Silver! Jewels! All for the taking! As you reach out for them you jump with a bit of a start as your hand passes right through the wonderful piles. In a second they are gone, leaving only a silent, empty room, save for the moss covered walls and the dusty floor.} {Celtic Ireland} {} {} {} {1.000} {}
 E { 4973} {s} {open s;s} {4} {0} {} {1.000} {}
+
+R { 8526} {0} {} {ON A SEA OF BLOOD} { } {The great serpent, the World-Eater, lives here, bathed in the sea of blood he created for himself by tearing through and munching on the fallen corpses that drifted to the shores of Nastrond.} {} {} {} {} {1.000} {}
+E { 4578} {e} {e} {2} {0} {} {1.000} {}
+
+R { 8527} {0} {} {} { } {} {} {} {} {} {1.000} {}
+E {  870} {s} {open s;s} {4} {0} {} {1.000} {}
