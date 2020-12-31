@@ -62,10 +62,27 @@
 }
 {5}
 
-#ALIAS {find}
+#ALIAS {^find$}
 {
-    #VAR findroom true;
-    #SEND look;
+    #MAP list {roomname} {$gmcp[room][name]} {roomdesc} {$gmcp[room][desc]} {roomarea} {$gmcp[room][area]} {variable} {findroom_results};
+    #IF {&findroom_results[] > 0}
+    {
+        #MAP goto *findroom_results[+1];
+    }
+    {
+        #MAP list {roomname} {$gmcp[room][name]} {roomarea} {$gmcp[room][area]} {variable} {findroom_results};
+        #IF {&findroom_results[] > 0}
+        {
+            #SHOWME <001>Could not match room description. "$gmcp[room][desc]";
+            #SHOWME <001>Using first room in area with name: $gmcp[room][name].;
+            #MAP goto *findroom_results[+1];
+        }
+        {
+            #SHOWME Could not match room in area with name: $gmcp[room][name].;
+        };
+    };
+
+    #LIST map_queue clear;
 }
 {5}
 

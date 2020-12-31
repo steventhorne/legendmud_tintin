@@ -134,3 +134,26 @@
     };
     #RETURN #NOP;
 };
+
+#VAR telnet[iac] \xFF;
+#VAR telnet[do] \xFD;
+#VAR telnet[sb] \xFA;
+#VAR telnet[se] \xF0;
+#VAR telnet[gmcp] \xC9;
+
+#EVENT {IAC WILL GMCP}
+{
+    #SEND {$telnet[iac]$telnet[do]$telnet[gmcp]};
+    #ECHO {<069>GMCP<099> enabled and supported.};
+}
+
+#ALIAS {gmcp %1 %2}
+{
+    #SEND $telnet[iac]$telnet[sb]$telnet[gmcp]legend.%1 %2$telnet[iac]$telnet[se];
+}
+
+#ALIAS {gmcp %1}
+{
+    #SEND $telnet[iac]$telnet[sb]$telnet[gmcp]legend.%1$telnet[iac]$telnet[se];
+}
+

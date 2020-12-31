@@ -1,128 +1,3 @@
-#ACTION {{^You follow (.*)\.$}}
-{
-    #VAR follow_char {%2};
-    #BUFFER get {follow_check} -10 -1;
-    #FOREACH {$follow_check[%*]} {line}
-    {
-        #REGEX {$line} {{(?i)^(.*) leaves (.).*?\.$}}
-        {
-            #IF {"&2" == "%i$follow_char"}
-            {
-                #MAP move &3;
-                #BREAK;
-            };
-        };
-    };
-}
-{5}
-
-#ACTION {{^You fled (.).*?!$}}
-{
-    #MAP move %2;
-}
-{5}
-
-#ACTION {{^\[Exits\:.*$}}
-{
-    #if {"$editmap" == "true" || "$findroom" == "true"}
-    {
-        #BUFFER get {room_check} -15 -1;
-        #LOOP 15 1 count
-        {
-            #VAR line {$room_check[$count]};
-            #REGEX {$line} {{(<Command:|You step into a shimmering portal and vanish!|and suddenly you are transported|forges through the waters\.|You move through the water!|As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas\.|You fly through the air.|You return to being In Character\.|Enter your choice or the name of a character to switch to:|The speed! The speed! This is not going to end well...)}}
-            {
-                #VAR break true;
-            }
-            {
-                #REGEX {$line} {{^(?:\e\[[\;\d]{4,6}m)*$}}
-                {
-                    #VAR break true;
-                };
-            }
-
-            #IF {"$break" == "true"}
-            {
-                #UNVAR break;
-                #BREAK;
-            }
-        }
-        #MATH count {$count + 2};
-
-        #VAR room_desc {$room_check[15]};
-        #LOOP 14 $count cnt
-        {
-            #VAR room_desc {$room_check[$cnt] $room_desc};
-        };
-
-        #MATH count {$count - 1};
-        #VAR room_title {$room_check[$count]};
-
-        #LINE substitute variables #LINE strip #VAR {room_title} {$room_title};
-        
-        #IF {"$editmap" == "true"}
-        {
-            #MAP set {roomname} {$room_title};
-            #MAP set {roomdesc} {$room_desc};
-        };
-
-        #IF {"$findroom" == "true"}
-        {
-            #MAP list {roomname} {$room_title} {roomdesc} {$room_desc} {variable} {findroom_results};
-            #IF {&findroom_results[] > 0}
-            {
-                #MAP goto *findroom_results[+1];
-            }
-            {
-                #MAP list {roomname} {$room_title} {variable} {findroom_results};
-                #IF {&findroom_results[] > 0}
-                {
-                    #SHOWME <001>Could not match room description.;
-                    #SHOWME <001>Using first room with name: $room_title.;
-                    #MAP goto *findroom_results[+1];
-                }
-                {
-                    #SHOWME Could not match room with name: $room_title.;
-                };
-            };
-            #UNVAR findroom;
-            #UNVAR findroom_results;
-        };
-        
-        #UNVARIABLE room_title;
-        #UNVARIABLE room_desc;
-        #UNVARIABLE room_check;
-        #UNVARIABLE count;
-        #UNVARIABLE cnt;
-        #UNVARIABLE line;
-    };
-}
-{5}
-
-#ACTION {{(^You step into a shimmering portal and vanish!$|, and suddenly you are transported.$|^As you stumble forwards the mists suddenly vanish and you find yourself far away from the danger of the seas.$|^Reconnecting.$|^Enter your choice or the name of a character to switch to:|The speed! The speed! This is not going to end well...)}}
-{
-    #VAR findroom true;
-}
-{5}
-
-#ACTION {{^The circle of oaks fades around you. The forest blurs around you.$}}
-{
-    #MAP goto 1105;
-}
-{5}
-
-#ACTION {{Grer says to you, 'Let me escort you to the runemal Dvalin now.'}}
-{
-	#MAP goto 2324;
-}
-{5}
-
-#ACTION {{^A stunted old druid draws it across your throat swiftly... you struggle, but....$}}
-{
-	#MAP goto 287;
-}
-{5}
-
 #ACTION {{^Alas, you cannot go that way.$}}
 {
 	#IF {"$editmap" == "true"}
@@ -141,184 +16,14 @@
 }
 {5}
 
-#ACTION {{^An old village farmer begins to drone on, you think for a minute he might never stop}}
-{
-	#MAP goto 883;
-}
-{5}
-
-#ACTION {{^Captain Frederick Selous waves at you and returns back to his camp.}}
-{
-	#MAP goto 884;
-}
-{5}
-
-#ACTION {{^Grer opens the great brass door and leads you into Dvalin's forge.$}}
-{
-	#MAP goto 2324;
-}
-{5}
-
-#ACTION {{^The swan-maiden, Gorbela says to you, 'Just hop on my back, you will be safe.'$}}
-{
-	#MAP goto 2298;
-}
-{5}
-
-#ACTION {{^The swan-maiden, Gorbela says, 'Hold on! We are landing.'$}}
-{
-	#MAP goto 2300;
-}
-{5}
-
-#ACTION {{^The swan-maiden, Gorbela says, 'It is the heart of the land of the Svart Alfs.'$}}
-{
-	#MAP goto 2299;
-}
-{5}
-
-#ACTION {{^You go Out of Character.$}}
-{
-	#MAP get roomvnum oocvnum;
-    #MAP goto 394;
-}
-{5}
-
-#ACTION {{^You return to being In Character.$}}
-{
-    #IF {&{oocvnum}}
-    {
-        #MAP goto $oocvnum;
-        #UNVAR oocvnum;
-    }
-    {
-        #VAR findroom true;
-    }
-}
-{5}
-
-#ACTION {{^The boatman, Charon dips his oar into the water, setting the barge into motion.$}}
-{
-    #MAP goto 3082;
-}
-{5}
-
-#ACTION {{^The black barge forges silently through the deep, murky waters of the Acheron.$}}
-{
-    #MAP goto 3083;
-}
-{5}
-
-#ACTION {{^The far shore begins to heave into view, desolate and barren.$}}
-{
-    #MAP goto 3084;
-}
-{5}
-
-
-#ACTION {{^The boatman, Phlegyas goes about readying his boat for the trip.$}}
-{
-    #MAP goto 3124;
-}
-{5}
-
-#ACTION {{^The boatman, Phlegyas guides his boat to shore.$}}
-{
-    #MAP goto 3125;
-}
-{5}
-
-
-#ACTION {{^Three-bodied Geryon says to you, 'climb on to my back, then, and off we shall be anon!'$}}
-{
-    #MAP goto 3176;
-}
-{5}
-
-#ACTION {{^The Malbowges of the Eighth Circle$}}
-{
-    #MAP goto 3177;
-}
-{5}
-
 #ACTION {{^You have been betrayed, my friend. The medallion is deadly to mortals. I wish I could have prevented this but it is not within my right to interfere on your behalf. Sleep well, the eternal sleep.$}}
 {
-    #MAP goto 2712;
     #SEND stand;
-}
-{5}
-
-#ACTION {{^Soon, the welcome sight of Ithaca greets your eyes. The sailors bid you a hearty farewell and return to their land.$}}
-{
-    #MAP goto 1824;
-}
-{5}
-
-#ACTION {{^You have now opened up a spacious hole large enough to stand in. Perhaps if you opened the tunnel up a little wider, you would be rewarded for your efforts.$}}
-{
-    #MAP goto 6003;
-}
-{5}
-
-#NOP WHY DOES THIS ACTION NOT WORK WITHOUT ".{0}"?!?!?!?!
-#ACTION {{^.{0}You follow the doorway and get on the station's platform.$}}
-{
-	#MAP get roomvnum rv_check;
-    #IF {"$rv_check" == "18"}
-    {
-        #MAP goto 6869;
-    }
-    {
-        #MAP goto 6872;
-    };
-    #UNVAR rv_check;
-}
-{5}
-
-#ACTION {{^Before you can sit at your place, the train has already left the station.$}}
-{
-    #MAP goto 6870;
-}
-{5}
-
-#ACTION {{^As the train stops, all passengers grab their luggage and disembark.$}}
-{
-    #MAP goto 6871;
-}
-{5}
-
-#ACTION {{^You sit in the car and quickly fall asleep, waking up just when the train arrives in Waterloo.$}}
-{
-    #MAP goto 18;
-}
-{5}
-
-#ACTION {{^A chasm opens right under your feet and you fall into darkness!$}}
-{
-	#MAP get roomvnum rv_check;
-    #IF {"$rv_check" == "6940"}
-    {
-        #MAP goto 6945;
-    };
-    #UNVAR rv_check;
-}
-{5}
-
-#ACTION {{^A coven of witches approaches to your call!$}}
-{
-    #MAP goto 6965;
-}
-{5}
-
-#ACTION {{^Belet-Seri waves a scroll in your direction. An eerie, pale light surrounds you.$}}
-{
-    #MAP goto 6966;
 }
 {5}
 
 #ACTION {{^Despite your disbelief in the tale itself, the elder is a fascinating narrator, and you feel yourself slipping into the world that he describes...$}}
 {
-    #MAP goto 5486;
     #SEND pause 1s;
     #SEND stand;
 }
@@ -326,100 +31,55 @@
 
 #ACTION {{^The white-haired elder says to you, 'Welcome, friend. You may feel confused, since you have travelled far, yet no distance at all. When you wish to leave this cave, just ask me, and I will summon a guide for you.'$}}
 {
-    #MAP goto 7419;
     #SEND stand;
 }
 {5}
 
 #ACTION {{^You clasp your hands to your throat! Ack! You feel as if you're swallowing}}
 {
-    #MAP goto 606;
     #SEND stand;
 }
 {5}
 
 #ACTION {{^You feel extremely disoriented... the world seems to crumble to dust around you... colors waver and bleed, and your eyes shut involuntarily.$}}
 {
-    #MAP goto 7422;
     #SEND stand;
 }
 {5}
-
-#ACTION {{^The old man suddenly vanishes in a giant roiling cloud!$}}
-{
-    #MAP goto 6196;
-}
-{5}
-
 
 #ACTION {{^You suddenly wake from a dream of suffocation!$}}
 {
-    #MAP goto 4195;
     #SEND stand;
 }
 {5}
 
-#ACTION {{^'Drink,' he says, and you do.$}}
-{
-    #MAP goto 4282;
-}
-
 #ACTION {{^As the mead hits your stomach you realize it was much more potent than you had thought,}}
 {
-    #MAP goto 2243;
     #SEND stand;
 }
 {5}
 
 #ACTION {{^It's no good, the priest's voice is just too calming, and the air is so}}
 {
-    #MAP goto 7426;
     #SEND stand;
 }
 {5}
 
 #ACTION {{^The laundry attendant smiles and passes his hand in front of your eyes.$}}
 {
-    #MAP goto 7132;
     #SEND stand;
 }
 {5}
 
 #ACTION {{^Buldeo raises his musket, coughs once and fires, right into your temple. Everything goes black.$}}
 {
-    #MAP goto 2367;
     #SEND stand;
 }
 {5}
 
 #ACTION {{^The eccentric old man shoots you at point-blank range, in the chest...!$}}
 {
-    #MAP goto 271;
     #SEND stand;
-}
-{5}
-
-#ACTION {{^A group of angels gathers around and carry you through the air!$}}
-{
-    #MAP goto 4865;
-}
-{5}
-
-#ACTION {{^A tear between the worlds, this humming red portal leads to the City of Brass.$}}
-{
-    #MAP goto 6005;
-}
-{5}
-
-#ACTION {{^A tear between the worlds, this humming blue portal leads to the City of Brass.$}}
-{
-    #MAP goto 4919;
-}
-{5}
-
-#ACTION {{^With a powerful spell, the wood-nymph flies you up and drops you atop the Megara cliff!$}}
-{
-    #MAP goto 7607;
 }
 {5}
 
@@ -438,113 +98,8 @@
 }
 {5}
 
-#ACTION {^You miss a step and fall from the narrow plank and land in the moat with a splash!$}
-{
-    #MAP goto 7778;
-}
-{5}
-
 #ACTION {^You feel a thud on the back of your skull and fall...$}
 {
-    #MAP get roomvnum roomvnum;
-    #IF {$roomvnum == 441}
-    {
-        #MAP goto 103;
-    };
-    #IF {$roomvnum == 103}
-    {
-        #MAP goto 441;
-    };
     #SEND stand;
-}
-{5}
-
-#ACTION {^A magical wind raises and ushers you and your group inside the mines!$}
-{
-    #map goto 1304;
-}
-{5}
-
-#ACTION {^The basket ascends into the darkness.$}
-{
-    #MAP get roomvnum roomvnum;
-    #IF {$roomvnum == 1318}
-    {
-        #MAP goto 1317;
-    };
-    #IF {$roomvnum == 1317}
-    {
-        #MAP goto 1311;
-    };
-    #IF {$roomvnum == 1311}
-    {
-        #MAP goto 1312;
-    };
-}
-{5}
-
-#ACTION {^The basket descends into the darkness.$}
-{
-    #MAP get roomvnum roomvnum;
-    #IF {$roomvnum == 1312}
-    {
-        #MAP goto 1311;
-    };
-    #IF {$roomvnum == 1311}
-    {
-        #MAP goto 1317;
-    };
-    #IF {$roomvnum == 1317}
-    {
-        #MAP goto 1318;
-    };
-}
-{5}
-
-#ACTION {^At great speed, the cart returns to the switch station.$}
-{
-    #MAP goto 1309;
-}
-{5}
-
-#ACTION {^You fly above the fortress of the Hebdomad before you land softly near a balcony.$}
-{
-    #MAP goto 7829;
-}
-{5}
-
-#ACTION {^He avoids a few nasty reefs and soon, you shore on a rocky beach.$}
-{
-    #MAP get roomvnum roomvnum;
-    #IF {$roomvnum == 8074}
-    {
-        #MAP goto 8081;
-    };
-    #IF {$roomvnum == 8081}
-    {
-        #MAP goto 8074;
-    };
-    #IF {$roomvnum == 8028}
-    {
-        #MAP goto 8099;
-    };
-}
-{5}
-
-#ACTION {^You gulp nervously as Father Aglipay leads you to his personal chambers.$}
-{
-    #MAP goto 6726;
-}
-{5}
-
-#ACTION {^Father Gregorio Aglipay leads you back into the main area of the cathedral.$}
-{
-    #MAP goto 2022;
-}
-{5}
-
-#ACTION {^CRASH! The balloon hits the surface of the ocean with full force!$}
-{
-    #MAP goto 6278;
 }
 {5}

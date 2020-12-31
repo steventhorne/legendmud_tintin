@@ -1,11 +1,13 @@
 #IF {&{is_startup}}
 {
-    #VAR phelp_list[prompt][initprompt] {Sets the prompt format needed for the prompt module.};
+    #NOP {TODO: replace this with proper prompt format handling};
+    #NOP {#VAR phelp_list[prompt][initprompt] {Sets the prompt format needed for the prompt module.};};
 };
 
 #ALIAS {initprompt}
 {
-    #SEND prompt format @n @h/@H @m/@M @v/@V @c @p @x @l@$@t @an @g @wc/@wm @L@$@WH@Wh @WM@Wm @WV@Wv@$CD> @#0 @#1 @#2;
+    #NOP {TODO: replace this with proper prompt format handling};
+    #NOP {#SEND prompt format @n @h/@H @m/@M @v/@V @c @p @x @l@$@t @an @g @wc/@wm @L@$@WH@Wh @WM@Wm @WV@Wv@$CD> @#0 @#1 @#2;};
 }
 
 #FUNCTION {display_progress}
@@ -57,77 +59,55 @@
     #RETURN $display;
 }
 
-#ACTION {~{\e\[[\;\d]{4,6}m\s*([\?\d]{1,2}\:[\?\d]{1,2}\s(?:am|pm|\?\?))\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m([\w\'\.\/\s\,]+)\e\[[\;\d]{4,6}m)?\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d\.]+)\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?\e\[[\;\d]{4,6}m([\w\-\']+)\e\[[\;\d]{4,6}m}}
+#EVENT {IAC SB GMCP char.prompt IAC SE}
 {
-    #VAR prompt[time] {%2};
-    #VAR prompt[area] {%3};
-    #VAR prompt[gold] {%4};
-    #VAR prompt[weight_carried] {%5};
-    #VAR prompt[weight_max] {%6};
-    #VAR prompt[leader] {%7};
+    #VAR gmcp[prompt] {%0};
 
-    #FORMAT area_len {%L} {$prompt[area]};
+    #IF {"$gmcp[prompt][L]" == "null"}
+    {
+        #VAR prompt[leader] {Nobody};
+    }
+    {
+        #VAR prompt[leader] {$gmcp[prompt][L]};
+    }
+
+    #FORMAT area_len {%L} {%gmcp[prompt][an]};
     #MATH area_len {((26 - $area_len) / 2) + $area_len};
-    #FORMAT area_display {%+${area_len}s} {$prompt[area]};
+    #FORMAT area_display {%+${area_len}s} {$gmcp[prompt][an]};
     
-    #FORMAT prompt1 {%-8s  %-27s  %s%-5s  %s%-13s  %+12s} {$prompt[color]$prompt[time]<099>} {$area_display} {GP:} {$prompt[color]$prompt[gold]<099>} {KG:}{$prompt[color]$prompt[weight_carried]<099>/$prompt[color]$prompt[weight_max]<099>} {$prompt[leader]};
+    #FORMAT prompt1 {%-8s  %-27s  %s%-5s  %s%-13s  %+12s} {${prompt_color}$gmcp[prompt][t]<099>} {$area_display} {GP:} {${prompt_color}$gmcp[prompt][g]<099>} {KG:}{${prompt_color}$gmcp[prompt][wc]<099>/${prompt_color}$gmcp[prompt][wm]<099>} {$prompt[leader]};
     #UNVAR area_display;
     #UNVAR area_len;
-
-    #IF {@has_module{map}}
-    {
-        #IF {"$editmap" == "true" && &{prompt[area]}}
-        {
-            #MAP set {roomarea} {$prompt[area]};
-        };
-    };
 
     #DRAW tile -3 1 -3 $screen[scroll][x2] {$prompt1};
     #UNVAR prompt1;
 
-    #LINE gag;
-}
-{2}
-
-#ACTION {~{\e\[[\;\d]{4,6}m([\w\-\']+)\s(?:\e\[[\;\d]{4,6}m)?([\d]{1,4})\e\[[\;\d]{4,6}m\/(\e\[[\;\d]{4,6}m)([\d]{1,4})\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s(?:\e\[[\;\d]{4,6}m)?([\d]{1,4})\e\[[\;\d]{4,6}m\/\e\[[\;\d]{4,6}m([\d]{1,4})\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([\-\d]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m([A-Za-z!]+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m\s\e\[[\;\d]{4,6}m(\d+)\e\[[\;\d]{4,6}m}}
-{
-    #NOP @time_start{Prompt 2};
-
-    #VAR prompt[name] %2;
-    #LINE sub esc #VAR prompt[color] {%4};
-
     #LOCAL perc {};
-    #VAR prompt[hp_max] %5;
-    #IF {{%3} == {$prompt[hp]} && &{prompt[hp_gauge]}} {#NOP;}
+    #IF {$gmcp[prompt][h] != {$prompt[hp]} || &{prompt[hp_gauge]} == 0}
     {
-        #VAR prompt[hp] %3;
-        #MATH perc {1.000*$prompt[hp]/$prompt[hp_max]};
-        #VAR prompt[hp_gauge] @display_progress{$perc;$prompt[hp]/$prompt[hp_max];11};
-    }
+        #VAR prompt[hp] $gmcp[prompt][h];
+        #MATH perc {1.000*$prompt[hp]/$gmcp[prompt][H]};
+        #VAR prompt[hp_gauge] @display_progress{$perc;$prompt[hp]/$gmcp[prompt][H];11};
+    };
 
-    #VAR prompt[ma_max] %7;
-    #IF {{%6} == {$prompt[ma]} && &{prompt[ma_gauge]}} {#NOP;}
+    #IF {$gmcp[prompt][m] != {$prompt[ma]} || &{prompt[ma_gauge]} == 0}
     {
-        #VAR prompt[ma] %6;
-        #MATH perc {1.000*$prompt[ma]/$prompt[ma_max]};
-        #VAR prompt[ma_gauge] @display_progress{$perc;$prompt[ma]/$prompt[ma_max];11};
-    }
+        #VAR prompt[ma] $gmcp[prompt][m];
+        #MATH perc {1.000*$prompt[ma]/$gmcp[prompt][M]};
+        #VAR prompt[ma_gauge] @display_progress{$perc;$prompt[ma]/$gmcp[prompt][M];11};
+    };
 
-    #VAR prompt[mv_max] %9;
-    #IF {{%8} == {$prompt[mv]} && &{prompt[mv_gauge]}} {#NOP;}
+    #IF {$gmcp[prompt][v] != {$prompt[mv]} || &{prompt[mv_gauge]} == 0}
     {
-        #VAR prompt[mv] %8;
-        #MATH perc {1.000*$prompt[mv]/$prompt[mv_max]};
-        #VAR prompt[mv_gauge] @display_progress{$perc;$prompt[mv]/$prompt[mv_max];11};
-    }
+        #VAR prompt[mv] $gmcp[prompt][v];
+        #MATH perc {1.000*$prompt[mv]/$gmcp[prompt][V]};
+        #VAR prompt[mv_gauge] @display_progress{$perc;$prompt[mv]/$gmcp[prompt][V];11};
+    };
 
-    #VAR prompt[ac] %10;
-    #VAR prompt[pos] %11;
-
-    #IF {{%12} == {$prompt[xp]} && {%13} == {$prompt[lvl]} && &{prompt[xp_gauge]}} {#NOP;}
+    #IF {$gmcp[prompt][x] != {$prompt[xp]} || $gmcp[prompt][l] != {$prompt[lvl]} || &{prompt[xp_gauge]} == 0}
     {
-        #VAR prompt[xp] %12;
-        #VAR prompt[lvl] %13;
+        #VAR prompt[xp] $gmcp[prompt][x];
+        #VAR prompt[lvl] $gmcp[prompt][l];
 
         #LOCAL prev_xp {};
         #LOCAL next_xp {};
@@ -157,13 +137,13 @@
         #MATH display_perc_xp {$perc_xp * 100};
         #FORMAT display_perc_xp {%d} {$display_perc_xp};
         #FORMAT display_cur_xp {%g} {$prompt[xp]};
-        #FORMAT display_tnl_xp {%g} {$prompt[tnl]};
+        #FORMAT display_tnl_xp {%g} {$gmcp[prompt][X]};
         #FORMAT display_next_xp {%g} {$next_xp};
 
         #VAR prompt[xp_gauge] @display_progress{$perc_xp;${display_cur_xp} / ${display_next_xp} (${display_tnl_xp}) ${display_perc_xp}%;79;<ABF><fff>};
-    }
+    };
 
-    #FORMAT prompt2 {%-12s%s%-4s%s%+8s} {$prompt[name]} {  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:$prompt[color]}{$prompt[ac]}{<099>  }{$prompt[pos]};
+    #FORMAT prompt2 {%-12s%s%-4s%s%+8s} {$gmcp[prompt][n]} {  HP:$prompt[hp_gauge]  MA:$prompt[ma_gauge]  MV:$prompt[mv_gauge]  AC:${prompt_color}}{$gmcp[prompt][c]}{<099>  }{$gmcp[prompt][p]};
 
     #NOP TNL:$prompt[xp_gauge];
 
@@ -171,15 +151,6 @@
     #DRAW tile -2 1 -2 $screen[scroll][x2] {$prompt[xp_gauge]};
     #UNVAR prompt2;
 
-    #NOP @time_end{Prompt 2};
-
-    #LINE gag;
+    #FORMAT prompt2 {%s %s %s} {$gmcp[prompt][#1]} {$gmcp[prompt][#2] $gmcp[prompt][#3]};
+    #DRAW tile -5 2 -5 $screen[scroll][x2] $prompt2;
 }
-{2}
-
-#ACTION {~{^CD>\s(.*)}}
-{
-    #LINE gag;
-    #DRAW tile -5 2 -5 $screen[scroll][x2] %2;
-}
-{2}

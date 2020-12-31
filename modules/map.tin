@@ -15,14 +15,59 @@
     #VAR phelp_list[map][sac bunny] {Convenient command to take you through the bunny trans steps after killing the bunny.};
 };
 
+#EVENT {IAC SB GMCP room.info IAC SE}
+{
+    #VAR gmcp[room] {%0};
+
+    #REPLACE {gmcp[room][desc]} {\\r} {};
+    #LOCAL edit_map_desc {$gmcp[room][desc]};
+    #REPLACE gmcp[room][desc] {\\n} {\\n};
+    #REPLACE gmcp[room][desc] {;} {\\;};
+
+    #IF {"$editmap" == "true"}
+    {
+        #MAP set {roomname} {$gmcp[room][name]};
+        #MAP set {roomdesc} {$edit_map_desc};
+        #MAP set {roomarea} {$gmcp[room][area]};
+    }
+    {
+        #MAP get roomname tmp[room_check];
+        #IF {&{map_queue[]} > 0}
+        {
+            #IF {"$gmcp[room][name]" == "It is too dark to see..." || "$map_queue[1]" == "$gmcp[room][name]"}
+            {
+                #LIST map_queue delete 1;
+            }
+            {
+                find;
+            };
+        }
+        {
+            find;
+        };
+        #UNVAR tmp;
+    }
+}
+
 #EVENT {MAP ENTER ROOM}
 {
-    #LINE quiet #READ modules/map/map_size.tin;
-    #MAP map ${MAP_LINES} ${MAP_ROWS} overwrite modules/map/map.txt;
-}
+    #IF {"$editmap" != "true"}
+    {
+        #MAP get roomname tmp[check_room];
+        #IF {&{map_queue[]} >= 0 || "$tmp[check_room]" != "$gmcp[room][name]"}
+        {
+            #LIST map_queue add $tmp[check_room];
+        }
+    }
+};
 
 #EVENT {MAP UPDATED VTMAP}
 {
+    #IF {"${map_external}" == "true"}
+    {
+        #MAP map ${map_external_lines} ${map_external_rows} overwrite modules/map/map.txt;
+    };
+
     #IF {&{screen[panes][$pane_map]}}
     {
         #NOP draw box;
@@ -118,8 +163,6 @@
 
 #MAP read modules/map/legendmud.map;
 #MAP return;
-#LINE quiet #READ modules/map/map_size.tin;
-#MAP map ${MAP_LINES} ${MAP_ROWS} overwrite modules/map/map.txt;
 
 #READ modules/map/action.tin;
 #READ modules/map/alias.tin;
