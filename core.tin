@@ -147,13 +147,17 @@
     #ECHO {<069>GMCP<099> enabled and supported.};
 }
 
-#ALIAS {gmcp %1 %2}
+#ALIAS {gmcp %1 %*}
 {
-    #SEND $telnet[iac]$telnet[sb]$telnet[gmcp]legend.%1 %2$telnet[iac]$telnet[se];
+    #SEND $telnet[iac]$telnet[sb]$telnet[gmcp]%1 %2$telnet[iac]$telnet[se];
 }
 
 #ALIAS {gmcp %1}
 {
-    #SEND $telnet[iac]$telnet[sb]$telnet[gmcp]legend.%1$telnet[iac]$telnet[se];
+    #SEND $telnet[iac]$telnet[sb]$telnet[gmcp]%1$telnet[iac]$telnet[se];
 }
 
+#EVENT {IAC SB GMCP logging.error IAC SE}
+{
+    #ECHO {<119>%0};
+}
