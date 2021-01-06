@@ -160,6 +160,8 @@ Each day a new log file will be created with that date as the filename.
 
 The combat module has some general purpose aliases and actions for use in combat. More specific aliases and actions may be found in classes.
 
+The combat module includes an auto-flee trigger that will automatically send additional flee attempts if you fail a flee. To disable this, update the `auto_flee` option in `user.config`.
+
 ### Combat Aliases
 |Alias|Description|Usage|
 |:----|:----------|:----|
@@ -175,9 +177,7 @@ Display the map with one of the following methods:
 - Typing `#map map` will display the map on demand
 - Use a layout other than the first layout and set the {pane_map} setting in the user.config to a valid pane number.
     - the {map_vtmap} and {split_top} settings are no longer necessary or used.
-- Navigate to map/ in a separate terminal and run `./showmap`
-
-Note: If you're not using the prompt module, you will need to add a @$ to the end of your prompt format. This allows the map module to locate your room during recalls and usage of the 'find' command.
+- Set `map_external*` settings in `user.config`. Navigate to map/ in a separate terminal and run `./showmap`
 
 ### Map Aliases
 |Alias|Description|Usage|
@@ -200,11 +200,11 @@ Note: If you're not using the prompt module, you will need to add a @$ to the en
 ## Prompt Module
 > Identifier: prompt | Default: disabled
 
-The prompt module will capture the prompt and keep a single copy at the bottom of the screen.
-This module will not work out of the box. You will need to acquire my prompt in order to use it.
+The prompt module creates a complex prompt and keeps a single copy at the bottom of the screen.
+This module will work out of the box, but will **not** take your prompt into account.
+You can have your own in-game prompt in addition to this prompt, or use the in-game `prompt` command to disable your in-game prompt and only use this prompt.
 
-If you want to use my custom prompt, make sure the prompt module is enabled in the user.config and type `initprompt`.
-**Note**: this will replace your prompt. Save a backup of your prompt code somewhere if you need it.
+In the future, this module may support custom prompts.
 
 ## Chat Module
 > Identifier: chat | Default: disabled
