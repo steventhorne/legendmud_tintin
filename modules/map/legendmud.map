@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1397,56 +1397,56 @@ R {  270} {0} {} {A Winding Lane} { } {Strolling down this lane, you pause to li
 E {  269} {e} {e} {2} {0} {} {1.000} {}
 E {  307} {n} {n} {1} {0} {} {1.000} {}
 
-R {  271} {0} {} {An Intersection on the King's Road} { } {You stand at an intersection in the King's Road among the timeless rolling\nhills that are often called 'The Summer Country.' A straight line of\ncobblestones heads north into the heart of Sherwood Forest. Posted warnings\nand patrols seem to be commonplace here outside of the City. Rumors claim a\nnotorious band of outlaws is said to be living in the forest and terrorizing\nthose who pass through the forest. A more traveled road leads west to the\nEstates of Locksley. An old weatherworn stone sits on the side of the road, in\nthe Roman manner, giving the name of the Emperor who ordered the road built,\nand an indication of how far it is to each destination in every direction.\nLONDINIVM seems to be to the south, but you can't make out the Emperor's\nname--it seems to have been defaced by vandals.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  271} {0} {} {An Intersection on the King's Road} { } {You stand at an intersection in the King's Road among the timeless rolling\nhills that are often called 'The Summer Country.' A straight line of\ncobblestones heads north into the heart of Sherwood Forest. Posted warnings\nand patrols seem to be commonplace here outside of the City. Rumors claim a\nnotorious band of outlaws is said to be living in the forest and terrorizing\nthose who pass through the forest. A more traveled road leads west to the\nEstates of Locksley. An old weatherworn stone sits on the side of the road, in\nthe Roman manner, giving the name of the Emperor who ordered the road built,\nand an indication of how far it is to each destination in every direction.\nLONDINIVM seems to be to the south, but you can't make out the Emperor's\nname--it seems to have been defaced by vandals.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  307} {s} {s} {4} {0} {} {1.000} {}
 E {  272} {w} {w} {8} {0} {} {1.000} {}
 E {  393} {n} {n} {1} {0} {} {1.000} {}
 E {  279} {e} {e} {2} {0} {} {1.000} {}
 
-R {  272} {0} {} {On the King's Road} { } {Small cotholds line the King's Road here. Farming in this area has been done\nthe same way for centuries, much to the detriment of the richness of the soil.\nNow, the peasants eke out a meager existence, subsisting on what they can coax\nthe land to give up. The excessive taxes of the new court don't help much.\nRumor has it that a band of outlaws have been working on their own plans to\nredistribute income, they steal from the rich and give to the poor.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  272} {0} {} {On the King's Road} { } {Small cotholds line the King's Road here. Farming in this area has been done\nthe same way for centuries, much to the detriment of the richness of the soil.\nNow, the peasants eke out a meager existence, subsisting on what they can coax\nthe land to give up. The excessive taxes of the new court don't help much.\nRumor has it that a band of outlaws have been working on their own plans to\nredistribute income, they steal from the rich and give to the poor.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  271} {e} {e} {2} {0} {} {1.000} {}
 E {  273} {w} {w} {8} {0} {} {1.000} {}
 
-R {  273} {0} {} {On the King's Road} { } {The edge of the forest comes closer to the road here. A few of the ancient\nmanor houses have glimpses of Roman architecture peeking out among the\nnumerous additions constructed through the generations. A stone marker\nindicates London and Canterbury to be to the east.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  273} {0} {} {On the King's Road} { } {The edge of the forest comes closer to the road here. A few of the ancient\nmanor houses have glimpses of Roman architecture peeking out among the\nnumerous additions constructed through the generations. A stone marker\nindicates London and Canterbury to be to the east.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  272} {e} {e} {2} {0} {} {1.000} {}
 E {  274} {w} {w} {8} {0} {} {1.000} {}
 
-R {  274} {0} {} {At the Gates} { } {You stand at the entrance to the Locksley Estates. The once magnificent hall\nlooks as if someone put a torch to it. The land surrounding the manor is lush\nand green. Perhaps one day, the owners will be able to reclaim the elegance\nand grandeur that time and the fire have destroyed.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  274} {0} {} {At the Gates} { } {You stand at the entrance to the Locksley Estates. The once magnificent hall\nlooks as if someone put a torch to it. The land surrounding the manor is lush\nand green. Perhaps one day, the owners will be able to reclaim the elegance\nand grandeur that time and the fire have destroyed.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  273} {e} {e} {2} {0} {} {1.000} {}
 E {  275} {n} {n} {1} {0} {} {1.000} {}
 
-R {  275} {0} {} {The Locksley Estates} { } {This once fine manor house provided protection for many of the peasants\nliving in the vicinity. Since the fire, no one lives here, and the serfs have\nbegun moving in and farming more of the lands on the sly in order to eke out\nan existence that they can survive upon after the Sheriff's men come around\ndemanding more and more exorbitant taxes.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  275} {0} {} {The Locksley Estates} { } {This once fine manor house provided protection for many of the peasants\nliving in the vicinity. Since the fire, no one lives here, and the serfs have\nbegun moving in and farming more of the lands on the sly in order to eke out\nan existence that they can survive upon after the Sheriff's men come around\ndemanding more and more exorbitant taxes.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  274} {s} {s} {4} {0} {} {1.000} {}
 
-R {  276} {0} {} {On the King's Road} { } {Just north of London, the countryside, the cottages and the people look as if\nthey have been caught in time. The rustic look of the area makes you think\nnothing has changed here for hundreds of years and perhaps won't change in as\nmany to come either. The King's Road runs north-south here with a small path\nleading off to the west into the forest.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  276} {0} {} {On the King's Road} { } {Just north of London, the countryside, the cottages and the people look as if\nthey have been caught in time. The rustic look of the area makes you think\nnothing has changed here for hundreds of years and perhaps won't change in as\nmany to come either. The King's Road runs north-south here with a small path\nleading off to the west into the forest.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  393} {s} {s} {4} {0} {} {1.000} {}
 E {  277} {w} {w} {8} {0} {} {1.000} {}
 E { 4789} {n} {n} {1} {0} {} {1.000} {}
 
-R {  277} {0} {} {Before the Inn} { } {It appears as if the owners of the quaint inn to the west fare better with the\nlocal clientele and the royal tax collector. A sign proclaiming this to be the\nRoyal Stag hangs above the doorway. The King's Road runs north and south just\neast of here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  277} {0} {} {Before the Inn} { } {It appears as if the owners of the quaint inn to the west fare better with the\nlocal clientele and the royal tax collector. A sign proclaiming this to be the\nRoyal Stag hangs above the doorway. The King's Road runs north and south just\neast of here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  276} {e} {e} {2} {0} {} {1.000} {}
 E {  278} {w} {w} {8} {0} {} {1.000} {}
 
 R {  278} {0} {<129>} {The Royal Stag} {I} {This inn looks as if it caters to the local nobility as they travel between\ntowns on business and pleasure. The carpets on the floors look fairly new,\nand the service is unquestionably good. A few tables sit around the lobby so\nthat guests may linger in conversation or eat a bit of supper before retiring\nfor the night.\n} {Medieval Britain} {stag} {} {} {1.000} {}
 E {  277} {e} {e} {2} {0} {} {1.000} {}
 
-R {  279} {0} {} {A Bridge over the Avon River} { } {You stand on a sturdy Roman bridge leading over a wide and very muddy river,\nthe Avon. You can reach the town of London by crossing the bridge and heading\nsouth along the stretch of the King's Road that intersects this one. Following\nthe road to the north and east will take you out across the fens toward the\ncoast.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  279} {0} {} {A Bridge over the Avon River} { } {You stand on a sturdy Roman bridge leading over a wide and very muddy river,\nthe Avon. You can reach the town of London by crossing the bridge and heading\nsouth along the stretch of the King's Road that intersects this one. Following\nthe road to the north and east will take you out across the fens toward the\ncoast.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  271} {w} {w} {8} {0} {} {1.000} {}
 E {  280} {n} {n} {1} {0} {} {1.000} {}
 
-R {  280} {0} {} {Skirting the Fens} { } {The road winds its way, carefully, feeling its way, sticking closely to the\ndrier spots. The boggy marsh spreads away from you on all sides, providing a\nplentiful supply of peat for heating in the winters. The road turns here to\navoid a particularly wet patch curving off to the east and south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  280} {0} {} {Skirting the Fens} { } {The road winds its way, carefully, feeling its way, sticking closely to the\ndrier spots. The boggy marsh spreads away from you on all sides, providing a\nplentiful supply of peat for heating in the winters. The road turns here to\navoid a particularly wet patch curving off to the east and south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  279} {s} {s} {4} {0} {} {1.000} {}
 E {  281} {e} {e} {2} {0} {} {1.000} {}
 
-R {  281} {0} {} {Outside an Abandoned Inn} { } {The road has brought you to the doors of a rather disreputable inn. It looks\nto have failed to make a living from the travelers on the roads this far from\nLondon, for its windows and doors are all boarded up. The road wends through\nthe edge of the fens here going west and then south back toward Londontowne.\nA small dirt road leads north past the inn towards East Anglia.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  281} {0} {} {Outside an Abandoned Inn} { } {The road has brought you to the doors of a rather disreputable inn. It looks\nto have failed to make a living from the travelers on the roads this far from\nLondon, for its windows and doors are all boarded up. The road wends through\nthe edge of the fens here going west and then south back toward Londontowne.\nA small dirt road leads north past the inn towards East Anglia.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  280} {w} {w} {8} {0} {} {1.000} {}
 E {  282} {n} {n} {1} {0} {} {1.000} {}
 
-R {  282} {0} {} {On the Plains} { } {You're very near the ocean here. The smell of salt is strong in the air. To\nthe east, small hills rise up in the middle of the basin that makes a slight\ndepression in the plains. The lushness of the green grass is unmarred except\nfor these mounds.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  282} {0} {} {On the Plains} { } {You're very near the ocean here. The smell of salt is strong in the air. To\nthe east, small hills rise up in the middle of the basin that makes a slight\ndepression in the plains. The lushness of the green grass is unmarred except\nfor these mounds.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  281} {s} {s} {4} {0} {} {1.000} {}
 E {  283} {e} {e} {2} {0} {} {1.000} {}
 
-R {  283} {0} {} {At Sutton Hoo} { } {Several large mounds dot the landscape here. Some are larger, some smaller. A\nfew look as if they might have an upturned ship buried beneath them, they are\nso huge. It was common practice in the days of the Vikings to bury their dead\nkings in such a fashion.\nYou stand near one of these particularly large mounds. It appears as if grave\nrobbers have already begun digging a tunnel into the mound, but never\ncompleted it. They must have been interrupted.\n} {Medieval Britan} {rivet} {} {} {1.000} {}
+R {  283} {0} {} {At Sutton Hoo} { } {Several large mounds dot the landscape here. Some are larger, some smaller. A\nfew look as if they might have an upturned ship buried beneath them, they are\nso huge. It was common practice in the days of the Vikings to bury their dead\nkings in such a fashion.\nYou stand near one of these particularly large mounds. It appears as if grave\nrobbers have already begun digging a tunnel into the mound, but never\ncompleted it. They must have been interrupted.\n} {Medieval Britain} {rivet} {} {} {1.000} {}
 E {  282} {w} {w} {8} {0} {} {1.000} {}
 
 R {  284} {0} {} {The Games Arcade and Snack Bar} { } {With every step you hear the 'squelch, squelch' of Coke and sticky foodstuffs\nwhich cling to your shoes and plaster you to the carpet. A snack bar off to\none side seems to be the source of the food. The faint scent of vomit and beer\nassaults your senses and bright, flashing lights flicker in every direction.\nBeeps, sirens, bleeps and gongs attract your attention and you compulsively\nreach into your pockets for spare change. Teenagers repetitively feed coins\ninto the games machines which line the walls and cluster in the center of the\nroom like a huge mechanical flower of flashing lights and sound effects.\n} {PR Utility File} {} {} {} {1.000} {}
@@ -1454,17 +1454,17 @@ E {  407} {w} {w} {8} {0} {} {1.000} {}
 E {  395} {n} {n} {1} {0} {} {1.000} {}
 E {  396} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R {  285} {0} {} {An Intersection} { } {The small dirt road that leads west into Sherwood Forest and north to\nLincolnshire intersects with the King's Road. The forest is just beginning to\nthicken here, but the way south looks clearer. To the east in Nottingham, the\nkeep has become the headquarters for Master Monceux and his Norman soldiers.\nYou keep a look out, for it is common knowledge that the outlaw Will o' the\nGreen and his band of men roam Sherwood Forest asking a toll from those\nwishing to pass through.\n} {Medieval Britan} {will} {} {} {1.000} {}
+R {  285} {0} {} {An Intersection} { } {The small dirt road that leads west into Sherwood Forest and north to\nLincolnshire intersects with the King's Road. The forest is just beginning to\nthicken here, but the way south looks clearer. To the east in Nottingham, the\nkeep has become the headquarters for Master Monceux and his Norman soldiers.\nYou keep a look out, for it is common knowledge that the outlaw Will o' the\nGreen and his band of men roam Sherwood Forest asking a toll from those\nwishing to pass through.\n} {Medieval Britain} {will} {} {} {1.000} {}
 E { 4789} {s} {s} {4} {0} {} {1.000} {}
 E {  286} {w} {w} {8} {0} {} {1.000} {}
 E {  374} {e} {e} {2} {0} {} {1.000} {}
 E {  373} {n} {n} {1} {0} {} {1.000} {}
 
-R {  286} {0} {} {A Dirt Road in Sherwood Forest} { } {The quietness of the forest makes you uneasy. No birds are singing. No leaves\nare even rustling on the slight breeze here. The small dirt road looks well\ntraveled, but you sense a feeling of great unease as you walk along it. You\nfeel as if you're being watched, but can see no one in the vicinity.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  286} {0} {} {A Dirt Road in Sherwood Forest} { } {The quietness of the forest makes you uneasy. No birds are singing. No leaves\nare even rustling on the slight breeze here. The small dirt road looks well\ntraveled, but you sense a feeling of great unease as you walk along it. You\nfeel as if you're being watched, but can see no one in the vicinity.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  285} {e} {e} {2} {0} {} {1.000} {}
 E {  287} {w} {w} {8} {0} {} {1.000} {}
 
-R {  287} {0} {} {A Road in Sherwood Forest} { } {The road narrows here as it cuts between two giant oak trees. Several smaller\noaks circle around them in the style of an ancient druids' circle. Perhaps\nthere has been some renewed interest in the ancient druidic studies. The road\ntravels east and west from here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  287} {0} {} {A Road in Sherwood Forest} { } {The road narrows here as it cuts between two giant oak trees. Several smaller\noaks circle around them in the style of an ancient druids' circle. Perhaps\nthere has been some renewed interest in the ancient druidic studies. The road\ntravels east and west from here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  286} {e} {e} {2} {0} {} {1.000} {}
 E {  288} {w} {w} {8} {0} {} {1.000} {}
 
@@ -1477,74 +1477,74 @@ E {  288} {e} {e} {2} {0} {} {1.000} {}
 E {  290} {n} {n} {1} {0} {} {1.000} {}
 E { 7848} {w} {w} {8} {1} {} {1.000} {}
 
-R {  290} {0} {} {Beside a Stream} { } {A fast little brook winds its way merrily through the forest here. In order\nto avoid crossing the stream, the road makes a quick zigzag to the east here.\nThe road also continues to the south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  290} {0} {} {Beside a Stream} { } {A fast little brook winds its way merrily through the forest here. In order\nto avoid crossing the stream, the road makes a quick zigzag to the east here.\nThe road also continues to the south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  289} {s} {s} {4} {0} {} {1.000} {}
 E {  291} {e} {e} {2} {0} {} {1.000} {}
 
-R {  291} {0} {} {Outside a Small Hut} { } {The hut to the north is a small plain cottage. The simplicity of it is\nunadorned except for a small wooden crucifix hung above the doorway. A small\nstream runs nearby, burbling under a small bridge. From the kennel behind the\nhut, you hear the loud barking of several dogs as you approach.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  291} {0} {} {Outside a Small Hut} { } {The hut to the north is a small plain cottage. The simplicity of it is\nunadorned except for a small wooden crucifix hung above the doorway. A small\nstream runs nearby, burbling under a small bridge. From the kennel behind the\nhut, you hear the loud barking of several dogs as you approach.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  290} {w} {w} {8} {0} {} {1.000} {}
 E {  292} {e} {e} {2} {0} {} {1.000} {}
 
-R {  292} {0} {} {St. Dunstan's Shrine} { } {Well, what's left of it at any rate. The small stone shrine sits in ruins\nnow. A testament to the forces of nature and probably a rival order's power\nand influence. A few flowers bloom gaily around the fallen stones, a sign that\ngod still smiles upon this abandoned site. The road continues to east and west\nfrom here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  292} {0} {} {St. Dunstan's Shrine} { } {Well, what's left of it at any rate. The small stone shrine sits in ruins\nnow. A testament to the forces of nature and probably a rival order's power\nand influence. A few flowers bloom gaily around the fallen stones, a sign that\ngod still smiles upon this abandoned site. The road continues to east and west\nfrom here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  291} {w} {w} {8} {0} {} {1.000} {}
 E {  293} {e} {e} {2} {0} {} {1.000} {}
 
-R {  293} {0} {} {In Sherwood Forest} { } {Quiet, gentle breezes whisper along the road. You can almost make out words\nin the rustlings at times. No wonder people claim this forest is haunted. The\nunderbrush is thick on the sides of the road, but you can hear water in the\ndistance. The road continues to the north and west here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  293} {0} {} {In Sherwood Forest} { } {Quiet, gentle breezes whisper along the road. You can almost make out words\nin the rustlings at times. No wonder people claim this forest is haunted. The\nunderbrush is thick on the sides of the road, but you can hear water in the\ndistance. The road continues to the north and west here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  292} {w} {w} {8} {0} {} {1.000} {}
 E {  294} {n} {n} {1} {0} {} {1.000} {}
 
-R {  294} {0} {} {A Sharp Turn} { } {Here the road makes a sharp turn as if it is trying to avoid colliding with\nthe stream trickling down from the northeast. The stream, as if sensing the\nroad's escape, makes a quick turn to the west also. The road continues west\nand south here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  294} {0} {} {A Sharp Turn} { } {Here the road makes a sharp turn as if it is trying to avoid colliding with\nthe stream trickling down from the northeast. The stream, as if sensing the\nroad's escape, makes a quick turn to the west also. The road continues west\nand south here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  293} {s} {s} {4} {0} {} {1.000} {}
 E {  295} {w} {w} {8} {0} {} {1.000} {}
 
-R {  295} {0} {} {The Stream} { } {A small bridge crosses a brisk little stream. The water sparkles clearly and\nis surely cold. The bridge is nothing more than a few logs laid across the\nbanks with a few ropes tying them together for added support. Balance is a\nfactor in navigating this stream, a dunk in there would be none too\npleasant.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  295} {0} {} {The Stream} { } {A small bridge crosses a brisk little stream. The water sparkles clearly and\nis surely cold. The bridge is nothing more than a few logs laid across the\nbanks with a few ropes tying them together for added support. Balance is a\nfactor in navigating this stream, a dunk in there would be none too\npleasant.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  294} {e} {e} {2} {0} {} {1.000} {}
 E {  296} {w} {w} {8} {0} {} {1.000} {}
 
-R {  296} {0} {} {In Sherwood Forest} { } {The terrain is getting rockier and tougher going here. A small path leads\nnorth up the side of a steep hill. Beyond the hill, the land looks to get\nrougher farther towards Barnesdale. The small dirt road leads back east\nthrough the forest. To the west, the thick underbrush blocks the way, unless\nyou can clear it.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  296} {0} {} {In Sherwood Forest} { } {The terrain is getting rockier and tougher going here. A small path leads\nnorth up the side of a steep hill. Beyond the hill, the land looks to get\nrougher farther towards Barnesdale. The small dirt road leads back east\nthrough the forest. To the west, the thick underbrush blocks the way, unless\nyou can clear it.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  295} {e} {e} {2} {0} {} {1.000} {}
 E {  297} {w} {open w;w} {8} {0} {} {1.000} {}
 E {  298} {n} {n} {1} {0} {} {1.000} {}
 
-R {  297} {0} {<019>} {In the Thicket} { } {The briars aren't too bad once you hack at them for a while with your weapon.\nThe branches are tangled close together and provide a natural canopy offering\nsome shelter from the wind and rain. A juicy clump of blackberries is growing\nright in the thickest part of the brambles.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  297} {0} {<019>} {In the Thicket} { } {The briars aren't too bad once you hack at them for a while with your weapon.\nThe branches are tangled close together and provide a natural canopy offering\nsome shelter from the wind and rain. A juicy clump of blackberries is growing\nright in the thickest part of the brambles.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  296} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R {  298} {0} {} {A Steep Hill} { } {Pretty wildflowers adorn the side of the hill here. A rugged path leads south\ndown the side of the hill and another leads east farther into the hills. A\nsmall cave entrance is to the west.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  298} {0} {} {A Steep Hill} { } {Pretty wildflowers adorn the side of the hill here. A rugged path leads south\ndown the side of the hill and another leads east farther into the hills. A\nsmall cave entrance is to the west.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  296} {s} {s} {4} {0} {} {1.000} {}
 E {  299} {w} {w} {8} {0} {} {1.000} {}
 E {  300} {e} {e} {2} {0} {} {1.000} {}
 
-R {  299} {0} {} {Inside the Cave} { } {The darkness surrounds you closely, the faint glow of your light barely\npenetrating the inky blackness of the cave. A pile of leaves, twigs and other\ndebris has been swept to one corner as if something big had made its bed\nthere.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  299} {0} {} {Inside the Cave} { } {The darkness surrounds you closely, the faint glow of your light barely\npenetrating the inky blackness of the cave. A pile of leaves, twigs and other\ndebris has been swept to one corner as if something big had made its bed\nthere.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  298} {e} {e} {2} {0} {} {1.000} {}
 
-R {  300} {0} {} {A Rugged Path} { } {Here the path runs east west. It looks like you might be able to scramble\ndown the hillside to the west. To the east, a small clearing opens up. You\nfeel as if you're being watched with every step you take.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  300} {0} {} {A Rugged Path} { } {Here the path runs east west. It looks like you might be able to scramble\ndown the hillside to the west. To the east, a small clearing opens up. You\nfeel as if you're being watched with every step you take.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  298} {w} {w} {8} {0} {} {1.000} {}
 E {  301} {e} {e} {2} {0} {} {1.000} {}
 
-R {  301} {0} {} {A Clearing} { } {Here in the clearing Sherwood Forest is peaceful and very non-threatening in\nits quietness. A rugged path leads west along the crest of the hillside. To\nthe north a narrow ravine comes down to a sharp point in a mess of brush and\nentangled debris. It appears as if you will have to go back the way you came.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  301} {0} {} {A Clearing} { } {Here in the clearing Sherwood Forest is peaceful and very non-threatening in\nits quietness. A rugged path leads west along the crest of the hillside. To\nthe north a narrow ravine comes down to a sharp point in a mess of brush and\nentangled debris. It appears as if you will have to go back the way you came.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  300} {w} {w} {8} {0} {} {1.000} {}
 E { 2092} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R {  302} {0} {} {Watling Road} { } {The road leads east between the tall wooden gates that mark the entrance to\nNottingham and west to meet up with the King's Road. Small cottages dot the\nlandscape to the north and south. The cottages look as if they could use some\nrenovation, but the outrageous taxes collected prevent the peasants from\nfeeding themselves and their children well, let alone think about improving\ntheir living quarters. A small bridge crosses the Avon River as it winds its\nway across the English countryside.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  302} {0} {} {Watling Road} { } {The road leads east between the tall wooden gates that mark the entrance to\nNottingham and west to meet up with the King's Road. Small cottages dot the\nlandscape to the north and south. The cottages look as if they could use some\nrenovation, but the outrageous taxes collected prevent the peasants from\nfeeding themselves and their children well, let alone think about improving\ntheir living quarters. A small bridge crosses the Avon River as it winds its\nway across the English countryside.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  374} {w} {w} {8} {0} {} {1.000} {}
 E {  303} {e} {e} {2} {0} {} {1.000} {}
 E {  308} {n} {n} {1} {0} {} {1.000} {}
 E { 4790} {s} {s} {4} {0} {} {1.000} {}
 
-R {  303} {0} {} {The West Gate of Nottingham} { } {The tall wooden gates stand sentry at the entrance to Nottingham. Norman\nguards are posted here around the clock, so there has been little need to\nclose the gates of late. Watling Road continues east into town and west\nout to the King's Road.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  303} {0} {} {The West Gate of Nottingham} { } {The tall wooden gates stand sentry at the entrance to Nottingham. Norman\nguards are posted here around the clock, so there has been little need to\nclose the gates of late. Watling Road continues east into town and west\nout to the King's Road.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  302} {w} {w} {8} {0} {} {1.000} {}
 E {  304} {e} {e} {2} {0} {} {1.000} {}
 
-R {  304} {0} {} {Watling Road} { } {Small shops and residences line the streets of Nottingham. As the Sheriff's\ntown of residence, it tends to see more of the tax money than either the King's\nTreasury or other needy towns. To the north is a small shop that sells clothing\nand armor. Watling road continues east to the center of town and west to the\nGates. To the south is a small inn\; a sign proclaims it to be the Salutation.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  304} {0} {} {Watling Road} { } {Small shops and residences line the streets of Nottingham. As the Sheriff's\ntown of residence, it tends to see more of the tax money than either the King's\nTreasury or other needy towns. To the north is a small shop that sells clothing\nand armor. Watling road continues east to the center of town and west to the\nGates. To the south is a small inn\; a sign proclaims it to be the Salutation.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  303} {w} {w} {8} {0} {} {1.000} {}
 E {  305} {s} {s} {4} {0} {} {1.000} {}
 E {  306} {e} {e} {2} {0} {} {1.000} {}
 E {  313} {n} {n} {1} {0} {} {1.000} {}
 
-R {  305} {0} {<149>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters,\nsuch as those that frequent the tavern on Gilbert Way, are among the regulars\nhere. Outsiders are charged three times the going rate for a room as insurance\nthat the innkeeper gets his money. Outsiders have a way of dying before they\ncan pay their full week's rent and are not welcome here.\n} {Medieval Britan} {salut} {} {} {1.000} {}
+R {  305} {0} {<149>} {The Salutation Inn} {V} {This little inn caters to locals only. Some of the more unsavory characters,\nsuch as those that frequent the tavern on Gilbert Way, are among the regulars\nhere. Outsiders are charged three times the going rate for a room as insurance\nthat the innkeeper gets his money. Outsiders have a way of dying before they\ncan pay their full week's rent and are not welcome here.\n} {Medieval Britain} {salut} {} {} {1.000} {}
 E {  304} {n} {n} {1} {0} {} {1.000} {}
 
-R {  306} {0} {<169>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been\nerected here. Executions are held and well-attended for common thieves and bold\npoachers. Special festivities are held when a suspected member of the outlaw\nband is captured. Watling Road continues east to the Castle and west to the\ngates. Gilbert Lane runs in a north-south direction here crossing the square.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  306} {0} {<169>} {The Town Square} {W} {This is the gathering place for the folk of Nottingham. A tall gallows has been\nerected here. Executions are held and well-attended for common thieves and bold\npoachers. Special festivities are held when a suspected member of the outlaw\nband is captured. Watling Road continues east to the Castle and west to the\ngates. Gilbert Lane runs in a north-south direction here crossing the square.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  304} {w} {w} {8} {0} {} {1.000} {}
 E {  314} {n} {n} {1} {0} {} {1.000} {}
 E {  316} {s} {s} {4} {0} {} {1.000} {}
@@ -1554,45 +1554,45 @@ R {  307} {5130} {} {} { } {} {} {} {} {} {1.000} {}
 E {  271} {n} {n} {1} {0} {} {1.000} {}
 E {  270} {s} {s} {4} {0} {} {1.000} {}
 
-R {  308} {0} {} {A Rarely Traveled Path} { } {Evidence of travel on this path is far and few between. The path is nearly\novergrown in spots and will soon be swallowed by the forest again. The path\nseems to continue to the east and to the south Watling Road can be seen\nrunning between Nottingham and the King's Road.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  308} {0} {} {A Rarely Traveled Path} { } {Evidence of travel on this path is far and few between. The path is nearly\novergrown in spots and will soon be swallowed by the forest again. The path\nseems to continue to the east and to the south Watling Road can be seen\nrunning between Nottingham and the King's Road.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  302} {s} {s} {4} {0} {} {1.000} {}
 E {  309} {e} {e} {2} {0} {} {1.000} {}
 
-R {  309} {0} {} {A Sharp Turn} { } {Here the path makes a sharp turn. As you look to the inside of the bend you\ncan see where a small building once stood--its outline not yet completely\nerased by erosion and time. The path continues west and north from here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  309} {0} {} {A Sharp Turn} { } {Here the path makes a sharp turn. As you look to the inside of the bend you\ncan see where a small building once stood--its outline not yet completely\nerased by erosion and time. The path continues west and north from here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  308} {w} {w} {8} {0} {} {1.000} {}
 E {  310} {n} {n} {1} {0} {} {1.000} {}
 
-R {  310} {0} {} {Outside Nottingham} { } {A small path skirts the town of Nottingham. One of the locals swears that to\nthe east lies the North Gate of the town. To the west the path makes a sharp\nturn to the south for no apparent reason.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  310} {0} {} {Outside Nottingham} { } {A small path skirts the town of Nottingham. One of the locals swears that to\nthe east lies the North Gate of the town. To the west the path makes a sharp\nturn to the south for no apparent reason.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  309} {s} {s} {4} {0} {} {1.000} {}
 E {  311} {e} {e} {2} {0} {} {1.000} {}
 
-R {  311} {0} {} {Outside the Town Walls} { } {Not many people frequent this area of Nottingham. Often common thieves range\nthe area looking for easy targets. The lands around here are fertile and lush,\nbut the hardship on the peasants is one exacted by the Sheriff almost daily\nin exorbitant taxes. The path continues to the east and west, closely hugging\nthe town walls.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  311} {0} {} {Outside the Town Walls} { } {Not many people frequent this area of Nottingham. Often common thieves range\nthe area looking for easy targets. The lands around here are fertile and lush,\nbut the hardship on the peasants is one exacted by the Sheriff almost daily\nin exorbitant taxes. The path continues to the east and west, closely hugging\nthe town walls.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  310} {w} {w} {8} {0} {} {1.000} {}
 E {  312} {e} {e} {2} {0} {} {1.000} {}
 
-R {  312} {0} {} {The North Gate} { } {Like the west gate, this one is rarely closed. The only time local peasants\nremember it being closed was when the Normans themselves invaded the peaceful\nlittle village. Gilbert Lane leads south into the town proper and a small\nfoot path leads around the northwest side of the village.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  312} {0} {} {The North Gate} { } {Like the west gate, this one is rarely closed. The only time local peasants\nremember it being closed was when the Normans themselves invaded the peaceful\nlittle village. Gilbert Lane leads south into the town proper and a small\nfoot path leads around the northwest side of the village.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  311} {w} {w} {8} {0} {} {1.000} {}
 E {  314} {s} {s} {4} {0} {} {1.000} {}
 
-R {  313} {0} {} {The Tanner's Shop} { } {Hides have been piled and heaped upon almost every surface of this small\ncramped little shop. The smell of oils, tallow and ammonia assault your nose\nas you enter. Several of the hides have been stretched on racks along the wall\nOthers have been cut and sewn into wearable garments.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  313} {0} {} {The Tanner's Shop} { } {Hides have been piled and heaped upon almost every surface of this small\ncramped little shop. The smell of oils, tallow and ammonia assault your nose\nas you enter. Several of the hides have been stretched on racks along the wall\nOthers have been cut and sewn into wearable garments.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  304} {s} {s} {4} {0} {} {1.000} {}
 
-R {  314} {0} {} {Gilbert Lane} { } {Just north of the town square Gilbert Lane quickly leads to the North Gate. To\nthe east is a small tavern with a sign hanging out front proclaiming it as the\n'Ye Trip To Jerusalem'. The laughter coming from inside is often broken by loud\nNorman curses.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  314} {0} {} {Gilbert Lane} { } {Just north of the town square Gilbert Lane quickly leads to the North Gate. To\nthe east is a small tavern with a sign hanging out front proclaiming it as the\n'Ye Trip To Jerusalem'. The laughter coming from inside is often broken by loud\nNorman curses.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  306} {s} {s} {4} {0} {} {1.000} {}
 E {  312} {n} {n} {1} {0} {} {1.000} {}
 E {  315} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R {  315} {0} {} {Ye Trip to Jerusalem} { } {This pub is rather unique as it is one of the oldest in the area. It\nextends back into a cave cut into the sandstone at the base of Castle\nRock. Both Normans and Saxons frequent the place right on the edge of\nthe neutral territory surrounding the Market Place. Often the sheriff's\nspies stop in for a drink and the latest gossip.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  315} {0} {} {Ye Trip to Jerusalem} { } {This pub is rather unique as it is one of the oldest in the area. It\nextends back into a cave cut into the sandstone at the base of Castle\nRock. Both Normans and Saxons frequent the place right on the edge of\nthe neutral territory surrounding the Market Place. Often the sheriff's\nspies stop in for a drink and the latest gossip.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  314} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R {  316} {0} {} {Gilbert Lane} { } {A small side street, Gilbert Lane winds its way through the merchants'\ndistrict of Nottingham. To the east is the Bakery Shop. The smell of fresh\nbaked rolls, loaves and pies nearly knocks you down as a customer hurries out\nthe door and on his way home. To the north, Watling Road crosses Gilbert Lane\nat the town square.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  316} {0} {} {Gilbert Lane} { } {A small side street, Gilbert Lane winds its way through the merchants'\ndistrict of Nottingham. To the east is the Bakery Shop. The smell of fresh\nbaked rolls, loaves and pies nearly knocks you down as a customer hurries out\nthe door and on his way home. To the north, Watling Road crosses Gilbert Lane\nat the town square.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  306} {n} {n} {1} {0} {} {1.000} {}
 E {  317} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R {  317} {0} {<149>} {Nell's Bakery} {V} {This little bake shop supplies many of the local peasants with coarse stone\nground wheat bread. The best wheat is shipped to London for the court, so the\nbread isn't the greatest, but it is sustenance.\n} {Medieval Britan} {nell} {} {} {1.000} {}
+R {  317} {0} {<149>} {Nell's Bakery} {V} {This little bake shop supplies many of the local peasants with coarse stone\nground wheat bread. The best wheat is shipped to London for the court, so the\nbread isn't the greatest, but it is sustenance.\n} {Medieval Britain} {nell} {} {} {1.000} {}
 E {  316} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R {  318} {0} {} {Watling Road} { } {The road continues east and west here. Private residences line the sides of\nthe street and all the doors are firmly locked against would be trespassers.\nTo the west, a large square can be seen. The Castle looms above the houses\nto the northeast.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  318} {0} {} {Watling Road} { } {The road continues east and west here. Private residences line the sides of\nthe street and all the doors are firmly locked against would be trespassers.\nTo the west, a large square can be seen. The Castle looms above the houses\nto the northeast.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  319} {w} {w} {8} {0} {} {1.000} {}
 E {  320} {n} {n} {1} {0} {} {1.000} {}
 E {  371} {e} {e} {2} {0} {} {1.000} {}
@@ -1601,148 +1601,148 @@ R {  319} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  306} {w} {w} {8} {0} {} {1.000} {}
 E {  318} {e} {e} {2} {0} {} {1.000} {}
 
-R {  320} {0} {} {The Drawbridge} { } {The drawbridge to Nottingham Castle is situated on the north side of the road.\nThe Sheriff, currently Monceux, has his office there and if one did not know\nbetter, they might say he held his own court there. The castle is impressive in\nthe workmanship of the stonemasons who built it. Colorful banners fly from the\nturrets. The road east-west to the south of here. A portcullis sits beyond the\napproach ramp on the north side of the drawbridge.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  320} {0} {} {The Drawbridge} { } {The drawbridge to Nottingham Castle is situated on the north side of the road.\nThe Sheriff, currently Monceux, has his office there and if one did not know\nbetter, they might say he held his own court there. The castle is impressive in\nthe workmanship of the stonemasons who built it. Colorful banners fly from the\nturrets. The road east-west to the south of here. A portcullis sits beyond the\napproach ramp on the north side of the drawbridge.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  318} {s} {s} {4} {0} {} {1.000} {}
 E {  321} {n} {n} {1} {0} {} {1.000} {}
 
-R {  321} {0} {} {The Entrance to the Castle} { } {The mechanism for lowering and raising the drawbridge is located to the left\nhere. The Norman guard glowers at you as you move toward it. His job is\nclearly to open and close the portcullis for those who desire exit or entry\nfrom the castle. The only light here comes from the arrow slot and a single\ntorch hung above the guard's position. A string runs in through the arrow\nslot in the wall of the castle and over to a small bell suspended from a post.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  321} {0} {} {The Entrance to the Castle} { } {The mechanism for lowering and raising the drawbridge is located to the left\nhere. The Norman guard glowers at you as you move toward it. His job is\nclearly to open and close the portcullis for those who desire exit or entry\nfrom the castle. The only light here comes from the arrow slot and a single\ntorch hung above the guard's position. A string runs in through the arrow\nslot in the wall of the castle and over to a small bell suspended from a post.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  320} {s} {s} {4} {0} {} {1.000} {}
 E {  322} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R {  322} {0} {} {The Barbican} { } {A rusty iron portcullis points its jagged teeth down from the upper lip of\nthe arch to the south looking ready to bite down on the tongue of the\ndrawbridge as it sticks out across the moat. This small courtyard continues\nto the north an empty no man's land between the outer bailey and the rest of\nthe world beyond the moat. A string runs in through the arrow slot in the\nwall and over to a small bell suspended from a post.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  322} {0} {} {The Barbican} { } {A rusty iron portcullis points its jagged teeth down from the upper lip of\nthe arch to the south looking ready to bite down on the tongue of the\ndrawbridge as it sticks out across the moat. This small courtyard continues\nto the north an empty no man's land between the outer bailey and the rest of\nthe world beyond the moat. A string runs in through the arrow slot in the\nwall and over to a small bell suspended from a post.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  321} {s} {open s;s} {4} {0} {} {1.000} {}
 E {  323} {n} {n} {1} {0} {} {1.000} {}
 
-R {  323} {0} {} {The Barbican} { } {A bare little courtyard, just another defensive measure by the Normans to\nbuffer the attack from the safety of the inner keep. A large iron bound\nwooden door leads deeper into the compound while a portcullis leads south out\nof the fortress into the quiet little town of Nottingham. A few broken pieces\nof equipment lie rusting to one side, forgotten.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  323} {0} {} {The Barbican} { } {A bare little courtyard, just another defensive measure by the Normans to\nbuffer the attack from the safety of the inner keep. A large iron bound\nwooden door leads deeper into the compound while a portcullis leads south out\nof the fortress into the quiet little town of Nottingham. A few broken pieces\nof equipment lie rusting to one side, forgotten.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  322} {s} {s} {4} {0} {} {1.000} {}
 E {  324} {n} {n} {1} {0} {} {1.000} {}
 
-R {  324} {0} {} {The Outer Bailey} { } {The smell of moldy hay and horse manure is strong here. A large pile of\nhorse manure steams hotly next to your foot. A horse whickers softy to the\nwest. A small chapel stands to the east, serene and quiet amidst the heavy\nscent lingering in the outer bailey. The courtyard continues to the north,\nbordered by the curtain wall. A large wooden door stands menacingly to the\nsouth.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  324} {0} {} {The Outer Bailey} { } {The smell of moldy hay and horse manure is strong here. A large pile of\nhorse manure steams hotly next to your foot. A horse whickers softy to the\nwest. A small chapel stands to the east, serene and quiet amidst the heavy\nscent lingering in the outer bailey. The courtyard continues to the north,\nbordered by the curtain wall. A large wooden door stands menacingly to the\nsouth.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  323} {s} {s} {4} {0} {} {1.000} {}
 E {  325} {w} {open w;w} {8} {0} {} {1.000} {}
 E {  327} {e} {e} {2} {0} {} {1.000} {}
 E {  328} {n} {n} {1} {0} {} {1.000} {}
 
-R {  325} {0} {} {The Stables} { } {Ankle deep in horse manure and rotting hay, you muck about looking for a\nsemi-dry place to stand. You wonder how the Normans can treat their horses\nso pathetically. Stalls stand cramped against each other. In some cases, the\nboards separating them kicked to pieces or rotting like the rest of the\nplace. A ladder leads up into the darkness above the stables. And the outer\nbailey offers fresher air to the north and east.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  325} {0} {} {The Stables} { } {Ankle deep in horse manure and rotting hay, you muck about looking for a\nsemi-dry place to stand. You wonder how the Normans can treat their horses\nso pathetically. Stalls stand cramped against each other. In some cases, the\nboards separating them kicked to pieces or rotting like the rest of the\nplace. A ladder leads up into the darkness above the stables. And the outer\nbailey offers fresher air to the north and east.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  324} {e} {open e;e} {2} {0} {} {1.000} {}
 E {  326} {u} {u} {16} {0} {} {1.000} {}
 E {  338} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R {  326} {0} {} {The Loft} { } {The loft above the stable serves as a barracks for some of the guards. The\nsmell of manure is strong from below, but the smell of fresh clover hay smells\nsweet in comparison. A ladder at one end of the loft leads down into the\nstable.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  326} {0} {} {The Loft} { } {The loft above the stable serves as a barracks for some of the guards. The\nsmell of manure is strong from below, but the smell of fresh clover hay smells\nsweet in comparison. A ladder at one end of the loft leads down into the\nstable.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  325} {d} {d} {32} {0} {} {1.000} {}
 
-R {  327} {0} {} {A Small Chapel} { } {Perhaps the Bishop of Hereford still conducts small services here when he\nvisits. A small prie dieu sits to one side before a small altar, above which\nhangs a small wooden crucifix. The chapel is in all other ways very plain and\nunadorned.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  327} {0} {} {A Small Chapel} { } {Perhaps the Bishop of Hereford still conducts small services here when he\nvisits. A small prie dieu sits to one side before a small altar, above which\nhangs a small wooden crucifix. The chapel is in all other ways very plain and\nunadorned.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  324} {w} {w} {8} {0} {} {1.000} {}
 
-R {  328} {0} {} {The Outer Bailey} { } {To the south across the courtyard a large wooden door separates the outer\nbailey from the barbican. To the north a great arch leads to the inner\nbailey. A small chapel sits to the southeast and the stables to the south\nwest. The curtain wall is lined with a walk to provide access between the\nwall towers and the arrow loops. A small building that serves as the granary\nsits to the east.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  328} {0} {} {The Outer Bailey} { } {To the south across the courtyard a large wooden door separates the outer\nbailey from the barbican. To the north a great arch leads to the inner\nbailey. A small chapel sits to the southeast and the stables to the south\nwest. The curtain wall is lined with a walk to provide access between the\nwall towers and the arrow loops. A small building that serves as the granary\nsits to the east.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  324} {s} {s} {4} {0} {} {1.000} {}
 E {  329} {e} {e} {2} {0} {} {1.000} {}
 E {  338} {w} {w} {8} {0} {} {1.000} {}
 E {  335} {n} {n} {1} {0} {} {1.000} {}
 
-R {  329} {0} {} {The Granary} { } {Here, the wheat not sent to the crown is stored. Beside the small building, a\nflight of stairs leads up to the wall walk. The courtyard opens up to the\nwest, and a small chapel sits to the south, but has no entrance from this\nside.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  329} {0} {} {The Granary} { } {Here, the wheat not sent to the crown is stored. Beside the small building, a\nflight of stairs leads up to the wall walk. The courtyard opens up to the\nwest, and a small chapel sits to the south, but has no entrance from this\nside.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  328} {w} {w} {8} {0} {} {1.000} {}
 E {  330} {u} {u} {16} {0} {} {1.000} {}
 
-R {  330} {0} {} {The Northeastern Wall Tower} { } {Sheltered by a couple of walls, you stand at the top of a flight of steps\nleading down into the outer bailey beside the granary. The wall walk extends\nto the south toward the arrow loop.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  330} {0} {} {The Northeastern Wall Tower} { } {Sheltered by a couple of walls, you stand at the top of a flight of steps\nleading down into the outer bailey beside the granary. The wall walk extends\nto the south toward the arrow loop.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  329} {d} {d} {32} {0} {} {1.000} {}
 E {  331} {s} {s} {4} {0} {} {1.000} {}
 
-R {  331} {0} {} {On the Wall Walk} { } {The parapets line the walk, preventing you from falling easily off the walk,\nat least to the outside and into the moat. The chapel roof is nearly directly\nbelow you, but the distance is too far to jump safely. You can walk along the\nwall toward either the north or south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  331} {0} {} {On the Wall Walk} { } {The parapets line the walk, preventing you from falling easily off the walk,\nat least to the outside and into the moat. The chapel roof is nearly directly\nbelow you, but the distance is too far to jump safely. You can walk along the\nwall toward either the north or south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  330} {n} {n} {1} {0} {} {1.000} {}
 E {  332} {s} {s} {4} {0} {} {1.000} {}
 
-R {  332} {0} {} {The Southeastern Wall Tower} { } {This is where archers stand when the keep is under siege to shoot through the\narrow loops and safely avoid attack. The wall walk continues both north and\nwest from here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  332} {0} {} {The Southeastern Wall Tower} { } {This is where archers stand when the keep is under siege to shoot through the\narrow loops and safely avoid attack. The wall walk continues both north and\nwest from here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  331} {n} {n} {1} {0} {} {1.000} {}
 E {  333} {w} {w} {8} {0} {} {1.000} {}
 
-R {  333} {0} {} {On the Wall Walk Above the Barbican} { } {Parapets line the walk, preventing you from falling easily off the walk,\nat least down into the barbican to the south. The wall walk continues east\nand west between the arrow loops.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  333} {0} {} {On the Wall Walk Above the Barbican} { } {Parapets line the walk, preventing you from falling easily off the walk,\nat least down into the barbican to the south. The wall walk continues east\nand west between the arrow loops.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  332} {e} {e} {2} {0} {} {1.000} {}
 E {  334} {w} {w} {8} {0} {} {1.000} {}
 
-R {  334} {0} {} {The Southwestern Wall Tower} { } {This is where archers stand when the keep is under siege to shoot through the\narrow loops and safely avoid attack. The wall walk continues both north and\neast from here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  334} {0} {} {The Southwestern Wall Tower} { } {This is where archers stand when the keep is under siege to shoot through the\narrow loops and safely avoid attack. The wall walk continues both north and\neast from here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  333} {e} {e} {2} {0} {} {1.000} {}
 E {  336} {n} {n} {1} {0} {} {1.000} {}
 
-R {  335} {0} {} {Under the Great Arch} { } {Here where the curtain wall divides the outer bailey from the inner bailey\nand the rest of the fortress, a great arch provides passage between the two.\nRusted iron hinges remain like scars where a great door must have once hung.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  335} {0} {} {Under the Great Arch} { } {Here where the curtain wall divides the outer bailey from the inner bailey\nand the rest of the fortress, a great arch provides passage between the two.\nRusted iron hinges remain like scars where a great door must have once hung.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  328} {s} {s} {4} {0} {} {1.000} {}
 E {  339} {n} {n} {1} {0} {} {1.000} {}
 
-R {  336} {0} {} {On the Wall Walk} { } {You could fall easily off the walk, especially to the outside and into the\nmoat, except for the parapets. The stable roof is nearly directly below you,\nbut the distance is too far to jump safely. You can walk along the wall\ntoward either the north or south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  336} {0} {} {On the Wall Walk} { } {You could fall easily off the walk, especially to the outside and into the\nmoat, except for the parapets. The stable roof is nearly directly below you,\nbut the distance is too far to jump safely. You can walk along the wall\ntoward either the north or south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  334} {s} {s} {4} {0} {} {1.000} {}
 E {  337} {n} {n} {1} {0} {} {1.000} {}
 
-R {  337} {0} {} {The Northwest Wall Tower} { } {A flight of steps leads down to the outer bailey from here. The wall walk\ncontinues to the south from this small room that looks like nothing more than\na storage space for unused goods.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  337} {0} {} {The Northwest Wall Tower} { } {A flight of steps leads down to the outer bailey from here. The wall walk\ncontinues to the south from this small room that looks like nothing more than\na storage space for unused goods.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  336} {s} {s} {4} {0} {} {1.000} {}
 E {  338} {d} {d} {32} {0} {} {1.000} {}
 
-R {  338} {0} {} {The Outer Bailey} { } {Mostly open space that is probably used for combat practice, this part of the\nouter bailey seems nearly deserted. A flight of steps leads up to the wall\nwalk where guards patrol along the curtain wall.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  338} {0} {} {The Outer Bailey} { } {Mostly open space that is probably used for combat practice, this part of the\nouter bailey seems nearly deserted. A flight of steps leads up to the wall\nwalk where guards patrol along the curtain wall.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  328} {e} {e} {2} {0} {} {1.000} {}
 E {  337} {u} {u} {16} {0} {} {1.000} {}
 E {  325} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R {  339} {0} {} {The Inner Bailey} { } {The main entrance to the keep looms above you to the north. The banners\nflying from the turrets snap in the breeze. Smoke curls up from the kitchens\nfrom behind the great hall to the east of the keep. The postern sits to the\nfar east, a side entrance to the fortress.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  339} {0} {} {The Inner Bailey} { } {The main entrance to the keep looms above you to the north. The banners\nflying from the turrets snap in the breeze. Smoke curls up from the kitchens\nfrom behind the great hall to the east of the keep. The postern sits to the\nfar east, a side entrance to the fortress.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  335} {s} {s} {4} {0} {} {1.000} {}
 E {  340} {w} {w} {8} {0} {} {1.000} {}
 E { 7770} {n} {n} {1} {0} {} {1.000} {}
 E {  356} {e} {e} {2} {0} {} {1.000} {}
 
-R {  340} {0} {} {The Inner Bailey} { } {This end of the courtyard seems to double as a stockpile of provisions.\nPeople seem to drop unneeded things here and take others that they might find\na need of themselves, making this a community salvage bin. The courtyard\ncontinues to the east past the entrance to the keep.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  340} {0} {} {The Inner Bailey} { } {This end of the courtyard seems to double as a stockpile of provisions.\nPeople seem to drop unneeded things here and take others that they might find\na need of themselves, making this a community salvage bin. The courtyard\ncontinues to the east past the entrance to the keep.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  339} {e} {e} {2} {0} {} {1.000} {}
 
-R {  341} {0} {} {The Foyer} { } {Just inside the castle, the grand foyer opens up to receive visitors.\nComfortable chairs line the sides of the room, making you think that the\nreception is not always a prompt one. The dim light provided by a single\ntorch is not exactly welcoming either. To the south is the inner bailey opens\nup before the keep. The main mall leads north deeper into the keep.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  341} {0} {} {The Foyer} { } {Just inside the castle, the grand foyer opens up to receive visitors.\nComfortable chairs line the sides of the room, making you think that the\nreception is not always a prompt one. The dim light provided by a single\ntorch is not exactly welcoming either. To the south is the inner bailey opens\nup before the keep. The main mall leads north deeper into the keep.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 7770} {s} {s} {4} {0} {} {1.000} {}
 E {  359} {n} {n} {1} {0} {} {1.000} {}
 
-R {  342} {0} {} {The Main Hall} { } {The main hallway of the castle is crossed here by a smaller more functional\nhallway that creates a tee-junction. Even here in the main hall, the sheriff\nskimps on creature comforts, providing little light except for a few scattered\ntorches set in about every third or fourth sconce. To the west you hear the\nfaint clinking of coins as they are being counted, the Sheriff's office must\nbe that way. To the east, a draft chills you, and you cannot help but think of\nthe infamous dungeons into which the Sheriff always seems to be throwing some\nunfortunate law-breaker.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  342} {0} {} {The Main Hall} { } {The main hallway of the castle is crossed here by a smaller more functional\nhallway that creates a tee-junction. Even here in the main hall, the sheriff\nskimps on creature comforts, providing little light except for a few scattered\ntorches set in about every third or fourth sconce. To the west you hear the\nfaint clinking of coins as they are being counted, the Sheriff's office must\nbe that way. To the east, a draft chills you, and you cannot help but think of\nthe infamous dungeons into which the Sheriff always seems to be throwing some\nunfortunate law-breaker.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  359} {s} {s} {4} {0} {} {1.000} {}
 E {  343} {e} {e} {2} {0} {} {1.000} {}
 E {  346} {w} {w} {8} {0} {} {1.000} {}
 
-R {  343} {0} {} {The Dungeon Hallway} { } {This hallway leads to the entrance of the dungeons. It is very spartan, but\nthen, the guards are conditioned to standing around all day and don't require\ncreature comforts like chairs or paintings to cheer their day. The dismal\nlight of the few rushlights would be enough to ruin anyone's day with or\nwithout creature comforts.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  343} {0} {} {The Dungeon Hallway} { } {This hallway leads to the entrance of the dungeons. It is very spartan, but\nthen, the guards are conditioned to standing around all day and don't require\ncreature comforts like chairs or paintings to cheer their day. The dismal\nlight of the few rushlights would be enough to ruin anyone's day with or\nwithout creature comforts.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  342} {w} {w} {8} {0} {} {1.000} {}
 E {  344} {n} {n} {1} {0} {} {1.000} {}
 E {  345} {s} {s} {4} {0} {} {1.000} {}
 
-R {  344} {0} {} {Dungeon Entrance} { } {Here the draft is damper and colder as it rises from the depths of the\ndungeons. The few rushlight torches that have been set about the castle\nprovide very little light. Slate grey stone steps leads down into the depths\nof the dungeons. A small hallway leads south to the main hall of the castle.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  344} {0} {} {Dungeon Entrance} { } {Here the draft is damper and colder as it rises from the depths of the\ndungeons. The few rushlight torches that have been set about the castle\nprovide very little light. Slate grey stone steps leads down into the depths\nof the dungeons. A small hallway leads south to the main hall of the castle.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  343} {s} {s} {4} {0} {} {1.000} {}
 E {  354} {d} {d} {32} {0} {} {1.000} {}
 
-R {  345} {0} {} {A Narrow Staircase} { } {This small staircase seems to connect the lower floor with the upper floor of\nthe keep. Leaves and other debris gather in the corner where the fall winds\nhave blown them in through the uncovered arrow slots. You'd think the drudges\nwould keep it clean.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  345} {0} {} {A Narrow Staircase} { } {This small staircase seems to connect the lower floor with the upper floor of\nthe keep. Leaves and other debris gather in the corner where the fall winds\nhave blown them in through the uncovered arrow slots. You'd think the drudges\nwould keep it clean.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  343} {n} {n} {1} {0} {} {1.000} {}
 E {  348} {u} {u} {16} {0} {} {1.000} {}
 
-R {  346} {0} {} {A Short Hallway} { } {This short hallways leads between the Sheriff's office and the main hall. You\nhear loud clinks as gold coins merrily join the coffers of the tax money\ncollected today from the peasants, merchants and local nobility. There is\nvery little light accorded from the single torch mounted here.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  346} {0} {} {A Short Hallway} { } {This short hallways leads between the Sheriff's office and the main hall. You\nhear loud clinks as gold coins merrily join the coffers of the tax money\ncollected today from the peasants, merchants and local nobility. There is\nvery little light accorded from the single torch mounted here.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  342} {e} {e} {2} {0} {} {1.000} {}
 E {  347} {s} {s} {4} {0} {} {1.000} {}
 
-R {  347} {0} {} {The Sheriff's Office} { } {The room is crowded with huge sacks of gold coins piled against a coffer.\nSeveral spill out onto the floor. The heavy guard of stout Norman warriors\nprevents you from just picking any of them up though. A large desk sits in the\ncenter of the room. It is piled high with a thin red leather-bound book\nshowing who has paid taxes and many more thick heavy black leather-bound ones\nshowing who hasn't. The only exit is into a small hallway to the north.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  347} {0} {} {The Sheriff's Office} { } {The room is crowded with huge sacks of gold coins piled against a coffer.\nSeveral spill out onto the floor. The heavy guard of stout Norman warriors\nprevents you from just picking any of them up though. A large desk sits in the\ncenter of the room. It is piled high with a thin red leather-bound book\nshowing who has paid taxes and many more thick heavy black leather-bound ones\nshowing who hasn't. The only exit is into a small hallway to the north.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  346} {n} {n} {1} {0} {} {1.000} {}
 
-R {  348} {0} {} {At the Top of the Stairs} { } {The large stones forming the steps must have taken hours to move from the\nquarry. Little light shines in through a narrow slit in the wall above you,\nand someone was nice enough to leave a torch burning in the sconce here. Heavy\ntapestries hang from the wall in an unsuccessful attempt to diminish the\ndrafts and dampness of the place. A hallway leads north from the stairs which\nlead down into the heart of the keep.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  348} {0} {} {At the Top of the Stairs} { } {The large stones forming the steps must have taken hours to move from the\nquarry. Little light shines in through a narrow slit in the wall above you,\nand someone was nice enough to leave a torch burning in the sconce here. Heavy\ntapestries hang from the wall in an unsuccessful attempt to diminish the\ndrafts and dampness of the place. A hallway leads north from the stairs which\nlead down into the heart of the keep.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  345} {d} {d} {32} {0} {} {1.000} {}
 E {  349} {n} {n} {1} {0} {} {1.000} {}
 
-R {  349} {0} {} {In a Drafty Hallway} { } {Despite the rugs tossed down on the stone floor, the cold and damp seeps into\nthe hallway. A few tables line the hallway, but for the most part it is bare.\nObviously more functional than noticed. Rushes lay strewn along the edges\nhoping to relieve some of the musty smell that is ever present, summer or\nwinter. A meager torch dimly lights your way so that you can see a staircase\nto the south and the hall continuing to the west.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  349} {0} {} {In a Drafty Hallway} { } {Despite the rugs tossed down on the stone floor, the cold and damp seeps into\nthe hallway. A few tables line the hallway, but for the most part it is bare.\nObviously more functional than noticed. Rushes lay strewn along the edges\nhoping to relieve some of the musty smell that is ever present, summer or\nwinter. A meager torch dimly lights your way so that you can see a staircase\nto the south and the hall continuing to the west.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  348} {s} {s} {4} {0} {} {1.000} {}
 E {  350} {w} {w} {8} {0} {} {1.000} {}
 
-R {  350} {0} {} {In a Drafty Hallway} { } {Dampness pervades and you shiver as you walk along and notice a large rat\ngnawing on something in the corner. Little light shines this way from the\ntorches placed at opposite ends of the hallway. An oak door stands proudly to\nthe south marking the location of a private room.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  350} {0} {} {In a Drafty Hallway} { } {Dampness pervades and you shiver as you walk along and notice a large rat\ngnawing on something in the corner. Little light shines this way from the\ntorches placed at opposite ends of the hallway. An oak door stands proudly to\nthe south marking the location of a private room.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  349} {e} {e} {2} {0} {} {1.000} {}
 E {  351} {w} {w} {8} {0} {} {1.000} {}
 E {  353} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R {  351} {0} {} {In a Drafty Hallway} { } {A single torch attempts to push back the darkness and damp as it sits isolated\nin the wall sconce. An ironbound door stands firmly shut to the south. The\nhallway dead ends here, but continues to the east. Much unused clutter has\npiled up in the dark recesses of the corner over the years. You hear an odd\nscratching sound coming from that direction so decide further investigation is\nprobably unwarranted as anything of worth has been gnawed, eaten or otherwise\nruined.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  351} {0} {} {In a Drafty Hallway} { } {A single torch attempts to push back the darkness and damp as it sits isolated\nin the wall sconce. An ironbound door stands firmly shut to the south. The\nhallway dead ends here, but continues to the east. Much unused clutter has\npiled up in the dark recesses of the corner over the years. You hear an odd\nscratching sound coming from that direction so decide further investigation is\nprobably unwarranted as anything of worth has been gnawed, eaten or otherwise\nruined.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  350} {e} {e} {2} {0} {} {1.000} {}
 E {  352} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R {  352} {0} {} {In a Stately Bedroom} { } {Wine dark drapes, gold edged furniture and upholstery and a heavy scent of\nsandalwood marks this room as the domain of the lord of the castle. Rich\nclothes hang askew from the armoire, while books pile high on a large writing\ndesk. The bed, large and roomy, draped in luscious velvet curtains surely also\nhouses many fleas of high stature as well.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  352} {0} {} {In a Stately Bedroom} { } {Wine dark drapes, gold edged furniture and upholstery and a heavy scent of\nsandalwood marks this room as the domain of the lord of the castle. Rich\nclothes hang askew from the armoire, while books pile high on a large writing\ndesk. The bed, large and roomy, draped in luscious velvet curtains surely also\nhouses many fleas of high stature as well.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  351} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R {  353} {0} {} {In an Elegant Bedroom} { } {Cream and navy blue upholstery and cloth adorns this room. The many dresses\nand hair ribbons, perfumes, and bonnets and gloves strewn about the room are\nof fine quality. The smell of sweet lavender comes from the silk and satin\ncovered bed. A bouquet of fresh picked flowers sits on the dressing table.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  353} {0} {} {In an Elegant Bedroom} { } {Cream and navy blue upholstery and cloth adorns this room. The many dresses\nand hair ribbons, perfumes, and bonnets and gloves strewn about the room are\nof fine quality. The smell of sweet lavender comes from the silk and satin\ncovered bed. A bouquet of fresh picked flowers sits on the dressing table.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  350} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R {  354} {0} {} {The Dungeon} { } {The rushlights give off very little usable light down here at anytime of day.\nThe dankness of the air guarantees no one will be locked up down here for\nvery long. The peasants tell of near daily burial pyres in the summer time.\nThe hallway leading to the cells continues to the north.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  354} {0} {} {The Dungeon} { } {The rushlights give off very little usable light down here at anytime of day.\nThe dankness of the air guarantees no one will be locked up down here for\nvery long. The peasants tell of near daily burial pyres in the summer time.\nThe hallway leading to the cells continues to the north.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  344} {u} {u} {16} {0} {} {1.000} {}
 E {  355} {n} {n} {1} {0} {} {1.000} {}
 
@@ -1752,16 +1752,16 @@ E { 7772} {e} {open e;e} {2} {0} {} {1.000} {}
 E { 7773} {w} {open w;w} {8} {0} {} {1.000} {}
 E { 7781} {n} {open n;n} {1} {0} {} {1.000} {}
 
-R {  356} {0} {} {The Inner Bailey} { } {The courtyard is open here before the great hall, the feasting hall of the\nkeep. The postern lies to the east, and the entrance to the keep lies to the\nwest north of the great arch that leads to the outer bailey.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  356} {0} {} {The Inner Bailey} { } {The courtyard is open here before the great hall, the feasting hall of the\nkeep. The postern lies to the east, and the entrance to the keep lies to the\nwest north of the great arch that leads to the outer bailey.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  339} {w} {w} {8} {0} {} {1.000} {}
 E {  358} {n} {n} {1} {0} {} {1.000} {}
 E {  357} {e} {e} {2} {0} {} {1.000} {}
 
-R {  357} {0} {} {The Postern} { } {A small doorway leads out across the moat to the east here. A sentry is\nposted here to ensure the security of the fortress. Although, these days,\nsecurity has gotten pretty lax as the Normans are feeling cocky in their\noccupation of English territory and their conquest of the Saxon people.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  357} {0} {} {The Postern} { } {A small doorway leads out across the moat to the east here. A sentry is\nposted here to ensure the security of the fortress. Although, these days,\nsecurity has gotten pretty lax as the Normans are feeling cocky in their\noccupation of English territory and their conquest of the Saxon people.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  356} {w} {w} {8} {0} {} {1.000} {}
 E {  360} {e} {e} {2} {0} {} {1.000} {}
 
-R {  358} {0} {} {The Great Hall} { } {Long tables line the hall, stained with food and blood. The flagstones are\nsimilarly stained where dogs slumber in the warmth provided by the large\nfireplace surrounded by furs and benches. Huge racks of antlers hang from the\nrafters, evidence of the great hunting sport enjoyed in the area until\nrecently. The postern lies to the southeast and the main entrance to the keep\nis to the southwest.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  358} {0} {} {The Great Hall} { } {Long tables line the hall, stained with food and blood. The flagstones are\nsimilarly stained where dogs slumber in the warmth provided by the large\nfireplace surrounded by furs and benches. Huge racks of antlers hang from the\nrafters, evidence of the great hunting sport enjoyed in the area until\nrecently. The postern lies to the southeast and the main entrance to the keep\nis to the southwest.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  356} {s} {s} {4} {0} {} {1.000} {}
 E { 7771} {n} {open n;n} {1} {0} {} {1.000} {}
 
@@ -1769,27 +1769,27 @@ R {  359} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  342} {n} {n} {1} {0} {} {1.000} {}
 E {  341} {s} {s} {4} {0} {} {1.000} {}
 
-R {  360} {0} {} {In a Small Dark Alley} { } {The alley ends here in a dead end to the north. A narrow board stretches\nacross the moat to a small door set into the curtain wall of the fortress.\nYou feel as if someone is watching you as you walk along the alley, but did\nyou expect it any different here in this part of town? You are just glad you\nare not carrying that much gold or nice equipment with you today. You shudder\nto think at the type of person who would seek to relieve you of it here in\nthis part of town.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  360} {0} {} {In a Small Dark Alley} { } {The alley ends here in a dead end to the north. A narrow board stretches\nacross the moat to a small door set into the curtain wall of the fortress.\nYou feel as if someone is watching you as you walk along the alley, but did\nyou expect it any different here in this part of town? You are just glad you\nare not carrying that much gold or nice equipment with you today. You shudder\nto think at the type of person who would seek to relieve you of it here in\nthis part of town.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  357} {w} {w} {8} {0} {} {1.000} {}
 E {  361} {e} {e} {2} {0} {} {1.000} {}
 E {  369} {s} {s} {4} {0} {} {1.000} {}
 
-R {  361} {0} {} {A Dark and Murky Room} { } {You are pretty sure you should have come in here through that half open door.\nThe silence is deafening and the smell of old stale sweat and the lingering\nsmell of death permeates the room. The only apparent exit is the one you came\nin through.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  361} {0} {} {A Dark and Murky Room} { } {You are pretty sure you should have come in here through that half open door.\nThe silence is deafening and the smell of old stale sweat and the lingering\nsmell of death permeates the room. The only apparent exit is the one you came\nin through.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  360} {w} {w} {8} {0} {} {1.000} {}
 
-R {  362} {0} {} {In a Dark Alley} { } {You peer about anxiously looking for the source of every noise you hear. The\nstories you have heard about this part of town are not comforting ones. A run\ndown building sits crumbling to the east. The alley continues to the north\nand south, just as nasty and filthy in both directions.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  362} {0} {} {In a Dark Alley} { } {You peer about anxiously looking for the source of every noise you hear. The\nstories you have heard about this part of town are not comforting ones. A run\ndown building sits crumbling to the east. The alley continues to the north\nand south, just as nasty and filthy in both directions.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  369} {n} {n} {1} {0} {} {1.000} {}
 E {  363} {e} {e} {2} {0} {} {1.000} {}
 E {  368} {s} {s} {4} {0} {} {1.000} {}
 
-R {  363} {0} {} {Inside the Dilapidated Building} { } {Scratchings and creakings are the only sounds you hear. If someone was in here\nyou probably couldn't tell unless they made a large racket. Loose tarp barely\ncovers the windows. Debris litters every surface. Crates and overturned\nbarrels are jumbled about as if they were children's toys casually tossed\naside when playtime was over. The only way you can see to escape this horrible\nplace is back out the door through which you came in.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  363} {0} {} {Inside the Dilapidated Building} { } {Scratchings and creakings are the only sounds you hear. If someone was in here\nyou probably couldn't tell unless they made a large racket. Loose tarp barely\ncovers the windows. Debris litters every surface. Crates and overturned\nbarrels are jumbled about as if they were children's toys casually tossed\naside when playtime was over. The only way you can see to escape this horrible\nplace is back out the door through which you came in.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  362} {w} {w} {8} {0} {} {1.000} {}
 
-R {  364} {0} {} {The Entrance to a Dark Alley} { } {You stand just inside the entrance to a small dark alley. Refuse lines the\nsides of the street and you think that that one heap over to your left may\neven be a body. All in all not a comforting place to be. The alley continues\nto the north, or you could run for the safety of Watling Road to the south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  364} {0} {} {The Entrance to a Dark Alley} { } {You stand just inside the entrance to a small dark alley. Refuse lines the\nsides of the street and you think that that one heap over to your left may\neven be a body. All in all not a comforting place to be. The alley continues\nto the north, or you could run for the safety of Watling Road to the south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  370} {n} {n} {1} {0} {} {1.000} {}
 E {  366} {s} {s} {4} {0} {} {1.000} {}
 
-R {  365} {0} {} {Watling Road} { } {Watling Road dead ends here to the east, but a narrow, dark and foreboding\nalley heads off to the north. The street continues to the west past the\napproach ramp leading across the castle moat.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  365} {0} {} {Watling Road} { } {Watling Road dead ends here to the east, but a narrow, dark and foreboding\nalley heads off to the north. The street continues to the west past the\napproach ramp leading across the castle moat.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  367} {n} {n} {1} {0} {} {1.000} {}
 E {  372} {w} {w} {8} {0} {} {1.000} {}
 
@@ -1821,7 +1821,7 @@ R {  372} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  371} {w} {w} {8} {0} {} {1.000} {}
 E {  365} {e} {e} {2} {0} {} {1.000} {}
 
-R {  373} {0} {} {On the King's Road} { } {The forest is dense and enclosing here. The undergrowth hasn't been cleared\nfrom the sides of the road for a long time. The heavy cobblestones tend to\nkeep the roadway itself clear, but even small grasses and weeds have begun to\nsprout between the cracks. The silence here is disturbing\; perhaps you might\nfind solace in the little square church to the east.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  373} {0} {} {On the King's Road} { } {The forest is dense and enclosing here. The undergrowth hasn't been cleared\nfrom the sides of the road for a long time. The heavy cobblestones tend to\nkeep the roadway itself clear, but even small grasses and weeds have begun to\nsprout between the cracks. The silence here is disturbing\; perhaps you might\nfind solace in the little square church to the east.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  285} {s} {s} {4} {0} {} {1.000} {}
 E {  375} {e} {e} {2} {0} {} {1.000} {}
 E {  376} {n} {n} {1} {0} {} {1.000} {}
@@ -1830,56 +1830,56 @@ R {  374} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  302} {e} {e} {2} {0} {} {1.000} {}
 E {  285} {w} {w} {8} {0} {} {1.000} {}
 
-R {  375} {0} {} {St. James' Church} { } {This small church provides spiritual solace to the people of Papplewick. The\nBishop of Hereford often presides over mass here. The rusticity of the church\nis apparent in all that you see. The pulpit is a crude elevated box from\nwhich the priest speaks to the congregation which sit on crude benches serving\nas pews, and are doubtlessly uninspired by the rough and garishly colored\nstained glass windows. The altar cloth has seen better days, and the aisle\nrunner has been dinner for far too many moths. Why such a man as the Bishop of\nHereford would even notice this little church is beyond most people's ken. But\nif you know that this church was his first posting as a priest, the oddity\nseems a bit more comprehensible.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  375} {0} {} {St. James' Church} { } {This small church provides spiritual solace to the people of Papplewick. The\nBishop of Hereford often presides over mass here. The rusticity of the church\nis apparent in all that you see. The pulpit is a crude elevated box from\nwhich the priest speaks to the congregation which sit on crude benches serving\nas pews, and are doubtlessly uninspired by the rough and garishly colored\nstained glass windows. The altar cloth has seen better days, and the aisle\nrunner has been dinner for far too many moths. Why such a man as the Bishop of\nHereford would even notice this little church is beyond most people's ken. But\nif you know that this church was his first posting as a priest, the oddity\nseems a bit more comprehensible.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  373} {w} {w} {8} {0} {} {1.000} {}
 
-R {  376} {0} {} {On the King's Road} { } {The road is well traveled. You pass many people dressed in rich, noble-looking\nclothes as well as several peasants. The only group not in evidence are the\nforesters and outlaws that are said to be patrolling the area. You caution\nyourself to remember, that just because you don't see them...\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  376} {0} {} {On the King's Road} { } {The road is well traveled. You pass many people dressed in rich, noble-looking\nclothes as well as several peasants. The only group not in evidence are the\nforesters and outlaws that are said to be patrolling the area. You caution\nyourself to remember, that just because you don't see them...\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  373} {s} {s} {4} {0} {} {1.000} {}
 E {  377} {n} {n} {1} {0} {} {1.000} {}
 
-R {  377} {0} {} {On the King's Road} { } {Traffic is heavy here on the King's Road as peddlers, merchants, knights and\nother people go about their business, traveling between the larger towns. By\nthe number of people here, there must be a large town nearby.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  377} {0} {} {On the King's Road} { } {Traffic is heavy here on the King's Road as peddlers, merchants, knights and\nother people go about their business, traveling between the larger towns. By\nthe number of people here, there must be a large town nearby.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  376} {s} {s} {4} {0} {} {1.000} {}
 E {  378} {n} {n} {1} {0} {} {1.000} {}
 
-R {  378} {0} {} {A Turn in the King's Road} { } {Here the King's road turns east and south. A sign points the way east\nto the town of Lincoln along a small cobblestone road. To the south, it\nleads through Sherwood Forest to London.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  378} {0} {} {A Turn in the King's Road} { } {Here the King's road turns east and south. A sign points the way east\nto the town of Lincoln along a small cobblestone road. To the south, it\nleads through Sherwood Forest to London.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  377} {s} {s} {4} {0} {} {1.000} {}
 E {  379} {e} {e} {2} {0} {} {1.000} {}
 
-R {  379} {0} {} {Entrance to Lincolnshire} { } {As you stand in the entrance to the small town of Lincoln, you receive mixed\nreactions from the locals. The merchant class is very glad to see you and all\nsmile encouragingly at you, hoping you will visit their store. The peasants\nlook at you with disgust, hoping you will leave soon and not drink the water.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  379} {0} {} {Entrance to Lincolnshire} { } {As you stand in the entrance to the small town of Lincoln, you receive mixed\nreactions from the locals. The merchant class is very glad to see you and all\nsmile encouragingly at you, hoping you will visit their store. The peasants\nlook at you with disgust, hoping you will leave soon and not drink the water.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  378} {w} {w} {8} {0} {} {1.000} {}
 E {  380} {e} {e} {2} {0} {} {1.000} {}
 
-R {  380} {0} {} {Town Center} { } {The center of Lincoln is a sleepy little spot. People crowd around the well\nin the center of town to gossip and socialize. The locals are always\ncomplaining of the outsiders coming into town and drinking their well dry. The\nsmall shops and houses surrounding the town square look spartan but also well\nappointed. The locals don't suffer too much from the business brought by\noutsiders, except for their water supply.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  380} {0} {} {Town Center} { } {The center of Lincoln is a sleepy little spot. People crowd around the well\nin the center of town to gossip and socialize. The locals are always\ncomplaining of the outsiders coming into town and drinking their well dry. The\nsmall shops and houses surrounding the town square look spartan but also well\nappointed. The locals don't suffer too much from the business brought by\noutsiders, except for their water supply.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  379} {w} {w} {8} {0} {} {1.000} {}
 E {  381} {s} {s} {4} {0} {} {1.000} {}
 E {  383} {n} {n} {1} {0} {} {1.000} {}
 E {  385} {e} {e} {2} {0} {} {1.000} {}
 
-R {  381} {0} {} {Pratchett Street} { } {This little side street dead ends quickly on this side of town in front of the\nDraper's shop. The town of Lincoln is not a large one, but it seems to have a\nlot of visitors who have come to do business.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  381} {0} {} {Pratchett Street} { } {This little side street dead ends quickly on this side of town in front of the\nDraper's shop. The town of Lincoln is not a large one, but it seems to have a\nlot of visitors who have come to do business.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  380} {n} {n} {1} {0} {} {1.000} {}
 E {  382} {w} {w} {8} {0} {} {1.000} {}
 
-R {  382} {0} {} {The Draper's} { } {This small shop has become renowned throughout England for its superb dyes, the\nmost popular of which is Lincoln Green, second popular being a deep, rich\nscarlet. The shop is littered with fabric and garments. Pots of dye bubble\naway outside in the backyard. The shop is still modest in its appearance, but\nthe business it does is brisk.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  382} {0} {} {The Draper's} { } {This small shop has become renowned throughout England for its superb dyes, the\nmost popular of which is Lincoln Green, second popular being a deep, rich\nscarlet. The shop is littered with fabric and garments. Pots of dye bubble\naway outside in the backyard. The shop is still modest in its appearance, but\nthe business it does is brisk.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  381} {e} {e} {2} {0} {} {1.000} {}
 
-R {  383} {0} {} {Pratchett Street} { } {This is the north end of the street. Loud hammerings and banging can be heard\nin the smithy to the east. Locals glare at you as you look at their meager\nresidences that line the other side of the street. To the south, the town\nsquare is the general gathering place in town.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  383} {0} {} {Pratchett Street} { } {This is the north end of the street. Loud hammerings and banging can be heard\nin the smithy to the east. Locals glare at you as you look at their meager\nresidences that line the other side of the street. To the south, the town\nsquare is the general gathering place in town.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  380} {s} {s} {4} {0} {} {1.000} {}
 E {  384} {e} {open e;e} {2} {0} {} {1.000} {}
 E {  391} {n} {n} {1} {0} {} {1.000} {}
 
-R {  384} {0} {} {The Smithy} { } {The grunginess of the smithy attests to the fine work of the blacksmith. All\nsorts of things hang on the wall behind the anvil, you'd have to take a\ncloser look to identify them all. Several barrels sit to one side newly banded\nwith strong steel ribs. A wagon wheel rests against the door, in desperate\nneed of a new rim.\n} {Medieval Britan} {smith} {} {} {1.000} {}
+R {  384} {0} {} {The Smithy} { } {The grunginess of the smithy attests to the fine work of the blacksmith. All\nsorts of things hang on the wall behind the anvil, you'd have to take a\ncloser look to identify them all. Several barrels sit to one side newly banded\nwith strong steel ribs. A wagon wheel rests against the door, in desperate\nneed of a new rim.\n} {Medieval Britain} {smith} {} {} {1.000} {}
 E {  383} {w} {open w;w} {8} {0} {} {1.000} {}
 
-R {  385} {0} {} {Gaiman Lane} { } {The most prominent sign on this small street is that of the Butcher Shop on\nthe south side. The rest of the street looks like small cottages that\nwouldn't appreciate a visit from an outsider. The town square is to the west.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  385} {0} {} {Gaiman Lane} { } {The most prominent sign on this small street is that of the Butcher Shop on\nthe south side. The rest of the street looks like small cottages that\nwouldn't appreciate a visit from an outsider. The town square is to the west.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  380} {w} {w} {8} {0} {} {1.000} {}
 E {  386} {e} {e} {2} {0} {} {1.000} {}
 
-R {  386} {0} {} {The Grassy Hill} { } {A gently sloping hill provides a nice view of the water here. It would make\nthe perfect spot for a picnic. The green grass is lush and feels like a plush\nrug under your bare feet. A small dirt road passes over the hill connecting\nthe beaches to the north and south. A small town can be seen to the west.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  386} {0} {} {The Grassy Hill} { } {A gently sloping hill provides a nice view of the water here. It would make\nthe perfect spot for a picnic. The green grass is lush and feels like a plush\nrug under your bare feet. A small dirt road passes over the hill connecting\nthe beaches to the north and south. A small town can be seen to the west.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  385} {w} {w} {8} {0} {} {1.000} {}
 E {  389} {n} {n} {1} {0} {} {1.000} {}
 E { 3584} {s} {s} {4} {0} {} {1.000} {}
 
-R {  387} {0} {} {A Small Beach} { } {A dirt road to the west leads into the heart of England. The beach is covered\nwith a rough pebbly sand that gives easily under your feet. A dirt road lies\nto the south where it scrambles up a small grassy hill.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  387} {0} {} {A Small Beach} { } {A dirt road to the west leads into the heart of England. The beach is covered\nwith a rough pebbly sand that gives easily under your feet. A dirt road lies\nto the south where it scrambles up a small grassy hill.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  389} {s} {s} {4} {0} {} {1.000} {}
 E {  392} {n} {n} {1} {0} {} {1.000} {}
 E {  390} {w} {w} {8} {0} {} {1.000} {}
@@ -1893,11 +1893,11 @@ R {  389} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  386} {s} {s} {4} {0} {} {1.000} {}
 E {  387} {n} {n} {1} {0} {} {1.000} {}
 
-R {  390} {0} {} {A Dirt Road} { } {The smell of the sea is strong here. You can't be too far from the seashore.\nThe dirt road is marked by the occasional small cottage but even those are\nrare. The road continues east and west through this bleak countryside.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  390} {0} {} {A Dirt Road} { } {The smell of the sea is strong here. You can't be too far from the seashore.\nThe dirt road is marked by the occasional small cottage but even those are\nrare. The road continues east and west through this bleak countryside.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  387} {e} {e} {2} {0} {} {1.000} {}
 E {  391} {w} {w} {8} {0} {} {1.000} {}
 
-R {  391} {0} {} {A Small Dirt Road} { } {The stretch of land bordering the road here is neither very thick woods nor\nvery sparse openlands--it is really caught somewhere in between the two--the\ncontrasts blend smoothly from dreary open fields to the east down into a\nsmall town to the south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  391} {0} {} {A Small Dirt Road} { } {The stretch of land bordering the road here is neither very thick woods nor\nvery sparse openlands--it is really caught somewhere in between the two--the\ncontrasts blend smoothly from dreary open fields to the east down into a\nsmall town to the south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  390} {e} {e} {2} {0} {} {1.000} {}
 E {  383} {s} {s} {4} {0} {} {1.000} {}
 
@@ -2026,13 +2026,13 @@ R {  421} {5130} {} {} { } {} {} {} {} {} {1.000} {}
 E {  419} {w} {w} {8} {0} {} {1.000} {}
 E {  420} {e} {e} {2} {0} {} {1.000} {}
 
-R {  422} {0} {} {Crossing the English Channel} { } {The water is cold and choppy. The white cliffs rise above a small beach to\nthe west and the channel reaches to the French coastline in the east.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  422} {0} {} {Crossing the English Channel} { } {The water is cold and choppy. The white cliffs rise above a small beach to\nthe west and the channel reaches to the French coastline in the east.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  420} {n} {n} {1} {1} {} {1.000} {}
 E {  423} {w} {w} {8} {0} {} {1.000} {}
 E {  424} {s} {s} {4} {0} {} {1.000} {}
 E {  425} {e} {e} {2} {0} {} {1.000} {}
 
-R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They\nreally do look that white from close up too. The chalky limestone is slowly\neroding and continuously renewing the glaring white surface. The English\nChannel separates you from the French coastline to the east.\n} {Medieval Britan} {cliffs} {} {} {1.000} {}
+R {  423} {0} {} {At the Base of the White Cliffs of Dover} { } {The small beach here is protected from the winds by the white cliffs. They\nreally do look that white from close up too. The chalky limestone is slowly\neroding and continuously renewing the glaring white surface. The English\nChannel separates you from the French coastline to the east.\n} {Medieval Britain} {cliffs} {} {} {1.000} {}
 E {  422} {e} {e} {2} {0} {} {1.000} {}
 E { 1051} {u} {u} {16} {1} {} {1.000} {}
 
@@ -2041,16 +2041,16 @@ E {  422} {n} {n} {1} {0} {} {1.000} {}
 E {  428} {w} {w} {8} {0} {} {1.000} {}
 E { 6457} {s} {s} {4} {0} {} {1.000} {}
 
-R {  425} {0} {} {Crossing the English Channel} { } {The water is cold and choppy. The French coastline is to the east and the\nchannel reaches to the white cliffs in England to the west.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  425} {0} {} {Crossing the English Channel} { } {The water is cold and choppy. The French coastline is to the east and the\nchannel reaches to the white cliffs in England to the west.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  422} {w} {w} {8} {0} {} {1.000} {}
 E {  426} {e} {e} {2} {0} {} {1.000} {}
 
-R {  426} {0} {} {A French Beach} { } {Across the channel you can just barely make out a thin white strip which is\nthe white cliffs at Dover. The water looks grey and choppy. It's surely very\nchilly at this time of year. The beach here continues along the coast to the\nnorth and south.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  426} {0} {} {A French Beach} { } {Across the channel you can just barely make out a thin white strip which is\nthe white cliffs at Dover. The water looks grey and choppy. It's surely very\nchilly at this time of year. The beach here continues along the coast to the\nnorth and south.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  425} {w} {w} {8} {0} {} {1.000} {}
 E {  427} {n} {n} {1} {0} {} {1.000} {}
 E {  889} {s} {s} {4} {0} {} {1.000} {}
 
-R {  427} {0} {} {A French Beach} { } {Across the channel you can just barely make out a thin white strip which is\nthe white cliffs at Dover. The water looks grey and choppy. It's surely very\nchilly even at this time of year. The beach here continues along the coast to\nthe south.\n} {Medieval Britan} {fb} {} {} {1.000} {}
+R {  427} {0} {} {A French Beach} { } {Across the channel you can just barely make out a thin white strip which is\nthe white cliffs at Dover. The water looks grey and choppy. It's surely very\nchilly even at this time of year. The beach here continues along the coast to\nthe south.\n} {Medieval Britain} {fb} {} {} {1.000} {}
 E {  426} {s} {s} {4} {0} {} {1.000} {}
 
 R {  428} {0} {} {Off the English Coast} { } {The cold Atlantic water is a deeper color of grey than that of the channel to\nthe east. The surface of the water rolls more gently here compared to the\nchoppy waves of the channel. Looking to the west, nothing but the sky appears\nabove the horizon and the deep ocean below it.\n} {} {} {} {} {1.000} {}
@@ -4030,7 +4030,7 @@ R {  888} {0} {} {On Desolate Plains} { } {You are far from the luscious, moist 
 E {  887} {n} {n} {1} {0} {} {1.000} {}
 E { 1259} {w} {w} {8} {0} {} {1.000} {}
 
-R {  889} {0} {} {A French Beach} { } {Across the channel you can just barely make out a thin white strip which is\nthe white cliffs at Dover. The water looks grey and choppy. It's surely very\nchilly even at this time of year. The beach here continues along the coast to\nthe north.\n} {Medieval Britan} {} {} {} {1.000} {}
+R {  889} {0} {} {A French Beach} { } {Across the channel you can just barely make out a thin white strip which is\nthe white cliffs at Dover. The water looks grey and choppy. It's surely very\nchilly even at this time of year. The beach here continues along the coast to\nthe north.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  426} {n} {n} {1} {0} {} {1.000} {}
 E {  890} {s} {s} {4} {0} {} {1.000} {}
 
@@ -4662,11 +4662,11 @@ R { 1040} {0} {} {An Obscure Alley} { } {Turning off the main road, you wander i
 E { 1039} {w} {w} {8} {0} {} {1.000} {}
 E { 1043} {e} {open e;e} {2} {0} {} {1.000} {}
 
-R { 1041} {0} {} {Road to Canterbury} { } {An ancient but still serviceable Roman road wends its way east to the Channel\nhere. The well-traveled but not quite as impressively paved road to Canterbury\nleads south, and a clearly marked section of the King's Road leads north to\nLondon, according to the signpost by the side of the road. There is also an\nempty gibbet by the side of the road, but you doubt you want to ask it\ndirections.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 1041} {0} {} {Road to Canterbury} { } {An ancient but still serviceable Roman road wends its way east to the Channel\nhere. The well-traveled but not quite as impressively paved road to Canterbury\nleads south, and a clearly marked section of the King's Road leads north to\nLondon, according to the signpost by the side of the road. There is also an\nempty gibbet by the side of the road, but you doubt you want to ask it\ndirections.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 1039} {n} {n} {1} {0} {} {1.000} {}
 E { 1042} {e} {e} {2} {0} {} {1.000} {}
 
-R { 1042} {0} {} {On the Cliffs of Dover} { } {You stand not atop the cliffs, but on a narrow and rocky beach alongside the\ncliffs, where boats come in to make a landing. The water here is washing\ngently along the rocks, but it still looks as gray and cold as the English\nChannel has throughout history. A well-trod road leads north and an ancient\nRoman road goes west from here. A small treacherous path leads down to the\nsandy beach below.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 1042} {0} {} {On the Cliffs of Dover} { } {You stand not atop the cliffs, but on a narrow and rocky beach alongside the\ncliffs, where boats come in to make a landing. The water here is washing\ngently along the rocks, but it still looks as gray and cold as the English\nChannel has throughout history. A well-trod road leads north and an ancient\nRoman road goes west from here. A small treacherous path leads down to the\nsandy beach below.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 1041} {w} {w} {8} {0} {} {1.000} {}
 E { 1051} {d} {d} {32} {1} {} {1.000} {}
 
@@ -9139,47 +9139,47 @@ E { 2089} {s} {s} {4} {0} {} {1.000} {}
 R { 2091} {0} {} {In the Hall of the Master} { } {This room is paneled in dark wood and hung in silk brocade tapestry of\nincredible complexity and mind-blowing colors. Ice-cold water flows out of a\nglazed ceramic spout protruding from the paneling, tumbles down the wall with\na merry sort of violence into a pool below, and then around the room in open\naqueducts. The hall is lined with bookshelves of ancient manuscripts and\ncabinets stacked with strange artifacts of stone and ivory, and jars and\nbowls of powders and liquids of various colors and textures. A large throne\nsits at one end of the room, and at the other, a dais shrouded in black.\n} {The Crusades} {} {} {} {1.000} {}
 E { 2063} {s} {open s;s} {4} {0} {} {1.000} {}
 
-R { 2092} {0} {} {Entrance to Barnesdale} { } {The hills become rougher here. Some people say that these hills are riddled\nwith caves, but as far as you know no one has been able to find any. Well,\nfind any and return to tell about them, you quickly remind yourself. A small\npath leads west through the brush. To the south, someone has amassed a huge\npile of brush to block passage between the sharp sides of the ravine.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2092} {0} {} {Entrance to Barnesdale} { } {The hills become rougher here. Some people say that these hills are riddled\nwith caves, but as far as you know no one has been able to find any. Well,\nfind any and return to tell about them, you quickly remind yourself. A small\npath leads west through the brush. To the south, someone has amassed a huge\npile of brush to block passage between the sharp sides of the ravine.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  301} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 2093} {w} {w} {8} {0} {} {1.000} {}
 
-R { 2093} {0} {} {A Small Path} { } {This path gently winds its way up the hillside to about the midway point. The\nforest is lush and thick here. A steep ravine can be seen at the bottom of\nthe hill to the east. To the west, the path continues to climb up the hill.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2093} {0} {} {A Small Path} { } {This path gently winds its way up the hillside to about the midway point. The\nforest is lush and thick here. A steep ravine can be seen at the bottom of\nthe hill to the east. To the west, the path continues to climb up the hill.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2092} {e} {e} {2} {0} {} {1.000} {}
 E { 2094} {w} {w} {8} {0} {} {1.000} {}
 
-R { 2094} {0} {} {Climbing the Slope} { } {The hill is a bit steeper here as you near the ridge of it. A small path\nleads gently down to a steep ravine to the east. The path makes a sharp turn\nand heads directly north up to the crest of the hill.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2094} {0} {} {Climbing the Slope} { } {The hill is a bit steeper here as you near the ridge of it. A small path\nleads gently down to a steep ravine to the east. The path makes a sharp turn\nand heads directly north up to the crest of the hill.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2093} {e} {e} {2} {0} {} {1.000} {}
 E { 2095} {n} {n} {1} {0} {} {1.000} {}
 
-R { 2095} {0} {} {A Broad Path} { } {The path here is wide. The way east looks a bit dangerous, but the path\nleading west looks very pleasant indeed. Another path leads south, down the\nhillside.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2095} {0} {} {A Broad Path} { } {The path here is wide. The way east looks a bit dangerous, but the path\nleading west looks very pleasant indeed. Another path leads south, down the\nhillside.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2094} {s} {s} {4} {0} {} {1.000} {}
 E { 2096} {w} {w} {8} {0} {} {1.000} {}
 E { 2097} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2096} {0} {} {A Gently Sloping Path} { } {This path is very easy traveling, it meanders down the hillside to the south.\nA rougher-looking path continues to the east here. The grassy carpeting\nshelters many wildflowers which wink up happily at you from the forest floor.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2096} {0} {} {A Gently Sloping Path} { } {This path is very easy traveling, it meanders down the hillside to the south.\nA rougher-looking path continues to the east here. The grassy carpeting\nshelters many wildflowers which wink up happily at you from the forest floor.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2095} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2097} {0} {} {A Treacherous Path} { } {This path isn't quite as dangerous as it looked from a distance. From up\nclose you can see many advantageous stepping stones to make your way across\nthe rocky slope. A broad path leads west and a clearly man-made set of hand\nand foot holds leads up the rock face here. A large gnarled oak tree presides\nover the hillside, it must be the one the locals refer to as the 'Major Oak.'\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2097} {0} {} {A Treacherous Path} { } {This path isn't quite as dangerous as it looked from a distance. From up\nclose you can see many advantageous stepping stones to make your way across\nthe rocky slope. A broad path leads west and a clearly man-made set of hand\nand foot holds leads up the rock face here. A large gnarled oak tree presides\nover the hillside, it must be the one the locals refer to as the 'Major Oak.'\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2095} {w} {w} {8} {0} {} {1.000} {}
 E { 2098} {u} {u} {16} {0} {} {1.000} {}
 
-R { 2098} {0} {} {The Cave Entrance} { } {A small cook fire has been set out here near the edge of the cave to provide\nbetter ventilation. The entrance to the cave looks a little low, but the\nceiling vaults to a great height once you penetrate the cave a bit more\ndeeply. The cave deepens to the north and you can hear the sound of laughter\nand singing coming from that direction. To the east is a small depression in\nthe side of the cave. It looks deep enough for a few people to stand in. Down\nis a treacherous jumble of rocks, climbing down that is going to be a trick.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2098} {0} {} {The Cave Entrance} { } {A small cook fire has been set out here near the edge of the cave to provide\nbetter ventilation. The entrance to the cave looks a little low, but the\nceiling vaults to a great height once you penetrate the cave a bit more\ndeeply. The cave deepens to the north and you can hear the sound of laughter\nand singing coming from that direction. To the east is a small depression in\nthe side of the cave. It looks deep enough for a few people to stand in. Down\nis a treacherous jumble of rocks, climbing down that is going to be a trick.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2097} {d} {d} {32} {0} {} {1.000} {}
 E { 2099} {e} {e} {2} {0} {} {1.000} {}
 E { 2100} {n} {n} {1} {0} {} {1.000} {}
 E { 2101} {w} {w} {8} {0} {} {1.000} {}
 
-R { 2099} {0} {} {The Armoury} { } {Here is where all the weapons of the band of outlaws are kept for safe\nkeeping. There is no guard posted, but the code of honor among outlaws is not\none to be broken lightly. You think twice about taking any of the weapons.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2099} {0} {} {The Armoury} { } {Here is where all the weapons of the band of outlaws are kept for safe\nkeeping. There is no guard posted, but the code of honor among outlaws is not\none to be broken lightly. You think twice about taking any of the weapons.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2098} {w} {w} {8} {0} {} {1.000} {}
 
-R { 2100} {0} {} {A Well-Lit Room} { } {Here a large table has been set up in the middle of the room. The cavern opens\nup quite large here allowing room for a great many people to gather. Men in\ngreen tights lounge around the room, eating, drinking and being merry.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2100} {0} {} {A Well-Lit Room} { } {Here a large table has been set up in the middle of the room. The cavern opens\nup quite large here allowing room for a great many people to gather. Men in\ngreen tights lounge around the room, eating, drinking and being merry.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2098} {s} {s} {4} {0} {} {1.000} {}
 
-R { 2101} {0} {} {A Small Tunnel} { } {This tunnel is small and cramped. The dampness of has allowed a good bit of\nmold and fungus to grow back here. You sneeze repeatedly at the first whiff\nof it.\nAfter your fit of sneezing, you notice that the tunnel ends abruptly in a\nsmall pocket to the north.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2101} {0} {} {A Small Tunnel} { } {This tunnel is small and cramped. The dampness of has allowed a good bit of\nmold and fungus to grow back here. You sneeze repeatedly at the first whiff\nof it.\nAfter your fit of sneezing, you notice that the tunnel ends abruptly in a\nsmall pocket to the north.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2098} {e} {e} {2} {0} {} {1.000} {}
 E { 2102} {n} {n} {1} {0} {} {1.000} {}
 
-R { 2102} {0} {} {The Treasury} { } {This small pocket is where the outlaw band hides their stash of treasure. You\nseem to be stuck half-way in and halfway out of the room. Your light strikes\nagainst the gold in the room and nearly blinds you with its brilliance. The\nroom is filled with gold coins, trinkets, jewelry and other valuables excised\nfrom the rich and set back to be distributed to the poor. With a good bit of\nwiggling and twisting and turning you can probably get back out.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 2102} {0} {} {The Treasury} { } {This small pocket is where the outlaw band hides their stash of treasure. You\nseem to be stuck half-way in and halfway out of the room. Your light strikes\nagainst the gold in the room and nearly blinds you with its brilliance. The\nroom is filled with gold coins, trinkets, jewelry and other valuables excised\nfrom the rich and set back to be distributed to the poor. With a good bit of\nwiggling and twisting and turning you can probably get back out.\n} {Medieval Britain} {} {} {} {1.000} {}
 E { 2101} {s} {s} {4} {0} {} {1.000} {}
 
 R { 2103} {0} {} {The Privy Stairs} { } {The stairs at the bottom are slick with river mud from high tides, and you\ncling tightly to the guard rail provided for the safety of the Monarch. Even\nso, you nearly fall twice, and the hem of your cloak is encrusted with mud by\nthe time that you have successfully traversed the stairs.\n} {Tudor England} {} {} {} {1.000} {}
@@ -15422,7 +15422,7 @@ E { 6861} {e} {e} {2} {0} {} {1.000} {}
 E { 6862} {w} {w} {8} {0} {} {1.000} {}
 E { 6863} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3584} {0} {} {Near a Small Village} { } {This small road travels west into the heart of Britain. It doesn't look that\nwell traveled as the local folk are mostly self sufficient and don't like\noutsiders too much. A small beach lies to the east. A small hill rises out of\nthe ground to the north.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 3584} {0} {} {Near a Small Village} { } {This small road travels west into the heart of Britain. It doesn't look that\nwell traveled as the local folk are mostly self sufficient and don't like\noutsiders too much. A small beach lies to the east. A small hill rises out of\nthe ground to the north.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {  386} {n} {n} {1} {0} {} {1.000} {}
 E { 3582} {e} {e} {2} {1} {} {1.000} {}
 
@@ -25562,7 +25562,7 @@ E { 6002} {w} {w} {8} {0} {} {1.000} {}
 R { 6002} {0} {} {The Deep Desert} { } {Step after miserable step, you finally reach the top of the searing dunes.\nYour intuition suggested that this desert was timeless and endless and now\nyou can confirm it.\n} {Arabian Dreams} {} {} {} {1.000} {}
 E { 6001} {e} {e} {2} {0} {} {1.000} {}
 
-R { 6003} {0} {} {Tunneling Inside the Burial Mound} { } {You dig in the earth for a while and your shovel strikes yet another rivet.\nYou notice that the dirt around it is darker so you widen the area around it\na bit. It looks as if it could have once been a beam of a ship. You shrug\nphilosophically\; you are looking for treasure not rotten boats. You think if\nyou open the tunnel a bit wider, you might be able to find where the treasure\nis buried.\n} {Medieval Britan} {} {} {} {1.000} {}
+R { 6003} {0} {} {Tunneling Inside the Burial Mound} { } {You dig in the earth for a while and your shovel strikes yet another rivet.\nYou notice that the dirt around it is darker so you widen the area around it\na bit. It looks as if it could have once been a beam of a ship. You shrug\nphilosophically\; you are looking for treasure not rotten boats. You think if\nyou open the tunnel a bit wider, you might be able to find where the treasure\nis buried.\n} {Medieval Britain} {} {} {} {1.000} {}
 E {   13} {open hole} {open hole;st} {0} {0} {} {1.000} {}
 E {  282} {w} {w} {8} {0} {} {1.000} {}
 
@@ -34160,7 +34160,7 @@ E { 8086} {s} {s} {4} {0} {} {1.000} {}
 R { 8083} {0} {} {A Cymrian Merchant Stall} { } {A vast hall lies under a thatched roof at the entrance of town. Long wooden\ntables are used by itinerant merchants from the mountains of Cymru who come\nto town to trades their wares: pelts, cheeses and produce from their farms.\n} {Camelot} {} {} {} {1.000} {}
 E { 8082} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8084} {0} {} {The Barbican} { } {The narrow passageway has been designed for defense of the castle. Invaders are forced to stream through this small funnel where they can be repelled. Small slits on the walls allow for defence with arrows. Holes above threaten to pour boiling oil down on those arrogant enough to dare attack such a stronghold.} {Player Housing} {} {} {} {1.000} {}
+R { 8084} {0} {} {The Barbican} { } {The narrow passageway has been designed for defense of the castle. Invaders\nare forced to stream through this small funnel where they can be repelled.\nSmall slits on the walls allow for defence with arrows. Holes above threaten\nto pour boiling oil down on those arrogant enough to dare attack such\na stronghold.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8144} {n} {open n;n} {1} {0} {} {1.000} {}
 E { 8155} {s} {s} {4} {0} {} {1.000} {}
 E { 2472} {e} {e} {2} {0} {} {1.000} {}
@@ -34398,7 +34398,7 @@ E { 8143} {e} {e} {2} {0} {} {1.000} {}
 R { 8143} {0} {} {An Audience with King Avallach} { } {A large dais made completely out of glass supports the chair where the king of\nAvallon runs his court. Folks of Logres and Cymru have called the place Ynys\nGutrin, that is the Island of Glass, and from these words the later coined\nthe place-name "Glastingebury".\n} {Camelot} {} {} {} {1.000} {}
 E { 8142} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8144} {0} {<129>} {Svartur's Castle in Logres} { } {The gateway through the castle walls arches over you, the gray stonework ponderous and thick. The walls provide safety for those who live within. A banner hangs above the strong metal gate, announcing to all who dwells within.} {Player Housing} {svartur} {} {} {1.000} {}
+R { 8144} {0} {<129>} {Svartur's Castle in Logres} { } {The gateway through the castle walls arches over you, the gray stonework\nponderous and thick. The walls provide safety for those who live within.\nA banner hangs above the strong metal gate, announcing to all who dwells\nwithin.\n} {Player Housing} {svartur} {} {} {1.000} {}
 E { 7876} {n} {open n;n} {1} {1} {} {1.000} {}
 E { 8084} {s} {open s;s} {4} {0} {} {1.000} {}
 E { 8187} {w} {w} {8} {0} {} {1.000} {}
@@ -35620,10 +35620,10 @@ E { 8390} {n} {n} {1} {0} {} {1.000} {}
 R { 8435} {0} {} {A Small Square Plaza} { } {A small stone plaza distributes here to a series of small shops, each of them\ndirectly connected to the street.\n} {Freiburg, City of Trade} {} {} {} {1.000} {}
 E { 8380} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8436} {0} {} {A Grassy Meadow} { } {Grasses wave gently in the breeze travelling down the hill towards a burbling river. In springtime, the meadow is transformed with an eruption of wildflowers setting the meadow ablaze with color. The other months of the year it is a peaceful place for quiet contemplation, or ideal place for animals to graze undisturbed.} {Player Housing} {} {} {} {1.000} {}
+R { 8436} {0} {} {A Grassy Meadow} { } {Grasses wave gently in the breeze travelling down the hill towards a\nburbling river. In springtime, the meadow is transformed with an eruption\nof wildflowers setting the meadow ablaze with color. The other months of\nthe year it is a peaceful place for quiet contemplation, or ideal place\nfor animals to graze undisturbed.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8450} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8437} {0} {} {Perth's Manor House} { } {Fine stonework forms the walls around the manor house, creating a solid structure that is sure to withstand the tests of time for centuries. The house itself is made of the same stone work, with chimneys rising above. Crenellations surround the roof-top walkways, attesting to the importance the owner places on protection for those who dwell within.} {Player Housing} {perth} {} {} {1.000} {}
+R { 8437} {0} {} {Perth's Manor House} { } {Fine stonework forms the walls around the manor house, creating a solid\nstructure that is sure to withstand the tests of time for centuries. The\nhouse itself is made of the same stone work, with chimneys rising above.\nCrenellations surround the roof-top walkways, attesting to the importance\nthe owner places on protection for those who dwell within.\n} {Player Housing} {perth} {} {} {1.000} {}
 E { 8382} {w} {w} {8} {1} {} {1.000} {}
 E { 8445} {n} {n} {1} {0} {} {1.000} {}
 E { 8447} {e} {e} {2} {0} {} {1.000} {}
@@ -35657,24 +35657,24 @@ R { 8444} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 8443} {e} {e} {2} {0} {} {1.000} {}
 E { 8441} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8445} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the scent of blossoms mix creating a pleasant perfume. During warmer months, the tree offer cool shade from the heat of the sun and during the fall fallen fruits scent the air. In winter, the orchard becomes a barren skeleton compared to the life that fills it the rest of the year.} {Player Housing} {} {} {} {1.000} {}
+R { 8445} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the\nscent of blossoms mix creating a pleasant perfume. During warmer months,\nthe tree offer cool shade from the heat of the sun and during the fall\nfallen fruits scent the air. In winter, the orchard becomes a barren\nskeleton compared to the life that fills it the rest of the year.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8437} {s} {s} {4} {0} {} {1.000} {}
 
 R { 8446} {0} {} {A Sidhe Treasure Room} { } {Empty, nothing but empty, or is it... This large room with its pale bare\nwalls surrounds but a single tiny chest in the center of the room.\n} {Land of Shadows} {} {} {} {1.000} {}
 E { 1192} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8447} {0} {} {A Hallway} { } {Simple, lime-plastered walls have been white-washed in an attempt to bring light to the windowless hallway without much success. Doors open off the hallway, leading into various rooms of the manor.} {Player Housing} {} {} {} {1.000} {}
+R { 8447} {0} {} {A Hallway} { } {Simple, lime-plastered walls have been white-washed in an attempt to bring\nlight to the windowless hallway without much success. Doors open off the\nhallway, leading into various rooms of the manor.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8437} {w} {w} {8} {0} {} {1.000} {}
 E { 8448} {n} {n} {1} {0} {} {1.000} {}
 
-R { 8448} {0} {} {A Hallway} { } {Simple, lime-plastered walls have been white-washed in an attempt to bring light to the windowless hallway without much success. Doors open off the hallway, leading into various rooms of the manor.} {Player Housing} {} {} {} {1.000} {}
+R { 8448} {0} {} {A Hallway} { } {Simple, lime-plastered walls have been white-washed in an attempt to bring\nlight to the windowless hallway without much success. Doors open off the\nhallway, leading into various rooms of the manor.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8447} {s} {s} {4} {0} {} {1.000} {}
 E { 8449} {e} {e} {2} {0} {} {1.000} {}
 
-R { 8449} {0} {} {Perth's Smithy} { } {The forge stands at the back of the room throwing heat everywhere. Just standing in this room produces sweat. Bellow and tongs along with a variety of hammers have been neatly laid out, ready to hand while the smith is working. A large anvil stands in the center of the room, with a nearby barrel of water for shaping and cooling the red-hot metal.} {Player Housing} {} {} {} {1.000} {}
+R { 8449} {0} {} {Perth's Smithy} { } {The forge stands at the back of the room throwing heat everywhere. Just\nstanding in this room produces sweat. Bellow and tongs along with a variety\nof hammers have been neatly laid out, ready to hand while the smith is\nworking. A large anvil stands in the center of the room, with a nearby\nbarrel of water for shaping and cooling the red-hot metal.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8448} {w} {w} {8} {0} {} {1.000} {}
 
-R { 8450} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the scent of blossoms mix creating a pleasant perfume. During warmer months, the tree offer cool shade from the heat of the sun and during the fall fallen fruits scent the air. In winter, the orchard becomes a barren skeleton compared to the life that fills it the rest of the year.} {Player Housing} {} {} {} {1.000} {}
+R { 8450} {0} {} {The Orchard} { } {Trees of various kinds have been neatly planted in rows. In spring the\nscent of blossoms mix creating a pleasant perfume. During warmer months,\nthe tree offer cool shade from the heat of the sun and during the fall\nfallen fruits scent the air. In winter, the orchard becomes a barren\nskeleton compared to the life that fills it the rest of the year.\n} {Player Housing} {} {} {} {1.000} {}
 E { 8437} {n} {n} {1} {0} {} {1.000} {}
 E { 8436} {s} {s} {4} {0} {} {1.000} {}
 
