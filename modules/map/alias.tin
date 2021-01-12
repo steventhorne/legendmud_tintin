@@ -117,14 +117,26 @@
 
 #ALIAS {walk %1}
 {
-	#MAP find {} {roomnote} {%1};
+    #REGEX {%1} {^%d$}
+    {
+        #MAP find %1;
+    }
+    {
+        #MAP find {} {roomnote} {%1};
+    };
 	#PATH run 0.05;
 }
 {5}
 
 #ALIAS {slowwalk %1}
 {
-    #MAP find {} {roomnote} {%1};
+    #REGEX {%1} {^%d$}
+    {
+        #MAP find %1;
+    }
+    {
+        #MAP find {} {roomnote} {%1};
+    };
     #TICK {slowwalk} {#PATH walk f} {0.25};
 }
 {5}
